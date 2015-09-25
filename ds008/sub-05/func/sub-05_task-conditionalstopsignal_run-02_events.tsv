@@ -1,0 +1,129 @@
+onset	duration	trial_type	TrialType	Stimulus	SSD	Response	RT	CorrectGo	SuccStop
+0.0	1.5	go-critical	0	1	0.0	49	0.402	1	0
+2.625	1.5	go-critical	0	1	0.0	49	0.46	1	0
+6.125	1.5	failed stop-noncritical	1	0	0.25	50	0.296	1	0
+8.75	1.5	successful stop-critical	1	1	0.15	0	0.0	0	1
+11.25	1.5	go-critical	0	1	0.0	49	0.57	1	0
+16.25	1.5	failed stop-noncritical	1	0	0.15	50	0.538	1	0
+18.5	1.5	go-noncritical	0	0	0.0	50	0.432	1	0
+20.75	1.5	go-noncritical	0	0	0.0	50	0.374	1	0
+23.125	1.5	go-noncritical	0	0	0.0	50	0.383	1	0
+25.25	1.5	go-noncritical	0	0	0.0	50	0.33	1	0
+28.0	1.5	go-noncritical	0	0	0.0	50	0.348	1	0
+30.125	1.5	go-critical	0	1	0.0	49	0.687	1	0
+33.0	1.5	go-noncritical	0	0	0.0	50	0.532	1	0
+35.375	1.5	go-critical	0	1	0.0	49	0.573	1	0
+39.25	1.5	go-noncritical	0	0	0.0	50	0.298	1	0
+42.5	1.5	go-critical	0	1	0.0	49	0.488	1	0
+44.5	1.5	go-noncritical	0	0	0.0	50	0.36	1	0
+49.125	1.5	go-noncritical	0	0	0.0	50	0.359	1	0
+51.125	1.5	go-critical	0	1	0.0	49	0.567	1	0
+53.25	1.5	go-critical	0	1	0.0	49	0.45	1	0
+55.375	1.5	failed stop-critical	1	1	0.3	49	0.397	1	0
+58.125	1.5	go-critical	0	1	0.0	49	0.535	1	0
+60.125	1.5	go-critical	0	1	0.0	49	0.439	1	0
+62.625	1.5	failed stop-noncritical	1	0	0.3	50	0.443	1	0
+64.625	1.5	go-noncritical	0	0	0.0	50	0.307	1	0
+67.125	1.5	go-noncritical	0	0	0.0	50	0.359	1	0
+69.125	1.5	go-noncritical	0	0	0.0	50	0.343	1	0
+71.625	1.5	go-critical	0	1	0.0	49	0.571	1	0
+75.125	1.5	successful stop-critical	1	1	0.3	0	0.0	0	1
+77.125	1.5	failed stop-noncritical	1	0	0.3	50	0.607	1	0
+79.375	1.5	failed stop-critical	1	1	0.25	49	0.637	1	0
+82.125	1.5	go-critical	0	1	0.0	49	0.495	1	0
+85.375	1.5	go-critical	0	1	0.0	49	0.695	1	0
+88.75	1.5	go-critical	0	1	0.0	49	0.478	1	0
+91.625	1.5	successful stop-critical	1	1	0.2	0	0.0	0	1
+93.875	1.5	go-noncritical	0	0	0.0	50	0.393	1	0
+96.0	1.5	go-noncritical	0	0	0.0	50	0.332	1	0
+98.0	1.5	failed stop-noncritical	1	0	0.2	50	0.292	1	0
+101.625	1.5	go-noncritical	0	0	0.0	50	0.443	1	0
+103.625	1.5	go-critical	0	1	0.0	49	0.771	1	0
+106.125	1.5	go-noncritical	0	0	0.0	50	0.335	1	0
+108.25	1.5	go-noncritical	0	0	0.0	50	0.314	1	0
+111.875	1.5	failed stop-critical	1	1	0.35	49	0.537	1	0
+113.875	1.5	go-critical	0	1	0.0	49	0.569	1	0
+116.5	1.5	go-noncritical	0	0	0.0	50	0.304	1	0
+119.25	1.5	go-critical	0	1	0.0	49	0.554	1	0
+121.75	1.5	go-critical	0	1	0.0	49	0.566	1	0
+123.75	1.5	go-noncritical	0	0	0.0	50	0.39	1	0
+126.0	1.5	go-critical	0	1	0.0	49	0.524	1	0
+128.375	1.5	go-noncritical	0	0	0.0	50	0.277	1	0
+130.5	1.5	go-noncritical	0	0	0.0	50	0.296	1	0
+132.625	1.5	go-critical	0	1	0.0	49	0.563	1	0
+135.875	1.5	go-critical	0	1	0.0	49	0.457	1	0
+139.375	1.5	go-critical	0	1	0.0	49	0.421	1	0
+143.25	1.5	junk	1	0	0.2	0	0.0	0	1
+145.875	1.5	failed stop-critical	1	1	0.2	49	0.609	1	0
+148.125	1.5	successful stop-critical	1	1	0.25	0	0.0	0	1
+151.0	1.5	go-critical	0	1	0.0	49	0.516	1	0
+153.625	1.5	go-noncritical	0	0	0.0	50	0.355	1	0
+159.125	1.5	failed stop-noncritical	1	0	0.35	50	0.327	1	0
+161.5	1.5	go-noncritical	0	0	0.0	50	0.312	1	0
+164.75	1.5	go-noncritical	0	0	0.0	50	0.382	1	0
+167.5	1.5	failed stop-noncritical	1	0	0.25	50	0.361	1	0
+171.375	1.5	go-critical	0	1	0.0	49	0.365	1	0
+173.375	1.5	go-noncritical	0	0	0.0	50	0.42	1	0
+175.375	1.5	failed stop-noncritical	1	0	0.3	50	0.381	1	0
+177.625	1.5	junk	0	1	0.0	50	0.356	0	0
+180.25	1.5	go-noncritical	0	0	0.0	50	0.322	1	0
+182.25	1.5	go-critical	0	1	0.0	49	0.554	1	0
+184.625	1.5	go-critical	0	1	0.0	49	0.483	1	0
+186.75	1.5	failed stop-noncritical	1	0	0.25	50	0.558	1	0
+189.75	1.5	go-critical	0	1	0.0	49	0.558	1	0
+193.375	1.5	go-critical	0	1	0.0	49	0.765	1	0
+198.625	1.5	go-noncritical	0	0	0.0	50	0.371	1	0
+201.625	1.5	go-noncritical	0	0	0.0	50	0.339	1	0
+203.875	1.5	failed stop-noncritical	1	0	0.3	50	0.322	1	0
+207.75	1.5	failed stop-critical	1	1	0.3	49	0.39	1	0
+210.5	1.5	successful stop-critical	1	1	0.15	0	0.0	0	1
+213.0	1.5	go-critical	0	1	0.0	49	0.652	1	0
+216.125	1.5	go-noncritical	0	0	0.0	50	0.511	1	0
+218.375	1.5	go-critical	0	1	0.0	49	0.445	1	0
+220.5	1.5	go-noncritical	0	0	0.0	50	0.344	1	0
+222.625	1.5	go-noncritical	0	0	0.0	50	0.403	1	0
+224.875	1.5	go-noncritical	0	0	0.0	50	0.305	1	0
+227.0	1.5	go-critical	0	1	0.0	49	0.549	1	0
+230.125	1.5	go-noncritical	0	0	0.0	50	0.343	1	0
+233.125	1.5	go-critical	0	1	0.0	49	0.368	1	0
+235.25	1.5	go-critical	0	1	0.0	49	0.474	1	0
+237.625	1.5	go-noncritical	0	0	0.0	50	0.347	1	0
+240.25	1.5	failed stop-critical	1	1	0.3	49	0.426	1	0
+243.5	1.5	failed stop-noncritical	1	0	0.15	50	0.289	1	0
+247.875	1.5	go-noncritical	0	0	0.0	50	0.401	1	0
+250.625	1.5	go-noncritical	0	0	0.0	50	0.387	1	0
+253.25	1.5	go-critical	0	1	0.0	49	0.546	1	0
+255.375	1.5	go-critical	0	1	0.0	49	0.534	1	0
+257.375	1.5	successful stop-critical	1	1	0.25	0	0.0	0	1
+259.5	1.5	go-critical	0	1	0.0	49	0.508	1	0
+263.75	1.5	failed stop-noncritical	1	0	0.3	50	0.431	1	0
+266.25	1.5	go-noncritical	0	0	0.0	50	0.442	1	0
+268.25	1.5	go-noncritical	0	0	0.0	50	0.379	1	0
+270.875	1.5	go-critical	0	1	0.0	49	0.77	1	0
+273.125	1.5	failed stop-critical	1	1	0.3	49	0.432	1	0
+275.75	1.5	failed stop-critical	1	1	0.25	49	0.439	1	0
+279.125	1.5	go-critical	0	1	0.0	49	0.52	1	0
+281.125	1.5	go-critical	0	1	0.0	49	0.44	1	0
+283.375	1.5	failed stop-noncritical	1	0	0.2	50	0.662	1	0
+285.875	1.5	go-critical	0	1	0.0	49	0.514	1	0
+288.0	1.5	successful stop-critical	1	1	0.25	0	0.0	0	1
+292.125	1.5	go-noncritical	0	0	0.0	50	0.399	1	0
+295.0	1.5	go-noncritical	0	0	0.0	50	0.428	1	0
+297.625	1.5	go-noncritical	0	0	0.0	50	0.323	1	0
+299.75	1.5	go-critical	0	1	0.0	49	0.599	1	0
+304.375	1.5	go-noncritical	0	0	0.0	50	0.373	1	0
+306.5	1.5	failed stop-noncritical	1	0	0.25	50	0.409	1	0
+311.0	1.5	go-critical	0	1	0.0	49	0.492	1	0
+313.875	1.5	go-noncritical	0	0	0.0	50	0.433	1	0
+316.0	1.5	go-critical	0	1	0.0	49	0.533	1	0
+318.0	1.5	successful stop-critical	1	1	0.2	0	0.0	0	1
+320.75	1.5	go-noncritical	0	0	0.0	50	0.39	1	0
+323.5	1.5	go-noncritical	0	0	0.0	50	0.344	1	0
+327.125	1.5	go-critical	0	1	0.0	49	0.543	1	0
+329.25	1.5	go-noncritical	0	0	0.0	50	0.378	1	0
+331.5	1.5	go-noncritical	0	0	0.0	50	0.44	1	0
+334.0	1.5	go-critical	0	1	0.0	49	0.548	1	0
+336.0	1.5	go-critical	0	1	0.0	49	0.868	1	0
+339.25	1.5	go-critical	0	1	0.0	49	0.466	1	0
+343.625	1.5	failed stop-noncritical	1	0	0.25	50	0.364	1	0
+346.375	1.5	go-noncritical	0	0	0.0	50	0.349	1	0

@@ -1,0 +1,113 @@
+onset	duration	trial_type
+4.0002	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+10.0002	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+12.0018	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+16.0018	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+18.001	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+22.001	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+26.0015	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+32.0015	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+34.0015	1.0	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object
+38.0015	0.5	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue
+40.001	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+46.001	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+48.0014	1.0	Invalid Miss Cue: invalid cue where following object was a subsequent miss
+52.0014	0.5	Invalid Miss Obj: object that was a subsequent miss and that followed an invalid cue
+56.0009	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+58.0009	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+60.0012	1.0	Valid LC-Hit Cue: valid cue where following object was a subsequent low confidence hit
+62.0012	0.5	Valid LC-Hit Obj: object that was a subsequent low confidence hit and that followed a valid cue
+64.0011	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+68.0011	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+70.0014	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+72.0014	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+76.0015	1.0	Invalid HC-Hit Cue: invalid cue where following object was a subsequent high confidence hit
+78.0015	0.5	Invalid HC-Hit Obj: object that was a subsequent high confidence hit and that followed an invalid cue
+82.0013	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+88.0013	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+92.001	1.0	Invalid Other Greeble Cue: invalid cue where following stimulus was an untested or no response greeble
+94.001	0.5	Invalid Other Greeble: stimulus that was an untested or no response greeble and that followed a invalid cue
+96.0014	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+100.0014	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+104.0011	1.0	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object
+110.0011	0.5	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue
+112.0011	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+118.0011	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+120.0013	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+122.0013	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+126.001	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+132.001	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+134.0013	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+138.0013	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+140.0018	1.0	Invalid Miss Cue: invalid cue where following object was a subsequent miss
+142.0018	0.5	Invalid Miss Obj: object that was a subsequent miss and that followed an invalid cue
+144.001	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+150.001	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+152.0012	1.0	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object
+158.0012	0.5	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue
+160.0017	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+162.0017	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+164.0015	1.0	Invalid LC-Hit Cue: invalid cue where following object was a subsequent low confidence hit
+170.0015	0.5	Invalid LC-Hit Obj: object that was a subsequent low confidence hit and that followed an invalid cue
+174.0013	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+178.0013	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+180.0017	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+182.0017	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+184.0016	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+186.0016	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+188.0016	1.0	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object
+194.0016	0.5	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue
+196.0021	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+200.0021	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+202.0012	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+204.0012	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+206.0019	1.0	Invalid HC-Hit Cue: invalid cue where following object was a subsequent high confidence hit
+210.0019	0.5	Invalid HC-Hit Obj: object that was a subsequent high confidence hit and that followed an invalid cue
+212.0017	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+214.0017	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+216.002	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+220.002	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+222.0013	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+228.0013	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+230.001	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+234.001	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+236.0015	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+238.0015	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+240.0013	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+242.0013	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+244.0018	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+250.0018	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+252.0009	1.0	Invalid HC-Hit Cue: invalid cue where following object was a subsequent high confidence hit
+254.0009	0.5	Invalid HC-Hit Obj: object that was a subsequent high confidence hit and that followed an invalid cue
+260.0018	1.0	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object
+262.0018	0.5	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue
+264.0008	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+266.0008	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+268.0017	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+270.0017	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+272.0013	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+278.0013	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+282.0018	1.0	Invalid LC-Hit Cue: invalid cue where following object was a subsequent low confidence hit
+288.0018	0.5	Invalid LC-Hit Obj: object that was a subsequent low confidence hit and that followed an invalid cue
+290.0015	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+296.0015	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+300.0009	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+304.0009	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+306.0014	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+308.0014	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+310.002	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+316.002	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue
+318.0011	1.0	Invalid HC-Hit Cue: invalid cue where following object was a subsequent high confidence hit
+322.0011	0.5	Invalid HC-Hit Obj: object that was a subsequent high confidence hit and that followed an invalid cue
+324.0009	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+328.0009	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+330.001	1.0	Valid LC-Hit Cue: valid cue where following object was a subsequent low confidence hit
+336.001	0.5	Valid LC-Hit Obj: object that was a subsequent low confidence hit and that followed a valid cue
+338.0019	1.0	Valid Miss Cue: valid cue where following object was a subsequent miss
+342.0019	0.5	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue
+344.001	1.0	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble
+348.001	0.5	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue
+350.0015	1.0	Invalid Other Greeble Cue: invalid cue where following stimulus was an untested or no response greeble
+354.0015	0.5	Invalid Other Greeble: stimulus that was an untested or no response greeble and that followed a invalid cue
+356.001	1.0	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit
+360.001	0.5	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue

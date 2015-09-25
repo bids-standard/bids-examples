@@ -1,0 +1,59 @@
+rev007 2015-06-17 task002 stimulus auditory features
+  - Add extracted auditory features for task002 stimuli (incl. source code).
+    Thanks to Michael Casey for this contribution.
+
+rev006 2015-06-15 task002 bug fix
+  - Strip all samples prior to the first trigger from task002 physio data to
+    homogenize with task001.
+  - Physio data for task002, sub005 runs 3 and up were mis-numbered and run008 
+    was missing, due to a conversion error that did not take the aborted run
+    into account. All runs are available and correctly numbered now.
+  - Remove invalid log files for behavioral data of sub020, task002, runs005-8.
+    Subject aborted after run004.
+  - Add acquisition protocol for task002.
+  - Add task002 experiment implementation and stimulus files.
+  - Homogenize task002 stimulus file names with release experiment implementation.
+
+rev005 2015-04-06 task002 data added; emotion annotation, fixes
+
+  - New 7T fMRI data with music stimulation (task002).
+  - New group and per-subject EPI template images based on all available 7T
+    data.
+  - Re-aligned task001 BOLD data using the new templates.
+  - Updated, now frame-accurate annotation of movie scene boundaries.
+  - Frame accurate camera shot annotation for the audio-visual movie (task003).
+  - Multi-observer emotion annotation for the audio-visual and audio-movie
+    stimulus (see Reich et al. F1000Research 2015).
+
+rev004 2014-09-29 NIfTI header fixes
+
+  - Task001 BOLD images reported a wrong volume repetition time
+    of ~24s in the NIfTI header field pixdim[4] (MRIConvert issue).
+    This release updates the images to the correct value of 2.0s.
+
+rev003 2014-06-16 Bug fixes, aggregate data
+
+  - Individual brain mask images from non-linear alignment had
+    only the linear transformation component applied to them.
+    Consequently the masks did not match the brain outline.
+    This release contains the fixed brain mask images. No other
+    data was modified.
+  - Include aggregate data (mean, median, min, max, std) for
+    more than 200 regions-of-interests taken from the Harvard-Oxford
+    cortical and sub-cortical atlas, as well as the Juelich brain atlas
+    shipped with FSL. See the scripts in 'scripts/parcellation_ts/' in
+    gumpdata source code repository for details. Data is available
+    in CSV and HDF5 format.
+
+rev002 2014-02-20 Physiological data fixes and additions
+
+  - physiological data for all participants in original
+    sampling rate (physio_pristine.txt.gz) was added
+  - physiological data for sub008 run005 was updated to
+    strip leading data samples prior to the fixes MR
+    trigger signal. Thanks to Christine Guo for the report.
+  - trigger log for first MR trigger (only) was offset by
+    one data sample (5-10ms)
+
+rev001 2014-01-22 Initial release
+
