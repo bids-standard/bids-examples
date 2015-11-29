@@ -1,12 +1,12 @@
 onset	duration	trial_type	0	1	2	3
 0.12	2.0	Spanish-English-Abstract-Novel	diosa	SEAn_13	2984	39
-3.12	2.0	Spanish-Spanish-Concrete-Novel	guardería	SSCn_13	9984	25
+3.12	2.0	Spanish-Spanish-Concrete-Novel	guarder?a	SSCn_13	9984	25
 13.12	2.0	English-Spanish-Concrete-Novel	fever	ESCn_13	2984	69
 16.12	2.0	English-English-Abstract-Novel	reprisal	EEAn_13	2984	18
 19.12	2.0	English-English-Concrete-Novel	marble	EECn_13	3984	33
 23.12	2.0	Spanish-Spanish-Abstract-Novel	apuro	SSAn_13	1984	2
 25.12	2.0	Spanish-Spanish-Abstract-Repeat	apuro	SSAr_13	2984	2
-28.12	2.0	Spanish-Spanish-Concrete-Repeat	guardería	SSCr_13	2984	25
+28.12	2.0	Spanish-Spanish-Concrete-Repeat	guarder?a	SSCr_13	2984	25
 31.12	2.0	Spanish-Spanish-Abstract-Novel	rareza	SSAn_14	2984	98
 34.12	2.0	English-English-Abstract-Repeat	reprisal	EEAr_13	4984	18
 39.12	2.0	Spanish-English-Abstract-Repeat	goddess	SEAr_13	2984	39
@@ -23,7 +23,7 @@ onset	duration	trial_type	0	1	2	3
 82.12	2.0	English-Spanish-Concrete-Repeat	fiebre	ESCr_13	1984	69
 84.12	2.0	English-Spanish-Abstract-Repeat	incertidumbre	ESAr_14	7984	12
 92.12	2.0	Spanish-Spanish-Concrete-Novel	ramo	SSCn_15	1984	53
-94.12	2.0	Spanish-English-Abstract-Novel	reclamación	SEAn_14	1984	19
+94.12	2.0	Spanish-English-Abstract-Novel	reclamaci?n	SEAn_14	1984	19
 96.12	2.0	English-English-Abstract-Repeat	safety	EEAr_14	2984	38
 99.12	2.0	English-English-Concrete-Novel	apple	EECn_15	4984	5
 104.12	2.0	English-English-Concrete-Repeat	apple	EECr_15	2984	5
@@ -41,7 +41,7 @@ onset	duration	trial_type	0	1	2	3
 151.12	2.0	Spanish-English-Concrete-Repeat	market	SECr_15	4984	16
 156.12	2.0	Spanish-Spanish-Abstract-Novel	tratado	SSAn_15	2984	20
 159.12	2.0	English-Spanish-Abstract-Novel	beginning	ESAn_16	1984	28
-161.12	2.0	Spanish-English-Concrete-Novel	hígado	SECn_16	2984	149
+161.12	2.0	Spanish-English-Concrete-Novel	h?gado	SECn_16	2984	149
 164.12	2.0	English-English-Concrete-Novel	forehead	EECn_16	2984	10
 167.12	2.0	English-English-Abstract-Repeat	balance	EEAr_15	4984	25
 172.12	2.0	English-English-Abstract-Novel	mixture	EEAn_16	1984	20
@@ -54,7 +54,7 @@ onset	duration	trial_type	0	1	2	3
 195.12	2.0	Spanish-English-Abstract-Repeat	suffrage	SEAr_15	6984	6
 202.12	2.0	English-Spanish-Concrete-Novel	fight	ESCn_15	1984	16
 204.12	2.0	English-English-Concrete-Novel	stripe	EECn_17	4984	32
-209.12	2.0	Spanish-Spanish-Concrete-Novel	algodón	SSCn_16	2984	38
+209.12	2.0	Spanish-Spanish-Concrete-Novel	algod?n	SSCn_16	2984	38
 212.12	2.0	Spanish-Spanish-Abstract-Novel	peligro	SSAn_16	5984	40
 218.12	2.0	English-Spanish-Concrete-Repeat	pelea	ESCr_15	5984	16
 224.12	2.0	Spanish-English-Abstract-Novel	lujo	SEAn_16	11984	47
@@ -62,7 +62,7 @@ onset	duration	trial_type	0	1	2	3
 238.12	2.0	English-Spanish-Abstract-Novel	blunder	ESAn_17	1984	20
 240.12	2.0	English-English-Concrete-Novel	goat	EECn_18	1984	129
 242.12	2.0	English-English-Abstract-Novel	aim	EEAn_17	4984	18
-247.12	2.0	Spanish-Spanish-Concrete-Repeat	algodón	SSCr_16	4984	38
+247.12	2.0	Spanish-Spanish-Concrete-Repeat	algod?n	SSCr_16	4984	38
 252.12	2.0	Spanish-Spanish-Abstract-Repeat	peligro	SSAr_16	5984	40
 258.12	2.0	English-Spanish-Abstract-Repeat	patinazo	ESAr_17	1984	20
 260.12	2.0	English-English-Abstract-Repeat	aim	EEAr_17	10984	18
@@ -83,9 +83,9 @@ onset	duration	trial_type	0	1	2	3
 335.12	2.0	English-English-Abstract-Novel	month	EEAn_18	3984	26
 339.12	2.0	English-Spanish-Concrete-Repeat	llovizna	ESCr_16	2984	53
 342.12	2.0	Spanish-English-Abstract-Repeat	admission	SEAr_17	3984	51
-346.12	2.0	Spanish-Spanish-Abstract-Novel	niñez	SSAn_18	1984	5
+346.12	2.0	Spanish-Spanish-Abstract-Novel	ni?ez	SSAn_18	1984	5
 348.12	2.0	English-Spanish-Concrete-Novel	portrait	ESCn_17	2984	7
-351.12	2.0	Spanish-Spanish-Abstract-Repeat	niñez	SSAr_18	3984	5
+351.12	2.0	Spanish-Spanish-Abstract-Repeat	ni?ez	SSAr_18	3984	5
 355.12	2.0	English-Spanish-Concrete-Repeat	retrato	ESCr_17	2984	7
 358.12	2.0	Spanish-English-Abstract-Novel	conocimiento	SEAn_18	2984	28
 361.12	2.0	English-English-Abstract-Repeat	month	EEAr_18	7984	26

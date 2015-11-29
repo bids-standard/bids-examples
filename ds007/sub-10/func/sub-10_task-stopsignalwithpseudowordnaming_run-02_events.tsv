@@ -10,9 +10,9 @@ onset	duration	trial_type	TrialType	SSD
 20.625	1.5	go	0	0.0
 22.75	1.5	go	0	0.0
 25.0	1.5	go	0	0.0
-27.75	1.5	failed stop	1	0.417
+27.75	1.5	failed stop	1	0.41700000000000004
 30.625	1.5	go	0	0.0
-32.75	1.5	failed stop	1	0.417
+32.75	1.5	failed stop	1	0.41700000000000004
 35.0	1.5	go	0	0.0
 38.0	1.5	go	0	0.0
 41.5	1.5	successful stop	1	0.337
@@ -38,7 +38,7 @@ onset	duration	trial_type	TrialType	SSD
 95.875	1.5	go	0	0.0
 98.0	1.5	go	0	0.0
 100.375	1.5	go	0	0.0
-103.625	1.5	failed stop	1	0.417
+103.625	1.5	failed stop	1	0.41700000000000004
 106.625	1.5	go	0	0.0
 108.875	1.5	successful stop	1	0.337
 111.75	1.5	go	0	0.0
@@ -78,7 +78,7 @@ onset	duration	trial_type	TrialType	SSD
 206.25	1.5	go	0	0.0
 208.5	1.5	go	0	0.0
 210.75	1.5	go	0	0.0
-213.25	1.5	failed stop	1	0.417
+213.25	1.5	failed stop	1	0.41700000000000004
 216.5	1.5	go	0	0.0
 221.5	1.5	go	0	0.0
 225.25	1.5	failed stop	1	0.377
@@ -90,15 +90,15 @@ onset	duration	trial_type	TrialType	SSD
 247.875	1.5	go	0	0.0
 250.25	1.5	go	0	0.0
 252.875	1.5	go	0	0.0
-256.25	1.5	failed stop	1	0.417
-258.25	1.5	successful stop	1	0.417
+256.25	1.5	failed stop	1	0.41700000000000004
+258.25	1.5	successful stop	1	0.41700000000000004
 262.0	1.5	go	0	0.0
 265.5	1.5	go	0	0.0
 268.75	1.5	go	0	0.0
 270.875	1.5	go	0	0.0
 272.875	1.5	go	0	0.0
 275.625	1.5	go	0	0.0
-278.75	1.5	failed stop	1	0.417
+278.75	1.5	failed stop	1	0.41700000000000004
 281.625	1.5	successful stop	1	0.377
 286.625	1.5	go	0	0.0
 288.875	1.5	go	0	0.0
@@ -125,5 +125,5 @@ onset	duration	trial_type	TrialType	SSD
 344.375	1.5	go	0	0.0
 347.0	1.5	go	0	0.0
 349.625	1.5	go	0	0.0
-354.375	1.5	failed stop	1	0.417
+354.375	1.5	failed stop	1	0.41700000000000004
 358.875	1.5	go	0	0.0
