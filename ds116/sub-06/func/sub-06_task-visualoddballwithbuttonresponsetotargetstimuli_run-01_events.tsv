@@ -10,10 +10,10 @@ onset	duration	trial_type	Response	Stimulus	RT
 23.764	0.2	visual standard stimulus presentation	0.0	standard	n/a
 25.767	0.2	visual standard stimulus presentation	0.0	standard	n/a
 28.166	0.2	visual standard stimulus presentation	0.0	standard	n/a
-30.763	0.359	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 30.763	0.2	visual oddball stimulus presentation	1.0	target	n/a
-32.964	0.2	visual oddball stimulus presentation	1.0	target	n/a
+30.763	0.359	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 32.964	0.42700000000000005	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
+32.964	0.2	visual oddball stimulus presentation	1.0	target	n/a
 35.562	0.2	visual standard stimulus presentation	0.0	standard	n/a
 38.358000000000004	0.2	visual oddball stimulus presentation	1.0	target	n/a
 38.358000000000004	0.294	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
@@ -35,10 +35,10 @@ onset	duration	trial_type	Response	Stimulus	RT
 77.523	0.2	visual standard stimulus presentation	0.0	standard	n/a
 80.32	0.2	visual standard stimulus presentation	0.0	standard	n/a
 83.315	n/a	n/a	0.0	standard	n/a
-85.515	0.2	visual oddball stimulus presentation	1.0	target	n/a
 85.515	0.342	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
-87.914	0.2	visual oddball stimulus presentation	1.0	target	n/a
+85.515	0.2	visual oddball stimulus presentation	1.0	target	n/a
 87.914	0.381	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
+87.914	0.2	visual oddball stimulus presentation	1.0	target	n/a
 90.116	0.2	visual standard stimulus presentation	0.0	standard	n/a
 92.514	0.2	visual standard stimulus presentation	0.0	standard	n/a
 94.715	0.2	visual standard stimulus presentation	0.0	standard	n/a
@@ -63,12 +63,12 @@ onset	duration	trial_type	Response	Stimulus	RT
 142.088	0.2	visual standard stimulus presentation	0.0	standard	n/a
 144.289	0.2	visual standard stimulus presentation	0.0	standard	n/a
 146.29	0.2	visual standard stimulus presentation	0.0	standard	n/a
-148.69	0.311	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 148.69	0.2	visual oddball stimulus presentation	1.0	target	n/a
+148.69	0.311	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 150.692	0.2	visual oddball stimulus presentation	1.0	target	n/a
 150.692	0.33399999999999996	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
-153.489	0.2	visual oddball stimulus presentation	1.0	target	n/a
 153.489	0.396	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
+153.489	0.2	visual oddball stimulus presentation	1.0	target	n/a
 155.689	0.2	visual standard stimulus presentation	0.0	standard	n/a
 157.89	0.382	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 157.89	0.2	visual oddball stimulus presentation	1.0	target	n/a
@@ -85,25 +85,25 @@ onset	duration	trial_type	Response	Stimulus	RT
 185.671	0.2	visual standard stimulus presentation	0.0	standard	n/a
 187.673	0.2	visual standard stimulus presentation	0.0	standard	n/a
 189.873	0.2	visual standard stimulus presentation	0.0	standard	n/a
-192.273	0.375	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 192.273	0.2	visual oddball stimulus presentation	1.0	target	n/a
-194.47299999999998	0.2	visual oddball stimulus presentation	1.0	target	n/a
+192.273	0.375	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 194.47299999999998	0.345	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
+194.47299999999998	0.2	visual oddball stimulus presentation	1.0	target	n/a
 196.674	0.2	visual standard stimulus presentation	0.0	standard	n/a
 199.47	0.2	visual standard stimulus presentation	0.0	standard	n/a
 202.06900000000002	0.2	visual oddball stimulus presentation	1.0	target	n/a
 202.06900000000002	0.332	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 205.063	0.2	visual standard stimulus presentation	0.0	standard	n/a
 207.46200000000002	0.2	visual standard stimulus presentation	0.0	standard	n/a
-210.06	0.2	visual oddball stimulus presentation	1.0	target	n/a
 210.06	0.376	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
+210.06	0.2	visual oddball stimulus presentation	1.0	target	n/a
 212.062	0.35200000000000004	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 212.062	0.2	visual oddball stimulus presentation	1.0	target	n/a
 214.66099999999997	0.2	visual standard stimulus presentation	0.0	standard	n/a
 217.457	0.341	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 217.457	0.2	visual oddball stimulus presentation	1.0	target	n/a
-220.253	0.33299999999999996	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 220.253	0.2	visual oddball stimulus presentation	1.0	target	n/a
+220.253	0.33299999999999996	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 222.25599999999997	0.2	visual standard stimulus presentation	0.0	standard	n/a
 224.852	0.2	visual standard stimulus presentation	0.0	standard	n/a
 227.054	0.2	visual standard stimulus presentation	0.0	standard	n/a
@@ -119,8 +119,8 @@ onset	duration	trial_type	Response	Stimulus	RT
 248.84599999999998	0.2	visual standard stimulus presentation	0.0	standard	n/a
 251.442	0.2	visual oddball stimulus presentation	1.0	target	n/a
 251.442	0.37200000000000005	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
-253.643	0.2	visual oddball stimulus presentation	1.0	target	n/a
 253.643	0.39399999999999996	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
+253.643	0.2	visual oddball stimulus presentation	1.0	target	n/a
 255.646	0.2	visual standard stimulus presentation	0.0	standard	n/a
 258.244	0.2	visual standard stimulus presentation	0.0	standard	n/a
 260.642	0.2	visual standard stimulus presentation	0.0	standard	n/a
@@ -132,8 +132,8 @@ onset	duration	trial_type	Response	Stimulus	RT
 272.837	0.2	visual oddball stimulus presentation	1.0	target	n/a
 274.839	0.2	visual standard stimulus presentation	0.0	standard	n/a
 277.834	0.2	visual standard stimulus presentation	0.0	standard	n/a
-280.035	0.33799999999999997	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 280.035	0.2	visual oddball stimulus presentation	1.0	target	n/a
+280.035	0.33799999999999997	behavioral response time following visual oddball stimulus onset	1.0	target	n/a
 282.633	0.2	visual standard stimulus presentation	0.0	standard	n/a
 284.834	n/a	n/a	0.0	standard	n/a
 287.629	0.2	visual standard stimulus presentation	0.0	standard	n/a

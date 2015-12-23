@@ -4,8 +4,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 4.0	2.0	n/a	0.0	0.0	46.0	1.995134	0.0
 6.0	2.0	n/a	0.0	0.0	46.0	1.994702	0.0
 8.0	2.0	n/a	0.0	0.0	46.0	1.9947560000000002	0.0
-10.0	10.0	false belief story	n/a	n/a	n/a	n/a	n/a
 10.0	2.0	n/a	1.0	2.0	46.0	2.015115	7.0
+10.0	10.0	false belief story	n/a	n/a	n/a	n/a	n/a
 12.0	2.0	n/a	1.0	2.0	46.0	1.975712	7.0
 14.0	2.0	n/a	1.0	2.0	46.0	1.9950240000000001	7.0
 16.0	2.0	n/a	1.0	2.0	46.0	1.994345	7.0
@@ -53,15 +53,15 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 90.0	2.0	n/a	0.0	0.0	46.0	1.996175	0.0
 92.0	2.0	n/a	0.0	0.0	46.0	1.992888	0.0
 94.0	2.0	n/a	0.0	0.0	46.0	1.994134	0.0
-96.0	2.0	n/a	1.0	1.0	46.0	1.9931759999999998	6.0
 96.0	10.0	false belief story	n/a	n/a	n/a	n/a	n/a
+96.0	2.0	n/a	1.0	1.0	46.0	1.9931759999999998	6.0
 98.0	2.0	n/a	1.0	1.0	46.0	1.995511	6.0
 100.0	2.0	n/a	1.0	1.0	46.0	1.992474	6.0
 102.0	2.0	n/a	1.0	1.0	46.0	1.995061	6.0
 104.0	2.0	n/a	1.0	1.0	46.0	1.9935669999999999	6.0
 106.0	2.0	n/a	0.0	0.0	46.0	1.99425	0.0
-108.0	2.0	n/a	1.0	1.0	35.0	1.67832	6.0
 108.0	6.0	false belief question	n/a	n/a	n/a	n/a	n/a
+108.0	2.0	n/a	1.0	1.0	35.0	1.67832	6.0
 110.0	2.0	n/a	1.0	1.0	46.0	1.994752	6.0
 112.0	2.0	n/a	1.0	1.0	46.0	1.995536	6.0
 114.0	2.0	n/a	0.0	0.0	46.0	1.99436	0.0
@@ -78,8 +78,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 134.0	2.0	n/a	0.0	0.0	46.0	1.994806	0.0
 136.0	2.0	n/a	0.0	0.0	46.0	1.994374	0.0
 138.0	2.0	n/a	0.0	0.0	46.0	1.9952919999999998	0.0
-140.0	6.0	false belief question	n/a	n/a	n/a	n/a	n/a
 140.0	2.0	n/a	1.0	2.0	30.0	1.848241	12.0
+140.0	6.0	false belief question	n/a	n/a	n/a	n/a	n/a
 142.0	2.0	n/a	1.0	2.0	46.0	1.993959	12.0
 144.0	2.0	n/a	1.0	2.0	46.0	1.992804	12.0
 146.0	2.0	n/a	0.0	0.0	46.0	1.992845	0.0
@@ -109,8 +109,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 188.0	2.0	n/a	2.0	2.0	46.0	1.995654	14.0
 190.0	2.0	n/a	2.0	2.0	46.0	1.9936490000000002	14.0
 192.0	2.0	n/a	2.0	2.0	46.0	1.993597	14.0
-194.0	6.0	false photo question	n/a	n/a	n/a	n/a	n/a
 194.0	2.0	n/a	2.0	2.0	46.0	1.99262	14.0
+194.0	6.0	false photo question	n/a	n/a	n/a	n/a	n/a
 196.0	2.0	n/a	2.0	2.0	30.0	1.135673	14.0
 198.0	2.0	n/a	2.0	2.0	46.0	1.9925400000000002	14.0
 200.0	2.0	n/a	0.0	0.0	46.0	1.986609	0.0
@@ -118,8 +118,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 204.0	2.0	n/a	0.0	0.0	46.0	1.9938189999999998	0.0
 206.0	2.0	n/a	0.0	0.0	46.0	1.993194	0.0
 208.0	2.0	n/a	0.0	0.0	46.0	1.9953619999999999	0.0
-210.0	10.0	false photo story	n/a	n/a	n/a	n/a	n/a
 210.0	2.0	n/a	2.0	2.0	46.0	1.995493	22.0
+210.0	10.0	false photo story	n/a	n/a	n/a	n/a	n/a
 212.0	2.0	n/a	2.0	2.0	46.0	1.99443	22.0
 214.0	2.0	n/a	2.0	2.0	46.0	1.994218	22.0
 216.0	2.0	n/a	2.0	2.0	46.0	2.002831	22.0
@@ -158,8 +158,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 274.0	2.0	n/a	1.0	2.0	46.0	1.994951	10.0
 276.0	2.0	n/a	1.0	2.0	46.0	1.9940200000000001	10.0
 278.0	2.0	n/a	1.0	2.0	46.0	1.993609	10.0
-280.0	2.0	n/a	1.0	2.0	46.0	2.002654	10.0
 280.0	6.0	false belief question	n/a	n/a	n/a	n/a	n/a
+280.0	2.0	n/a	1.0	2.0	46.0	2.002654	10.0
 282.0	2.0	n/a	1.0	2.0	46.0	1.9875040000000002	10.0
 284.0	2.0	n/a	1.0	2.0	46.0	1.993243	10.0
 286.0	2.0	n/a	0.0	0.0	46.0	2.003443	0.0

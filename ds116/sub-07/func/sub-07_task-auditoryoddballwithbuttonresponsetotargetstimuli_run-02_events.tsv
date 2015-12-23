@@ -1,8 +1,8 @@
 onset	duration	trial_type	Response	Stimulus	RT
 5.126	0.2	auditory standard stimulus presentation	n/a	n/a	n/a
 7.542999999999999	0.2	auditory standard stimulus presentation	n/a	n/a	n/a
-9.578	0.37200000000000005	behavioral response time following auditory oddball stimulus onset	n/a	n/a	n/a
 9.578	0.2	auditory oddball stimulus presentation	n/a	n/a	n/a
+9.578	0.37200000000000005	behavioral response time following auditory oddball stimulus onset	n/a	n/a	n/a
 11.811	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 14.044	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 16.874000000000002	0.2	auditory standard stimulus presentation	0.0	standard	n/a
@@ -20,14 +20,14 @@ onset	duration	trial_type	Response	Stimulus	RT
 37.376	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 40.006	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 42.835	0.2	auditory standard stimulus presentation	0.0	standard	n/a
-45.466	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 45.466	0.37200000000000005	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
+45.466	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 47.898	0.2	auditory standard stimulus presentation	0.0	standard	n/a
-50.745	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 50.745	0.349	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
+50.745	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 53.028	0.2	auditory standard stimulus presentation	0.0	standard	n/a
-55.46	0.37799999999999995	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 55.46	0.2	auditory oddball stimulus presentation	1.0	target	n/a
+55.46	0.37799999999999995	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 57.91	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 57.91	0.37200000000000005	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 59.943999999999996	0.2	auditory standard stimulus presentation	0.0	standard	n/a
@@ -39,8 +39,8 @@ onset	duration	trial_type	Response	Stimulus	RT
 74.58800000000001	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 76.822	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 79.669	0.2	auditory standard stimulus presentation	0.0	standard	n/a
-82.515	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 82.515	0.324	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
+82.515	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 85.145	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 88.17299999999999	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 90.62200000000001	0.2	auditory standard stimulus presentation	0.0	standard	n/a
@@ -75,8 +75,8 @@ onset	duration	trial_type	Response	Stimulus	RT
 160.415	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 162.847	0.39299999999999996	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 162.847	0.2	auditory oddball stimulus presentation	1.0	target	n/a
-165.477	0.46799999999999997	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 165.477	0.2	auditory oddball stimulus presentation	1.0	target	n/a
+165.477	0.46799999999999997	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 167.91	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 167.91	0.364	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 169.979	0.2	auditory standard stimulus presentation	0.0	standard	n/a
@@ -94,8 +94,8 @@ onset	duration	trial_type	Response	Stimulus	RT
 199.62900000000002	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 201.863	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 204.097	0.2	auditory standard stimulus presentation	0.0	standard	n/a
-206.331	0.40299999999999997	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 206.331	0.2	auditory oddball stimulus presentation	1.0	target	n/a
+206.331	0.40299999999999997	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 208.56400000000002	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 208.56400000000002	0.396	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 210.6	0.2	auditory standard stimulus presentation	0.0	standard	n/a
@@ -118,8 +118,8 @@ onset	duration	trial_type	Response	Stimulus	RT
 251.171	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 253.421	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 255.855	0.2	auditory standard stimulus presentation	0.0	standard	n/a
-258.7	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 258.7	0.413	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
+258.7	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 260.718	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 263.151	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 266.195	0.2	auditory standard stimulus presentation	0.0	standard	n/a
@@ -141,11 +141,11 @@ onset	duration	trial_type	Response	Stimulus	RT
 297.865	0.2	auditory oddball stimulus presentation	1.0	target	n/a
 300.314	n/a	n/a	1.0	target	n/a
 302.961	0.2	auditory standard stimulus presentation	0.0	standard	n/a
-305.476	0.435	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 305.476	0.2	auditory oddball stimulus presentation	1.0	target	n/a
+305.476	0.435	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 308.52099999999996	0.2	auditory standard stimulus presentation	0.0	standard	n/a
-310.573	0.34	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 310.573	0.2	auditory oddball stimulus presentation	1.0	target	n/a
+310.573	0.34	behavioral response time following auditory oddball stimulus onset	1.0	target	n/a
 313.006	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 315.437	0.2	auditory standard stimulus presentation	0.0	standard	n/a
 n/a	n/a	n/a	5.126	0	standard
