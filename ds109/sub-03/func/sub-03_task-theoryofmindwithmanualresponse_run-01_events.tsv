@@ -11,8 +11,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 16.0	2.0	n/a	2.0	2.0	46.0	1.9947540000000001	20.0
 18.0	2.0	n/a	2.0	2.0	46.0	1.995052	20.0
 20.0	2.0	n/a	0.0	0.0	46.0	1.994176	0.0
-22.0	2.0	n/a	2.0	2.0	46.0	1.993293	20.0
 22.0	6.0	false photo question	n/a	n/a	n/a	n/a	n/a
+22.0	2.0	n/a	2.0	2.0	46.0	1.993293	20.0
 24.0	2.0	n/a	2.0	2.0	46.0	1.9958369999999999	20.0
 26.0	2.0	n/a	2.0	2.0	46.0	1.994563	20.0
 28.0	2.0	n/a	0.0	0.0	46.0	1.9936	0.0
@@ -44,8 +44,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 74.0	2.0	n/a	2.0	1.0	46.0	1.995327	24.0
 76.0	2.0	n/a	2.0	1.0	46.0	1.993693	24.0
 78.0	2.0	n/a	2.0	1.0	46.0	1.994046	24.0
-80.0	6.0	false photo question	n/a	n/a	n/a	n/a	n/a
 80.0	2.0	n/a	2.0	1.0	46.0	1.994218	24.0
+80.0	6.0	false photo question	n/a	n/a	n/a	n/a	n/a
 82.0	2.0	n/a	2.0	1.0	46.0	1.992905	24.0
 84.0	2.0	n/a	2.0	1.0	35.0	0.3361146	24.0
 86.0	2.0	n/a	0.0	0.0	46.0	1.9941919999999997	0.0
@@ -78,8 +78,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 134.0	2.0	n/a	0.0	0.0	46.0	1.995168	0.0
 136.0	2.0	n/a	0.0	0.0	46.0	1.9941790000000001	0.0
 138.0	2.0	n/a	0.0	0.0	46.0	1.993727	0.0
-140.0	2.0	n/a	1.0	1.0	46.0	1.99415	2.0
 140.0	6.0	false belief question	n/a	n/a	n/a	n/a	n/a
+140.0	2.0	n/a	1.0	1.0	46.0	1.99415	2.0
 142.0	2.0	n/a	1.0	1.0	35.0	0.6555066999999999	2.0
 144.0	2.0	n/a	1.0	1.0	46.0	1.994207	2.0
 146.0	2.0	n/a	0.0	0.0	46.0	1.99375	0.0
@@ -184,8 +184,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 320.0	2.0	n/a	0.0	0.0	46.0	1.9928169999999998	0.0
 322.0	2.0	n/a	0.0	0.0	46.0	1.992939	0.0
 324.0	2.0	n/a	0.0	0.0	46.0	1.993718	0.0
-326.0	10.0	false photo story	n/a	n/a	n/a	n/a	n/a
 326.0	2.0	n/a	2.0	1.0	46.0	1.994578	21.0
+326.0	10.0	false photo story	n/a	n/a	n/a	n/a	n/a
 328.0	2.0	n/a	2.0	1.0	46.0	1.9930700000000001	21.0
 330.0	2.0	n/a	2.0	1.0	46.0	1.994246	21.0
 332.0	2.0	n/a	2.0	1.0	46.0	1.9937200000000002	21.0
@@ -193,8 +193,8 @@ onset	duration	trial_type	ConditionCode	CorrectAnswerCode	KeyPressed	ResponseTim
 336.0	2.0	n/a	0.0	0.0	46.0	1.995121	0.0
 338.0	2.0	n/a	0.0	0.0	46.0	1.9942389999999999	0.0
 340.0	2.0	n/a	0.0	0.0	46.0	1.9951	0.0
-342.0	2.0	n/a	2.0	1.0	46.0	1.996243	21.0
 342.0	6.0	false photo question	n/a	n/a	n/a	n/a	n/a
+342.0	2.0	n/a	2.0	1.0	46.0	1.996243	21.0
 344.0	2.0	n/a	2.0	1.0	35.0	1.927368	21.0
 346.0	2.0	n/a	2.0	1.0	46.0	1.9856330000000002	21.0
 348.0	2.0	n/a	0.0	0.0	46.0	1.994247	0.0
