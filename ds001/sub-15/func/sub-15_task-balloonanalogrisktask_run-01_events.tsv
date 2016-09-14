@@ -1,286 +1,150 @@
-onset	duration	trial_type	cash_demean	control_pumps_demean	explode_demean	pumps_demean
-0.057999999999999996	1.161	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-0.057999999999999996	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-2.702	0.772	pumps_demean	n/a	n/a	n/a	0.0
-2.702	0.925	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-5.6160000000000005	0.764	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-5.6160000000000005	0.772	pumps_demean	n/a	n/a	n/a	1.0
-9.276	0.772	explode_demean	n/a	n/a	0.462	n/a
-13.267999999999999	0.8959999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-13.267999999999999	0.772	pumps_demean	n/a	n/a	n/a	-2.0
-16.464000000000002	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-16.464000000000002	0.9	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-19.187	1.84	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-19.187	0.772	pumps_demean	n/a	n/a	n/a	0.0
-22.953000000000003	1.794	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-22.953000000000003	0.772	pumps_demean	n/a	n/a	n/a	1.0
-26.403000000000002	0.772	pumps_demean	n/a	n/a	n/a	2.0
-26.403000000000002	2.392	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-30.732	2.783	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-30.732	0.772	cash_demean	2.267	n/a	n/a	n/a
-37.107	0.772	pumps_demean	n/a	n/a	n/a	-1.5
-37.107	0.6890000000000001	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-40.18	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-40.18	0.504	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-41.778999999999996	0.617	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-41.778999999999996	0.772	pumps_demean	n/a	n/a	n/a	0.5
-44.896	1.181	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-44.896	0.772	pumps_demean	n/a	n/a	n/a	1.5
-47.394	0.772	explode_demean	n/a	n/a	1.462	n/a
-54.81100000000001	0.8809999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-54.81100000000001	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-58.446000000000005	0.631	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-58.446000000000005	0.772	pumps_demean	n/a	n/a	n/a	0.0
-61.493	1.383	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-61.493	0.772	pumps_demean	n/a	n/a	n/a	1.0
-64.235	0.772	cash_demean	0.267	n/a	n/a	n/a
-64.235	1.7530000000000001	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-69.832	0.397	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-69.832	0.772	pumps_demean	n/a	n/a	n/a	-1.5
-71.99	0.40700000000000003	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-71.99	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-74.797	0.772	pumps_demean	n/a	n/a	n/a	0.5
-74.797	0.903	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-77.449	1.4669999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-77.449	0.772	pumps_demean	n/a	n/a	n/a	1.5
-81.166	0.772	explode_demean	n/a	n/a	1.462	n/a
-85.47399999999999	0.772	control_pumps_demean	n/a	-2.5	n/a	n/a
-85.47399999999999	2.011	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-89.083	0.41	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-89.083	0.772	control_pumps_demean	n/a	-1.5	n/a	n/a
-91.111	0.772	control_pumps_demean	n/a	-0.5	n/a	n/a
-91.111	0.51	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-93.455	0.772	control_pumps_demean	n/a	0.5	n/a	n/a
-93.455	0.429	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-96.367	0.45399999999999996	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-96.367	0.772	control_pumps_demean	n/a	1.5	n/a	n/a
-99.65	0.772	control_pumps_demean	n/a	2.5	n/a	n/a
-99.65	0.45899999999999996	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-109.24700000000001	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-109.24700000000001	1.485	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-112.689	1.764	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-112.689	0.772	pumps_demean	n/a	n/a	n/a	0.5
-116.06700000000001	4.137	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-116.06700000000001	0.772	cash_demean	-0.733	n/a	n/a	n/a
-127.488	0.772	control_pumps_demean	n/a	-4.5	n/a	n/a
-127.488	1.47	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-131.325	0.772	control_pumps_demean	n/a	-3.5	n/a	n/a
-131.325	0.4	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-133.451	0.578	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-133.451	0.772	control_pumps_demean	n/a	-2.5	n/a	n/a
-135.67	0.762	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-135.67	0.772	control_pumps_demean	n/a	-1.5	n/a	n/a
-137.584	0.772	control_pumps_demean	n/a	-0.5	n/a	n/a
-137.584	0.63	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-139.833	0.772	control_pumps_demean	n/a	0.5	n/a	n/a
-139.833	0.332	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-141.316	0.441	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-141.316	0.772	control_pumps_demean	n/a	1.5	n/a	n/a
-142.93200000000002	0.772	control_pumps_demean	n/a	2.5	n/a	n/a
-142.93200000000002	0.361	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-145.365	0.772	control_pumps_demean	n/a	3.5	n/a	n/a
-145.365	1.272	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-148.779	0.73	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-148.779	0.772	control_pumps_demean	n/a	4.5	n/a	n/a
-157.93200000000002	1.203	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-157.93200000000002	0.772	pumps_demean	n/a	n/a	n/a	-2.0
-160.71	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-160.71	1.615	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-163.951	1.534	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-163.951	0.772	pumps_demean	n/a	n/a	n/a	0.0
-167.419	0.772	pumps_demean	n/a	n/a	n/a	1.0
-167.419	1.018	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-169.97299999999998	0.772	pumps_demean	n/a	n/a	n/a	2.0
-169.97299999999998	1.922	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-172.97299999999998	1.28	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-172.97299999999998	0.772	cash_demean	2.267	n/a	n/a	n/a
-178.093	0.705	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-178.093	0.772	pumps_demean	n/a	n/a	n/a	0.0
-181.699	0.772	explode_demean	n/a	n/a	-1.538	n/a
-187.55599999999998	0.626	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-187.55599999999998	0.772	pumps_demean	n/a	n/a	n/a	0.0
-189.54	0.772	explode_demean	n/a	n/a	-1.538	n/a
-196.67700000000002	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-196.67700000000002	2.6319999999999997	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-200.58	0.772	pumps_demean	n/a	n/a	n/a	0.0
-200.58	0.82	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-202.863	1.1840000000000002	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-202.863	0.772	pumps_demean	n/a	n/a	n/a	1.0
-206.118	0.772	explode_demean	n/a	n/a	0.462	n/a
-209.791	0.772	control_pumps_demean	n/a	0.0	n/a	n/a
-209.791	0.863	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-218.484	0.772	pumps_demean	n/a	n/a	n/a	0.0
-218.484	1.034	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-221.59099999999998	0.772	cash_demean	-1.733	n/a	n/a	n/a
-221.59099999999998	1.3259999999999998	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-228.16400000000002	0.594	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-228.16400000000002	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-229.96	0.772	pumps_demean	n/a	n/a	n/a	0.5
-229.96	1.5819999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-232.75799999999998	0.772	cash_demean	-0.733	n/a	n/a	n/a
-232.75799999999998	1.3359999999999999	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-240.19799999999998	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-240.19799999999998	0.64	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-243.05	0.772	pumps_demean	n/a	n/a	n/a	0.5
-243.05	0.612	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-245.269	0.772	explode_demean	n/a	n/a	-0.5379999999999999	n/a
-254.24	0.772	pumps_demean	n/a	n/a	n/a	0.0
-254.24	0.6779999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-257.074	0.772	explode_demean	n/a	n/a	-1.538	n/a
-267.27	0.953	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-267.27	0.772	control_pumps_demean	n/a	-5.5	n/a	n/a
-269.73900000000003	0.772	control_pumps_demean	n/a	-4.5	n/a	n/a
-269.73900000000003	0.508	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-271.85	0.772	control_pumps_demean	n/a	-3.5	n/a	n/a
-271.85	0.308	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-273.264	0.534	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-273.264	0.772	control_pumps_demean	n/a	-2.5	n/a	n/a
-275.705	0.478	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-275.705	0.772	control_pumps_demean	n/a	-1.5	n/a	n/a
-277.452	0.772	control_pumps_demean	n/a	-0.5	n/a	n/a
-277.452	0.475	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-279.697	0.772	control_pumps_demean	n/a	0.5	n/a	n/a
-279.697	0.782	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-283.41900000000004	0.475	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-283.41900000000004	0.772	control_pumps_demean	n/a	1.5	n/a	n/a
-285.568	2.046	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-285.568	0.772	control_pumps_demean	n/a	2.5	n/a	n/a
-289.012	0.772	control_pumps_demean	n/a	3.5	n/a	n/a
-289.012	0.41	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-291.916	0.772	control_pumps_demean	n/a	4.5	n/a	n/a
-291.916	0.45799999999999996	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-295.222	0.772	control_pumps_demean	n/a	5.5	n/a	n/a
-295.222	0.9129999999999999	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-305.856	0.772	control_pumps_demean	n/a	-4.0	n/a	n/a
-305.856	1.758	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-308.983	0.456	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-308.983	0.772	control_pumps_demean	n/a	-3.0	n/a	n/a
-311.714	0.47700000000000004	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-311.714	0.772	control_pumps_demean	n/a	-2.0	n/a	n/a
-313.972	0.772	control_pumps_demean	n/a	-1.0	n/a	n/a
-313.972	0.451	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-315.779	0.772	control_pumps_demean	n/a	0.0	n/a	n/a
-315.779	0.37200000000000005	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-318.164	0.475	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-318.164	0.772	control_pumps_demean	n/a	1.0	n/a	n/a
-320.073	0.33399999999999996	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-320.073	0.772	control_pumps_demean	n/a	2.0	n/a	n/a
-321.655	0.772	control_pumps_demean	n/a	3.0	n/a	n/a
-321.655	1.04	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-324.348	1.235	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-324.348	0.772	control_pumps_demean	n/a	4.0	n/a	n/a
-337.67800000000005	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-337.67800000000005	0.809	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-340.89599999999996	2.032	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-340.89599999999996	0.772	pumps_demean	n/a	n/a	n/a	0.5
-344.96	0.772	explode_demean	n/a	n/a	-0.5379999999999999	n/a
-348.635	0.772	pumps_demean	n/a	n/a	n/a	0.0
-348.635	0.596	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-350.69199999999995	0.772	cash_demean	-1.733	n/a	n/a	n/a
-350.69199999999995	0.667	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-363.471	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-363.471	0.665	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-365.233	0.772	pumps_demean	n/a	n/a	n/a	0.0
-365.233	0.838	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-367.21	0.772	pumps_demean	n/a	n/a	n/a	1.0
-367.21	0.541	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-370.25	2.3169999999999997	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-370.25	0.772	cash_demean	0.267	n/a	n/a	n/a
-375.935	0.736	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-375.935	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-378.541	1.73	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-378.541	0.772	pumps_demean	n/a	n/a	n/a	0.0
-382.449	0.772	pumps_demean	n/a	n/a	n/a	1.0
-382.449	0.855	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-385.647	1.515	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-385.647	0.772	cash_demean	0.267	n/a	n/a	n/a
-395.18300000000005	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-395.18300000000005	0.833	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-398.74800000000005	0.628	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-398.74800000000005	0.772	pumps_demean	n/a	n/a	n/a	0.5
-401.99300000000005	0.772	explode_demean	n/a	n/a	-0.5379999999999999	n/a
-414.575	0.5529999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-414.575	0.772	pumps_demean	n/a	n/a	n/a	-2.0
-418.158	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-418.158	0.9620000000000001	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-420.80300000000005	0.9329999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-420.80300000000005	0.772	pumps_demean	n/a	n/a	n/a	0.0
-423.584	0.772	pumps_demean	n/a	n/a	n/a	1.0
-423.584	1.808	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-427.255	1.993	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-427.255	0.772	pumps_demean	n/a	n/a	n/a	2.0
-431.22900000000004	0.94	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-431.22900000000004	0.772	cash_demean	2.267	n/a	n/a	n/a
-443.202	0.56	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-443.202	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-445.216	0.64	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-445.216	0.772	pumps_demean	n/a	n/a	n/a	0.5
-448.548	2.492	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-448.548	0.772	cash_demean	-0.733	n/a	n/a	n/a
-456.63300000000004	0.992	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-456.63300000000004	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-458.744	0.772	pumps_demean	n/a	n/a	n/a	0.5
-458.744	1.608	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-462.287	0.772	explode_demean	n/a	n/a	-0.5379999999999999	n/a
-468.416	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-468.416	0.8170000000000001	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-471.159	0.6729999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-471.159	0.772	pumps_demean	n/a	n/a	n/a	0.5
-473.49800000000005	0.772	cash_demean	-0.733	n/a	n/a	n/a
-473.49800000000005	1.159	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-480.86300000000006	0.772	pumps_demean	n/a	n/a	n/a	-2.5
-480.86300000000006	0.8740000000000001	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-484.71	0.772	pumps_demean	n/a	n/a	n/a	-1.5
-484.71	1.186	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-487.496	0.961	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-487.496	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-491.24199999999996	1.375	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-491.24199999999996	0.772	pumps_demean	n/a	n/a	n/a	0.5
-495.045	0.868	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-495.045	0.772	pumps_demean	n/a	n/a	n/a	1.5
-498.63599999999997	0.772	pumps_demean	n/a	n/a	n/a	2.5
-498.63599999999997	1.621	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-501.847	0.772	explode_demean	n/a	n/a	3.4619999999999997	n/a
-514.066	0.772	pumps_demean	n/a	n/a	n/a	0.0
-514.066	0.919	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-516.509	0.772	cash_demean	-1.733	n/a	n/a	n/a
-516.509	1.004	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-522.3919999999999	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-522.3919999999999	1.185	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-525.313	0.772	pumps_demean	n/a	n/a	n/a	0.0
-525.313	0.9359999999999999	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-527.73	0.772	pumps_demean	n/a	n/a	n/a	1.0
-527.73	1.455	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-532.173	1.252	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-532.173	0.772	cash_demean	0.267	n/a	n/a	n/a
-538.487	0.772	pumps_demean	n/a	n/a	n/a	-0.5
-538.487	0.723	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-542.1469999999999	0.772	pumps_demean	n/a	n/a	n/a	0.5
-542.1469999999999	0.695	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-544.231	0.772	explode_demean	n/a	n/a	-0.5379999999999999	n/a
-553.263	0.8109999999999999	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-553.263	0.772	control_pumps_demean	n/a	-4.0	n/a	n/a
-556.493	0.532	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-556.493	0.772	control_pumps_demean	n/a	-3.0	n/a	n/a
-558.998	0.6759999999999999	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-558.998	0.772	control_pumps_demean	n/a	-2.0	n/a	n/a
-562.354	0.41600000000000004	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-562.354	0.772	control_pumps_demean	n/a	-1.0	n/a	n/a
-564.193	0.772	control_pumps_demean	n/a	0.0	n/a	n/a
-564.193	0.409	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-565.9209999999999	0.609	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-565.9209999999999	0.772	control_pumps_demean	n/a	1.0	n/a	n/a
-568.297	0.772	control_pumps_demean	n/a	2.0	n/a	n/a
-568.297	1.121	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-571.641	0.5529999999999999	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-571.641	0.772	control_pumps_demean	n/a	3.0	n/a	n/a
-574.16	0.772	control_pumps_demean	n/a	4.0	n/a	n/a
-574.16	1.162	control_pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-582.67	0.772	pumps_demean	n/a	n/a	n/a	-1.0
-582.67	1.092	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-585.444	0.772	pumps_demean	n/a	n/a	n/a	0.0
-585.444	1.91	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-588.765	0.772	pumps_demean	n/a	n/a	n/a	1.0
-588.765	0.807	pumps_fixed_real_RT	n/a	n/a	n/a	n/a
-591.95	0.915	cash_fixed_real_RT	n/a	n/a	n/a	n/a
-591.95	0.772	cash_demean	0.267	n/a	n/a	n/a
+onset	duration	trial_type	cash_demean	control_pumps_demean	explode_demean	pumps_demean	response_time
+0.058	0.772	pumps_demean	n/a	n/a	n/a	-1.000	1.161
+2.702	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.925
+5.616	0.772	pumps_demean	n/a	n/a	n/a	1.000	0.764
+9.276	0.772	explode_demean	n/a	n/a	0.462	n/a	n/a
+13.268	0.772	pumps_demean	n/a	n/a	n/a	-2.000	0.896
+16.464	0.772	pumps_demean	n/a	n/a	n/a	-1.000	0.900
+19.187	0.772	pumps_demean	n/a	n/a	n/a	0.000	1.840
+22.953	0.772	pumps_demean	n/a	n/a	n/a	1.000	1.794
+26.403	0.772	pumps_demean	n/a	n/a	n/a	2.000	2.392
+30.732	0.772	cash_demean	2.267	n/a	n/a	n/a	2.783
+37.107	0.772	pumps_demean	n/a	n/a	n/a	-1.500	0.689
+40.180	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.504
+41.779	0.772	pumps_demean	n/a	n/a	n/a	0.500	0.617
+44.896	0.772	pumps_demean	n/a	n/a	n/a	1.500	1.181
+47.394	0.772	explode_demean	n/a	n/a	1.462	n/a	n/a
+54.811	0.772	pumps_demean	n/a	n/a	n/a	-1.000	0.881
+58.446	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.631
+61.493	0.772	pumps_demean	n/a	n/a	n/a	1.000	1.383
+64.235	0.772	cash_demean	0.267	n/a	n/a	n/a	1.753
+69.832	0.772	pumps_demean	n/a	n/a	n/a	-1.500	0.397
+71.990	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.407
+74.797	0.772	pumps_demean	n/a	n/a	n/a	0.500	0.903
+77.449	0.772	pumps_demean	n/a	n/a	n/a	1.500	1.467
+81.166	0.772	explode_demean	n/a	n/a	1.462	n/a	n/a
+85.474	0.772	control_pumps_demean	n/a	-2.500	n/a	n/a	2.011
+89.083	0.772	control_pumps_demean	n/a	-1.500	n/a	n/a	0.410
+91.111	0.772	control_pumps_demean	n/a	-0.500	n/a	n/a	0.510
+93.455	0.772	control_pumps_demean	n/a	0.500	n/a	n/a	0.429
+96.367	0.772	control_pumps_demean	n/a	1.500	n/a	n/a	0.454
+99.650	0.772	control_pumps_demean	n/a	2.500	n/a	n/a	0.459
+109.247	0.772	pumps_demean	n/a	n/a	n/a	-0.500	1.485
+112.689	0.772	pumps_demean	n/a	n/a	n/a	0.500	1.764
+116.067	0.772	cash_demean	-0.733	n/a	n/a	n/a	4.137
+127.488	0.772	control_pumps_demean	n/a	-4.500	n/a	n/a	1.470
+131.325	0.772	control_pumps_demean	n/a	-3.500	n/a	n/a	0.400
+133.451	0.772	control_pumps_demean	n/a	-2.500	n/a	n/a	0.578
+135.670	0.772	control_pumps_demean	n/a	-1.500	n/a	n/a	0.762
+137.584	0.772	control_pumps_demean	n/a	-0.500	n/a	n/a	0.630
+139.833	0.772	control_pumps_demean	n/a	0.500	n/a	n/a	0.332
+141.316	0.772	control_pumps_demean	n/a	1.500	n/a	n/a	0.441
+142.932	0.772	control_pumps_demean	n/a	2.500	n/a	n/a	0.361
+145.365	0.772	control_pumps_demean	n/a	3.500	n/a	n/a	1.272
+148.779	0.772	control_pumps_demean	n/a	4.500	n/a	n/a	0.730
+157.932	0.772	pumps_demean	n/a	n/a	n/a	-2.000	1.203
+160.710	0.772	pumps_demean	n/a	n/a	n/a	-1.000	1.615
+163.951	0.772	pumps_demean	n/a	n/a	n/a	0.000	1.534
+167.419	0.772	pumps_demean	n/a	n/a	n/a	1.000	1.018
+169.973	0.772	pumps_demean	n/a	n/a	n/a	2.000	1.922
+172.973	0.772	cash_demean	2.267	n/a	n/a	n/a	1.280
+178.093	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.705
+181.699	0.772	explode_demean	n/a	n/a	-1.538	n/a	n/a
+187.556	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.626
+189.540	0.772	explode_demean	n/a	n/a	-1.538	n/a	n/a
+196.677	0.772	pumps_demean	n/a	n/a	n/a	-1.000	2.632
+200.580	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.820
+202.863	0.772	pumps_demean	n/a	n/a	n/a	1.000	1.184
+206.118	0.772	explode_demean	n/a	n/a	0.462	n/a	n/a
+209.791	0.772	control_pumps_demean	n/a	0.000	n/a	n/a	0.863
+218.484	0.772	pumps_demean	n/a	n/a	n/a	0.000	1.034
+221.591	0.772	cash_demean	-1.733	n/a	n/a	n/a	1.326
+228.164	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.594
+229.960	0.772	pumps_demean	n/a	n/a	n/a	0.500	1.582
+232.758	0.772	cash_demean	-0.733	n/a	n/a	n/a	1.336
+240.198	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.640
+243.050	0.772	pumps_demean	n/a	n/a	n/a	0.500	0.612
+245.269	0.772	explode_demean	n/a	n/a	-0.538	n/a	n/a
+254.240	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.678
+257.074	0.772	explode_demean	n/a	n/a	-1.538	n/a	n/a
+267.270	0.772	control_pumps_demean	n/a	-5.500	n/a	n/a	0.953
+269.739	0.772	control_pumps_demean	n/a	-4.500	n/a	n/a	0.508
+271.850	0.772	control_pumps_demean	n/a	-3.500	n/a	n/a	0.308
+273.264	0.772	control_pumps_demean	n/a	-2.500	n/a	n/a	0.534
+275.705	0.772	control_pumps_demean	n/a	-1.500	n/a	n/a	0.478
+277.452	0.772	control_pumps_demean	n/a	-0.500	n/a	n/a	0.475
+279.697	0.772	control_pumps_demean	n/a	0.500	n/a	n/a	0.782
+283.419	0.772	control_pumps_demean	n/a	1.500	n/a	n/a	0.475
+285.568	0.772	control_pumps_demean	n/a	2.500	n/a	n/a	2.046
+289.012	0.772	control_pumps_demean	n/a	3.500	n/a	n/a	0.410
+291.916	0.772	control_pumps_demean	n/a	4.500	n/a	n/a	0.458
+295.222	0.772	control_pumps_demean	n/a	5.500	n/a	n/a	0.913
+305.856	0.772	control_pumps_demean	n/a	-4.000	n/a	n/a	1.758
+308.983	0.772	control_pumps_demean	n/a	-3.000	n/a	n/a	0.456
+311.714	0.772	control_pumps_demean	n/a	-2.000	n/a	n/a	0.477
+313.972	0.772	control_pumps_demean	n/a	-1.000	n/a	n/a	0.451
+315.779	0.772	control_pumps_demean	n/a	0.000	n/a	n/a	0.372
+318.164	0.772	control_pumps_demean	n/a	1.000	n/a	n/a	0.475
+320.073	0.772	control_pumps_demean	n/a	2.000	n/a	n/a	0.334
+321.655	0.772	control_pumps_demean	n/a	3.000	n/a	n/a	1.040
+324.348	0.772	control_pumps_demean	n/a	4.000	n/a	n/a	1.235
+337.678	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.809
+340.896	0.772	pumps_demean	n/a	n/a	n/a	0.500	2.032
+344.960	0.772	explode_demean	n/a	n/a	-0.538	n/a	n/a
+348.635	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.596
+350.692	0.772	cash_demean	-1.733	n/a	n/a	n/a	0.667
+363.471	0.772	pumps_demean	n/a	n/a	n/a	-1.000	0.665
+365.233	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.838
+367.210	0.772	pumps_demean	n/a	n/a	n/a	1.000	0.541
+370.250	0.772	cash_demean	0.267	n/a	n/a	n/a	2.317
+375.935	0.772	pumps_demean	n/a	n/a	n/a	-1.000	0.736
+378.541	0.772	pumps_demean	n/a	n/a	n/a	0.000	1.730
+382.449	0.772	pumps_demean	n/a	n/a	n/a	1.000	0.855
+385.647	0.772	cash_demean	0.267	n/a	n/a	n/a	1.515
+395.183	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.833
+398.748	0.772	pumps_demean	n/a	n/a	n/a	0.500	0.628
+401.993	0.772	explode_demean	n/a	n/a	-0.538	n/a	n/a
+414.575	0.772	pumps_demean	n/a	n/a	n/a	-2.000	0.553
+418.158	0.772	pumps_demean	n/a	n/a	n/a	-1.000	0.962
+420.803	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.933
+423.584	0.772	pumps_demean	n/a	n/a	n/a	1.000	1.808
+427.255	0.772	pumps_demean	n/a	n/a	n/a	2.000	1.993
+431.229	0.772	cash_demean	2.267	n/a	n/a	n/a	0.940
+443.202	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.560
+445.216	0.772	pumps_demean	n/a	n/a	n/a	0.500	0.640
+448.548	0.772	cash_demean	-0.733	n/a	n/a	n/a	2.492
+456.633	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.992
+458.744	0.772	pumps_demean	n/a	n/a	n/a	0.500	1.608
+462.287	0.772	explode_demean	n/a	n/a	-0.538	n/a	n/a
+468.416	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.817
+471.159	0.772	pumps_demean	n/a	n/a	n/a	0.500	0.673
+473.498	0.772	cash_demean	-0.733	n/a	n/a	n/a	1.159
+480.863	0.772	pumps_demean	n/a	n/a	n/a	-2.500	0.874
+484.710	0.772	pumps_demean	n/a	n/a	n/a	-1.500	1.186
+487.496	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.961
+491.242	0.772	pumps_demean	n/a	n/a	n/a	0.500	1.375
+495.045	0.772	pumps_demean	n/a	n/a	n/a	1.500	0.868
+498.636	0.772	pumps_demean	n/a	n/a	n/a	2.500	1.621
+501.847	0.772	explode_demean	n/a	n/a	3.462	n/a	n/a
+514.066	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.919
+516.509	0.772	cash_demean	-1.733	n/a	n/a	n/a	1.004
+522.392	0.772	pumps_demean	n/a	n/a	n/a	-1.000	1.185
+525.313	0.772	pumps_demean	n/a	n/a	n/a	0.000	0.936
+527.730	0.772	pumps_demean	n/a	n/a	n/a	1.000	1.455
+532.173	0.772	cash_demean	0.267	n/a	n/a	n/a	1.252
+538.487	0.772	pumps_demean	n/a	n/a	n/a	-0.500	0.723
+542.147	0.772	pumps_demean	n/a	n/a	n/a	0.500	0.695
+544.231	0.772	explode_demean	n/a	n/a	-0.538	n/a	n/a
+553.263	0.772	control_pumps_demean	n/a	-4.000	n/a	n/a	0.811
+556.493	0.772	control_pumps_demean	n/a	-3.000	n/a	n/a	0.532
+558.998	0.772	control_pumps_demean	n/a	-2.000	n/a	n/a	0.676
+562.354	0.772	control_pumps_demean	n/a	-1.000	n/a	n/a	0.416
+564.193	0.772	control_pumps_demean	n/a	0.000	n/a	n/a	0.409
+565.921	0.772	control_pumps_demean	n/a	1.000	n/a	n/a	0.609
+568.297	0.772	control_pumps_demean	n/a	2.000	n/a	n/a	1.121
+571.641	0.772	control_pumps_demean	n/a	3.000	n/a	n/a	0.553
+574.160	0.772	control_pumps_demean	n/a	4.000	n/a	n/a	1.162
+582.670	0.772	pumps_demean	n/a	n/a	n/a	-1.000	1.092
+585.444	0.772	pumps_demean	n/a	n/a	n/a	0.000	1.910
+588.765	0.772	pumps_demean	n/a	n/a	n/a	1.000	0.807
+591.950	0.772	cash_demean	0.267	n/a	n/a	n/a	0.915

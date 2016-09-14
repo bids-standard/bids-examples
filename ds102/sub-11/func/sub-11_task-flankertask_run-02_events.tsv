@@ -1,25 +1,25 @@
-onset	duration	trial_type	Rsponse	StimVar	Stimulus	ResponseTime
-0.0	2.0	congruent_correct	1	2	 incongruent	382
-10.0	2.0	incongruent_correct	1	2	 incongruent	498
-20.0	2.0	congruent_correct	1	2	 incongruent	415
-30.0	2.0	incongruent_correct	1	1	 congruent	497
-40.0	2.0	congruent_correct	1	1	 congruent	381
-52.0	2.0	incongruent_correct	1	1	 congruent	385
-64.0	2.0	congruent_correct	1	1	 congruent	379
-76.0	2.0	incongruent_incorrect	0	2	 incongruent	342
-88.0	2.0	congruent_correct	1	2	 incongruent	351
-102.0	2.0	incongruent_correct	1	1	 congruent	450
-116.0	2.0	incongruent_correct	1	1	 congruent	485
-130.0	2.0	congruent_correct	1	2	 incongruent	374
-144.0	2.0	congruent_correct	1	1	 congruent	352
-154.0	2.0	congruent_correct	1	2	 incongruent	355
-164.0	2.0	incongruent_correct	1	1	 congruent	463
-174.0	2.0	incongruent_correct	1	2	 incongruent	451
-184.0	2.0	congruent_correct	1	2	 incongruent	406
-196.0	2.0	incongruent_correct	1	2	 incongruent	482
-208.0	2.0	congruent_correct	1	1	 congruent	363
-220.0	2.0	congruent_correct	1	1	 congruent	311
-234.0	2.0	incongruent_incorrect	0	1	 congruent	296
-246.0	2.0	congruent_correct	1	2	 incongruent	388
-260.0	2.0	incongruent_correct	1	1	 congruent	478
-274.0	2.0	incongruent_correct	1	2	 incongruent	486
+onset	duration	trial_type	congruent_incorrect	Rsponse	StimVar	Stimulus	ResponseTime
+0.000	2.000	congruent_correct	n/a	1	2	 incongruent	382
+10.000	2.000	incongruent_correct	n/a	1	2	 incongruent	498
+20.000	2.000	congruent_correct	n/a	1	2	 incongruent	415
+30.000	2.000	incongruent_correct	n/a	1	1	 congruent	497
+40.000	2.000	congruent_correct	n/a	1	1	 congruent	381
+52.000	2.000	incongruent_correct	n/a	1	1	 congruent	385
+64.000	2.000	congruent_correct	n/a	1	1	 congruent	379
+76.000	2.000	incongruent_incorrect	n/a	0	2	 incongruent	342
+88.000	2.000	congruent_correct	n/a	1	2	 incongruent	351
+102.000	2.000	incongruent_correct	n/a	1	1	 congruent	450
+116.000	2.000	incongruent_correct	n/a	1	1	 congruent	485
+130.000	2.000	congruent_correct	n/a	1	2	 incongruent	374
+144.000	2.000	congruent_correct	n/a	1	1	 congruent	352
+154.000	2.000	congruent_correct	n/a	1	2	 incongruent	355
+164.000	2.000	incongruent_correct	n/a	1	1	 congruent	463
+174.000	2.000	incongruent_correct	n/a	1	2	 incongruent	451
+184.000	2.000	congruent_correct	n/a	1	2	 incongruent	406
+196.000	2.000	incongruent_correct	n/a	1	2	 incongruent	482
+208.000	2.000	congruent_correct	n/a	1	1	 congruent	363
+220.000	2.000	congruent_correct	n/a	1	1	 congruent	311
+234.000	2.000	incongruent_incorrect	n/a	0	1	 congruent	296
+246.000	2.000	congruent_correct	n/a	1	2	 incongruent	388
+260.000	2.000	incongruent_correct	n/a	1	1	 congruent	478
+274.000	2.000	incongruent_correct	n/a	1	2	 incongruent	486

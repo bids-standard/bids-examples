@@ -15,6 +15,8 @@ for all conditions.  If only the onsets and model info are needed, they can be
 obtained by downloading the updated onsets file and untarring it in the main
 ds008 directory.
 3/21/2013: Updated release with QA information
+2/19/2016: Updated orientation information in NIFTI header for better left-right determination
+3/7/2016: Remove sub008 due to ambiguously defined task onsets and missing run data
 
 This dataset is made available under the Public Domain Dedication and License 
 v1.0, whose full text can be found at 
