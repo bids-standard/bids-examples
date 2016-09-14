@@ -1,7 +1,8 @@
 This dataset was obtained from the OpenfMRI project (http://www.openfmri.org).
-Accession #: ds006B
+Accession #: ds006A
 Description: Living-nonliving decision with plain or mirror-reversed text
 3/21/2013: Updated release with QA information
+2/19/2016: Updated orientation information in NIFTI header for improved left-right determination.
 
 This dataset is made available under the Public Domain Dedication and License 
 v1.0, whose full text can be found at 

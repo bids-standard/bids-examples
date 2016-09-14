@@ -10,6 +10,8 @@ Xue, G., Aron, A.R., Poldrack, R.A. (2008). Common neural substrates for inhibit
 Release history:
 10/06/2011: initial release
 3/21/2013: Updated release with QA information
+2/17/2016: Updated with corrected orientation in NIFTI headers, includes masks and brain extractions.
+           New orientation information was extracted from original dicom files using dcm2niix.
 
 This dataset is made available under the Public Domain Dedication and License 
 v1.0, whose full text can be found at 
