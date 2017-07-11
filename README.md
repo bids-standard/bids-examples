@@ -5,8 +5,4 @@ ALL NIFTI FILES IN THIS REPOSITORY ARE EMPTY!
 
 You can find full versions of the datasets in this repository [here](https://drive.google.com/drive/u/0/folders/0B2JWN60ZLkgkMGlUY3B4MXZIZW8).
 
-Full datasets can be downloaded manually or through command line. For example:
-```
-wget https://googledrive.com/host/0B2JWN60ZLkgkMGlUY3B4MXZIZW8/ds005.tar
-```
-replace `ds005.tar` with the name of the desired dataset.
+Lookig for a dataset with particular features (modalities, sessions etc.). Check out [the guide](https://github.com/INCF/BIDS-examples/wiki/MRI-datasets).
