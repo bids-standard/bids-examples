@@ -1,0 +1,12 @@
+{
+ "IntendedFor": "ses-mri/anat/sub-09_ses-mri_acq-mprage_T1w.nii",
+ "AnatomicalMRICoordinateSystem": "other",
+ "AnatomicalMRICoordinateUnits": "mm",
+ "CoilCoordinates": {
+  "Nasion": [-3.2,120.5,-4.7],
+  "LPA": [-72.2,29.5,-50.1],
+  "RPA": [71.3,28.9,-49.9]
+ },
+ "CoilCoordinateSystem": "native",
+ "CoilCoordinateUnits": "mm"
+}
