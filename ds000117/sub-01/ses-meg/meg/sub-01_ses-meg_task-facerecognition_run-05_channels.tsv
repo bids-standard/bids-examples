@@ -1,0 +1,405 @@
+name	type	description	sampling_frequency	high_cutoff	low_cutoff	notch	software_filters	status
+MEG0113	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0112	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0111	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0122	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0123	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0121	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0132	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0133	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0131	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0143	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0142	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0141	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0213	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0212	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0211	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0222	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0223	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0221	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0232	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0233	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0231	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0243	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0242	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0241	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0313	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0312	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0311	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0322	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0323	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0321	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0333	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0332	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0331	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0343	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0342	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0341	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0413	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0412	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0411	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0422	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0423	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0421	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0432	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0433	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0431	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0443	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0442	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0441	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0513	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0512	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0511	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0523	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0522	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0521	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0532	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0533	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0531	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0542	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0543	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0541	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0613	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0612	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0611	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0622	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0623	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0621	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0633	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0632	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0631	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0642	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0643	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0641	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0713	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0712	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0711	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0723	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0722	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0721	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0733	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0732	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0731	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0743	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0742	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0741	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0813	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0812	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0811	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0822	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0823	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0821	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0913	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0912	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0911	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0923	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0922	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0921	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0932	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0933	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0931	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG0942	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0943	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG0941	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1013	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1012	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1011	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1023	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1022	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1021	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1032	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1033	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1031	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1043	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1042	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1041	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1112	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1113	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1111	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1123	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1122	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1121	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1133	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1132	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1131	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1142	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1143	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1141	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1213	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1212	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1211	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1223	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1222	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1221	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1232	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1233	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1231	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1243	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1242	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1241	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1312	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1313	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1311	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1323	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1322	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1321	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1333	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1332	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1331	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1342	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1343	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1341	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1412	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1413	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1411	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1423	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1422	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1421	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1433	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1432	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1431	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1442	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1443	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1441	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1512	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1513	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1511	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1522	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1523	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1521	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1533	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1532	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1531	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1543	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1542	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1541	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1613	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1612	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1611	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1622	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1623	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1621	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1632	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1633	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1631	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1643	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1642	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1641	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1713	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1712	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1711	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1722	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1723	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1721	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1732	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1733	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1731	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1743	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1742	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1741	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1813	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1812	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1811	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1822	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1823	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1821	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1832	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1833	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1831	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1843	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1842	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1841	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1912	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1913	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1911	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1923	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1922	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1921	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1932	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1933	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1931	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG1943	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1942	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG1941	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2013	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2012	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2011	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2023	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2022	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2021	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2032	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2033	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2031	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2042	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2043	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2041	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2113	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2112	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2111	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2122	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2123	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2121	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2133	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2132	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2131	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2143	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2142	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2141	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2212	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2213	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2211	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2223	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2222	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2221	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2233	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2232	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2231	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2242	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2243	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2241	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2312	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2313	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2311	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2323	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2322	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2321	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2332	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2333	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2331	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2343	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2342	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2341	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2412	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2413	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2411	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2423	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2422	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2421	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2433	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2432	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2431	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2442	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2443	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2441	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2512	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2513	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2511	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2522	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2523	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2521	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2533	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2532	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2531	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2543	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2542	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2541	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2612	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2613	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2611	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2623	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2622	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2621	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2633	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2632	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2631	MEG	magnetometer	1100	350	0	0	SSS	good
+MEG2642	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2643	MEG	planar gradiometer	1100	350	0	0	SSS	good
+MEG2641	MEG	magnetometer	1100	350	0	0	SSS	good
+EEG001	EEG	eeg channel	1100	350	0	0	none	good
+EEG002	EEG	eeg channel	1100	350	0	0	none	good
+EEG003	EEG	eeg channel	1100	350	0	0	none	good
+EEG004	EEG	eeg channel	1100	350	0	0	none	good
+EEG005	EEG	eeg channel	1100	350	0	0	none	good
+EEG006	EEG	eeg channel	1100	350	0	0	none	good
+EEG007	EEG	eeg channel	1100	350	0	0	none	good
+EEG008	EEG	eeg channel	1100	350	0	0	none	good
+EEG009	EEG	eeg channel	1100	350	0	0	none	good
+EEG010	EEG	eeg channel	1100	350	0	0	none	good
+EEG011	EEG	eeg channel	1100	350	0	0	none	good
+EEG012	EEG	eeg channel	1100	350	0	0	none	good
+EEG013	EEG	eeg channel	1100	350	0	0	none	good
+EEG014	EEG	eeg channel	1100	350	0	0	none	good
+EEG015	EEG	eeg channel	1100	350	0	0	none	good
+EEG016	EEG	eeg channel	1100	350	0	0	none	good
+EEG017	EEG	eeg channel	1100	350	0	0	none	good
+EEG018	EEG	eeg channel	1100	350	0	0	none	good
+EEG019	EEG	eeg channel	1100	350	0	0	none	good
+EEG020	EEG	eeg channel	1100	350	0	0	none	good
+EEG021	EEG	eeg channel	1100	350	0	0	none	good
+EEG022	EEG	eeg channel	1100	350	0	0	none	good
+EEG023	EEG	eeg channel	1100	350	0	0	none	good
+EEG024	EEG	eeg channel	1100	350	0	0	none	good
+EEG025	EEG	eeg channel	1100	350	0	0	none	good
+EEG026	EEG	eeg channel	1100	350	0	0	none	good
+EEG027	EEG	eeg channel	1100	350	0	0	none	good
+EEG028	EEG	eeg channel	1100	350	0	0	none	good
+EEG029	EEG	eeg channel	1100	350	0	0	none	good
+EEG030	EEG	eeg channel	1100	350	0	0	none	good
+EEG031	EEG	eeg channel	1100	350	0	0	none	good
+EEG032	EEG	eeg channel	1100	350	0	0	none	good
+EEG033	EEG	eeg channel	1100	350	0	0	none	good
+EEG034	EEG	eeg channel	1100	350	0	0	none	good
+EEG035	EEG	eeg channel	1100	350	0	0	none	good
+EEG036	EEG	eeg channel	1100	350	0	0	none	good
+EEG037	EEG	eeg channel	1100	350	0	0	none	good
+EEG038	EEG	eeg channel	1100	350	0	0	none	good
+EEG039	EEG	eeg channel	1100	350	0	0	none	good
+EEG040	EEG	eeg channel	1100	350	0	0	none	good
+EEG041	EEG	eeg channel	1100	350	0	0	none	good
+EEG042	EEG	eeg channel	1100	350	0	0	none	good
+EEG043	EEG	eeg channel	1100	350	0	0	none	good
+EEG044	EEG	eeg channel	1100	350	0	0	none	good
+EEG045	EEG	eeg channel	1100	350	0	0	none	good
+EEG046	EEG	eeg channel	1100	350	0	0	none	good
+EEG047	EEG	eeg channel	1100	350	0	0	none	good
+EEG048	EEG	eeg channel	1100	350	0	0	none	good
+EEG049	EEG	eeg channel	1100	350	0	0	none	good
+EEG050	EEG	eeg channel	1100	350	0	0	none	good
+EEG051	EEG	eeg channel	1100	350	0	0	none	good
+EEG052	EEG	eeg channel	1100	350	0	0	none	good
+EEG053	EEG	eeg channel	1100	350	0	0	none	good
+EEG054	EEG	eeg channel	1100	350	0	0	none	good
+EEG055	EEG	eeg channel	1100	350	0	0	none	good
+EEG056	EEG	eeg channel	1100	350	0	0	none	good
+EEG057	EEG	eeg channel	1100	350	0	0	none	good
+EEG058	EEG	eeg channel	1100	350	0	0	none	good
+EEG059	EEG	eeg channel	1100	350	0	0	none	good
+EEG060	EEG	eeg channel	1100	350	0	0	none	good
+EEG061	HEOG	horizontal eog	1100	350	0	0	none	good
+EEG062	VEOG	vertical eog	1100	350	0	0	none	good
+EEG063	ECG	cardiac	1100	350	0	0	none	good
+EEG064	EEG	eeg channel	1100	350	0	0	none	good
+EEG065	EEG	eeg channel	1100	350	0	0	none	good
+EEG066	EEG	eeg channel	1100	350	0	0	none	good
+EEG067	EEG	eeg channel	1100	350	0	0	none	good
+EEG068	EEG	eeg channel	1100	350	0	0	none	good
+EEG069	EEG	eeg channel	1100	350	0	0	none	good
+EEG070	EEG	eeg channel	1100	350	0	0	none	good
+EEG071	EEG	eeg channel	1100	350	0	0	none	good
+EEG072	EEG	eeg channel	1100	350	0	0	none	good
+EEG073	EEG	eeg channel	1100	350	0	0	none	good
+EEG074	EEG	eeg channel	1100	350	0	0	none	good
+STI101	TRIG	digital trigger	1100	Inf	0	0	none	good
+STI201	TRIG	other trigger	1100	Inf	0	0	none	good
+STI301	TRIG	other trigger	1100	Inf	0	0	none	good
+MISC201	MISC		1100	Inf	0	0	none	good
+MISC202	MISC		1100	Inf	0	0	none	good
+MISC203	MISC		1100	Inf	0	0	none	good
+MISC204	MISC		1100	Inf	0	0	none	good
+MISC205	MISC		1100	Inf	0	0	none	good
+MISC206	MISC		1100	Inf	0	0	none	good
+MISC301	MISC		1100	Inf	0	0	none	good
+MISC302	MISC		1100	Inf	0	0	none	good
+MISC303	MISC		1100	Inf	0	0	none	good
+MISC304	MISC		1100	Inf	0	0	none	good
+MISC305	MISC		1100	Inf	0	0	none	good
+MISC306	MISC		1100	Inf	0	0	none	good
+CHPI001	MISC		1100	Inf	0	0	none	good
+CHPI002	MISC		1100	Inf	0	0	none	good
+CHPI003	MISC		1100	Inf	0	0	none	good
+CHPI004	MISC		1100	Inf	0	0	none	good
+CHPI005	MISC		1100	Inf	0	0	none	good
+CHPI006	MISC		1100	Inf	0	0	none	good
+CHPI007	MISC		1100	Inf	0	0	none	good
+CHPI008	MISC		1100	Inf	0	0	none	good
+CHPI009	MISC		1100	Inf	0	0	none	good
