@@ -1,7 +1,13 @@
 {
-  "AssociatedAnatomicalMRI": "../anat/sub-0001_T1w.nii",
-  "CoordinateSystem": "brainstorm_mri",
-  "HLCCoordinates": {
+  "MEGCoordinateSystem": "brainstorm_mri",
+  "MEGCoordinateUnits": "",
+  "MEGCoordinateSystemDescription": "Coordinates system used to index voxels in the space of the MRI volume, in millimeters. Axis X: left>right. Axis Y: posterior>anterior. Axis Z: bottom>top. Coordinates of the first voxel at the bottom-left-posterior of the MRI volume: (1,1,1). http://neuroimage.usc.edu/brainstorm/CoordinateSystems",
+  "EEGCoordinateSystem": "",
+  "EEGCoordinateUnits": "",
+  "IntendedFor": "../anat/sub-0001_T1w.nii",
+  "AnatomicalMRICoordinateSystem": "",
+  "AnatomicalMRICoordinateUnits": "",
+  "CoilCoordinates": {
     "NAS": [
       127,
       213,
@@ -18,7 +24,8 @@
       91
     ]
   },
-  "CoordinateSystemDescription": "Coordinates system used to index voxels in the space of the MRI volume, in millimeters. Axis X: left>right. Axis Y: posterior>anterior. Axis Z: bottom>top. Coordinates of the first voxel at the bottom-left-posterior of the MRI volume: (1,1,1). http://neuroimage.usc.edu/brainstorm/CoordinateSystems",
+  "CoilCoordinateSystem": "",
+  "CoilCoordinateUnits": "",
   "LandmarkCoordinates": {
     "AC": [
       127,
@@ -35,5 +42,8 @@
       114,
       206
     ]
-  }
+  },
+  "LandmarkCoordinateSystem": "",
+  "LandmarkCoordinateUnits": ""
+
 }
