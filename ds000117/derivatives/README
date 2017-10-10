@@ -1,9 +1,0 @@
-MEG_data
-________
-Each subject directory contains the following files:
-
-- A text file log of the sss maxfilter command output: 
-sub-*_ses-meg_task-facerecognition_run-*_proc-sss_meg_log.txt.
-
-- The maxfiltered .fif files using the "trans default" option:
-sub-*_ses-meg_task-facerecognition_trans.fif
