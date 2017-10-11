@@ -25,5 +25,5 @@
     "SubjectArtefact": False,
     "DigitizedLandmarks": True,
     "DigitizedHeadPoints": True,
-    "SoftwareFilters": {"SpatialCompensation": {"None"}}
+    "SoftwareFilters": {"SSS": {"frame": "head", "bad": “0.05”, “tSSS”: {“buffer” : “10”, “correl” : “0.98”}, “linefreq”: “50”, “hpisubt”: “amp”, “movecomp” : “inter”, “hpistep” : “10”, “trans” : “run4”}
 }
