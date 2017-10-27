@@ -3,12 +3,31 @@
  "AnatomicalMRICoordinateSystem": "other",
  "AnatomicalMRICoordinateUnits": "mm",
  "CoilCoordinates": {
-  "Nasion": [-0.4,107.3,1.5],
-  "LPA": [-71,22.8,-38.2],
-  "RPA": [69.7,21.6,-41.4]
+   "coil1": [16.802274, 92.591077, 64.022787],
+   "coil2": [65.257490, 28.023511, 85.124686],
+   "coil3": [15.960870, -73.854014, 97.597733],
+   "coil4": [-8.839432, 24.243265, 123.167321],
+   "coil5": [-61.167873, -5.739406, 96.478961]
  },
- "CoilCoordinateSystem": "native",
+ "CoilCoordinateSystem": "Elekta/Neuromag",
  "CoilCoordinateUnits": "mm",
- "MEGCoordinatesUnits": "mm",
- "LandmarkCoordinateUnits": "mm"
+ "CoilCoordinateSystemDescription": "5 HPI coils used",
+ "LandmarkCoordinates": {
+   "LPA": [-64.837754, 0.000015, -0.000001],
+   "NAS": [-0.000001, 95.175326, -0.000000],
+   "RPA": [68.526559, 0.000000, -0.000001]
+ },
+ "LandmarkCoordinateUnits": "mm",
+ "LandmarkCoordinateSystem": "Elekta/Neuromag",
+ "LandmarkCoordinateSystemDescription": "For images of anatomical landmarks, see http://imaging.mrc-cbu.cam.ac.uk/meg/SubjectPreparation",
+ "MEGCoordinateSystem": "Neuromag/Elekta",
+ "MEGCoordinateUnits": "mm",
+ "MEGCoordinateSystemDescription": "VectorView: 102 Magnetometers, 204 Planar Gradiometers",
+ "EEGCoordinateSystem": "Elekta/Neuromag",
+ "EEGCoordinateUnits": "mm",
+ "EEGCoordinateSystemDescription": "70 Easycap sites, roughly corresponding to extended 10-20 system: see http://imaging.mrc-cbu.cam.ac.uk/meg/VectorviewDescription#EEGlabels",
+ "DigitizedHeadPoints": "sub-14_ses-meg_headshape.pos",
+ "DigitizedHeadPointsCoordinateSystem": "Elekta/Neuromag",
+ "DigitizedHeadPointsCoordinateUnits": "mm",
+ "DigitizedHeadPointsCoordinateSystemDescription": "Headpoints include arcs of points along front of head and around nose, as well as centre of 70 EEG electrodes spread across scalp, which also help define headshape. Beware that nose points can bias coregistration with MRI if MRI image does not include all of the nose."
 }
