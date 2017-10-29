@@ -1,6 +1,6 @@
 {
  "IntendedFor": "ses-mri/anat/sub-11_ses-mri_acq-mprage_T1w.nii",
- "AnatomicalMRICoordinateSystem": "other",
+ "AnatomicalMRICoordinateSystem": "NIfTI",
  "AnatomicalMRICoordinateUnits": "mm",
  "CoilCoordinates": {
    "coil1": [66.025078, -6.711707, 85.921310],
