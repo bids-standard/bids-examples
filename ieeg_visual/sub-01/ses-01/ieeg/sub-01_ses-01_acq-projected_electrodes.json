@@ -2,7 +2,7 @@
     "iEEGCoordinateSystem": "mri",
     "iEEGCoordinateUnits": "mm",
     "iEEGCoordinateProcessingDescripton": "surface_projection",
-    "IntendedFor": "/anat/sub-01_T1w_pial.R.surf.gii",
+    "IntendedFor": "/ses-01/anat/sub-01_T1w.nii",
     "AssociatedImageCoordinateSystem": "native-acpc",
     "AssociatedImageCoordinateUnits": "mm",
     "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth",
