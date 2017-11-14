@@ -23,7 +23,7 @@
 	},
 	"RecordingDuration": 30,
 	"RecordingType": "continuous",
-	"EpochLength": null,
+	"EpochLength": 0,
 	"ContinuousHeadLocalization": false,
 	"DigitizedLandmarks": false,
 	"DigitizedHeadPoints": false
