@@ -34,3 +34,4 @@ measured right ear coil position relative to head (cm):
 	x = 0
 	y = -8
 	z = 0
+

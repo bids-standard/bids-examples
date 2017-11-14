@@ -1,5 +1,5 @@
 PATH OF DATASET:
-/home/meg/MEG_data/20131218/S01_Noise_20131218_01.ds
+/home/meg/sub-emptyroom_task-noise_run01_meg.ds
 
 
 NUMBER OF CLASSES:
@@ -11,7 +11,7 @@ CLASSGROUPID:
 NAME:
 BAD
 COMMENT:
-Generic bad trial classification
+
 COLOR:
 Red
 EDITABLE:
