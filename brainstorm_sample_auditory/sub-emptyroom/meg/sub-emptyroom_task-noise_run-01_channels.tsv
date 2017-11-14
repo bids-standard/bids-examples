@@ -1,7 +1,4 @@
 name	type	description	sampling_frequency	low_cutoff	high_cutoff	notch	software_filters	status
-UDIO001	TRIG	Stimulus markers	2400	0	0	0	none	good
-UPPT001	TRIG	Stimulus markers	2400	0	0	0	none	good
-UTRG001	TRIG	Stimulus markers	2400	0	0	0	none	good
 SCLK01-177	SysClock	System time showing elapsed time since trial started	2400	0	600	0	none	good
 BG1-4408	MEGREF MAG	Reference magnetometer channel	2400	0	600	0	none	good
 BG2-4408	MEGREF MAG	Reference magnetometer channel	2400	0	600	0	none	good
@@ -300,6 +297,9 @@ MZF01-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0
 MZF02-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
 MZF03-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
 MZO01-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
+MZO02-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
+MZO03-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
+MZP01-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
 MZO02-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
 MZO03-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
 MZP01-4408	MEG	Sensor 1st-order gradiometer channel located in head shell	2400	0	600	0	SpatialCompensation	good
