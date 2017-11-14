@@ -1,0 +1,39 @@
+{
+  "AssociatedAnatomicalMRI": "../anat/sub-0001_T1w.nii",
+  "CoordinateSystem": "brainstorm_mri",
+  "HLCCoordinates": {
+    "NAS": [
+      127,
+      213,
+      139
+    ],
+    "LPA": [
+      52,
+      113,
+      96
+    ],
+    "RPA": [
+      202,
+      113,
+      91
+    ]
+  },
+  "CoordinateSystemDescription": "Coordinates system used to index voxels in the space of the MRI volume, in millimeters. Axis X: left>right. Axis Y: posterior>anterior. Axis Z: bottom>top. Coordinates of the first voxel at the bottom-left-posterior of the MRI volume: (1,1,1). http://neuroimage.usc.edu/brainstorm/CoordinateSystems",
+  "LandmarkCoordinates": {
+    "AC": [
+      127,
+      119,
+      149
+    ],
+    "PC": [
+      128,
+      93,
+      141
+    ],
+    "IH": [
+      131,
+      114,
+      206
+    ]
+  }
+}

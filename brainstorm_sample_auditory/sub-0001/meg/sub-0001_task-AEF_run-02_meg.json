@@ -1,0 +1,42 @@
+{
+  "TaskName": "AEF",
+  "SamplingFrequency": 2400,
+  "Manufaturer": "CTF",
+  "ManufacturerModelName": "CTF-275",
+  "MEGChannelCount": 274,
+  "MEGREFChannelCount": 26,
+  "EEGChannelCount": 2,
+  "EOGChannelCount": 2,
+  "ECGChannelCount": 1,
+  "EMGChannelCount": 0,
+  
+  "PowerLineFrequency": 60,
+  "EEGPlacementScheme": [
+    "Cz",
+    "Pz"
+  ],
+  "EEGReference": "",
+  "MEGPosition": "upright",
+  "OnlineFilters": "",
+  "SoftwareFilters": "",  
+  "AssociatedAnatomicalMRI": "../anat/sub-0001_T1w.nii",
+  "RecordingStart": "",
+  "RecordingDuration": "",
+  "RecordingType": "continuous",
+  "EpochLength": 0,
+  "TriggerChannels":{};
+  "MiscChannels":{}; 
+  "BadChannels":{}; 
+  "DeviceSoftwareVersion": "Acq 5.4.2-linux-20070507",
+  "TaskInstructions":""; 
+  "TaskDescription": "Subject stimulated binaurally with intra-aural earphones (air tubes+transducers). Each run contains 200 regular beeps (440Hz) and 40 easy deviant beeps (554.4Hz, 4 semitones higher). Random inter-stimulus interval between 0.7s and 1.7s seconds, uniformly distributed. The subject presses a button when detecting a deviant with the right index finger.",
+  "RestingState": false;
+  "EyesClosed": false,
+  "ContinuousHeadLocalization": true,
+  "HLCFrequency": "",
+  "MaxMovement":{};
+  "SubjectArtefact": false,
+  "SubjectArtefactDescription":{};
+  "DigitizedLandmarks": true
+  "DigitisedHeadPoints": true
+}
