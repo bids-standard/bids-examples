@@ -1,14 +1,10 @@
 {
     "TaskName": "visual",
     "Manufacturer": "Tucker Davis Technologies",
-    "ManufacturersModelName": "",
     "TaskDescription": "visual gratings and noise patterns",
     "Instructions": "look at the dot in the center of the screen and press the button when it changes color",
-    "CogAtlasID": "",
-    "CogPOID": "",
     "InstitutionName": "Stanford Hospital and Clinics",
     "InstitutionAddress": "300 Pasteur Dr, Stanford, CA 94305",
-    "DeviceSerialNumber": "",
     "EEGChannelCount": 0,
     "EOGChannelCount": 0,
     "ECGChannelCount": 0,
@@ -19,12 +15,8 @@
     "RecordingDuration": 233.639,
     "RecordingType": "continuous",
     "EpochLength": 0,
-    "DeviceSoftwareVersion": "",
-    "SubjectArtefactDescription": "",
     "iEEGSurfChannelCount": 118,
     "iEEGDepthChannelCount": 0,
     "iEEGPlacementScheme": "right occipital temporal surface",
-    "iEEGReferenceScheme": "intracranial channel not included with data",
-    "StimulationParameters": "",
-    "Medication": ""
+    "iEEGReferenceScheme": "intracranial channel not included with data"
 }
