@@ -1,12 +1,33 @@
 {
  "IntendedFor": "ses-mri/anat/sub-06_ses-mri_acq-mprage_T1w.nii",
- "AnatomicalMRICoordinateSystem": "other",
+ "AnatomicalMRICoordinateSystem": "NIfTI",
  "AnatomicalMRICoordinateUnits": "mm",
  "CoilCoordinates": {
-  "Nasion": [1.9,121.9,1.9],
-  "LPA": [-73,25,-34.2],
-  "RPA": [80.90000000000001,34.2,-40.2]
+   "coil1": [-71.887806, -6.219566, 97.365767],
+   "coil2": [-18.298184, -17.281324, 136.501655],
+   "coil3": [1.485580, -90.481952, 75.191922],
+   "coil4": [68.025224, 5.637407, 96.456297],
+   "coil5": [9.897565, 82.719922, 103.082269]
  },
- "CoilCoordinateSystem": "native",
- "CoilCoordinateUnits": "mm"
+ "CoilCoordinateSystem": "Elekta/Neuromag",
+ "CoilCoordinateUnits": "mm",
+ "CoilCoordinateSystemDescription": "5 HPI coils used",
+ "LandmarkCoordinates": {
+   "LPA": [-75.957887, 0.000009, 0.000012],
+   "NAS": [-0.000001, 100.756489, 0.000011],
+   "RPA": [73.209003, 0.000007, 0.000013]
+ },
+ "LandmarkCoordinateUnits": "mm",
+ "LandmarkCoordinateSystem": "Elekta/Neuromag",
+ "LandmarkCoordinateSystemDescription": "For images of anatomical landmarks, see http://imaging.mrc-cbu.cam.ac.uk/meg/SubjectPreparation",
+ "MEGCoordinateSystem": "Neuromag/Elekta",
+ "MEGCoordinateUnits": "mm",
+ "MEGCoordinateSystemDescription": "VectorView: 102 Magnetometers, 204 Planar Gradiometers",
+ "EEGCoordinateSystem": "Elekta/Neuromag",
+ "EEGCoordinateUnits": "mm",
+ "EEGCoordinateSystemDescription": "70 Easycap sites, roughly corresponding to extended 10-20 system: see http://imaging.mrc-cbu.cam.ac.uk/meg/VectorviewDescription#EEGlabels",
+ "DigitizedHeadPoints": "sub-06_ses-meg_headshape.pos",
+ "DigitizedHeadPointsCoordinateSystem": "Elekta/Neuromag",
+ "DigitizedHeadPointsCoordinateUnits": "mm",
+ "DigitizedHeadPointsCoordinateSystemDescription": "Headpoints include arcs of points along front of head and around nose, as well as centre of 70 EEG electrodes spread across scalp, which also help define headshape. Beware that nose points can bias coregistration with MRI if MRI image does not include all of the nose."
 }

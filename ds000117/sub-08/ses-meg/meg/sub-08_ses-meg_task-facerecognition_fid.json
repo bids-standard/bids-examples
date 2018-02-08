@@ -1,12 +1,33 @@
 {
  "IntendedFor": "ses-mri/anat/sub-08_ses-mri_acq-mprage_T1w.nii",
- "AnatomicalMRICoordinateSystem": "other",
+ "AnatomicalMRICoordinateSystem": "NIfTI",
  "AnatomicalMRICoordinateUnits": "mm",
  "CoilCoordinates": {
-  "Nasion": [-3.8,104,-35.8],
-  "LPA": [-75.2,20.2,-66.90000000000001],
-  "RPA": [71.2,17.2,-56.3]
+   "coil1": [71.482487, -1.564324, 87.622993],
+   "coil2": [31.822134, 73.605180, 87.977841],
+   "coil3": [-7.347062, -22.999674, 129.338250],
+   "coil4": [-66.005513, -16.875893, 89.891344],
+   "coil5": [18.335775, -88.998899, 59.319738]
  },
- "CoilCoordinateSystem": "native",
- "CoilCoordinateUnits": "mm"
+ "CoilCoordinateSystem": "Elekta/Neuromag",
+ "CoilCoordinateUnits": "mm",
+ "CoilCoordinateSystemDescription": "5 HPI coils used",
+ "LandmarkCoordinates": {
+   "LPA": [-69.531031, -0.000003, -0.000000],
+   "NAS": [-0.000004, 91.440633, 0.000003],
+   "RPA": [69.755882, 0.000002, -0.000002]
+ },
+ "LandmarkCoordinateUnits": "mm",
+ "LandmarkCoordinateSystem": "Elekta/Neuromag",
+ "LandmarkCoordinateSystemDescription": "For images of anatomical landmarks, see http://imaging.mrc-cbu.cam.ac.uk/meg/SubjectPreparation",
+ "MEGCoordinateSystem": "Neuromag/Elekta",
+ "MEGCoordinateUnits": "mm",
+ "MEGCoordinateSystemDescription": "VectorView: 102 Magnetometers, 204 Planar Gradiometers",
+ "EEGCoordinateSystem": "Elekta/Neuromag",
+ "EEGCoordinateUnits": "mm",
+ "EEGCoordinateSystemDescription": "70 Easycap sites, roughly corresponding to extended 10-20 system: see http://imaging.mrc-cbu.cam.ac.uk/meg/VectorviewDescription#EEGlabels",
+ "DigitizedHeadPoints": "sub-08_ses-meg_headshape.pos",
+ "DigitizedHeadPointsCoordinateSystem": "Elekta/Neuromag",
+ "DigitizedHeadPointsCoordinateUnits": "mm",
+ "DigitizedHeadPointsCoordinateSystemDescription": "Headpoints include arcs of points along front of head and around nose, as well as centre of 70 EEG electrodes spread across scalp, which also help define headshape. Beware that nose points can bias coregistration with MRI if MRI image does not include all of the nose."
 }

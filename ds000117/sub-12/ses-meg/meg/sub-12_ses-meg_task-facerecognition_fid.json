@@ -1,12 +1,33 @@
 {
  "IntendedFor": "ses-mri/anat/sub-12_ses-mri_acq-mprage_T1w.nii",
- "AnatomicalMRICoordinateSystem": "other",
+ "AnatomicalMRICoordinateSystem": "NIfTI",
  "AnatomicalMRICoordinateUnits": "mm",
  "CoilCoordinates": {
-  "Nasion": [3.2,103.7,-1.5],
-  "LPA": [-74.40000000000001,25.6,-35.8],
-  "RPA": [74.09999999999999,13.6,-38.1]
+   "coil1": [-19.049672, -10.799943, 131.813437],
+   "coil2": [66.851117, 35.211593, 81.893817],
+   "coil3": [18.130884, 92.649668, 69.385841],
+   "coil4": [12.362640, -92.089817, 45.167182],
+   "coil5": [-67.914926, -0.631034, 94.245508]
  },
- "CoilCoordinateSystem": "native",
- "CoilCoordinateUnits": "mm"
+ "CoilCoordinateSystem": "Elekta/Neuromag",
+ "CoilCoordinateUnits": "mm",
+ "CoilCoordinateSystemDescription": "5 HPI coils used",
+ "LandmarkCoordinates": {
+   "LPA": [-72.041310, 0.000019, -0.000001],
+   "NAS": [-0.000002, 93.568109, -0.000004],
+   "RPA": [70.207164, 0.000016, -0.000003]
+ },
+ "LandmarkCoordinateUnits": "mm",
+ "LandmarkCoordinateSystem": "Elekta/Neuromag",
+ "LandmarkCoordinateSystemDescription": "For images of anatomical landmarks, see http://imaging.mrc-cbu.cam.ac.uk/meg/SubjectPreparation",
+ "MEGCoordinateSystem": "Neuromag/Elekta",
+ "MEGCoordinateUnits": "mm",
+ "MEGCoordinateSystemDescription": "VectorView: 102 Magnetometers, 204 Planar Gradiometers",
+ "EEGCoordinateSystem": "Elekta/Neuromag",
+ "EEGCoordinateUnits": "mm",
+ "EEGCoordinateSystemDescription": "70 Easycap sites, roughly corresponding to extended 10-20 system: see http://imaging.mrc-cbu.cam.ac.uk/meg/VectorviewDescription#EEGlabels",
+ "DigitizedHeadPoints": "sub-12_ses-meg_headshape.pos",
+ "DigitizedHeadPointsCoordinateSystem": "Elekta/Neuromag",
+ "DigitizedHeadPointsCoordinateUnits": "mm",
+ "DigitizedHeadPointsCoordinateSystemDescription": "Headpoints include arcs of points along front of head and around nose, as well as centre of 70 EEG electrodes spread across scalp, which also help define headshape. Beware that nose points can bias coregistration with MRI if MRI image does not include all of the nose."
 }
