@@ -1,0 +1,26 @@
+PATH OF DATASET:
+/home/meg/sample_BIDS_omega/sub-0002/ses-0001/meg/sub-0002_ses-0001_task-rest_run-01_meg.ds
+
+
+NUMBER OF CLASSES:
+1
+
+
+CLASSGROUPID:
+3
+NAME:
+BAD
+COMMENT:
+
+COLOR:
+Red
+EDITABLE:
+Yes
+CLASSID:
+1
+NUMBER OF TRIALS:
+0
+LIST OF TRIALS:
+TRIAL NUMBER
+
+

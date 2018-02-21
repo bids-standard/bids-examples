@@ -1,0 +1,19 @@
+{
+  "Name": "MEG-BIDS OMEGA sample",
+  "BIDSVersion": "1.0.2",
+  "License": "CC0",
+  "Authors": [
+    "Guiomar Niso",
+    "Jeremy Moreau",
+    "Elizabeth Bock",
+    "Francois Tadel",
+    "Sylvain Baillet"
+  ],
+  "HowToAcknowledge": "You are free to use all data in OMEGA for research purposes; please aknowledge its authors and cite the following reference in your publications if you have used data from OMEGA: Niso G, Rogers C, Moreau JT, Chen LY, Madjar C, Das S, Bock E, Tadel F, Evans A, Jolicoeur P, Baillet S. OMEGA: The Open MEG Archive. Neuroimage. 2015; Available from: http://dx.doi.org/10.1016/j.neuroimage.2015.04.028. And please include the following message: 'This data was obtained from the OpenfMRI database. Its accession number is ds000247'",
+  "Funding": ["Quebec Bioimaging Network Strategic Initiative (QBIN 5886)"],
+  "ReferencesAndLinks": [
+    "Niso G, Rogers C, Moreau JT, Chen LY, Madjar C, Das S, Bock E, Tadel F, Evans A, Jolicoeur P, Baillet S. OMEGA: The Open MEG Archive. Neuroimage. 2015; Available from: http://dx.doi.org/10.1016/j.neuroimage.2015.04.028",
+    "https://openfmri.org/dataset/ds000247/", 
+    "https://www.mcgill.ca/bic/resources/omega"
+  ]
+}

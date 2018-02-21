@@ -82,3 +82,32 @@ When correcting of delay #1, the process we use to detect the beginning of the t
 [3]: http://neuroimage.usc.edu/brainstorm/Tutorials/TutDigitize
 [4]: http://neuroimage.usc.edu/brainstorm/CoordinateSystems#Pre-auricular_points_.28LPA.2C_RPA.29
 [5]: http://neuroimage.usc.edu/brainstorm/Tutorials/Auditory
+
+
+### Comments added by Openfmri Curators ###
+===========================================
+
+General Comments
+----------------
+
+
+Defacing
+--------
+Pydeface was used on all anatomical images to ensure de-identification of subjects. The code
+can be found at https://github.com/poldracklab/pydeface
+
+Quality Control
+---------------
+MRIQC was run on the dataset. Results are located in derivatives/mriqc. Learn more about it here: https://mriqc.readthedocs.io/en/stable/
+
+Where to discuss the dataset
+----------------------------
+1) www.openfmri.org/dataset/ds000246/ See the comments section at the bottom of the dataset
+page.
+2) www.neurostars.org Please tag any discussion topics with the tags openfmri and ds000246.
+3) Send an email to submissions@openfmri.org. Please include the accession number in
+your email.
+
+Known Issues
+------------
+
