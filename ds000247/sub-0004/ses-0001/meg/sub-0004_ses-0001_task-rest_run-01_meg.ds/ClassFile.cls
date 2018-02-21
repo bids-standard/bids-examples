@@ -1,5 +1,5 @@
 PATH OF DATASET:
-/home/meg/sub-emptyroom_task-noise_run01_meg.ds
+/home/meg/sample_BIDS_omega/sub-0004/ses-0001/meg/sub-0004_ses-0001_task-rest_run-01_meg.ds
 
 
 NUMBER OF CLASSES:
