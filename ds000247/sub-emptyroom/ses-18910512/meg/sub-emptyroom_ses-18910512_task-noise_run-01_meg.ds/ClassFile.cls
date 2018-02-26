@@ -1,0 +1,26 @@
+PATH OF DATASET:
+/home/meg/OMEGA/sub-emptyroom/ses-4/sub-emptyroom_ses-20130527_task-noise_run-01_meg.ds
+
+
+NUMBER OF CLASSES:
+1
+
+
+CLASSGROUPID:
+3
+NAME:
+BAD
+COMMENT:
+
+COLOR:
+Red
+EDITABLE:
+Yes
+CLASSID:
+1
+NUMBER OF TRIALS:
+0
+LIST OF TRIALS:
+TRIAL NUMBER
+
+
