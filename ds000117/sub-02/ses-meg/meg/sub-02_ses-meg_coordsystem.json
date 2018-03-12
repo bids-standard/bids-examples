@@ -1,7 +1,5 @@
 {
  "IntendedFor": "ses-mri/anat/sub-02_ses-mri_acq-mprage_T1w.nii",
- "AnatomicalMRICoordinateSystem": "NIfTI",
- "AnatomicalMRICoordinateUnits": "mm",
  "CoilCoordinates": {
    "coil1": [71.232490, 13.627230, 91.294631],
    "coil2": [16.225291, -85.930645, 74.589014],
@@ -9,9 +7,9 @@
    "coil4": [-12.606272, 86.735755, 93.681544],
    "coil5": [-71.436286, -2.527088, 90.648063]
  },
- "CoilCoordinateSystem": "Elekta/Neuromag",
- "CoilCoordinateUnits": "mm",
- "CoilCoordinateSystemDescription": "5 HPI coils used",
+ "HeadCoilCoordinateSystem": "Elekta/Neuromag",
+ "HeadCoilCoordinateUnits": "mm",
+ "HeadCoilCoordinateSystemDescription": "5 HPI coils used",
  "LandmarkCoordinates": {
    "LPA": [-69.659315, 0.000001, -0.000003],
    "NAS": [-0.000001, 102.820575, 0.000006],
