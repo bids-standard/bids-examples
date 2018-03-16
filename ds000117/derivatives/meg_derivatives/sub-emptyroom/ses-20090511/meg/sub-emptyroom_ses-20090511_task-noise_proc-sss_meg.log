@@ -1,0 +1,1249 @@
+************************************************************
+*** This is Elekta Neuromag MaxFilter(TM) version 2.2.10  ***
+*** Compilation date: Oct 11 2010 14:45:43               ***
+*** Please report problems to sw-support@neuromag.fi     ***
+************************************************************
+
+=== Processing history ===
+--- Record #1 ---
+Date: Tue Aug 28 06:27:07 111447032
+Experimenter: collector
+MaxShield was applied.
+=== End of processing history ===
+
+SSS origin (device) 0.0, 0.0, 0.0 mm.
+Time scale: #f = 95.000 s, #l = 402.000 s  (initial skip #s = 95.000 s)
+Applying the fine-calibration in /neuro/databases/sss/sss_cal.dat.
+Using the cross-talk matrix in /neuro/databases/ctc/ct_sparse.fif.
+Opened FIFF file /imaging/rh01/Methods/DanData/RawFIF/EmptyRoom/090511.fif (307 data buffers).
+Started result FIFF file /imaging/rh01/Methods/DanData/RawFIF/EmptyRoom/090511_sss.fif.
+Signal Space Separation: Maxwell filtering for Elekta Neuromag MaxShield data.
+Found 321 total and 306 MEG channels.
+SSS: 68/80 inside and 12/15 outside harmonic components.
+CTC: Channel lists of the (306 x 306) matrix OK.
+Scanning bad channels #1/307[5D2/307[5D3/307[5D4/307[5D5/307[5D6/307[5D7/307[5D8/307[5D9/307[5D10/307[6D11/307[6D12/307[6D13/307[6D14/307[6D15/307[6D16/307[6D17/307[6D18/307[6D19/307[6D20/307[6D21/307[6D22/307[6D23/307[6D24/307[6D25/307[6D26/307[6D27/307[6D28/307[6D29/307[6D30/307[6D31/307[6D32/307[6D33/307[6D34/307[6D35/307[6D36/307[6D37/307[6D38/307[6D39/307[6D40/307[6D41/307[6D42/307[6D43/307[6D44/307[6D45/307[6D46/307[6D47/307[6D48/307[6D49/307[6D50/307[6D51/307[6D52/307[6D53/307[6D54/307[6D55/307[6D56/307[6D57/307[6D58/307[6D59/307[6D60/307[7D248/307[7D249/307[7D250/307[7D251/307[7D252/307[7D253/307[7D254/307[7D255/307[7D256/307[7D257/307[7D258/307[7D259/307[7D260/307[7D261/307[7D262/307[7D263/307[7D264/307[7D265/307[7D266/307[7D267/307[7D268/307[7D269/307[7D270/307[7D271/307[7D272/307[7D273/307[7D274/307[7D275/307[7D276/307[7D277/307[7D278/307[7D279/307[7D280/307[7D281/307[7D282/307[7D283/307[7D284/307[7D285/307[7D286/307[7D287/307[7D288/307[7D289/307[7D290/307[7D291/307[7D292/307[7D293/307[7D294/307[7D295/307[7D296/307[7D297/307[7D298/307[7D299/307[7D300/307[7D301/307[7D302/307[7D303/307[7D304/307[7D305/307[7D306/307[7D307/307
+Autobad scan found 0 bad channels.
+All channels OK.
+--- Reading raw tag #b = 1/307 (#t = 95.000) ---
+--- Reading raw tag #b = 2/307 (#t = 96.000) ---
+--- Reading raw tag #b = 3/307 (#t = 97.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 4/307 (#t = 98.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 5/307 (#t = 99.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 6/307 (#t = 100.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 7/307 (#t = 101.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 8/307 (#t = 102.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 9/307 (#t = 103.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 10/307 (#t = 104.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 11/307 (#t = 105.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 12/307 (#t = 106.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 13/307 (#t = 107.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 14/307 (#t = 108.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 15/307 (#t = 109.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 16/307 (#t = 110.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 17/307 (#t = 111.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 18/307 (#t = 112.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 19/307 (#t = 113.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 20/307 (#t = 114.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 21/307 (#t = 115.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 22/307 (#t = 116.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 23/307 (#t = 117.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 24/307 (#t = 118.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 25/307 (#t = 119.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 26/307 (#t = 120.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 27/307 (#t = 121.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 28/307 (#t = 122.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 29/307 (#t = 123.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 30/307 (#t = 124.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 31/307 (#t = 125.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 32/307 (#t = 126.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 33/307 (#t = 127.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 34/307 (#t = 128.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 35/307 (#t = 129.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 36/307 (#t = 130.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 37/307 (#t = 131.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 38/307 (#t = 132.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 39/307 (#t = 133.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 40/307 (#t = 134.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 41/307 (#t = 135.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 42/307 (#t = 136.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 43/307 (#t = 137.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 44/307 (#t = 138.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 45/307 (#t = 139.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 46/307 (#t = 140.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 47/307 (#t = 141.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 48/307 (#t = 142.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 49/307 (#t = 143.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 50/307 (#t = 144.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 51/307 (#t = 145.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 52/307 (#t = 146.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 53/307 (#t = 147.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 54/307 (#t = 148.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 55/307 (#t = 149.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 56/307 (#t = 150.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 57/307 (#t = 151.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 58/307 (#t = 152.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 59/307 (#t = 153.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 60/307 (#t = 154.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 61/307 (#t = 155.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 62/307 (#t = 156.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 63/307 (#t = 157.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 64/307 (#t = 158.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 65/307 (#t = 159.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 66/307 (#t = 160.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 67/307 (#t = 161.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 68/307 (#t = 162.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 69/307 (#t = 163.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 70/307 (#t = 164.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 71/307 (#t = 165.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 72/307 (#t = 166.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 73/307 (#t = 167.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 74/307 (#t = 168.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 75/307 (#t = 169.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 76/307 (#t = 170.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 77/307 (#t = 171.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 78/307 (#t = 172.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 79/307 (#t = 173.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 80/307 (#t = 174.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 81/307 (#t = 175.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 82/307 (#t = 176.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 83/307 (#t = 177.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 84/307 (#t = 178.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 85/307 (#t = 179.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 86/307 (#t = 180.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 87/307 (#t = 181.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 88/307 (#t = 182.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 89/307 (#t = 183.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 90/307 (#t = 184.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 91/307 (#t = 185.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 92/307 (#t = 186.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 93/307 (#t = 187.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 94/307 (#t = 188.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 95/307 (#t = 189.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 96/307 (#t = 190.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 97/307 (#t = 191.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 98/307 (#t = 192.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 99/307 (#t = 193.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 100/307 (#t = 194.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 101/307 (#t = 195.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 102/307 (#t = 196.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 103/307 (#t = 197.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 104/307 (#t = 198.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 105/307 (#t = 199.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 106/307 (#t = 200.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 107/307 (#t = 201.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 108/307 (#t = 202.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 109/307 (#t = 203.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 110/307 (#t = 204.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 111/307 (#t = 205.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 112/307 (#t = 206.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 113/307 (#t = 207.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 114/307 (#t = 208.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 115/307 (#t = 209.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 116/307 (#t = 210.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 117/307 (#t = 211.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 118/307 (#t = 212.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 119/307 (#t = 213.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 120/307 (#t = 214.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 121/307 (#t = 215.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 122/307 (#t = 216.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 123/307 (#t = 217.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 124/307 (#t = 218.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 125/307 (#t = 219.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 126/307 (#t = 220.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 127/307 (#t = 221.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 128/307 (#t = 222.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 129/307 (#t = 223.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 130/307 (#t = 224.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 131/307 (#t = 225.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 132/307 (#t = 226.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 133/307 (#t = 227.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 134/307 (#t = 228.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 135/307 (#t = 229.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 136/307 (#t = 230.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 137/307 (#t = 231.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 138/307 (#t = 232.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 139/307 (#t = 233.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 140/307 (#t = 234.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 141/307 (#t = 235.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 142/307 (#t = 236.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 143/307 (#t = 237.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 144/307 (#t = 238.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 145/307 (#t = 239.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 146/307 (#t = 240.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 147/307 (#t = 241.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 148/307 (#t = 242.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 149/307 (#t = 243.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 150/307 (#t = 244.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 151/307 (#t = 245.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 152/307 (#t = 246.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 153/307 (#t = 247.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 154/307 (#t = 248.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 155/307 (#t = 249.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 156/307 (#t = 250.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 157/307 (#t = 251.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 158/307 (#t = 252.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 159/307 (#t = 253.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 160/307 (#t = 254.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 161/307 (#t = 255.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 162/307 (#t = 256.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 163/307 (#t = 257.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 164/307 (#t = 258.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 165/307 (#t = 259.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 166/307 (#t = 260.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 167/307 (#t = 261.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 168/307 (#t = 262.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 169/307 (#t = 263.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 170/307 (#t = 264.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 171/307 (#t = 265.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 172/307 (#t = 266.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 173/307 (#t = 267.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 174/307 (#t = 268.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 175/307 (#t = 269.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 176/307 (#t = 270.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 177/307 (#t = 271.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 178/307 (#t = 272.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 179/307 (#t = 273.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 180/307 (#t = 274.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 181/307 (#t = 275.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 182/307 (#t = 276.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 183/307 (#t = 277.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 184/307 (#t = 278.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 185/307 (#t = 279.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 186/307 (#t = 280.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 187/307 (#t = 281.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 188/307 (#t = 282.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 189/307 (#t = 283.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 190/307 (#t = 284.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 191/307 (#t = 285.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 192/307 (#t = 286.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 193/307 (#t = 287.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 194/307 (#t = 288.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 195/307 (#t = 289.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 196/307 (#t = 290.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 197/307 (#t = 291.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 198/307 (#t = 292.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 199/307 (#t = 293.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 200/307 (#t = 294.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 201/307 (#t = 295.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 202/307 (#t = 296.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 203/307 (#t = 297.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 204/307 (#t = 298.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 205/307 (#t = 299.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 206/307 (#t = 300.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 207/307 (#t = 301.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 208/307 (#t = 302.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 209/307 (#t = 303.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 210/307 (#t = 304.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 211/307 (#t = 305.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 212/307 (#t = 306.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 213/307 (#t = 307.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 214/307 (#t = 308.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 215/307 (#t = 309.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 216/307 (#t = 310.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 217/307 (#t = 311.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 218/307 (#t = 312.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 219/307 (#t = 313.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 220/307 (#t = 314.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 221/307 (#t = 315.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 222/307 (#t = 316.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 223/307 (#t = 317.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 224/307 (#t = 318.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 225/307 (#t = 319.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 226/307 (#t = 320.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 227/307 (#t = 321.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 228/307 (#t = 322.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 229/307 (#t = 323.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 230/307 (#t = 324.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 231/307 (#t = 325.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 232/307 (#t = 326.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 233/307 (#t = 327.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 234/307 (#t = 328.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 235/307 (#t = 329.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 236/307 (#t = 330.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 237/307 (#t = 331.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 238/307 (#t = 332.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 239/307 (#t = 333.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 240/307 (#t = 334.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 241/307 (#t = 335.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 242/307 (#t = 336.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 243/307 (#t = 337.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 244/307 (#t = 338.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 245/307 (#t = 339.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 246/307 (#t = 340.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 247/307 (#t = 341.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 248/307 (#t = 342.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 249/307 (#t = 343.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 250/307 (#t = 344.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 251/307 (#t = 345.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 252/307 (#t = 346.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 253/307 (#t = 347.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 254/307 (#t = 348.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 255/307 (#t = 349.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 256/307 (#t = 350.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 257/307 (#t = 351.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 258/307 (#t = 352.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 259/307 (#t = 353.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 260/307 (#t = 354.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 261/307 (#t = 355.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 262/307 (#t = 356.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 263/307 (#t = 357.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 264/307 (#t = 358.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 265/307 (#t = 359.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 266/307 (#t = 360.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 267/307 (#t = 361.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 268/307 (#t = 362.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 269/307 (#t = 363.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 270/307 (#t = 364.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 271/307 (#t = 365.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 272/307 (#t = 366.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 273/307 (#t = 367.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 274/307 (#t = 368.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 275/307 (#t = 369.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 276/307 (#t = 370.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 277/307 (#t = 371.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 278/307 (#t = 372.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 279/307 (#t = 373.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 280/307 (#t = 374.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 281/307 (#t = 375.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 282/307 (#t = 376.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 283/307 (#t = 377.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 284/307 (#t = 378.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 285/307 (#t = 379.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 286/307 (#t = 380.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 287/307 (#t = 381.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 288/307 (#t = 382.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 289/307 (#t = 383.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 290/307 (#t = 384.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 291/307 (#t = 385.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 292/307 (#t = 386.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 293/307 (#t = 387.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 294/307 (#t = 388.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 295/307 (#t = 389.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 296/307 (#t = 390.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 297/307 (#t = 391.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 298/307 (#t = 392.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 299/307 (#t = 393.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 300/307 (#t = 394.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 301/307 (#t = 395.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 302/307 (#t = 396.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 303/307 (#t = 397.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 304/307 (#t = 398.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 305/307 (#t = 399.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 306/307 (#t = 400.000) ---
+All channels OK.
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 307/307 (#t = 401.000) ---
+All channels OK.
+Processed raw data buffer with 3000 samples.
+
+EXIT OK: Wrote successfully the result to file /imaging/rh01/Methods/DanData/RawFIF/EmptyRoom/090511_sss.fif.

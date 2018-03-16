@@ -1,0 +1,1334 @@
+************************************************************
+*** This is Elekta Neuromag MaxFilter(TM) version 2.2.10  ***
+*** Compilation date: Oct 11 2010 14:45:43               ***
+*** Please report problems to sw-support@neuromag.fi     ***
+************************************************************
+No processing records found.
+SSS origin (device) 0.0, 0.0, 0.0 mm.
+Time scale: #f = 33.000 s, #l = 363.000 s  (initial skip #s = 33.000 s)
+Applying the fine-calibration in /neuro/databases/sss/sss_cal.dat.
+Using the cross-talk matrix in /neuro/databases/ctc/ct_sparse.fif.
+Opened FIFF file /imaging/rh01/Methods/DanData/RawFIF/EmptyRoom/091126.fif (330 data buffers).
+Started result FIFF file /imaging/rh01/Methods/DanData/RawFIF/EmptyRoom/091126_sss.fif.
+Signal Space Separation: Maxwell filtering for Elekta Neuromag data.
+Found 321 total and 306 MEG channels.
+SSS: 68/80 inside and 12/15 outside harmonic components.
+CTC: Channel lists of the (306 x 306) matrix OK.
+Scanning bad channels #1/330[5D2/330[5D3/330[5D4/330[5D5/330[5D6/330[5D7/330[5D8/330[5D9/330[5D10/330[6D11/330[6D12/330[6D13/330[6D14/330[6D15/330[6D16/330[6D17/330[6D18/330[6D19/330[6D20/330[6D21/330[6D22/330[6D23/330[6D24/330[6D25/330[6D26/330[6D27/330[6D28/330[6D29/330[6D30/330[6D31/330[6D32/330[6D33/330[6D34/330[6D35/330[6D36/330[6D37/330[6D38/330[6D39/330[6D40/330[6D41/330[6D42/330[6D43/330[6D44/330[6D45/330[6D46/330[6D47/330[6D48/330[6D49/330[6D50/330[6D51/330[6D52/330[6D53/330[6D54/330[6D55/330[6D56/330[6D57/330[6D58/330[6D59/330[6D60/330[7D271/330[7D272/330[7D273/330[7D274/330[7D275/330[7D276/330[7D277/330[7D278/330[7D279/330[7D280/330[7D281/330[7D282/330[7D283/330[7D284/330[7D285/330[7D286/330[7D287/330[7D288/330[7D289/330[7D290/330[7D291/330[7D292/330[7D293/330[7D294/330[7D295/330[7D296/330[7D297/330[7D298/330[7D299/330[7D300/330[7D301/330[7D302/330[7D303/330[7D304/330[7D305/330[7D306/330[7D307/330[7D308/330[7D309/330[7D310/330[7D311/330[7D312/330[7D313/330[7D314/330[7D315/330[7D316/330[7D317/330[7D318/330[7D319/330[7D320/330[7D321/330[7D322/330[7D323/330[7D324/330[7D325/330[7D326/330[7D327/330[7D328/330[7D329/330[7D330/330
+Autobad scan found 2 bad channels.
+Static bad channels (2): 1031 1111
+--- Reading raw tag #b = 1/330 (#t = 33.000) ---
+--- Reading raw tag #b = 2/330 (#t = 34.000) ---
+--- Reading raw tag #b = 3/330 (#t = 35.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 4/330 (#t = 36.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 5/330 (#t = 37.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 6/330 (#t = 38.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 7/330 (#t = 39.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 8/330 (#t = 40.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 9/330 (#t = 41.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 10/330 (#t = 42.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 11/330 (#t = 43.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 12/330 (#t = 44.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 13/330 (#t = 45.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 14/330 (#t = 46.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 15/330 (#t = 47.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 16/330 (#t = 48.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 17/330 (#t = 49.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 18/330 (#t = 50.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 19/330 (#t = 51.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 20/330 (#t = 52.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 21/330 (#t = 53.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 22/330 (#t = 54.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 23/330 (#t = 55.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 24/330 (#t = 56.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 25/330 (#t = 57.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 26/330 (#t = 58.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 27/330 (#t = 59.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 28/330 (#t = 60.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 29/330 (#t = 61.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 30/330 (#t = 62.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 31/330 (#t = 63.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 32/330 (#t = 64.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 33/330 (#t = 65.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 34/330 (#t = 66.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 35/330 (#t = 67.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 36/330 (#t = 68.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 37/330 (#t = 69.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 38/330 (#t = 70.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 39/330 (#t = 71.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 40/330 (#t = 72.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 41/330 (#t = 73.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 42/330 (#t = 74.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 43/330 (#t = 75.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 44/330 (#t = 76.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 45/330 (#t = 77.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 46/330 (#t = 78.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 47/330 (#t = 79.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 48/330 (#t = 80.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 49/330 (#t = 81.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 50/330 (#t = 82.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 51/330 (#t = 83.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 52/330 (#t = 84.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 53/330 (#t = 85.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 54/330 (#t = 86.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 55/330 (#t = 87.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 56/330 (#t = 88.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 57/330 (#t = 89.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 58/330 (#t = 90.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 59/330 (#t = 91.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 60/330 (#t = 92.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 61/330 (#t = 93.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 62/330 (#t = 94.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 63/330 (#t = 95.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 64/330 (#t = 96.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 65/330 (#t = 97.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 66/330 (#t = 98.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 67/330 (#t = 99.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 68/330 (#t = 100.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 69/330 (#t = 101.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 70/330 (#t = 102.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 71/330 (#t = 103.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 72/330 (#t = 104.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 73/330 (#t = 105.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 74/330 (#t = 106.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 75/330 (#t = 107.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 76/330 (#t = 108.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 77/330 (#t = 109.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 78/330 (#t = 110.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 79/330 (#t = 111.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 80/330 (#t = 112.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 81/330 (#t = 113.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 82/330 (#t = 114.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 83/330 (#t = 115.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 84/330 (#t = 116.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 85/330 (#t = 117.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 86/330 (#t = 118.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 87/330 (#t = 119.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 88/330 (#t = 120.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 89/330 (#t = 121.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 90/330 (#t = 122.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 91/330 (#t = 123.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 92/330 (#t = 124.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 93/330 (#t = 125.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 94/330 (#t = 126.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 95/330 (#t = 127.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 96/330 (#t = 128.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 97/330 (#t = 129.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 98/330 (#t = 130.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 99/330 (#t = 131.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 100/330 (#t = 132.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 101/330 (#t = 133.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 102/330 (#t = 134.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 103/330 (#t = 135.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 104/330 (#t = 136.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 105/330 (#t = 137.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 106/330 (#t = 138.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 107/330 (#t = 139.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 108/330 (#t = 140.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 109/330 (#t = 141.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 110/330 (#t = 142.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 111/330 (#t = 143.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 112/330 (#t = 144.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 113/330 (#t = 145.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 114/330 (#t = 146.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 115/330 (#t = 147.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 116/330 (#t = 148.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 117/330 (#t = 149.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 118/330 (#t = 150.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 119/330 (#t = 151.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 120/330 (#t = 152.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 121/330 (#t = 153.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 122/330 (#t = 154.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 123/330 (#t = 155.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 124/330 (#t = 156.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 125/330 (#t = 157.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 126/330 (#t = 158.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 127/330 (#t = 159.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 128/330 (#t = 160.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 129/330 (#t = 161.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 130/330 (#t = 162.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 131/330 (#t = 163.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 132/330 (#t = 164.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 133/330 (#t = 165.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 134/330 (#t = 166.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 135/330 (#t = 167.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 136/330 (#t = 168.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 137/330 (#t = 169.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 138/330 (#t = 170.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 139/330 (#t = 171.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 140/330 (#t = 172.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 141/330 (#t = 173.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 142/330 (#t = 174.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 143/330 (#t = 175.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 144/330 (#t = 176.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 145/330 (#t = 177.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 146/330 (#t = 178.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 147/330 (#t = 179.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 148/330 (#t = 180.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 149/330 (#t = 181.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 150/330 (#t = 182.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 151/330 (#t = 183.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 152/330 (#t = 184.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 153/330 (#t = 185.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 154/330 (#t = 186.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 155/330 (#t = 187.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 156/330 (#t = 188.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 157/330 (#t = 189.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 158/330 (#t = 190.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 159/330 (#t = 191.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 160/330 (#t = 192.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 161/330 (#t = 193.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 162/330 (#t = 194.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 163/330 (#t = 195.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 164/330 (#t = 196.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 165/330 (#t = 197.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 166/330 (#t = 198.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 167/330 (#t = 199.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 168/330 (#t = 200.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 169/330 (#t = 201.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 170/330 (#t = 202.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 171/330 (#t = 203.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 172/330 (#t = 204.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 173/330 (#t = 205.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 174/330 (#t = 206.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 175/330 (#t = 207.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 176/330 (#t = 208.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 177/330 (#t = 209.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 178/330 (#t = 210.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 179/330 (#t = 211.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 180/330 (#t = 212.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 181/330 (#t = 213.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 182/330 (#t = 214.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 183/330 (#t = 215.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 184/330 (#t = 216.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 185/330 (#t = 217.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 186/330 (#t = 218.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 187/330 (#t = 219.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 188/330 (#t = 220.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 189/330 (#t = 221.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 190/330 (#t = 222.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 191/330 (#t = 223.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 192/330 (#t = 224.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 193/330 (#t = 225.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 194/330 (#t = 226.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 195/330 (#t = 227.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 196/330 (#t = 228.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 197/330 (#t = 229.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 198/330 (#t = 230.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 199/330 (#t = 231.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 200/330 (#t = 232.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 201/330 (#t = 233.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 202/330 (#t = 234.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 203/330 (#t = 235.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 204/330 (#t = 236.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 205/330 (#t = 237.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 206/330 (#t = 238.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 207/330 (#t = 239.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 208/330 (#t = 240.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 209/330 (#t = 241.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 210/330 (#t = 242.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 211/330 (#t = 243.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 212/330 (#t = 244.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 213/330 (#t = 245.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 214/330 (#t = 246.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 215/330 (#t = 247.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 216/330 (#t = 248.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 217/330 (#t = 249.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 218/330 (#t = 250.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 219/330 (#t = 251.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 220/330 (#t = 252.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 221/330 (#t = 253.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 222/330 (#t = 254.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 223/330 (#t = 255.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 224/330 (#t = 256.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 225/330 (#t = 257.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 226/330 (#t = 258.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 227/330 (#t = 259.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 228/330 (#t = 260.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 229/330 (#t = 261.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 230/330 (#t = 262.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 231/330 (#t = 263.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 232/330 (#t = 264.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 233/330 (#t = 265.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 234/330 (#t = 266.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 235/330 (#t = 267.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 236/330 (#t = 268.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 237/330 (#t = 269.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 238/330 (#t = 270.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 239/330 (#t = 271.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 240/330 (#t = 272.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 241/330 (#t = 273.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 242/330 (#t = 274.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 243/330 (#t = 275.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 244/330 (#t = 276.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 245/330 (#t = 277.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 246/330 (#t = 278.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 247/330 (#t = 279.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 248/330 (#t = 280.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 249/330 (#t = 281.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 250/330 (#t = 282.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 251/330 (#t = 283.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 252/330 (#t = 284.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 253/330 (#t = 285.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 254/330 (#t = 286.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 255/330 (#t = 287.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 256/330 (#t = 288.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 257/330 (#t = 289.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 258/330 (#t = 290.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 259/330 (#t = 291.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 260/330 (#t = 292.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 261/330 (#t = 293.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 262/330 (#t = 294.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 263/330 (#t = 295.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 264/330 (#t = 296.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 265/330 (#t = 297.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 266/330 (#t = 298.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 267/330 (#t = 299.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 268/330 (#t = 300.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 269/330 (#t = 301.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 270/330 (#t = 302.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 271/330 (#t = 303.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 272/330 (#t = 304.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 273/330 (#t = 305.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 274/330 (#t = 306.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 275/330 (#t = 307.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 276/330 (#t = 308.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 277/330 (#t = 309.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 278/330 (#t = 310.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 279/330 (#t = 311.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 280/330 (#t = 312.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 281/330 (#t = 313.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 282/330 (#t = 314.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 283/330 (#t = 315.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 284/330 (#t = 316.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 285/330 (#t = 317.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 286/330 (#t = 318.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 287/330 (#t = 319.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 288/330 (#t = 320.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 289/330 (#t = 321.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 290/330 (#t = 322.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 291/330 (#t = 323.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 292/330 (#t = 324.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 293/330 (#t = 325.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 294/330 (#t = 326.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 295/330 (#t = 327.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 296/330 (#t = 328.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 297/330 (#t = 329.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 298/330 (#t = 330.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 299/330 (#t = 331.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 300/330 (#t = 332.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 301/330 (#t = 333.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 302/330 (#t = 334.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 303/330 (#t = 335.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 304/330 (#t = 336.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 305/330 (#t = 337.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 306/330 (#t = 338.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 307/330 (#t = 339.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 308/330 (#t = 340.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 309/330 (#t = 341.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 310/330 (#t = 342.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 311/330 (#t = 343.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 312/330 (#t = 344.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 313/330 (#t = 345.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 314/330 (#t = 346.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 315/330 (#t = 347.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 316/330 (#t = 348.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 317/330 (#t = 349.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 318/330 (#t = 350.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 319/330 (#t = 351.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 320/330 (#t = 352.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 321/330 (#t = 353.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 322/330 (#t = 354.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 323/330 (#t = 355.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 324/330 (#t = 356.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 325/330 (#t = 357.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 326/330 (#t = 358.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 327/330 (#t = 359.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 328/330 (#t = 360.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 329/330 (#t = 361.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 1000 samples.
+
+--- Reading raw tag #b = 330/330 (#t = 362.000) ---
+Static bad channels (2): 1031 1111
+Processed raw data buffer with 3000 samples.
+
+EXIT OK: Wrote successfully the result to file /imaging/rh01/Methods/DanData/RawFIF/EmptyRoom/091126_sss.fif.

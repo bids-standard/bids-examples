@@ -1,0 +1,18 @@
+{
+ "IntendedFor": "sub-03/ses-meg/meg",
+ "SoftwareFilters": {
+  "SSS": {
+   "frame": "device",
+   "mm": [0,0,0],
+   "autobad": "",
+   "linefreq": "50",
+   "hpisubt": "amp",
+   "movecomp": "",
+   "hpistep": "",
+   "trans": "",
+   "version": "MaxFilter2.2",
+   "ctc": "derivatives/meg_derivatives/ct_sparse.fif",
+   "cal": "derivatives/meg_derivatives/sss_cal.dat"
+  }
+ }
+}
