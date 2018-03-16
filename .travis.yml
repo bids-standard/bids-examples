@@ -2,7 +2,7 @@ node_js:
   - "6.11.0"
 
 install:
-  - npm install -g https://github.com/INCF/bids-validator.git
+  - npm install -g https://github.com/INCF/bids-validator.git#0.25.7
 
 script:
   - for i in $(ls -d */); do bids-validator ${i%%/} --ignoreNiftiHeaders; done
