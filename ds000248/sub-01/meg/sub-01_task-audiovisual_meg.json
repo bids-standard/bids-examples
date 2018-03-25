@@ -11,6 +11,7 @@
     "ECGChannelCount": 0,
     "EMGChannelCount": 0,
     "MiscChannelCount": 0,
+    "DewarPosition":"Upright",
     "TriggerChannelCount": 9,
     "PowerLineFrequency": 60,
     "EEGReference": "nose",
@@ -18,5 +19,6 @@
     "ContinuousHeadLocalization": false,
     "DigitizedLandmarks": true,
     "DigitizedHeadPoints": true,
+    "SoftwareFilters": {},
     "SubjectArtefactDescription": "false"
 }
