@@ -1,0 +1,14 @@
+{
+  "Name": "MEG-BIDS Brainstorm data sample",
+  "BIDSVersion": "1.0.2",
+  "License": "CC0",
+  "Authors": [
+    "Elizabeth Bock",
+    "Peter Donhauser",
+    "Francois Tadel",
+    "Sylvain Baillet"
+  ],
+  "HowToAcknowledge": "If you reference this dataset in your publications, please aknowledge its authors and cite Brainstorm as indicated on the website (http://neuroimage.usc.edu/brainstorm/CiteBrainstorm). Also, include the following message: ' This data was obtained from the OpenfMRI database. Its accession number is ds000246'",
+  "Funding": ["NIH (2R01EB009048-05)"],
+  "ReferencesAndLinks": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3090754", "http://neuroimage.usc.edu/brainstorm/", "https://openfmri.org/dataset/ds000246/"]
+}
