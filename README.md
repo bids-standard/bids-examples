@@ -1,3 +1,5 @@
+[![Travis](https://api.travis-ci.org/INCF/BIDS-examples.svg?branch=master "Travis")](https://travis-ci.org/INCF/BIDS-examples)
+
 # BIDS-examples
 A set of BIDS compatible datasets with **empty raw data files** that can be used for writing lightweight software tests.
 
