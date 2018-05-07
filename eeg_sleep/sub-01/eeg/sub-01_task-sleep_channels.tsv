@@ -1,22 +1,22 @@
-channel_id
-C3
-C4
-Chin EMG
-Cz
-E1
-E2
-EKG
-F3
-F4
-Fz
-Heart Rate_DR
-Light_BU
-Light_MD
-M1
-M2
-O1
-O2
-P3
-P4
-Pz
-REF
+name unit type  description
+C3  uV  EEG
+C4  uV  EEG
+Chin  uV  EMG
+Cz  uV  EEG
+E1  uV  EEG
+E2  uV  EEG
+EKG  mV  ECG
+F3  uV  EEG
+F4  uV  EEG
+Fz  uV  EEG
+Heart Rate_DR ? ?
+Light_BU  ? ?
+Light_MD  ? ?
+M1  uV  EEG
+M2  uV  EEG
+O1  uV  EEG
+O2  uV  EEG
+P3  uV  EEG
+P4  uV  EEG
+Pz  uV  EEG
+REF uV  EEG Reference

@@ -4,6 +4,10 @@
   "EEGChannelCount": 16,
   "EMGChannelCount": 1,
   "ECGChannelCount": 1,
+  "EOGChannelCount": 0,
   "MiscChannelCount": 3,
-  "ManufacturersAmplifierModelName": "EMBLA"
+  "AmpManufacturer":"Natus",
+  "AmpModelName": "S4500 PSG Amplifier",
+  "CapManufacturer": "Natus",
+  "CapModelName": "Easycap EEG",
 }
