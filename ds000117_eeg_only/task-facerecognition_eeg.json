@@ -12,10 +12,10 @@
 "EMGChannelCount": 0,
 "MiscChannelCount": 1,
 "TriggerChannelCount": "Number of channels for digital triggers",
-"EEGPlacementScheme": " extended 10–10% system",
+"EEGPlacementScheme": " extended 10% system",
 "EEGReference": "common",
 "RecordingDuration": 490.9991,
 "RecordingType": "continuous",
 "SimultaneousRecording": "MEG",
-"HardwareFilters": "LowPass-350",
+"HardwareFilters": "LowPass-350"
 }
