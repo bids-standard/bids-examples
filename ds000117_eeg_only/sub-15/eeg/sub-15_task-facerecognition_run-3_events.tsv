@@ -1,292 +1,148 @@
-onset	trial_type	eventcode
-26003	famous_new	5
-26732	response	0
-29623	famous_new	5
-30257	response	0
-32968	famous_new	5
-33576	response	0
-36551	famous_second_early	6
-37079	response	0
-40042	unfamiliar_new	13
-40983	response	0
-43405	unfamiliar_new	13
-44076	response	0
-47062	unfamiliar_second_early	14
-47722	response	0
-50719	famous_new	5
-51318	response	0
-54192	famous_second_early	6
-54664	response	0
-57701	famous_second_late	7
-58505	response	0
-61138	scrambled_new	17
-61717	response	0
-64739	famous_second_late	7
-65386	response	0
-68212	famous_new	5
-68871	response	0
-71595	famous_second_early	6
-72106	response	0
-74975	scrambled_new	17
-75675	response	0
-78411	unfamiliar_second_late	15
-79428	response	0
-81921	unfamiliar_new	13
-82728	response	0
-85247	unfamiliar_second_early	14
-85919	response	0
-88793	scrambled_new	17
-89708	response	0
-92211	famous_new	5
-93114	response	0
-95555	scrambled_second_late	19
-96622	response	0
-99102	scrambled_new	17
-99782	response	0
-102630	scrambled_second_early	18
-103189	response	0
-106140	unfamiliar_new	13
-106906	response	0
-109613	unfamiliar_second_early	14
-110171	response	0
-113123	scrambled_second_late	19
-113878	response	0
-116559	famous_new	5
-117696	response	0
-119995	famous_new	5
-120677	response	0
-123689	famous_second_early	6
-124245	response	0
-127180	scrambled_second_late	19
-127869	response	0
-130488	unfamiliar_new	13
-131452	response	0
-133850	unfamiliar_second_early	14
-134726	response	0
-137250	famous_second_late	7
-137914	response	0
-140852	unfamiliar_new	13
-141632	response	0
-144380	unfamiliar_second_early	14
-144932	response	0
-147926	famous_new	5
-148706	response	0
-151326	unfamiliar_new	13
-152069	response	0
-154799	famous_second_late	7
-155890	response	0
-158364	scrambled_new	17
-158995	response	0
-161726	scrambled_second_early	18
-162289	response	0
-165291	famous_new	5
-166341	response	0
-168801	scrambled_new	17
-169526	response	0
-169712	response	0
-172348	unfamiliar_new	13
-173390	response	0
-175765	famous_second_late	7
-176649	response	0
-179294	scrambled_new	17
-180236	response	0
-182711	scrambled_second_early	18
-183347	response	0
-186276	unfamiliar_second_late	15
-186996	response	0
-189676	famous_new	5
-190366	response	0
-193039	scrambled_new	17
-193728	response	0
-196567	scrambled_second_early	18
-197458	response	0
-199948	famous_second_late	7
-200749	response	0
-203255	famous_new	5
-204137	response	0
-206784	scrambled_second_late	19
-207503	response	0
-210349	unfamiliar_new	13
-211197	response	0
-213913	unfamiliar_second_early	14
-214484	response	0
-217295	unfamiliar_second_late	15
-218203	response	0
-220878	unfamiliar_new	13
-221743	response	0
-224369	unfamiliar_second_early	14
-225035	response	0
-227916	scrambled_new	17
-229107	response	0
-231554	famous_second_late	7
-232344	response	0
-235192	unfamiliar_new	13
-238555	famous_new	5
-239288	response	0
-242083	famous_second_early	6
-242789	response	0
-245575	famous_second_late	7
-246351	response	0
-249140	unfamiliar_new	13
-249901	response	0
-252613	scrambled_new	17
-253545	response	0
-256031	famous_new	5
-256688	response	0
-259448	famous_second_early	6
-260109	response	0
-262848	scrambled_second_late	19
-263727	response	0
-266394	famous_new	5
-267094	response	0
-269886	famous_second_early	6
-270682	response	0
-273432	unfamiliar_second_late	15
-274342	response	0
-276758	scrambled_new	17
-277541	response	0
-280360	scrambled_second_early	18
-280947	response	0
-283833	scrambled_new	17
-284503	response	0
-287324	unfamiliar_second_late	15
-288367	response	0
-290742	scrambled_new	17
-291670	response	0
-294068	scrambled_second_early	18
-294887	response	0
-297560	scrambled_second_late	19
-298453	response	0
-301069	scrambled_new	17
-301667	response	0
-304524	scrambled_second_early	18
-305220	response	0
-307979	scrambled_new	17
-308848	response	0
-311305	unfamiliar_new	13
-312319	response	0
-314704	unfamiliar_second_early	14
-315344	response	0
-318067	scrambled_new	17
-318739	response	0
-321540	scrambled_second_late	19
-322337	response	0
-324866	unfamiliar_new	13
-325583	response	0
-328357	unfamiliar_second_early	14
-328958	response	0
-331885	scrambled_new	17
-332516	response	0
-335469	scrambled_new	17
-336362	response	0
-338978	scrambled_second_late	19
-339852	response	0
-342562	unfamiliar_new	13
-343503	response	0
-346053	unfamiliar_new	13
-346878	response	0
-349673	scrambled_second_late	19
-350571	response	0
-353165	scrambled_new	17
-354138	response	0
-356472	scrambled_second_early	18
-357082	response	0
-360000	unfamiliar_new	13
-360944	response	0
-363547	scrambled_second_late	19
-364668	response	0
-366983	unfamiliar_new	13
-367817	response	0
-370254	unfamiliar_second_early	14
-373672	scrambled_second_late	19
-377071	unfamiliar_new	13
-377766	response	0
-380489	unfamiliar_second_late	15
-381129	response	0
-384036	famous_new	5
-384958	response	0
-387546	famous_second_early	6
-388283	response	0
-390982	unfamiliar_second_late	15
-391869	response	0
-394473	famous_new	5
-395227	response	0
-398130	famous_second_early	6
-398640	response	0
-401658	unfamiliar_new	13
-402392	response	0
-405113	unfamiliar_second_early	14
-405606	response	0
-408622	unfamiliar_second_late	15
-409446	response	0
-412059	famous_new	5
-412889	response	0
-415660	unfamiliar_new	13
-416479	response	0
-419189	unfamiliar_second_late	15
-420171	response	0
-422717	famous_new	5
-423412	response	0
-426153	scrambled_new	17
-426995	response	0
-429681	unfamiliar_new	13
-430353	response	0
-433228	unfamiliar_second_early	14
-433834	response	0
-436774	scrambled_new	17
-437916	response	0
-440174	famous_second_late	7
-440918	response	0
-443720	famous_new	5
-444527	response	0
-447156	unfamiliar_second_late	15
-447784	response	0
-450721	scrambled_new	17
-451519	response	0
-454084	famous_second_late	7
-454766	response	0
-457575	scrambled_new	17
-458252	response	0
-460975	scrambled_second_early	18
-461656	response	0
-464595	scrambled_second_late	19
-465516	response	0
-468141	famous_new	5
-471633	famous_second_early	6
-472403	response	0
-475271	unfamiliar_new	13
-476119	response	0
-478671	unfamiliar_second_early	14
-479280	response	0
-482254	scrambled_second_late	19
-482969	response	0
-485709	unfamiliar_new	13
-486569	response	0
-489218	unfamiliar_second_early	14
-489971	response	0
-492655	famous_second_late	7
-493536	response	0
-496164	famous_new	5
-496905	response	0
-499527	famous_second_early	6
-500225	response	0
-502853	scrambled_second_late	19
-503654	response	0
-506455	scrambled_new	17
-507162	response	0
-509891	unfamiliar_new	13
-510773	response	0
-513474	famous_new	5
-514486	response	0
-516874	famous_new	5
-517628	response	0
-520475	famous_second_early	6
-521505	response	0
-523820	famous_new	5
-524683	response	0
-527403	famous_second_early	6
-528563	response	0
-530784	scrambled_new	17
-531763	response	0
-534073	scrambled_second_late	19
-534772	response	0
+onset	duration	onset_sample	stim_type	trigger	stim_file
+24.2155	0	26637	Scrambled	17	meg/s031.bmp
+27.5227	0	30275	Unfamiliar	13	meg/u092.bmp
+30.6464	0	33711	Scrambled	17	meg/s017.bmp
+33.9873	0	37386	Scrambled	18	meg/s017.bmp
+37.2955	0	41025	Scrambled	17	meg/s122.bmp
+40.4864	0	44535	Scrambled	18	meg/s122.bmp
+43.5609	0	47917	Famous	5	meg/f095.bmp
+46.6845	0	51353	Famous	6	meg/f095.bmp
+49.8409	0	54825	Scrambled	17	meg/s116.bmp
+52.9482	0	58243	Scrambled	18	meg/s116.bmp
+56.1055	0	61716	Scrambled	19	meg/s031.bmp
+59.3627	0	65299	Unfamiliar	13	meg/u129.bmp
+62.6873	0	68956	Unfamiliar	15	meg/u092.bmp
+65.8609	0	72447	Famous	5	meg/f134.bmp
+69.12	0	76032	Famous	5	meg/f032.bmp
+72.2755	0	79503	Famous	6	meg/f032.bmp
+75.5836	0	83142	Famous	5	meg/f058.bmp
+78.8409	0	86725	Scrambled	17	meg/s091.bmp
+82.1991	0	90419	Scrambled	17	meg/s034.bmp
+85.3564	0	93892	Unfamiliar	15	meg/u129.bmp
+88.6973	0	97567	Famous	5	meg/f018.bmp
+91.9045	0	101095	Famous	7	meg/f134.bmp
+95.2118	0	104733	Scrambled	17	meg/s024.bmp
+98.4364	0	108280	Scrambled	18	meg/s024.bmp
+101.511	0	111662	Famous	5	meg/f107.bmp
+104.801	0	115281	Famous	6	meg/f107.bmp
+108.042	0	118846	Famous	7	meg/f058.bmp
+111.082	0	122190	Scrambled	17	meg/s027.bmp
+114.356	0	125792	Scrambled	18	meg/s027.bmp
+117.464	0	129210	Scrambled	19	meg/s091.bmp
+120.787	0	132866	Scrambled	17	meg/s078.bmp
+123.928	0	136321	Scrambled	19	meg/s034.bmp
+127.085	0	139794	Unfamiliar	13	meg/u008.bmp
+130.41	0	143451	Famous	7	meg/f018.bmp
+133.5	0	146850	Famous	5	meg/f019.bmp
+136.607	0	150268	Famous	6	meg/f019.bmp
+139.798	0	153778	Famous	5	meg/f006.bmp
+143.123	0	157435	Famous	5	meg/f075.bmp
+146.43	0	161073	Famous	6	meg/f075.bmp
+149.788	0	164767	Unfamiliar	13	meg/u105.bmp
+152.995	0	168295	Unfamiliar	14	meg/u105.bmp
+156.085	0	171694	Scrambled	19	meg/s078.bmp
+159.143	0	175057	Scrambled	17	meg/s138.bmp
+162.3	0	178530	Unfamiliar	15	meg/u008.bmp
+165.391	0	181930	Unfamiliar	13	meg/u116.bmp
+168.581	0	185439	Unfamiliar	14	meg/u116.bmp
+171.605	0	188765	Unfamiliar	13	meg/u136.bmp
+174.845	0	192330	Famous	7	meg/f006.bmp
+177.953	0	195748	Famous	5	meg/f115.bmp
+181.06	0	199166	Scrambled	17	meg/s037.bmp
+184.15	0	202565	Scrambled	17	meg/s147.bmp
+187.325	0	206058	Scrambled	18	meg/s147.bmp
+190.582	0	209640	Scrambled	19	meg/s138.bmp
+193.755	0	213131	Famous	5	meg/f003.bmp
+196.946	0	216641	Famous	6	meg/f003.bmp
+200.187	0	220206	Unfamiliar	13	meg/u068.bmp
+203.495	0	223845	Unfamiliar	14	meg/u068.bmp
+206.585	0	227244	Unfamiliar	15	meg/u136.bmp
+209.826	0	230809	Scrambled	17	meg/s115.bmp
+212.984	0	234282	Famous	7	meg/f115.bmp
+216.241	0	237865	Scrambled	17	meg/s010.bmp
+219.448	0	241393	Scrambled	18	meg/s010.bmp
+222.555	0	244811	Scrambled	19	meg/s037.bmp
+225.663	0	248229	Unfamiliar	13	meg/u094.bmp
+228.87	0	251757	Scrambled	17	meg/s007.bmp
+232.061	0	255267	Unfamiliar	13	meg/u053.bmp
+235.235	0	258758	Famous	5	meg/f016.bmp
+238.308	0	262139	Famous	6	meg/f016.bmp
+241.332	0	265465	Scrambled	19	meg/s115.bmp
+244.606	0	269067	Scrambled	17	meg/s128.bmp
+247.78	0	272558	Famous	5	meg/f142.bmp
+250.855	0	275940	Famous	6	meg/f142.bmp
+253.928	0	279321	Unfamiliar	15	meg/u094.bmp
+257.018	0	282720	Scrambled	17	meg/s022.bmp
+260.159	0	286175	Scrambled	19	meg/s007.bmp
+263.333	0	289666	Unfamiliar	13	meg/u006.bmp
+266.456	0	293102	Unfamiliar	15	meg/u053.bmp
+269.715	0	296687	Scrambled	17	meg/s011.bmp
+272.922	0	300214	Scrambled	18	meg/s011.bmp
+276.213	0	303834	Famous	5	meg/f036.bmp
+279.336	0	307270	Scrambled	19	meg/s128.bmp
+282.627	0	310890	Unfamiliar	13	meg/u012.bmp
+285.785	0	314363	Unfamiliar	13	meg/u011.bmp
+288.892	0	317781	Unfamiliar	14	meg/u011.bmp
+292.033	0	321236	Scrambled	19	meg/s022.bmp
+295.24	0	324764	Famous	5	meg/f087.bmp
+298.431	0	328274	Famous	6	meg/f087.bmp
+301.571	0	331728	Unfamiliar	15	meg/u006.bmp
+304.812	0	335293	Unfamiliar	13	meg/u120.bmp
+308.003	0	338803	Scrambled	17	meg/s140.bmp
+311.211	0	342332	Famous	7	meg/f036.bmp
+314.467	0	345914	Famous	5	meg/f060.bmp
+317.608	0	349369	Famous	6	meg/f060.bmp
+320.765	0	352842	Unfamiliar	15	meg/u012.bmp
+324.056	0	356462	Scrambled	17	meg/s040.bmp
+327.146	0	359861	Scrambled	18	meg/s040.bmp
+330.304	0	363334	Unfamiliar	13	meg/u052.bmp
+333.345	0	366679	Unfamiliar	14	meg/u052.bmp
+336.435	0	370079	Unfamiliar	13	meg/u138.bmp
+339.525	0	373478	Unfamiliar	15	meg/u120.bmp
+342.749	0	377024	Famous	5	meg/f117.bmp
+345.99	0	380589	Famous	6	meg/f117.bmp
+349.131	0	384044	Scrambled	19	meg/s140.bmp
+352.255	0	387481	Unfamiliar	13	meg/u055.bmp
+355.563	0	391119	Unfamiliar	14	meg/u055.bmp
+358.754	0	394629	Scrambled	17	meg/s066.bmp
+362.044	0	398248	Scrambled	18	meg/s066.bmp
+365.135	0	401648	Unfamiliar	13	meg/u134.bmp
+368.425	0	405268	Unfamiliar	13	meg/u009.bmp
+371.549	0	408704	Unfamiliar	14	meg/u009.bmp
+374.606	0	412067	Unfamiliar	15	meg/u138.bmp
+377.746	0	415521	Famous	5	meg/f092.bmp
+380.954	0	419049	Famous	5	meg/f067.bmp
+384.111	0	422522	Famous	6	meg/f067.bmp
+387.435	0	426179	Scrambled	17	meg/s016.bmp
+390.693	0	429762	Scrambled	17	meg/s067.bmp
+393.85	0	433235	Scrambled	18	meg/s067.bmp
+397.025	0	436727	Unfamiliar	15	meg/u134.bmp
+400.298	0	440328	Unfamiliar	13	meg/u119.bmp
+403.373	0	443710	Famous	5	meg/f137.bmp
+406.496	0	447146	Famous	7	meg/f092.bmp
+409.487	0	450436	Famous	5	meg/f069.bmp
+412.677	0	453945	Famous	6	meg/f069.bmp
+415.817	0	457399	Famous	5	meg/f085.bmp
+418.975	0	460873	Scrambled	19	meg/s016.bmp
+422.215	0	464437	Unfamiliar	13	meg/u027.bmp
+425.34	0	467874	Unfamiliar	13	meg/u044.bmp
+428.464	0	471310	Unfamiliar	14	meg/u044.bmp
+431.605	0	474765	Unfamiliar	15	meg/u119.bmp
+434.812	0	478293	Famous	5	meg/f104.bmp
+438.135	0	481949	Famous	6	meg/f104.bmp
+441.21	0	485331	Famous	7	meg/f137.bmp
+444.517	0	488969	Scrambled	17	meg/s045.bmp
+447.675	0	492442	Unfamiliar	13	meg/u043.bmp
+450.815	0	495897	Famous	7	meg/f085.bmp
+453.855	0	499241	Unfamiliar	13	meg/u035.bmp
+457.029	0	502732	Unfamiliar	14	meg/u035.bmp
+460.186	0	506205	Unfamiliar	15	meg/u027.bmp
+463.327	0	509660	Famous	5	meg/f048.bmp
+466.451	0	513096	Famous	6	meg/f048.bmp
+469.575	0	516532	Famous	5	meg/f083.bmp
+472.865	0	520152	Scrambled	17	meg/s061.bmp
+476.074	0	523681	Scrambled	19	meg/s045.bmp
+479.264	0	527190	Unfamiliar	13	meg/u143.bmp
+482.605	0	530865	Unfamiliar	15	meg/u043.bmp
+485.763	0	534339	Unfamiliar	13	meg/u067.bmp
+488.819	0	537701	Unfamiliar	14	meg/u067.bmp
