@@ -1,0 +1,117 @@
+2018-01-31  Mike Cichonski  <mike.cichonski@gmail.com>
+
+    * VERSION: 1.6.2
+
+    * analysis/support/scripts/s03_compart_data.htb: typo fixes
+
+    * analysis/support/scripts/s04_asr.htb: fixed ASR side to
+      work with new recent pipeline changes
+
+    * analysis/support/scripts/s06_compart_asrdata.htb: same as above
+
+    * analysis/support/scripts/s14_concat_asrdata.htb: same as above
+
+    * analysis/support/scripts/s16_dipfit.htb: same as above, now works
+      with and/or without running ASR side
+
+2018-01-31  Mike Cichonski  <mike.cichonski@gmail.com>
+
+    * VERSION: 1.6.1
+
+    * analysis/support/config/ batch configs modified to allow for
+      a subject-wise data folder structure if desired (step-wise)
+      is still the default
+
+    * eeglab_asr_amica: bump version, see changelog for batch_config
+
+
+2017-11-02  Mike Cichonski  <mike.cichonski@gmail.com>
+
+    * VERSION: 1.6.0
+
+    * s17_qc.htb: quality check script added
+
+    * c17_qc_local.cfg: quality check config file added
+
+    * eeglab_asr_amica: bump version, see changelog for vised_marks
+
+2017-08-31  Mike Cichonski  <mike.cichonski@gmail.com>
+
+    * VERSION: 1.5.9
+
+    * s01_scalpart.htb: added re-referencing of EEG.data to a trimmed mean
+
+    * eeglab_asr_amica: bump version, see changelog
+
+2017-08-30  Mike Cichonski  <mike.cichonski@gmail.com>
+
+    * VERSION: 1.5.8
+
+    * s01_scalpart.htb: changed marks colors and optimized rejection algorithm
+    
+    * s03_compart_data.htb: same as above
+
+    * s06_compart_asr_data.htb: same as above
+
+    * s13_concat_data.htb: same as above
+
+2017-08-01  Brad Kennedy  <bk@co60.ca>
+
+    * eeglab_asr_amica: bumped version, see changelog
+
+2017-08-01  Brad Kennedy  <bk@co60.ca>
+
+    * add-epilog.sh: Fixed issue with completed always = 1
+
+2017-08-02  Mike Cichonski  <mike.cichonski@gmail.com>
+
+    * VERSION: 1.5.6
+
+    * batch_context: bump version, see changelog
+
+    * benchmark.sh: update to benchmarking scripts
+
+2017-08-01  Brad Kennedy  <bk@co60.ca>
+
+    * VERSION: 1.5.5
+
+    * annihilate-log.sh: Deletes logs and preproc data
+
+    * eeglab_asr_amica: bump version, see changelog
+
+    * s99_clean_up.htb: Runs the cleanup script in batch
+
+    * remote-sbatch/c99_clean_up.htb: For s99_clean_up.htb
+
+2017-07-28  Brad Kennedy  <bk@co60.ca>
+
+    * VERSION: 1.5.4
+
+    * add-epilog-all.sh: Runs the below script in parallel on every file
+      in analysis/log
+
+    * add-epilog.sh: Adds an epilog to a file on a slurm scheduler systems
+      that contains a line Jobid is: [0-9]+ in the log file somewhere
+      this epilog contains a lot of accounting information about the job
+
+2017-07-25  Brad Kennedy  <bk@co60.ca>
+
+    * VERSION: 1.5.3
+
+    * pipeline-clean.sh: added, provides bash interface to the mfile version
+
+    * pipeline-clean-all.sh: added, provides bash interface to cleaning
+      all successful dipfit jobs (s16)
+ 
+    * eeglab_asr_amica: bumped version, add functions for pipeline clean
+      added jobid print to for slurm in amica
+
+2017-07-25  Brad Kennedy  <bk@co60.ca>
+
+    * VERSION: 1.5.2
+
+    * CHANGELOG: Change changelog format to actually contain changes
+    ensure you follow the format and put newer changes above this one
+
+    * eeglab_asr_amica: bumped version, provides updates to vised_marks
+    batch_context and some small performance and compatibility fixes
