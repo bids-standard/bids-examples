@@ -1,68 +1,68 @@
-name	description	type	status 
-A1	Fp1	EEG	Good
-A2	AF7	EEG	Good
-A3	AF3	EEG	Good
-A4	F1	EEG	Good
-A5	F3	EEG	Good
-A6	F5	EEG	Good
-A7	F7	EEG	Good
-A8	FT7	EEG	Good
-A9	FC5	EEG	Good
-A10	FC3	EEG	Good
-A11	FC1	EEG	Good
-A12	C1	EEG	Good
-A13	C3	EEG	Good
-A14	C5	EEG	Good
-A15	T7	EEG	Good
-A16	TP7	EEG	Good
-A17	CP5	EEG	Good
-A18	CP3	EEG	Good
-A19	CP1	EEG	Good
-A20	P1	EEG	Good
-A21	P3	EEG	Good
-A22	P5	EEG	Good
-A23	P7	EEG	Good
-A24	P9	EEG	Good
-A25	PO7	EEG	Good
-A26	PO3	EEG	Good
-A27	O1	EEG	Good
-A28	Iz	EEG	Good
-A29	Oz	EEG	Good
-A30	POz	EEG	Good
-A31	Pz	EEG	Good
-A32	CPz	EEG	Good
-B1	Fpz	EEG	Good
-B2	Fp2	EEG	Good
-B3	AF8	EEG	Good
-B4	AF4	EEG	Good
-B5	AFz	EEG	Good
-B6	Fz	EEG	Good
-B7	F2	EEG	Good
-B8	F4	EEG	Good
-B9	F6	EEG	Good
-B10	F8	EEG	Good
-B11	FT8	EEG	Good
-B12	FC6	EEG	Good
-B13	FC4	EEG	Good
-B14	FC2	EEG	Good
-B15	FCz	EEG	Good
-B16	Cz	EEG	Good
-B17	C2	EEG	Good
-B18	C4	EEG	Good
-B19	C6	EEG	Good
-B20	T8	EEG	Good
-B21	TP8	EEG	Good
-B22	CP6	EEG	Good
-B23	CP4	EEG	Good
-B24	CP2	EEG	Good
-B25	P2	EEG	Good
-B26	P4	EEG	Good
-B27	P6	EEG	Good
-B28	P8	EEG	Good
-B29	P10	EEG	Good
-B30	PO8	EEG	Good
-B31	PO4	EEG	Good
-B32	O2	EEG	Good
+name  description type  status  unit
+A1	Fp1	EEG	Good uV
+A2	AF7	EEG	Good uV
+A3	AF3	EEG	Good uV
+A4	F1	EEG	Good uV
+A5	F3	EEG	Good uV
+A6	F5	EEG	Good uV
+A7	F7	EEG	Good uV
+A9	FC5	EEG	Good uV
+A8	FT7	EEG	Good uV
+A10	FC3	EEG	Good uV
+A11	FC1	EEG	Good uV
+A12	C1	EEG	Good uV
+A13	C3	EEG	Good uV
+A14	C5	EEG	Good uV
+A15	T7	EEG	Good uV
+A16	TP7	EEG	Good uV
+A17	CP5	EEG	Good uV
+A18	CP3	EEG	Good uV
+A19	CP1	EEG	Good uV
+A20	P1	EEG	Good uV
+A21	P3	EEG	Good uV
+A22	P5	EEG	Good uV
+A23	P7	EEG	Good uV
+A24	P9	EEG	Good uV
+A25	PO7	EEG	Good uV
+A26	PO3	EEG	Good uV
+A27	O1	EEG	Good uV
+A29	Oz	EEG	Good uV
+A28	Iz	EEG	Good uV
+A30	POz	EEG	Good uV
+A31	Pz	EEG	Good uV
+A32	CPz	EEG	Good uV
+B1	Fpz	EEG	Good uV
+B2	Fp2	EEG	Good uV
+B3	AF8	EEG	Good uV
+B4	AF4	EEG	Good uV
+B5	AFz	EEG	Good uV
+B6	Fz	EEG	Good uV
+B7	F2	EEG	Good uV
+B8	F4	EEG	Good uV
+B9	F6	EEG	Good uV
+B10	F8	EEG	Good uV
+B11	FT8	EEG	Good uV
+B12	FC6	EEG	Good uV
+B13	FC4	EEG	Good uV
+B14	FC2	EEG	Good uV
+B15	FCz	EEG	Good uV
+B16	Cz	EEG	Good uV
+B17	C2	EEG	Good uV
+B18	C4	EEG	Good uV
+B19	C6	EEG	Good uV
+B20	T8	EEG	Good uV
+B21	TP8	EEG	Good uV
+B22	CP6	EEG	Good uV
+B23	CP4	EEG	Good uV
+B25	P2	EEG	Good uV
+B24	CP2	EEG	Good uV
+B26	P4	EEG	Good uV
+B27	P6	EEG	Good uV
+B28	P8	EEG	Good uV
+B29	P10	EEG	Good uV
+B30	PO8	EEG	Good uV
+B31	PO4	EEG	Good uV
+B32	O2	EEG	Good uV
 EXG1	EXG1	EEG	Unused
 EXG2	EXG2	EEG	Unused
 EXG3	EXG3	EEG	Unused
