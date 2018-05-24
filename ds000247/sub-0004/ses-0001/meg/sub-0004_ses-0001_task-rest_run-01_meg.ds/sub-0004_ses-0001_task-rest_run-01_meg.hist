@@ -1,0 +1,60 @@
+************************************************************
+DATE:
+25-Oct-2017 08:37
+
+OPERATOR:
+meg
+
+APP:
+newDs 5.4.0-linux-20061212
+
+newDs sub-0004/ses-0001/meg/sub-0004_task-rest_run-01_meg.ds sub-0004/ses-0001/meg/sub-0004_ses-0001_task-rest_run-01_meg.ds
+
+Input datasets: sub-0004/ses-0001/meg/sub-0004_task-rest_run-01_meg.ds
+Save results as: sub-0004/ses-0001/meg/sub-0004_ses-0001_task-rest_run-01_meg.ds
+Exclude non-SAM virtual channels.
+Bad channels will be excluded.
+Bad segments will be excluded.
+Viewing filter parameters will NOT be applied.
+Resaving whole trial.
+Overlap tolerance (sec): 0
+Event range: all target events.
+
+// Head Localization parameters.
+// 25-Oct-2017 08:39
+
+CustomDs
+{
+	FixSensors:	False
+}
+
+// PROCESSING PARAMETERS
+processing
+{
+	// balance: order, adapted
+	// (adapted=0 -> not adapted)
+	// (adapted=1 -> adapted)
+	balance:	3,0
+}
+
+// Data selector parameters.
+DsSelector
+{
+	RejectBadTrials:	TRUE
+	ForceEvenNumTargets:	FALSE
+	MaximumOverlap:	0
+	StartTime:	-0
+	EndTime:	1
+	EventRange:	ALL
+	WholeTrial:	TRUE
+	CondSearchStart:	0
+	CondSearchEnd:	0
+	TargetTrialOffset:	0
+}
+
+
+RESULTS:
+Number of events/trials in new dataset = 599
+
+Maximum head movement: 3.0 mm at trial 585 at sample 2175 for head coil Le
+Dataset's motion tolerance is 5.0mm

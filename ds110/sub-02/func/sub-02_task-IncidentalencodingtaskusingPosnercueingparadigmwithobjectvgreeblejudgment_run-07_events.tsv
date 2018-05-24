@@ -1,0 +1,113 @@
+onset	duration	trial_type	Object_Cond	Validity_Cond	Obj_Accuracy	Obj_Acc_RT	Subseq_Recog	Subseq_Recog_RT	Subseq_Source_Mem_Acc	Subseq_Source_Mem_Acc_RT
+4.001	1.000	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object	OBJ	V	1	0.40339	UT	UT	UT	UT
+6.001	0.500	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue	OBJ	V	1	0.40339	UT	UT	UT	UT
+8.049	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.37725	HC-HIT	 1.0804	0	0.43275
+14.049	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.37725	HC-HIT	 1.0804	0	0.43275
+16.091	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.33868	HC-MISS	  1.549	UT	UT
+20.091	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.33868	HC-MISS	  1.549	UT	UT
+22.131	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.35668	UT	UT	UT	UT
+24.131	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.35668	UT	UT	UT	UT
+26.169	1.000	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object	OBJ	V	1	0.41239	UT	UT	UT	UT
+30.169	0.500	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue	OBJ	V	1	0.41239	UT	UT	UT	UT
+32.208	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.41328	LC-MISS	 2.5443	UT	UT
+36.208	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.41328	LC-MISS	 2.5443	UT	UT
+40.247	1.000	Invalid HC-Hit Cue: invalid cue where following object was a subsequent high confidence hit	OBJ	NV	1	0.44605	HC-HIT	0.91906	1	0.47129
+42.247	0.500	Invalid HC-Hit Obj: object that was a subsequent high confidence hit and that followed an invalid cue	OBJ	NV	1	0.44605	HC-HIT	0.91906	1	0.47129
+44.287	1.000	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object	OBJ	V	1	0.41415	UT	UT	UT	UT
+48.287	0.500	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue	OBJ	V	1	0.41415	UT	UT	UT	UT
+50.326	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.48059	UT	UT	UT	UT
+52.326	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.48059	UT	UT	UT	UT
+54.363	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.46244	UT	UT	UT	UT
+60.363	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.46244	UT	UT	UT	UT
+62.405	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.43162	HC-HIT	 1.5838	1	0.77056
+66.405	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.43162	HC-HIT	 1.5838	1	0.77056
+68.445	1.000	Invalid Miss Cue: invalid cue where following object was a subsequent miss	OBJ	NV	1	0.47246	LC-MISS	 1.9165	UT	UT
+72.445	0.500	Invalid Miss Obj: object that was a subsequent miss and that followed an invalid cue	OBJ	NV	1	0.47246	LC-MISS	 1.9165	UT	UT
+74.484	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.48355	UT	UT	UT	UT
+76.484	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.48355	UT	UT	UT	UT
+78.521	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.38414	HC-HIT	0.92523	1	1.95
+84.521	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.38414	HC-HIT	0.92523	1	1.95
+86.564	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.47247	UT	UT	UT	UT
+90.564	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.47247	UT	UT	UT	UT
+92.603	1.000	Invalid Other Greeble Cue: invalid cue where following stimulus was an untested or no response greeble	GRE	NV	0	0.46352	UT	UT	UT	UT
+98.603	0.500	Invalid Other Greeble: stimulus that was an untested or no response greeble and that followed a invalid cue	GRE	NV	0	0.46352	UT	UT	UT	UT
+102.645	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.44839	HC-HIT	 1.0388	1	0.32167
+104.645	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.44839	HC-HIT	 1.0388	1	0.32167
+106.684	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.40978	HC-HIT	 1.2154	1	0.51441
+108.684	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.40978	HC-HIT	 1.2154	1	0.51441
+112.722	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.45569	HC-HIT	 1.2028	1	1.6235
+116.722	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.45569	HC-HIT	 1.2028	1	1.6235
+122.764	1.000	Invalid HC-Hit Cue: invalid cue where following object was a subsequent high confidence hit	OBJ	NV	1	0.41825	HC-HIT	0.96155	0	1.5532
+128.764	0.500	Invalid HC-Hit Obj: object that was a subsequent high confidence hit and that followed an invalid cue	OBJ	NV	1	0.41825	HC-HIT	0.96155	0	1.5532
+132.810	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.39775	UT	UT	UT	UT
+138.810	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.39775	UT	UT	UT	UT
+140.854	1.000	Invalid LC-Hit Cue: invalid cue where following object was a subsequent low confidence hit	OBJ	NV	1	0.45746	LC-HIT	 1.7204	1	0.90839
+142.854	0.500	Invalid LC-Hit Obj: object that was a subsequent low confidence hit and that followed an invalid cue	OBJ	NV	1	0.45746	LC-HIT	 1.7204	1	0.90839
+148.892	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.37581	UT	UT	UT	UT
+150.892	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.37581	UT	UT	UT	UT
+152.934	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.47779	LC-MISS	 2.3379	UT	UT
+158.934	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.47779	LC-MISS	 2.3379	UT	UT
+160.975	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.42138	LC-MISS	0.86558	UT	UT
+164.975	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.42138	LC-MISS	0.86558	UT	UT
+167.014	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.42096	UT	UT	UT	UT
+173.014	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.42096	UT	UT	UT	UT
+175.056	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	 0.3557	LC-MISS	 1.8317	UT	UT
+179.056	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	 0.3557	LC-MISS	 1.8317	UT	UT
+181.096	1.000	Invalid HC-Hit Cue: invalid cue where following object was a subsequent high confidence hit	OBJ	NV	1	0.48657	HC-HIT	0.91423	1	0.8351
+183.096	0.500	Invalid HC-Hit Obj: object that was a subsequent high confidence hit and that followed an invalid cue	OBJ	NV	1	0.48657	HC-HIT	0.91423	1	0.8351
+187.134	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.39892	HC-MISS	  2.102	UT	UT
+189.134	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.39892	HC-MISS	  2.102	UT	UT
+191.173	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.47046	UT	UT	UT	UT
+197.173	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.47046	UT	UT	UT	UT
+199.215	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.38007	LC-MISS	 1.6894	UT	UT
+205.215	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.38007	LC-MISS	 1.6894	UT	UT
+207.257	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.45085	UT	UT	UT	UT
+213.257	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.45085	UT	UT	UT	UT
+215.299	1.000	Invalid Miss Cue: invalid cue where following object was a subsequent miss	OBJ	NV	0	0.39447	LC-MISS	  2.256	UT	UT
+219.299	0.500	Invalid Miss Obj: object that was a subsequent miss and that followed an invalid cue	OBJ	NV	0	0.39447	LC-MISS	  2.256	UT	UT
+223.339	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.41004	LC-MISS	 1.1152	UT	UT
+225.339	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.41004	LC-MISS	 1.1152	UT	UT
+227.377	1.000	Valid LC-Hit Cue: valid cue where following object was a subsequent low confidence hit	OBJ	V	1	0.46058	LC-HIT	 2.3103	0	1.12
+229.377	0.500	Valid LC-Hit Obj: object that was a subsequent low confidence hit and that followed a valid cue	OBJ	V	1	0.46058	LC-HIT	 2.3103	0	1.12
+233.415	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.39553	LC-MISS	 2.8456	UT	UT
+237.415	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.39553	LC-MISS	 2.8456	UT	UT
+239.457	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.44153	LC-MISS	  2.337	UT	UT
+245.457	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.44153	LC-MISS	  2.337	UT	UT
+247.499	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.39371	HC-HIT	 1.3701	1	0.47166
+251.499	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.39371	HC-HIT	 1.3701	1	0.47166
+253.538	1.000	Invalid Other Greeble Cue: invalid cue where following stimulus was an untested or no response greeble	GRE	NV	0	0.46481	UT	UT	UT	UT
+259.538	0.500	Invalid Other Greeble: stimulus that was an untested or no response greeble and that followed a invalid cue	GRE	NV	0	0.46481	UT	UT	UT	UT
+261.580	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.40952	UT	UT	UT	UT
+265.580	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.40952	UT	UT	UT	UT
+267.620	1.000	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object	OBJ	V	1	 0.4582	UT	UT	UT	UT
+269.620	0.500	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue	OBJ	V	1	 0.4582	UT	UT	UT	UT
+271.657	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.42481	UT	UT	UT	UT
+277.657	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.42481	UT	UT	UT	UT
+279.700	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.42574	LC-MISS	 2.7172	UT	UT
+283.700	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.42574	LC-MISS	 2.7172	UT	UT
+285.738	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.41525	HC-HIT	0.99946	1	0.38186
+291.738	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.41525	HC-HIT	0.99946	1	0.38186
+293.781	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.45191	LC-MISS	 2.0279	UT	UT
+295.781	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.45191	LC-MISS	 2.0279	UT	UT
+297.818	1.000	Valid Other Obj Cue: valid cue where following stimulus was an untested or no response object	OBJ	V	1	0.42031	UT	UT	UT	UT
+299.818	0.500	Valid Other Obj: stimulus that was an untested or no response object and that followed a valid cue	OBJ	V	1	0.42031	UT	UT	UT	UT
+301.856	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	NR	NR	HC-HIT	 1.6062	0	0.63061
+305.856	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	NR	NR	HC-HIT	 1.6062	0	0.63061
+307.894	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.43569	HC-HIT	 1.3041	1	0.32826
+313.894	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.43569	HC-HIT	 1.3041	1	0.32826
+315.937	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.40946	LC-MISS	 1.0081	UT	UT
+321.937	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.40946	LC-MISS	 1.0081	UT	UT
+325.979	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.52269	HC-HIT	 1.2863	1	1.8795
+329.979	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.52269	HC-HIT	 1.2863	1	1.8795
+334.020	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.50003	UT	UT	UT	UT
+340.020	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.50003	UT	UT	UT	UT
+344.065	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.42084	HC-HIT	 1.8211	1	1.804
+346.065	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.42084	HC-HIT	 1.8211	1	1.804
+348.104	1.000	Invalid Miss Cue: invalid cue where following object was a subsequent miss	OBJ	NV	0	0.43694	HC-MISS	 1.3608	UT	UT
+352.104	0.500	Invalid Miss Obj: object that was a subsequent miss and that followed an invalid cue	OBJ	NV	0	0.43694	HC-MISS	 1.3608	UT	UT
+354.143	1.000	Valid Other Greeble Cue: valid cue where following stimulus was an untested or no response greeble	GRE	V	0	0.50678	UT	UT	UT	UT
+358.143	0.500	Valid Other Greeble: stimulus that was an untested or no response greeble and that followed a valid cue	GRE	V	0	0.50678	UT	UT	UT	UT
+360.184	1.000	Valid Miss Cue: valid cue where following object was a subsequent miss	OBJ	V	1	0.54657	LC-MISS	 2.8477	UT	UT
+362.184	0.500	Valid Miss Obj: object that was a subsequent miss and that followed a valid cue	OBJ	V	1	0.54657	LC-MISS	 2.8477	UT	UT
+364.220	1.000	Valid HC-Hit Cue: valid cue where following object was a subsequent high confidence hit	OBJ	V	1	0.43443	HC-HIT	 1.3696	0	1.0203
+366.220	0.500	Valid HC-Hit Obj: object that was a subsequent high confidence hit and that followed a valid cue	OBJ	V	1	0.43443	HC-HIT	 1.3696	0	1.0203
