@@ -1,0 +1,16 @@
+{
+  "TaskName": "prot map",
+  "TaskDescription": "Protocol for brain mapping",
+  "EEGSamplingFrequency": 200,
+  "ChannelCount": 58,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount":  0,
+  "TriggerChannelCount":  0,
+  "EEGPlacementScheme": "10-10",
+  "EEGReference": "common",
+  "RecordingDuration": 1151.29,
+  "RecordingType": "continuous",
+  "PowerLineFrequency": 60,
+}
