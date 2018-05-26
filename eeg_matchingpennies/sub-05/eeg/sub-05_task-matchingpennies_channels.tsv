@@ -1,0 +1,13 @@
+name	type	unit	status	status_description
+Fz	REF	uV	good	
+AFz	GRD	uV	good	
+FC5	EEG	uV	bad	Contains high frequency noise
+FC1	EEG	uV	good	
+C3	EEG	uV	good	
+CP5	EEG	uV	good	
+CP1	EEG	uV	good	
+FC2	EEG	uV	good	
+FC6	EEG	uV	bad	Low correlation with other channels
+C4	EEG	uV	good	
+CP2	EEG	uV	good	
+CP6	EEG	uV	good	
