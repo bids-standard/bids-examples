@@ -1,0 +1,10 @@
+{
+  "EEGCoordinateSystem": "T1w",
+  "EEGCoordinateUnits": "mm",
+  "AnatomicalMRICoordinateSystem": "T1w",
+  "AnatomicalMRICoordinateUnits": "mm",
+  "LandmarkCoordinates": "{\"LPA\":[-0.072223  1.1847e-08  7.8273e-09], \"naz\":[-1.0052e-09     0.10336  8.4566e-09], \"RPA\":[0.073092  1.6933e-08  8.8433e-09]}",
+  "LandmarkCoordinateSystem": "T1w",
+  "LandmarkCoordinateUnits": "mm",
+  "IntendedFor": "anat\sub-04_T1w.nii.gz"
+}

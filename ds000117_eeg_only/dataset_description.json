@@ -1,0 +1,12 @@
+{
+	"Name": "EEG derived data from 'A multi-subject, multi-modal human neuroimaging dataset: fMRI, EEG and MEG data on face processing'",
+	"BIDSVersion": "v1.X, BEP006",
+	"License": " Creative Commons Attribution 4.0 International License",
+	"Authors": ["Cyril Pernet", "Ramon Martinez"],
+	"Acknowledgements": "UK Medical Research Council and Elekta Ltd",
+	"HowToAcknowledge": " Daniel Wakeman and Richard Henson. Wakeman, D. G. & Henson, R. N. A multi-subject, multi-modal human neuroimaging dataset. Sci. Data 2:150001 doi: 10.1038\/sdata.2015.1 (2015).",
+	"Funding": "UK Medical Research Council (MC_A060_5PR10) and Elekta Ltd",
+	"ReferencesAndLinks": ["Wakeman, D. G. & Henson, R. N. A multi-subject, multi-modal human neuroimaging dataset. Sci. Data 2:150001 doi: 10.1038\/sdata.2015.1 (2015)"],
+	"PipelineName": "EEG_fif_extraction",
+	"SourceDatasetsURLs": " OpenfMRI ds000117 (2014). ftp:\/\/ftp.mrc-cbu.cam.ac.uk\/personal\/rik.henson\/wakemandg_hensonrn\/"
+}
