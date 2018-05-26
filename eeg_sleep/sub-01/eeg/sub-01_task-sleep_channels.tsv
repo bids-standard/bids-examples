@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 name	type	units
 C3	EEG	uV
 C4	EEG	uV
@@ -21,27 +20,3 @@ P3	EEG	uV
 P4	EEG	uV
 Pz	EEG	uV
 REF	EEG	uV
-=======
-name unit type  description
-C3  uV  EEG
-C4  uV  EEG
-Chin  uV  EMG
-Cz  uV  EEG
-E1  uV  EEG
-E2  uV  EEG
-EKG  mV  ECG
-F3  uV  EEG
-F4  uV  EEG
-Fz  uV  EEG
-Heart Rate_DR n/a n/a
-Light_BU n/a n/a
-Light_MD n/a n/a
-M1  uV  EEG
-M2  uV  EEG
-O1  uV  EEG
-O2  uV  EEG
-P3  uV  EEG
-P4  uV  EEG
-Pz  uV  EEG
-REF uV  EEG Reference
->>>>>>> 50c58bb094a79fd63be23e592de1d48ef2de36a9
