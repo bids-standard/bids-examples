@@ -1,9 +1,11 @@
 {
   "TaskName": "sleep",
-  "EEGSamplingFrequency": 250,
+  "SamplingFrequency": 250,
   "EEGChannelCount": 16,
+  "EOGChannelCount": 0,
   "EMGChannelCount": 1,
   "ECGChannelCount": 1,
   "MiscChannelCount": 3,
-  "ManufacturersAmplifierModelName": "EMBLA"
+  "Manufacturer": "Natus",
+  "ManufacturersModelName": "S4500 PSG Amplifier"
 }
