@@ -2,7 +2,7 @@ node_js:
   - "6.11.0"
 
 install:
-  - npm install -g https://github.com/INCF/bids-validator.git#0.26.0
+  - npm install -g https://github.com/INCF/bids-validator.git#eeg-validator
 
 script:
   - |
