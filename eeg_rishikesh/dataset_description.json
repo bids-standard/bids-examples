@@ -1,11 +1,10 @@
 {
 	"Name": "Mind wandering in experienced and novice meditators",
-	"BIDSVersion": "??????",
+	"BIDSVersion": "1.2.0",
 	"License": "CC0",
-	"Authors": ["Arnaud Delorme and Tracy Brandmeyer"],
+	"Authors": "Arnaud Delorme and Tracy Brandmeyer",
 	"Acknowledgements": "This work was supported by Grants from the ANR (Agence Nationale pour la Recherche) ANR-12-JSH2-0009 and the BIAL foundation BIAL-08-162",
 	"HowToAcknowledge": "Please cite the reference below",
-	"Funding": "list your funding sources",
-	"ReferencesAndLinks": "Brandmeyer and Delorme (2016) Reduced mind wandering in experienced meditators and associated EEG correlates, Exp Brain Res, DOI 10.1007/s00221-016-4811-5",
-	"DatasetDOI": "????????"
+	"Funding":"This work was supported by Grants from the ANR (Agence Nationale pour la Recherche) ANR-12-JSH2-0009 and the BIAL foundation BIAL-08-162",
+	"ReferencesAndLinks": {"Brandmeyer and Delorme (2016) Reduced mind wandering in experienced meditators and associated EEG correlates, Exp Brain Res, DOI 10.1007/s00221-016-4811-5", "ftp://sccn.ucsd.edu/pub/arno/rishikesh/"}
 }

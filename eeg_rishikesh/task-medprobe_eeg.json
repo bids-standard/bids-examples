@@ -1,0 +1,18 @@
+{
+  "TaskName":"Mind wandering",
+  "TaskDescription": "Meditate and report at regular intervals (see README.txt for details)",
+  "InstitutionName": "Meditation Research Institute, Rishikesh, India",
+  "SamplingFrequency": 2048,
+  "EEGChannelCount":  64,
+  "EOGChannelCount": 0,
+  "EEGReference": "bipolar",
+  "TriggerChannelCount": 1,
+  "PowerLineFrequency": 50,
+  "EEGPlacementScheme": "10-20",
+  "Manufacturer": "Biosemi",
+  "ManufacturerModelName": "??",
+  "CapManufacturer": "Biosemi",
+  "CapModelName": "??",
+  "HardwareFilters": {"Low-Pass butterworth":350},
+  "RecordingType": "continuous",
+}
