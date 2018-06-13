@@ -17,11 +17,11 @@ https://opendatacommons.org/licenses/odbl/summary/
 
 Format
 ------
-It is formatted according to BIDS version 1.1.0 and the BIDS standard extension for EEG (BEP006), which can be found here:
+It is formatted according to BIDS version 1.1.1 and the BIDS standard extension for EEG (BEP006), which can be found here:
 
 https://docs.google.com/document/d/1ArMZ9Y_quTKXC-jNXZksnedK2VHHoKP3HCeO5HPcgLE/edit#heading=h.4k1noo90gelw
 
-Note that BEP006 is still a work in progress as of 2018-05-25.
+Note that BEP006 is still a work in progress as of 2018-06-13.
 
 Generally, you can find data in the .tsv files and descriptions in the accompanying .json files.
 
