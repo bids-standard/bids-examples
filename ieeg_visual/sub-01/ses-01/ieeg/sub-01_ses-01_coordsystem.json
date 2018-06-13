@@ -2,8 +2,6 @@
     "iEEGCoordinateSystem": "T1w",
     "iEEGCoordinateUnits": "mm",
     "iEEGCoordinateProcessingDescripton": "surface_projection",
-    "IntendedFor": "/derivatives/surfaces/sub-01/ses-01/anat/sub-01_T1w.nii",
-    "AssociatedImageCoordinateSystem": "T1w",
-    "AssociatedImageCoordinateUnits": "mm",
-    "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth"
+    "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth",
+    "IntendedFor": "/derivatives/surfaces/sub-01/ses-01/anat/sub-01_T1w.nii"
 }
