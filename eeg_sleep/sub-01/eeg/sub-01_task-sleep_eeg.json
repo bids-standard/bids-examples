@@ -1,12 +1,12 @@
 {
-  "TaskName": "sleep",
-  "SamplingFrequency": 250,
-  "EEGChannelCount": 16,
-  "EOGChannelCount": 0,
-  "EMGChannelCount": 1,
-  "ECGChannelCount": 1,
-  "EOGChannelCount": 0,
-  "MiscChannelCount": 3,
-  "Manufacturer": "Natus",
-  "ManufacturersModelName": "S4500 PSG Amplifier"
+    "TaskName": "sleep",
+    "SamplingFrequency": 250,
+    "EEGChannelCount": 16,
+    "EOGChannelCount": 0,
+    "EMGChannelCount": 1,
+    "ECGChannelCount": 1,
+    "MiscChannelCount": 3,
+    "Manufacturer": "Natus",
+    "ManufacturerModelName": "S4500 PSG Amplifier",
+    "EEGReference": "unipolar using electrode 'REF', placement unknown"
 }
