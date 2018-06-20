@@ -1,6 +1,8 @@
 {
   "Name": "Example BIDS structure based on EMBLA data",
-  "Authors": ["Christophe Phillips"],
+  "Authors": [
+    "Christophe Phillips"
+  ],
   "License": " CC-BY 4.0",
-  "BIDSVersion": "1.2.0"
+  "BIDSVersion": "1.1.1"
 }
