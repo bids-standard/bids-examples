@@ -1,4 +1,4 @@
-onset	duration	onset_sample	stim_type	trigger	stim_file
+onset	duration	event_sample	trial_type	event_value	stim_file
 23.5536	0	25909	Famous	5	f097.bmp
 26.6773	0	29345	Famous	6	f097.bmp
 29.8845	0	32873	Scrambled	17	s067.bmp
