@@ -1,15 +1,18 @@
 {
-  "Name": "Matching Pennies",
-  "BIDSVersion": "1.1.1, BEP006(EEG) as of 20th of June, 2018",
-  "License": "ODbL (https://opendatacommons.org/licenses/odbl/summary/)",
-  "Authors": [
-    "Stefan Appelhoff",
-    "Daryl Sauer",
-    "Suleman Gill"
-  ],
-  "Acknowledgements": "We thank Daniel Myklody for general guidance and help in setting up the recording site.",
-  "HowToAcknowledge": "We hope that all users of this dataset will cite the citation listed under the ReferencesAndLinks field.",
-  "ReferencesAndLinks": [
-    "Appelhoff, S., Sauer, D., & Gill, S. S. (2018, May 25). Matching Pennies: A Brain Computer Interface Implementation. Retrieved from osf.io/cj2dr"
-  ]
+    "Name": "Matching Pennies",
+    "BIDSVersion": "1.1.1, BEP006(EEG) as of 22nd of June, 2018",
+    "License": "ODbL (https://opendatacommons.org/licenses/odbl/summary/)",
+    "Authors": [
+        "Stefan Appelhoff",
+        "Daryl Sauer",
+        "Suleman Gill"
+    ],
+    "Acknowledgements": "We thank Daniel Myklody for general guidance and help in setting up the recording site.",
+    "HowToAcknowledge": [
+        "Appelhoff, S., Sauer, D., & Gill, S. S. (2018, July 22). Matching Pennies: A Brain Computer Interface Implementation Dataset. https://doi.org/10.17605/OSF.IO/CJ2DR"
+    ],
+    "ReferencesAndLinks": [
+        "Matthias Schultze-Kraft et al. “Predicting Motor Intentions with Closed-Loop Brain-Computer Interfaces”. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79–90. https://doi.org/10.1007/978-3-319-64373-1_8."
+    ],
+    "DatasetDOI": "10.17605/OSF.IO/CJ2DR"
 }
