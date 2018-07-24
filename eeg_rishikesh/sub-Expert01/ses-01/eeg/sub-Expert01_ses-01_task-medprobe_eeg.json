@@ -15,7 +15,9 @@
     "ManufacturersModelName": "ActiveTwo",
     "CapManufacturer": "Biosemi",
     "HardwareFilters": {
-        "Low-Pass butterworth": "350 Hz"
+        "Lowpass Butterworth filter": {
+            "Cutoff (Hz)": 350
+        }
     },
     "RecordingType": "continuous"
 }
