@@ -21,7 +21,7 @@ It is formatted according to BIDS version 1.1.1 and the BIDS standard extension 
 
 https://docs.google.com/document/d/1ArMZ9Y_quTKXC-jNXZksnedK2VHHoKP3HCeO5HPcgLE/edit#heading=h.4k1noo90gelw
 
-Note that BEP006 is still a work in progress as of 2018-06-13.
+Note that BEP006 is still a work in progress as of 2018-07-22.
 
 Generally, you can find data in the .tsv files and descriptions in the accompanying .json files.
 
@@ -45,4 +45,4 @@ References
 ----------
 .. [1] Matthias Schultze-Kraft et al. “Predicting Motor Intentions with Closed-Loop Brain-Computer Interfaces”. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79–90. https://doi.org/10.1007/978-3-319-64373-1_8.
 
-.. [2] Appelhoff, S., Sauer, D., & Gill, S. S. (2018, May 25). Matching Pennies: A Brain Computer Interface Implementation. Retrieved from https://osf.io/cj2dr
+.. [2] Appelhoff, S., Sauer, D., & Gill, S. S. (2018, July 22). Matching Pennies: A Brain Computer Interface Implementation Dataset. https://doi.org/10.17605/OSF.IO/CJ2DR
