@@ -1,75 +1,79 @@
 {
-  "onset": {
-    "LongName": "onset",
-    "Description": "Onset of the event",
-    "Units": "seconds"
-  },
-  "duration": {
-    "LongName": "duration",
-    "Description": "Duration of the event",
-    "Units": "seconds"
-  },
-  "event_value": {
-    "LongName": "event value",
-    "Description": "The code (EEG Marker value) associated with an event ",
-    "Levels": {
-      "1": "Release of left button (i.e., raising left hand)",
-      "2": "Release of right button (i.e., raising right hand)"
+    "onset": {
+        "LongName": "onset",
+        "Description": "Onset of the event",
+        "Units": "seconds"
+    },
+    "duration": {
+        "LongName": "duration",
+        "Description": "Duration of the event",
+        "Units": "seconds"
+    },
+    "trial_type": {
+        "LongName": "trial type",
+        "Description": "Which hand was lifted by the participant.",
+        "Levels": {
+            "left": "Left",
+            "right": "Right"
+        }
+    },
+    "response_time": {
+        "LongName": "response time",
+        "Description": "Reaction time to lift the left or right hand after the countdown reached zero.",
+        "Units": "Milliseconds"
+    },
+    "stim_file": {
+        "LongName": "stimulus file",
+        "Description": "Name of the file that was shown during this trial of the experiment."
+    },
+    "event_value": {
+        "LongName": "event value",
+        "Description": "The code (EEG Marker value) associated with an event ",
+        "Levels": {
+            "1": "Release of left button (i.e., raising left hand)",
+            "2": "Release of right button (i.e., raising right hand)"
+        }
+    },
+    "event_sample": {
+        "LongName": "event sample",
+        "Description": "The sample within the EEG data at which an event occurred"
+    },
+    "stage": {
+        "LongName": "stage",
+        "Description": "The current stage of the experiment.",
+        "Levels": {
+            "1": "Stage 1. BCI acts randomly",
+            "2": "Stage 2. BCI was trained on data from stage 1.",
+            "3": "Stage 3. BCI was trained on data from stages 1 and 2."
+        }
+    },
+    "trl": {
+        "LongName": "trial",
+        "Description": "The current trial within this stage."
+    },
+    "pred": {
+        "LongName": "prediction",
+        "Description": "Which lift_side did the BCI predict.",
+        "Levels": {
+            "left": "Left",
+            "right": "Right"
+        }
+    },
+    "pred_valid": {
+        "LongName": "prediction valid",
+        "Description": "Did a prediction arrive on time (if not, a random prediction was made)",
+        "Levels": {
+            "1": "True",
+            "2": "False"
+        }
+    },
+    "n_invalid": {
+        "LongName": "number invalid",
+        "Description": "Number of invalid trials up to this trial."
+    },
+    "latency": {
+        "LongName": "latency",
+        "Description": "Estimated beginning of the data chunk used for the BCI prediction with respect to the true event as measured by parallel port trigger.",
+        "Units": "Milliseconds"
     }
-  },
-  "event_sample": {
-    "LongName": "event sample",
-    "Description": "The sample within the EEG data at which an event occurred"
-  },
-  "stage": {
-    "LongName": "stage",
-    "Description": "The current stage of the experiment.",
-    "Levels": {
-      "1": "Stage 1. BCI acts randomly",
-      "2": "Stage 2. BCI was trained on data from stage 1.",
-      "3": "Stage 3. BCI was trained on data from stages 1 and 2."
-    }
-  },
-  "trl": {
-    "LongName": "trial",
-    "Description": "The current trial within this stage."
-  },
-  "response_time": {
-    "LongName": "response time",
-    "Description": "Reaction time to lift the left or right hand after the countdown reached zero.",
-    "Units": "Milliseconds"
-  },
-  "lift_side": {
-    "LongName": "lift side",
-    "Description": "Which hand was lifted.",
-    "Levels": {
-      "1": "Left",
-      "2": "Right"
-    }
-  },
-  "pred": {
-    "LongName": "prediction",
-    "Description": "Which lift_side did the BCI predict.",
-    "Levels": {
-      "1": "Left",
-      "2": "Right"
-    }
-  },
-  "pred_valid": {
-    "LongName": "prediction valid",
-    "Description": "Did a prediction arrive on time (if not, a random prediction was made)",
-    "Levels": {
-      "1": "True",
-      "2": "False"
-    }
-  },
-  "n_invalid": {
-    "LongName": "number invalid",
-    "Description": "Number of invalid trials up to this trial."
-  },
-  "latency": {
-    "LongName": "latency",
-    "Description": "Estimated beginning of the data chunk used for the BCI prediction with respect to the true event as measured by parallel port trigger.",
-    "Units": "Milliseconds"
-  }
 }

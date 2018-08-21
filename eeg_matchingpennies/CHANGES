@@ -1,5 +1,13 @@
 0.1.0 2018-05-03
-  - initial release
+    - initial release
 
 0.1.1 2018-06-13
-  - adjusted BIDS formatting in compliance with BEP_006 EEG
+	- adjusted BIDS formatting in compliance with BEP_006 EEG
+
+0.1.2 2018-07-22
+	- added DOI to dataset
+	- changed events.tsv structure now using stim_file
+	- changed events.tsv structure now using trial_type instead of lift_side
+	- changed events.tsv structure: trial_type and pred now use left and right instead of 1 and 2
+	- adjusted events.json according to events.tsv
+	- general BEP_006 compliance
