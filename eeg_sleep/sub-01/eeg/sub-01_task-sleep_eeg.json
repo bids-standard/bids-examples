@@ -1,6 +1,7 @@
 {
   "TaskName": "sleep",
   "SamplingFrequency": 250,
+  "PowerLineFrequency": 50,
   "EEGChannelCount": 16,
   "EOGChannelCount": 0,
   "EMGChannelCount": 1,
