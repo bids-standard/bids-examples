@@ -2,7 +2,7 @@ node_js:
   - "6.11.0"
 
 install:
-  - npm install -g https://github.com/INCF/bids-validator.git#0.26.18
+  - npm install -g https://github.com/INCF/bids-validator.git
 
 script:
   - |
@@ -10,6 +10,6 @@ script:
     for i in $(ls -d */);
     do
       echo "Validating dataset" $i
-      bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+      bids-validator ${i%%/} --ignoreNiftiHeaders --bep010 || rc=$?
     done
     exit $rc;
