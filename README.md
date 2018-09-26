@@ -1,4 +1,4 @@
-[![Travis](https://api.travis-ci.org/INCF/BIDS-examples.svg?branch=master "Travis")](https://travis-ci.org/bids-examples/BIDS-examples)
+[![Travis](https://api.travis-ci.org/INCF/BIDS-examples.svg?branch=master "Travis")](https://travis-ci.org/bids-standard/bids-examples)
 
 # BIDS-examples
 A set of BIDS compatible datasets with **empty raw data files** that can be used for writing lightweight software tests.
@@ -11,4 +11,4 @@ ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!
 
 To learn more about the Brain Imaging Data Structure (BIDS), visit http://bids.neuroimaging.io/
 
-If you are looking for datasets with particular features, you can check out the documentation in the [WIKI](https://github.com/INCF/BIDS-examples/wiki/), which is sorted by imaging modalities.
+If you are looking for datasets with particular features, you can check out the documentation in the [WIKI](https://github.com/bids-standard/bids-examples/wiki/), which is sorted by imaging modalities.
