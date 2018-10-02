@@ -1,0 +1,14 @@
+{
+"TaskName": "rest",
+"TaskDescription": "Subjects were asked to remain still and their head was immobilised using a vacuum cushion during scanning",
+"SamplingFrequency": 5000,
+"PowerLineFrequency": 50,
+"ManufacturersModelName": "BrainAmp",
+"CapManufacturersModelName":"BrainCap MR",
+"EEGChannelCount": 64,
+"EOGChannelCount": 0,
+"ECGChannelCount": 1,
+"EMGChannelCount": 0,
+"EEGReference": "FCz",
+"RecordingType": "continuous"
+}
