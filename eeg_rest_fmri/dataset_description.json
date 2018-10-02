@@ -1,0 +1,9 @@
+{
+	"Name": "EEG, fMRI and NODDI at rest'",
+	"BIDSVersion": "v1.1.X",
+	"License": " Creative Commons Attribution 4.0 International License",
+	"Authors": ["F. Deligianni", "M. Centeno", "D.W. Carmichael", "G.H. Zhang", "C.A. Clark", " J.D. Clayden "],
+	"Acknowledgements": "Thanks to C.R. Pernet for preparing the dataset following BIDS",
+	"ReferencesAndLinks": ["F. Deligianni, M. Centeno, D.W. Carmichael and J.D. Clayden (2014). Relating resting-state fMRI and EEG whole-brain connectomes across frequency bands. Frontiers in Neuroscience 8:258","F. Deligianni, D.W. Carmichael, Gary H. Zhang, C.A. Clark and J.D. Clayden (2016). NODDI and tensor-based microstructural indices as predictors of functional connectivity. PLoS ONE 11(4):e0153404"],
+	"SourceDatasetsURLs": " https://osf.io/94c5t/"
+}
