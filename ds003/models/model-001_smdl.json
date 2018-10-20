@@ -1,0 +1,77 @@
+{
+  "name": "ds003_model001",
+  "description": "",
+  "input": {
+    "task": "rhymejudgment"
+  },
+  "blocks": [
+    {
+      "level": "run",
+      "transformations": [
+        {
+          "name": "factor",
+          "input": [
+            "trial_type"
+          ]
+        }
+      ],
+      "model": {
+        "HRF_variables": [
+          "trial_type.word",
+          "trial_type.pseudoword"
+        ],
+        "variables": [
+          "trial_type.word",
+          "trial_type.pseudoword",
+          "FramewiseDisplacement",
+          "X",
+          "Y",
+          "Z",
+          "RotX",
+          "RotY",
+          "RotZ",
+          "aCompCor00",
+          "aCompCor01",
+          "aCompCor02",
+          "aCompCor03",
+          "aCompCor04",
+          "aCompCor05"
+        ]
+      },
+      "contrasts": [
+        {
+          "name": "word_gt_pseudo",
+          "condition_list": [
+            "trial_type.word",
+            "trial_type.pseudoword"
+          ],
+          "weights": [
+            1,
+            -1
+          ],
+          "type": "T"
+        }
+      ]
+    },
+    {
+      "level": "dataset",
+      "model": {
+        "variables": [
+          "word_gt_pseudo"
+        ]
+      },
+      "contrasts": [
+        {
+          "name": "group_word_gt_pseudo",
+          "condition_list": [
+            "word_gt_pseudo"
+          ],
+          "weights": [
+            1
+          ],
+          "type": "T"
+        }
+      ]
+    }
+  ]
+}
