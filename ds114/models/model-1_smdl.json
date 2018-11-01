@@ -1,130 +1,74 @@
 {
-  "name": "ds114_model1",
-  "description": "sample model for ds114",
-  "input": {
+  "Name": "ds114_model1",
+  "Description": "sample model for ds114",
+  "Input": {
     "task": "fingerfootlips"
   },
-  "blocks": [
+  "Steps": [
     {
-      "level": "run",
-      "transformations": [
+      "Level": "run",
+      "Transformations": [
         {
-          "name": "factor",
-          "input": [
-            "trial_type"
-          ]
+          "Name": "Factor",
+          "Input": ["trial_type"]
         }
       ],
-      "model": {
-        "HRF_variables": [
-          "trial_type.Finger",
-          "trial_type.Foot",
-          "trial_type.Lips"
-        ],
-        "variables": [
+      "Model": {
+        "X": [
           "trial_type.Finger",
           "trial_type.Foot",
           "trial_type.Lips",
-          "FramewiseDisplacement",
-          "X",
-          "Y",
-          "Z",
-          "RotX",
-          "RotY",
-          "RotZ",
-          "aCompCor00",
-          "aCompCor01",
-          "aCompCor02",
-          "aCompCor03",
-          "aCompCor04",
-          "aCompCor05"
-        ]
-      },
-      "contrasts": [
-        {
-          "name": "finger_vs_others",
-          "condition_list": [
-            "trial_type.Finger",
-            "trial_type.Foot",
-            "trial_type.Lips"
-          ],
-          "weights": [
-            1,
-            -0.5,
-            -0.5
-          ],
-          "type": "T"
+          "framewise_displacement",
+          "trans_x", "trans_y", "trans_z", "rot_x", "rot_y", "rot_z",
+          "a_comp_cor_00", "a_comp_cor_01", "a_comp_cor_02",
+          "a_comp_cor_03", "a_comp_cor_04", "a_comp_cor_05"
+        ],
+        "Options": {
+          "high_pass_filter_cutoff_secs": 128
         },
+      },
+      "Contrasts": [
         {
-          "name": "lips_vs_others",
-          "condition_list": [
+          "Name": "finger_vs_others",
+          "ConditionList": [
             "trial_type.Finger",
             "trial_type.Foot",
             "trial_type.Lips"
           ],
-          "weights": [
-            -0.5,
-            -0.5,
-            1
-          ],
-          "type": "T"
-        }
+          "Weights": [1, -0.5, -0.5],
+          "Type": "t"
+        },
       ]
     },
     {
-      "level": "session",
-      "transformations": [
+      "Level": "subject",
+      "Transformations": [
         {
-          "name": "split",
-          "input": [
-            "finger_vs_others"
-          ],
-          "by": "session"
+          "Name": "Split",
+          "Input": ["finger_vs_others"],
+          "By": "session"
         }
       ]
-    },
-    {
-      "level": "subject",
-      "model": {
-        "variables": [
+      "Model": {
+        "X": [
           "finger_vs_others.test",
           "finger_vs_others.retest"
         ]
       },
-      "contrasts": [
+      "Contrasts": [
         {
-          "name": "session_diff",
-          "condition_list": [
+          "Name": "test_vs_retest",
+          "ConditionList": [
             "finger_vs_others.test",
             "finger_vs_others.retest"
           ],
-          "weights": [
-            1,
-            -1
-          ],
-          "type": "T"
+          "Weights": [1, -1]
         }
       ]
     },
     {
-      "level": "dataset",
-      "model": {
-        "variables": [
-          "session_diff"
-        ]
-      },
-      "contrasts": [
-        {
-          "name": "session_diff_finger_vs_others",
-          "condition_list": [
-            "session_diff"
-          ],
-          "weights": [
-            1
-          ],
-          "type": "T"
-        }
-      ]
+      "Level": "dataset",
+      "AutoContrasts": ["test_vs_retest"]
     }
   ]
 }
