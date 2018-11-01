@@ -1,77 +1,46 @@
 {
-  "name": "ds003_model001",
-  "description": "",
-  "input": {
+  "Name": "ds003_model001",
+  "Description": "",
+  "Input": {
     "task": "rhymejudgment"
   },
-  "blocks": [
+  "Steps": [
     {
-      "level": "run",
-      "transformations": [
+      "Level": "run",
+      "Transformations": [
         {
-          "name": "factor",
-          "input": [
-            "trial_type"
-          ]
+          "Name": "Factor",
+          "Input": ["trial_type"]
         }
       ],
-      "model": {
-        "HRF_variables": [
-          "trial_type.word",
-          "trial_type.pseudoword"
-        ],
-        "variables": [
+      "Model": {
+        "X": [
           "trial_type.word",
           "trial_type.pseudoword",
-          "FramewiseDisplacement",
-          "X",
-          "Y",
-          "Z",
-          "RotX",
-          "RotY",
-          "RotZ",
-          "aCompCor00",
-          "aCompCor01",
-          "aCompCor02",
-          "aCompCor03",
-          "aCompCor04",
-          "aCompCor05"
-        ]
+          "framewise_displacement",
+          "trans_x", "trans_y", "trans_z", "rot_x", "rot_y", "rot_z",
+          "a_comp_cor_00", "a_comp_cor_01", "a_comp_cor_02",
+          "a_comp_cor_03", "a_comp_cor_04", "a_comp_cor_05"
+        ],
+        "Options": {
+          "high_pass_filter_cutoff_secs": 128
+        },
       },
-      "contrasts": [
+      "Contrasts": [
         {
-          "name": "word_gt_pseudo",
-          "condition_list": [
+          "Name": "wordness",
+          "ConditionList": [
             "trial_type.word",
             "trial_type.pseudoword"
           ],
-          "weights": [
-            1,
-            -1
-          ],
-          "type": "T"
+          "Weights": [1, -1],
+          "Type": "t"
         }
       ]
     },
     {
-      "level": "dataset",
-      "model": {
-        "variables": [
-          "word_gt_pseudo"
-        ]
-      },
-      "contrasts": [
-        {
-          "name": "group_word_gt_pseudo",
-          "condition_list": [
-            "word_gt_pseudo"
-          ],
-          "weights": [
-            1
-          ],
-          "type": "T"
-        }
-      ]
+      "Level": "dataset",
+      "AutoContrasts": true
     }
   ]
 }
