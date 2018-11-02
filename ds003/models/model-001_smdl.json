@@ -11,6 +11,11 @@
         {
           "Name": "Factor",
           "Input": ["trial_type"]
+        },
+        {
+          "Name": "Convolve",
+          "Input": ["trial_type.word", "trial_type.pseudoword"],
+          "Model": "DoubleGamma"
         }
       ],
       "Model": {
