@@ -1,4 +1,4 @@
-name	type	units	low_cutoffhigh_cutoff		sampling_frequency	reference	group	status
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	reference	group	status
 v'1	SEEG	uV	n/a	n/a	512	intracranial	v'	bad
 v'2	SEEG	uV	n/a	n/a	512	intracranial	v'	good
 v'3	SEEG	uV	n/a	n/a	512	intracranial	v'	good
@@ -123,7 +123,7 @@ s'3	SEEG	uV	n/a	n/a	512	intracranial	s'	good
 s'10	SEEG	uV	n/a	n/a	512	intracranial	s'	good
 s'11	SEEG	uV	n/a	n/a	512	intracranial	s'	good
 s'12	SEEG	uV	n/a	n/a	512	intracranial	s'	good
-fz	EEG	uV	n/a	n/a	512	unknown		good
-cz	EEG	uV	n/a	n/a	512	unknown		good
-ecg1	ECG	uV	n/a	n/a	512	unknown		good
-ecg2	ECG	uV	n/a	n/a	512	unknown		good
+fz	EEG	uV	n/a	n/a	512	unknown	n/a	good
+cz	EEG	uV	n/a	n/a	512	unknown	n/a	good
+ecg1	ECG	uV	n/a	n/a	512	unknown	n/a	good
+ecg2	ECG	uV	n/a	n/a	512	unknown	n/a	good
