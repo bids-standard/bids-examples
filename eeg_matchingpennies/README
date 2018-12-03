@@ -1,6 +1,10 @@
 Overview
 --------
-This is the "Matching Pennies" dataset. It was collected as part of a small scale replication project targeting [1]. In brief, it contains EEG data for 7 subjects raising either their left or right hand, thus giving rise to a lateralized readiness potential as measured with the EEG. For details, see the `Details about the experiment` section.
+This is the "Matching Pennies" dataset. It was collected as part of a small
+scale replication project targeting [1]. In brief, it contains EEG data for 7
+subjects raising either their left or right hand, thus giving rise to a
+lateralized readiness potential as measured with the EEG. For details,
+see the `Details about the experiment` section.
 
 
 Citing this dataset
@@ -10,39 +14,70 @@ Please cite [2]. For more information, see the `dataset_description.json` file.
 
 License
 -------
-The dataset is made available under the ODC Open Database License (ODbL), whose human readable information can be found at:
+The dataset is made available under the ODC Open Database License (ODbL),
+whose human readable information can be found at:
 
 https://opendatacommons.org/licenses/odbl/summary/
 
 
 Format
 ------
-It is formatted according to BIDS version 1.1.1 and the BIDS standard extension for EEG (BEP006), which can be found here:
+It is formatted according to BIDS version 1.1.1 and the BIDS standard extension
+for EEG (BEP006), which can be found here:
 
-https://docs.google.com/document/d/1ArMZ9Y_quTKXC-jNXZksnedK2VHHoKP3HCeO5HPcgLE/edit#heading=h.4k1noo90gelw
+https://docs.google.com/document/d/1ArMZ9Y_quTKXC-jNXZksnedK2VHHoKP3HCeO5HPcgLE/
 
-Note that BEP006 is still a work in progress as of 2018-07-22.
+Note that BEP006 is still a work in progress as of 2018-11-29.
 
-Generally, you can find data in the .tsv files and descriptions in the accompanying .json files.
+Generally, you can find data in the .tsv files and descriptions in the
+accompanying .json files.
 
-An important BIDS definition to consider is the "Inheritance Principle" (see 3.5 in the BIDS specification: http://bids.neuroimaging.io/bids_spec.pdf), which states:
+An important BIDS definition to consider is the "Inheritance Principle"
+(see 3.5 in the BIDS specification: http://bids.neuroimaging.io/bids_spec.pdf),
+which states:
 
-> Any metadata file (​.json​,​.bvec​,​.tsv​, etc.) may be defined at any directory level. The values from the top level are inherited by all lower levels unless they are overridden by a file at the lower level.
+> Any metadata file (​.json​,​.bvec​,​.tsv​, etc.) may be defined at any directory
+level. The values from the top level are inherited by all lower levels unless
+they are overridden by a file at the lower level.
 
 
 Details about the experiment
 ----------------------------
-For a detailed description of the task, see [1] and the supplied `task-matchingpennies_eeg.json` file.
+For a detailed description of the task, see [1] and the supplied
+`task-matchingpennies_eeg.json` file.
 
-Subjects 1 to 4 participated in the pilot testing only. Their data are not included in this dataset.
+Subjects 1 to 4 participated in the pilot testing only. Their data are not
+included in this dataset.
 
-In the matching pennies experiment, EEG data was evaluated in a closed-loop BCI online setup. Due to an inherent latency of the system, the data used in the online analysis does not necessarily coincide with the offline data marked through EEG triggers. Therefore, after each trial-wise online analysis, the used data was saved separately as an "online chunk". Based on the online chunks of data, it was possible to calculate a latency of each trial with respect to the time difference between when an event happened at the electrode level and when it arrived in digitized format at the classification function. These latencies were calculated by sliding the online chunk of data across the data recording until a perfect match was found. The index of this perfect match is then compared to the timepoint of the event trigger and that difference constitutes the latency. The values are included in the events.tsv files for each subject.
+In the matching pennies experiment, EEG data was evaluated in a closed-loop
+BCI online setup. Due to an inherent latency of the system, the data used in
+the online analysis does not necessarily coincide with the offline data marked
+through EEG triggers. Therefore, after each trial-wise online analysis, the
+used data was saved separately as an "online chunk". Based on the online chunks
+of data, it was possible to calculate a latency of each trial with respect to
+the time difference between when an event happened at the electrode level and
+when it arrived in digitized format at the classification function. These
+latencies were calculated by sliding the online chunk of data across the data
+recording until a perfect match was found. The index of this perfect match is
+then compared to the timepoint of the event trigger and that difference
+constitutes the latency. The values are included in the events.tsv files for
+each subject.
 
-The original data was recorded in `.xdf` format using labstreaminglayer (https://github.com/sccn/labstreaminglayer). It is stored in the `/sourcedata` directory. To comply with the BIDS format, the .xdf format was converted to brainvision format (see the `.eeg` file for binary eeg data, the `.vhdr` as a text header filer containing meta data, and the `.vmrk` as a text file storing the eeg markers).
+The original data was recorded in `.xdf` format using labstreaminglayer
+(https://github.com/sccn/labstreaminglayer). It is stored in the `/sourcedata`
+directory. To comply with the BIDS format, the .xdf format was converted to
+brainvision format (see the `.eeg` file for binary eeg data, the `.vhdr` as a
+text header filer containing meta data, and the `.vmrk` as a text file storing
+the eeg markers).
 
 
 References
 ----------
-.. [1] Matthias Schultze-Kraft et al. “Predicting Motor Intentions with Closed-Loop Brain-Computer Interfaces”. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79–90. https://doi.org/10.1007/978-3-319-64373-1_8.
+.. [1] Matthias Schultze-Kraft et al. "Predicting Motor Intentions with
+       Closed-Loop Brain-Computer Interfaces". In: Springer Briefs in
+       Electrical and Computer Engineering. Springer International Publishing,
+       2017, pp. 79–90. https://doi.org/10.1007/978-3-319-64373-1_8.
 
-.. [2] Appelhoff, S., Sauer, D., & Gill, S. S. (2018, July 22). Matching Pennies: A Brain Computer Interface Implementation Dataset. https://doi.org/10.17605/OSF.IO/CJ2DR
+.. [2] Appelhoff, S., Sauer, D., & Gill, S. S. (2018, July 22).
+       Matching Pennies: A Brain Computer Interface Implementation Dataset.
+       https://doi.org/10.17605/OSF.IO/CJ2DR
