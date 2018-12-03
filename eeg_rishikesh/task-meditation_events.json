@@ -1,0 +1,19 @@
+{
+  "onset": {
+    "LongName": "Event onset",
+    "Units": "second"
+  },
+  "duration": {
+    "LongName": "Event duration",
+    "Units": "second"
+  },
+  "event_sample": {
+    "LongName": "Event sample (Matlab convention starting at 1)"
+  },
+  "event_type": {
+    "LongName": "Type of event (different from EEGLAB convention)"
+  },
+  "event_value": {
+    "LongName": "Value of event (numerical or text)"
+  }
+}
