@@ -2,7 +2,7 @@
     "TaskName": "seizure",
     "SamplingFrequency": 512,
     "PowerLineFrequency": 50,
-    "SoftwareFilters", "n/a",
+    "SoftwareFilters": "n/a",
     "DCOffsetCorrection": "n/a",
     "HardwareFilters": "n/a",
     "Manufacturer": "Micromed",
@@ -24,9 +24,8 @@
     "SoftwareVersions": "Unknown",
     "iEEGPlacementScheme": "depth electrodes around the seizure onset zone",
     "iEEGReference": "intracranial channel not included with data",
-    "ElectrodeManufacturer", "DIXI",
+    "ElectrodeManufacturer": "DIXI",
     "ElectrodeManufacturersModelName": "D08-**AM Microdeep electrodes"
-    "iEEGGround", "unknown",
-    "ElectricalStimulation": false,
-    
+    "iEEGGround": "unknown",
+    "ElectricalStimulation": false
 }
