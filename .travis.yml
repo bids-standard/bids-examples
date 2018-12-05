@@ -1,8 +1,8 @@
 node_js:
-  - "6.11.0"
+  - "8.0.0"
 
 install:
-  - npm install -g https://github.com/bids-standard/bids-validator.git#0.26.18
+  - npm install -g https://github.com/bids-standard/bids-validator.git#1.1.0
 
 script:
   - |
@@ -10,6 +10,6 @@ script:
     for i in $(ls -d */);
     do
       echo "Validating dataset" $i
-      bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+      bids-validator ${i%%/} --ignoreNiftiHeaders -c bidsconfig.json || rc=$?
     done
     exit $rc;
