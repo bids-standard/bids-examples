@@ -3,7 +3,7 @@
     "SamplingFrequency": 512,
     "PowerLineFrequency": 60,
     "SoftwareFilters": "n/a",
-    "HardwareFilters": "HighPass:0.16,LowPass:500",
+    "HardwareFilters": "{\"Highpass\":0.16,\"LowPass\":500}",
     "Manufacturer": "Natus",
     "ManufacturersModelName": "Natus Quantum PK1171",
     "TaskDescription": "Visual textures and gratings presented for brief, fixed durations",
