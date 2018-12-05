@@ -1,4 +1,4 @@
-onset	duration	trial_type	response_time	stim_file	event_value	event_sample	stage	trl	pred	pred_valid	n_invalid	latency
+onset	duration	trial_type	response_time	stim_file	value	sample	stage	trl	pred	pred_valid	n_invalid	latency
 20	0	right	83.3333333333	right_hand.png	2	100415	1	1	left	1	0	-37.6
 25	0	right	83.3333333333	left_hand.png	2	126601	1	2	right	1	0	-30.8
 31	0	right	116.666666667	left_hand.png	2	155292	1	3	right	1	0	-9.0

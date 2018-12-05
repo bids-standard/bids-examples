@@ -7,10 +7,22 @@
 0.1.2 2018-07-22
     - added DOI to dataset
     - changed events.tsv structure now using stim_file
-    - changed events.tsv structure now using trial_type instead of lift_side
-    - changed events.tsv structure: trial_type and pred now use left and right instead of 1 and 2
+    - changed events.tsv structure now using trial_type instead
+      of lift_side
+    - changed events.tsv structure: trial_type and pred now use left
+      and right instead of 1 and 2
     - adjusted events.json according to events.tsv
     - general BEP_006 compliance
 
 0.1.3 2018-09-21
-    - added participants.tsv to explain additional variables: age, handedness, sex
+    - added participants.tsv to explain additional variables: age,
+      handedness, sex
+
+0.1.4 2018-11-29
+    - replaced uV strings with µV, using the micro sign µ
+    - renamed event_value to value, and event_sample to sample
+    - reformat README to have line lengths < 80 characters
+    - remove superfluous "LongName" keys from JSON files
+    - general BEP_006 compliance
+    - remove subject wise eeg.json sidecar files, these are covered
+      by the eeg.json at the root via inheritance
