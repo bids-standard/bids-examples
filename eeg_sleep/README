@@ -1,9 +1,0 @@
-This is a single-subject dataset recorded with the EMBLA EEG system. The subject was sleeping during the recording.
-
-2018-04-25
-  - converted original EEG to EDF format, moved original EMBLA data to sourcedata
-  see http://www.natus.com/index.cfm?page=products_clinical&crid=799 for EMBLA
-
-
-2018-05-6
-  - C Pernet some edits to follow BIDS spec
