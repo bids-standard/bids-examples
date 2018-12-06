@@ -3,7 +3,7 @@
     "SamplingFrequency": 512,
     "PowerLineFrequency": 60,
     "SoftwareFilters": "n/a",
-    "HardwareFilters": "HighPass:0.16,LowPass:500",
+    "HardwareFilters": {"HighPass": {"cutoff":0.16},"LowPass": {"cutoff":500}},
     "Manufacturer": "Natus",
     "ManufacturersModelName": "Natus Quantum PK1171",
     "TaskDescription": "Visual textures presented for variable durations and inter-stimulus intervals",
