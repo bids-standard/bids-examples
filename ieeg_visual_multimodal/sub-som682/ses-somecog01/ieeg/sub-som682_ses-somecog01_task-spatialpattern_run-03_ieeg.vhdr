@@ -1,0 +1,15 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by FieldTrip
+
+[Common Infos]
+DataFile=sub-som682_ses-somecog01_task-spatialpattern_run-03_ieeg.eeg
+MarkerFile=sub-som682_ses-somecog01_task-spatialpattern_run-03_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=0
+SamplingInterval=1.953125e+03
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
