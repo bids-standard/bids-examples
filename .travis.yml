@@ -10,6 +10,6 @@ script:
     for i in $(ls -d */);
     do
       echo "Validating dataset" $i
-      bids-validator ${i%%/} --bep006 --ignoreNiftiHeaders || rc=$?
+      bids-validator ${i%%/} --bep006 --ignoreNiftiHeaders -c bidsconfig.json || rc=$?
     done
     exit $rc;
