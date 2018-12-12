@@ -1,26 +1,26 @@
-name	type	units	sampling_frequency	low_cutoff	high_cutoff	notch	reference	status
-1	ECOG	microV	1000	200	0.15	n/a	scalp	good
-2	ECOG	microV	1000	200	0.15	n/a	scalp	good
-3	ECOG	microV	1000	200	0.15	n/a	scalp	good
-4	ECOG	microV	1000	200	0.15	n/a	scalp	good
-5	ECOG	microV	1000	200	0.15	n/a	scalp	good
-6	ECOG	microV	1000	200	0.15	n/a	scalp	good
-7	ECOG	microV	1000	200	0.15	n/a	scalp	good
-8	ECOG	microV	1000	200	0.15	n/a	scalp	good
-9	ECOG	microV	1000	200	0.15	n/a	scalp	good
-10	ECOG	microV	1000	200	0.15	n/a	scalp	good
-11	ECOG	microV	1000	200	0.15	n/a	scalp	good
-12	ECOG	microV	1000	200	0.15	n/a	scalp	good
-13	ECOG	microV	1000	200	0.15	n/a	scalp	good
-14	ECOG	microV	1000	200	0.15	n/a	scalp	good
-15	ECOG	microV	1000	200	0.15	n/a	scalp	good
-16	ECOG	microV	1000	200	0.15	n/a	scalp	good
-17	ECOG	microV	1000	200	0.15	n/a	scalp	good
-18	ECOG	microV	1000	200	0.15	n/a	scalp	good
-19	ECOG	microV	1000	200	0.15	n/a	scalp	good
-20	ECOG	microV	1000	200	0.15	n/a	scalp	good
-21	ECOG	microV	1000	200	0.15	n/a	scalp	good
-22	ECOG	microV	1000	200	0.15	n/a	scalp	good
-23	ECOG	microV	1000	200	0.15	n/a	scalp	good
-24	ECOG	microV	1000	200	0.15	n/a	scalp	good
-25	ECOG	microV	1000	200	0.15	n/a	scalp	good
+name	type	units	low_cutoff	high_cutoff	notch	status
+1	ECOG	microV	200	0.15	n/a	good
+2	ECOG	microV	200	0.15	n/a	good
+3	ECOG	microV	200	0.15	n/a	good
+4	ECOG	microV	200	0.15	n/a	good
+5	ECOG	microV	200	0.15	n/a	good
+6	ECOG	microV	200	0.15	n/a	good
+7	ECOG	microV	200	0.15	n/a	good
+8	ECOG	microV	200	0.15	n/a	good
+9	ECOG	microV	200	0.15	n/a	good
+10	ECOG	microV	200	0.15	n/a	good
+11	ECOG	microV	200	0.15	n/a	good
+12	ECOG	microV	200	0.15	n/a	good
+13	ECOG	microV	200	0.15	n/a	good
+14	ECOG	microV	200	0.15	n/a	good
+15	ECOG	microV	200	0.15	n/a	good
+16	ECOG	microV	200	0.15	n/a	good
+17	ECOG	microV	200	0.15	n/a	good
+18	ECOG	microV	200	0.15	n/a	good
+19	ECOG	microV	200	0.15	n/a	good
+20	ECOG	microV	200	0.15	n/a	good
+21	ECOG	microV	200	0.15	n/a	good
+22	ECOG	microV	200	0.15	n/a	good
+23	ECOG	microV	200	0.15	n/a	good
+24	ECOG	microV	200	0.15	n/a	good
+25	ECOG	microV	200	0.15	n/a	good
