@@ -1,7 +1,7 @@
 {
-    "iEEGCoordinateSystem": "T1w",
+    "iEEGCoordinateSystem": "RAS",
     "iEEGCoordinateUnits": "mm",
     "iEEGCoordinateProcessingDescripton": "surface_projection_Hermes",
-    "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth",
-    "IntendedFor": "/derivatives/surfaces/sub-wc/ses-01/anat/sub-wc_T1w_pial.surf.gii"
+    "IntendedFor": "/derivatives/surfaces/sub-wc/ses-01/anat/sub-wc_T1w_pial.surf.gii",
+    "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth"
 }

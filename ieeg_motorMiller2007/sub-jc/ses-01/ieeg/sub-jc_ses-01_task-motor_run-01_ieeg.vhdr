@@ -1,0 +1,63 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by FieldTrip
+
+[Common Infos]
+DataFile=sub-jc_ses-01_task-motor_run-01_ieeg.eeg
+MarkerFile=sub-jc_ses-01_task-motor_run-01_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=48
+SamplingInterval=1000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=1,,1
+Ch2=2,,1
+Ch3=3,,1
+Ch4=4,,1
+Ch5=5,,1
+Ch6=6,,1
+Ch7=7,,1
+Ch8=8,,1
+Ch9=9,,1
+Ch10=10,,1
+Ch11=11,,1
+Ch12=12,,1
+Ch13=13,,1
+Ch14=14,,1
+Ch15=15,,1
+Ch16=16,,1
+Ch17=17,,1
+Ch18=18,,1
+Ch19=19,,1
+Ch20=20,,1
+Ch21=21,,1
+Ch22=22,,1
+Ch23=23,,1
+Ch24=24,,1
+Ch25=25,,1
+Ch26=26,,1
+Ch27=27,,1
+Ch28=28,,1
+Ch29=29,,1
+Ch30=30,,1
+Ch31=31,,1
+Ch32=32,,1
+Ch33=33,,1
+Ch34=34,,1
+Ch35=35,,1
+Ch36=36,,1
+Ch37=37,,1
+Ch38=38,,1
+Ch39=39,,1
+Ch40=40,,1
+Ch41=41,,1
+Ch42=42,,1
+Ch43=43,,1
+Ch44=44,,1
+Ch45=45,,1
+Ch46=46,,1
+Ch47=47,,1
+Ch48=48,,1
