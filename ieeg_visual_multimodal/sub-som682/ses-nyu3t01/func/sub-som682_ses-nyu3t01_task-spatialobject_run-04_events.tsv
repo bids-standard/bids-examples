@@ -1,37 +1,37 @@
-onset	duration	ISI	trial_type	trial_name	stim_file	stim_file_index
-11.9	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	29
-16.833	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	19
-20.233	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	25
-24.817	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	11
-28.383	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	13
-32.817	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	26
-37.917	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	32
-43.867	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	22
-49.133	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	2
-53.883	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	17
-58.133	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	12
-62.217	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	23
-67.667	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	18
-73.433	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	20
-77.35	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	15
-82.117	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	6
-85.167	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	35
-90.95	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	34
-96.383	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	7
-102	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	27
-105.733	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	9
-110.167	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	33
-113.383	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	16
-117.133	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	10
-121.033	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	30
-125.117	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	8
-128.35	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	1
-133.45	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	31
-139.067	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	3
-145.017	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	14
-148.417	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	28
-153.683	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	24
-158.617	0.5	0	132	LETTERS	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	21
-161.667	0.5	0	133	HOUSES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	36
-165.233	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	4
-169.483	0.5	0	131	FACES	sub-som682_ses-nyu3t01_task-spatialobject_run-4.mat	5
+onset	duration	ISI	trial_type	trial_name	stim_file
+11.9	0.5	0	133	HOUSES	stim_133.png
+16.833	0.5	0	132	LETTERS	stim_132.png
+20.233	0.5	0	133	HOUSES	stim_133.png
+24.817	0.5	0	131	FACES	stim_131.png
+28.383	0.5	0	132	LETTERS	stim_132.png
+32.817	0.5	0	133	HOUSES	stim_133.png
+37.917	0.5	0	133	HOUSES	stim_133.png
+43.867	0.5	0	132	LETTERS	stim_132.png
+49.133	0.5	0	131	FACES	stim_131.png
+53.883	0.5	0	132	LETTERS	stim_132.png
+58.133	0.5	0	131	FACES	stim_131.png
+62.217	0.5	0	132	LETTERS	stim_132.png
+67.667	0.5	0	132	LETTERS	stim_132.png
+73.433	0.5	0	132	LETTERS	stim_132.png
+77.35	0.5	0	132	LETTERS	stim_132.png
+82.117	0.5	0	131	FACES	stim_131.png
+85.167	0.5	0	133	HOUSES	stim_133.png
+90.95	0.5	0	133	HOUSES	stim_133.png
+96.383	0.5	0	131	FACES	stim_131.png
+102	0.5	0	133	HOUSES	stim_133.png
+105.733	0.5	0	131	FACES	stim_131.png
+110.167	0.5	0	133	HOUSES	stim_133.png
+113.383	0.5	0	132	LETTERS	stim_132.png
+117.133	0.5	0	131	FACES	stim_131.png
+121.033	0.5	0	133	HOUSES	stim_133.png
+125.117	0.5	0	131	FACES	stim_131.png
+128.35	0.5	0	131	FACES	stim_131.png
+133.45	0.5	0	133	HOUSES	stim_133.png
+139.067	0.5	0	131	FACES	stim_131.png
+145.017	0.5	0	132	LETTERS	stim_132.png
+148.417	0.5	0	133	HOUSES	stim_133.png
+153.683	0.5	0	132	LETTERS	stim_132.png
+158.617	0.5	0	132	LETTERS	stim_132.png
+161.667	0.5	0	133	HOUSES	stim_133.png
+165.233	0.5	0	131	FACES	stim_131.png
+169.483	0.5	0	131	FACES	stim_131.png

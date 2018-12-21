@@ -1,37 +1,37 @@
-onset	duration	ISI	trial_type	trial_name	stim_file	stim_file_index
-11.9	0.267	0	123	ONEPULSE-5	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	14
-16.833	0.033	0	120	ONEPULSE-2	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	4
-22.267	0.133	0.533	130	TWOPULSE-6	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	34
-27.367	0.133	0.267	129	TWOPULSE-5	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	32
-31.783	0.133	0.033	126	TWOPULSE-2	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	22
-37.4	0.133	0.133	128	TWOPULSE-4	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	29
-42.833	0.533	0	124	ONEPULSE-6	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	16
-47.083	0.133	0	122	ONEPULSE-4	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	10
-50.833	0.133	0.067	127	TWOPULSE-3	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	26
-54.067	0.133	0.033	126	TWOPULSE-2	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	23
-57.467	0.033	0	120	ONEPULSE-2	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	5
-61.2	0.067	0	121	ONEPULSE-3	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	8
-64.433	0.133	0.133	128	TWOPULSE-4	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	30
-67.833	0.133	0	122	ONEPULSE-4	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	12
-72.083	0.533	0	124	ONEPULSE-6	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	18
-75.133	0.133	0.033	126	TWOPULSE-2	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	24
-80.067	0.067	0	121	ONEPULSE-3	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	7
-85.85	0.017	0	119	ONEPULSE-1	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	1
-91.8	0.267	0	123	ONEPULSE-5	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	13
-95.717	0.067	0	121	ONEPULSE-3	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	9
-100.467	0.133	0.133	128	TWOPULSE-4	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	28
-104.883	0.133	0.067	127	TWOPULSE-3	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	25
-109.983	0.267	0	123	ONEPULSE-5	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	15
-115.267	0.133	0.067	127	TWOPULSE-3	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	27
-120.867	0.133	0.533	130	TWOPULSE-6	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	35
-125.467	0.133	0.533	130	TWOPULSE-6	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	36
-130.733	0.133	0.267	129	TWOPULSE-5	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	33
-134.817	0.133	0.017	125	TWOPULSE-1	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	19
-140.583	0.133	0.017	125	TWOPULSE-1	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	20
-144.167	0.017	0	119	ONEPULSE-1	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	2
-148.917	0.133	0	122	ONEPULSE-4	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	11
-151.983	0.017	0	119	ONEPULSE-1	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	3
-157.933	0.133	0.017	125	TWOPULSE-1	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	21
-162.017	0.133	0.267	129	TWOPULSE-5	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	31
-165.917	0.533	0	124	ONEPULSE-6	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	17
-169.483	0.033	0	120	ONEPULSE-2	sub-som682_ses-nyu3t01_task-temporalpattern_run-2.mat	6
+onset	duration	ISI	trial_type	trial_name	stim_file
+11.9	0.267	0	123	ONEPULSE-5	stim_123.png
+16.833	0.033	0	120	ONEPULSE-2	stim_120.png
+22.267	0.133	0.533	130	TWOPULSE-6	stim_130.png
+27.367	0.133	0.267	129	TWOPULSE-5	stim_129.png
+31.783	0.133	0.033	126	TWOPULSE-2	stim_126.png
+37.4	0.133	0.133	128	TWOPULSE-4	stim_128.png
+42.833	0.533	0	124	ONEPULSE-6	stim_124.png
+47.083	0.133	0	122	ONEPULSE-4	stim_122.png
+50.833	0.133	0.067	127	TWOPULSE-3	stim_127.png
+54.067	0.133	0.033	126	TWOPULSE-2	stim_126.png
+57.467	0.033	0	120	ONEPULSE-2	stim_120.png
+61.2	0.067	0	121	ONEPULSE-3	stim_121.png
+64.433	0.133	0.133	128	TWOPULSE-4	stim_128.png
+67.833	0.133	0	122	ONEPULSE-4	stim_122.png
+72.083	0.533	0	124	ONEPULSE-6	stim_124.png
+75.133	0.133	0.033	126	TWOPULSE-2	stim_126.png
+80.067	0.067	0	121	ONEPULSE-3	stim_121.png
+85.85	0.017	0	119	ONEPULSE-1	stim_119.png
+91.8	0.267	0	123	ONEPULSE-5	stim_123.png
+95.717	0.067	0	121	ONEPULSE-3	stim_121.png
+100.467	0.133	0.133	128	TWOPULSE-4	stim_128.png
+104.883	0.133	0.067	127	TWOPULSE-3	stim_127.png
+109.983	0.267	0	123	ONEPULSE-5	stim_123.png
+115.267	0.133	0.067	127	TWOPULSE-3	stim_127.png
+120.867	0.133	0.533	130	TWOPULSE-6	stim_130.png
+125.467	0.133	0.533	130	TWOPULSE-6	stim_130.png
+130.733	0.133	0.267	129	TWOPULSE-5	stim_129.png
+134.817	0.133	0.017	125	TWOPULSE-1	stim_125.png
+140.583	0.133	0.017	125	TWOPULSE-1	stim_125.png
+144.167	0.017	0	119	ONEPULSE-1	stim_119.png
+148.917	0.133	0	122	ONEPULSE-4	stim_122.png
+151.983	0.017	0	119	ONEPULSE-1	stim_119.png
+157.933	0.133	0.017	125	TWOPULSE-1	stim_125.png
+162.017	0.133	0.267	129	TWOPULSE-5	stim_129.png
+165.917	0.533	0	124	ONEPULSE-6	stim_124.png
+169.483	0.033	0	120	ONEPULSE-2	stim_120.png

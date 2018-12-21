@@ -1,37 +1,37 @@
-onset	duration	ISI	trial_type	trial_name	stim_file	stim_file_index
-11.9	0.5	0	111	CRF-5	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	15
-17.517	0.5	0	108	CRF-2	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	5
-23.283	0.5	0	114	CIRCULAR	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	22
-27.717	0.5	0	109	CRF-3	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	8
-32.3	0.5	0	114	CIRCULAR	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	24
-36.217	0.5	0	114	CIRCULAR	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	23
-40.967	0.5	0	110	CRF-4	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	10
-44.033	0.5	0	107	CRF-1	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	1
-48.967	0.5	0	113	PLAID	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	20
-53.033	0.5	0	107	CRF-1	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	3
-57.283	0.5	0	110	CRF-4	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	11
-62.733	0.5	0	116	SPARSITY-2	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	29
-66.3	0.5	0	115	SPARSITY-1	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	25
-69.533	0.5	0	117	SPARSITY-3	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	32
-75.133	0.5	0	117	SPARSITY-3	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	33
-79.217	0.5	0	115	SPARSITY-1	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	27
-84.483	0.5	0	112	GRATING	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	18
-87.883	0.5	0	112	GRATING	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	16
-91.467	0.5	0	108	CRF-2	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	4
-96.567	0.5	0	112	GRATING	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	17
-99.783	0.5	0	110	CRF-4	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	12
-104.033	0.5	0	118	SPARSITY-4	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	35
-109.983	0.5	0	115	SPARSITY-1	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	26
-115.767	0.5	0	117	SPARSITY-3	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	31
-119.683	0.5	0	116	SPARSITY-2	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	30
-124.95	0.5	0	107	CRF-1	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	2
-128.683	0.5	0	113	PLAID	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	21
-133.783	0.5	0	113	PLAID	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	19
-138.717	0.5	0	116	SPARSITY-2	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	28
-142.467	0.5	0	111	CRF-5	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	14
-145.867	0.5	0	109	CRF-3	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	7
-150.617	0.5	0	108	CRF-2	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	6
-156.567	0.5	0	111	CRF-5	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	13
-159.633	0.5	0	118	SPARSITY-4	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	36
-164.05	0.5	0	109	CRF-3	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	9
-169.483	0.5	0	118	SPARSITY-4	sub-som682_ses-nyu3t01_task-spatialpattern_run-4.mat	34
+onset	duration	ISI	trial_type	trial_name	stim_file
+11.9	0.5	0	111	CRF-5	stim_111.png
+17.517	0.5	0	108	CRF-2	stim_108.png
+23.283	0.5	0	114	CIRCULAR	stim_114.png
+27.717	0.5	0	109	CRF-3	stim_109.png
+32.3	0.5	0	114	CIRCULAR	stim_114.png
+36.217	0.5	0	114	CIRCULAR	stim_114.png
+40.967	0.5	0	110	CRF-4	stim_110.png
+44.033	0.5	0	107	CRF-1	stim_107.png
+48.967	0.5	0	113	PLAID	stim_113.png
+53.033	0.5	0	107	CRF-1	stim_107.png
+57.283	0.5	0	110	CRF-4	stim_110.png
+62.733	0.5	0	116	SPARSITY-2	stim_116.png
+66.3	0.5	0	115	SPARSITY-1	stim_115.png
+69.533	0.5	0	117	SPARSITY-3	stim_117.png
+75.133	0.5	0	117	SPARSITY-3	stim_117.png
+79.217	0.5	0	115	SPARSITY-1	stim_115.png
+84.483	0.5	0	112	GRATING	stim_112.png
+87.883	0.5	0	112	GRATING	stim_112.png
+91.467	0.5	0	108	CRF-2	stim_108.png
+96.567	0.5	0	112	GRATING	stim_112.png
+99.783	0.5	0	110	CRF-4	stim_110.png
+104.033	0.5	0	118	SPARSITY-4	stim_118.png
+109.983	0.5	0	115	SPARSITY-1	stim_115.png
+115.767	0.5	0	117	SPARSITY-3	stim_117.png
+119.683	0.5	0	116	SPARSITY-2	stim_116.png
+124.95	0.5	0	107	CRF-1	stim_107.png
+128.683	0.5	0	113	PLAID	stim_113.png
+133.783	0.5	0	113	PLAID	stim_113.png
+138.717	0.5	0	116	SPARSITY-2	stim_116.png
+142.467	0.5	0	111	CRF-5	stim_111.png
+145.867	0.5	0	109	CRF-3	stim_109.png
+150.617	0.5	0	108	CRF-2	stim_108.png
+156.567	0.5	0	111	CRF-5	stim_111.png
+159.633	0.5	0	118	SPARSITY-4	stim_118.png
+164.05	0.5	0	109	CRF-3	stim_109.png
+169.483	0.5	0	118	SPARSITY-4	stim_118.png
