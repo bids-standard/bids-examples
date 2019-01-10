@@ -1,15 +1,20 @@
 {
   "gender": {
-    "LongName": "gender, classified as male or female"
+    "Description": "sex of the participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
   },
   "participant_id": {
-    "LongName": "unique participant identifier"
+    "Description": "unique participant identifier"
   },
   "age": {
-    "LongName": "age in years"
+    "Description": "age of the participant",
+    "Units": "years"
   },
   "group": {
-    "LongName": "group, expert or novice meditators",
+    "Description": "group, expert or novice meditators",
     "Levels": {
       "expert": "expert meditator",
       "novice": "novice meditator"
