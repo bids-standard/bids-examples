@@ -5,13 +5,14 @@
   "PowerLineFrequency": 50,
   "ManufacturersModelName": "ActiveTwo",
   "TaskName": "meditation",
-  "SamplingFrequency": 256,
-  "EEGChannelCount": 79,
-  "EOGChannelCount": 0,
-  "ECGChannelCount": 0,
-  "EMGChannelCount": 0,
   "EEGReference": "CMS/DRL",
   "Manufacturer": "BIOSEMI",
+  "EEGChannelCount": 64,
+  "MiscChannelCount": 15,
   "RecordingType": "continuous",
-  "RecordingDuration": 3322
+  "RecordingDuration": 3322,
+  "SamplingFrequency": 256,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0
 }
