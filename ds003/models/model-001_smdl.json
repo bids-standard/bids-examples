@@ -10,12 +10,14 @@
       "Transformations": [
         {
           "Name": "Factor",
-          "Input": ["trial_type"]
+          "Input": [
+            "trial_type"
+          ]
         },
         {
           "Name": "Convolve",
           "Input": ["trial_type.word", "trial_type.pseudoword"],
-          "Model": "DoubleGamma"
+          "Model": "spm"
         }
       ],
       "Model": {
@@ -26,14 +28,11 @@
           "trans_x", "trans_y", "trans_z", "rot_x", "rot_y", "rot_z",
           "a_comp_cor_00", "a_comp_cor_01", "a_comp_cor_02",
           "a_comp_cor_03", "a_comp_cor_04", "a_comp_cor_05"
-        ],
-        "Options": {
-          "high_pass_filter_cutoff_secs": 128
-        },
+        ]
       },
       "Contrasts": [
         {
-          "Name": "wordness",
+          "Name": "word_gt_pseudo",
           "ConditionList": [
             "trial_type.word",
             "trial_type.pseudoword"
@@ -45,7 +44,7 @@
     },
     {
       "Level": "dataset",
-      "AutoContrasts": true
+      "AutoContrasts": ["word_gt_pseudo"]
     }
   ]
 }
