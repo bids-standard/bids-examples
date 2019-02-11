@@ -1,0 +1,80 @@
+This dataset was obtained from The Open MEG Archive (OMEGA, https://omega.bic.mni.mcgill.ca).
+
+You are free to use all data in OMEGA for research purposes; please aknowledge its authors and cite the following reference in your publications if you have used data from OMEGA: 
+
+Niso G, Rogers C, Moreau JT, Chen LY, Madjar C, Das S, Bock E, Tadel F, Evans A, Jolicoeur P, Baillet S. OMEGA: The Open MEG Archive. Neuroimage. 2015; Available from: http://dx.doi.org/10.1016/j.neuroimage.2015.04.028
+
+
+
+DESCRIPTION
+
+# Experiment
+
+    - 5 subjects x 5 minute resting sessions, eyes open 
+
+
+# MEG acquisition
+
+    - Acquisition at 2400Hz, with a CTF 275 MEG system,
+    - Recorded at the Montreal Neurological Institute in 2012-2016.
+    - Anti-aliasing low-pass filter at 600Hz, files may be saved with or without the CTF 3rd order gradient compensation.
+    - Recorded channels (at least 297):
+        * 26 MEG reference sensors (#2-#27)
+        * 270 MEG axial gradiometers (#28-#297)
+        * 1 ECG bipolar (EEG057/#298) - Not available in the empty room recordings
+        * 1 vertical EOG bipolar (EEG058/#299) - Not available in the empty room recordings
+        * 1 horizontal EOG bipolar (EEG059/#300) - Not available in the empty room recordings 
+  
+
+# Head shape and fiducial points
+
+    - 3D digitization using a Polhemus Fastrak device driven by Brainstorm. The .pos files contain:
+        * The center of the CTF coils,
+        * The anatomical references we use in Brainstorm: nasion and ears as illustrated here,
+	* Around 100 head points distributed on the hard parts of the head (no soft tissues). 
+
+
+# Subject anatomy
+
+    - Structural T1 image (defaced for anonymization purposes)
+    - Processed with FreeSurfer 5.3
+    - The anatomical fiducials (NAS, LPA, RPA) have already been marked and saved in the files fiducials.m 
+
+
+
+
+The data in this dataset has been organized according to the BIDS specifications (Brain Imaging Data Structure, http://bids.neuroimaging.io) 
+
+
+Release history:
+2016-12-01: initial release
+
+### Comments added by Openfmri Curators ###
+===========================================
+
+General Comments
+----------------
+
+
+Defacing
+--------
+Pydeface was used on all anatomical images to ensure de-identification of subjects. The code
+can be found at https://github.com/poldracklab/pydeface
+mri_deface was used on all T1.mgz images located in derivatives. Learn more about it here:
+https://surfer.nmr.mgh.harvard.edu/fswiki/mri_deface
+
+Quality Control
+---------------
+MRIQC could not be run on this dataset. It will be included in a future revision.
+
+Where to discuss the dataset
+----------------------------
+1) www.openfmri.org/dataset/ds000247/ See the comments section at the bottom of the dataset
+page.
+2) www.neurostars.org Please tag any discussion topics with the tags openfmri and ds000247.
+3) Send an email to submissions@openfmri.org. Please include the accession number in
+your email.
+
+Known Issues
+------------
+
