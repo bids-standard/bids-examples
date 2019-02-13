@@ -1,0 +1,85 @@
+Brain Vision Data Exchange Header File Version 1.0
+;Exported from MNE-Python using philistine 0.1
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-ir05_task-FilteredSpeech_ieeg.eeg
+MarkerFile=sub-ir05_task-FilteredSpeech_ieeg.vmrk
+DataFormat=BINARY
+Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=60
+; Sampling interval in microseconds
+SamplingInterval=1000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in microvolts>,<Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=LIF1,,0.1
+Ch2=LIF2,,0.1
+Ch3=LIF3,,0.1
+Ch4=LIF4,,0.1
+Ch5=LIF5,,0.1
+Ch6=LIF6,,0.1
+Ch7=LAF1,,0.1
+Ch8=LAF2,,0.1
+Ch9=LAF3,,0.1
+Ch10=LAF4,,0.1
+Ch11=LAF5,,0.1
+Ch12=LAF6,,0.1
+Ch13=IT1,,0.1
+Ch14=IT2,,0.1
+Ch15=IT3,,0.1
+Ch16=IT4,,0.1
+Ch17=TG1,,0.1
+Ch18=TG2,,0.1
+Ch19=TG3,,0.1
+Ch20=TG4,,0.1
+Ch21=TG5,,0.1
+Ch22=TG6,,0.1
+Ch23=TG7,,0.1
+Ch24=TG8,,0.1
+Ch25=TG9,,0.1
+Ch26=TG10,,0.1
+Ch27=TG11,,0.1
+Ch28=TG12,,0.1
+Ch29=TG13,,0.1
+Ch30=TG14,,0.1
+Ch31=TG15,,0.1
+Ch32=TG16,,0.1
+Ch33=TG17,,0.1
+Ch34=TG18,,0.1
+Ch35=TG19,,0.1
+Ch36=TG20,,0.1
+Ch37=TG21,,0.1
+Ch38=TG22,,0.1
+Ch39=TG23,,0.1
+Ch40=TG24,,0.1
+Ch41=TG25,,0.1
+Ch42=TG26,,0.1
+Ch43=TG27,,0.1
+Ch44=TG28,,0.1
+Ch45=TG29,,0.1
+Ch46=TG30,,0.1
+Ch47=TG31,,0.1
+Ch48=TG32,,0.1
+Ch49=LSF1,,0.1
+Ch50=LSF2,,0.1
+Ch51=LSF3,,0.1
+Ch52=LSF4,,0.1
+Ch53=LSF5,,0.1
+Ch54=LSF6,,0.1
+Ch55=LSF7,,0.1
+Ch56=LSF8,,0.1
+Ch57=LSF9,,0.1
+Ch58=LSF10,,0.1
+Ch59=LSF11,,0.1
+Ch60=LSF12,,0.1
+
+[Comment]
+
