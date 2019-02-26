@@ -1,37 +1,37 @@
-onset	duration	ISI	trial_type	trial_name	stim_file	event_sample
-3	0.133	0	128	TWOPULSE-4	stim_128.png	1536
-4.3164	0.133	0	125	TWOPULSE-1	stim_125.png	2210
-6.0176	0.133	0	127	TWOPULSE-3	stim_127.png	3081
-7.7676	0.133	0	122	ONEPULSE-4	stim_122.png	3977
-9.4004	0.267	0	123	ONEPULSE-5	stim_123.png	4813
-11.0176	0.133	0	127	TWOPULSE-3	stim_127.png	5641
-12.4023	0.133	0	129	TWOPULSE-5	stim_129.png	6350
-13.9355	0.133	0	126	TWOPULSE-2	stim_126.png	7135
-15.2188	0.017	0	119	ONEPULSE-1	stim_119.png	7792
-16.5859	0.533	0	124	ONEPULSE-6	stim_124.png	8492
-17.8359	0.133	0	122	ONEPULSE-4	stim_122.png	9132
-19.4355	0.133	0	126	TWOPULSE-2	stim_126.png	9951
-21.1855	0.533	0	124	ONEPULSE-6	stim_124.png	10847
-22.8691	0.133	0	125	TWOPULSE-1	stim_125.png	11709
-24.2207	0.267	0	123	ONEPULSE-5	stim_123.png	12401
-25.6543	0.033	0	120	ONEPULSE-2	stim_120.png	13135
-27.3203	0.133	0	130	TWOPULSE-6	stim_130.png	13988
-28.6035	0.133	0	130	TWOPULSE-6	stim_130.png	14645
-29.9375	0.067	0	121	ONEPULSE-3	stim_121.png	15328
-31.4375	0.133	0	127	TWOPULSE-3	stim_127.png	16096
-32.8711	0.067	0	121	ONEPULSE-3	stim_121.png	16830
-34.3223	0.133	0	129	TWOPULSE-5	stim_129.png	17573
-35.9043	0.533	0	124	ONEPULSE-6	stim_124.png	18383
-37.4883	0.133	0	122	ONEPULSE-4	stim_122.png	19194
-39.1719	0.133	0	128	TWOPULSE-4	stim_128.png	20056
-40.4395	0.067	0	121	ONEPULSE-3	stim_121.png	20705
-41.9395	0.017	0	119	ONEPULSE-1	stim_119.png	21473
-43.6562	0.133	0	129	TWOPULSE-5	stim_129.png	22352
-45.3066	0.017	0	119	ONEPULSE-1	stim_119.png	23197
-46.8223	0.267	0	123	ONEPULSE-5	stim_123.png	23973
-48.3906	0.133	0	128	TWOPULSE-4	stim_128.png	24776
-49.9062	0.133	0	126	TWOPULSE-2	stim_126.png	25552
-51.3242	0.133	0	125	TWOPULSE-1	stim_125.png	26278
-52.791	0.133	0	130	TWOPULSE-6	stim_130.png	27029
-54.1914	0.033	0	120	ONEPULSE-2	stim_120.png	27746
-55.5078	0.033	0	120	ONEPULSE-2	stim_120.png	28420
+onset	duration	ISI	trial_type	trial_name	stim_file	stim_file_index	sample
+3.0000	0.1330	0.0000	128	TWOPULSE-4	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	29	1536
+4.3164	0.1330	0.0000	125	TWOPULSE-1	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	19	2210
+6.0176	0.1330	0.0000	127	TWOPULSE-3	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	25	3081
+7.7676	0.1330	0.0000	122	ONEPULSE-4	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	11	3977
+9.4004	0.2670	0.0000	123	ONEPULSE-5	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	13	4813
+11.0176	0.1330	0.0000	127	TWOPULSE-3	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	26	5641
+12.4023	0.1330	0.0000	129	TWOPULSE-5	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	32	6350
+13.9355	0.1330	0.0000	126	TWOPULSE-2	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	22	7135
+15.2188	0.0170	0.0000	119	ONEPULSE-1	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	2	7792
+16.5859	0.5330	0.0000	124	ONEPULSE-6	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	17	8492
+17.8359	0.1330	0.0000	122	ONEPULSE-4	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	12	9132
+19.4355	0.1330	0.0000	126	TWOPULSE-2	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	23	9951
+21.1855	0.5330	0.0000	124	ONEPULSE-6	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	18	10847
+22.8691	0.1330	0.0000	125	TWOPULSE-1	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	20	11709
+24.2207	0.2670	0.0000	123	ONEPULSE-5	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	15	12401
+25.6543	0.0330	0.0000	120	ONEPULSE-2	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	6	13135
+27.3203	0.1330	0.0000	130	TWOPULSE-6	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	35	13988
+28.6035	0.1330	0.0000	130	TWOPULSE-6	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	34	14645
+29.9375	0.0670	0.0000	121	ONEPULSE-3	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	7	15328
+31.4375	0.1330	0.0000	127	TWOPULSE-3	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	27	16096
+32.8711	0.0670	0.0000	121	ONEPULSE-3	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	9	16830
+34.3223	0.1330	0.0000	129	TWOPULSE-5	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	33	17573
+35.9043	0.5330	0.0000	124	ONEPULSE-6	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	16	18383
+37.4883	0.1330	0.0000	122	ONEPULSE-4	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	10	19194
+39.1719	0.1330	0.0000	128	TWOPULSE-4	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	30	20056
+40.4395	0.0670	0.0000	121	ONEPULSE-3	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	8	20705
+41.9395	0.0170	0.0000	119	ONEPULSE-1	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	1	21473
+43.6562	0.1330	0.0000	129	TWOPULSE-5	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	31	22352
+45.3066	0.0170	0.0000	119	ONEPULSE-1	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	3	23197
+46.8223	0.2670	0.0000	123	ONEPULSE-5	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	14	23973
+48.3906	0.1330	0.0000	128	TWOPULSE-4	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	28	24776
+49.9062	0.1330	0.0000	126	TWOPULSE-2	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	24	25552
+51.3242	0.1330	0.0000	125	TWOPULSE-1	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	21	26278
+52.7910	0.1330	0.0000	130	TWOPULSE-6	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	36	27029
+54.1914	0.0330	0.0000	120	ONEPULSE-2	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	4	27746
+55.5078	0.0330	0.0000	120	ONEPULSE-2	sub-som682_ses-somecog01_task-temporalpattern_run-01.mat	5	28420

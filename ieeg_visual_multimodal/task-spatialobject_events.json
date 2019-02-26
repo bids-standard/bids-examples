@@ -13,7 +13,6 @@
     },
     "trial_type": {
         "Description": "Categorical code referring to stimulus condition",
-        "Units": "integers",
 	"Levels": {
             "131": "FACE (band-pass filtered face stimulus)",
             "132": "LETTER (band-pass filtered letter stimulus)",
@@ -26,8 +25,7 @@
     "stim_file": {
         "Description": "Name of the stimulus file that was shown during this trial of the experiment."
     },
-    "event_sample": {
-        "Description": "Stimulus onset in samples relative to the start of the run",
-	"Units": "time samples"
+    "sample": {
+        "Description": "Stimulus onset in samples relative to the start of the run"
     }
 }
