@@ -1,7 +1,62 @@
-This dataset contains ECoG as well as fMRI recordings from a single patient obtained while the patient performed three different visual tasks. The ECoG data was recorded at NYU School of Medicine (SOM). The fMRI data was recorded post-operatively at NYU Department of Psychology (NYU). A separate pre-operative T1weighted MRI scan was collected at SOM.  These data were collected as part of an NIH Brain Initiative supported project. 
+Overview
+--------
+This dataset contains ECoG as well as fMRI recordings from a single patient obtained 
+while the patient performed three different visual tasks (spatialobject, spatialpattern, 
+and temporalpattern). The ECoG data was recorded at NYU School of Medicine (SOM). 
+The fMRI data was recorded post-operatively at NYU Department of Psychology (NYU). 
+A separate pre-operative T1weighted MRI scan was collected at SOM.  
 
-The dataset is as of yet unpublished. The data was collected by	Jonathan Winawer (NYU) and Stephanie Montenegro (NYU). The BIDS formatting was performed by Iris Groen (NYU) with help from Giovanni Piantoni (UMC Utrecht) and Dora Hermes (UMC Utrecht). The project is funded by the National Institute Of Mental Health of the National Institutes of Health under Award Number R01MH111417 to Natalia Petridou (UMC Utrecht) and Jonathan Winawer. The ECoG data collection was facilitated by Orrin Devinsky (NYU SOM) and Adeen Flinker (NYU SOM). 
+These data were collected as part of an NIH Brain Initiative supported project. The 
+overarching goal of this project is to build empirically supported models of visual 
+and somatosensory population responses by linking together neural signals (measured 
+with ECoG) and BOLD responses (measured with fMRI). This is a visual experimental 
+dataset; the same tasks were run in both modalities to allow for comparison of the 
+ECoG and BOLD responses. For details about the tasks, see the `Details about the 
+visual tasks` section.
+
+
+Citing this dataset
+-------------------
+The dataset is as of yet (02-26-2019) unpublished. The data was collected by 
+Jonathan Winawer (NYU) and Stephanie Montenegro (NYU). The BIDS formatting 
+was performed by Iris Groen (NYU) with help from Giovanni Piantoni (UMC Utrecht) 
+and Dora Hermes (UMC Utrecht). The project is funded by the National Institute Of 
+Mental Health of the National Institutes of Health under Award Number R01MH111417 
+to Natalia Petridou (UMC Utrecht) and Jonathan Winawer. The ECoG data collection 
+was facilitated by Orrin Devinsky (NYU SOM) and Adeen Flinker (NYU SOM). 
 
 Please see http://umcu-nyu-brain.wikidot.com for further information.
 
+
+License
+-------
+This dataset is made available under the Public Domain Dedication and License \\nv1.0, 
+whose full text can be found at \\nhttp://www.opendatacommons.org/licenses/pddl/1.0/.
+
+
+Format
+------
+It is formatted according to BIDS version 1.1.5 and the BIDS standard extension
+for iEEG (BEP010), which can be found here:
+
+https://bids-specification.readthedocs.io/en/latest/04-modality-specific-files/04-intracranial-electroencephalography.html
+
+Note that BEP010 was not yet integrated in the main BIDS-spec by 02-26-2019.
+
+Details about the visual tasks
+----------------------------
+All tasks involved brief presentations of a single visual stimulus presented at 8 
+degrees of visual angle. All stimuli were band-pass filtered to have single 
+spatial frequency of 3 cycles per degree. During the 'spatialobject' task, images
+Of houses, faces and letters were shown. During the 'spatial pattern' task, images 
+of randomly generated curved line segments were shown that were systematically varied 
+in the level of contrast and density, as well as three types of gratings. During 
+the 'temporal pattern', the same pattern stimuli were shown at fixed (high) contrast, 
+either for one presentation per trial (one-pulse) or two presentations (two-pulse). 
+For the one-pulse stimuli, stimulus duration was varied; for the two-pulse stimuli, 
+inter-stimulus-interval (ISI) was varied. Please see events.json files for details.
+
+
+Contact
+----------------------------
 Please contact Iris Groen (iris.groen@nyu.edu) for questions. 

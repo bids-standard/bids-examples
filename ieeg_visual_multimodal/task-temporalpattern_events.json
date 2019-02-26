@@ -13,7 +13,6 @@
     },
     "trial_type": {
         "Description": "Categorical code referring to stimulus condition",
-        "Units": "integers",
 	"Levels": {
             "119": "ONEPULSE-1 (pattern stimulus shown for duration 1)",
 	    "120": "ONEPULSE-2 (pattern stimulus shown for duration 2)",
@@ -34,8 +33,7 @@
     "stim_file": {
         "Description": "Name of the stimulus file that was shown during this trial of the experiment."
     },
-    "event_sample": {
+    "sample": {
         "Description": "Stimulus onset in samples relative to the start of the run",
-	"Units": "time samples"
     }
 }
