@@ -32,7 +32,7 @@
         "Description": "Description of the stimulus category that was shown during this experiment (see trial_type)"
     },
     "stim_file": {
-        "Description": "Name of the stimulus file that was shown during this trial of the experiment."
+        "Description": "Name of the stimulus file that was shown during this trial of the experiment"
     },
     "sample": {
         "Description": "Stimulus onset in samples relative to the start of the run"
