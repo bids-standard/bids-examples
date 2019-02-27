@@ -11,8 +11,8 @@ overarching goal of this project is to build empirically supported models of vis
 and somatosensory population responses by linking together neural signals (measured 
 with ECoG) and BOLD responses (measured with fMRI). This is a visual experimental 
 dataset; the same tasks were run in both modalities to allow for comparison of the 
-ECoG and BOLD responses. For details about the tasks, see the `Details about the 
-visual tasks` section.
+ECoG and BOLD responses. For details about the tasks and the collected data, see 
+the `Details about the visual tasks` section. 
 
 
 Citing this dataset
@@ -43,18 +43,31 @@ https://bids-specification.readthedocs.io/en/latest/04-modality-specific-files/0
 
 Note that BEP010 was not yet integrated in the main BIDS-spec by 02-26-2019.
 
+
 Details about the visual tasks
 ----------------------------
 All tasks involved brief presentations of a single visual stimulus presented at 8 
-degrees of visual angle. All stimuli were band-pass filtered to have single 
-spatial frequency of 3 cycles per degree. During the 'spatialobject' task, images
-Of houses, faces and letters were shown. During the 'spatial pattern' task, images 
-of randomly generated curved line segments were shown that were systematically varied 
-in the level of contrast and density, as well as three types of gratings. During 
-the 'temporal pattern', the same pattern stimuli were shown at fixed (high) contrast, 
-either for one presentation per trial (one-pulse) or two presentations (two-pulse). 
-For the one-pulse stimuli, stimulus duration was varied; for the two-pulse stimuli, 
-inter-stimulus-interval (ISI) was varied. Please see events.json files for details.
+degrees of visual angle. The stimuli were regenerated after this publication:
+
+Kay KN, Winawer J, Rokem A, Mezer A, Wandell BA (2013) A Two-Stage Cascade Model 
+of BOLD Responses in Human Visual Cortex. PLoS Comput Biol 9(5): e1003079. 
+https://doi.org/10.1371/journal.pcbi.1003079
+
+All stimuli were band-pass filtered to contain a peak spatial frequency of 3 
+cycles per degree. In the 'spatialobject' task, images of houses, faces and 
+letters were shown. In the 'spatial pattern' task, images of randomly generated 
+curved line segments were shown that were systematically varied in the level of 
+contrast and density, as well as three types of gratings. In the 'temporal pattern' 
+task, the same pattern stimuli were shown at fixed (high) contrast, either for 
+one presentation per trial (one-pulse) or two presentations (two-pulse). For the 
+one-pulse stimuli, stimulus duration was varied; for the two-pulse stimuli, inter-
+stimulus-interval (ISI) was varied. The exact same stimuli were shown in both fMRI 
+and ECoG. For fMRI, the inter-trial-intervals were longer than for ECoG (fMRI: 
+jittered ITI between 3 and 6 seconds; EcoG, jittered ITI between 1.25 and 1.75 
+seconds), as well as the pre- and post-baseline periods (fMRI: 11.9 seconds; 
+ECoG: 3 seconds). Trial-unique stimuli were shown in runs 1 and 2 of each task. 
+Runs 3 and 4 are exact repeats of run 1 and 2, respectively. Please refer to the 
+events.json and events.tsv files for details.
 
 
 Contact
