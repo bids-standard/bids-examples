@@ -1,5 +1,6 @@
 {
     "TaskName": "motor",
+    "iEEGReference": "scalp",
     "SamplingFrequency": 1000,
     "PowerLineFrequency": 60,
     "SoftwareFilters": "n/a",
@@ -25,6 +26,5 @@
     "RecordingType": "continuous",
     "EpochLength": 0,
     "ECOGChannelCount": 63,
-    "SEEGChannelCount": 0,
-    "iEEGReference": "scalp"
+    "SEEGChannelCount": 0
 }
