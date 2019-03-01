@@ -1,6 +1,6 @@
 {
     "TaskName": "visual",
-    "SamplingFrequency": 3051.76,
+    "SamplingFrequency": 1525.9,
     "PowerLineFrequency": 60,
     "HardwareFilters": {
         "HighpassFilter": {
@@ -17,7 +17,7 @@
     "Instructions": "look at the dot in the center of the screen and press the button when it changes color",
     "InstitutionName": "Stanford Hospital and Clinics",
     "InstitutionAddress": "300 Pasteur Dr, Stanford, CA 94305",
-    "ECOGChannelCount": 118,
+    "ECOGChannelCount": 96,
     "SEEGChannelCount": 0,
     "EEGChannelCount": 0,
     "EOGChannelCount": 0,
@@ -29,5 +29,5 @@
     "RecordingType": "continuous",
     "EpochLength": 0,
     "ElectrodeManufacturer": "AdTech",
-    "iEEGPlacementScheme": "right occipital temporal surface"
+    "iEEGPlacementScheme": "left occipital"
 }
