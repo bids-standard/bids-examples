@@ -2,7 +2,7 @@ node_js:
   - "8.0.0"
 
 install:
-  - npm install -g https://github.com/bids-standard/bids-validator.git
+  - npm install -g bids-validator@1.2.0
 
 script:
   - |
