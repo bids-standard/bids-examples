@@ -1,7 +1,8 @@
 {
     "iEEGCoordinateSystem": "T1w",
     "iEEGCoordinateUnits": "mm",
-    "iEEGCoordinateProcessingDescripton": "Deman, P., Bhattacharjee, M., Tadel, F., Job, A. S., Rivière, D., Cointepas, Y., Kahane, P., … David, O. (2018). IntrAnat Electrodes: A Free Database and Visualization Software for Intracranial Electroencephalographic Data Processed for Case and Group Studies. Frontiers in neuroinformatics, 12, 40. doi:10.3389/fninf.2018.00040",
+	"iEEGCoordinateSystemDescription": "Subject coordinates (as defined by the sform transformation in the associated nii file)",
+    "iEEGCoordinateProcessingDescription": "Deman, P., Bhattacharjee, M., Tadel, F., Job, A. S., Rivière, D., Cointepas, Y., Kahane, P., … David, O. (2018). IntrAnat Electrodes: A Free Database and Visualization Software for Intracranial Electroencephalographic Data Processed for Case and Group Studies. Frontiers in neuroinformatics, 12, 40. doi:10.3389/fninf.2018.00040",
     "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth",
     "IntendedFor": "/derivatives/surfaces/sub-01/ses-01/anat/sub-01_T1w.nii"
 }
