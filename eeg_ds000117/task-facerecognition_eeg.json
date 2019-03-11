@@ -1,0 +1,24 @@
+{
+    "TaskName": " face recognition",
+    "TaskDescription": "participants were asked to press one of two keys with either their left or right index finger (assignment counter-balanced across participants). Their key-press was based on how symmetric they regarded each image: pressing one or the other key depending whether they thought the image was ‘more’ or ‘less symmetric’ than average.",
+    "InstitutionName": "UK Medical Research Council, Cambridge",
+    "SamplingFrequency": 1100,
+    "ManufacturersModelName": "Elekta Neuromag Vectorview 306 system",
+    "CapManufacturersModelName": "Easycap EEG",
+    "EEGChannelCount": 70,
+    "EOGChannelCount": 2,
+    "ECGChannelCount": 2,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 1,
+    "EEGPlacementScheme": " extended 10% system",
+    "EEGReference": "common",
+    "PowerLineFrequency": 50,
+    "RecordingDuration": 490.9991,
+    "RecordingType": "continuous",
+    "SoftwareFilters": "n/a",
+    "HardwareFilters": {
+        "Lowpass": {
+            "Hz": 350
+        }
+    }
+}

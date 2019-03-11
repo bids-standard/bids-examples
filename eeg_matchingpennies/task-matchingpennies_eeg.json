@@ -1,0 +1,26 @@
+{
+    "TaskName": "Matching Pennies",
+    "TaskDescription": "The task is emulating a game of 'matching pennies', where for each trial a subject and a computer agent both make a binary choice (here in the form of showing a left or right hand) at the same time. Crucially, one of the two players wins whenever the binary choice is equal, while the other player wins whenever the binary choice is not equal. Practically, subjects were seated in front of a computer screen on a desk with two computer mice glued to the desk at approximately 1 meter distance. The experiment consisted of three stages, separated by short breaks. Each stage contained 100 single trials. A subject started each trial in a self-paced manner by pressing down the outermost buttons of the two computer mice using their left and right ringfinger respectively while resting the hands calmly on the table. Pressing down both keys started a three-second countdown that was shown on the computer screen as a continuous shrinking of a horizontal bar. Throughout the countdown, subjects were focusing on a fixation stimulus in the middle of the computer screen. At then end of the countdown, subjects were supposed to quickly raise one of the two hands “as if to show the palm to the computer”. The movement was supposed to happen precisely timed with the end of the countdown. To ensure this, there was a 200 ms window at the end of the countdown during which the movement was required to occur. If the movement occurred outside this time window or if both buttons were released, the trial was restarted. Otherwise, the computer’s choice (left or right) was shown on the screen in the form of a left or right hand stimulus. If the subject’s choice was the same as the computer’s, this was a win trial for the computer. Otherwise, it was a win trial for the subject. This task was modeled after the task in Matthias Schultze-Kraft et al. “Predicting Motor Intentions with Closed-Loop Brain-Computer Interfaces”. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79–90. doi: 10.1007/978-3-319-64373-1_8.",
+    "SamplingFrequency": 5000,
+    "Manufacturer": "Brain Products",
+    "ManufacturersModelName": "BrainAmp DC",
+    "CapManufacturer": "Brain Products",
+    "CapManufacturersModelName": "actiCAP 64Ch Standard-2",
+    "EEGChannelCount": 10,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "EEGReference": "unipolar, placed on Fz",
+    "EEGGround": "placed on Afz",
+    "PowerLineFrequency": 50,
+    "EEGPlacementScheme": "10 percent system",
+    "RecordingType": "continuous",
+    "SoftwareVersions": "Labstreaming Layer BrainAmpSeries 1.11",
+    "SoftwareFilters": "n/a",
+    "HardwareFilters": {
+        "Highpass RC filter": {
+            "Half amplitude cutoff (Hz)": 0.0159,
+            "Roll-off": "6dB/Octave"
+        }
+    }
+}
