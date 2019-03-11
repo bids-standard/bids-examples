@@ -2,7 +2,7 @@ node_js:
   - "8.0.0"
 
 install:
-  - npm install -g bids-validator@1.1.0
+  - npm install -g bids-validator@1.2.1
 
 script:
   - |
