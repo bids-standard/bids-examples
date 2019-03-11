@@ -1,0 +1,66 @@
+{
+    "onset": {
+        "Description": "Onset of the event",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event",
+        "Units": "seconds"
+    },
+    "trial_type": {
+        "Description": "Which hand was lifted by the participant.",
+        "Levels": {
+            "left": "Left",
+            "right": "Right"
+        }
+    },
+    "response_time": {
+        "Description": "Reaction time to lift the left or right hand after the countdown reached zero.",
+        "Units": "Milliseconds"
+    },
+    "stim_file": {
+        "Description": "Name of the file that was shown during this trial of the experiment."
+    },
+    "value": {
+        "Description": "The code (EEG Marker value) associated with an event ",
+        "Levels": {
+            "1": "Release of left button (i.e., raising left hand)",
+            "2": "Release of right button (i.e., raising right hand)"
+        }
+    },
+    "sample": {
+        "Description": "The sample within the EEG data at which an event occurred"
+    },
+    "stage": {
+        "Description": "The current stage of the experiment.",
+        "Levels": {
+            "1": "Stage 1. BCI acts randomly",
+            "2": "Stage 2. BCI was trained on data from stage 1.",
+            "3": "Stage 3. BCI was trained on data from stages 1 and 2."
+        }
+    },
+    "trl": {
+        "Description": "The current trial within this stage."
+    },
+    "pred": {
+        "Description": "Which lift_side did the BCI predict.",
+        "Levels": {
+            "left": "Left",
+            "right": "Right"
+        }
+    },
+    "pred_valid": {
+        "Description": "Did a prediction arrive on time (if not, a random prediction was made)",
+        "Levels": {
+            "1": "True",
+            "2": "False"
+        }
+    },
+    "n_invalid": {
+        "Description": "Number of invalid trials up to this trial."
+    },
+    "latency": {
+        "Description": "Estimated beginning of the data chunk used for the BCI prediction with respect to the true event as measured by parallel port trigger.",
+        "Units": "Milliseconds"
+    }
+}
