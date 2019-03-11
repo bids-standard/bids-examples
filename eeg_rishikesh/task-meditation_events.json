@@ -1,0 +1,33 @@
+{
+  "onset": {
+    "Description": "Event onset",
+    "Units": "second"
+  },
+  "duration": {
+    "Description": "Event duration",
+    "Units": "second"
+  },
+  "trial_type": {
+    "Description": "Type of event (different from EEGLAB convention)",
+    "Levels": {
+      "stimulus": "Onset of first question",
+      "response": "Response to question 1, 2 or 3"
+    }
+  },
+  "response_time": {
+    "Description": "Response time column not use for this data"
+  },
+  "sample": {
+    "Description": "Event sample starting at 0 (Matlab convention starting at 1)"
+  },
+  "value": {
+    "Description": "Value of event (numerical)",
+    "Levels": {
+      "2": "Response 1 (this may be a response to question 1, 2 or 3)",
+      "4": "Response 2 (this may be a response to question 1, 2 or 3)",
+      "8": "Response 3 (this may be a response to question 1, 2 or 3)",
+      "16": "Indicate involuntary response",
+      "128": "First question onset (most important marker)"
+    }
+  }
+}
