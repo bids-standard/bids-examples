@@ -1,5 +1,5 @@
 {
-    "iEEGCoordinateSystem": "T1w",
+    "iEEGCoordinateSystem": "MNI152",
     "iEEGCoordinateUnits": "mm",
 	"iEEGCoordinateSystemDescription": "MNI152 affine normalization with SPM12 function spm_maff8",
     "iEEGCoordinateProcessingDescription": "Deman, P., Bhattacharjee, M., Tadel, F., Job, A. S., Rivière, D., Cointepas, Y., Kahane, P., … David, O. (2018). IntrAnat Electrodes: A Free Database and Visualization Software for Intracranial Electroencephalographic Data Processed for Case and Group Studies. Frontiers in neuroinformatics, 12, 40. doi:10.3389/fninf.2018.00040",
