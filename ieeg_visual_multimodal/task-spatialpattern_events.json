@@ -1,0 +1,40 @@
+{
+    "onset": {
+        "Description": "Onset of the event",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event",
+        "Units": "seconds"
+    },
+    "ISI": {
+        "Description": "Interval between two-pulse stimuli. Applies only to TWO-PULSE condition",
+        "Units": "seconds"
+    },
+    "trial_type": {
+        "Description": "Categorical code referring to stimulus condition",
+	"Levels": {
+            "107": "CRF-1 (pattern stimulus at contrast level 1)",
+	    "108": "CRF-2 (pattern stimulus at contrast level 2)",
+            "109": "CRF-3 (pattern stimulus at contrast level 3)",
+            "110": "CRF-4 (pattern stimulus at contrast level 4)",
+            "111": "CRF-5 (pattern stimulus at contrast level 5)",
+            "112": "GRATING (single oriented grating, contrast level 5)",
+	    "113": "PLAID (two superimposed oriented gratings, contrast level 5)",
+            "114": "CIRCULAR (eight superimposed oriented gratings, contrast level 5)",
+            "115": "SPARSITY-1 (pattern stimulus at density level 1)",
+            "116": "SPARSITY-2 (pattern stimulus at density level 2)",
+            "117": "SPARSITY-3 (pattern stimulus at density level 3)",
+            "118": "SPARSITY-4 (pattern stimulus at density level 4)"
+        }
+    },
+    "trial_name": {
+        "Description": "Description of the stimulus category that was shown during this experiment (see trial_type)"
+    },
+    "stim_file": {
+        "Description": "Name of the stimulus file that was shown during this trial of the experiment"
+    },
+    "sample": {
+        "Description": "Stimulus onset in samples relative to the start of the run"
+    }
+}

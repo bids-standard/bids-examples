@@ -1,0 +1,39 @@
+{
+    "onset": {
+        "Description": "Onset of the event",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event",
+        "Units": "seconds"
+    },
+    "ISI": {
+        "Description": "Interval between two-pulse stimuli. Applies only to TWO-PULSE condition",
+        "Units": "seconds"
+    },
+    "trial_type": {
+        "Description": "Categorical code referring to stimulus condition",
+	"Levels": {
+            "119": "ONEPULSE-1 (pattern stimulus shown for duration 1)",
+	    "120": "ONEPULSE-2 (pattern stimulus shown for duration 2)",
+            "121": "ONEPULSE-3 (pattern stimulus shown for duration 3)",
+            "122": "ONEPULSE-4 (pattern stimulus shown for duration 4)",
+            "123": "ONEPULSE-5 (pattern stimulus shown for duration 5)",
+            "124": "ONEPULSE-6 (pattern stimulus shown for duration 6)",
+	    "125": "TWOPULSE-1 (two pattern stimuli shown for fixed duration, with interval duration 1)",
+	    "126": "TWOPULSE-2 (two pattern stimuli shown for fixed duration, with interval duration 2)",
+            "127": "TWOPULSE-3 (two pattern stimuli shown for fixed duration, with interval duration 3)",
+            "128": "TWOPULSE-4 (two pattern stimuli shown for fixed duration, with interval duration 4)",
+            "129": "TWOPULSE-5 (two pattern stimuli shown for fixed duration, with interval duration 5)",
+            "130": "TWOPULSE-6 (two pattern stimuli shown for fixed duration, with interval duration 6)"        }
+    },
+    "trial_name": {
+        "Description": "Description of the stimulus category that was shown during this experiment (see trial_type)"
+    },
+    "stim_file": {
+        "Description": "Name of the stimulus file that was shown during this trial of the experiment"
+    },
+    "sample": {
+        "Description": "Stimulus onset in samples relative to the start of the run"
+    }
+}

@@ -1,0 +1,75 @@
+Overview
+--------
+This dataset contains ECoG as well as fMRI recordings from a single patient obtained 
+while the patient performed three different visual tasks (spatialobject, spatialpattern, 
+and temporalpattern). The ECoG data was recorded at NYU School of Medicine (SOM). 
+The fMRI data was recorded post-operatively at NYU Department of Psychology (NYU). 
+A separate pre-operative T1weighted MRI scan was collected at SOM.  
+
+These data were collected as part of an NIH Brain Initiative supported project. The 
+overarching goal of this project is to build empirically supported models of visual 
+and somatosensory population responses by linking together neural signals (measured 
+with ECoG) and BOLD responses (measured with fMRI). This is a visual experimental 
+dataset; the same tasks were run in both modalities to allow for comparison of the 
+ECoG and BOLD responses. For details about the tasks and the collected data, see 
+the `Details about the visual tasks` section. 
+
+
+Citing this dataset
+-------------------
+The dataset is as of yet (02-26-2019) unpublished. The data was collected by 
+Jonathan Winawer (NYU) and Stephanie Montenegro (NYU). The BIDS formatting 
+was performed by Iris Groen (NYU) with help from Giovanni Piantoni (UMC Utrecht) 
+and Dora Hermes (UMC Utrecht). The project is funded by the National Institute Of 
+Mental Health of the National Institutes of Health under Award Number R01MH111417 
+to Natalia Petridou (UMC Utrecht) and Jonathan Winawer. The ECoG data collection 
+was facilitated by Orrin Devinsky (NYU SOM) and Adeen Flinker (NYU SOM). 
+
+Please see http://umcu-nyu-brain.wikidot.com for further information.
+
+
+License
+-------
+This dataset is made available under the Public Domain Dedication and License \\nv1.0, 
+whose full text can be found at \\nhttp://www.opendatacommons.org/licenses/pddl/1.0/.
+
+
+Format
+------
+It is formatted according to BIDS version 1.1.5 and the BIDS standard extension
+for iEEG (BEP010), which can be found here:
+
+https://bids-specification.readthedocs.io/en/latest/04-modality-specific-files/04-intracranial-electroencephalography.html
+
+Note that BEP010 was not yet integrated in the main BIDS-spec by 02-26-2019.
+
+
+Details about the visual tasks
+----------------------------
+All tasks involved brief presentations of a single visual stimulus presented at 8 
+degrees of visual angle. The stimuli were regenerated after this publication:
+
+Kay KN, Winawer J, Rokem A, Mezer A, Wandell BA (2013) A Two-Stage Cascade Model 
+of BOLD Responses in Human Visual Cortex. PLoS Comput Biol 9(5): e1003079. 
+https://doi.org/10.1371/journal.pcbi.1003079
+
+All stimuli were band-pass filtered to contain a peak spatial frequency of 3 
+cycles per degree. In the 'spatialobject' task, images of houses, faces and 
+letters were shown. In the 'spatial pattern' task, images of randomly generated 
+curved line segments were shown that were systematically varied in the level of 
+contrast and density, as well as three types of gratings. In the 'temporal pattern' 
+task, the same pattern stimuli were shown at fixed (high) contrast, either for 
+one presentation per trial (one-pulse) or two presentations (two-pulse). For the 
+one-pulse stimuli, stimulus duration was varied; for the two-pulse stimuli, inter-
+stimulus-interval (ISI) was varied. The exact same stimuli were shown in both fMRI 
+and ECoG. For fMRI, the inter-trial-intervals were longer than for ECoG (fMRI: 
+jittered ITI between 3 and 6 seconds; EcoG, jittered ITI between 1.25 and 1.75 
+seconds), as well as the pre- and post-baseline periods (fMRI: 11.9 seconds; 
+ECoG: 3 seconds). Trial-unique stimuli were shown in runs 1 and 2 of each task. 
+Runs 3 and 4 are exact repeats of run 1 and 2, respectively. Please refer to the 
+events.json and events.tsv files for details.
+
+
+Contact
+----------------------------
+Please contact Iris Groen (iris.groen@nyu.edu) for questions. 

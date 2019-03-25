@@ -1,0 +1,30 @@
+Dataset description
+===================
+
+This dataset includes recordings for a patient that was not reported in the above article, but are part of the same study. 
+The patient presents a focal epilepsy of the left temporo-occipital junction, MRI-negative, and was implanted in the surrounding areas. 
+It includes the recordings of three seizures, all of them showing a propagation of high-frequency oscillations from the lesion towards
+the temporal lobe, bilaterally.
+
+The depth electrodes used in this example dataset are DIXI D08-**AM Microdeep electrodes, with the following specifications:
+    Diameter: 0.8 mm
+    Contact length: 2 mm
+    Insulator length: 1.5 mm
+    Distance between the center of two contacts: 3.5 mm
+    Between 8 and 18 contacts on each electrode 
+
+Files included in this package:
+    T1 MRI before SEEG implantation
+    T1 MRI after SEEG implantation
+    Cortical surface extracted with BrainVISA 4.5
+    Positions of the SEEG contacts in various formats (MNI or subject space)
+    Seizure recordings in BrainVision format, one seizure per file
+    MRI scans were de-identified with FreeSurfer's mri_deface. 
+
+This dataset was initially packaged for the Brainstorm and ImagGIN tutorials "SEEG epileptogenicity maps":
+    https://neuroimage.usc.edu/brainstorm/Tutorials/Epileptogenicity
+    https://f-tract.eu/tutorials/
+
+The acquisition methodology is described in the following articles:
+    David O, Blauwblomme T, Job AS, Chabardès S, Hoffmann D, Minotti L, Kahane P, Imaging the seizure onset zone with stereo-electroencephalography, Brain. 2011 Oct;134(10):2898-911
+    Lamarche F, Job AS, Deman P, Bhattacharjee M, Hoffmann D, Gallazzini-Crépin C, Bouvard S, Minotti L, Kahane P, David O, Correlation of FDG-PET hypometabolism and SEEG epileptogenicity mapping in patients with drug-resistant focal epilepsy, Epilepsia. 2016 Dec; 57(12):2045–2055 

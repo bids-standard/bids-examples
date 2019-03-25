@@ -1,0 +1,31 @@
+{
+    "onset": {
+        "Description": "Onset of the event",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event",
+        "Units": "seconds"
+    },
+    "ISI": {
+        "Description": "Interval between two-pulse stimuli. Applies only to TWO-PULSE condition",
+        "Units": "seconds"
+    },
+    "trial_type": {
+        "Description": "Categorical code referring to stimulus condition",
+	"Levels": {
+            "131": "FACE (band-pass filtered face stimulus)",
+            "132": "LETTER (band-pass filtered letter stimulus)",
+            "133": "HOUSE (band-pass filtered house stimulus)"
+        }
+    },
+    "trial_name": {
+        "Description": "Description of the stimulus category that was shown during this experiment (see trial_type)"
+    },
+    "stim_file": {
+        "Description": "Name of the stimulus file that was shown during this trial of the experiment"
+    },
+    "sample": {
+        "Description": "Stimulus onset in samples relative to the start of the run"
+    }
+}
