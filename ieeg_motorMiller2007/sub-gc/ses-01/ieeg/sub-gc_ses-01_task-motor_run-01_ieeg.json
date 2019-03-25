@@ -1,0 +1,30 @@
+{
+    "TaskName": "motor",
+    "iEEGReference": "scalp",
+    "SamplingFrequency": 1000,
+    "PowerLineFrequency": 60,
+    "SoftwareFilters": "n/a",
+    "HardwareFilters": {
+        "HighpassFilter": {
+            "CutoffFrequency": 0.15
+        },
+        "LowpassFilter": {
+            "CutoffFrequency": 200
+        }
+    },
+    "Manufacturer": "Neuroscan",
+    "ManufacturersModelName": "Synamps 2",
+    "TaskDescription": "Patients performed simple repetitive motor tasks ofhand and tong: clenching and releasing of a fist at a self-paced rate of ~1-2 Hz)or tongue (opening of mouth with protrusion and retraction of the tongue, i.e.,sticking the tongue in and out, also at ~1-2 Hz) These movements were performed inan interval-based manner, alternating between movement and rest, and the side of movement was always contralateral to the side of cortical grid placement. Cues for motor movement were delivered visually in a 10 x 10 cm presentation window at a distance of 75?100 cm from patient. Visual cues were presented using the BCI 2000 program with a written word indicating the specific body part to be moved (typically, multiple movement types were interleaved in each experimental run). Stimuli were presented for 2 s or 3 s cue blocks, followed by rest intervals (indicated by a blank screen) of the same length. The patients were instructed to perform repetitive, self-paced motor movement, alternating with rest intervals of the same length (indicated by the absence of the cuing target). Repetitive motion, rather than tonic  contraction, was intended to accentuate the spectral shift during each interval.",
+    "InstitutionName": "Harborview Hospital in Seattle, WA",
+    "EEGChannelCount": 0,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 0,
+    "RecordingDuration": 390.56,
+    "RecordingType": "continuous",
+    "EpochLength": 0,
+    "ECOGChannelCount": 64,
+    "SEEGChannelCount": 0
+}

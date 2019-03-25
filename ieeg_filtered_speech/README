@@ -1,0 +1,49 @@
+Information
+===========
+
+This folder contains the data for the publication Holdgraf et al, "Rapid tuning shifts in human auditory cortex enhance speech intelligibility".
+It contains the raw data files for 7 subjects performing a passive listening "degraded speech popout" task.
+
+Contact: Chris Holdgraf (choldgraf@berkeley.edu)
+
+If you use this data as a part of any publications, please use the following citation:
+
+Holdgraf, Christopher R., Wendy de Heer, Brian Pasley, Jochem Rieger, Nathan Crone, Jack J. Lin, Robert T. Knight,
+and Frédéric E. Theunissen. “Rapid Tuning Shifts in Human Auditory Cortex Enhance Speech Intelligibility.”
+Nature Communications 7, no. 1 (December 2016). https://doi.org/10.1038/ncomms13654.
+
+
+Task Description
+----------------
+
+This is a simple passive listening task in which subjects hear sentences that come in groups of 3.
+Subjects first hear a filtered speech sound, then they hear a "context" sentence (or pink noise), and finally the filtered speech is repeated.
+Subjects focused on a fixation cross in the middle of the screen, and were asked to generally pay attention to all stimuli,
+though there was no specific behavioral component that they were asked to engage in.
+
+
+Dataset and Stimuli
+===================
+
+This data is organized according to the Brain Imaging Data Structure specification. A community-
+driven specification for organizing neurophysiology data along with its metadata. For more information
+on this data specification, see https://bids-specification.readthedocs.io/en/stable/
+
+Each subject has their own folder (e.g., `ir-07`) which contains the raw EcoG data for that subject,
+as well as the metadata needed to understand the raw data and event timing. In addition, the `stimuli/`
+folder contains an audio recording of the stimuli presented throughout each subject's task.
+
+Stimuli
+-------
+
+Stimuli are all sentences taken from the TIMIT database. There are filtered versions of each stimulus, which were played before and after
+the unfiltered version of the sentence. These filtered speech sentences were created by removing components of the modulation power
+spectrum of each speech sentence.
+
+Raw data
+--------
+
+Raw data is stored with the Brainvision data format. This can be read in to memory with the following tools:
+
+* Python: The `pybv` package (https://github.com/bids-standard/pybv)
+* Matlab: BrainVision analyzer (https://www.mathworks.com/products/connections/product_detail/brainvision-analyzer.html)
