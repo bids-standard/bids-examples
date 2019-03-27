@@ -1,0 +1,183 @@
+[INFO   ]:03/27/2019 15:22:11:root Loading module COFITAGE_base from Plugins/COFITAGE_base.py
+[INFO   ]:03/27/2019 15:22:11:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:03/27/2019 15:22:11:root Starting new bidsifier
+[INFO   ]:03/27/2019 15:22:11:root <<<<<<<<<<<<<<<<<<<<<<
+[INFO   ]:03/27/2019 15:22:11:root File: /Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/
+[INFO   ]:03/27/2019 15:22:11:root Output: /Storage/beliy/COFITAGE/Public/BIDS/
+[INFO   ]:03/27/2019 15:22:11:root Detected embla format
+[WARNING]:03/27/2019 15:22:11:root No .esedb files containing events found. Event list will be empty.
+[INFO   ]:03/27/2019 15:22:11:COFITAGE_base Running RecordingEP
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Unable to get start time from record
+[INFO   ]:03/27/2019 15:22:11:DataStructure.Generic.Record JSON File: /home/beliy/Works/COFITAGE/JSON/COF_HN.json
+[INFO   ]:03/27/2019 15:22:11:root Patient Id: COF127
+[INFO   ]:03/27/2019 15:22:11:root Session Id: 
+[INFO   ]:03/27/2019 15:22:11:root Task    Id: HN
+[INFO   ]:03/27/2019 15:22:11:root Acq     Id: T215100
+[INFO   ]:03/27/2019 15:22:11:root EEG will be saved in /Storage/beliy/COFITAGE/Public/BIDS/sub-COF127/eeg/
+[INFO   ]:03/27/2019 15:22:11:tools.tools Creating directory /Storage/beliy/COFITAGE/Public/BIDS/sub-COF127/eeg/
+[WARNING]:03/27/2019 15:22:11:tools.tools Found 1 files with pattern 'sub-COF127_task-HN_acq-T215100.log'.
+[WARNING]:03/27/2019 15:22:11:tools.tools They will be removed.
+[WARNING]:03/27/2019 15:22:11:tools.tools Found 1 files with pattern 'sub-COF127_task-HN_acq-T215100.ini'.
+[WARNING]:03/27/2019 15:22:11:tools.tools They will be removed.
+[WARNING]:03/27/2019 15:22:11:root Unable to get StartTime of record. Will be set to first data point.
+[WARNING]:03/27/2019 15:22:11:root Unable to get EndTime of record. Will be set to last data point.
+[INFO   ]:03/27/2019 15:22:11:root Reading channels
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Gravity Y.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Right Leg.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Activity_DR.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/EKG.ebm" at 7185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/M2.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Snoring Sensor.ebm" at 7199
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/REF.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Left Leg.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Pulse.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Fz.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Plethysmogram.ebm" at 4561
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/RMI_DR.ebm" at 2741
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/SpO2-Quality_DR.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/E1.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Tidal Volume_DR.ebm" at 2319
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Light_BU.ebm" at 2075
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Elevation_DR.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Light_MD.ebm" at 2043
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Abdomen.ebm" at 3241
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Thorax.ebm" at 3241
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/XSum_DR.ebm" at 2741
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Gravity X.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Nasal Pressure.ebm" at 7199
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/SpO2.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Pz.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Snore_DR.ebm" at 7199
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Chin EMG.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/RR_DR.ebm" at 1921
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Phase_DR.ebm" at 2741
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Oz.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/M1.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Cz.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Position_DR.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/SpO2 BB.ebm" at 2185
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/RD-Quality.ebm" at 4561
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/E2.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/C3.ebm" at 7165
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Heart Rate_DR.ebm" at 1953
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/Flow_DR.ebm" at 4959
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Unknown data type
+[WARNING]:03/27/2019 15:22:11:EmblaChannel In file "/Storage/beliy/COFITAGE/Public/Emb/81197b98-391c-442d-ad4d-3fc70134374f/XFlow_DR.ebm" at 2641
+[WARNING]:03/27/2019 15:22:11:EmblaChannel Readed 0 bytes, 4294967295 expected. File seems to be corrupted
+[INFO   ]:03/27/2019 15:22:11:COFITAGE_base Running ChannelsEP
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Light_BU of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Nasal Pressure of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Snoring Sensor of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Thorax of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Abdomen of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Gravity X of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Gravity Y of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Plethysmogram of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Pulse of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel RD-Quality of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel SpO2 of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel SpO2 BB of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Light_MD of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Heart Rate_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel SpO2-Quality_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Flow_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Snore_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Activity_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Elevation_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Position_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Phase_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel RMI_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel RR_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel XSum_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel Tidal Volume_DR of type MISC
+[WARNING]:03/27/2019 15:22:11:COFITAGE_base Dropping channel XFlow_DR of type MISC
+[INFO   ]:03/27/2019 15:22:11:root Duration: 0:00:13.690000
+[INFO   ]:03/27/2019 15:22:11:root Reading events info
+[INFO   ]:03/27/2019 15:22:11:root New duration: 0:00:13.690000
+[INFO   ]:03/27/2019 15:22:11:COFITAGE_base Running EventsEP
+[ERROR  ]:03/27/2019 15:22:11:COFITAGE_base Missing LIGHTS-OFF marker
+[ERROR  ]:03/27/2019 15:22:11:COFITAGE_base Missing LIGHTS-ON marker
+[ERROR  ]:03/27/2019 15:22:11:root File "../eegBidsCreator//eegBidsCreator.py", line 510 in main:
+[ERROR  ]:03/27/2019 15:22:11:root Exception: Plugin EventsEP returned code 1
+[INFO   ]:03/27/2019 15:22:11:root Command: '../eegBidsCreator//eegBidsCreator.py' '-c' 'Configuration/EEGBIDS_COFITAGE.ini' '-o' '/Storage/beliy/COFITAGE/Public/BIDS/' '-q' '--logfile' '/Storage/beliy/COFITAGE/Public/Log//81197b98-391c-442d-ad4d-3fc70134374f.log' '--log' 'INFO' '/Storage/beliy/COFITAGE/Public/Emb//81197b98-391c-442d-ad4d-3fc70134374f/' '--conversion' 'EDF'
+[INFO   ]:03/27/2019 15:22:11:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:03/27/2019 15:22:11:root Took 0.664918628 seconds
+[INFO   ]:03/27/2019 15:22:11:root <<<<<<<<<<<<<<<<<<<<<<

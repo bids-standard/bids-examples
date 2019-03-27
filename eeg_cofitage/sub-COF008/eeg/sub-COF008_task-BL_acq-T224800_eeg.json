@@ -1,0 +1,23 @@
+{
+  "TaskName":"BL",
+  "TaskDescription":"Baseline Night - Night of regular sleep with EEG recording",
+  "Instructions":"To sleep as well as they can with all the devices they have",
+  "SamplingFrequency":200,
+  "EEGChannelCount":14,
+  "EOGChannelCount":2,
+  "ECGChannelCount":1,
+  "EMGChannelCount":1,
+  "EEGReference":"(X1 + A1 + A2)/3",
+  "PowerLineFrequency":50,
+  "EEGGround":"Fpz",
+  "EEGPlacementScheme":"10-20 system",
+  "Manufacturer":"EMBLA, Natus Medical Incorporated, Planegg, Germany",
+  "ManufacturersModelName":"N7000 amplifiers",
+  "CapManufacturer":"MedCap",
+  "SoftwareFilters":"n/a",
+  "RecordingDuration":36000,
+  "RecordingType":"Continuous",
+  "SoftwareVersions":"Remlogic 3.4",
+  "DeviceSerialNumber":"f5e20dd8-7b52-442b-a227-932ef4f66566",
+  "MiscChannelCount":0
+}

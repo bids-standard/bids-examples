@@ -1,0 +1,16 @@
+{
+  "age":{
+    "LongName":"Age",
+    "Description":"Age of a subject",
+    "Units":"year"
+  },
+  "sex":{
+    "LongName":"Sex",
+    "Description":"Sex of a subject",
+    "Levels":{
+      "n/a":"Not available",
+      "F":"Female",
+      "M":"Male"
+    }
+  }
+}

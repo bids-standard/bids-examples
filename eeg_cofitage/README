@@ -1,0 +1,71 @@
+﻿Overview
+--------
+
+This is the “COFITAGE” dataset. The aim is to collect sleep EEG data from 100 to 120 healthy older 
+participants (aged 50-70), in order to quantify sleep disruption, evaluate its impact on cognition
+and assess its relationship with brain amyloid and tau proteins deposition in preclinical AD.
+
+We would like to determine which sleep-wake regulation parameters are associated with biomarkers 
+and cognitive status at baseline and at a 24 months follow-up of cognitive performances.
+
+
+Citing this dataset
+-------------------
+
+This dataset and related analyses are unpublished. Please do not use/cite given data other than
+BIDS dataset example.
+
+
+Format
+------
+
+It is formatted according to BIDS version 1.2.0 and the BIDS standard extension
+for EEG (BEP006). The full description of the standard and extension which can be found here:
+https://bids-specification.readthedocs.io/en/latest/
+
+This dataset is originally created in Embla 3.4 format. It is converted to EDF+ and applied to BIDS standard by a private tool. The configuration and log files are stored in the sourcedata folders.
+
+
+Details about the experiment
+----------------------------
+
+In the COFITAGE project, EEG data was collected from volunteers aged 50-70.
+
+The COFITAGE select healthy volunteers of age 50-70 years without any major deviation
+that could influence experiment. 
+
+Each subject is submitted to three tasks: 'Habituation Night' (HN), 'Base Line' (BL) and 'ECG'.
+
+Only some samples of 'Habituation Night' are presented in this dataset example, together with few 'Baseline' samples.
+
+
+Notes
+-----
+
+The events associated with data are stored in separate EDF+ file *_events.edf. This is not conform to BIDS, but accepted by EDF. An entry in .bidsignore was added to hide corresponding error
+
+All data edf files was truncated down to 5KB. Files will appear corrupted, but header and beginning of data is intact.
+
+Acknowledgements
+---------------
+
+We thank M. Blanpain, G. Besson, M. Cerasuolo, E. Lambot, G. Gaggioni, P. Ghaemmaghami, C. Hagelstein, S. Laloux, E. Balteau, A. Claes, C. Degueldre, B. Herbillon, P. Hawotte, and B. Lauricella for their help in different steps of the study.
+
+
+Funding
+-------
+
+Data collection was supported by Fondation Léon Fredericq (FLF), Fonds National de la Recherche Scientifique (FRS-FNRS, FRSM 3.4516.11, Belgium), Wallonia-Brussels Federation (grant for
+Concerted Research Actions) - ARC SLEEPDEM 17/27-09), University of Liège (ULiège), Fondation Simone et Pierre Clerdent, European Regional Development Fund (ERDF, Radiomed Project). 
+
+
+Authors
+-------
+
+Maxime Van Egroo[1] PhD, Justinas Narbutas[1,2] PhD, Daphne Chylinski[1] PhD, Pamela Villar González[1] PhD, Vincenzo Muto[1] PhD, Christina Schmidt[1,2] PhD, Eric Salmon[1,2,4] MD, PhD, Pierre Maquet[1,4] MD, PhD, Christophe Phillips[1,5] PhD, Christine Bastin[1,2] PhD, Fabienne Collette[1,2] PhD, Gilles Vandewalle[1] PhD
+
+[1] GIGA-Cyclotron Research Centre-In Vivo Imaging, University of Liège, Liège, Belgium
+[2] Psychology and Cognitive Neuroscience Research Unit, University of Liège, Liège, Belgium
+[3] Department of Clinical Chemistry, University Hospital of Liège, Liège, Belgium
+[4] Department of Neurology, University Hospital of Liège, Liège, Belgium
+[5] GIGA-In Silico Medicine, University of Liège, Liège, Belgium

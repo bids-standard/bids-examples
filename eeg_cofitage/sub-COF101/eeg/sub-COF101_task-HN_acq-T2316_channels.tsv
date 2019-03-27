@@ -1,0 +1,15 @@
+name	type	units	description	sampling_frequency	reference
+EKG	ECG	mV	EKG	200	n/a
+Right Leg	EMG	μV	EMG.Tibialis-Leg.Right	200	n/a
+Chin EMG	EMG	μV	EMG.Submental-Chin	200	n/a
+Left Leg	EMG	μV	EMG.Tibialis-Leg.Left	200	n/a
+REF	EEG	μV	EEG-REF	200	n/a
+E1	EOG	μV	EOG-E1	200	n/a
+E2	EOG	μV	EOG-E2	200	n/a
+M1	EEG	μV	EEG-M1	200	n/a
+C3	EEG	μV	EEG-C3	200	n/a
+M2	EEG	μV	EEG-M2	200	n/a
+Fz	EEG	μV	EEG-Fz	200	n/a
+Cz	EEG	μV	EEG-Cz	200	n/a
+Pz	EEG	μV	EEG-Pz	200	n/a
+Oz	EEG	μV	EEG-Oz	200	n/a

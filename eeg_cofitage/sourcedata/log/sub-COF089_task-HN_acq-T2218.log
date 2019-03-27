@@ -1,0 +1,67 @@
+[INFO   ]:03/27/2019 15:21:04:root Loading module COFITAGE_base from Plugins/COFITAGE_base.py
+[INFO   ]:03/27/2019 15:21:04:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:03/27/2019 15:21:04:root Starting new bidsifier
+[INFO   ]:03/27/2019 15:21:04:root <<<<<<<<<<<<<<<<<<<<<<
+[INFO   ]:03/27/2019 15:21:04:root File: /Storage/beliy/COFITAGE/Public/Emb/4e4d9236-09d2-4b9b-a0dd-652ff4bf60d5/
+[INFO   ]:03/27/2019 15:21:04:root Output: /Storage/beliy/COFITAGE/Public/BIDS/
+[INFO   ]:03/27/2019 15:21:04:root Detected embla format
+[INFO   ]:03/27/2019 15:21:04:COFITAGE_base Running RecordingEP
+[INFO   ]:03/27/2019 15:21:04:DataStructure.Generic.Record JSON File: /home/beliy/Works/COFITAGE/JSON/COF_HN.json
+[INFO   ]:03/27/2019 15:21:04:root Patient Id: COF089
+[INFO   ]:03/27/2019 15:21:04:root Session Id: 
+[INFO   ]:03/27/2019 15:21:04:root Task    Id: HN
+[INFO   ]:03/27/2019 15:21:04:root Acq     Id: T2218
+[INFO   ]:03/27/2019 15:21:04:root EEG will be saved in /Storage/beliy/COFITAGE/Public/BIDS/sub-COF089/eeg/
+[WARNING]:03/27/2019 15:21:04:tools.tools Found 6 files with pattern 'sub-COF089_task-HN_acq-T2218*'.
+[WARNING]:03/27/2019 15:21:04:tools.tools They will be removed.
+[WARNING]:03/27/2019 15:21:04:tools.tools Found 1 files with pattern 'sub-COF089_task-HN_acq-T2218.log'.
+[WARNING]:03/27/2019 15:21:04:tools.tools They will be removed.
+[WARNING]:03/27/2019 15:21:04:tools.tools Found 1 files with pattern 'sub-COF089_task-HN_acq-T2218.ini'.
+[WARNING]:03/27/2019 15:21:04:tools.tools They will be removed.
+[INFO   ]:03/27/2019 15:21:04:root Reading channels
+[INFO   ]:03/27/2019 15:21:06:COFITAGE_base Running ChannelsEP
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Flattening of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Light_BU of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Nasal Pressure of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Snoring Sensor of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Thorax of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Abdomen of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Gravity X of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Gravity Y of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Plethysmogram of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Pulse of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel RD-Quality of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel SpO2 of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel SpO2 BB of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Light_MD of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Heart Rate_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel SpO2-Quality_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Flow_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Snore_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Activity_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Elevation_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Position_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Phase_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel RMI_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel RR_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel XSum_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel Tidal Volume_DR of type MISC
+[WARNING]:03/27/2019 15:21:06:COFITAGE_base Dropping channel XFlow_DR of type MISC
+[INFO   ]:03/27/2019 15:21:06:root Duration: 8:14:33.092663
+[INFO   ]:03/27/2019 15:21:06:root Reading events info
+[INFO   ]:03/27/2019 15:21:10:root New duration: 8:14:33.092663
+[INFO   ]:03/27/2019 15:21:10:COFITAGE_base Running EventsEP
+[INFO   ]:03/27/2019 15:21:10:root Creating eeg.json file
+[INFO   ]:03/27/2019 15:21:10:root JSON: Missing next recomennded fields: ['CogAtlasID', 'CogPOID', 'InstitutionName', 'InstitutionAddress', 'InstitutionalDepartementName', 'HeadCircumference', 'TriggerChannelCount', 'EpochLenght']
+[INFO   ]:03/27/2019 15:21:10:root Creating channels.tsv file
+[INFO   ]:03/27/2019 15:21:10:tools.json Creating events.json file
+[INFO   ]:03/27/2019 15:21:10:root Creating events.tsv file
+[INFO   ]:03/27/2019 15:21:10:root Converting to EDF+ format
+[INFO   ]:03/27/2019 15:21:10:root Creating events.edf file
+[INFO   ]:03/27/2019 15:21:10:root Creating eeg.edf file
+[INFO   ]:03/27/2019 15:21:10:root Timepoint 1: Duration 6:28:30
+[INFO   ]:03/27/2019 15:21:31:root Timepoint 2: Duration 1:46:10
+[INFO   ]:03/27/2019 15:21:38:root Copying plugin file to code/
+[INFO   ]:03/27/2019 15:21:38:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:03/27/2019 15:21:38:root Took 32.705929172 seconds
+[INFO   ]:03/27/2019 15:21:38:root <<<<<<<<<<<<<<<<<<<<<<

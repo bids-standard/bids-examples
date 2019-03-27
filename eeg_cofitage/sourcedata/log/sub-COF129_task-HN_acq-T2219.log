@@ -1,0 +1,59 @@
+[INFO   ]:03/27/2019 15:23:12:root Loading module COFITAGE_base from Plugins/COFITAGE_base.py
+[INFO   ]:03/27/2019 15:23:12:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:03/27/2019 15:23:12:root Starting new bidsifier
+[INFO   ]:03/27/2019 15:23:12:root <<<<<<<<<<<<<<<<<<<<<<
+[INFO   ]:03/27/2019 15:23:12:root File: /Storage/beliy/COFITAGE/Public/Emb/8e5a43f0-8d2f-44d4-b689-122805fe9a1f/
+[INFO   ]:03/27/2019 15:23:12:root Output: /Storage/beliy/COFITAGE/Public/BIDS/
+[INFO   ]:03/27/2019 15:23:12:root Detected embla format
+[INFO   ]:03/27/2019 15:23:12:COFITAGE_base Running RecordingEP
+[INFO   ]:03/27/2019 15:23:12:DataStructure.Generic.Record JSON File: /home/beliy/Works/COFITAGE/JSON/COF_HN.json
+[INFO   ]:03/27/2019 15:23:12:root Patient Id: COF129
+[INFO   ]:03/27/2019 15:23:12:root Session Id: 
+[INFO   ]:03/27/2019 15:23:12:root Task    Id: HN
+[INFO   ]:03/27/2019 15:23:12:root Acq     Id: T2219
+[INFO   ]:03/27/2019 15:23:12:root EEG will be saved in /Storage/beliy/COFITAGE/Public/BIDS/sub-COF129/eeg/
+[INFO   ]:03/27/2019 15:23:12:tools.tools Creating directory /Storage/beliy/COFITAGE/Public/BIDS/sub-COF129/eeg/
+[WARNING]:03/27/2019 15:23:12:tools.tools Found 1 files with pattern 'sub-COF129_task-HN_acq-T2219.log'.
+[WARNING]:03/27/2019 15:23:12:tools.tools They will be removed.
+[WARNING]:03/27/2019 15:23:12:tools.tools Found 1 files with pattern 'sub-COF129_task-HN_acq-T2219.ini'.
+[WARNING]:03/27/2019 15:23:12:tools.tools They will be removed.
+[INFO   ]:03/27/2019 15:23:12:root Reading channels
+[INFO   ]:03/27/2019 15:23:12:COFITAGE_base Running ChannelsEP
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Flattening of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Light_BU of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Nasal Pressure of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Snoring Sensor of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Thorax of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Abdomen of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Gravity X of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Gravity Y of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Plethysmogram of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Pulse of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel RD-Quality of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel SpO2 of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel SpO2 BB of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Light_MD of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Heart Rate_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel SpO2-Quality_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Flow_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Snore_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Activity_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Elevation_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Position_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Phase_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel RMI_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel RR_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel XSum_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel Tidal Volume_DR of type MISC
+[WARNING]:03/27/2019 15:23:12:COFITAGE_base Dropping channel XFlow_DR of type MISC
+[INFO   ]:03/27/2019 15:23:12:root Duration: 8:39:29.446365
+[INFO   ]:03/27/2019 15:23:12:root Reading events info
+[INFO   ]:03/27/2019 15:23:18:root New duration: 8:39:29.446365
+[INFO   ]:03/27/2019 15:23:18:COFITAGE_base Running EventsEP
+[ERROR  ]:03/27/2019 15:23:18:COFITAGE_base Multiple LIGHTS events found
+[ERROR  ]:03/27/2019 15:23:18:root File "../eegBidsCreator//eegBidsCreator.py", line 510 in main:
+[ERROR  ]:03/27/2019 15:23:18:root Exception: Plugin EventsEP returned code 2
+[INFO   ]:03/27/2019 15:23:18:root Command: '../eegBidsCreator//eegBidsCreator.py' '-c' 'Configuration/EEGBIDS_COFITAGE.ini' '-o' '/Storage/beliy/COFITAGE/Public/BIDS/' '-q' '--logfile' '/Storage/beliy/COFITAGE/Public/Log//8e5a43f0-8d2f-44d4-b689-122805fe9a1f.log' '--log' 'INFO' '/Storage/beliy/COFITAGE/Public/Emb//8e5a43f0-8d2f-44d4-b689-122805fe9a1f/' '--conversion' 'EDF'
+[INFO   ]:03/27/2019 15:23:18:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:03/27/2019 15:23:18:root Took 6.960961347 seconds
+[INFO   ]:03/27/2019 15:23:18:root <<<<<<<<<<<<<<<<<<<<<<

@@ -1,0 +1,12 @@
+{
+  "responce_time":{
+    "Description":"Response time measured in seconds. A negative response time can be used to represent preemptive responses and \u201cn/a\u201d denotes a missed response.",
+    "Units":"second"
+  },
+  "value":{
+    "Description":"The event TTL trigger value (EEG Marker value) associated with an event "
+  },
+  "channels":{
+    "Description":"Comma separated list of channels triggering an event"
+  }
+}
