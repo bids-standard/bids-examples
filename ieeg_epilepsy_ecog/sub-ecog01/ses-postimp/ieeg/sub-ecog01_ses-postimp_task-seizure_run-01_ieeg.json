@@ -1,0 +1,13 @@
+{
+ "TaskName": "ccep",
+ "Manufacturer": "Micromed",
+ "TaskDescription": "Epoch starting around 40s before the first stimulus and ending 2-3s after the stimuli block",
+ "PowerLineFrequency": 50,
+ "SEEGChannelCount": 125,
+ "RecordingDuration": 80.28125,
+ "RecordingType": "continuous",
+ "iEEGReference": "n/a",
+ "SamplingFrequency": 1024,
+ "SoftwareFilters": "n/a",
+ "ElectricalStimulationParameters": "Electrodes stimulated = Ap01Ap02, Amplitude = 3mA, Frequency = 1Hz, Pulse width = 1000us"
+}
