@@ -1,0 +1,8 @@
+{
+ "iEEGCoordinateSystem": "MNI152Lin",
+ "iEEGCoordinateUnits": "mm",
+ "iEEGCoordinateSystemDescription": "SEEG contact coordinates in MNI152 normalized space",
+ "iEEGCoordinateProcessingDescription": "SEEG contacts manually placed with Brainstorm on the post-implanation T1 MRI, which was normalized with SPM12 function spm_maff8",
+ "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth",
+ "IntendedFor": "sub-ecog01/ses-postimp/anat/sub-ecog01_ses-postimp_T1w.nii.gz"
+}
