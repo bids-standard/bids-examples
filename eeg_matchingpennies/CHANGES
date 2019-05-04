@@ -26,3 +26,10 @@
     - general BEP_006 compliance
     - remove subject wise eeg.json sidecar files, these are covered
       by the eeg.json at the root via inheritance
+
+0.1.5 2019-05-04
+    - added the full license text in LICENSE and a .bidsignore file to make
+      the bids-validator accept this file
+    - Make adjustments to the License part in the README
+    - adjusted the BIDS version used to 1.2, because the EEG extension proposal
+      has been merged fully by now
