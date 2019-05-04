@@ -1,16 +1,65 @@
 [![Travis](https://api.travis-ci.org/bids-standard/bids-examples.svg?branch=master "Travis")](https://travis-ci.org/bids-standard/bids-examples)
 
-# BIDS-examples
-A set of BIDS compatible datasets with **empty raw data files** that can be used for writing lightweight software tests.
+# bids-examples
+
+This repository contains a set of BIDS compatible datasets with **empty raw
+data files**. These datasets can be useful to:
+
+1. write lightweight software tests
+1. serve as an example on how a BIDS dataset can be structured
 
 ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!
 
-- You can find full versions of most MRI datasets in this repository [here](https://drive.google.com/drive/u/0/folders/0B2JWN60ZLkgkMGlUY3B4MXZIZW8).
-- You can find the full version of mne_sample_data [here](https://drive.google.com/drive/folders/0B_sb8NJ9KsLUQ3BMS0dxZW5nSHM).
-- You can find the full version of ds000246 (Brainstorm auditory tutorial) [here](https://openneuro.org/datasets/ds000246/versions/00001).
-- You can find the full version of ieeg_epilepsy (Brainstorm epileptogenicity tutorial) [here](https://openneuro.org/datasets/ds001779).
-- You can find the full version of ieeg_epilepsy_ecog (Brainstorm ECoG tutorial) [here](https://openneuro.org/datasets/ds001868).
+To learn more about the Brain Imaging Data Structure (BIDS), visit
+http://bids.neuroimaging.io/
 
-To learn more about the Brain Imaging Data Structure (BIDS), visit http://bids.neuroimaging.io/
+If you want to contribute a dataset to the examples, we would be happy to
+accommodate it, as long as it exhibits some structure or particularity that is
+not covered by the already present examples so far.
 
-If you are looking for datasets with particular features, you can check out the documentation in the [WIKI](https://github.com/bids-standard/bids-examples/wiki/), which is sorted by imaging modalities.
+# Dataset index
+
+If you want to update this table, please open a new issue. For simple editing,
+this table is maintained in a [Google sheet](https://docs.google.com/spreadsheets/d/1d9KfmaKvTOpFWgi0Kd-tZGgVTsZk_4BHH9prcgFeigw/edit?usp=sharing), which is then converted to Markdown for this README file.
+
+|  name | description | mri | meg | eeg | ieeg | full data |
+| --- | --- | --- | --- | --- | --- | --- |
+|  7t_trt | field maps, physiological data, quantitative T1 maps, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds000117 | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | x | x | x |  | https://openneuro.org/datasets/ds000117/ |
+|  ds000246 | Auditory dataset used for Brainstorm’s general online tutorial | x | x |  |  | https://openneuro.org/datasets/ds000246/versions/00001 |
+|  ds000247 | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA). | x | x |  |  |  |
+|  ds000248 | MNE sample data: Data with visual and auditory stimuli | x | x |  |  | https://bit.ly/2JfNYkf |
+|  ds001 | single task, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds002 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds003 | single task, single run, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds005 | single task, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds006 | single task, multiple sessions, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds007 | single task, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds008 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds009 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds011 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds051 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds052 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds101 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds102 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds105 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds107 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds108 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds109 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds110 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds113b |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds114 | DWI, multiple tasks, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds116 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds210 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  eeg_cbm | Rest EEG. European Data Format (.edf) |  |  |  |  |  |
+|  eeg_ds000117 | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | x |  | x |  | https://openneuro.org/datasets/ds000117/ |
+|  eeg_matchingpennies | Offline data of BCI experiment decoding left vs. right hand movement. See Matching Pennies: A Brain Computer Interface Implementation Dataset for more information. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  | x |  | https://osf.io/cj2dr/ |
+|  eeg_rest_fmri | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  |  |  |  |
+|  eeg_rishikesh | Mind wandering experiment. EEG data in Biosemi (.bdf) format |  |  | x |  | https://zenodo.org/record/2536267 |
+|  hcp_example_bids |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ieeg_epilepsy |  |  |  |  | x | https://openneuro.org/datasets/ds001779 |
+|  ieeg_filtered_speech | recordings of three seizures |  |  |  | x |  |
+|  ieeg_motorMiller2007 | Cue-based hand & tongue movement data |  |  |  | x |  |
+|  ieeg_visual | Stimulus dependence of gamma oscillations in human visual cortex |  |  |  | x |  |
+|  ieeg_visual_multimodal |  |  |  |  | x |  |
+|  synthetic | A synthetic dataset |  |  |  |  |  |
