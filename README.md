@@ -29,19 +29,19 @@ corresponding Pull Request.
 
 |  name | description | mri | meg | eeg | ieeg | full data |
 | --- | --- | --- | --- | --- | --- | --- |
-|  7t_trt | field maps, physiological data, quantitative T1 maps, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds000117 | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | x | x | x |  | https://openneuro.org/datasets/ds000117/ |
-|  ds000246 | Auditory dataset used for Brainstorm’s general online tutorial | x | x |  |  | https://openneuro.org/datasets/ds000246/versions/00001 |
-|  ds000247 | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA). | x | x |  |  |  |
-|  ds000248 | MNE sample data: Data with visual and auditory stimuli | x | x |  |  | https://bit.ly/2JfNYkf |
-|  ds001 | single task, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds002 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds003 | single task, single run, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds005 | single task, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds006 | single task, multiple sessions, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds007 | single task, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds008 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds009 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  7t_trt | field maps, physiological data, quantitative T1 maps, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds000117 | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | mri | meg | eeg |  | https://openneuro.org/datasets/ds000117/ |
+|  ds000246 | Auditory dataset used for Brainstorm’s general online tutorial | mri | meg |  |  | https://openneuro.org/datasets/ds000246/versions/00001 |
+|  ds000247 | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA). | mri | meg |  |  |  |
+|  ds000248 | MNE sample data: Data with visual and auditory stimuli | mri | meg |  |  | https://bit.ly/2JfNYkf |
+|  ds001 | single task, multiple runs, in-plane T2, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds002 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds003 | single task, single run, in-plane T2, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds005 | single task, multiple runs, in-plane T2, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds006 | single task, multiple sessions, multiple runs, in-plane T2, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds007 | single task, multiple runs, in-plane T2, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds008 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds009 | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ds011 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ds051 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ds052 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
@@ -53,18 +53,19 @@ corresponding Pull Request.
 |  ds109 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ds110 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ds113b |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ds114 | DWI, multiple tasks, events, T1w, BOLD | x |  |  |  | https://bit.ly/2H0Z6Qt |
+|  ds114 | DWI, multiple tasks, events, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ds116 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ds210 |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  eeg_cbm | Rest EEG. European Data Format (.edf) |  |  |  |  |  |
-|  eeg_ds000117 | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | x |  | x |  | https://openneuro.org/datasets/ds000117/ |
-|  eeg_matchingpennies | Offline data of BCI experiment decoding left vs. right hand movement. See Matching Pennies: A Brain Computer Interface Implementation Dataset for more information. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  | x |  | https://osf.io/cj2dr/ |
-|  eeg_rest_fmri | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  |  |  |  |
-|  eeg_rishikesh | Mind wandering experiment. EEG data in Biosemi (.bdf) format |  |  | x |  | https://zenodo.org/record/2536267 |
+|  eeg_ds000117 | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | mri |  | eeg |  | https://openneuro.org/datasets/ds000117/ |
+|  eeg_matchingpennies | Offline data of BCI experiment decoding left vs. right hand movement. See Matching Pennies: A Brain Computer Interface Implementation Dataset for more information. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  | eeg |  | https://osf.io/cj2dr/ |
+|  eeg_rest_fmri | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  | eeg |  |  |
+|  eeg_rishikesh | Mind wandering experiment. EEG data in Biosemi (.bdf) format |  |  | eeg |  | https://zenodo.org/record/2536267 |
 |  hcp_example_bids |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ieeg_epilepsy |  |  |  |  | x | https://openneuro.org/datasets/ds001779 |
-|  ieeg_filtered_speech | recordings of three seizures |  |  |  | x |  |
-|  ieeg_motorMiller2007 | Cue-based hand & tongue movement data |  |  |  | x |  |
-|  ieeg_visual | Stimulus dependence of gamma oscillations in human visual cortex |  |  |  | x |  |
-|  ieeg_visual_multimodal |  |  |  |  | x |  |
+|  ieeg_epilepsy |  |  |  |  | ieeg | https://openneuro.org/datasets/ds001779 |
+|  ieeg_epilepsy_ecog |  |  |  |  | ieeg | https://openneuro.org/datasets/ds001868 |
+|  ieeg_filtered_speech | recordings of three seizures |  |  |  | ieeg |  |
+|  ieeg_motorMiller2007 | Cue-based hand & tongue movement data |  |  |  | ieeg |  |
+|  ieeg_visual | Stimulus dependence of gamma oscillations in human visual cortex |  |  |  | ieeg |  |
+|  ieeg_visual_multimodal |  |  |  |  | ieeg |  |
 |  synthetic | A synthetic dataset |  |  |  |  |  |
