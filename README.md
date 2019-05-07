@@ -2,25 +2,30 @@
 
 # bids-examples
 
-This repository contains a set of BIDS compatible datasets with **empty raw
-data files**. These datasets can be useful to:
+This repository contains a set of [BIDS-compatible](http://bids.neuroimaging.io/)
+datasets with **empty raw data files**. These datasets can be useful to:
 
 1. write lightweight software tests
 1. serve as an example on how a BIDS dataset can be structured
 
 ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!
 
-To learn more about the Brain Imaging Data Structure (BIDS), visit
-http://bids.neuroimaging.io/
+However for some of the data, the headers containing the metadata are still
+intact. This is true for the following datasets:
+
+- `synthetic`
+- Most EEG or iEEG data in BrainVision format (e.g., `eeg_matchingpennies`)
+
+# Contributing
 
 If you want to contribute a dataset to the examples, we would be happy to
 accommodate it, as long as it exhibits some structure or particularity that is
-not covered by the already present examples so far.
+not covered by the examples that are already present so far.
 
 # Dataset index
 
-If you want to update this table, please open a new issue. For simple editing,
-this table is maintained in a [Google sheet](https://docs.google.com/spreadsheets/d/1d9KfmaKvTOpFWgi0Kd-tZGgVTsZk_4BHH9prcgFeigw/edit?usp=sharing), which is then converted to Markdown for this README file.
+If you want to update this table, please open a new GitHub Issue and a
+corresponding Pull Request.
 
 |  name | description | mri | meg | eeg | ieeg | full data |
 | --- | --- | --- | --- | --- | --- | --- |
