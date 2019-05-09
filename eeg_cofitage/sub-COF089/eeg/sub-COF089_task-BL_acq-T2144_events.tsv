@@ -1,20 +1,20 @@
-onset	duration	trial_type	responce_time	value	channels
-0.520	2.30	New Segment	n/a	n/a	Cz,
-2.920	0.00	IMPEDANCE-START	n/a	n/a	Chin EMG,REF,E1,E2,M1,C3,C4,M2,O1,O2,F3,Fz,F4,Cz,P3,Pz,P4,
-62.946	0.00	IMPEDANCE-PASSED	n/a	n/a	Chin EMG,REF,E1,M1,C3,C4,M2,O1,O2,F3,Fz,F4,Cz,P3,Pz,P4,
-62.946	0.00	IMPEDANCE-REFERENCE	n/a	n/a	E2,
-62.980	32.60	New Segment	n/a	n/a	Cz,
-95.701	0.00	IMPEDANCE-START	n/a	n/a	Chin EMG,REF,E1,E2,M1,C3,C4,M2,O1,O2,F3,Fz,F4,Cz,P3,Pz,P4,
-125.734	0.00	IMPEDANCE-PASSED	n/a	n/a	Chin EMG,REF,E2,M1,C3,C4,M2,O1,O2,F3,Fz,F4,Cz,P3,Pz,P4,
-125.734	0.00	IMPEDANCE-REFERENCE	n/a	n/a	E1,
-125.780	279.00	New Segment	n/a	n/a	Cz,
-404.875	0.00	IMPEDANCE-START	n/a	n/a	Chin EMG,REF,E1,E2,M1,C3,C4,M2,O1,O2,F3,Fz,F4,Cz,P3,Pz,P4,
-464.894	0.00	IMPEDANCE-PASSED	n/a	n/a	Chin EMG,REF,E1,M1,C3,C4,M2,O1,O2,F3,Fz,F4,Cz,P3,Pz,P4,
-464.894	0.00	IMPEDANCE-REFERENCE	n/a	n/a	E2,
-464.940	361.30	New Segment	n/a	n/a	Cz,
-826.391	0.00	IMPEDANCE-START	n/a	n/a	Chin EMG,REF,E1,E2,M1,C3,C4,M2,O1,O2,F3,Fz,F4,Cz,P3,Pz,P4,
-856.444	0.00	IMPEDANCE-PASSED	n/a	n/a	Chin EMG,E1,E2,M1,C3,C4,M2,O1,O2,F3,Fz,F4,Cz,P3,Pz,P4,
-856.444	0.00	IMPEDANCE-REFERENCE	n/a	n/a	REF,
-856.490	22861.30	New Segment	n/a	n/a	Cz,
-955.253	0.00	LIGHTS-OFF	n/a	n/a	C3,
-23636.610	0.00	LIGHTS-ON	n/a	n/a	C3,
+onset	duration	trial_type	value	channels
+0.52	2.3	New Segment	n/a	['EEG_Cz']
+2.92	0.0	IMPEDANCE-START	n/a	['EMG.Submental_Chin', 'EEG_REF', 'EOG_E1', 'EOG_E2', 'EEG_M1', 'EEG_C3', 'EEG_C4', 'EEG_M2', 'EEG_O1', 'EEG_O2', 'EEG_F3', 'EEG_Fz', 'EEG_F4', 'EEG_Cz', 'EEG_P3', 'EEG_Pz', 'EEG_P4']
+62.946	0.0	IMPEDANCE-PASSED	n/a	['EMG.Submental_Chin', 'EEG_REF', 'EOG_E1', 'EEG_M1', 'EEG_C3', 'EEG_C4', 'EEG_M2', 'EEG_O1', 'EEG_O2', 'EEG_F3', 'EEG_Fz', 'EEG_F4', 'EEG_Cz', 'EEG_P3', 'EEG_Pz', 'EEG_P4']
+62.946	0.0	IMPEDANCE-REFERENCE	n/a	['EOG_E2']
+62.98	32.6	New Segment	n/a	['EEG_Cz']
+95.701	0.0	IMPEDANCE-START	n/a	['EMG.Submental_Chin', 'EEG_REF', 'EOG_E1', 'EOG_E2', 'EEG_M1', 'EEG_C3', 'EEG_C4', 'EEG_M2', 'EEG_O1', 'EEG_O2', 'EEG_F3', 'EEG_Fz', 'EEG_F4', 'EEG_Cz', 'EEG_P3', 'EEG_Pz', 'EEG_P4']
+125.734	0.0	IMPEDANCE-PASSED	n/a	['EMG.Submental_Chin', 'EEG_REF', 'EOG_E2', 'EEG_M1', 'EEG_C3', 'EEG_C4', 'EEG_M2', 'EEG_O1', 'EEG_O2', 'EEG_F3', 'EEG_Fz', 'EEG_F4', 'EEG_Cz', 'EEG_P3', 'EEG_Pz', 'EEG_P4']
+125.734	0.0	IMPEDANCE-REFERENCE	n/a	['EOG_E1']
+125.78	279.0	New Segment	n/a	['EEG_Cz']
+404.875296	0.0	IMPEDANCE-START	n/a	['EMG.Submental_Chin', 'EEG_REF', 'EOG_E1', 'EOG_E2', 'EEG_M1', 'EEG_C3', 'EEG_C4', 'EEG_M2', 'EEG_O1', 'EEG_O2', 'EEG_F3', 'EEG_Fz', 'EEG_F4', 'EEG_Cz', 'EEG_P3', 'EEG_Pz', 'EEG_P4']
+464.893692	0.0	IMPEDANCE-PASSED	n/a	['EMG.Submental_Chin', 'EEG_REF', 'EOG_E1', 'EEG_M1', 'EEG_C3', 'EEG_C4', 'EEG_M2', 'EEG_O1', 'EEG_O2', 'EEG_F3', 'EEG_Fz', 'EEG_F4', 'EEG_Cz', 'EEG_P3', 'EEG_Pz', 'EEG_P4']
+464.893692	0.0	IMPEDANCE-REFERENCE	n/a	['EOG_E2']
+464.94	361.3	New Segment	n/a	['EEG_Cz']
+826.391334	0.0	IMPEDANCE-START	n/a	['EMG.Submental_Chin', 'EEG_REF', 'EOG_E1', 'EOG_E2', 'EEG_M1', 'EEG_C3', 'EEG_C4', 'EEG_M2', 'EEG_O1', 'EEG_O2', 'EEG_F3', 'EEG_Fz', 'EEG_F4', 'EEG_Cz', 'EEG_P3', 'EEG_Pz', 'EEG_P4']
+856.444255	0.0	IMPEDANCE-PASSED	n/a	['EMG.Submental_Chin', 'EOG_E1', 'EOG_E2', 'EEG_M1', 'EEG_C3', 'EEG_C4', 'EEG_M2', 'EEG_O1', 'EEG_O2', 'EEG_F3', 'EEG_Fz', 'EEG_F4', 'EEG_Cz', 'EEG_P3', 'EEG_Pz', 'EEG_P4']
+856.444255	0.0	IMPEDANCE-REFERENCE	n/a	['EEG_REF']
+856.49	22861.3	New Segment	n/a	['EEG_Cz']
+955.252567	0.0	LIGHTS-OFF	n/a	['EEG_C3']
+23636.609684	0.0	LIGHTS-ON	n/a	['EEG_C3']

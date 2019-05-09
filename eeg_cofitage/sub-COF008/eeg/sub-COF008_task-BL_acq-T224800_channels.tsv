@@ -1,19 +1,19 @@
-name	type	units	description	sampling_frequency	reference
-EKG	ECG	μV	EKG	200	n/a
-Chin EMG	EMG	μV	EMG.Submental-Chin	200	n/a
-REF	EEG	μV	EEG-REF	200	n/a
-E1	EOG	μV	EOG-E1	200	n/a
-E2	EOG	μV	EOG-E2	200	n/a
-M1	EEG	μV	EEG-M1	200	n/a
-C3	EEG	μV	EEG-C3	200	n/a
-C4	EEG	μV	EEG-C4	200	n/a
-M2	EEG	μV	EEG-M2	200	n/a
-O1	EEG	μV	EEG-O1	200	n/a
-O2	EEG	μV	EEG-O2	200	n/a
-F3	EEG	μV	EEG-F3	200	n/a
-Fz	EEG	μV	EEG-Fz	200	n/a
-F4	EEG	μV	EEG-F4	200	n/a
-Cz	EEG	μV	EEG-Cz	200	n/a
-P3	EEG	μV	EEG-P3	200	n/a
-Pz	EEG	μV	EEG-Pz	200	n/a
-P4	EEG	μV	EEG-P4	200	n/a
+name	type	units	description	sampling_frequency
+EKG	ECG	µV	EKG	200
+Chin EMG	EMG	µV	EMG.Submental-Chin	200
+REF	EEG	µV	EEG-REF	200
+E1	EOG	µV	EOG-E1	200
+E2	EOG	µV	EOG-E2	200
+M1	EEG	µV	EEG-M1	200
+C3	EEG	µV	EEG-C3	200
+C4	EEG	µV	EEG-C4	200
+M2	EEG	µV	EEG-M2	200
+O1	EEG	µV	EEG-O1	200
+O2	EEG	µV	EEG-O2	200
+F3	EEG	µV	EEG-F3	200
+Fz	EEG	µV	EEG-Fz	200
+F4	EEG	µV	EEG-F4	200
+Cz	EEG	µV	EEG-Cz	200
+P3	EEG	µV	EEG-P3	200
+Pz	EEG	µV	EEG-Pz	200
+P4	EEG	µV	EEG-P4	200

@@ -1,4 +1,8 @@
 {
+  "participant_id":{
+    "LongName":"Participant Id",
+    "Description":"label identifying a particular subject"
+  },
   "age":{
     "LongName":"Age",
     "Description":"Age of a subject",
@@ -6,9 +10,8 @@
   },
   "sex":{
     "LongName":"Sex",
-    "Description":"Sex of a subject",
+    "Description":"Gender of a subject",
     "Levels":{
-      "n/a":"Not available",
       "F":"Female",
       "M":"Male"
     }

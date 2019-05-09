@@ -1,0 +1,10 @@
+{
+  "filename":{
+    "LongName":"File Name",
+    "Description":"Path to the scan file"
+  },
+  "acq_time":{
+    "LongName":"Acquisition time",
+    "Description":"Time corresponding to the first data taken during the scan"
+  }
+}

@@ -19,11 +19,11 @@ BIDS dataset example.
 Format
 ------
 
-It is formatted according to BIDS version 1.2.0 and the BIDS standard extension
-for EEG (BEP006). The full description of the standard and extension which can be found here:
-https://bids-specification.readthedocs.io/en/latest/
+It is formatted according to BIDS version 1.2.0. The full description of the standard which can be 
+found here: https://bids-specification.readthedocs.io/en/stable/
 
-This dataset is originally created in Embla 3.4 format. It is converted to EDF+ and applied to BIDS standard by a private tool. The configuration and log files are stored in the sourcedata folders.
+This dataset is originally created in Embla 3.4 format. It is converted to EDF+ and applied to BIDS 
+standard by a private tool. The configuration and log files are stored in the sourcedata folders.
 
 
 Details about the experiment
@@ -36,33 +36,40 @@ that could influence experiment.
 
 Each subject is submitted to three tasks: 'Habituation Night' (HN), 'Base Line' (BL) and 'ECG'.
 
-Only some samples of 'Habituation Night' are presented in this dataset example, together with few 'Baseline' samples.
+Only some samples of 'Habituation Night' are presented in this dataset example, together with few 
+'Baseline' samples.
 
 
 Notes
 -----
 
-The events associated with data are stored in separate EDF+ file *_events.edf. This is not conform to BIDS, but accepted by EDF. An entry in .bidsignore was added to hide corresponding error
+The events associated with data are stored in separate EDF+ file *_events.edf. This is not conform 
+to BIDS, but accepted by EDF. An entry in .bidsignore was added to hide corresponding error
 
-All data edf files was truncated down to 5KB. Files will appear corrupted, but header and beginning of data is intact.
 
-Acknowledgements
+Acknowledgments
 ---------------
 
-We thank M. Blanpain, G. Besson, M. Cerasuolo, E. Lambot, G. Gaggioni, P. Ghaemmaghami, C. Hagelstein, S. Laloux, E. Balteau, A. Claes, C. Degueldre, B. Herbillon, P. Hawotte, and B. Lauricella for their help in different steps of the study.
+We thank M. Blanpain, G. Besson, M. Cerasuolo, E. Lambot, G. Gaggioni, P. Ghaemmaghami, C. Hagelstein, 
+S. Laloux, E. Balteau, A. Claes, C. Degueldre, B. Herbillon, P. Hawotte, and B. Lauricella for their 
+help in different steps of the study.
 
 
 Funding
 -------
 
-Data collection was supported by Fondation Léon Fredericq (FLF), Fonds National de la Recherche Scientifique (FRS-FNRS, FRSM 3.4516.11, Belgium), Wallonia-Brussels Federation (grant for
-Concerted Research Actions) - ARC SLEEPDEM 17/27-09), University of Liège (ULiège), Fondation Simone et Pierre Clerdent, European Regional Development Fund (ERDF, Radiomed Project). 
+Data collection was supported by Fondation Léon Fredericq (FLF), Fonds National de la Recherche Scientifique 
+(FRS-FNRS, FRSM 3.4516.11, Belgium), Wallonia-Brussels Federation 
+(grant for Concerted Research Actions) - ARC SLEEPDEM 17/27-09), University of Liège (ULiège), Fondation Simone 
+et Pierre Clerdent, European Regional Development Fund (ERDF, Radiomed Project). 
 
 
 Authors
 -------
 
-Maxime Van Egroo[1] PhD, Justinas Narbutas[1,2] PhD, Daphne Chylinski[1] PhD, Pamela Villar González[1] PhD, Vincenzo Muto[1] PhD, Christina Schmidt[1,2] PhD, Eric Salmon[1,2,4] MD, PhD, Pierre Maquet[1,4] MD, PhD, Christophe Phillips[1,5] PhD, Christine Bastin[1,2] PhD, Fabienne Collette[1,2] PhD, Gilles Vandewalle[1] PhD
+Maxime Van Egroo[1] PhD, Justinas Narbutas[1,2] PhD, Daphne Chylinski[1] PhD, Pamela Villar González[1] PhD, 
+Vincenzo Muto[1] PhD, Christina Schmidt[1,2] PhD, Eric Salmon[1,2,4] MD, PhD, Pierre Maquet[1,4] MD, PhD, 
+Christophe Phillips[1,5] PhD, Christine Bastin[1,2] PhD, Fabienne Collette[1,2] PhD, Gilles Vandewalle[1] PhD
 
 [1] GIGA-Cyclotron Research Centre-In Vivo Imaging, University of Liège, Liège, Belgium
 [2] Psychology and Cognitive Neuroscience Research Unit, University of Liège, Liège, Belgium

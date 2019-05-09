@@ -1,0 +1,23 @@
+{
+  "name":{
+    "LongName":"Channel name",
+    "Description":"Channel name (e.g., FC1, Cz)"
+  },
+  "type":{
+    "LongName":"Type of channel",
+    "Description":"Type of channel; must be one of the type listed there: \nhttps://bids-specification.readthedocs.io/en/latest/04-modality-specific-files/03-electroencephalography.html"
+  },
+  "units":{
+    "LongName":"Measurement units",
+    "Description":"Physical unit of the data values recorded by this channel in SI units (see Appendix V: Units for allowed symbols of BIDS):\nhttps://bids-specification.readthedocs.io/en/latest/99-appendices/05-units.html"
+  },
+  "description":{
+    "LongName":"Description of channel",
+    "Description":"Free-form text description of the channel, or other information of interest. Here original channel name and type."
+  },
+  "sampling_frequency":{
+    "LongName":"Channel's sampling frequency",
+    "Description":"Sampling rate of the channel in Hz.",
+    "Units":"Hz"
+  }
+}

@@ -1,0 +1,40 @@
+Brain Vision Data Exchange Header File Version 1.0
+
+[Common Infos]
+DataFile=sub-COF125_task-HN_acq-T2257_eeg.eeg
+MarkerFile=sub-COF125_task-HN_acq-T2257_eeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+DataType=TIMEDOMAIN
+NumberOfChannels=14
+SamplingInterval=5000.0
+Averaged=NO
+AveragedSegments=0
+SegmentDataPoints=0
+SegmentationType=NOTSEGMENTED
+DataPoints=0
+CodePage=UTF-8
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+ChannelOffset=0
+DataOffset=0
+SegmentHeaderSize=0
+TrailerSize=0
+UseBigEndianOrder=NO
+
+[Channel Infos]
+Ch1=EKG,,0.00012207403790398877,mV,EKG-
+Ch2=Right Leg,,0.09181646168401136,µV,EMG.Tibialis-Leg.Right
+Ch3=Chin EMG,,0.09181646168401136,µV,EMG.Submental-Chin
+Ch4=Left Leg,,0.09181646168401136,µV,EMG.Tibialis-Leg.Left
+Ch5=REF,,0.03067506942960906,µV,EEG-REF
+Ch6=E1,,0.0920249031037324,µV,EOG-E1
+Ch7=E2,,0.0920249031037324,µV,EOG-E2
+Ch8=M1,,0.03067506942960906,µV,EEG-M1
+Ch9=C3,,0.03067506942960906,µV,EEG-C3
+Ch10=M2,,0.03067506942960906,µV,EEG-M2
+Ch11=Fz,,0.03067506942960906,µV,EEG-Fz
+Ch12=Cz,,0.03067506942960906,µV,EEG-Cz
+Ch13=Pz,,0.03067506942960906,µV,EEG-Pz
+Ch14=Oz,,0.03067506942960906,µV,EEG-Oz

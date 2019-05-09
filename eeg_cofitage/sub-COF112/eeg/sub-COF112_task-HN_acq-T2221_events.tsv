@@ -1,10 +1,10 @@
-onset	duration	trial_type	responce_time	value	channels
-2.230	2.20	New Segment	n/a	n/a	Cz,
-4.500	0.00	IMPEDANCE-START	n/a	n/a	EKG,Right Leg,Chin EMG,Left Leg,REF,E1,E2,M1,C3,M2,Fz,Cz,Pz,Oz,
-64.560	0.00	IMPEDANCE-PASSED	n/a	n/a	EKG,Right Leg,Chin EMG,Left Leg,REF,E1,E2,C3,M2,Fz,Cz,Pz,Oz,
-64.560	0.00	IMPEDANCE-REFERENCE	n/a	n/a	M1,
-64.610	3110.65	New Segment	n/a	n/a	Cz,
-582.053	0.00	LIGHTS-OFF	n/a	n/a	C3,
-3326.650	1.07	New Segment	n/a	n/a	Cz,
-3328.210	26189.70	New Segment	n/a	n/a	Cz,
-29395.316	0.00	LIGHTS-ON	n/a	n/a	C3,
+onset	duration	trial_type	value	channels
+2.23	2.2	New Segment	n/a	['EEG_Cz']
+4.5	0.0	IMPEDANCE-START	n/a	['EKG_', 'EMG.Tibialis_Leg.Right', 'EMG.Submental_Chin', 'EMG.Tibialis_Leg.Left', 'EEG_REF', 'EOG_E1', 'EOG_E2', 'EEG_M1', 'EEG_C3', 'EEG_M2', 'EEG_Fz', 'EEG_Cz', 'EEG_Pz', 'EEG_Oz']
+64.56	0.0	IMPEDANCE-PASSED	n/a	['EKG_', 'EMG.Tibialis_Leg.Right', 'EMG.Submental_Chin', 'EMG.Tibialis_Leg.Left', 'EEG_REF', 'EOG_E1', 'EOG_E2', 'EEG_C3', 'EEG_M2', 'EEG_Fz', 'EEG_Cz', 'EEG_Pz', 'EEG_Oz']
+64.56	0.0	IMPEDANCE-REFERENCE	n/a	['EEG_M1']
+64.61	3110.65	New Segment	n/a	['EEG_Cz']
+582.05319	0.0	LIGHTS-OFF	n/a	['EEG_C3']
+3326.65	1.075	New Segment	n/a	['EEG_Cz']
+3328.21	26189.7	New Segment	n/a	['EEG_Cz']
+29395.315949	0.0	LIGHTS-ON	n/a	['EEG_C3']

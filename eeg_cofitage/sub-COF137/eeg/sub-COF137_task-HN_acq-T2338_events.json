@@ -1,12 +1,19 @@
 {
-  "responce_time":{
-    "Description":"Response time measured in seconds. A negative response time can be used to represent preemptive responses and \u201cn/a\u201d denotes a missed response.",
-    "Units":"second"
+  "onset":{
+    "Description":"Onset (in seconds) of the event measured from the beginning of the acquisition of the first volume in the corresponding task imaging data file. If any acquired scans have been discarded before forming the imaging data file, ensure that a time of 0 corresponds to the first image stored.",
+    "Units":"s"
+  },
+  "duration":{
+    "Description":"Duration of the event (measured from onset) in seconds. Must always be either zero or positive. A \"duration\" value of zero implies that the delta function or event is so short as to be effectively modeled as an impulse.",
+    "Units":"s"
+  },
+  "trial_type":{
+    "Description":"Primary categorisation of each trial to identify them as instances of the experimental conditions. For example: for a response inhibition task, it could take on values \"go\" and \"no-go\" to refer to response initiation and response inhibition experimental conditions."
   },
   "value":{
-    "Description":"The event TTL trigger value (EEG Marker value) associated with an event "
+    "Description":"Marker value associated with the event (e.g., the value of a TTL trigger that was recorded at the onset of the event)."
   },
   "channels":{
-    "Description":"Comma separated list of channels triggering an event"
+    "Description":"List of channels names that are associated with this event"
   }
 }

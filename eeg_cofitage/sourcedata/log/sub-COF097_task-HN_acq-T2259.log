@@ -1,61 +1,60 @@
-[INFO   ]:03/27/2019 15:25:08:root Loading module COFITAGE_base from Plugins/COFITAGE_base.py
-[INFO   ]:03/27/2019 15:25:08:root >>>>>>>>>>>>>>>>>>>>>>
-[INFO   ]:03/27/2019 15:25:08:root Starting new bidsifier
-[INFO   ]:03/27/2019 15:25:08:root <<<<<<<<<<<<<<<<<<<<<<
-[INFO   ]:03/27/2019 15:25:08:root File: /Storage/beliy/COFITAGE/Public/Emb/fb08f4ac-4af7-4561-976d-2257d486f67a/
-[INFO   ]:03/27/2019 15:25:08:root Output: /Storage/beliy/COFITAGE/Public/BIDS/
-[INFO   ]:03/27/2019 15:25:08:root Detected embla format
-[INFO   ]:03/27/2019 15:25:08:COFITAGE_base Running RecordingEP
-[INFO   ]:03/27/2019 15:25:08:DataStructure.Generic.Record JSON File: /home/beliy/Works/COFITAGE/JSON/COF_HN.json
-[INFO   ]:03/27/2019 15:25:08:root Patient Id: COF097
-[INFO   ]:03/27/2019 15:25:08:root Session Id: 
-[INFO   ]:03/27/2019 15:25:08:root Task    Id: HN
-[INFO   ]:03/27/2019 15:25:08:root Acq     Id: T2259
-[INFO   ]:03/27/2019 15:25:08:root EEG will be saved in /Storage/beliy/COFITAGE/Public/BIDS/sub-COF097/eeg/
-[INFO   ]:03/27/2019 15:25:08:tools.tools Creating directory /Storage/beliy/COFITAGE/Public/BIDS/sub-COF097/eeg/
-[WARNING]:03/27/2019 15:25:08:tools.tools Found 1 files with pattern 'sub-COF097_task-HN_acq-T2259.log'.
-[WARNING]:03/27/2019 15:25:08:tools.tools They will be removed.
-[WARNING]:03/27/2019 15:25:08:tools.tools Found 1 files with pattern 'sub-COF097_task-HN_acq-T2259.ini'.
-[WARNING]:03/27/2019 15:25:08:tools.tools They will be removed.
-[INFO   ]:03/27/2019 15:25:08:root Reading channels
-[INFO   ]:03/27/2019 15:25:08:COFITAGE_base Running ChannelsEP
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Heart Rate Variability of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Flattening of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel R-R Intervals of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Heart Rate_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Light_BU of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Nasal Pressure of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Snoring Sensor of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Thorax of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Abdomen of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Gravity X of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Gravity Y of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Plethysmogram of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Pulse of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel RD-Quality of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel SpO2 of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel SpO2 BB of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Light_MD of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel SpO2-Quality_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Flow_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Snore_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Activity_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Elevation_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Position_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Phase_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel RMI_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel RR_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel XSum_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel Tidal Volume_DR of type MISC
-[WARNING]:03/27/2019 15:25:08:COFITAGE_base Dropping channel XFlow_DR of type MISC
-[INFO   ]:03/27/2019 15:25:08:root Duration: 7:31:06.451013
-[INFO   ]:03/27/2019 15:25:08:root Reading events info
-[INFO   ]:03/27/2019 15:25:20:root New duration: 7:31:06.451013
-[INFO   ]:03/27/2019 15:25:20:COFITAGE_base Running EventsEP
-[ERROR  ]:03/27/2019 15:25:20:COFITAGE_base Multiple LIGHTS events found
-[ERROR  ]:03/27/2019 15:25:20:root File "../eegBidsCreator//eegBidsCreator.py", line 510 in main:
-[ERROR  ]:03/27/2019 15:25:20:root Exception: Plugin EventsEP returned code 2
-[INFO   ]:03/27/2019 15:25:20:root Command: '../eegBidsCreator//eegBidsCreator.py' '-c' 'Configuration/EEGBIDS_COFITAGE.ini' '-o' '/Storage/beliy/COFITAGE/Public/BIDS/' '-q' '--logfile' '/Storage/beliy/COFITAGE/Public/Log//fb08f4ac-4af7-4561-976d-2257d486f67a.log' '--log' 'INFO' '/Storage/beliy/COFITAGE/Public/Emb//fb08f4ac-4af7-4561-976d-2257d486f67a/' '--conversion' 'EDF'
-[INFO   ]:03/27/2019 15:25:20:root >>>>>>>>>>>>>>>>>>>>>>
-[INFO   ]:03/27/2019 15:25:20:root Took 12.433609934 seconds
-[INFO   ]:03/27/2019 15:25:20:root <<<<<<<<<<<<<<<<<<<<<<
+[INFO   ]:05/09/2019 11:26:47:root Loading module COFITAGE_base from Plugins/COFITAGE_base.py
+[INFO   ]:05/09/2019 11:26:47:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:05/09/2019 11:26:47:root Starting new bidsifier
+[INFO   ]:05/09/2019 11:26:47:root <<<<<<<<<<<<<<<<<<<<<<
+[INFO   ]:05/09/2019 11:26:47:root File: /Storage/beliy/COFITAGE/Public/Emb/fb08f4ac-4af7-4561-976d-2257d486f67a/
+[INFO   ]:05/09/2019 11:26:47:DataStructure.Embla.Record Detected Embla format
+[INFO   ]:05/09/2019 11:26:47:DataStructure.Generic.Record Output will be found at '/Storage/beliy/COFITAGE/Public/bids-examples/eeg_cofitage'
+[WARNING]:05/09/2019 11:26:47:DataStructure.BIDS.BIDS subject label 'COF097_HN_120418_225700' contains illegal characters. Dataset will not be BIDS coplient
+[INFO   ]:05/09/2019 11:26:47:COFITAGE_base Running RecordingEP
+[INFO   ]:05/09/2019 11:26:47:DataStructure.Generic.Record JSON File: /home/beliy/Works/COFITAGE/JSON/COF_HN.json
+[INFO   ]:05/09/2019 11:26:47:root Patient Id: COF097
+[INFO   ]:05/09/2019 11:26:47:root Session Id: 
+[INFO   ]:05/09/2019 11:26:47:root Task    Id: HN
+[INFO   ]:05/09/2019 11:26:47:root Acq     Id: T2259
+[INFO   ]:05/09/2019 11:26:47:DataStructure.BIDS.BIDS ID locked. Inner directory is 'sub-COF097//'
+[INFO   ]:05/09/2019 11:26:47:tools.tools Creating directory /Storage/beliy/COFITAGE/Public/bids-examples/eeg_cofitage/sub-COF097/eeg/
+[INFO   ]:05/09/2019 11:26:47:root Reading channels
+[WARNING]:05/09/2019 11:26:47:EmblaChannel Channel uses calibration function '(1/0.1583712)*x'. Actually only linear calibrations are supported. If function is not linear, retrieved values will be incorrect.
+[WARNING]:05/09/2019 11:26:47:EmblaChannel Channel uses calibration function '(1/0.1583712)*x'. Actually only linear calibrations are supported. If function is not linear, retrieved values will be incorrect.
+[WARNING]:05/09/2019 11:26:47:EmblaChannel Channel uses calibration function '(1/6.0429e-2)*x'. Actually only linear calibrations are supported. If function is not linear, retrieved values will be incorrect.
+[INFO   ]:05/09/2019 11:26:47:COFITAGE_base Running ChannelsEP
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Heart Rate Variability of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Flattening of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel R-R Intervals of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Heart Rate_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Light_BU of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Nasal Pressure of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Snoring Sensor of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Thorax of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Abdomen of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Gravity X of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Gravity Y of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Plethysmogram of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Pulse of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel RD-Quality of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel SpO2 of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel SpO2 BB of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Light_MD of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel SpO2-Quality_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Flow_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Snore_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Activity_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Elevation_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Position_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Phase_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel RMI_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel RR_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel XSum_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel Tidal Volume_DR of type MISC
+[WARNING]:05/09/2019 11:26:47:COFITAGE_base Dropping channel XFlow_DR of type MISC
+[INFO   ]:05/09/2019 11:26:47:root Duration: 7:31:06.451013
+[INFO   ]:05/09/2019 11:26:47:root Reading events info
+[INFO   ]:05/09/2019 11:26:59:COFITAGE_base Running EventsEP
+[ERROR  ]:05/09/2019 11:26:59:COFITAGE_base Multiple LIGHTS events found
+[ERROR  ]:05/09/2019 11:26:59:root File "../eegBidsCreator//eegBidsCreator.py", line 410 in main:
+[ERROR  ]:05/09/2019 11:26:59:root Exception: Plugin EventsEP returned code 2
+[INFO   ]:05/09/2019 11:26:59:root Command: '../eegBidsCreator//eegBidsCreator.py' '-c' 'Configuration/EEGBIDS_COFITAGE.ini' '-o' '/Storage/beliy/COFITAGE/Public/bids-examples/eeg_cofitage/' '-q' '--logfile' '/Storage/beliy/COFITAGE/Public/Log//fb08f4ac-4af7-4561-976d-2257d486f67a.log' '--log' 'INFO' '/Storage/beliy/COFITAGE/Public/Emb//fb08f4ac-4af7-4561-976d-2257d486f67a/' '--conversion' 'BV'
+[INFO   ]:05/09/2019 11:26:59:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:05/09/2019 11:26:59:root Took 12.399842657 seconds
+[INFO   ]:05/09/2019 11:26:59:root <<<<<<<<<<<<<<<<<<<<<<

@@ -1,46 +1,44 @@
-[INFO   ]:03/27/2019 15:21:04:root Loading module COFITAGE_base from Plugins/COFITAGE_base.py
-[INFO   ]:03/27/2019 15:21:04:root >>>>>>>>>>>>>>>>>>>>>>
-[INFO   ]:03/27/2019 15:21:04:root Starting new bidsifier
-[INFO   ]:03/27/2019 15:21:04:root <<<<<<<<<<<<<<<<<<<<<<
-[INFO   ]:03/27/2019 15:21:04:root File: /Storage/beliy/COFITAGE/Public/Emb/3ed61658-117a-46af-bb58-4834656c6604/
-[INFO   ]:03/27/2019 15:21:04:root Output: /Storage/beliy/COFITAGE/Public/BIDS/
-[INFO   ]:03/27/2019 15:21:04:root Detected embla format
-[INFO   ]:03/27/2019 15:21:04:COFITAGE_base Running RecordingEP
-[WARNING]:03/27/2019 15:21:04:COFITAGE_base Unable to get start time from record
-[INFO   ]:03/27/2019 15:21:04:DataStructure.Generic.Record JSON File: /home/beliy/Works/COFITAGE/JSON/COF_BL.json
-[INFO   ]:03/27/2019 15:21:04:root Patient Id: COF008
-[INFO   ]:03/27/2019 15:21:04:root Session Id: 
-[INFO   ]:03/27/2019 15:21:04:root Task    Id: BL
-[INFO   ]:03/27/2019 15:21:04:root Acq     Id: T224800
-[INFO   ]:03/27/2019 15:21:04:root EEG will be saved in /Storage/beliy/COFITAGE/Public/BIDS/sub-COF008/eeg/
-[WARNING]:03/27/2019 15:21:04:tools.tools Found 6 files with pattern 'sub-COF008_task-BL_acq-T224800*'.
-[WARNING]:03/27/2019 15:21:04:tools.tools They will be removed.
-[WARNING]:03/27/2019 15:21:04:tools.tools Found 1 files with pattern 'sub-COF008_task-BL_acq-T224800.log'.
-[WARNING]:03/27/2019 15:21:04:tools.tools They will be removed.
-[WARNING]:03/27/2019 15:21:04:tools.tools Found 1 files with pattern 'sub-COF008_task-BL_acq-T224800.ini'.
-[WARNING]:03/27/2019 15:21:04:tools.tools They will be removed.
-[WARNING]:03/27/2019 15:21:04:root Unable to get StartTime of record. Will be set to first data point.
-[WARNING]:03/27/2019 15:21:04:root Unable to get EndTime of record. Will be set to last data point.
-[INFO   ]:03/27/2019 15:21:04:root Reading channels
-[INFO   ]:03/27/2019 15:21:05:COFITAGE_base Running ChannelsEP
-[WARNING]:03/27/2019 15:21:05:COFITAGE_base Dropping channel Light_BU of type MISC
-[WARNING]:03/27/2019 15:21:05:COFITAGE_base Dropping channel Light_MD of type MISC
-[WARNING]:03/27/2019 15:21:05:COFITAGE_base Dropping channel Heart Rate_DR of type MISC
-[INFO   ]:03/27/2019 15:21:05:root Duration: 8:11:57.060000
-[INFO   ]:03/27/2019 15:21:05:root Reading events info
-[INFO   ]:03/27/2019 15:21:05:root New duration: 8:11:57.060000
-[INFO   ]:03/27/2019 15:21:05:COFITAGE_base Running EventsEP
-[INFO   ]:03/27/2019 15:21:05:root Creating eeg.json file
-[INFO   ]:03/27/2019 15:21:05:root JSON: Missing next recomennded fields: ['CogAtlasID', 'CogPOID', 'InstitutionName', 'InstitutionAddress', 'InstitutionalDepartementName', 'HeadCircumference', 'TriggerChannelCount', 'EpochLenght']
-[INFO   ]:03/27/2019 15:21:05:root Creating channels.tsv file
-[INFO   ]:03/27/2019 15:21:05:tools.json Creating events.json file
-[INFO   ]:03/27/2019 15:21:05:root Creating events.tsv file
-[INFO   ]:03/27/2019 15:21:05:root Converting to EDF+ format
-[INFO   ]:03/27/2019 15:21:05:root Creating events.edf file
-[INFO   ]:03/27/2019 15:21:05:root Creating eeg.edf file
-[INFO   ]:03/27/2019 15:21:05:root Timepoint 1: Duration 5:03:30
-[INFO   ]:03/27/2019 15:21:26:root Timepoint 2: Duration 3:08:30
-[INFO   ]:03/27/2019 15:21:40:root Copying plugin file to code/
-[INFO   ]:03/27/2019 15:21:40:root >>>>>>>>>>>>>>>>>>>>>>
-[INFO   ]:03/27/2019 15:21:40:root Took 35.268945222 seconds
-[INFO   ]:03/27/2019 15:21:40:root <<<<<<<<<<<<<<<<<<<<<<
+[INFO   ]:05/09/2019 11:22:00:root Loading module COFITAGE_base from Plugins/COFITAGE_base.py
+[INFO   ]:05/09/2019 11:22:00:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:05/09/2019 11:22:00:root Starting new bidsifier
+[INFO   ]:05/09/2019 11:22:00:root <<<<<<<<<<<<<<<<<<<<<<
+[INFO   ]:05/09/2019 11:22:00:root File: /Storage/beliy/COFITAGE/Public/Emb/3ed61658-117a-46af-bb58-4834656c6604/
+[INFO   ]:05/09/2019 11:22:00:DataStructure.Embla.Record Detected Embla format
+[INFO   ]:05/09/2019 11:22:00:DataStructure.Generic.Record Output will be found at '/Storage/beliy/COFITAGE/Public/bids-examples/eeg_cofitage'
+[WARNING]:05/09/2019 11:22:00:DataStructure.BIDS.BIDS subject label 'COF008_BL_240816_T224800' contains illegal characters. Dataset will not be BIDS coplient
+[INFO   ]:05/09/2019 11:22:00:COFITAGE_base Running RecordingEP
+[WARNING]:05/09/2019 11:22:00:COFITAGE_base Unable to get start time from record
+[INFO   ]:05/09/2019 11:22:00:DataStructure.Generic.Record JSON File: /home/beliy/Works/COFITAGE/JSON/COF_BL.json
+[INFO   ]:05/09/2019 11:22:00:root Patient Id: COF008
+[INFO   ]:05/09/2019 11:22:00:root Session Id: 
+[INFO   ]:05/09/2019 11:22:00:root Task    Id: BL
+[INFO   ]:05/09/2019 11:22:00:root Acq     Id: T224800
+[INFO   ]:05/09/2019 11:22:00:DataStructure.BIDS.BIDS ID locked. Inner directory is 'sub-COF008//'
+[WARNING]:05/09/2019 11:22:00:root Unable to get StartTime of record. Will be set to first data point.
+[WARNING]:05/09/2019 11:22:00:root Unable to get EndTime of record. Will be set to last data point.
+[INFO   ]:05/09/2019 11:22:00:root Reading channels
+[INFO   ]:05/09/2019 11:22:01:COFITAGE_base Running ChannelsEP
+[WARNING]:05/09/2019 11:22:01:COFITAGE_base Dropping channel Light_BU of type MISC
+[WARNING]:05/09/2019 11:22:01:COFITAGE_base Dropping channel Light_MD of type MISC
+[WARNING]:05/09/2019 11:22:01:COFITAGE_base Dropping channel Heart Rate_DR of type MISC
+[INFO   ]:05/09/2019 11:22:01:root Duration: 8:11:57.060000
+[INFO   ]:05/09/2019 11:22:01:root Reading events info
+[INFO   ]:05/09/2019 11:22:01:COFITAGE_base Running EventsEP
+[INFO   ]:05/09/2019 11:22:01:root JSON: Missing next recomennded fields: ['InstitutionName', 'InstitutionAddress', 'CogAtlasID', 'CogPOID', 'TriggerChannelCount', 'EpochLenght', 'HeadCircumference']
+[INFO   ]:05/09/2019 11:22:01:DataStructure.Generic.Record Creating eeg.json file
+[INFO   ]:05/09/2019 11:22:01:root Creating channels.tsv file
+[INFO   ]:05/09/2019 11:22:01:root Creating events.tsv file
+[INFO   ]:05/09/2019 11:22:01:root Converting to BrainVision format
+[INFO   ]:05/09/2019 11:22:01:root Creating eeg.vhdr header file
+[INFO   ]:05/09/2019 11:22:01:root Creating eeg.vmrk markers file
+[INFO   ]:05/09/2019 11:22:01:root Writting proper events
+[INFO   ]:05/09/2019 11:22:01:root Creating eeg data file
+[INFO   ]:05/09/2019 11:22:01:root Timepoint 1: Duration 5:03:31
+[INFO   ]:05/09/2019 11:22:28:root Timepoint 2: Duration 3:08:27
+[WARNING]:05/09/2019 11:22:45:DataStructure.BIDS.BIDS JSON file /Storage/beliy/COFITAGE/Public/bids-examples/eeg_cofitage/sub-COF008/sub-COF008_scans.json already exists. It will be replaced.
+[WARNING]:05/09/2019 11:22:45:root BIDS requires 'dataset_description.json' file in output folder.
+[WARNING]:05/09/2019 11:22:45:root BIDS recommends 'README' file in output folder.
+[INFO   ]:05/09/2019 11:22:45:root Copying plugin file to code/
+[INFO   ]:05/09/2019 11:22:45:root >>>>>>>>>>>>>>>>>>>>>>
+[INFO   ]:05/09/2019 11:22:45:root Took 44.420310274 seconds
+[INFO   ]:05/09/2019 11:22:45:root <<<<<<<<<<<<<<<<<<<<<<
