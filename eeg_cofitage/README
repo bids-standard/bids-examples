@@ -22,8 +22,9 @@ Format
 It is formatted according to BIDS version 1.2.0. The full description of the standard which can be 
 found here: https://bids-specification.readthedocs.io/en/stable/
 
-This dataset is originally created in Embla 3.4 format. It is converted to EDF+ and applied to BIDS 
-standard by a private tool. The configuration and log files are stored in the sourcedata folders.
+This dataset is originally created in Embla 3.4 format. It is converted to BrainVision format and 
+applied to BIDS standard by a private tool. The configuration and log files are stored in the 
+sourcedata folders.
 
 
 Details about the experiment
@@ -38,13 +39,6 @@ Each subject is submitted to three tasks: 'Habituation Night' (HN), 'Base Line' 
 
 Only some samples of 'Habituation Night' are presented in this dataset example, together with few 
 'Baseline' samples.
-
-
-Notes
------
-
-The events associated with data are stored in separate EDF+ file *_events.edf. This is not conform 
-to BIDS, but accepted by EDF. An entry in .bidsignore was added to hide corresponding error
 
 
 Acknowledgments
