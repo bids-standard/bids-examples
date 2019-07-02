@@ -1,0 +1,1289 @@
+'
+'
+'
+'	C:\EEGTasks\ICTrain\N1_SFq\ICTrn_FHC_Onset_LR_300Blk.ebs
+'	Generated on: 5/15/2014	14:52:56
+'
+'
+'	This file generated with E-Studio interface.
+'	E-Prime Copyright © 1996-2005 Psychology Software Tools.
+'	ALL RIGHTS RESERVED
+'
+'	Legal use of this experiment script requires a full E-Prime or Runtime License.
+'
+'
+'	Author:
+'		  (Brock University)
+'
+'
+'
+'
+
+Option CStrings On
+Dim ebContext as Context
+
+
+'--------------------------------------------------------------------------
+' Class Declarations
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+'InitSlideStateDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideStateDefaults(theSlideState As SlideState)
+
+	If theSlideState Is Nothing Then Exit Sub
+
+	theSlideState.X = "center"
+	theSlideState.Y = "center"
+	theSlideState.Width = "100%"
+	theSlideState.Height = "100%"
+	theSlideState.BackColor = CColor("white")
+	theSlideState.BackStyle = "opaque"
+	theSlideState.BorderColor = CColor("black")
+	theSlideState.BorderWidth = CLng("0")
+	theSlideState.XAlign = "center"
+	theSlideState.YAlign = "center"
+	theSlideState.ClearAfter = CLogical("No")
+	theSlideState.Enabled = CLogical("Yes")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideVisualStimDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideVisualStimDefaults(theSlideVisualStim As SlideVisualStim)
+
+	If theSlideVisualStim Is Nothing Then Exit Sub
+
+	theSlideVisualStim.X = "center"
+	theSlideVisualStim.Y = "center"
+	theSlideVisualStim.Width = "25%"
+	theSlideVisualStim.Height = "25%"
+	theSlideVisualStim.ForeColor = CColor("black")
+	theSlideVisualStim.BackColor = CColor("white")
+	theSlideVisualStim.BackStyle = "opaque"
+	theSlideVisualStim.BorderColor = CColor("black")
+	theSlideVisualStim.BorderWidth = CLng("0")
+	theSlideVisualStim.XAlign = "center"
+	theSlideVisualStim.YAlign = "center"
+	theSlideVisualStim.AlignHorizontal = "center"
+	theSlideVisualStim.AlignVertical = "center"
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideTextDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideTextDefaults(theSlideText As SlideText)
+
+	If theSlideText Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideText
+
+	theSlideText.WordWrap = True
+	theSlideText.FontName = "Courier New"
+	theSlideText.FontSize = "18"
+	theSlideText.FontBold = CLogical("Yes")
+	theSlideText.FontItalic = CLogical("No")
+	theSlideText.FontUnderline = CLogical("No")
+	theSlideText.FontStrikeout = CLogical("No")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideImageDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideImageDefaults(theSlideImage As SlideImage)
+
+	If theSlideImage Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideImage
+
+	theSlideImage.Stretch = CLogical("No")
+	theSlideImage.MirrorLeftRight = CLogical("No")
+	theSlideImage.MirrorUpDown = CLogical("No")
+	theSlideImage.UseSourceColorKey = CLogical("No")
+	theSlideImage.SourceColorKey = CColor("black")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideSoundBufferDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideSoundBufferDefaults(theSoundBuffer As SoundBuffer)
+
+	If theSoundBuffer Is Nothing Then Exit Sub
+
+	theSoundBuffer.Loop = CLogical("No")
+	theSoundBuffer.StopAfter = CLogical("Yes")
+	theSoundBuffer.StartOffset = "0"
+	theSoundBuffer.StopOffset = "0"
+
+End Sub
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+'InitTextDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitTextDisplayDefaults(theTextDisplay As TextDisplay)
+
+	If theTextDisplay Is Nothing Then Exit Sub
+
+	theTextDisplay.X = "center"
+	theTextDisplay.Y = "center"
+	theTextDisplay.Width = "100%"
+	theTextDisplay.Height = "100%"
+	theTextDisplay.ForeColor = CColor("black")
+	theTextDisplay.BackColor = CColor("white")
+	theTextDisplay.BackStyle = "opaque"
+	theTextDisplay.BorderColor = CColor("black")
+	theTextDisplay.BorderWidth = CLng("0")
+	theTextDisplay.XAlign = "center"
+	theTextDisplay.YAlign = "center"
+	theTextDisplay.AlignHorizontal = "center"
+	theTextDisplay.AlignVertical = "center"
+	theTextDisplay.WordWrap = True
+	theTextDisplay.ClearAfter = CLogical("No")
+	theTextDisplay.FontName = "Courier New"
+	theTextDisplay.FontSize = "18"
+	theTextDisplay.FontBold = CLogical("Yes")
+	theTextDisplay.FontItalic = CLogical("No")
+	theTextDisplay.FontUnderline = CLogical("No")
+	theTextDisplay.FontStrikeout = CLogical("No")
+
+End Sub
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' Instance Declarations
+'--------------------------------------------------------------------------
+Dim Display As DisplayDevice
+Dim Sound As SoundDevice
+Dim Keyboard As KeyboardDevice
+Dim Mouse As MouseDevice
+Dim SRBOX As SRBOXDevice
+Dim SessionProc As Procedure
+
+Dim MainList As List
+
+Dim TestList As List
+
+Dim TrialProc As Procedure
+
+Dim StimDisp As Slide
+Dim StimDispEchoClients As EchoClientCollection
+Dim StimDisp_State As SlideState
+Dim StimDisp_SlideText As SlideText
+Dim StimDisp_SlideImage As SlideImage
+
+Dim StimISI As Slide
+Dim StimISI_State As SlideState
+Dim StimISI_SlideText As SlideText
+
+Dim InitProc As Procedure
+
+Dim CellList As List
+
+Dim StartProc As Procedure
+
+Dim EndProc As Procedure
+
+Dim StartText As TextDisplay
+Dim StartTextEchoClients As EchoClientCollection
+
+Dim EndText As TextDisplay
+Dim EndTextEchoClients As EchoClientCollection
+
+Dim StartSlide As Slide
+Dim StartSlide_State As SlideState
+Dim StartSlide_SlideText As SlideText
+
+Dim EndSlide As Slide
+Dim EndSlide_State As SlideState
+Dim EndSlide_SlideText As SlideText
+
+
+
+'--------------------------------------------------------------------------
+' Package Declare Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' User Script
+'--------------------------------------------------------------------------
+Dim CellN as integer
+Dim CatVal as integer
+Dim CatStr as string
+Dim IDVal as integer
+Dim EmotVal as integer
+Dim EmotStr as string
+Dim InvVal as integer
+Dim FqVal as integer
+Dim SideStr as string
+
+Dim StimInMskMngr as InputMaskManager
+
+Dim NResp1 as integer
+
+Dim StimClear as boolean
+
+Dim StimImage As SlideImage
+
+
+'--------------------------------------------------------------------------
+' Package Global Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Routines
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Implementation
+'--------------------------------------------------------------------------
+Sub SessionProc_Run(c as Context)
+	MainList.Run c
+
+	c.Log
+End Sub
+
+Sub TrialProc_Run(c as Context)
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - TrnN170Init BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+Set StimImage = CSlideImage(StimDisp.States(StimDisp.ActiveState).Objects("Image1"))
+StimClear=False
+NResp1 = 0
+
+c.SetAttrib "ISI_Dur", random(500,750)
+
+CellN=c.GetAttrib("CellNumber")
+
+StimDisp.OnsetSignalData = CellN
+
+'define category variable
+if CellN<213 then
+	CatStr="F"
+end if
+if CellN>212 and CellN<215 then
+	CatStr="H"
+end if
+if CellN>214 then
+	CatStr="C"
+end if
+
+
+'Define ID variable.
+IDVal=random(1,5)
+if CellN>214then
+	IDVal=1
+end if
+
+'Define emotion variable.
+EmotVal=random(1,2)
+if EmotVal = 1 then
+	EmotStr = "F"
+else
+	EmotStr = "A"
+end if
+if CellN>212 then
+	EmotStr=""
+end if
+
+'Define inversion variable
+InvVal=1
+if CellN=212 or CellN=214 then
+	InvVal=2
+end if
+
+FqVal=0
+
+SideStr=""
+if CellN=215 then
+	SideStr="_L"
+end if
+if CellN=216 then
+	SideStr="_R"
+end if
+
+c.SetAttrib "TrnN170FName1", "Stim\\" & CatStr & CStr(IDVal) & EmotStr & "O" & CStr(InvVal) & "_F" & CStr(FqVal) & SideStr & ".bmp"
+
+
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - TrnN170Init END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	Select Case StimDisp.ActiveState
+		Case "Default"
+
+
+			Set StimDisp_SlideText = CSlideText(StimDisp.States.Item("Default").Objects(1))
+			Set StimDisp_SlideText = Nothing
+
+			Set StimDisp_SlideImage = CSlideImage(StimDisp.States.Item("Default").Objects(2))
+			StimDisp_SlideImage.Filename = c.GetAttrib("TrnN170FName1")
+			StimDisp_SlideImage.Load
+			Set StimDisp_SlideImage = Nothing
+	End Select
+
+	
+	StimDisp.InputMasks.Reset
+	
+	If SRBOX.GetState() = ebStateOpen Then
+		StimDispEchoClients.RemoveAll
+		StimDisp.InputMasks.Add SRBOX.CreateInputMask("{ANY}", "", CLng("-1"), CLng("1"), ebEndResponseActionNone, CLogical("Yes"), "", "", "")
+
+		End If
+
+	StimDisp.Run
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - TrialAdj BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	Sleep(10)
+WritePort &H378, 0
+
+While Clock.Read < StimDisp.OnsetTime + 250 + c.GetAttrib("ISI_Dur")
+	
+	If StimDisp.InputMasks.Item(1).Responses.Count > NResp1 Then
+		NResp1 = StimDisp.InputMasks.Item(1).Responses.Count
+		WritePort &H378, CStr("20" & StimDisp.InputMasks.Item(1).Responses(NResp1).RESP)
+		Sleep(2)
+		WritePort &H378, 0
+	End if
+
+	If Clock.Read > StimDisp.OnsetTime + 250 and StimClear = False Then
+		WritePort &H378, 0
+		StimImage.Filename="Stim//Black.bmp"
+		StimImage.Load
+		StimDisp.Draw
+		StimClear = True
+	End if
+
+WEnd
+
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - TrialAdj END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+
+	c.Log
+End Sub
+
+
+
+
+
+Sub InitProc_Run(c as Context)
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - Init BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	StimDisp.OnsetSignalEnabled = True
+StimDisp.OnsetSignalPort = &H378
+'StimDisp.OffsetSignalEnabled = True
+'StimDisp.OffsetSignalPort = &H378
+'StimDisp.OffsetSignalData = 0
+
+Set StimInMskMngr = StimDisp.InputMasks
+
+NResp1=0
+
+StimClear=False
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - Init END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+
+	c.Log
+End Sub
+
+Sub StartProc_Run(c as Context)
+	
+	
+	StartText.InputMasks.Reset
+	
+	If Keyboard.GetState() = ebStateOpen Then
+		StartTextEchoClients.RemoveAll
+		StartText.InputMasks.Add Keyboard.CreateInputMask("{ANY}", "", CLng(StartText.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+		End If
+
+	StartText.Run
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - StartRec BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	'WritePort &H378, 254
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - StartRec END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	Select Case StartSlide.ActiveState
+		Case "Default"
+
+
+			Set StartSlide_SlideText = CSlideText(StartSlide.States.Item("Default").Objects(1))
+			Set StartSlide_SlideText = Nothing
+	End Select
+
+	StartSlide.Run
+	
+
+	c.Log
+End Sub
+
+Sub EndProc_Run(c as Context)
+	
+	
+	Select Case EndSlide.ActiveState
+		Case "Default"
+
+
+			Set EndSlide_SlideText = CSlideText(EndSlide.States.Item("Default").Objects(1))
+			Set EndSlide_SlideText = Nothing
+	End Select
+
+	EndSlide.Run
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - StopRec BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	'WritePort &H378, 255
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - StopRec END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	
+	EndText.InputMasks.Reset
+	
+	If Keyboard.GetState() = ebStateOpen Then
+		EndTextEchoClients.RemoveAll
+		EndText.InputMasks.Add Keyboard.CreateInputMask("{ANY}", "", CLng(EndText.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+		End If
+
+	EndText.Run
+
+	c.Log
+End Sub
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' InitDevices
+'
+'--------------------------------------------------------------------------
+Sub InitDevices(c As Context)
+
+
+
+	SetOSThreadPriority 3
+
+
+	Set Display = New DisplayDevice
+	Display.Name = "Display"
+
+	Dim DisplayDisplayDeviceInfo As DisplayDeviceInfo
+	DisplayDisplayDeviceInfo.XRes = 1024
+	DisplayDisplayDeviceInfo.YRes = 768
+	DisplayDisplayDeviceInfo.ColorDepth = 16
+	DisplayDisplayDeviceInfo.RefreshRate = 0
+	DisplayDisplayDeviceInfo.NumPages = 0
+	
+	'Load values from context if they exist
+	If c.AttribExists("Display.XRes") Then DisplayDisplayDeviceInfo.XRes = c.GetAttrib("Display.XRes")
+	If c.AttribExists("Display.YRes") Then DisplayDisplayDeviceInfo.YRes = c.GetAttrib("Display.YRes")
+	If c.AttribExists("Display.ColorDepth") Then DisplayDisplayDeviceInfo.ColorDepth = c.GetAttrib("Display.ColorDepth")
+
+	'Open the device, unless the context values indicate otherwise
+	Dim DisplayOpen As Boolean
+	DisplayOpen = True
+	If c.AttribExists("Display.Open") Then DisplayOpen = CLogical(c.GetAttrib("Display.Open"))
+	If DisplayOpen = True Then
+		Display.Open DisplayDisplayDeviceInfo
+		c.SetAttrib "Display.RefreshRate", Format$(Display.CalculatedRefreshRate, "0.000")
+	End If
+
+	Set Sound = New SoundDevice
+	Sound.Name = "Sound"
+
+	Dim SoundSoundOutDeviceInfo As SoundDeviceInfo
+	SoundSoundOutDeviceInfo.Channels = 2
+	SoundSoundOutDeviceInfo.SamplesPerSecond = 22050
+	SoundSoundOutDeviceInfo.BitsPerSample = 16
+	'Load values from context if they exist
+	If c.AttribExists("Sound.Channels") Then SoundSoundOutDeviceInfo.Channels = c.GetAttrib("Sound.Channels")
+	If c.AttribExists("Sound.SamplesPerSecond") Then SoundSoundOutDeviceInfo.SamplesPerSecond = c.GetAttrib("Sound.SamplesPerSecond")
+	If c.AttribExists("Sound.BitsPerSample") Then SoundSoundOutDeviceInfo.BitsPerSample = c.GetAttrib("Sound.BitsPerSample")
+
+	Set Keyboard = New KeyboardDevice
+	Keyboard.Name = "Keyboard"
+
+	Dim KeyboardKeyboardDeviceInfo as KeyboardDeviceInfo
+	KeyboardKeyboardDeviceInfo.CollectionMode = ebPressesOnly
+	KeyboardKeyboardDeviceInfo.CapsLock = ebCapsLockOff
+	KeyboardKeyboardDeviceInfo.NumLock = ebNumLockOn
+	'Load values from context if they exist
+	If c.AttribExists("Keyboard.CollectionMode") Then KeyboardKeyboardDeviceInfo.CollectionMode = c.GetAttrib("Keyboard.CollectionMode")
+	If c.AttribExists("Keyboard.CapsLock") Then KeyboardKeyboardDeviceInfo.CapsLock = c.GetAttrib("Keyboard.CapsLock")
+	If c.AttribExists("Keyboard.NumLock") Then KeyboardKeyboardDeviceInfo.NumLock = c.GetAttrib("Keyboard.NumLock")
+	If c.AttribExists("Keyboard.EmulateDeviceName") Then KeyboardKeyboardDeviceInfo.EmulateDeviceName = c.GetAttrib("Keyboard.EmulateDeviceName")
+
+	'Open the device, unless the context values indicate otherwise
+	Dim KeyboardOpen As Boolean
+	KeyboardOpen = True
+	If c.AttribExists("Keyboard.Open") Then KeyboardOpen = CLogical(c.GetAttrib("Keyboard.Open"))
+	If KeyboardOpen = True Then
+		Keyboard.Open KeyboardKeyboardDeviceInfo
+	End If
+
+	Set Mouse = New MouseDevice
+	Mouse.Name = "Mouse"
+
+	Dim MouseMouseDeviceInfo as MouseDeviceInfo
+	MouseMouseDeviceInfo.OpenMode = ebMouseOpenModeDirect
+	MouseMouseDeviceInfo.CollectionMode = ebPressesOnly
+	MouseMouseDeviceInfo.ShowCursor = False
+	'Load values from context if they exist
+	If c.AttribExists("Mouse.OpenMode") Then MouseMouseDeviceInfo.OpenMode = c.GetAttrib("Mouse.OpenMode")
+	If c.AttribExists("Mouse.CollectionMode") Then MouseMouseDeviceInfo.CollectionMode = c.GetAttrib("Mouse.CollectionMode")
+	If c.AttribExists("Mouse.ShowCursor") Then MouseMouseDeviceInfo.ShowCursor = c.GetAttrib("Mouse.ShowCursor")
+	If c.AttribExists("Mouse.EmulateDeviceName") Then MouseMouseDeviceInfo.EmulateDeviceName = c.GetAttrib("Mouse.EmulateDeviceName")
+
+	'Open the device, unless the context values indicate otherwise
+	Dim MouseOpen As Boolean
+	MouseOpen = True
+	If c.AttribExists("Mouse.Open") Then MouseOpen = CLogical(c.GetAttrib("Mouse.Open"))
+	If MouseOpen = True Then
+		Mouse.Open MouseMouseDeviceInfo
+	End If
+
+	Set SRBOX = New SRBoxDevice
+	SRBOX.Name = "SRBOX"
+
+	Dim SRBOXSRBoxDeviceInfo As SRBoxDeviceInfo
+	SRBOXSRBoxDeviceInfo.Model = 200
+	SRBOXSRBoxDeviceInfo.Revision = 1
+	SRBOXSRBoxDeviceInfo.CommPort = 1
+	SRBOXSRBoxDeviceInfo.BaudRate = 19200
+	SRBOXSRBoxDeviceInfo.CharacterRate = 800
+	SRBOXSRBoxDeviceInfo.Configuration = ebSRBoxConfigStandard
+	SRBOXSRBoxDeviceInfo.CollectionMode = ebPressesOnly
+	'Load values from context if they exist
+	If c.AttribExists("SRBOX.CommPort") Then SRBOXSRBoxDeviceInfo.CommPort = c.GetAttrib("SRBOX.CommPort")
+	If c.AttribExists("SRBOX.BaudRate") Then SRBOXSRBoxDeviceInfo.BaudRate = c.GetAttrib("SRBOX.BaudRate")
+	If c.AttribExists("SRBOX.CharacterRate") Then SRBOXSRBoxDeviceInfo.CharacterRate = c.GetAttrib("SRBOX.CharacterRate")
+	If c.AttribExists("SRBOX.Configuration") Then SRBOXSRBoxDeviceInfo.Configuration = c.GetAttrib("SRBOX.Configuration")
+	If c.AttribExists("SRBOX.CollectionMode") Then SRBOXSRBoxDeviceInfo.CollectionMode = c.GetAttrib("SRBOX.CollectionMode")
+	If c.AttribExists("SRBOX.EmulateDeviceName") Then SRBOXSRBoxDeviceInfo.EmulateDeviceName = c.GetAttrib("SRBOX.EmulateDeviceName")
+	
+	'Open the device, unless the context values indicate otherwise
+	Dim SRBOXOpen As Boolean
+	SRBOXOpen = True
+	If c.AttribExists("SRBOX.Open") Then SRBOXOpen = CLogical(c.GetAttrib("SRBOX.Open"))
+	If SRBOXOpen = True Then
+		SRBOX.Open SRBOXSRBoxDeviceInfo
+	End If
+
+
+	SetOSThreadPriority 0
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitObjects
+'
+'--------------------------------------------------------------------------
+Sub InitObjects(c As Context)
+
+	Set SessionProc = New Procedure
+	SessionProc.Name = "SessionProc"
+	SessionProc.Tag = ""
+	SessionProc.Subroutine = "SessionProc_Run"
+
+	Set MainList = New List
+	MainList.Name = "MainList"
+	MainList.Tag = ""
+
+	'Initialization for MainList
+	
+	Set MainList.Order = New SequentialOrder
+	Set MainList.Deletion = NoDeletion
+	MainList.ResetEveryRun = False
+
+	' Create the column headings
+	MainList.Filename = ""
+	MainList.LoadMethod = ebLoadMethodEmbedded
+
+	MainList.Load
+
+	Set MainList.TerminateCondition = Cycles(1)
+	Set MainList.ResetCondition = Samples(13)
+	MainList.Reset
+	
+	Set TestList = New List
+	TestList.Name = "TestList"
+	TestList.Tag = ""
+
+	'Initialization for TestList
+	
+	Set TestList.Order = New RandomOrder
+	Set TestList.Deletion = NoDeletion
+	TestList.ResetEveryRun = False
+
+	' Create the column headings
+	TestList.AddAttrib "CellNumber"
+	TestList.Filename = ""
+	TestList.LoadMethod = ebLoadMethodEmbedded
+
+	TestList.Load
+
+	Set TestList.TerminateCondition = Cycles(1)
+	Set TestList.ResetCondition = Samples(6)
+	TestList.Reset
+	
+	Set TrialProc = New Procedure
+	TrialProc.Name = "TrialProc"
+	TrialProc.Tag = ""
+	TrialProc.Subroutine = "TrialProc_Run"
+
+	Set StimDisp = New Slide
+	StimDisp.Name = "StimDisp"
+	StimDisp.Tag = "at02"
+
+	Set StimDispEchoClients = New EchoClientCollection
+	StimDisp.Duration = CLng("0")
+	StimDisp.TimingMode = ebTimingModeEvent
+	StimDisp.PreRelease = Val("40")
+
+	StimDisp.OnsetSync = 1
+	StimDisp.OffsetSync = 0
+
+	Set StimDisp_State = New SlideState
+	StimDisp_State.Name = "Default"
+
+	InitSlideStateDefaults StimDisp_State
+
+	StimDisp_State.BackColor = CColor("black")
+
+	StimDisp.States.Add StimDisp_State, "Default"
+
+
+	Set StimDisp_SlideText = New SlideText
+	StimDisp_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults StimDisp_SlideText
+
+	StimDisp_SlideText.Text = "+"
+	StimDisp_SlideText.Width = "10%"
+	StimDisp_SlideText.Height = "10%"
+	StimDisp_SlideText.ForeColor = CColor("silver")
+	StimDisp_SlideText.BackStyle = "transparent"
+	StimDisp.States.Item("Default").Objects.Add StimDisp_SlideText, "Text1"
+
+	Set StimDisp_SlideImage = New SlideImage
+	StimDisp_SlideImage.Name = "Image1"
+
+	InitSlideImageDefaults StimDisp_SlideImage
+
+	StimDisp_SlideImage.Stretch = CLogical("Yes")
+	StimDisp_SlideImage.Width = "204"
+	StimDisp_SlideImage.Height = "256"
+	StimDisp.States.Item("Default").Objects.Add StimDisp_SlideImage, "Image1"
+	StimDisp.ActiveState = "Default"
+
+	Set StimISI = New Slide
+	StimISI.Name = "StimISI"
+	StimISI.Tag = "st03"
+	StimISI.TimingMode = ebTimingModeEvent
+	StimISI.PreRelease = Val("40")
+
+	StimISI.OnsetSync = 1
+	StimISI.OffsetSync = 0
+
+	Set StimISI_State = New SlideState
+	StimISI_State.Name = "Default"
+
+	InitSlideStateDefaults StimISI_State
+
+	StimISI_State.BackColor = CColor("black")
+
+	StimISI.States.Add StimISI_State, "Default"
+
+
+	Set StimISI_SlideText = New SlideText
+	StimISI_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults StimISI_SlideText
+
+	StimISI_SlideText.Text = "+"
+	StimISI_SlideText.Width = "10%"
+	StimISI_SlideText.Height = "10%"
+	StimISI_SlideText.ForeColor = CColor("silver")
+	StimISI_SlideText.BackStyle = "transparent"
+	StimISI.States.Item("Default").Objects.Add StimISI_SlideText, "Text1"
+	StimISI.ActiveState = "Default"
+
+	Set InitProc = New Procedure
+	InitProc.Name = "InitProc"
+	InitProc.Tag = ""
+	InitProc.Subroutine = "InitProc_Run"
+
+	Set CellList = New List
+	CellList.Name = "CellList"
+	CellList.Tag = ""
+
+	'Initialization for CellList
+	
+	Set CellList.Order = New SequentialOrder
+	Set CellList.Deletion = NoDeletion
+	CellList.ResetEveryRun = False
+
+	' Create the column headings
+	CellList.AddAttrib "CellNumber"
+	CellList.AddAttrib "CellLabel"
+	CellList.Filename = ""
+	CellList.LoadMethod = ebLoadMethodEmbedded
+
+	CellList.Load
+
+	Set CellList.TerminateCondition = Cycles(1)
+	Set CellList.ResetCondition = Samples(6)
+	CellList.Reset
+	
+	Set StartProc = New Procedure
+	StartProc.Name = "StartProc"
+	StartProc.Tag = ""
+	StartProc.Subroutine = "StartProc_Run"
+
+	Set EndProc = New Procedure
+	EndProc.Name = "EndProc"
+	EndProc.Tag = ""
+	EndProc.Subroutine = "EndProc_Run"
+
+	Set StartText = New TextDisplay
+	StartText.Name = "StartText"
+	StartText.Tag = ""
+
+	Set StartTextEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults StartText
+
+	StartText.Text = "The task will start shortly."
+	StartText.BackColor = CColor("black")
+	StartText.ForeColor = CColor("silver")
+	StartText.Duration = CLng("-1")
+	StartText.TimingMode = ebTimingModeEvent
+	StartText.PreRelease = Val("0")
+
+	StartText.OnsetSync = 1
+	StartText.OffsetSync = 0
+
+	Set EndText = New TextDisplay
+	EndText.Name = "EndText"
+	EndText.Tag = ""
+
+	Set EndTextEchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults EndText
+
+	EndText.Text = "Block complete."
+	EndText.BackColor = CColor("black")
+	EndText.ForeColor = CColor("silver")
+	EndText.Duration = CLng("-1")
+	EndText.TimingMode = ebTimingModeEvent
+	EndText.PreRelease = Val("0")
+
+	EndText.OnsetSync = 1
+	EndText.OffsetSync = 0
+
+	Set StartSlide = New Slide
+	StartSlide.Name = "StartSlide"
+	StartSlide.Tag = "st01"
+	StartSlide.Duration = CLng("5000")
+	StartSlide.TimingMode = ebTimingModeEvent
+	StartSlide.PreRelease = Val("40")
+
+	StartSlide.OnsetSync = 1
+	StartSlide.OffsetSync = 0
+
+	Set StartSlide_State = New SlideState
+	StartSlide_State.Name = "Default"
+
+	InitSlideStateDefaults StartSlide_State
+
+	StartSlide_State.BackColor = CColor("black")
+
+	StartSlide.States.Add StartSlide_State, "Default"
+
+
+	Set StartSlide_SlideText = New SlideText
+	StartSlide_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults StartSlide_SlideText
+
+	StartSlide_SlideText.Text = "+"
+	StartSlide_SlideText.Width = "10%"
+	StartSlide_SlideText.Height = "10%"
+	StartSlide_SlideText.ForeColor = CColor("silver")
+	StartSlide_SlideText.BackColor = CColor("silver")
+	StartSlide_SlideText.BackStyle = "transparent"
+	StartSlide.States.Item("Default").Objects.Add StartSlide_SlideText, "Text1"
+	StartSlide.ActiveState = "Default"
+
+	Set EndSlide = New Slide
+	EndSlide.Name = "EndSlide"
+	EndSlide.Tag = "st01"
+	EndSlide.Duration = CLng("5000")
+	EndSlide.TimingMode = ebTimingModeEvent
+	EndSlide.PreRelease = Val("40")
+
+	EndSlide.OnsetSync = 1
+	EndSlide.OffsetSync = 0
+
+	Set EndSlide_State = New SlideState
+	EndSlide_State.Name = "Default"
+
+	InitSlideStateDefaults EndSlide_State
+
+	EndSlide_State.BackColor = CColor("black")
+
+	EndSlide.States.Add EndSlide_State, "Default"
+
+
+	Set EndSlide_SlideText = New SlideText
+	EndSlide_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults EndSlide_SlideText
+
+	EndSlide_SlideText.Text = "+"
+	EndSlide_SlideText.Width = "10%"
+	EndSlide_SlideText.Height = "10%"
+	EndSlide_SlideText.ForeColor = CColor("silver")
+	EndSlide_SlideText.BackColor = CColor("silver")
+	EndSlide_SlideText.BackStyle = "transparent"
+	EndSlide.States.Item("Default").Objects.Add EndSlide_SlideText, "Text1"
+	EndSlide.ActiveState = "Default"
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' InitPackages
+'
+'--------------------------------------------------------------------------
+Sub InitPackages(c As Context)
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitDevices
+'--------------------------------------------------------------------------
+Sub UnInitDevices()
+	Display.Close
+	Set Display = Nothing
+
+	Keyboard.Close
+	Set Keyboard = Nothing
+
+	Mouse.Close
+	Set Mouse = Nothing
+
+
+	SRBOX.Close
+	Set SRBOX = Nothing
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitPackages
+'--------------------------------------------------------------------------
+Sub UnInitPackages()
+End Sub
+
+
+'--------------------------------------------------------------------------
+' UnInitObjects
+'
+'--------------------------------------------------------------------------
+Sub UnInitObjects()
+
+	Set SessionProc = Nothing
+
+	Set MainList = Nothing
+
+	Set TestList = Nothing
+
+	Set TrialProc = Nothing
+
+	Set StimDisp = Nothing
+
+	Set StimDispEchoClients = Nothing
+
+	Set StimISI = Nothing
+
+	Set InitProc = Nothing
+
+	Set CellList = Nothing
+
+	Set StartProc = Nothing
+
+	Set EndProc = Nothing
+
+	Set StartText = Nothing
+
+	Set StartTextEchoClients = Nothing
+
+	Set EndText = Nothing
+
+	Set EndTextEchoClients = Nothing
+
+	Set StartSlide = Nothing
+
+	Set EndSlide = Nothing
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' Main
+'
+'--------------------------------------------------------------------------
+Sub Main()
+
+	CreateDefaultPort
+
+	' Create and initialize the default context, data file,
+	' and provide global access to the context.
+	Dim c As Context
+	Set c = New Context
+	Set c.DataFile = New DataFile
+	c.PushNewFrame
+	Set ebContext = c
+
+	' Set the log level names
+	c.SetLogLevelName 1, "Session"
+	c.SetLogLevelName 2, "Block"
+	c.SetLogLevelName 3, "Trial"
+	c.SetLogLevelName 4, "SubTrial"
+	c.SetLogLevelName 5, "LogLevel5"
+	c.SetLogLevelName 6, "LogLevel6"
+	c.SetLogLevelName 7, "LogLevel7"
+	c.SetLogLevelName 8, "LogLevel8"
+	c.SetLogLevelName 9, "LogLevel9"
+	c.SetLogLevelName 10, "LogLevel10"
+
+	' Set standard logging items
+	ebContext.SetAttrib "Experiment", "ICTrn_FHC_Onset_LR_300Blk"
+	ebContext.SetAttrib "SessionDate", Date$
+	ebContext.SetAttrib "SessionTime", Time$
+	ebContext.SetAttrib "RandomSeed", PRNG.GetSeed()
+
+	If Basic.OS = ebWin32 Then
+		WinActivate "E-Run Experiment Window"
+	End If
+
+	' Get the StartupInfo
+	' Set default for GroupNumber
+	c.SetAttrib "Group", "1"
+
+
+	' Set the defaults for all of the StartupInfo
+	c.SetAttrib "Subject", "1"
+	c.SetAttrib "Session", "1"
+	c.SetAttrib "Group", "1"
+	c.SetAttrib "Name", ""
+	c.SetAttrib "Age", "0"
+	c.SetAttrib "Sex", "male"
+	c.SetAttrib "Handedness", "left"
+	c.SetAttrib "ResearcherID", "1"
+
+	Dim vAnswer As Variant
+StartupInfo_Begin:
+
+StartupInfoPrompt_Subject:
+	vAnswer = AskBox("Please enter the Subject Number (1-32767, 0=No Data Logging):", c.GetAttrib("Subject"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Subject must not be less than 0"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Subject must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Subject
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Subject", CStr(vAnswer)
+
+StartupInfoPrompt_Session:
+	vAnswer = AskBox("Please enter the Session Number (1-32767):", c.GetAttrib("Session"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) < 1 Then
+			MsgBox "The value for Session must not be less than 1"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Session must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Session
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Session", CStr(vAnswer)
+
+StartupInfoPrompt_Group:
+	vAnswer = AskBox("Please enter Subject's Group (0-32767):", c.GetAttrib("Group"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Group
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Group must not be less than 0"
+			GoTo StartupInfoPrompt_Group
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Group must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Group
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Group", CStr(vAnswer)
+
+StartupInfoPrompt_Name:
+	vAnswer = AskBox("Please enter Subject's Name:", c.GetAttrib("Name"))
+	If Not IsEmpty(vAnswer) then
+		If Len(CStr(vAnswer)) > 255 Then
+		MsgBox "The length for Name must be not be greater than 255"
+			GoTo StartupInfoPrompt_Name
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Name", CStr(vAnswer)
+
+StartupInfoPrompt_Age:
+	vAnswer = AskBox("Please enter Subject's Age (0-150):", c.GetAttrib("Age"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Age
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Age must not be less than 0"
+			GoTo StartupInfoPrompt_Age
+		ElseIf CLng(vAnswer) > 150 Then
+			MsgBox "The value for Age must be not be greater than 150"
+			GoTo StartupInfoPrompt_Age
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Age", CStr(vAnswer)
+
+StartupInfoPrompt_Sex:
+Dim arrayChoicesSex(2)
+	arrayChoicesSex(0) = "male"
+	arrayChoicesSex(1) = "female"
+	vAnswer = SelectBox(, "Please enter Subject's Sex:", arrayChoicesSex)
+	If vAnswer >= 0 then
+		c.SetAttrib "Sex", arrayChoicesSex(vAnswer)
+	Else
+		GoTo ExperimentAbort
+	End If
+
+StartupInfoPrompt_Handedness:
+Dim arrayChoicesHandedness(2)
+	arrayChoicesHandedness(0) = "left"
+	arrayChoicesHandedness(1) = "right"
+	vAnswer = SelectBox(, "Enter Subject's Handedness:", arrayChoicesHandedness)
+	If vAnswer >= 0 then
+		c.SetAttrib "Handedness", arrayChoicesHandedness(vAnswer)
+	Else
+		GoTo ExperimentAbort
+	End If
+
+StartupInfoPrompt_ResearcherID:
+	vAnswer = AskBox("Please enter Researcher's ID:", c.GetAttrib("ResearcherID"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_ResearcherID
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for ResearcherID must not be less than 0"
+			GoTo StartupInfoPrompt_ResearcherID
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for ResearcherID must be not be greater than 32767"
+			GoTo StartupInfoPrompt_ResearcherID
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "ResearcherID", CStr(vAnswer)
+
+	' Display the summary
+	Dim strSummary As String
+	strSummary = "Subject:    " & c.GetAttrib("Subject") & "\n"
+	strSummary = strSummary & "Session:    " & c.GetAttrib("Session") & "\n"
+	strSummary = strSummary & "Group:    " & c.GetAttrib("Group") & "\n"
+	strSummary = strSummary & "Name:    " & c.GetAttrib("Name") & "\n"
+	strSummary = strSummary & "Age:    " & c.GetAttrib("Age") & "\n"
+	strSummary = strSummary & "Sex:    " & c.GetAttrib("Sex") & "\n"
+	strSummary = strSummary & "Handedness:    " & c.GetAttrib("Handedness") & "\n"
+	strSummary = strSummary & "ResearcherID:    " & c.GetAttrib("ResearcherID") & "\n"
+	strSummary = strSummary & "\nContinue with the above startup info?"
+
+	Dim nSummaryAnswer As Integer
+	nSummaryAnswer = MsgBox(strSummary, ebYesNoCancel + ebQuestion, "Summary of Startup Info")
+	If nSummaryAnswer = ebNo Then
+		GoTo StartupInfo_Begin
+	ElseIf nSummaryAnswer = ebCancel Then
+		GoTo ExperimentAbort
+	End If
+
+
+	' Set the default Data Filename
+	c.DataFile.Filename = CStr(c.GetAttrib("Experiment")) & "-" & CStr(c.GetAttrib("Subject")) & "-" & CStr(c.GetAttrib("Session")) & ".txt"
+
+	' If we are logging data, then prompt to overwrite the data file if it exists
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		Dim strFilenameEDAT As String
+		strFilenameEDAT = CStr(c.GetAttrib("Experiment")) & "-" & CStr(c.GetAttrib("Subject")) & "-" & CStr(c.GetAttrib("Session")) & ".edat"
+		If FileExists(c.DataFile.Filename) Or FileExists(strFilenameEDAT) Then
+			If ebYes <> MsgBox("WARNING: The data file and/or recovery file already exists:\nFILE: " & c.DataFile.Filename & "\n\nDo you want to overwrite?", ebYesNo + ebQuestion) Then
+				GoTo ExperimentAbort
+			End If
+		End If
+	End If
+
+	' Initialize all system devices, packages, and objects
+	InitDevices c
+	InitPackages c
+	InitObjects c
+
+	' If we are logging data, then open the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Open
+		c.LogHeader
+	End If
+
+
+
+#If RUNTIME_VERSION_MAJOR > 1  Or (RUNTIME_VERSION_MAJOR = 1 And RUNTIME_VERSION_MINOR >= 2) Then
+	' Log clock timing information
+	c.SetAttrib "Clock.Information", Clock.Information
+#End If
+
+	' Start the running of the Experiment
+	SessionProc.Run c
+
+	' Clean up the context and close the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Close
+		' Attempt to convert the recovery file into a data file
+		Dim nConvert As Long
+		nConvert = c.DataFile.Convert(ebProgressSimple)
+		If nConvert = 0 Then
+			' Settings in E-Studio are set to not remove E-Recovery file
+		Else
+			' The datafile failed to convert!
+			MsgBox "ERROR: The datafile did not convert!\nFILE: " & c.DataFile.Filename & "\n\nIt is recommended that you recover your data with the E-Recovery utility"
+			MsgBox c.DataFile.GetLastErrorMessage()
+		End If
+	End If
+ExperimentFinish:
+
+	UnInitObjects
+
+	UnInitPackages
+	UnInitDevices
+
+ExperimentAbort:
+
+	' Clean up the context
+	c.PopFrame
+	Set c = Nothing
+	Set ebContext = Nothing
+
+	DestroyDefaultPort
+
+End Sub
+
+
+[DataSection_MainList(1)]
+Weight	Nested	Procedure
+1		InitProc
+1		StartProc
+10	TestList	TrialProc
+1		EndProc\0
+
+[DataSection_TestList(1)]
+Weight	Nested	Procedure	CellNumber
+1			211
+1			212
+1			213
+1			214
+1			215
+1			216\0
+
+[DataSection_CellList(1)]
+Weight	Nested	Procedure	CellNumber	CellLabel
+1			1	Face_up
+1			2	Face_down
+1			3	House_up
+1			4	House_up
+1			5	Check_L
+1			6	Check_R\0
