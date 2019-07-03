@@ -1,129 +1,129 @@
-name	type	status
-A1	EEG	good
-A2	EEG	good
-A3	EEG	good
-A4	EEG	good
-A5	EEG	good
-A6	EEG	good
-A7	EEG	good
-A8	EEG	good
-A9	EEG	good
-A10	EEG	good
-A11	EEG	good
-A12	EEG	good
-A13	EEG	good
-A14	EEG	good
-A15	EEG	good
-A16	EEG	good
-A17	EEG	good
-A18	EEG	good
-A19	EEG	good
-A20	EEG	good
-A21	EEG	good
-A22	EEG	good
-A23	EEG	good
-A24	EEG	good
-A25	EEG	good
-A26	EEG	good
-A27	EEG	good
-A28	EEG	good
-A29	EEG	good
-A30	EEG	good
-A31	EEG	good
-A32	EEG	good
-B1	EEG	good
-B2	EEG	good
-B3	EEG	good
-B4	EEG	good
-B5	EEG	good
-B6	EEG	good
-B7	EEG	good
-B8	EEG	good
-B9	EEG	good
-B10	EEG	good
-B11	EEG	good
-B12	EEG	good
-B13	EEG	good
-B14	EEG	good
-B15	EEG	good
-B16	EEG	good
-B17	EEG	good
-B18	EEG	good
-B19	EEG	good
-B20	EEG	good
-B21	EEG	good
-B22	EEG	good
-B23	EEG	good
-B24	EEG	good
-B25	EEG	good
-B26	EEG	good
-B27	EEG	good
-B28	EEG	good
-B29	EEG	good
-B30	EEG	good
-B31	EEG	good
-B32	EEG	good
-C1	EEG	good
-C2	EEG	good
-C3	EEG	good
-C4	EEG	good
-C5	EEG	good
-C6	EEG	good
-C7	EEG	good
-C8	EEG	good
-C9	EEG	good
-C10	EEG	good
-C11	EEG	good
-C12	EEG	good
-C13	EEG	good
-C14	EEG	good
-C15	EEG	good
-C16	EEG	good
-C17	EEG	good
-C18	EEG	good
-C19	EEG	good
-C20	EEG	good
-C21	EEG	good
-C22	EEG	good
-C23	EEG	good
-C24	EEG	good
-C25	EEG	good
-C26	EEG	good
-C27	EEG	good
-C28	EEG	good
-C29	EEG	good
-C30	EEG	good
-C31	EEG	good
-C32	EEG	good
-D1	EEG	good
-D2	EEG	good
-D3	EEG	good
-D4	EEG	good
-D5	EEG	good
-D6	EEG	good
-D7	EEG	good
-D8	EEG	good
-D9	EEG	good
-D10	EEG	good
-D11	EEG	good
-D12	EEG	good
-D13	EEG	good
-D14	EEG	good
-D15	EEG	good
-D16	EEG	good
-D17	EEG	good
-D18	EEG	good
-D19	EEG	good
-D20	EEG	good
-D21	EEG	good
-D22	EEG	good
-D23	EEG	good
-D24	EEG	good
-D25	EEG	good
-D26	EEG	good
-D27	EEG	good
-D28	EEG	good
-D29	EEG	good
-D30	EEG	good
-D31	EEG	good
-D32	EEG	good
+name	type	units	status
+A1	EEG	microV	good
+A2	EEG	microV	good
+A3	EEG	microV	good
+A4	EEG	microV	good
+A5	EEG	microV	good
+A6	EEG	microV	good
+A7	EEG	microV	good
+A8	EEG	microV	good
+A9	EEG	microV	good
+A10	EEG	microV	good
+A11	EEG	microV	good
+A12	EEG	microV	good
+A13	EEG	microV	good
+A14	EEG	microV	good
+A15	EEG	microV	good
+A16	EEG	microV	good
+A17	EEG	microV	good
+A18	EEG	microV	good
+A19	EEG	microV	good
+A20	EEG	microV	good
+A21	EEG	microV	good
+A22	EEG	microV	good
+A23	EEG	microV	good
+A24	EEG	microV	good
+A25	EEG	microV	good
+A26	EEG	microV	good
+A27	EEG	microV	good
+A28	EEG	microV	good
+A29	EEG	microV	good
+A30	EEG	microV	good
+A31	EEG	microV	good
+A32	EEG	microV	good
+B1	EEG	microV	good
+B2	EEG	microV	good
+B3	EEG	microV	good
+B4	EEG	microV	good
+B5	EEG	microV	good
+B6	EEG	microV	good
+B7	EEG	microV	good
+B8	EEG	microV	good
+B9	EEG	microV	good
+B10	EEG	microV	good
+B11	EEG	microV	good
+B12	EEG	microV	good
+B13	EEG	microV	good
+B14	EEG	microV	good
+B15	EEG	microV	good
+B16	EEG	microV	good
+B17	EEG	microV	good
+B18	EEG	microV	good
+B19	EEG	microV	good
+B20	EEG	microV	good
+B21	EEG	microV	good
+B22	EEG	microV	good
+B23	EEG	microV	good
+B24	EEG	microV	good
+B25	EEG	microV	good
+B26	EEG	microV	good
+B27	EEG	microV	good
+B28	EEG	microV	good
+B29	EEG	microV	good
+B30	EEG	microV	good
+B31	EEG	microV	good
+B32	EEG	microV	good
+C1	EEG	microV	good
+C2	EEG	microV	good
+C3	EEG	microV	good
+C4	EEG	microV	good
+C5	EEG	microV	good
+C6	EEG	microV	good
+C7	EEG	microV	good
+C8	EEG	microV	good
+C9	EEG	microV	good
+C10	EEG	microV	good
+C11	EEG	microV	good
+C12	EEG	microV	good
+C13	EEG	microV	good
+C14	EEG	microV	good
+C15	EEG	microV	good
+C16	EEG	microV	good
+C17	EEG	microV	good
+C18	EEG	microV	good
+C19	EEG	microV	good
+C20	EEG	microV	good
+C21	EEG	microV	good
+C22	EEG	microV	good
+C23	EEG	microV	good
+C24	EEG	microV	good
+C25	EEG	microV	good
+C26	EEG	microV	good
+C27	EEG	microV	good
+C28	EEG	microV	good
+C29	EEG	microV	good
+C30	EEG	microV	good
+C31	EEG	microV	good
+C32	EEG	microV	good
+D1	EEG	microV	good
+D2	EEG	microV	good
+D3	EEG	microV	good
+D4	EEG	microV	good
+D5	EEG	microV	good
+D6	EEG	microV	good
+D7	EEG	microV	good
+D8	EEG	microV	good
+D9	EEG	microV	good
+D10	EEG	microV	good
+D11	EEG	microV	good
+D12	EEG	microV	good
+D13	EEG	microV	good
+D14	EEG	microV	good
+D15	EEG	microV	good
+D16	EEG	microV	good
+D17	EEG	microV	good
+D18	EEG	microV	good
+D19	EEG	microV	good
+D20	EEG	microV	good
+D21	EEG	microV	good
+D22	EEG	microV	good
+D23	EEG	microV	good
+D24	EEG	microV	good
+D25	EEG	microV	good
+D26	EEG	microV	good
+D27	EEG	microV	good
+D28	EEG	microV	good
+D29	EEG	microV	good
+D30	EEG	microV	good
+D31	EEG	microV	good
+D32	EEG	microV	good

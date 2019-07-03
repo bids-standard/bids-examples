@@ -1,6 +1,6 @@
 {
 	"TaskName": "FaceHouseCheck",
-	"TaskDescription": "Visual presentation of oval cropped face and house images both upright and inverted. Rare left or right half oval checkerboards were presented as targets for keypress response.",
+	"TaskDescription": "Visual presentation of oval cropped face and house images both upright and inverted. Rare left or right half oval checkerboards were presetned as targets for keypress response.",
 	"InstitutionName": "Brock University",
 	"InstitutionAddress": "500 Glenridge Ave, St.Catharines, Ontario",
 	"SamplingFrequency": 256,
@@ -11,14 +11,12 @@
 	"EEGReference": "CMS",
 	"MiscChannelCount": 0,
 	"TriggerChannelCount": 0,
-	"PowerLineFrequency": "60Hz",
+	"PowerLineFrequency": 60,
 	"EEGPlacementScheme": "Custom equidistant 128 channel BioSemi montage established in coordination with Judith Schedden McMaster Univertisy",
 	"Manufacturer": "BioSemi",
-	"ManufacturerModelName": "ActiveTwo",
 	"CapManufacturer": "ElectroCap International",
-	"HardwareFilters": "DC to Nyquist 512Hz",
-	"SoftwareFilters": "None",
+	"HardwareFilters": "n/a",
+	"SoftwareFilters": "n/a",
 	"RecordingType": "continuous",
-	"RecordingDuration": 1233,
-	"DeviceSoftwareVersion": "NI ActiView 532-Lores"
+	"RecordingDuration": 1233
 }
