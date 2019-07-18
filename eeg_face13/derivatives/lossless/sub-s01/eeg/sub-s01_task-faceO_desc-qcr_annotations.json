@@ -1,0 +1,26 @@
+{
+	"Description": "Lossless state channel and component annotations.",
+	"IntendedFor": "derivatives/lossless/sub-s01/eeg/sub-s01_task-faceO_eeg_qcr.set",
+	"Sources": "See BUCANL GitHub",
+	"Author": "Lossless",
+	"LabelDescription": {
+		"chan_manual": "The interactive label (modified by analysts interactively or by a pipeline decision along with other labels) typically used to indicate which channels are considered artifactual for any reason.",
+		"chan_ch_sd": "Pipeline decision flag indicating that channels were too often outliers compared to other channels for the measure of standard deviation of voltage within one second epochs.",
+		"chan_low_r": "Pipeline decision flag indicating that channels were too often outliers compared to other channels for the measure of correlation coefficient to spatially neighbouring channels within one second epochs.",
+		"chan_bridge": "Pipeline decision flag indicating that channels were outliers for in terms of having high and invariant correlation coefficients to spatially neighbouring channels.",
+		"chan_rank": "Pipeline decision identifying the channel that has the least amount of unique information (highest average correlation coefficient to spatially neighbouring channels) to be ignored by ICA in order to account for the rank deficiency of the average referenced data.",
+		"comp_manual": "The interactive label (modified by analysts interactively or by a pipeline decision along with other labels) typically used to indicate which components are considered artifactual for any reason.",
+		"comp_ic_rt": "Pipeline decision flag indicating that components had a poor dipole fit (typically > %15 residual variance).",
+		"comp_brain": "ICLabel 0.3 Mark indicating that the compnents have cortical characteristics.",
+		"comp_muscle": "ICLabel 0.3 Mark indicating that the compnents have EMG characteristics.",
+		"comp_eye": "ICLabel 0.3 Mark indicating that the compnents have EOG characteristics.",
+		"comp_heart": "ICLabel 0.3 Mark indicating that the compnents have ECG characteristics.",
+		"comp_line_noise": "ICLabel 0.3 Mark indicating that the compnents have electrical mains noise characteristics.",
+		"comp_chan_noise": "ICLabel 0.3 Mark indicating that the compnents have channel independence characteristics.",
+		"comp_other": "ICLabel 0.3 Mark indicating that the compnents could not be confidently classified within any other ICLabel classification.",
+		"comp_ambig": "QC procedure rater markup indicating that the compnents are difficult to classify as either artifact or not.",
+		"in_task_fhbc_onset": "Based on experimental task events indicating time points within the duration of the fhbc_onset tasks (Face House Butterfly Checkerboard typical onset stimulus series).",
+		"in_leadup_fhbc_onset": "Based on experimental task events indicating time points leading into (a few second before and a few seconds after the first experimental event in a block of trials) the duration of the fhbc_onset tasks (Face House Butterfly Checkerboard typical onset stimulus series).",
+		"out_task": "Based on experimental task events indicating time points outside the duration of any experimental tasks (e.g. breaks, start up and end off times, etc)."
+	}
+}
