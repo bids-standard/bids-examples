@@ -1,0 +1,17 @@
+MNE-Sample-Data
+---------------
+
+The MNE software is accompanied by a sample data set. These data were acquired with the Neuromag Vectorview system at MGH/HMS/MIT Athinoula A. Martinos Center Biomedical Imaging. EEG data from a 60-channel electrode cap was acquired simultaneously with the MEG. The original MRI data set was acquired with a Siemens 1.5 T Sonata scanner using an MPRAGE sequence.
+
+In the MEG/EEG experiment, checkerboard patterns were presented into the left and right visual field, interspersed by tones to the left or right ear. The interval between the stimuli was 750 ms. Occasionally a smiley face was presented at the center of the visual field. The subject was asked to press a key with the right index finger as soon as possible after the appearance of the face.
+
+
+Freesurfer derivatives
+----------------------
+
+- freesurfer version used: "freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.0-2beb96c"
+- MNE-Python version used: "18.2"
+- Calls from the command line:
+  - `recon-all -i sub-01/anat/sub-01_T1w.nii.gz -s 01 --all`
+  - `mne make_scalp_surfaces -s 01 --overwrite --force`
+  - `mne watershed_bem -s 01 --overwrite`
