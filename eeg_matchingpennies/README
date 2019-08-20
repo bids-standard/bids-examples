@@ -25,19 +25,18 @@ Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 Format
 ------
-It is formatted according to BIDS version 1.1.1 and the BIDS standard extension
-for EEG (BEP006), which can be found here:
-
-https://docs.google.com/document/d/1ArMZ9Y_quTKXC-jNXZksnedK2VHHoKP3HCeO5HPcgLE/
-
-Note that BEP006 is still a work in progress as of 2018-11-29.
+The dataset is formatted according to the Brain Imaging Data Structure. See the
+`dataset_description.json` file for the specific version used.
 
 Generally, you can find data in the .tsv files and descriptions in the
 accompanying .json files.
 
-An important BIDS definition to consider is the "Inheritance Principle"
-(see 3.5 in the BIDS specification: http://bids.neuroimaging.io/bids_spec.pdf),
-which states:
+An important BIDS definition to consider is the "Inheritance Principle", which
+is described in the BIDS specification under the following link:
+
+https://bids-specification.rtfd.io/en/stable/02-common-principles.html#the-inheritance-principle
+
+The section states that:
 
 > Any metadata file (​.json​,​.bvec​,​.tsv​, etc.) may be defined at any directory
 level. The values from the top level are inherited by all lower levels unless
