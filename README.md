@@ -22,6 +22,9 @@ If you want to contribute a dataset to the examples, we would be happy to
 accommodate it, as long as it exhibits some structure or particularity that is
 not covered by the examples that are already present so far.
 
+For more information, see our [CONTRIBUTING.md](https://github.com/bids-standard/bids-examples/blob/master/CONTRIBUTING.md)
+file.
+
 # Dataset index
 
 If you want to update this table, please open a new GitHub Issue and a
