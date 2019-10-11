@@ -1,0 +1,36 @@
+warning off;
+
+pkg load signal;
+pkg load parallel;
+pkg load io;
+
+file_path = fileparts(mfilename('fullpath'));
+
+addpath([file_path '/../../code/dependencies/eeglab_lossless'], ...
+  [file_path '/../../code/dependencies/matlog'], ...
+  [file_path '/../../code/tools']);
+cd '[:,1,remote_project_work]';
+
+% eeglab auto loads the path correctly instead of shotgun blasting with
+% addpath(genpath(<>)) as we were doing prior
+if ~exist('EEG', 'var')
+  eeglab;
+end
+% Use matlog disp function override
+logging_override_disp(true);
+% Use matlog INFO level debugging
+logging_set_log_level('INFO')
+
+% Don't run with traditional but enable some of the options
+save_default_options ('-mat-binary');
+confirm_recursive_rmdir(false);
+
+% This makes | and & || and && in earlier version of Octave where
+% | and & dont short curcuit by default
+if exist('do_braindead_shortcircuit_evaluation', 'builtin')
+    do_braindead_shortcircuit_evaluation(true);
+end
+
+% Options
+pop_editoptions('option_savetwofiles', 1,'option_single',0);
+
