@@ -1,0 +1,28 @@
+[x,y]=system('find . -maxdepth 3 -name "*.set"')
+z=strsplit(y);
+init_sd_param(z,'grp_diag');
+
+load('grp_diag.mat');
+
+figure;plot(grp_out_dist(1,:))
+hold on;plot(grp_out_dist(2,:),'g')
+hold on;plot(grp_out_dist(3,:),'g')
+hold on;plot(grp_out_dist(4,:),'r')
+hold on;plot(grp_out_dist(5,:),'r')
+%ml=ve_trimmean(grp_out_dist(4,:),20,2);
+ml=median(grp_out_dist(4,:),2);
+hold on;plot(ones(1,size(grp_out_dist,2))*ml,'k');
+%mu=ve_trimmean(grp_out_dist(5,:),20,2);
+mu=median(grp_out_dist(5,:),2);
+hold on;plot(ones(1,size(grp_out_dist,2))*mu,'k');
+
+load('grp_diag_nch.mat');
+
+set(gca,'xtick',nchans)
+set(gca,'xgrid','on')
+
+for i=1:length(nchans);
+    th=text(nchans(i)-20,mu,z{i});
+    set(th,'Rotation',90);
+end
+

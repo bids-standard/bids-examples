@@ -1,0 +1,6 @@
+#OMPI_MCA_mpi_cuda_support=0
+#export OMPI_MCA_mpi_cuda_support
+
+module unload intel
+module load intel/2017.1
+module load imkl/2017.1.132

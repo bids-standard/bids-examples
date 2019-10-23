@@ -1,0 +1,88 @@
+%LOAD DATASET FILE...
+EEG = pop_loadset('filename','[batch_dfn]','filepath','[batch_dfp]');
+EEG = eeg_checkset(EEG);
+
+screendims = get(0,'ScreenSize');
+xdim = screendims(3);
+ydim = screendims(4);
+
+%bfh=figure;
+%bar(EEG.etc.ic_classification.ICLabel.classifications,'stacked','Horizontal','on');
+%colormap(jet);
+%axis 'tight';
+%legend({ 'brain','muscle','eye','heart','line_noise','chan_noise','other'});
+%view(180,90);
+%set(gca,'ytick',[1:min(size(EEG.icasphere))])
+%set(bfh,'Position',[1986 1 348 973]);
+
+%PLOT CHAN DATA SCROLL PLOT USING VISED PLUGIN...
+EEG_scalp = pop_vised(EEG,'data_type','EEG', ...
+    'pop_gui','off', ...
+    'event_type',[], ...
+    'spacing',80, ...
+    'winlength',20, ...
+    'command','', ...
+    'tag','ve_eeg', ...
+    'keyselectcommand',{'t,ve_eegplot(''topoplot'',gcbf)';'r,ve_eegplot(''drawp'',0)';'o,qc_ovl_tog';'u,qc_ovl_upd'}, ...
+    'dispchans',32);
+
+sfh = gcf;
+set(sfh,'Position',[1 1 xdim/2 ydim]);
+
+%PLOT FULL DURATION NON-MANUAL ICAACT SURFACE PLOT
+%notman_pnts = marks_label2index(EEG.marks.time_info,{'manual'},'indexes','invert','on');
+%normact=zeros(size(EEG.icaact(:,notman_pnts)));
+%fullnormact=zeros(size(EEG.icaact));
+
+%sortnormact=zeros(size(EEG.icaact(:,notman_pnts)));
+%for i=1:min(size(EEG.icaweights));
+    %normact(i,:)=(EEG.icaact(i,notman_pnts)-min(EEG.icaact(i,notman_pnts)))/(max(EEG.icaact(i,notman_pnts))-min(EEG.icaact(i,notman_pnts)));
+%    fullnormact(i,:) = (EEG.icaact(i,:)-min(EEG.icaact(i,:)))/(max(EEG.icaact(i,:))-min(EEG.icaact(i,:)));
+    %sortnormact(i,:)=sort(normact(i,:));
+%end
+
+%nash=figure;
+%surf(normact,'linestyle','none');axis('tight');view(0,270);
+%set(nash,'Position',[1550 1 371 973]);
+
+%fullnash=figure;
+%surf(fullnormact,'linestyle','none');axis('tight');view(0,270);
+%set(fullnash,'Position',[1550 1 371 973]);
+
+%snash=figure;
+%surf(sortnormact,'linestyle','none');axis('tight');view(0,270);
+%set(snash,'Position',[1567 1 371 973]);
+
+%PLOT IC DATA SCROLL PLOT USING VISED PLUGIN...
+EEG = pop_vised(EEG,'data_type','ICA','children','ve_eeg','pop_gui','off','tag','ve_ica');
+cfh = gcf;
+set(cfh,'Position',[xdim/2 1 xdim/2 ydim]);
+
+%PLOT IC TOPOGRAPHIES...
+%pop_topoplot(EEG,0, [1:min(size(EEG.icawinv))] , 'qc',0,1, 'electrodes', 'off', 'masksurf', 'on');
+%pop_viewprops(EEG,0,[1:min(size(EEG.icaweights))],{'freqrange',[1,100]});
+pop_viewprops(EEG,0,[1:35],{'freqrange',[1,100]}); % view only the first 35 component topos
+
+tic;
+
+%WAIT FOR SCROLL PLOT TO CLOSE...
+uiwait(cfh);
+
+qc_time = num2str(toc);
+disp(['Time taken to perform QC: ' qc_time 'sec.']);
+
+%CLOSE/CLEAR TOPOGRAPHY PLOT HANDLES
+tfh = findobj('Type', 'figure');
+close(tfh(find(strncmp('View components properties - pop_viewprops() (dataset:',get(tfh,'Name'),54)))); % backwards compatible with MATLAB 2012
+
+%CLOSE/CLEAR ICLABEL BAR GRAPH
+%try close(bfh),clear bfh, catch clear bfh, end
+%try close(fullnash),clear fullnash, catch clear fullnash, end
+%try close(nash),clear nash, catch clear nash, end
+%try close(snash),clear snash, catch clear snash, end
+
+%CLOSE/CLEAR EEG SCROLL PLOT HANDLES
+try close(sfh),clear sfh, catch clear sfh, end
+
+%SAVE *_qc.SET DATASET FILE... 
+EEG = pop_saveset( EEG,'filename','[batch_dfn,_,-1]_qcr.set','filepath','[batch_dfp]');
