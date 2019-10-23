@@ -1,1 +1,0 @@
-See [Contribution Guide](https://git.sharcnet.ca/jdesjard/bids_lossless_eeg/wikis/contributing)

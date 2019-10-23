@@ -1,2 +1,0 @@
-# The Lossless Pipeline - Configuration
-This folder contains all of the configuration files and init files that are needed for the EEGLAB plugins. Configuration files will have a .cfg or .txt extension. The naming of each configuration file should mirror the script that it goes with.

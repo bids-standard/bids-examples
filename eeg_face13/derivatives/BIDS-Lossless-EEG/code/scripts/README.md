@@ -1,2 +1,0 @@
-# The Lossless Pipeline - Scripts
-Folder containing all of the script files that make up processes behind the pipeline. These have the extension .htb and are called History Template Batch as they are executed in the batch_context extensions.
