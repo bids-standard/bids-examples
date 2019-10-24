@@ -1,0 +1,9 @@
+{
+    "Name": "Face13 Segmentation",
+    "BIDSVersion": "BEP003 and BEP021",
+    "PipelineDescription": {
+        "Name": "BIDS-Seg-Face13-EEGLAB",
+        "Version": "0.1.0 Alpha",
+        "CodeURL": "https://github.com/BUCANL/BIDS-Seg-Face13-EEGLAB"
+        }
+}
