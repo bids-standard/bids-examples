@@ -11,7 +11,7 @@ script:
   # and then checking for large files (there shouldn't be any)
   - |
     rc=0;
-    for i in $(ls -d */);
+    for i in $(ls -d */ | grep -v node_modules);
     do
       echo "Validating dataset" $i
       bids-validator ${i%%/} --ignoreNiftiHeaders -c bidsconfig.json || rc=$?
