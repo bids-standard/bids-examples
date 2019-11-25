@@ -1,0 +1,14 @@
+warning off;
+
+%addpath([pwd 'derivatives/lossless/code/dependencies/eeglab_lossless'], ...
+%  [pwd 'derivatives/lossless/code/dependencies/matlog']);
+
+% eeglab auto loads the path correctly instead of shotgun blasting with
+% addpath(genpath(<>)) as we were doing prior
+if ~exist('EEG')
+  eeglab;
+end
+
+% Options
+pop_editoptions('option_savetwofiles', 1,'option_single',0);
+
