@@ -1,0 +1,10 @@
+{
+   "TaskName": "FaceShapeEmotion",
+   "RepetitionTime": 0.735,
+   "EchoTime": 0.039,
+   "FlipAngle": 52,
+   "SliceTiming": [0.0, 0.2, 0.4, 0.6, 0.0, 0.2, 0.4, 0.6, 0.0, 0.2, 0.4, 0.6, 0.0, 0.2, 0.4, 0.6],
+   "MultibandAccelerationFactor": 3,
+   "ParallelReductionFactorInPlane": 2,
+   "PhaseEncodingDirection": "j"
+}
