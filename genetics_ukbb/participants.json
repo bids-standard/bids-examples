@@ -20,8 +20,8 @@
             "control": "control"
         }
     },
-    "GeneticID": {
-        "LongName": "GeneticID",
+    "genetic_id": {
+        "LongName": "genetic_id",
         "Description": "ID used in the genetic database",
       },
     "BatchID": {
