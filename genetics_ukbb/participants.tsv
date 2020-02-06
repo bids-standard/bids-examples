@@ -1,16 +1,15 @@
 IID	age	sex	group	GeneticID	IDH	BatchID	VariationSetType	Assembly	GeneticDataType
-S000001	48	M	patient	125425	yes	b001	CNV	hg38	SNP intensity
-S000002	60	M	control	125698	no	b001	CNV	hg38	SNP intensity
-S000003	72	M	patient	452589	yes	b002	SNV/CNV	hg19/hg38	WES/SNP intensity
-S000004	84	F	patient	325478	no	b002	CNV	hg38	SNP intensity
-S000005	96	M	control	623589	yes	b002	SNV/CNV	hg19/hg38	WES/SNP intensity
+S000001	48	M	patient	125425	yes	b001	CNV	hg38	SNP_intensity
+S000002	60	M	control	125698	no	b001	CNV	hg38	SNP_intensity
+S000003	72	M	patient	452589	yes	b002	SNV/CNV	hg19/hg38	WES/SNP_intensity
+S000004	84	F	patient	325478	no	b002	CNV	hg38	SNP_intensity
+S000005	96	M	control	623589	yes	b002	SNV/CNV	hg19/hg38	WES/SNP_intensity
 S000006	108	F	patient	458712	no	b003	SNV	hg19	WES
 S000007	120	M	patient	985632	yes	b004	SNV	hg19	WES
-S000008	60	F	control	325687	yes	b004	CNV	hg38	SNP intensity
-S000009	48	F	patient	753159	no	b005	SNV/CNV	hg19/hg38	WES/SNP intensity
+S000008	60	F	control	325687	yes	b004	CNV	hg38	SNP_intensity
+S000009	48	F	patient	753159	no	b005	SNV/CNV	hg19/hg38	WES/SNP_intensity
 S000010	84	F	control	654852	yes	b005	SNV	hg19	WES
-S000011	60	M	control	648279	yes	b005	SNV/CNV	hg19/hg38	WES/SNP intensity
-S000012	36	F	control	468231	yes	b005	SNV/CNV	hg19/hg38	WES/SNP intensity
-S000013	108	M	patient	225587	no	b001	SNV/CNV	hg19/hg38	WES/SNP intensity
-S000014	84	M	control	664458	yes	b002	CNV	hg38	SNP intensity
-
+S000011	60	M	control	648279	yes	b005	SNV/CNV	hg19/hg38	WES/SNP_intensity
+S000012	36	F	control	468231	yes	b005	SNV/CNV	hg19/hg38	WES/SNP_intensity
+S000013	108	M	patient	225587	no	b001	SNV/CNV	hg19/hg38	WES/SNP_intensity
+S000014	84	M	control	664458	yes	b002	CNV	hg38	SNP_intensity
