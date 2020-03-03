@@ -24,13 +24,20 @@
         "LongName": "genetic_id",
         "Description": "ID used in the genetic database",
       },
+    "IDH": {
+        "LongName": "isocitrate dehydrogenase gene",
+        "Description": "mutation present or abscent",
+        "Levels": {
+            "yes": "present",
+            "no": "abscent"
+        }      },
     "BatchID": {
-          "LongName": "BatchID",
-          "Description": "ID used in the genetic database",
-          "Levels": {
-              "b001": "xxx",
-              "b002": "xxx"
-          }
+        "LongName": "BatchID",
+        "Description": "ID used in the genetic database",
+        "Levels": {
+            "b001": "xxx",
+            "b002": "xxx"
+        }
       },
       "VariationSetType": {
             "LongName": "VariationSetType",
