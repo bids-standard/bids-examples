@@ -1,0 +1,10 @@
+{
+  "Name": "UK Biobank",
+  "BIDSVersion":  "1.2.0",
+  "License": "CC-0",
+  "Authors": ["Martineau Jean-Louis", "Cyril Pernet"],
+  "Funding": ["UK Department of Health, Medical Research Council, Scottish Executive, Wellcome Trust"],
+  "Genetics": {
+     "Dataset": "https://www.ukbiobank.ac.uk/"
+     }
+}
