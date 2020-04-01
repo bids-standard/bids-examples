@@ -64,6 +64,7 @@ corresponding Pull Request.
 |  eeg_matchingpennies | Offline data of BCI experiment decoding left vs. right hand movement. See Matching Pennies: A Brain Computer Interface Implementation Dataset for more information. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  | eeg |  | https://osf.io/cj2dr/ |
 |  eeg_rest_fmri | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  | eeg |  |  |
 |  eeg_rishikesh | Mind wandering experiment. EEG data in Biosemi (.bdf) format |  |  | eeg |  | https://zenodo.org/record/2536267 |
+|  genetics_ukbb | multiple tasks, T1w, DTI, BOLD, genetic info | mri |  |  |  |  |
 |  hcp_example_bids |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ieeg_epilepsy | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds001779 |
 |  ieeg_epilepsy_ecog | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds001868 |
