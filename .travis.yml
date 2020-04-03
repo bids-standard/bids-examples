@@ -4,7 +4,7 @@ node_js:
   - "12"
 
 install:
-  - npm install -g bids-validator@1.4.4
+  - npm install -g bids-validator@1.5.0
 
 script:
   # Validating the BIDS datasets using bids-validator
