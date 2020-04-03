@@ -4,7 +4,7 @@ node_js:
   - "12"
 
 install:
-  - npm install -g bids-validator@1.3.10
+  - npm install -g bids-validator@1.5.0
 
 script:
   # Validating the BIDS datasets using bids-validator
@@ -14,7 +14,7 @@ script:
     for i in $(ls -d */ | grep -v node_modules);
     do
       echo "Validating dataset" $i
-      bids-validator ${i%%/} --ignoreNiftiHeaders -c bidsconfig.json || rc=$?
+      bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
     done
 
     echo "Checking for big files ..."
