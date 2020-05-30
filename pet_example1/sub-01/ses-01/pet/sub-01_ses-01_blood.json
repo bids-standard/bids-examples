@@ -1,0 +1,31 @@
+{
+    "time": {
+        "Description": "Time in relation to time zero defined by the _pet.json",
+        "Units": "seconds"
+    },
+    "plasma_radioactivity": {
+        "Description": "Radioactivity in plasma samples", 
+        "Units": "kilobecquerel per milliliter"
+    },
+    "blood_discrete_radioactivity": {
+        "Description": "Radioactivity in discrete blood samples",
+        "Units": "kilobecquerel per milliliter"
+    },
+    "blood_continuous_radioactivity": {
+        "Description": "Radioactivity in blood samples obtained using an ABSS autosampler",
+        "Units": "kilobecquerel per milliliter"
+    },
+    "metabolite_parent_fraction": {
+        "Description": "Parent fraction of the radiotracer",
+        "Units": "unitless"
+    },
+    "metabolite_polar_fraction": {
+        "Description": "Polar metabolite fraction of the radiotracer",
+        "Units": "unitless"
+    },
+    "metabolite_lipophilic_fraction": {
+        "Description": "Lipophilic metabolite fraction of the radiotracer",
+        "Units": "unitless"
+    }
+}
+
