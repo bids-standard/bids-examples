@@ -74,5 +74,5 @@ corresponding Pull Request.
 |  ieeg_visual_multimodal |  |  |  |  | ieeg |  |  |
 |  synthetic | A synthetic dataset | mri |  |  |  |  |  |
 |  pet_example1 | with discrete and continuous blood |  |  |  |  | pet |  |
-|  pet_example2 |  |  |  |  |  | pet |  |
-|  pet_example3 |  |  |  |  |  | pet |  |
+|  pet_example2 |  | mri |  |  |  | pet |  |
+|  pet_example3 |  | mri |  |  |  | pet |  |
