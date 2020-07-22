@@ -16,6 +16,14 @@ intact. This is true for the following datasets:
 - `synthetic`
 - Most EEG or iEEG data in BrainVision format (e.g., `eeg_matchingpennies`)
 
+# Validator Exceptions
+
+Some datasets may include a custom .bids-validator-config.json to ignore errors generated from idiosyncracies of the datasets as they existed on creation.
+
+| name | errors ignored |
+| --- | --- |
+| genetics_ukbb | SliceTiming values for tasks is larger than given TR, EchoTime1 and EchoTime2 are not provided for any of the phasediff files. |
+
 # Contributing
 
 If you want to contribute a dataset to the examples, we would be happy to
