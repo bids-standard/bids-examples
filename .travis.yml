@@ -14,7 +14,11 @@ script:
     for i in $(ls -d */ | grep -v node_modules);
     do
       echo "Validating dataset" $i
-      bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+      if [ -f ${i%%/}/.bids-validator-config.json ]; then
+        bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+      else
+        bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+      fi
     done
 
     echo "Checking for big files ..."
