@@ -248,7 +248,7 @@ changes.append('Use CMIXF-12 formatting throughout: https://people.csail.mit.edu
 
 # %% Update eeg.json
 
-eeg_json = op.join(mp_root, 'dataset_description.json')
+eeg_json = op.join(mp_root, 'task-matchingpennies_eeg.json')
 with open(eeg_json, 'r') as fin:
     eeg_json_dict = json.load(fin)
 
