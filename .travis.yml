@@ -1,3 +1,5 @@
+os: linux
+dist: bionic
 language: "node_js"
 
 node_js:
@@ -7,8 +9,19 @@ install:
   - npm install -g bids-validator@1.5.4
 
 script:
+  # Checking for large files (there shouldn't be any)
+  - |
+    echo "Checking for big files ..."
+    found=`find . -not -path "./.git*" -type f -size +500k`
+    if [ "$found" == "" ]
+    then
+      echo "No big files present, great!"
+    else
+      echo "Found big files:"
+      echo "$found"
+      exit 1;
+    fi
   # Validating the BIDS datasets using bids-validator
-  # and then checking for large files (there shouldn't be any)
   - |
     rc=0;
     for i in $(ls -d */ | grep -v node_modules);
@@ -20,15 +33,4 @@ script:
         bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
       fi
     done
-
-    echo "Checking for big files ..."
-    found=`find . -not -path "./.git*" -type f -size +500k`
-    if [ "$found" == "" ]
-    then
-      echo "No big files present, great!"
-      exit $rc;
-    else
-      echo "Found big files:"
-      echo "$found"
-      exit 1;
-    fi
+    exit $rc;
