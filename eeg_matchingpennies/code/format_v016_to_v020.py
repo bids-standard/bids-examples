@@ -1,7 +1,18 @@
-"""Reformat matchingpennies."""
+"""Reformat eeg_matchingpennies from version 0.1.6 to version 0.2.0.
+
+Information that is added here was taken from the original (unpublished) study materials.
+
+Requirements
+------------
+- Python 3.7.7
+- Numpy 1.18.5
+- Pandas 1.0.5
+
+"""
 # %% Imports
 import os.path as op
 import json
+import re
 
 import numpy as np
 import pandas as pd
@@ -17,16 +28,16 @@ CHANGES = op.join(mp_root, 'CHANGES')
 with open(CHANGES, 'r', encoding='utf-8') as fin:
     lines = fin.readlines()
 
-fail = True
+expected_versions = set(['0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5', '0.1.6'])
+found_versions = []
 for line in lines:
-    if line.startswith('0.2.0'):
-        fail = True
-        break
-    if line.startswith('0.1.6'):
-        fail = False
+    match = re.match(r'(\d\.\d\.\d)', line)
+    if match:
+        found_versions.append(match.group(0))
 
-if fail:
-    raise RuntimeError('Can only work on data of version 0.1.6, but found 0.1.7 in CHANGES')
+diff = set(found_versions) - set(expected_versions)
+if len(diff) > 0:
+    raise RuntimeError(f'Found unexpected versions in CHANGES: {diff}')
 
 
 # %% Collect changes that are done to data in a list
