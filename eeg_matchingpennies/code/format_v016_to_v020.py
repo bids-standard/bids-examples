@@ -18,26 +18,26 @@ import numpy as np
 import pandas as pd
 
 # %% Constants
-mp_root = '/home/stefanappelhoff/Desktop/bids/bids-examples/eeg_matchingpennies'
+mp_root = "/home/stefanappelhoff/Desktop/bids/bids-examples/eeg_matchingpennies"
 sfreq = 5000
 countdown_duration_s = 3
 
 # %% Assert we are working on the correct version of the data
 
-CHANGES = op.join(mp_root, 'CHANGES')
-with open(CHANGES, 'r', encoding='utf-8') as fin:
+CHANGES = op.join(mp_root, "CHANGES")
+with open(CHANGES, "r", encoding="utf-8") as fin:
     lines = fin.readlines()
 
-expected_versions = set(['0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5', '0.1.6'])
+expected_versions = set(["0.1.0", "0.1.1", "0.1.2", "0.1.3", "0.1.4", "0.1.5", "0.1.6"])
 found_versions = []
 for line in lines:
-    match = re.match(r'(\d\.\d\.\d)', line)
+    match = re.match(r"(\d\.\d\.\d)", line)
     if match:
         found_versions.append(match.group(0))
 
 diff = set(found_versions) - set(expected_versions)
 if len(diff) > 0:
-    raise RuntimeError(f'Found unexpected versions in CHANGES: {diff}')
+    raise RuntimeError(f"Found unexpected versions in CHANGES: {diff}")
 
 
 # %% Collect changes that are done to data in a list
@@ -142,84 +142,107 @@ screen (60fps = 1 screen every 16.66666ms)
 
 """
 
-README = op.join(mp_root, 'README')
-with open(README, 'w', encoding='utf-8') as fout:
+README = op.join(mp_root, "README")
+with open(README, "w", encoding="utf-8") as fout:
     print(txt, file=fout)
 
-changes.append('Added info on feedback onset to README')
+changes.append("Added info on feedback onset to README")
 
 # %% Recalculate ONSET column
 
 for sub in range(5, 12):
-    fname = op.join(mp_root, f'sub-{sub:02}', 'eeg', f'sub-{sub:02}_task-matchingpennies_events.tsv')
-    df = pd.read_csv(fname, sep='\t')
-    df['onset'] = df['sample'] / sfreq
-    df.to_csv(fname, index=False, sep='\t', na_rep='n/a')
+    fname = op.join(
+        mp_root, f"sub-{sub:02}", "eeg", f"sub-{sub:02}_task-matchingpennies_events.tsv"
+    )
+    df = pd.read_csv(fname, sep="\t")
+    df["onset"] = df["sample"] / sfreq
+    df.to_csv(fname, index=False, sep="\t", na_rep="n/a")
 
-changes.append('Re-calculated onset column without rounding')
+changes.append("Re-calculated onset column without rounding")
 
 # %% Reconstruct events that were previously not included
 
 # the columns in events.tsv that refer to the trial as a whole
-trialcols = ['stage', 'trial', 'stim_file', 'trial_type', 'response_time', 'bci_prediction', 'bci_prediction_valid', 'n_repeated', 'latency']
+trialcols = [
+    "stage",
+    "trial",
+    "stim_file",
+    "trial_type",
+    "response_time",
+    "bci_prediction",
+    "bci_prediction_valid",
+    "n_repeated",
+    "latency",
+]
 
 # previous column order for re-ordering later
 prev_col_order = []
 
 # go over subjs
 for sub in range(5, 12):
-    fname = op.join(mp_root, f'sub-{sub:02}', 'eeg', f'sub-{sub:02}_task-matchingpennies_events.tsv')
-    df = pd.read_csv(fname, sep='\t')
+    fname = op.join(
+        mp_root, f"sub-{sub:02}", "eeg", f"sub-{sub:02}_task-matchingpennies_events.tsv"
+    )
+    df = pd.read_csv(fname, sep="\t")
 
-    df = df.rename(columns={'trl': 'trial', 'pred': 'bci_prediction', 'pred_valid': 'bci_prediction_valid', 'n_invalid': 'n_repeated'})
+    df = df.rename(
+        columns={
+            "trl": "trial",
+            "pred": "bci_prediction",
+            "pred_valid": "bci_prediction_valid",
+            "n_invalid": "n_repeated",
+        }
+    )
     if len(prev_col_order) == 0:
         prev_col_order = df.columns[:]
 
     # Add new rows
     tmp = df.copy()
-    tmp['countdown_ends'] = tmp['onset'] - tmp['response_time'] / 1000
-    tmp['countdown_starts'] = tmp['countdown_ends'] - countdown_duration_s
+    tmp["countdown_ends"] = tmp["onset"] - tmp["response_time"] / 1000
+    tmp["countdown_starts"] = tmp["countdown_ends"] - countdown_duration_s
 
-    for newonset in ['countdown_ends', 'countdown_starts']:
+    for newonset in ["countdown_ends", "countdown_starts"]:
         tmptmp = tmp[trialcols + [newonset]]
-        tmptmp = tmptmp.rename(columns={newonset: 'onset'})
+        tmptmp = tmptmp.rename(columns={newonset: "onset"})
         df = df.append(tmptmp, ignore_index=True, sort=True)
 
     # Reorder rows and sort by onset
     df = df[prev_col_order]
-    df = df.sort_values(by='onset')
+    df = df.sort_values(by="onset")
     df = df.reset_index(drop=True)
 
     # Some of our int columns have been converted to float because of np.nan
     # convert to str before saving to assure later int reading
-    for col in ['sample', 'value', 'duration']:
-        df[col] = [int(i) if not np.isnan(i) else 'n/a' for i in df[col].to_list()]
+    for col in ["sample", "value", "duration"]:
+        df[col] = [int(i) if not np.isnan(i) else "n/a" for i in df[col].to_list()]
 
     # Save TSV
-    df.to_csv(fname, index=False, sep='\t', na_rep='n/a')
+    df.to_csv(fname, index=False, sep="\t", na_rep="n/a")
 
 # update JSON
-events_json = op.join(mp_root, 'task-matchingpennies_events.json')
-with open(events_json, 'r') as fin:
+events_json = op.join(mp_root, "task-matchingpennies_events.json")
+with open(events_json, "r") as fin:
     events_json_dict = json.load(fin)
 
 
-events_json_dict['trial'] = events_json_dict.pop('trl')
-events_json_dict['bci_prediction'] = events_json_dict.pop('pred')
-events_json_dict['bci_prediction_valid'] = events_json_dict.pop('pred_valid')
-events_json_dict['n_repeated'] = events_json_dict.pop('n_invalid')
+events_json_dict["trial"] = events_json_dict.pop("trl")
+events_json_dict["bci_prediction"] = events_json_dict.pop("pred")
+events_json_dict["bci_prediction_valid"] = events_json_dict.pop("pred_valid")
+events_json_dict["n_repeated"] = events_json_dict.pop("n_invalid")
 
 
-for col in ['trial_type', 'bci_prediction', 'bci_prediction_valid', 'latency']:
-    data = events_json_dict[col]['Description']
-    data = data.rstrip('.')
-    events_json_dict[col]['Description'] = data + ' in this trial.'
+for col in ["trial_type", "bci_prediction", "bci_prediction_valid", "latency"]:
+    data = events_json_dict[col]["Description"]
+    data = data.rstrip(".")
+    events_json_dict[col]["Description"] = data + " in this trial."
 
-events_json_dict['n_repeated']['Description'] = 'Number of trials that had to be repeated until the present trial because of invalid participant behavior (within this stage).'
+events_json_dict["n_repeated"][
+    "Description"
+] = "Number of trials that had to be repeated until the present trial because of invalid participant behavior (within this stage)."
 
-with open(events_json, 'w', encoding='UTF-8') as fout:
+with open(events_json, "w", encoding="UTF-8") as fout:
     json.dump(events_json_dict, fout, ensure_ascii=False, indent=4)
-    fout.write('\n')
+    fout.write("\n")
 
 # these changes are a bit more extensive, so nest
 these_changes = """Work on events.tsv and json
@@ -235,64 +258,71 @@ changes.append(these_changes)
 # %% Use CMIXf-12 formatting of units
 
 for sub in range(5, 12):
-    fname = op.join(mp_root, f'sub-{sub:02}', 'eeg', f'sub-{sub:02}_task-matchingpennies_channels.tsv')
-    df = pd.read_csv(fname, sep='\t')
-    df['units'] = 'uV'
-    df.to_csv(fname, index=False, sep='\t', na_rep='n/a')
+    fname = op.join(
+        mp_root,
+        f"sub-{sub:02}",
+        "eeg",
+        f"sub-{sub:02}_task-matchingpennies_channels.tsv",
+    )
+    df = pd.read_csv(fname, sep="\t")
+    df["units"] = "uV"
+    df.to_csv(fname, index=False, sep="\t", na_rep="n/a")
 
-with open(events_json, 'r') as fin:
+with open(events_json, "r") as fin:
     events_json_dict = json.load(fin)
 
-for col in ['onset', 'duration']:
-    events_json_dict[col]['Units'] = 's'
+for col in ["onset", "duration"]:
+    events_json_dict[col]["Units"] = "s"
 
-for col in ['response_time', 'latency']:
-    events_json_dict[col]['Units'] = 'ms'
+for col in ["response_time", "latency"]:
+    events_json_dict[col]["Units"] = "ms"
 
 
-with open(events_json, 'w', encoding='UTF-8') as fout:
+with open(events_json, "w", encoding="UTF-8") as fout:
     json.dump(events_json_dict, fout, ensure_ascii=False, indent=4)
-    fout.write('\n')
+    fout.write("\n")
 
 
-changes.append('Use CMIXF-12 formatting throughout: https://people.csail.mit.edu/jaffer/MIXF/CMIXF-12')
+changes.append(
+    "Use CMIXF-12 formatting throughout: https://people.csail.mit.edu/jaffer/MIXF/CMIXF-12"
+)
 
 # %% Update eeg.json
 
-eeg_json = op.join(mp_root, 'task-matchingpennies_eeg.json')
-with open(eeg_json, 'r') as fin:
+eeg_json = op.join(mp_root, "task-matchingpennies_eeg.json")
+with open(eeg_json, "r") as fin:
     eeg_json_dict = json.load(fin)
 
-eeg_json_dict['TaskName'] = 'matchingpennies'
+eeg_json_dict["TaskName"] = "matchingpennies"
 
 
-with open(eeg_json, 'w', encoding='UTF-8') as fout:
+with open(eeg_json, "w", encoding="UTF-8") as fout:
     json.dump(eeg_json_dict, fout, ensure_ascii=False, indent=4)
-    fout.write('\n')
+    fout.write("\n")
 
 
 # %% Update dataset_description.json
 
-ds_json = op.join(mp_root, 'dataset_description.json')
-with open(ds_json, 'r') as fin:
+ds_json = op.join(mp_root, "dataset_description.json")
+with open(ds_json, "r") as fin:
     ds_json_dict = json.load(fin)
 
-ds_json_dict['HowToAcknowledge'] = 'Please cite: ' + ds_json_dict['HowToAcknowledge']
-ds_json_dict['DatasetType'] = 'raw'
+ds_json_dict["HowToAcknowledge"] = "Please cite: " + ds_json_dict["HowToAcknowledge"]
+ds_json_dict["DatasetType"] = "raw"
 
-with open(ds_json, 'w', encoding='UTF-8') as fout:
+with open(ds_json, "w", encoding="UTF-8") as fout:
     json.dump(ds_json_dict, fout, ensure_ascii=False, indent=4)
-    fout.write('\n')
+    fout.write("\n")
 
 
-changes.append('Add new recommended DatasetType field to dataset_description')
+changes.append("Add new recommended DatasetType field to dataset_description")
 
 # %% Update CHANGES
 
 txt = "\n0.2.0 2020-07-24"
 for change in changes:
-    txt += ('\n    - ' + change)
+    txt += "\n    - " + change
 
-CHANGES = op.join(mp_root, 'CHANGES')
-with open(CHANGES, 'a', encoding='utf-8') as fout:
+CHANGES = op.join(mp_root, "CHANGES")
+with open(CHANGES, "a", encoding="utf-8") as fout:
     print(txt, file=fout)
