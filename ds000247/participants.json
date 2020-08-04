@@ -1,0 +1,20 @@
+{
+    "age": {
+        "Description": "Age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Sex of the participant",
+        "Levels": {
+            "Male": "Male",
+            "Female": "Female"
+        }
+    },
+    "dominant_hand": {
+        "Description": "Dominant hand of the participant",
+        "Levels": {
+            "Left": "Left",
+            "Right": "Right"
+        }
+    }
+}

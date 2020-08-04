@@ -16,6 +16,14 @@ intact. This is true for the following datasets:
 - `synthetic`
 - Most EEG or iEEG data in BrainVision format (e.g., `eeg_matchingpennies`)
 
+# Validator Exceptions
+
+Some datasets may include a custom .bids-validator-config.json to ignore errors generated from idiosyncracies of the datasets as they existed on creation.
+
+| name | errors ignored |
+| --- | --- |
+| genetics_ukbb | SliceTiming values for tasks is larger than given TR, EchoTime1 and EchoTime2 are not provided for any of the phasediff files. |
+
 # Contributing
 
 If you want to contribute a dataset to the examples, we would be happy to
@@ -63,7 +71,8 @@ corresponding Pull Request.
 |  eeg_ds000117 | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | mri |  | eeg |  | https://openneuro.org/datasets/ds000117/ |
 |  eeg_matchingpennies | Offline data of BCI experiment decoding left vs. right hand movement. See Matching Pennies: A Brain Computer Interface Implementation Dataset for more information. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  | eeg |  | https://osf.io/cj2dr/ |
 |  eeg_rest_fmri | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk) |  |  | eeg |  |  |
-|  eeg_rishikesh | Mind wandering experiment. EEG data in Biosemi (.bdf) format |  |  | eeg |  | https://zenodo.org/record/2536267 |
+|  eeg_rishikesh | Mind wandering experiment. EEG data in Biosemi (.bdf) format |  |  | eeg |  | https://openneuro.org/datasets/ds001787 |
+|  genetics_ukbb | multiple tasks, T1w, DTI, BOLD, genetic info | mri |  |  |  |  |
 |  hcp_example_bids |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ieeg_epilepsy | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds001779 |
 |  ieeg_epilepsy_ecog | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds001868 |
