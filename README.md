@@ -75,7 +75,7 @@ corresponding Pull Request.
 |  genetics_ukbb | multiple tasks, T1w, DTI, BOLD, genetic info | mri |  |  |  |  |
 |  hcp_example_bids |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
 |  ieeg_epilepsy | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds001779 |
-|  ieeg_epilepsy_ecog | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds001868 |
+|  ieeg_epilepsy_ecog | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds002904 |
 |  ieeg_filtered_speech | recordings of three seizures |  |  |  | ieeg |  |
 |  ieeg_motorMiller2007 | Cue-based hand & tongue movement data |  |  |  | ieeg |  |
 |  ieeg_visual | Stimulus dependence of gamma oscillations in human visual cortex |  |  |  | ieeg |  |
