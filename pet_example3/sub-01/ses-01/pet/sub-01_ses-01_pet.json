@@ -14,16 +14,6 @@
         "SpecificRadioactivity": 929.6,
         "SpecificRadioactivityUnit": "MBq/ug",
         "ModeOfAdministration": "bolus",
-<<<<<<< Updated upstream
-        "FrameTimesStart": [0, 10, 20, 30, 40, 50, 60, 80, 100, 120, 150, 180, 210, 240, 270, 300, 360, 420, 480, 540, 600, 720, 840, 960, 1080, 1200, 1500, 1800, 2100, 4521, 4800, 5100],
-        "FrameTimesStartUnit": "seconds",
-        "FrameDuration": [10, 20, 30, 40, 50, 60, 80, 100, 120, 150, 180, 210, 240, 270, 300, 360, 420, 480, 540, 600, 720, 840, 960, 1080, 1200, 1500, 1800, 2100, 2337, 4800, 5100, 5400],
-        "FrameDurationUnit": "seconds",
-        "AcquisitionMode": "list mode",
-        "ImageDecayCorrected": true,
-        "ImageDecayCorrectionTime": "10:33:47",
-        "ReconMatrixSize": [256,256,207,32],
-=======
         "MolarActivity": 353.51,
         "MolarActivityUnit": "GBq/umol",
         "MolarActivityMeasTime": "12:59:00",
@@ -36,7 +26,6 @@
         "ImageDecayCorrected": true,
         "ImageDecayCorrectionTime": 0,
         "ReconMatrixSize": [256,256,207,45],
->>>>>>> Stashed changes
         "ImageVoxelSize": [1.2188,1.2188,1.2188],
         "ReconMethodName": "3D-OSEM-PSF",
         "ReconMethodParameterLabels": ["subsets","iterations"],
