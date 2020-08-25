@@ -1,14 +1,14 @@
 {
     "onset": {
         "Description": "Onset of the event",
-        "Units": "seconds"
+        "Units": "s"
     },
     "duration": {
         "Description": "Duration of the event",
-        "Units": "seconds"
+        "Units": "s"
     },
     "trial_type": {
-        "Description": "Which hand was lifted by the participant.",
+        "Description": "Which hand was lifted by the participant in this trial.",
         "Levels": {
             "left": "Left",
             "right": "Right"
@@ -16,7 +16,7 @@
     },
     "response_time": {
         "Description": "Reaction time to lift the left or right hand after the countdown reached zero.",
-        "Units": "Milliseconds"
+        "Units": "ms"
     },
     "stim_file": {
         "Description": "Name of the file that was shown during this trial of the experiment."
@@ -39,28 +39,28 @@
             "3": "Stage 3. BCI was trained on data from stages 1 and 2."
         }
     },
-    "trl": {
+    "latency": {
+        "Description": "Estimated beginning of the data chunk used for the BCI prediction with respect to the true event as measured by parallel port trigger in this trial.",
+        "Units": "ms"
+    },
+    "trial": {
         "Description": "The current trial within this stage."
     },
-    "pred": {
-        "Description": "Which lift_side did the BCI predict.",
+    "bci_prediction": {
+        "Description": "Which lift_side did the BCI predict in this trial.",
         "Levels": {
             "left": "Left",
             "right": "Right"
         }
     },
-    "pred_valid": {
-        "Description": "Did a prediction arrive on time (if not, a random prediction was made)",
+    "bci_prediction_valid": {
+        "Description": "Did a prediction arrive on time (if not, a random prediction was made) in this trial.",
         "Levels": {
             "1": "True",
             "2": "False"
         }
     },
-    "n_invalid": {
-        "Description": "Number of invalid trials up to this trial."
-    },
-    "latency": {
-        "Description": "Estimated beginning of the data chunk used for the BCI prediction with respect to the true event as measured by parallel port trigger.",
-        "Units": "Milliseconds"
+    "n_repeated": {
+        "Description": "Number of trials that had to be repeated until the present trial because of invalid participant behavior (within this stage)."
     }
 }
