@@ -4,7 +4,8 @@ node_js:
   - "12"
 
 install:
-  - npm install -g bids-validator@1.5.0
+  - git clone https://github.com/mnoergaard/bids-validator.git
+  - cd ./bids-validator && git checkout bep_009 && cd ./bids-validator && npm install -g .
 
 script:
   # Validating the BIDS datasets using bids-validator
