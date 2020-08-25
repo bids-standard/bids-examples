@@ -4,23 +4,11 @@
         "Units": "s"
     },
     "plasma_radioactivity": {
-        "Description": "Radioactivity in plasma samples. Measured using COBRA counter.", 
-        "Units": "kBq/ml"
-    },
-    "whole_blood_radioactivity": {
-        "Description": "Radioactivity in whole blood samples. Measured using COBRA counter.",
-        "Units": "kBq/ml"
+        "Description": "Radioactivity in plasma samples", 
+        "Units": "Bq/ml"
     },
     "metabolite_parent_fraction": {
-        "Description": "Parent fraction of the radiotracer.",
-        "Units": "unitless"
-    },
-    "metabolite_polar_fraction": {
-        "Description": "Polar metabolite fraction of the radiotracer.",
-        "Units": "unitless"
-    },
-    "metabolite_lipophilic_fraction": {
-        "Description": "Lipophilic metabolite fraction of the radiotracer.",
+        "Description": "Parent fraction of the radiotracer. The metabolite and unmetabolized parent compound were collected in separate vials, and radioactivity was quantified using a Bioscan g-detector after correction for background radioactivity.",
         "Units": "unitless"
     }
 }

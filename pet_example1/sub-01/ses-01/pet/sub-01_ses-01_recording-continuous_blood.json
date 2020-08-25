@@ -3,9 +3,9 @@
         "Description": "Time in relation to time zero defined by the _pet.json",
         "Units": "s"
     },
-    "whole_blood_radioactivity": {
-        "Description": "Radioactivity in uncorrected whole blood samples from Allogg autosampler.",
-        "Units": "kBq/ml"
+    "plasma_radioactivity": {
+        "Description": "Radioactivity in plasma samples", 
+        "Units": "Bq/ml"
     }
 }
 

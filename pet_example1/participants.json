@@ -3,8 +3,7 @@
     "LongName":"Participant Id",
     "Description":"label identifying a particular subject"
   },
-  "weight":{
-    "LongName":"Weight",
-    "Units": "kg"
+  "sex":{
+    "LongName":"Sex"
   }
 }

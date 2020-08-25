@@ -38,6 +38,7 @@ file.
 If you want to update this table, please open a new GitHub Issue and a
 corresponding Pull Request.
 
+<<<<<<< HEAD
 
 |  name | description | mri | meg | eeg | ieeg | full data |
 | --- | --- | --- | --- | --- | --- | --- |

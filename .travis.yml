@@ -6,7 +6,8 @@ node_js:
   - "12"
 
 install:
-  - npm install -g bids-validator@1.5.4
+  - cd ~/ && git clone https://github.com/mnoergaard/bids-validator.git
+  - cd ./bids-validator && git checkout martin && cd ./bids-validator && npm install -g . && cd $TRAVIS_BUILD_DIR
 
 script:
   # Checking for large files (there shouldn't be any)
