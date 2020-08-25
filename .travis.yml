@@ -5,7 +5,7 @@ node_js:
 
 install:
   - cd ~/ && git clone https://github.com/mnoergaard/bids-validator.git
-  - cd ./bids-validator && git checkout martin && cd ./bids-validator && npm install -g . && cd TRAVIS_BUILD_DIR
+  - cd ./bids-validator && git checkout martin && cd ./bids-validator && npm install -g . && cd $TRAVIS_BUILD_DIR
 
 script:
   # Validating the BIDS datasets using bids-validator
