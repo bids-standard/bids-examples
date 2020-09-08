@@ -1,30 +1,37 @@
+os: linux
+dist: bionic
 language: "node_js"
 
 node_js:
   - "12"
 
 install:
-  - npm install -g bids-validator@1.5.0
+  - cd ~/ && git clone https://github.com/mnoergaard/bids-validator.git
+  - cd ./bids-validator && git checkout martin && cd ./bids-validator && npm install -g . && cd $TRAVIS_BUILD_DIR
 
 script:
-  # Validating the BIDS datasets using bids-validator
-  # and then checking for large files (there shouldn't be any)
+  # Checking for large files (there shouldn't be any)
   - |
-    rc=0;
-    for i in $(ls -d */ | grep -v node_modules);
-    do
-      echo "Validating dataset" $i
-      bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
-    done
-
     echo "Checking for big files ..."
     found=`find . -not -path "./.git*" -type f -size +500k`
     if [ "$found" == "" ]
     then
       echo "No big files present, great!"
-      exit $rc;
     else
       echo "Found big files:"
       echo "$found"
       exit 1;
     fi
+  # Validating the BIDS datasets using bids-validator
+  - |
+    rc=0;
+    for i in $(ls -d */ | grep -v node_modules);
+    do
+      echo "Validating dataset" $i
+      if [ -f ${i%%/}/.bids-validator-config.json ]; then
+        bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+      else
+        bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+      fi
+    done
+    exit $rc;
