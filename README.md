@@ -38,8 +38,6 @@ file.
 If you want to update this table, please open a new GitHub Issue and a
 corresponding Pull Request.
 
-<<<<<<< HEAD
-
 |  name | description | mri | meg | eeg | ieeg | full data |
 | --- | --- | --- | --- | --- | --- | --- |
 |  7t_trt | field maps, physiological data, quantitative T1 maps, T1w, BOLD | mri |  |  |  | https://bit.ly/2H0Z6Qt |
