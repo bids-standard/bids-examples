@@ -1,0 +1,7 @@
+This example derivatives dataset has been constructed from the outputs of running
+fMRIPrep 20.2.0rc0 on four subjects in OpenNeuro ds000001.
+
+The JSON files are untouched, with the exception of the confounds truncated to a
+more reasonable length while preserving validity.
+
+All other files have been truncated to 0 bytes.
