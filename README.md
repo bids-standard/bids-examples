@@ -74,8 +74,8 @@ corresponding Pull Request.
 |  eeg_rishikesh | Mind wandering experiment. EEG data in Biosemi (.bdf) format |  |  | eeg |  | https://openneuro.org/datasets/ds001787 |
 |  genetics_ukbb | multiple tasks, T1w, DTI, BOLD, genetic info | mri |  |  |  |  |
 |  hcp_example_bids |  |  |  |  |  | https://bit.ly/2H0Z6Qt |
-|  ieeg_epilepsy | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds001779 |
-|  ieeg_epilepsy_ecog | multiple sessions, tutorial | mri |  |  | ieeg | https://openneuro.org/datasets/ds002904 |
+|  ieeg_epilepsy | multiple sessions, tutorial | mri |  |  | ieeg | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap |
+|  ieeg_epilepsy_ecog | multiple sessions, tutorial | mri |  |  | ieeg | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog |
 |  ieeg_filtered_speech | recordings of three seizures |  |  |  | ieeg |  |
 |  ieeg_motorMiller2007 | Cue-based hand & tongue movement data |  |  |  | ieeg |  |
 |  ieeg_visual | Stimulus dependence of gamma oscillations in human visual cortex |  |  |  | ieeg |  |
