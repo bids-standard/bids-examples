@@ -19,7 +19,7 @@
 "LabelingType":"PCASL",
 "PostLabelingDelay":2.000,
 "BackgroundSuppression":true,
-"M0":"perf/sub-Sub103_m0scan.nii",
+"M0":"perf/sub-Sub103_m0scan.nii.gz",
 "VascularCrushing":false,
 "AcquisitionVoxelSize":[3.4,3.4,4],
 "BackgroundSuppressionNumberPulses":5,
