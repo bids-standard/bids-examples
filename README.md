@@ -1,14 +1,14 @@
-[![Travis](https://api.travis-ci.org/bids-standard/bids-examples.svg?branch=master "Travis")](https://travis-ci.org/bids-standard/bids-examples)
+[![GitHub Actions](https://github.com/bids-standard/bids-examples/workflows/validate_datasets/badge.svg)](https://github.com/bids-standard/bids-examples/actions)
 
 # bids-examples
 
-This repository contains a set of [BIDS-compatible](http://bids.neuroimaging.io/)
+This repository contains a set of [BIDS-compatible](https://bids.neuroimaging.io/)
 datasets with **empty raw data files**. These datasets can be useful to:
 
 1. write lightweight software tests
 1. serve as an example on how a BIDS dataset can be structured
 
-ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!
+**ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!**
 
 However for some of the data, the headers containing the metadata are still
 intact. This is true for the following datasets:
@@ -18,7 +18,7 @@ intact. This is true for the following datasets:
 
 # Validator Exceptions
 
-Some datasets may include a custom .bids-validator-config.json to ignore errors generated from idiosyncracies of the datasets as they existed on creation.
+Some datasets may include a custom `.bids-validator-config.json` to ignore errors generated from idiosyncracies of the datasets as they existed on creation.
 
 | name | errors ignored |
 | --- | --- |
