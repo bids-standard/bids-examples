@@ -6,7 +6,7 @@ node_js:
   - "12"
 
 install:
-  - npm install -g bids-validator@1.5.4
+  - npm install -g bids-validator@1.5.7
 
 script:
   # Checking for large files (there shouldn't be any)
