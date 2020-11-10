@@ -24,6 +24,13 @@ Some datasets may include a custom `.bids-validator-config.json` to ignore error
 | --- | --- |
 | genetics_ukbb | SliceTiming values for tasks is larger than given TR, EchoTime1 and EchoTime2 are not provided for any of the phasediff files. |
 
+Other datasets may include a `.SKIP_VALIDATION` file, to skip the validation with the continuous integration service.
+This is useful for datasets that *cannot* pass at the moment due to lack of coverage in the [bids-validator](https://github.com/bids-standard/bids-validator).
+
+| name | why skipped |
+| --- | --- |
+| ds000001-fmriprep | lack of coverage in bids-validator |
+
 # Contributing
 
 If you want to contribute a dataset to the examples, we would be happy to
@@ -81,3 +88,4 @@ corresponding Pull Request.
 |  ieeg_visual | Stimulus dependence of gamma oscillations in human visual cortex |  |  |  | ieeg |  |
 |  ieeg_visual_multimodal |  |  |  |  | ieeg |  |
 |  synthetic | A synthetic dataset | mri |  |  |  |  |
+|  ds000001-fmriprep | Common derivatives example | mri | | | | | https://openneuro.org/datasets/ds000001/versions/1.0.0
