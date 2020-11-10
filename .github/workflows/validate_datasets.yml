@@ -74,7 +74,7 @@ jobs:
         do
           echo "Validating dataset" $i
           if [ -f ${i%%/}/.SKIP_VALIATION ]; then
-            echo "skipping validation for" ${i%%/}
+            echo "skipping validation for ${i%%/}"
           elif [ -f ${i%%/}/.bids-validator-config.json ]; then
             bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
           else
