@@ -73,7 +73,9 @@ jobs:
         for i in $(ls -d */ | grep -v node_modules);
         do
           echo "Validating dataset" $i
-          if [ -f ${i%%/}/.bids-validator-config.json ]; then
+          if [ -f ${i%%/}/.SKIP_VALIATION ]; then
+            echo "skipping validation for" ${i%%/}
+          elif [ -f ${i%%/}/.bids-validator-config.json ]; then
             bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
           else
             bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
