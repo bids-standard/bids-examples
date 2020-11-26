@@ -1,13 +1,11 @@
 {
-  "Name": "ASL-BIDS example datasets",
-  "BIDSVersion": "1.5.0",
-  "DatasetType": "raw",
-  "License": "RandomText",
-  "Authors": ["RandomText"],
-  "Acknowledgements": "RandomText",
-  "HowToAcknowledge": "Please cite this paper: https://www.ncbi.nlm.nih.gov/pubmed/001012092119281",
-  "Funding": ["RandomText"],
-  "EthicsApprovals": ["RandomText"],
-  "ReferencesAndLinks": ["RandomText"],
-  "DatasetDOI": "RandomText"
+"Name": "ASL_Siemens_PASL_multiTI",
+"BIDSVersion": "1.5.0",
+"DatasetType": "raw",
+"License": "CC BY-NC-ND (https://creativecommons.org/licenses/by-nc-nd/4.0/)",
+  "Authors": [
+	"Patricia Clement",
+	"Eric Achten"
+],
+  "HowToAcknowledge": "If you reference this dataset in your publications, please acknowledge its authors."
 }
