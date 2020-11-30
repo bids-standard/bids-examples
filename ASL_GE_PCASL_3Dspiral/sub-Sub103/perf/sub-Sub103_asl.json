@@ -15,7 +15,7 @@
 "ArterialSpinLabelingType":"PCASL",
 "PostLabelingDelay":2.025,
 "BackgroundSuppression":true,
-"M0":true,
+"M0Type":"Included",
 "VascularCrushing":false,
 "AcquisitionVoxelSize":[4,4,8],
 "BackgroundSuppressionNumberPulses":4,
