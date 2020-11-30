@@ -16,7 +16,7 @@
 "SliceTiming":[0,0.0385,0.077,0.1155,0.154,0.1925,0.231,0.2695,0.308,0.3465,0.385,0.4235,0.462,0.5004999999999999,0.539,0.5775,0.616,0.6545,0.6929999999999999,0.7315],
 "FlipAngle":90,
 "RepetitionTimePreparation":4.57168115234375,
-"LabelingType":"PCASL",
+"ArterialSpinLabelingType":"PCASL",
 "PostLabelingDelay":2.000,
 "BackgroundSuppression":true,
 "M0":"perf/sub-Sub103_m0scan.nii.gz",
