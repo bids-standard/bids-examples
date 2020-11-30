@@ -22,7 +22,7 @@
 "ArterialSpinLabelingType":"PASL",
 "PostLabelingDelay":[0.3,0.3,0.6,0.6,0.9,0.9,1.2,1.2,1.5,1.5,1.8,1.8,2.1,2.1,2.4,2.4,2.7,2.7,3,3],
 "BackgroundSuppression":true,
-"M0":"perf/sub-Sub1_m0scan.nii.gz",
+"M0Type":"Separate",
 "VascularCrushing":false,
 "AcquisitionVoxelSize":[8,4,6],
 "BackgroundSuppressionNumberPulses":2,
