@@ -2,12 +2,11 @@
   "Name": "ASL-BIDS example datasets",
   "BIDSVersion": "1.5.0",
   "DatasetType": "raw",
-  "License": "RandomText",
-  "Authors": ["RandomText"],
+  "License": "This dataset is made available under CC0.",
+  "Authors": [   "Sjoerd B. Vos",
+    "David L. Thomas"
+],
   "Acknowledgements": "RandomText",
-  "HowToAcknowledge": "Please cite this paper: https://www.ncbi.nlm.nih.gov/pubmed/001012092119281",
-  "Funding": ["RandomText"],
-  "EthicsApprovals": ["RandomText"],
-  "ReferencesAndLinks": ["RandomText"],
-  "DatasetDOI": "RandomText"
+  "HowToAcknowledge": "If you reference this dataset in your publications, please acknowledge its authors.",
+  "EthicsApprovals": "This study was approved by the local ethics committee as protocol optimisation procedures"
 }
