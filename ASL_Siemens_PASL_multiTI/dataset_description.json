@@ -2,10 +2,11 @@
 "Name": "ASL_Siemens_PASL_multiTI",
 "BIDSVersion": "1.5.0",
 "DatasetType": "raw",
-"License": "CC BY-NC-ND (https://creativecommons.org/licenses/by-nc-nd/4.0/)",
+"License": "This dataset is made available under CC0.",
   "Authors": [
 	"Patricia Clement",
 	"Eric Achten"
 ],
-  "HowToAcknowledge": "If you reference this dataset in your publications, please acknowledge its authors."
+"HowToAcknowledge": "If you reference this dataset in your publications, please acknowledge its authors.",
+"EthicsApprovals": "This study was approved by the Ethics committee of Ghent University Hospital with identifier EC 2017/1103."
 }
