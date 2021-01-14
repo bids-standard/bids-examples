@@ -68,7 +68,7 @@ Below you find several tables with information about the datasets available in b
 
 |  name | maintained by | description | link to full data |
 | --- | --- | --- | --- |
-| ieeg_filtered_speech | | recordings of three seizures |  |  |  | ieeg |  |
+| ieeg_filtered_speech | @choldgraf | recordings of three seizures |  |  |  | ieeg |  |
 | ieeg_motorMiller2007 | @dorahermes | Cue-based hand & tongue movement data |  |  |  | ieeg |  |
 | ieeg_visual | @dorahermes | Stimulus dependence of gamma oscillations in human visual cortex |  |  |  | ieeg |  |
 
