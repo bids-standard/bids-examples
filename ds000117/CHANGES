@@ -1,3 +1,44 @@
+1.0.4 2020-12-18
+  - Corrected stimuli (and added a few more notes about subject numbers in different versions of dataset)
+1.0.3	2018-11-26
+
+	- Updated task-facerecognition_bold.json and acq-mprage_T1w.json with more fields (eg PhaseEncodingDirection and SliceTiming). Added README note about reduced volumes for sub-10, run-09. Deleted session-specific *channels.tsv and *json files for MEG sub-emptyroom (which were labelled with "task-facerecognition" rather than "task-noise" like *.fif files, causing BIDS Validator error). Added a single *channels.tsv and *.json at higher level of sub-emptyroom, which should be inherited)
+
+1.0.2	2018-09-30
+
+	- Moved *_meg.json and *_channels.tsv to session level 
+	- Various edits to *_coordsystem.json and *_meg.json files
+	- Added acquisition dates of corresponding empty room scan to *scans.tsv
+	- Copied metadata from *_meg.json files to derivatives/
+
+1.0.2	2018-09-13
+
+	- Adding DOI
+
+1.0.1	2018-08-25
+
+	- Deleted *.fif.gz files
+
+1.0.1	2018-08-23
+
+	- Deleted *.fif.gz files
+
+4.0.0	2018-05-23
+
+	- Removed 2 dummy func volumes per run so onsets match start of third scan, and uploaded stimulus and some reference files that were previously empty placeholders
+
+3.0.0	2018-04-06
+
+	- Another update to README after accession number changed again
+
+2.0.0	2018-04-03
+
+	- Just changed dataset name and some info in README
+
+1.0.0	2018-03-31
+
+	- First release of OpenNeuro version with MEG BIDS
+
 Revision history for OpenfMRI dataset ds000117
 
 1.0.0 2017-11-08
