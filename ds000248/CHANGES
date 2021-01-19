@@ -1,16 +1,11 @@
+1.2.4 2020-12-11
+  - remove .bidsignore and anonymize data and write FLASH MRI properly
+1.2.3 2020-12-10
+  - anonymize data, get rid of .bidsignore
+1.2.2 2020-10-13
+  - Try to fix upload
 1.0.0	2018-03-30
 
 	- Initial release
 
-1.1.0	2019-07-17
-
-	- sub-01_task-audiovisual_run-01_events.tsv
-		- renamed 'condition' column header to 'trial_type'
-		- changed durations from 'n/a' to 0
-	- added a README file
-	- added a sub-01_acq-epi_T1w.json file with coordinates of landmarks
-	- updated dataset_description
-		- new field "Acknowledgements"
-		- fixed the mix-up between "HowToAcknowledge" and "ReferencesAndLinks"
-	- added the derivatives/freesurfer/subjects/ directory with subdirectories 01,
-          and fsaverage
+undefined
