@@ -60,7 +60,7 @@ Below you find several tables with information about the datasets available in b
 
 |  name | maintained by | description | link to full data |
 | --- | --- | --- | --- |
-|  eeg_matchingpennies | @sappelhoff |Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | https://doi.org/10.17605/OSF.IO/CJ2DR |
+|  eeg_matchingpennies | @sappelhoff | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | https://doi.org/10.17605/OSF.IO/CJ2DR |
 |  eeg_rishikesh | @arnodelorme | Mind wandering experiment. EEG data in Biosemi (.bdf) format | https://openneuro.org/datasets/ds001787 |
 |  eeg_face13 | @andesha | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format | |
 
@@ -68,7 +68,7 @@ Below you find several tables with information about the datasets available in b
 
 |  name | maintained by | description | link to full data |
 | --- | --- | --- | --- |
-| ieeg_filtered_speech | @choldgraf | recordings of three seizures |  |  |  | ieeg |  |
+| ieeg_filtered_speech | @choldgraf | recordings of three seizures |  |  |  | ieeg | not publicly available |
 | ieeg_motorMiller2007 | @dorahermes | Cue-based hand & tongue movement data |  |  |  | ieeg |  |
 | ieeg_visual | @dorahermes | Stimulus dependence of gamma oscillations in human visual cortex |  |  |  | ieeg |  |
 
@@ -107,12 +107,12 @@ Below you find several tables with information about the datasets available in b
 
 |  name | maintained by | description | mri | meg | eeg | ieeg | genetics | link to full data |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  ds000117 | | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | mri | meg | eeg |  | | https://openneuro.org/datasets/ds000117/ |
-|  ds000246 | | Auditory dataset used for Brainstorm’s general online tutorial | mri | meg |  |  | | https://openneuro.org/datasets/ds000246/versions/00001 |
-|  ds000247 | | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA). | mri | meg |  |  | | https://openneuro.org/datasets/ds000247/versions/00001 |
-|  ds000248 | | MNE sample data: Data with visual and auditory stimuli | mri | meg |  |  | | https://openneuro.org/datasets/ds000248/versions/00001 |
+|  ds000117 | @RikHenson | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | mri | meg | eeg |  | | https://openneuro.org/datasets/ds000117/ |
+|  ds000246 | @guiomar | Auditory dataset used for Brainstorm’s general online tutorial | mri | meg |  |  | | https://openneuro.org/datasets/ds000246/versions/00001 |
+|  ds000247 | @guiomar | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA). | mri | meg |  |  | | https://openneuro.org/datasets/ds000247/versions/00001 |
+|  ds000248 | @agramfort | MNE sample data: Data with visual and auditory stimuli | mri | meg |  |  | | https://openneuro.org/datasets/ds000248/versions/00001 |
 |  eeg_cbm | @cpernet | Rest EEG. European Data Format (.edf) | mri |  | eeg |  |  | |
-|  eeg_ds000117 | | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | mri |  | eeg |  | | https://openneuro.org/datasets/ds000117/ |
+|  eeg_ds000117 | @robertoostenveld | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | mri |  | eeg |  | | https://openneuro.org/datasets/ds000117/ |
 |  eeg_rest_fmri | @cpernet | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk) | mri |  | eeg |  |  | |
 |  ieeg_epilepsy | @ftadel | multiple sessions, tutorial | mri |  |  | ieeg | | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap |
 |  ieeg_epilepsy_ecog | @ftadel | multiple sessions, tutorial | mri |  |  | ieeg | | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog |
