@@ -37,7 +37,7 @@ We are happy to receive contributions in the form of:
 
 - updates to existing examples, or the [dataset index](dataset-index)
 - new examples
-    - only if they cover aspected that are currently not covered by existing examples
+    - only if they cover aspects that are currently not covered by existing examples
     - only if a maintainer can be found for this dataset
 - suggestions on how to improve the bids-examples repository
 
