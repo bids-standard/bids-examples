@@ -77,11 +77,11 @@ Below you find several tables with information about the datasets available in b
 |  name | maintained by | description | link to link to full data |
 | --- | --- | --- | --- |
 |  7t_trt | | field maps, physiological data, quantitative T1 maps, T1w, BOLD | https://bit.ly/2H0Z6Qt | 
-|  ASL_GE_PCASL_3Dspiral | @patsycle | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries | |
-|  ASL_Philips_PCASL_2DEPI | @patsycle | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan | |
-|  ASL_Siemens_PASL_multiTI | @patsycle | T1w, asl (Siemens, PASL, multiTI), M0 from average control image | |
-|  ASL_Siemens_PCASL_multiPLD_pepolar | @patsycle | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | |
-|  ASL_Siemens_PCASL_singleTI_3DGRASE | @patsycle | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan | |
+|  asl001 | @patsycle | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries | |
+|  asl002 | @patsycle | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan | |
+|  asl003 | @patsycle | T1w, asl (Siemens, PASL, multiTI), M0 from average control image | |
+|  asl004 | @patsycle | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | |
+|  asl005 | @patsycle | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan | |
 |  ds001 | | single task, multiple runs, in-plane T2, events, T1w, BOLD | https://openneuro.org/datasets/ds000001/versions/00006 |
 |  ds002 | | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD | https://openneuro.org/datasets/ds000002/versions/00002 |
 |  ds003 | | single task, single run, in-plane T2, events, T1w, BOLD | https://openneuro.org/datasets/ds000003/versions/00001 |
