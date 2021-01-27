@@ -1,0 +1,85 @@
+name: validate_datasets
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: ['**']
+  create:
+    branches: [master]
+    tags: ['**']
+  schedule:
+    - cron: "0 4 * * 1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        bids-validator: [master, stable]
+
+    env:
+      TZ: Europe/Berlin
+      FORCE_COLOR: 1
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+
+    - name: Install BIDS validator (stable)
+      if: "matrix.bids-validator == 'stable'"
+      run: |
+        npm install -g bids-validator
+
+    - name: Install BIDS validator (master)
+      if: "matrix.bids-validator == 'master'"
+      run: |
+        pushd ..
+        git clone --depth 1 https://github.com/bids-standard/bids-validator
+        npm install -g bids-validator/bids-validator
+        popd
+
+    - name: Display versions and environment information
+      run: |
+        echo $TZ
+        date
+        echo "npm"; npm --version
+        echo "node"; node --version
+        echo "bids-validator"; bids-validator --version
+
+    - name: Check that no large files are present
+      if: "matrix.bids-validator == 'stable'"
+      run: |
+        echo "Checking for big files ..."
+        found=`find . -not -path "./.git*" -type f -size +500k`
+        if [ "$found" == "" ]
+        then
+          echo "No big files present, great!"
+        else
+          echo "Found big files:"
+          echo "$found"
+          exit 1;
+        fi
+      shell: bash
+
+    - name: Validate all BIDS datasets using bids-validator
+      run: |
+        rc=0;
+        for i in $(ls -d */ | grep -v node_modules);
+        do
+          echo "Validating dataset" $i
+          if [ -f ${i%%/}/.SKIP_VALIDATION ]; then
+            echo "skipping validation for ${i%%/}"
+          elif [ -f ${i%%/}/.bids-validator-config.json ]; then
+            bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+          else
+            bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+          fi
+        done
+        exit $rc;
+      shell: bash

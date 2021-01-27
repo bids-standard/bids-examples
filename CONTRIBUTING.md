@@ -2,6 +2,20 @@
 
 Below, we note down some helpful information for contributors.
 
+## What does a dataset maintainer do?
+
+A maintainer of a dataset is responsible for keeping the dataset up to date,
+and making sure that all updates are mirrored between the dataset with
+full size raw data
+(for example, as hosted on [OpenNeuro](https://openneuro.org)),
+and the bids-example dataset with 0kb size (empty) raw data.
+
+Typically an update to a BIDS dataset may be required,
+if the [bids-validator](https://github.com/bids-standard/bids-validator)
+is updated and gets an increased coverage of BIDS aspects to validated.
+In such cases, the new validator may reveal bugs that have gone undetected
+in the previous validation.
+
 ## Why do we only host truncated data with 0kb size?
 
 The datasets in the bids-examples repository are intended for lightweight

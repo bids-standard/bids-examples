@@ -1,0 +1,69 @@
+{
+    "age": {
+        "LongName": "age",
+        "Description": "age of the participant",
+        "Units": "month"
+    },
+    "sex": {
+        "LongName": "sex",
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "group": {
+        "LongName": "group",
+        "Description": "classification of participant based on study desease status",
+        "Levels": {
+            "patient": "patient",
+            "control": "control"
+        }
+    },
+    "genetic_id": {
+        "LongName": "genetic_id",
+        "Description": "Uniq sample ID per genotyped sample in genetic database"
+      },
+    "IDH": {
+        "LongName": "isocitrate dehydrogenase gene",
+        "Description": "mutation present or abscent",
+        "Levels": {
+            "yes": "present",
+            "no": "abscent"
+        }      },
+    "BatchID": {
+        "LongName": "BatchID",
+        "Description": "SNP array genotyping uniq batch ID per group of subjects",
+        "Levels": {
+            "b001": "Batch sequence number 1",
+            "b002": "Batch sequence number 2"
+        }
+      },
+      "VariationSetType": {
+            "LongName": "VariationSetType",
+            "Description": "Availability of SNV and/or CNV information",
+            "Levels": {
+                "SNV": "Single-nucleotide variants",
+                "CNV": "Copy-Number Variants",
+                "SNV/CNV": "Single-nucleotide variants/Copy-Number Variants"
+            }
+        },
+      "Assembly": {
+              "LongName": "Assembly",
+              "Description": "Reference genome from which the sample variations were computed",
+              "Levels": {
+                  "hg19": "Human genome version 19 equivalent to GRCh37 (Genome Reference consorcium of human build 37)",
+                  "hg38": "Human genome version 38 equivalent to GRCh38 (Genome Reference consorcium of human build 38)",
+                  "hg19/hg38": "Genome used to compute respectively the variations"
+              }
+          },
+      "GeneticDataType": {
+              "LongName": "GeneticDataType",
+              "Description": "Raw genetic data type submited for the dataset",
+              "Levels": {
+                  "WES": "Whole Exome Sequencing data (compressed FastQ or binary data format such as BAM or CRAM )",
+                  "SNP_intensity": "SNP array intensity data (text formated data type known as Illumina Final Report data)",
+                  "WES/SNP_intensity": "Both WES or SNP array data are available"
+              }
+        }
+  }

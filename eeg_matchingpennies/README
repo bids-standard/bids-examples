@@ -1,15 +1,26 @@
 Overview
 --------
 This is the "Matching Pennies" dataset. It was collected as part of a small
-scale replication project targeting [1]. In brief, it contains EEG data for 7
-subjects raising either their left or right hand, thus giving rise to a
-lateralized readiness potential as measured with the EEG. For details,
-see the `Details about the experiment` section.
+scale replication project targeting the following reference:
+
+Matthias Schultze-Kraft et al.
+"Predicting Motor Intentions with Closed-Loop Brain-Computer Interfaces".
+In: Springer Briefs in Electrical and Computer Engineering.
+Springer International Publishing, 2017, pp. 79–90.
+
+In brief, it contains EEG data for 7 subjects raising either their left or right hand,
+thus giving rise to a lateralized readiness potential as measured with the EEG.
+For details, see the `Details about the experiment` section.
 
 
 Citing this dataset
 -------------------
-Please cite [2]. For more information, see the `dataset_description.json` file.
+Please cite as follows:
+
+Appelhoff, S., Sauer, D., & Gill, S. S. (2018, July 22).
+Matching Pennies: A Brain Computer Interface Implementation Dataset.
+
+For more information, see the `dataset_description.json` file.
 
 
 License
@@ -45,8 +56,8 @@ they are overridden by a file at the lower level.
 
 Details about the experiment
 ----------------------------
-For a detailed description of the task, see [1] and the supplied
-`task-matchingpennies_eeg.json` file.
+For a detailed description of the task, see Schultze-Kraft et al. (2017)
+and the supplied `task-matchingpennies_eeg.json` file.
 
 Subjects 1 to 4 participated in the pilot testing only. Their data are not
 included in this dataset.
@@ -72,14 +83,13 @@ brainvision format (see the `.eeg` file for binary eeg data, the `.vhdr` as a
 text header filer containing meta data, and the `.vmrk` as a text file storing
 the eeg markers).
 
+Note that in the experiment, the only EEG TTL triggers that were recorded are related
+to the button release of the left (=value 1) or right (=value 2) hand.
+The onset of the feedback stimulus (drawing ofleft or right hand shown on the screen)
+was not recorded, however it can be crudely estimated to be around 50ms + ~10ms + ~8ms,
+where 50ms were a hardcoded break before getting the online data from LSL, ~10ms was
+the time to get a prediction from the BCI classifier, but this varied around 10ms,
+and finally the ~8ms at the end come from the uncertainty of the refresh rate of the
+screen (60fps = 1 screen every 16.66666ms)
 
-References
-----------
-.. [1] Matthias Schultze-Kraft et al. "Predicting Motor Intentions with
-       Closed-Loop Brain-Computer Interfaces". In: Springer Briefs in
-       Electrical and Computer Engineering. Springer International Publishing,
-       2017, pp. 79–90. https://doi.org/10.1007/978-3-319-64373-1_8.
 
-.. [2] Appelhoff, S., Sauer, D., & Gill, S. S. (2018, July 22).
-       Matching Pennies: A Brain Computer Interface Implementation Dataset.
-       https://doi.org/10.17605/OSF.IO/CJ2DR

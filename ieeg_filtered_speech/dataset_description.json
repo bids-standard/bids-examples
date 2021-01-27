@@ -1,10 +1,11 @@
 {
     "Name": "Filtered speech",
-    "BIDSVersion": "1.1.1 (draft)",
+    "BIDSVersion": "1.4.1",
+    "DatasetType": "raw",
     "Authors": [
         "Chris Holdgraf"
     ],
     "ReferencesAndLinks": [
-        "Holdgraf et al., 2016"
+        "Holdgraf, C., de Heer, W., Pasley, B. et al. Rapid tuning shifts in human auditory cortex enhance speech intelligibility. Nat Commun 7, 13654 (2016). https://doi.org/10.1038/ncomms13654"
     ]
 }
