@@ -76,7 +76,7 @@ Below you find several tables with information about the datasets available in b
 
 |  name | maintained by | description | link to link to full data |
 | --- | --- | --- | --- |
-|  7t_trt | | field maps, physiological data, quantitative T1 maps, T1w, BOLD | https://bit.ly/2H0Z6Qt | 
+|  7t_trt | | field maps, physiological data, quantitative T1 maps, T1w, BOLD | https://bit.ly/2H0Z6Qt |
 |  asl001 | @patsycle | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries | |
 |  asl002 | @patsycle | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan | |
 |  asl003 | @patsycle | T1w, asl (Siemens, PASL, multiTI), M0 from average control image | |
