@@ -1,0 +1,14 @@
+{
+"Name": "ASL_Siemens_PCASL_multiPLD_pepolar",
+"BIDSVersion": "1.5.0",
+"DatasetType": "raw",
+"License": "This dataset is made available under CC0.",
+"Authors": ["Thomas Okell",
+"Joseph Woods",
+"Michael Chappell"
+],
+"HowToAcknowledge": "When using this dataset, please cite these two papers: http://dx.doi.org/10.1038/jcbfm.2013.129, and http://dx.doi.org/10.1002/mrm.27580",
+"ReferencesAndLinks": ["http://dx.doi.org/10.1038/jcbfm.2013.129",
+"http://dx.doi.org/10.1002/mrm.27580",
+"https://users.fmrib.ox.ac.uk/~chappell/asl_primer/data/index.html"]
+}
