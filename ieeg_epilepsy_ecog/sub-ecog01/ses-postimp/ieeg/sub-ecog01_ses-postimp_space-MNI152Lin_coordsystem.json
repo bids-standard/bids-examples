@@ -1,5 +1,5 @@
 {
- "iEEGCoordinateSystem": "Other",
+ "iEEGCoordinateSystem": "MNI152Lin",
  "iEEGCoordinateUnits": "mm",
  "iEEGCoordinateSystemDescription": "SEEG contact coordinates in MNI152 normalized space",
  "iEEGCoordinateProcessingDescription": "SEEG contacts manually placed with Brainstorm on the post-implanation T1 MRI, which was normalized with SPM12 function spm_maff8",
