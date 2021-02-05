@@ -73,12 +73,28 @@ jobs:
         for i in $(ls -d */ | grep -v node_modules);
         do
           echo "Validating dataset" $i
+
           if [ -f ${i%%/}/.SKIP_VALIDATION ]; then
+
             echo "skipping validation for ${i%%/}"
+
           elif [ -f ${i%%/}/.bids-validator-config.json ]; then
-            bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+
+            if [ $i == "synthetic"]; then
+
+              echo "validation ${i%%/} with NIfTI headers"
+              bids-validator ${i%%/} || rc=$?
+
+            else
+
+              bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+
+            fi
+
           else
+
             bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+
           fi
         done
         exit $rc;
