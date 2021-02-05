@@ -2,27 +2,57 @@
 
 # bids-examples
 
-This repository contains a set of [BIDS-compatible](https://bids.neuroimaging.io/)
-datasets with **empty raw data files**. These datasets can be useful to:
+This repository contains a collection of [BIDS-compatible](https://bids.neuroimaging.io/)
+datasets with **empty raw data files**. These datasets have been contributed as
+test data for lightweight software tests and to provide examples of how BIDS datasets
+may be structured. The [bids-starter-kit](https://github.com/bids-standard/bids-starter-kit)
+is also a good place to look for models of best practice for structuring your BIDS
+dataset.   
 
-1. write lightweight software tests
-1. serve as an example on how a BIDS dataset can be structured
+All of the raw data files in these example datasets are empty.
+Some of the datasets have intact metadata headers (including 
+`synthetic` and most EEG or iEEG datasets in BrainVision format).
+Other datasets have some empty metadata headers.
 
-**ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!**
+# Using the example datasets
 
-However for some of the data, the headers containing the metadata are still
-intact. This is true for the following datasets:
+If you want to use the example datasets with the bids-validator,
+you must indicate that empty raw files and certain empty headers should 
+be ignored during validation. 
 
-- `synthetic`
-- Most EEG or iEEG data in BrainVision format (e.g., `eeg_matchingpennies`)
+**Example:** For example, suppose you are running the bids-validator
+ from the command line and want to validate the example dataset
+ `eeg_matchingpennies`. From the parent directory of `eeg_matchingpennies`
+ execute the following command:
+ 
+````
+ bids-validator eeg_matchingpennies --config.ignore=99 --config.ignore=40
+````
 
-# Validator Exceptions
+See the [bids-validator home page](https://github.com/bids-validator) for
+instructions on how to install and/or use the bids-validator.
 
-Some datasets may include a custom `.bids-validator-config.json` to ignore errors generated from idiosyncracies of the datasets as they existed on creation.
+# Validator configuration for the example datasets
+
+You can put required validator configuration information in a custom 
+`.bids-validator-config.json` file in the root of your dataset.
+The configuration file that would be required to ignore 
+empty raw files and empty Nifti headers is:
+
+````json
+{
+     "ignore": [99, 40] 
+} 
+````
+ 
+Some datasets in [bids-examples](https://github.com/bids-examples) may 
+have a custom configuration file tailored to ignore errors generated 
+from idiosyncracies particular to that dataset. 
 
 | name | errors ignored |
 | --- | --- |
 | genetics_ukbb | SliceTiming values for tasks is larger than given TR, EchoTime1 and EchoTime2 are not provided for any of the phasediff files. |
+
 
 Other datasets may include a `.SKIP_VALIDATION` file, to skip the validation with the continuous integration service.
 This is useful for datasets that *cannot* pass at the moment due to lack of coverage in the [bids-validator](https://github.com/bids-standard/bids-validator).
