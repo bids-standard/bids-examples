@@ -80,9 +80,9 @@ jobs:
 
           elif [ -f ${i%%/}/.bids-validator-config.json ]; then
 
-            if [ $i == "synthetic"]; then
+            if [ $i == "synthetic/"]; then
 
-              echo "validation ${i%%/} with NIfTI headers"
+              echo "validating NIfTI headers for dataset" $i
               bids-validator ${i%%/} || rc=$?
 
             else
