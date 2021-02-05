@@ -48,33 +48,3 @@ The data in this dataset has been organized according to the BIDS specifications
 
 Release history:
 2016-12-01: initial release
-
-### Comments added by Openfmri Curators ###
-===========================================
-
-General Comments
-----------------
-
-
-Defacing
---------
-Pydeface was used on all anatomical images to ensure de-identification of subjects. The code
-can be found at https://github.com/poldracklab/pydeface
-mri_deface was used on all T1.mgz images located in derivatives. Learn more about it here:
-https://surfer.nmr.mgh.harvard.edu/fswiki/mri_deface
-
-Quality Control
----------------
-MRIQC could not be run on this dataset. It will be included in a future revision.
-
-Where to discuss the dataset
-----------------------------
-1) www.openfmri.org/dataset/ds000247/ See the comments section at the bottom of the dataset
-page.
-2) www.neurostars.org Please tag any discussion topics with the tags openfmri and ds000247.
-3) Send an email to submissions@openfmri.org. Please include the accession number in
-your email.
-
-Known Issues
-------------
-
