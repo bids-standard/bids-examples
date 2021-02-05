@@ -1,0 +1,60 @@
+{
+   "trial_type": {
+       "LongName": "Type of image",
+       "Description": "Main types of images ",
+       "Levels": {
+          "Famous": "Head photo of a famous person",
+          "Unfamiliar": "Head photo of an unknown person",
+          "Scrambled": "Scrambled image of a head photo"
+       },
+       "HED": {
+           "Famous": "Sensory-event, Visual, (Center-of, Screen), (Image, Face, (External-evidence, Familiar)),
+		   Description/Head photo of a famous person", 
+           "Unfamiliar": "Sensory-event, Visual, (Center-of, Screen), (Image, Face, (External-evidence, Unfamiliar)),
+		   Description/Head photo of an unknown person",
+           "Scrambled": "Sensory-event, Visual, (Center-of, Screen), (Image, Face, (External-evidence, Disordered)),
+		   Description/Scrambled image of a head photo",
+        }
+   },
+   "event_value": {
+       "LongName": "Indicator of type of image repetition",
+       "Description": "Image repetition triggers",
+       "Levels": {
+          "5": "Initial presentation of famous photo",
+          "6": "Immediate repetition of famous photo just seen",
+          "7": "Delayed repetition of famous photo",
+		  "13": "Initial presentation of unfamiliar photo",
+          "14": "Immediate repetition of unfamiliar photo just seen",
+          "15": "Delayed repetition of unfamiliar photo",
+		  "17": "Initial presentation of scrambled photo",
+          "18": "Immediate repetition of scrambled photo just seen",
+          "19": "Delayed repetition of scrambled photo"
+       },
+       "HED": {
+          "5": "First-item Image, Face, (External-evidence, Familiar), Description/Initial presentation of famous photo",
+          "6": "Next-item, Description/Immediate repetition of famous photo just seen",
+          "7": "Later-item, Description/Delayed repetition of famous photo",
+		  "13": "First-item, Description/Initial presentation of unfamiliar photo",
+          "14": "Next-item, Description/Immediate repetition of unfamiliar photo just seen",
+          "15": "Later-item, Description/Delayed repetition of unfamiliar photo",
+		  "17": "First-item, Description/Initial presentation of scrambled photo",
+          "18": "Next-item, Description/Immediate repetition of scrambled photo just seen",
+          "19": "Later-item, Description/Delayed repetition of scrambled photo"
+       },
+        }
+   }  "stim_file": {
+       "LongName": "Name of the image file presented",
+       "Description": "Image repetition triggers",
+       "Levels": {
+          "5": "Initial presentation of famous photo",
+          "6": "Immediate repetition of famous photo just seen",
+          "7": "Delayed repetition of famous photo",
+		  "13": "Initial presentation of unfamiliar photo",
+          "14": "Immediate repetition of unfamiliar photo just seen",
+          "15": "Delayed repetition of unfamiliar photo",
+		  "17": "Initial presentation of scrambled photo",
+          "18": "Immediate repetition of scrambled photo just seen",
+          "19": "Delayed repetition of scrambled photo"
+       },
+   
+}
