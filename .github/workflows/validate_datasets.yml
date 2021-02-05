@@ -76,24 +76,24 @@ jobs:
 
           if [ -f ${i%%/}/.SKIP_VALIDATION ]; then
 
-            echo "skipping validation for ${i%%/}"
+            echo "Skipping validation for ${i%%/}"
 
           elif [ -f ${i%%/}/.bids-validator-config.json ]; then
 
-            if [ $i == "synthetic/"]; then
-
-              echo "validating NIfTI headers for dataset" $i
-              bids-validator ${i%%/} || rc=$?
-
-            else
-
               bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
-
-            fi
 
           else
 
-            bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+            if [ $i == "synthetic/" ]; then
+
+              echo "Validating NIfTI headers for dataset" $i
+              bids-validator ${i%%/} -c $PWD/bidsconfig.json || rc=$?
+
+            else
+
+              bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+
+            fi
 
           fi
         done
