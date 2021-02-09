@@ -1,0 +1,14 @@
+{
+  "IntendedFor": [
+    "anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii",
+    "anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii",
+    "anat/sub-01_acq-MTw_echo-3_flip-1_mt-on_MPM.nii",
+    "anat/sub-01_acq-MTw_echo-4_flip-1_mt-on_MPM.nii",
+    "anat/sub-01_acq-MTw_echo-5_flip-1_mt-on_MPM.nii",
+    "anat/sub-01_acq-MTw_echo-6_flip-1_mt-on_MPM.nii"
+  ],
+  "RawSources": [
+    "sub-01/fmap/sub-01_acq-bodyMTw_RB1COR.nii",
+    "sub-01/fmap/sub-01_acq-headMTw_RB1COR.nii"
+  ]
+}

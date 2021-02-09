@@ -1,0 +1,18 @@
+{
+  "Name": "BEP001 example dataset 0X (Variable Flip Angle)",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "derivative",
+  "Authors": [
+    "Agah Karakuzu"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "qMRLab",
+      "Version": "2.4.0"
+    },
+    {
+      "Name": "Manual",
+      "Description": "Adjusted to conform to BIDS Derivatives"
+    }
+  ]
+}
