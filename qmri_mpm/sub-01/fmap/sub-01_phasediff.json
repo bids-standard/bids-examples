@@ -8,17 +8,18 @@
   "SequenceName": "*fm2d2r ",
   "PulseSequenceDetails": "gre_field_mapping_1acq_rl ",
   "RepetitionTimeExcitation": 1.02,
-  "EchoTime": 0.01246,
+  "EchoTime1": 0.01246,
+  "EchoTime2": 0.01246,
   "FlipAngle": 90,
   "MTState": false,
   "NumberShots": 1,
   "PhaseEncodingDirection": "j",
   "IntendedFor": [
-    "fmap/sub-anon_acq-headMTw_RB1COR.json",
-    "fmap/sub-anon_acq-headPDw_RB1COR.json",
-    "fmap/sub-anon_acq-headT1w_RB1COR.json",
-    "fmap/sub-anon_acq-bodyMTw_RB1COR.json",
-    "fmap/sub-anon_acq-bodyPDw_RB1COR.json",
-    "fmap/sub-anon_acq-bodyT1w_RB1COR.json"
+    "fmap/sub-anon_acq-headMTw_RB1COR.nii",
+    "fmap/sub-anon_acq-headPDw_RB1COR.nii",
+    "fmap/sub-anon_acq-headT1w_RB1COR.nii",
+    "fmap/sub-anon_acq-bodyMTw_RB1COR.nii",
+    "fmap/sub-anon_acq-bodyPDw_RB1COR.nii",
+    "fmap/sub-anon_acq-bodyT1w_RB1COR.nii"
   ]
 }
