@@ -2,7 +2,7 @@
   "Name": "Example hMRI dataset",
   "BIDSVersion": "1.5.0",
   "DatasetType": "raw",
-  "Authors": "Martina Callaghan",
+  "Authors": ["Martina Callaghan"],
   "ReferencesAndLinks": [
     "http://www.hmri.info/",
     "https://doi.org/10.1016/j.dib.2019.104132",
