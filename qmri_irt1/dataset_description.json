@@ -1,0 +1,10 @@
+{
+  "Name": "BEP001 example dataset 0X (Inversion Recovery T1 mapping)",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Agah Karakuzu",
+    "Mathieu Boudreau"
+  ],
+  "Description": "This is a sample dataset from an Inversion Recovery (IR) scan to compute T1 maps (IRT1)."
+}
