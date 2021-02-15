@@ -1,5 +1,14 @@
 {
-  "FlipAngle": 20,
-  "RepetitionTimeExcitation": 28,
+  "IntendedFor": [
+    "anat/sub-01_T1map.nii.gz",
+    "anat/sub-01_MTsat.nii.gz",
+    "anat/sub-01_MTRmap.nii.gz"
+  ],
+  "MagneticFieldStrength": "3",
+  "Manufacturer": "Siemens",
+  "ManufacturerModelName": "TrioTim",
+  "PulseSequenceType": "SPGR",
+  "RepetitionTime": "0.028",
+  "FlipAngle": "20",
   "MTState": false
 }

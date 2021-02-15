@@ -1,4 +1,7 @@
-{
+{    "RawSources": [
+        "sub-01/fmap/sub-01_acq-tr1_TB1AFI.nii.gz",
+        "sub-01/fmap/sub-01_acq-tr2_TB1AFI.nii.gz"
+      ],
     "MagneticFieldStrength": "3",
     "Manufacturer": "Siemens",
     "ManufacturerModelName": "Skyra",
