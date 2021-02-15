@@ -1,0 +1,14 @@
+{
+  "RawSources": [
+    "sub-1/anat/sub-1_inv-1_part-mag_MP2RAGE.nii",
+    "sub-1/anat/sub-1_inv-1_part-phase_MP2RAGE.nii",
+    "sub-1/anat/sub-1_inv-2_part-mag_MP2RAGE.nii",
+    "sub-1/anat/sub-1_inv-2_part-phase_MP2RAGE.nii"
+  ],
+  "EstimationReference": "Marques et al., 2010",
+  "EstimationAlgorithm": "MP2RAGE T1 map",
+  "EstimationSoftwareName": "pymp2rage",
+  "EstimationSoftwareVer": "v0.1",
+  "EstimationSoftwareLang": "Python 3.6",
+  "EstimationSoftwareEnv": "Mac OS X 10.14.5"
+}

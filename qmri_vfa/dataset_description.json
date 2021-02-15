@@ -1,0 +1,9 @@
+{
+  "Name": "BEP001 example dataset 0X (Variable Flip Angle)",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Agah Karakuzu"
+  ],
+  "Description": "This is a sample dataset from a Variable Flip Angle (VFA) scan using FLASH sequence to compute T1 maps (DESPOT1)."
+}

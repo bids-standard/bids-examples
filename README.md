@@ -107,6 +107,13 @@ Below you find several tables with information about the datasets available in b
 |  hcp_example_bids | @robertoostenveld |   | https://bit.ly/2H0Z6Qt |
 |  synthetic | @effigies | A synthetic dataset | mri |  |  |  |  | n/a
 |  ds000001-fmriprep | @effigies | Common derivatives example | mri | | | | | https://openneuro.org/datasets/ds000001/versions/1.0.0
+|  qmri_mp2rage | @agahkarakuzu | - | https://osf.io/k4bs5/ |
+|  qmri_mp2rageme | @agahkarakuzu | - | https://osf.io/k4bs5/ |
+|  qmri_mpm | @agahkarakuzu | - | https://osf.io/k4bs5/ |
+|  qmri_mtsat | @agahkarakuzu | - | https://osf.io/k4bs5/ |
+|  qmri_qsm | @agahkarakuzu | - | https://osf.io/k4bs5/ |
+|  qmri_sa2rage | @agahkarakuzu | - | https://osf.io/k4bs5/ |
+|  qmri_vfa | @agahkarakuzu | - | https://osf.io/k4bs5/ |
 
 ## Multimodal datasets
 
