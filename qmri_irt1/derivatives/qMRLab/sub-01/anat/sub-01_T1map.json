@@ -1,8 +1,9 @@
 {
   "RawSources": [
-    "sub-01/anat/sub-01_flip-1_VFA.nii.gz",
-    "sub-01/anat/sub-01_flip-2_VFA.nii.gz",
-    "sub-01/fmap/sub-01_sub-01_TB1map.nii.gz"
+    "sub-01/anat/sub-01_inv-01_IRT1.nii.gz",
+    "sub-01/anat/sub-01_inv-02_IRT1.nii.gz",
+    "sub-01/anat/sub-01_inv-03_IRT1.nii.gz",
+    "sub-01/anat/sub-01_inv-04_IRT1.nii.gz"
   ],
   "MagneticFieldStrength": "3",
   "Manufacturer": "Siemens",
