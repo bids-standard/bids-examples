@@ -111,13 +111,13 @@ Below you find several tables with information about the datasets available in b
 |  qmri_mp2rageme | @Gilles86 | Multi-echo MP2RAGE | https://osf.io/k4bs5/ |
 |  qmri_mpm | @ChristophePhillips | Multi-parametric mapping for R1, R2star, MTsat and PD mapping | https://osf.io/k4bs5/ |
 |  qmri_mtsat | @agahkarakuzu | Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example. | https://osf.io/k4bs5/ |
-|  qmri_qsm | @agahkarakuzu | Chimap using fast QSM | |
-|  qmri_sa2rage | | Fast B1+ mapping using SA2RAGE | |
+|  qmri_qsm | @agahkarakuzu | Chimap using fast QSM | `not publicly availabe` |
+|  qmri_sa2rage | @agahkarakuzu | Fast B1+ mapping using SA2RAGE | `not publicly availabe` |
 |  qmri_vfa | @agahkarakuzu | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | https://osf.io/k4bs5/ |
-|  qmri_irt1 | | Inversion Recovery T1 mapping | |
-|  qmri_mese | | Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping. | |
-|  qmri_megre | | Multi-Echo Gradient-Echo for T2star mapping. | |
-|  qmri_tb1tfl | | B1+ mapping with TurboFLASH readout. | |
+|  qmri_irt1 | @agahkarakuzu | Inversion Recovery T1 mapping | `not publicly availabe` |
+|  qmri_mese | @agahkarakuzu | Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping. | `not publicly availabe` |
+|  qmri_megre | @agahkarakuzu | Multi-Echo Gradient-Echo for T2star mapping. | `not publicly availabe` |
+|  qmri_tb1tfl | @agahkarakuzu | B1+ mapping with TurboFLASH readout. | `not publicly availabe`|
 
 
 ## Multimodal datasets
