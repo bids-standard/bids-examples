@@ -107,13 +107,18 @@ Below you find several tables with information about the datasets available in b
 |  hcp_example_bids | @robertoostenveld |   | https://bit.ly/2H0Z6Qt |
 |  synthetic | @effigies | A synthetic dataset | mri |  |  |  |  | n/a
 |  ds000001-fmriprep | @effigies | Common derivatives example | mri | | | | | https://openneuro.org/datasets/ds000001/versions/1.0.0
-|  qmri_mp2rage | @agahkarakuzu | - | https://osf.io/k4bs5/ |
-|  qmri_mp2rageme | @agahkarakuzu | - | https://osf.io/k4bs5/ |
-|  qmri_mpm | @agahkarakuzu | - | https://osf.io/k4bs5/ |
-|  qmri_mtsat | @agahkarakuzu | - | https://osf.io/k4bs5/ |
-|  qmri_qsm | @agahkarakuzu | - | https://osf.io/k4bs5/ |
-|  qmri_sa2rage | @agahkarakuzu | - | https://osf.io/k4bs5/ |
-|  qmri_vfa | @agahkarakuzu | - | https://osf.io/k4bs5/ |
+|  qmri_mp2rage | @Gilles86 | MP2RAGE for T1 mapping | https://osf.io/k4bs5/ |
+|  qmri_mp2rageme | @Gilles86 | Multi-echo MP2RAGE | https://osf.io/k4bs5/ |
+|  qmri_mpm | @ChristophePhillips | Multi-parametric mapping for R1, R2star, MTsat and PD mapping | https://osf.io/k4bs5/ |
+|  qmri_mtsat | @agahkarakuzu | Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example. | https://osf.io/k4bs5/ |
+|  qmri_qsm | @agahkarakuzu | Chimap using fast QSM | |
+|  qmri_sa2rage | | Fast B1+ mapping using SA2RAGE | |
+|  qmri_vfa | @agahkarakuzu | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | https://osf.io/k4bs5/ |
+|  qmri_irt1 | | Inversion Recovery T1 mapping | |
+|  qmri_mese | | Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping. | |
+|  qmri_megre | | Multi-Echo Gradient-Echo for T2star mapping. | |
+|  qmri_tb1tfl | | B1+ mapping with TurboFLASH readout. | |
+
 
 ## Multimodal datasets
 
