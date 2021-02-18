@@ -1,0 +1,15 @@
+{
+  "RawSources": [
+    "anat/sub-01_part-mag_T1w.nii.gz",
+    "anat/sub-01_part-phase_T1w.nii.gz"
+  ],
+  "MagneticFieldStrength": "3",
+  "Manufacturer": "Siemens",
+  "ManufacturerModelName": "TrioTim",
+  "EstimationPaper": "Bilgic et. al.MRM, 2014 doi:10.1002/mrm.25029",
+  "EstimationAlgorithm": "qsm_sb",
+  "EstimationSoftwareName": "qMRLab",
+  "EstimationSoftwareLanguage": "MATLAB",
+  "EstimationSoftwareVersion": "2.4.0",
+  "EstimationSoftwareEnv": "OSX 10.14"
+}

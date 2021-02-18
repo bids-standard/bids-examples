@@ -1,0 +1,22 @@
+{
+    "RawSources": [
+      "sub-01/fmap/sub-01_flip-01_TB1DAM.nii.gz",
+      "sub-01/fmap/sub-01_flip-02_TB1DAM.nii.gz"
+    ],
+    "IntendedFor": [
+      "anat/sub-01_T1map.nii.gz"
+    ],
+    "MagneticFieldStrength": "3",
+    "Manufacturer": "Siemens",
+    "ManufacturerModelName": "Skyra",
+    "MRAcquisitionType": "3D",
+    "PulseSequenceType": "SPGR",
+    "FlipAngle": ["60","120"],
+    "EstimationPaper": "Insko et. al. JMRI, 1993",
+    "EstimationAlgorithm": "Linear",
+    "EstimationSoftwareName": "qMRLab",
+    "EstimationSoftwareLanguage": "MATLAB",
+    "EstimationSoftwareVersion": "2.4.1",
+    "EstimationSoftwareEnv": "OSX 10.14"
+  }
+  

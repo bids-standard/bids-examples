@@ -1,4 +1,6 @@
 {
+  "RepetitionTimePreparation": 2.4,
+  "RepetitionTimeExcitation": 0.0275,
   "AcquisitionMatrixPE": 128,
   "AcquisitionNumber": 1,
   "AcquisitionTime": "16:14:15.245000",
@@ -47,7 +49,6 @@
   "ReceiveCoilName": "CFMM_8Tx32Rx",
   "ReconMatrixPE": 128,
   "RefLinesPE": 30,
-  "RepetitionTime": 2.4,
   "ScanOptions": "SR_PFP",
   "ScanningSequence": "GR",
   "SequenceName": "sa2rage3d1_ns",
@@ -163,7 +164,7 @@
       "ImagedNucleus": "1H",
       "ImagingFrequency": 297.230964,
       "InPlanePhaseEncodingDirection": "ROW",
-      "InversionTime": 45000,
+      "InversionTime": 0.047,
       "MRAcquisitionType": "3D",
       "MagneticFieldStrength": 6.98,
       "Manufacturer": "SIEMENS",
@@ -182,7 +183,7 @@
         1.875
       ],
       "ProtocolName": "sa2rage_B1map 654A",
-      "RepetitionTime": 2400,
+      "RepetitionTime": 2.4,
       "Rows": 128,
       "SAR": 0,
       "SamplesPerPixel": 1,

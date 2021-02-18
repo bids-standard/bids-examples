@@ -1,0 +1,6 @@
+{
+  "Name": "BEP001 example dataset 0X (Multi-Echo Gradient-Echo)",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "raw",
+  "Description": "This is a sample dataset from a Multi-Echo Gradient-Echo (MEGRE) scan that can be used for a variety purposes including T2star mapping (parametric) or weighted averaging (non-parametric)."
+}

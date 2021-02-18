@@ -1,8 +1,7 @@
 {
   "Name": "Example QSM dataset",
   "BIDSVersion": "1.5.0",
-  "DatasetType": "derivative",
-  "Authors": ["Agah Karakuzu"],
+  "DatasetType": "raw",
   "ReferencesAndLinks": [
     "https://qmrlab.org",
     "https://onlinelibrary.wiley.com/doi/full/10.1002/jmri.24365",
@@ -11,7 +10,7 @@
   "GeneratedBy": [
     {
       "Name": "qMRLab",
-      "Version": "2.4.0"
+      "Version": "2.4.1"
     },
     {
       "Name": "Manual",
