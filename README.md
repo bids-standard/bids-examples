@@ -51,10 +51,10 @@ and ask us directly.
 
 Below you find several tables with information about the datasets available in bids-examples (in alphabetical order).
 
-- [EEG datasets](EEG-datasets)
-- [iEEG datasets](iEEG-datasets)
-- [MRI datasets](MRI-datasets)
-- [Multimodal datasets](Multimodal-datasets)
+- [EEG datasets](#eeg-datasets)
+- [iEEG datasets](#ieeg-datasets)
+- [MRI datasets](#mri-datasets)
+- [Multimodal datasets](#multimodal-datasets)
 
 ## EEG datasets
 

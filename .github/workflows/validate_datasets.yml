@@ -13,11 +13,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
+        platform: [ubuntu-latest, macos-latest, windows-latest]
         bids-validator: [master, stable]
+
+    runs-on: ${{ matrix.platform }}
 
     env:
       TZ: Europe/Berlin
@@ -59,11 +61,11 @@ jobs:
         found=`find . -not -path "./.git*" -type f -size +500k`
         if [ "$found" == "" ]
         then
-          echo "No big files present, great!"
+            echo "No big files present, great!"
         else
-          echo "Found big files:"
-          echo "$found"
-          exit 1;
+            echo "Found big files:"
+            echo "$found"
+            exit 1;
         fi
       shell: bash
 
@@ -72,14 +74,30 @@ jobs:
         rc=0;
         for i in $(ls -d */ | grep -v node_modules);
         do
-          echo "Validating dataset" $i
-          if [ -f ${i%%/}/.SKIP_VALIDATION ]; then
-            echo "skipping validation for ${i%%/}"
-          elif [ -f ${i%%/}/.bids-validator-config.json ]; then
-            bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
-          else
-            bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
-          fi
+            echo "Validating dataset" $i
+
+            if [ -f ${i%%/}/.SKIP_VALIDATION ]; then
+
+                echo "Skipping validation for ${i%%/}"
+
+            elif [ -f ${i%%/}/.bids-validator-config.json ]; then
+
+                bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+
+            else
+
+                if [ $i == "synthetic/" ]; then
+
+                    echo "Validating NIfTI headers for dataset" $i
+                    bids-validator ${i%%/} -c $PWD/bidsconfig.json || rc=$?
+
+                else
+
+                    bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+
+                fi
+
+            fi
         done
         exit $rc;
       shell: bash
