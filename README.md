@@ -126,5 +126,5 @@ Below you find several tables with information about the datasets available in b
 |  pet001 |  @mnoergaard | T1w, PET, blood | mri |  |  | | pet | | |
 |  pet002 |  @mnoergaard | T1w, PET | mri |  |  | | pet | | |
 |  pet003 |  @mnoergaard | T1w, PET, blood | mri |  |  | | pet | | |
-|  pet004 |  @mnoergaard | PET, blood | mri |  |  | | pet | | |
+|  pet004 |  @mnoergaard | PET, blood | |  |  | | pet | | |
 |  pet005 |  @mnoergaard | T1w, PET | mri |  |  | | pet | | |
