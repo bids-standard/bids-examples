@@ -1,0 +1,32 @@
+{
+  "IntendedFor": [
+    "anat/sub-01_PDmap.nii.gz",
+    "anat/sub-01_MTmap.nii.gz",
+    "anat/sub-01_R1map.nii.gz",
+    "anat/sub-01_R2starmap.nii.gz"
+  ],
+  "RawSources": [
+    "sub-01/fmap/sub-01_echo-1_flip-01_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-02_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-03_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-04_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-05_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-06_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-07_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-08_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-09_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-10_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-1_flip-11_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-01_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-02_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-03_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-04_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-05_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-06_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-07_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-08_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-09_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-10_TB1EPI.nii",
+    "sub-01/fmap/sub-01_echo-2_flip-11_TB1EPI.nii"
+  ]
+}

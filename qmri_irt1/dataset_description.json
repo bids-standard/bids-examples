@@ -1,0 +1,10 @@
+{
+  "Name": "BEP001 example dataset 0X (Inversion Recovery T1 mapping)",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "raw",
+  "ReferencesAndLinks": [
+    "https://qmrlab.org/jekyll/2018/10/23/T1-mapping-inversion-recovery.html",
+    "https://qmrlab.readthedocs.io/en/master/methods.html#inversion_recovery"
+  ],
+  "Description": "This is a sample dataset from an Inversion Recovery (IR) scan to compute T1 maps (IRT1)."
+}
