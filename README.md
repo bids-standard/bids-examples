@@ -79,7 +79,7 @@ Below you find several tables with information about the datasets available in b
 |  7t_trt | | field maps, physiological data, quantitative T1 maps, T1w, BOLD | https://bit.ly/2H0Z6Qt |
 |  asl001 | @patsycle | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries | |
 |  asl002 | @patsycle | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan | |
-|  asl003 | @patsycle | T1w, asl (Siemens, PASL, multiTI), M0 from average control image | |
+|  asl003 | @patsycle | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan | |
 |  asl004 | @patsycle | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | |
 |  asl005 | @patsycle | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan | |
 |  ds001 | | single task, multiple runs, in-plane T2, events, T1w, BOLD | https://openneuro.org/datasets/ds000001/versions/00006 |
