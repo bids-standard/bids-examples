@@ -20,14 +20,14 @@ Headers are intact for the following datasets:
 - `synthetic`
 - Most EEG or iEEG data in BrainVision format (e.g., `eeg_matchingpennies`)
 
-# Validating BIDS Examples
+# Validating BIDS examples
 
 The next three sections mention a few details on how the `bids-examples` can be validated using `bids-validator`.
 
 For general information on the `bids-validator`, including installation and usage, see the
 [bids-validator README file](https://github.com/bids-standard/bids-validator#quickstart).
 
-## Validating Individual Examples
+## Validating individual examples
 
 As mentioned above, all raw data files in this repository are empty.
 That means that for validation, the `bids-validator` needs to be configured to
@@ -51,7 +51,7 @@ For example:
 
 `bids-validator ds003 --config.ignore=99 --ignoreNiftiHeaders`
 
-## Validating All Examples
+## Validating all examples
 
 If you want to validate all examples in one go, you can use the `run_tests.sh` script that is provided in this repository.
 This script furthermore makes use of the `bidsconfig.json` configuration file for the `bids-validator`,
@@ -59,7 +59,7 @@ and appropriately handles some special case examples (see [Validator Exceptions]
 
 Simply run `bash run_tests.sh` in a command line from the root of the `bids-examples` repository.
 
-## Validator Exceptions
+## Validator exceptions
 
 Some datasets may include a custom `.bids-validator-config.json` to ignore errors generated from idiosyncracies of the datasets as they existed on creation.
 
@@ -94,7 +94,7 @@ file or open a
 [new GitHub Issue](https://github.com/bids-standard/bids-examples/issues/new)
 and ask us directly.
 
-# Dataset Index
+# Dataset index
 
 Below you find several tables with information about the datasets available in bids-examples (in alphabetical order).
 
