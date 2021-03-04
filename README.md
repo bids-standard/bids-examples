@@ -29,23 +29,20 @@ For general information on the `bids-validator`, including installation and usag
 
 ## Validating individual examples
 
-As mentioned above, all raw data files in this repository are empty.
-That means that for validation, the `bids-validator` needs to be configured to
-appropriately report the bids-examples as "passing"
-(see more on bids-validator configuration in the
-[bids-validator README](https://github.com/bids-standard/bids-validator#configuration)).
+Since all raw data files in this repository are empty,
+the `bids-validator` must to be configured to not report empty data files as errors.
+(See more on bids-validator configuration in the
+[bids-validator README](https://github.com/bids-standard/bids-validator#configuration).)
 
-One easy way to get around the error that the files-to-be-validated are empty,
-is by ignoring that error.
 Just run the validator as follows (using the `eeg_matchingpennies` dataset as an example,
 and assuming you are in a command line at the root of the `bids-examples` repository):
 
 `bids-validator eeg_matchingpennies --config.ignore=99`
 
-The `--config.ignore=99` "flag" will make sure that the "empty file" error will be ignored.
+The `--config.ignore=99` "flag" tells the bids-validator to ignore empty data files rather than to report the "empty file" error .
 
 For datasets that contain NIfTI `.nii` files, you also need to add the `ignoreNiftiHeaders` flag
-to the `bids-validator` call, to supress the issue that NIfTI headers are not found.
+to the `bids-validator` call, to suppress the issue that NIfTI headers are not found.
 
 For example:
 
@@ -54,7 +51,7 @@ For example:
 ## Validating all examples
 
 If you want to validate all examples in one go, you can use the `run_tests.sh` script that is provided in this repository.
-This script furthermore makes use of the `bidsconfig.json` configuration file for the `bids-validator`,
+This script makes use of the `bidsconfig.json` configuration file for the `bids-validator`,
 and appropriately handles some special case examples (see [Validator Exceptions](#validator-exceptions)).
 
 Simply run `bash run_tests.sh` in a command line from the root of the `bids-examples` repository.
@@ -71,8 +68,8 @@ Other datasets may include a `.SKIP_VALIDATION` file, to skip the validation wit
 This is useful for datasets that *cannot* pass at the moment due to lack of coverage in the [bids-validator](https://github.com/bids-standard/bids-validator).
 
 Note however, that the `.SKIP_VALIDATION` file only impacts the continuous integration service,
-or validation when run with the `run_tests.sh` script (see [Validating All Examples](#validating-all-examples)).
-It will **not** have any effect when running `bids-validator` from custom scripts, the web-based validator, docker, or from the command line.
+or validation when run with the `run_tests.sh` script (see [Validating all examples](#validating-all-examples)).
+This file does  **not** have any effect when running `bids-validator` from custom scripts, the web-based validator, docker, or from the command line.
 
 | name | why skipped |
 | --- | --- |
