@@ -11,12 +11,52 @@ datasets with **empty raw data files**. These datasets can be useful to:
 **ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!**
 
 However for some of the data, the headers containing the metadata are still
-intact. This is true for the following datasets:
+intact.
+(For example the NIfTI headers for `.nii` files, or the BrainVision data
+headers for `.vhdr` files.)
+
+Headers are intact for the following datasets:
 
 - `synthetic`
 - Most EEG or iEEG data in BrainVision format (e.g., `eeg_matchingpennies`)
 
-# Validator Exceptions
+# Validating BIDS examples
+
+The next three sections mention a few details on how the `bids-examples` can be validated using `bids-validator`.
+
+For general information on the `bids-validator`, including installation and usage, see the
+[bids-validator README file](https://github.com/bids-standard/bids-validator#quickstart).
+
+## Validating individual examples
+
+Since all raw data files in this repository are empty,
+the `bids-validator` must to be configured to not report empty data files as errors.
+(See more on bids-validator configuration in the
+[bids-validator README](https://github.com/bids-standard/bids-validator#configuration).)
+
+Just run the validator as follows (using the `eeg_matchingpennies` dataset as an example,
+and assuming you are in a command line at the root of the `bids-examples` repository):
+
+`bids-validator eeg_matchingpennies --config.ignore=99`
+
+The `--config.ignore=99` "flag" tells the bids-validator to ignore empty data files rather than to report the "empty file" error .
+
+For datasets that contain NIfTI `.nii` files, you also need to add the `ignoreNiftiHeaders` flag
+to the `bids-validator` call, to suppress the issue that NIfTI headers are not found.
+
+For example:
+
+`bids-validator ds003 --config.ignore=99 --ignoreNiftiHeaders`
+
+## Validating all examples
+
+If you want to validate all examples in one go, you can use the `run_tests.sh` script that is provided in this repository.
+This script makes use of the `bidsconfig.json` configuration file for the `bids-validator`,
+and appropriately handles some special case examples (see [Validator Exceptions](#validator-exceptions)).
+
+Simply run `bash run_tests.sh` in a command line from the root of the `bids-examples` repository.
+
+## Validator exceptions
 
 Some datasets may include a custom `.bids-validator-config.json` to ignore errors generated from idiosyncracies of the datasets as they existed on creation.
 
@@ -27,9 +67,13 @@ Some datasets may include a custom `.bids-validator-config.json` to ignore error
 Other datasets may include a `.SKIP_VALIDATION` file, to skip the validation with the continuous integration service.
 This is useful for datasets that *cannot* pass at the moment due to lack of coverage in the [bids-validator](https://github.com/bids-standard/bids-validator).
 
+Note however, that the `.SKIP_VALIDATION` file only impacts the continuous integration service,
+or validation when run with the `run_tests.sh` script (see [Validating all examples](#validating-all-examples)).
+This file does  **not** have any effect when running `bids-validator` from custom scripts, the web-based validator, docker, or from the command line.
+
 | name | why skipped |
 | --- | --- |
-| ds000001-fmriprep | lack of coverage in bids-validator |
+| ds000001-fmriprep | lack of coverage for "derivatives" in `bids-validator` |
 
 # Contributing
 
