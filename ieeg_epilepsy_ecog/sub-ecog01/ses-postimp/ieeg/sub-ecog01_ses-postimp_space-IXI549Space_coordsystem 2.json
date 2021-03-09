@@ -1,0 +1,7 @@
+{
+ "iEEGCoordinateSystem": "IXI549Space",
+ "iEEGCoordinateUnits": "mm",
+ "iEEGCoordinateProcessingDescription": "SEEG contacts manually placed with Brainstorm on the post-implanation T1 MRI, resliced on the FreeSurfer T1.mgz, which was normalized to IXI549Space with SPM12",
+ "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth",
+ "IntendedFor": "derivatives/freesurfer/sub-ecog01_ses-preimp/mri/T1.mgz"
+}

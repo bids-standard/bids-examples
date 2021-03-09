@@ -1,0 +1,17 @@
+{
+ "SoftwareFilters": {
+  "SSS": {
+   "frame": "head",
+   "mm": [-3,6,43],
+   "autobad": "on",
+   "linefreq": "50",
+   "hpisubt": "amp",
+   "movecomp": "inter",
+   "hpistep": "10",
+   "trans": "run4",
+   "version": "MaxFilter2.2",
+   "ctc": "derivatives/meg_derivatives/ct_sparse.fif",
+   "cal": "derivatives/meg_derivatives/sss_cal.dat"
+  }
+ }
+}

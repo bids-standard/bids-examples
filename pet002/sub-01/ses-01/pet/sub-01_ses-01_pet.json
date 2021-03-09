@@ -3,7 +3,7 @@
         "Manufacturer": "Siemens",
         "ManufacturersModelName": "High-Resolution Research Tomograph (HRRT, CTI/Siemens)",
         "BodyPart": "Brain",
-        "Unit": "Bq/ml",
+        "Unit": "Bq/mL",
         "TracerName": "DASB",
         "TracerRadionuclide": "C11",
         "TracerMolecularWeight": 282.39,
@@ -33,9 +33,5 @@
         "ReconMethodParameterValues": [16,10],
         "ReconFilterType": ["none"],
         "ReconFilterSize": [0],
-        "AttenuationCorrection": "[137Cs]transmission scan-based",
-        "PlasmaAvail": false,
-        "MetaboliteAvail": false,
-        "ContinuousBloodAvail": false,
-        "DiscreteBloodAvail": false
+        "AttenuationCorrection": "[137Cs]transmission scan-based"
 }
