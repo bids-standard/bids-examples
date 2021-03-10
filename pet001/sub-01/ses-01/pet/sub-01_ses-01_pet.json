@@ -34,12 +34,5 @@
         "ReconMethodParameterValues": [16,10],
         "ReconFilterType": ["none"],
         "ReconFilterSize": [0],
-        "AttenuationCorrection": "[137Cs]transmission scan-based",
-        "PlasmaAvail": true,
-        "MetaboliteAvail": true,
-        "MetaboliteMethod": "HPLC",
-        "MetaboliteRecoveryCorrectionApplied": true,
-        "ContinuousBloodAvail": true,
-        "ContinuousBloodDispersionCorrected": false,
-        "DiscreteBloodAvail": true
+        "AttenuationCorrection": "[137Cs]transmission scan-based"
 }
