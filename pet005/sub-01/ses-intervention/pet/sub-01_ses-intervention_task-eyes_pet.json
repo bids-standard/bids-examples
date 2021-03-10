@@ -126,7 +126,7 @@
 	"ReconMethodParameterLabels": ["subsets", "iterations"],
 	"ReconMethodParameterUnit": ["none", "none"],
 	"ReconMethodParameterValues": [21, 4],
-	"ReconFilterType": "GaussianXYZ",
+	"ReconFilterType": ["GaussianXYZ"],
 	"ReconFilterSize": [4],
 	"AttenuationCorrection": "CT-based attenuation correction",
 	"DecayCorrectionFactor": [
@@ -177,5 +177,5 @@
 		20.2413,
 		26.0276,
 		36.5694,
-		51.3809	],
+		51.3809	]
 }
