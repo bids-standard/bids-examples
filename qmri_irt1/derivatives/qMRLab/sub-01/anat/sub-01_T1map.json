@@ -1,0 +1,21 @@
+{
+  "RawSources": [
+    "sub-01/anat/sub-01_inv-01_IRT1.nii.gz",
+    "sub-01/anat/sub-01_inv-02_IRT1.nii.gz",
+    "sub-01/anat/sub-01_inv-03_IRT1.nii.gz",
+    "sub-01/anat/sub-01_inv-04_IRT1.nii.gz"
+  ],
+  "MagneticFieldStrength": "3",
+  "Manufacturer": "Siemens",
+  "ManufacturerModelName": "Skyra",
+  "PulseSequenceType": "IR",
+  "RepetitionTime": "2.250",
+  "EchoTime": "0.014",
+  "InversionTime": ["0.05","0.4","1.1","2.5"],
+  "EstimationPaper": "Barral et. al.MRM, 2010",
+  "EstimationAlgorithm": "RDNLLS-PR",
+  "EstimationSoftwareName": "qMRLab",
+  "EstimationSoftwareLanguage": "MATLAB",
+  "EstimationSoftwareVersion": "2.3.0",
+  "EstimationSoftwareEnv": "OSX 10.14"
+}

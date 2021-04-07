@@ -1,0 +1,13 @@
+{
+  "Name": "qMRLab estimates of MTsat",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "SourceDatasets": ["../../"],
+  "GeneratedBy": [
+    {
+      "Name": "Manual",
+      "Description": "Adapted from existing example, adjusted to conform to BIDS Derivatives"
+    }
+  ]
+}

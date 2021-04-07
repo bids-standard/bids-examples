@@ -1,0 +1,26 @@
+{
+  "Manufacturer": "SIEMENS ",
+  "ManufacturersModelName": "Prisma_fit",
+  "DeviceSerialNumber": "167025",
+  "StationName": "MRC35437",
+  "MagneticFieldStrength": 3,
+  "ScanningSequence": "RM",
+  "SequenceName": "sm3d_1a3d1",
+  "PulseSequenceDetails": "mfc_smaps_v1a_QBC ",
+  "RepetitionTimeExcitation": 0.006,
+  "EchoTime": 0.0022,
+  "FlipAngle": 6,
+  "MTState": false,
+  "NumberShots": 1,
+  "PhaseEncodingDirection": "j",
+  "IntendedFor": [
+    "anat/sub-01_acq-PDw_echo-1_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-2_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-3_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-4_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-5_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-6_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-7_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-8_flip-1_mt-off_MPM.nii"
+  ]
+}

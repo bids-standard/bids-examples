@@ -1,0 +1,16 @@
+{
+  "IntendedFor": [
+    "anat/sub-01_acq-PDw_echo-1_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-2_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-3_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-4_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-5_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-6_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-7_flip-1_mt-off_MPM.nii",
+    "anat/sub-01_acq-PDw_echo-8_flip-1_mt-off_MPM.nii"
+  ],
+  "RawSources": [
+    "sub-01/fmap/sub-01_acq-bodyPDw_RB1COR.nii",
+    "sub-01/fmap/sub-01_acq-headPDw_RB1COR.nii"
+  ]
+}

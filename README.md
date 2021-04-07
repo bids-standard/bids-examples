@@ -11,12 +11,52 @@ datasets with **empty raw data files**. These datasets can be useful to:
 **ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!**
 
 However for some of the data, the headers containing the metadata are still
-intact. This is true for the following datasets:
+intact.
+(For example the NIfTI headers for `.nii` files, or the BrainVision data
+headers for `.vhdr` files.)
+
+Headers are intact for the following datasets:
 
 - `synthetic`
 - Most EEG or iEEG data in BrainVision format (e.g., `eeg_matchingpennies`)
 
-# Validator Exceptions
+# Validating BIDS examples
+
+The next three sections mention a few details on how the `bids-examples` can be validated using `bids-validator`.
+
+For general information on the `bids-validator`, including installation and usage, see the
+[bids-validator README file](https://github.com/bids-standard/bids-validator#quickstart).
+
+## Validating individual examples
+
+Since all raw data files in this repository are empty,
+the `bids-validator` must to be configured to not report empty data files as errors.
+(See more on bids-validator configuration in the
+[bids-validator README](https://github.com/bids-standard/bids-validator#configuration).)
+
+Just run the validator as follows (using the `eeg_matchingpennies` dataset as an example,
+and assuming you are in a command line at the root of the `bids-examples` repository):
+
+`bids-validator eeg_matchingpennies --config.ignore=99`
+
+The `--config.ignore=99` "flag" tells the bids-validator to ignore empty data files rather than to report the "empty file" error .
+
+For datasets that contain NIfTI `.nii` files, you also need to add the `ignoreNiftiHeaders` flag
+to the `bids-validator` call, to suppress the issue that NIfTI headers are not found.
+
+For example:
+
+`bids-validator ds003 --config.ignore=99 --ignoreNiftiHeaders`
+
+## Validating all examples
+
+If you want to validate all examples in one go, you can use the `run_tests.sh` script that is provided in this repository.
+This script makes use of the `bidsconfig.json` configuration file for the `bids-validator`,
+and appropriately handles some special case examples (see [Validator Exceptions](#validator-exceptions)).
+
+Simply run `bash run_tests.sh` in a command line from the root of the `bids-examples` repository.
+
+## Validator exceptions
 
 Some datasets may include a custom `.bids-validator-config.json` to ignore errors generated from idiosyncracies of the datasets as they existed on creation.
 
@@ -27,9 +67,13 @@ Some datasets may include a custom `.bids-validator-config.json` to ignore error
 Other datasets may include a `.SKIP_VALIDATION` file, to skip the validation with the continuous integration service.
 This is useful for datasets that *cannot* pass at the moment due to lack of coverage in the [bids-validator](https://github.com/bids-standard/bids-validator).
 
+Note however, that the `.SKIP_VALIDATION` file only impacts the continuous integration service,
+or validation when run with the `run_tests.sh` script (see [Validating all examples](#validating-all-examples)).
+This file does  **not** have any effect when running `bids-validator` from custom scripts, the web-based validator, docker, or from the command line.
+
 | name | why skipped |
 | --- | --- |
-| ds000001-fmriprep | lack of coverage in bids-validator |
+| ds000001-fmriprep | lack of coverage for "derivatives" in `bids-validator` |
 
 # Contributing
 
@@ -79,7 +123,7 @@ Below you find several tables with information about the datasets available in b
 |  7t_trt | | field maps, physiological data, quantitative T1 maps, T1w, BOLD | https://bit.ly/2H0Z6Qt |
 |  asl001 | @patsycle | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries | |
 |  asl002 | @patsycle | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan | |
-|  asl003 | @patsycle | T1w, asl (Siemens, PASL, multiTI), M0 from average control image | |
+|  asl003 | @patsycle | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan | |
 |  asl004 | @patsycle | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | |
 |  asl005 | @patsycle | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan | |
 |  ds001 | | single task, multiple runs, in-plane T2, events, T1w, BOLD | https://openneuro.org/datasets/ds000001/versions/00006 |
@@ -107,6 +151,18 @@ Below you find several tables with information about the datasets available in b
 |  hcp_example_bids | @robertoostenveld |   | https://bit.ly/2H0Z6Qt |
 |  synthetic | @effigies | A synthetic dataset | mri |  |  |  |  | n/a
 |  ds000001-fmriprep | @effigies | Common derivatives example | mri | | | | | https://openneuro.org/datasets/ds000001/versions/1.0.0
+|  qmri_mp2rage | @Gilles86 | MP2RAGE for T1 mapping | https://osf.io/k4bs5/ |
+|  qmri_mp2rageme | @Gilles86 | Multi-echo MP2RAGE | https://osf.io/k4bs5/ |
+|  qmri_mpm | @ChristophePhillips | Multi-parametric mapping for R1, R2star, MTsat and PD mapping | https://osf.io/k4bs5/ |
+|  qmri_mtsat | @agahkarakuzu | Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example. | https://osf.io/k4bs5/ |
+|  qmri_qsm | @agahkarakuzu | Chimap using fast QSM | `not publicly availabe` |
+|  qmri_sa2rage | @agahkarakuzu | Fast B1+ mapping using SA2RAGE | `not publicly availabe` |
+|  qmri_vfa | @agahkarakuzu | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | https://osf.io/k4bs5/ |
+|  qmri_irt1 | @agahkarakuzu | Inversion Recovery T1 mapping | `not publicly availabe` |
+|  qmri_mese | @agahkarakuzu | Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping. | `not publicly availabe` |
+|  qmri_megre | @agahkarakuzu | Multi-Echo Gradient-Echo for T2star mapping. | `not publicly availabe` |
+|  qmri_tb1tfl | @agahkarakuzu | B1+ mapping with TurboFLASH readout. | `not publicly availabe`|
+
 
 ## Multimodal datasets
 

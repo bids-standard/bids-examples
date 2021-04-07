@@ -1,0 +1,14 @@
+{
+  "Name": "BEP001 example dataset 0X (Variable Flip Angle)",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "raw",
+  "ReferencesAndLinks": [
+    "https://qmrlab.org/jekyll/2018/12/11/T1-mapping-variable-flip-angle.html",
+    "https://qmrlab.readthedocs.io/en/master/methods.html#vfa_t1",
+    "https://qmrlab.readthedocs.io/en/master/methods.html#b1_afi"
+  ],
+  "Authors": [
+    "Agah Karakuzu"
+  ],
+  "Description": "This is a sample dataset from a Variable Flip Angle (VFA) scan using FLASH sequence to compute T1 maps (DESPOT1)."
+}

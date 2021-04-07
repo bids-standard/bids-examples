@@ -1,0 +1,22 @@
+{    "RawSources": [
+        "sub-01/fmap/sub-01_acq-tr1_TB1AFI.nii.gz",
+        "sub-01/fmap/sub-01_acq-tr2_TB1AFI.nii.gz"
+      ],
+      "IntendedFor": [
+        "anat/sub-01_T1map.nii.gz"
+      ],
+    "MagneticFieldStrength": "3",
+    "Manufacturer": "Siemens",
+    "ManufacturerModelName": "Skyra",
+    "MRAcquisitionType": "3D",
+    "PulseSequenceType": "SPGR",
+    "RepetitionTime": ["0.02","0.1"],
+    "SpoilingState": true,
+    "SpoilingType": "COMBINED",
+    "SpoilingGradientMoment": ["0.540","2.250"],
+    "SpoilingGradientDuration": ["0.1244","0.0622"],
+    "SpoilingRFPhaseIncrement": "39",
+    "FlipAngle": "60",
+    "EchoTime": "0.032"
+  }
+  

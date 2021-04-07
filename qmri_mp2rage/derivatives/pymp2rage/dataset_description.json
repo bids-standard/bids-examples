@@ -1,0 +1,17 @@
+{
+  "Name": "PyMP2RAGE estimate",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "SourceDatasets": ["../../"],
+  "GeneratedBy": [
+    {
+      "Name": "pymp2rage",
+      "Version": "v0.1"
+    },
+    {
+      "Name": "Manual",
+      "Description": "Adjusted to conform to BIDS Derivatives"
+    }
+  ]
+}
