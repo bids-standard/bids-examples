@@ -33,6 +33,9 @@ jobs:
       with:
         node-version: 14
 
+    - name: Install npm@7
+      run: npm install --global npm@7
+
     - name: Install BIDS validator (stable)
       if: "matrix.bids-validator == 'stable'"
       run: |
