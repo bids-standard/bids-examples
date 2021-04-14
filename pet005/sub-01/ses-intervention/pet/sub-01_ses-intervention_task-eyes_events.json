@@ -1,0 +1,11 @@
+{
+	"trial_type": {
+		"LongName": "Event category",
+    "Description": "Indicator of type of action that is expected",
+    "Levels": {
+          "eyes open": "Eyes are open in the scanner",
+          "eyes closed": "Eyes are closed in the scanner"
+    }
+	}
+}
+
