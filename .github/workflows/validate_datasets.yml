@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         platform: [ubuntu-latest, macos-latest, windows-latest]
-        bids-validator: [bep_009, stable]
+        bids-validator: [master, stable]
 
     runs-on: ${{ matrix.platform }}
 
@@ -38,11 +38,11 @@ jobs:
       run: |
         npm install -g bids-validator
 
-    - name: Install BIDS validator (bep_009)
-      if: "matrix.bids-validator == 'bep_009'"
+    - name: Install BIDS validator (master)
+      if: "matrix.bids-validator == 'master'"
       run: |
         pushd ..
-        git clone --depth 1 https://github.com/bids-standard/bids-validator --branch bep_009
+        git clone --depth 1 https://github.com/bids-standard/bids-validator
         npm install -g bids-validator/bids-validator
         popd
 
