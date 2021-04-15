@@ -44,10 +44,7 @@ jobs:
     - name: Install BIDS validator (master)
       if: "matrix.bids-validator == 'master'"
       run: |
-        pushd ..
-        git clone --depth 1 https://github.com/bids-standard/bids-validator
-        npm link ./bids-validator
-        popd
+        npm install --global git+https://github.com/bids-standard/bids-validator.git
 
     - name: Display versions and environment information
       run: |
