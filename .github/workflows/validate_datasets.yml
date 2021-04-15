@@ -46,7 +46,7 @@ jobs:
       run: |
         pushd ..
         git clone --depth 1 https://github.com/bids-standard/bids-validator
-        npm install -g ./bids-validator
+        npm link ./bids-validator
         popd
 
     - name: Display versions and environment information
