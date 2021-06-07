@@ -180,7 +180,7 @@ Below you find several tables with information about the datasets available in b
 |  ieeg_visual_multimodal |  @irisgroen | | mri |  |  | ieeg | | | |
 |  genetics_ukbb |  @cpernet | multiple tasks, T1w, DTI, BOLD, genetic info | mri |  |  | | | genetics | |
 |  pet001 |  @mnoergaard | T1w, PET, blood | mri |  |  | | pet | | |
-|  pet002 |  @mnoergaard | T1w, PET | mri |  |  | | pet | | |
+|  pet002 |  @mnoergaard | T1w, PET | mri |  |  | | pet | | https://openneuro.org/datasets/ds001420/ |
 |  pet003 |  @mnoergaard | T1w, PET, blood | mri |  |  | | pet | | |
 |  pet004 |  @mnoergaard | PET, blood | |  |  | | pet | | |
 |  pet005 |  @mnoergaard | T1w, PET | mri |  |  | | pet | | |
