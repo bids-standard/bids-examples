@@ -1,0 +1,17 @@
+{
+    "Name": "Face processing MEEG dataset with HED annotation",
+    "BIDSVersion": "v1.4.0",
+    "HEDVersion": "8.0.0-alpha.2",
+    "License": "CC0",
+    "Authors": [
+        "Daniel G. Wakeman",
+        "Richard N Henson"
+    ],
+    "ReferencesAndLinks": [
+        "Wakeman, D., Henson, R. (2015). A multi-subject, multi-modal human neuroimaging dataset. Sci Data 2, 150001. https://doi.org/10.1038/sdata.2015.1", "Robbins, K., Truong, D., Appelhoff, S., Delorme, A., & Makeig, S. (2021, May 7). Capturing the nature of events and event context using Hierarchical Event Descriptors (HED). BioRxiv, 2021.05.06.442841. https://doi.org/10.1101/2021.05.06.442841"
+    ],
+    "Funding": [
+        "This work was supported by the UK Medical Research Council (MC_A060_5PR10) and Elekta Ltd."
+    ],
+    "DatasetDOI": "10.18112/openneuro.ds003645.v1.0.0"
+}

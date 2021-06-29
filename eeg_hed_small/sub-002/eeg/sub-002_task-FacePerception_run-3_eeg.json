@@ -1,0 +1,24 @@
+{
+  "TaskName": "FacePerception",
+  "TaskDescription": "Subjects viewed stimuli on a screen during six, 7.5 minute runs. The stimuli were photographs of either a famous face (known to most of British or a scrambled face, and appeared for a random duration between 800 and 1,000 ms. Subjects were instructed to fixate centrally throughout the experiment. To ensure attention to each stimulus, participants were asked to press one of two keys with either their left or right index finger (assignment counter-balanced across participants). Their key-press was based on how symmetric they regarded each image: pressing one or the other key depending whether they thought the image was 'more' or 'less symmetric' than average.",
+  "InstitutionAddress": "15 Chaucer Road, Cambridge, UK",
+  "InstitutionName": "MRC Cognition & Brain Sciences Unit",
+  "EEGReference": "nose",
+  "EEGGround": "left collar bone",
+  "SamplingFrequency": 250,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "LowPassFilter": {
+      "cutoff": "350 (Hz)"
+    }
+  },
+  "EEGPlacementScheme": "extended 10-10% system",
+  "CapManufacturer": "Easycap",
+  "EEGChannelCount": 70,
+  "EOGChannelCount": 2,
+  "RecordingType": "continuous",
+  "MiscChannelCount": 309,
+  "RecordingDuration": 505,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0
+}
