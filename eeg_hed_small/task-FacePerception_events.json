@@ -91,7 +91,7 @@
     "Description": "Metadata dictionary for gathering task definitions",
     "HED": {
       "face_symmetry_evaluation_task_def": "(Definition/Face-symmetry-evaluation-task, (Task, Experimental-participant, (Look, Face), (Discriminate, (Face, Symmetric)), (Press, Keyboard-key), Description/Evaluate degree of image symmetry and respond with key press evaluation.))",
-      "blink_inhibition_task_def": "(Definition/Blink-inhibition-task, (Task, Experimental-participant, Inhibit-blinks, Description/Don’t blink while the face image is displayed.))",
+      "blink_inhibition_task_def": "(Definition/Blink-inhibition-task, (Task, Experimental-participant, Inhibit-blinks, Description/Do not blink while the face image is displayed.))",
       "fixation_task_def": "(Definition/Fixation-task, (Task, Experimental-participant, (Fixate, Cross), Description/Fixate on the cross at the screen center.))",
       "face_novelty_detection_task_def": "(Definition/Face-novelty-detection-task, ((Task, Implicit), Experimental-participant, (Look, Face), (Detect, (Face, Novel)), Description/Recognize presentations of previously unseen face images-implicit task.))"
     },
