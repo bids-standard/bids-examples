@@ -330,6 +330,8 @@ for fname in fnames_events_tsv:
     ]
     df = df[event_cols]
 
+    df.to_csv(fname, sep="\t", na_rep="n/a", index=False)
+
 # add this change to CHANGES
 changes += [
     "Added events.tsv columns hand_raised, countdown_onset, countdown_offset, and feedback_onset_approx",
