@@ -1,0 +1,7 @@
+name	type	units	sampling_frequency_effective	tracked_point	component	placement	tracking_system
+t2_ornt_z	ORNT	rad	60.001973750589	JoyStickRotation	z	n/a	VIRpos
+t2_ornt_y	ORNT	rad	60.001973750589	JoyStickRotation	y	n/a	VIRpos
+t2_ornt_x	ORNT	rad	60.001973750589	JoyStickRotation	x	n/a	VIRpos
+t2_pos_X	POS	virtual meters	60.001973750589	JoyStickRotation	X	n/a	VIRpos
+t2_pos_Y	POS	virtual meters	60.001973750589	JoyStickRotation	Y	n/a	VIRpos
+t2_pos_Z	POS	virtual meters	60.001973750589	JoyStickRotation	Z	n/a	VIRpos

@@ -1,0 +1,30 @@
+{
+	"InstitutionAddress": "Strasse des 17. Juni 135, 10623, Berlin, Germany",
+	"InstitutionName": "Technische Universitaet zu Berlin",
+	"InstitutionalDepartmentName": "Biological Psychology and Neuroergonomics",
+	"MotionChannelCount": 6,
+	"RecordingDuration": 195.1296414,
+	"RecordingType": "continuous",
+	"TaskDescription": "Participants equipped with VR HMD rotated either physically or using a joystick.",
+	"TaskName": "spotrotation",
+	"TrackedPointsCountTotal": 1,
+	"TrackingSystemCount": 1,
+	"TrackingSystems": {
+		"OPTpos": {
+			"Manufacturer": "HTC",
+			"ManufacturersModelName": "Vive Pro",
+			"SamplingFrequencyNominal": 90,
+			"SamplingFrequencyEffective": 89.48922302,
+			"TrackedPointsCount": 1,
+			"StartTime": 0.03865758796,
+			"POSChannelCount": 3,
+			"ORNTChannelCount": 3,
+			"VELChannelCount": 0,
+			"ANGVELChannelCount": 0,
+			"ACCChannelCount": 0,
+			"ANGACCChannelCount": 0,
+			"MAGNChannelCount": 0,
+			"JNTANGChannelCount": 0
+		}
+	}
+}

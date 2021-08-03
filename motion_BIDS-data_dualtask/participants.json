@@ -1,0 +1,27 @@
+{
+	"age": {
+		"Description": "age of the participant",
+		"Unit": "years"
+	},
+	"sex": {
+		"Description": "sex of the participant",
+		"Levels": {
+			"M": "male",
+			"F": "female"
+		}
+	},
+	"group": {
+		"Description": "experiment group",
+		"Levels": {
+			"young": "younger participants under 35",
+			"old": "older participants over 65"
+		}
+	},
+	"handedness": {
+		"Description": "handedness of participant",
+		"Levels": {
+			"R": "right-handed",
+			"L": "left-handed"
+		}
+	}
+}
