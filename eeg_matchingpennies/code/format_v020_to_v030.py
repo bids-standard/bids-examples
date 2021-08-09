@@ -462,6 +462,23 @@ changes += [
     "Added HED tags to events.json file",
 ]
 
+# %% Add HEDVersion field to dataset_description.json
+
+dataset_description_json = op.join(mp_root, "dataset_description.json")
+
+with open(dataset_description_json, "r") as fin:
+    dataset_description = json.load(fin)
+
+dataset_description["HEDVersion"] = "8.0.0"
+
+with open(dataset_description_json, "w") as fout:
+    json.dump(dataset_description, fout, ensure_ascii=False, indent=4)
+    fout.write("\n")
+
+changes += [
+     "Added HEDVersion field to dataset_description.json file",
+]
+
 # %% Update contents of CHANGES
 
 update_txt = f"0.3.0 {datetime.now().strftime('%Y-%m-%d')}"
