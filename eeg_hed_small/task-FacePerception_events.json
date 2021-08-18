@@ -10,23 +10,23 @@
       "show_face": "Display a face to mark end of pre-stimulus and start of blink-inhibition.",
       "show_circle": "Display a white circle to mark end of the stimulus and blink inhibition.",
       "show_cross": "Display only a white cross to mark start of trial and fixation.",
-      "left_press": "Experimental participant presses a key with left index finger.",
-      "right_press": "Experimental participant presses a key with right index finger.",
+      "left_press": "Experiment participant presses a key with left index finger.",
+      "right_press": "Experiment participant presses a key with right index finger.",
       "left_sym": "Pressing key with left index finger means a face with above average symmetry.",
       "right_sym": "Pressing key with right index finger means a face with above average symmetry.",
       "setup": "Mark start of experiment and document applicable metadata.",
-      "4352": "A trigger code indicating that the user did an additional key press after response."
+      "double_press": "Experiment participant presses both keys ."
     },
     "HED": {
       "show_face": "Sensory-event, Experimental-stimulus, (Def/Face-image, Onset), (Def/Blink-inhibition-task,Onset),(Def/Cross-only, Offset)",
       "show_circle": "Sensory-event, (Intended-effect, Cue), (Def/Circle-only, Onset), (Def/Face-image, Offset), (Def/Blink-inhibition-task, Offset), (Def/Fixation-task, Offset)",
-      "show_cross": "Sensory-event, (Intended-effect, Cue), (Def/Cross-only, Onset), (Def/Fixation, Onset), (Def/Trial, Onset), (Def/Circle-only, Offset)",
+      "show_cross": "Sensory-event, (Intended-effect, Cue), (Def/Cross-only, Onset), (Def/Fixation-task, Onset),  (Def/Circle-only, Offset)",
       "left_press": "Agent-action, Participant-response, Def/Press-left-finger",
       "right_press": "Agent-action, Participant-response, Def/Press-right-finger",
       "left_sym": "Experiment-structure, (Def/Left-sym-cond, Onset)",
       "right_sym": "Experiment-structure, (Def/Right-sym-cond, Onset)",
       "setup": "Experiment-structure, (Def/Initialize-recording, Onset)",
-      "4352": "Agent-action, Indeterminate, (Press, Keyboard-key)"
+      "double_press": "Agent-action, Indeterminate-action, (Press, Keyboard-key)"
     }
   },
   "face_type": {
@@ -55,52 +55,61 @@
       "delayed_repeat": "Def/Delayed-repeat-cond"
     }
   },
+  "trial": {
+    "Description": "Indicates which trial this event belongs to.",
+    "HED": "Experimental-trial/#"
+  },
+  "trial_lag": {
+    "Description": "How many trials before this trial the image was previously presented.",
+    "HED": "(Parameter-label/Trial-lag, Item-interval/#)"
+  },
   "stim_file": {
     "Description": "Path of the stimulus file in the stimuli directory.",
-    "HED": "(Image, Path-name/#)"
+    "HED": "(Image, Pathname/#)"
   },
   "hed_def_sensory": {
     "Description": "Metadata dictionary for gathering sensory definitions",
     "HED": {
-      "cross_only_def": "(Definition/Cross-only, (Visual, (Foreground-view, (White, Cross), (Center-of, Screen)), (Background-view, Black), Description/A white fixation cross on a black background in the center of the screen.))",
-      "face_image_def": "(Definition/Face-image, (Visual, (Foreground-view, ((Image, Face, Hair), Color/Grayscale), ((White, Cross), (Center-of, Screen))), (Background-view, Black), Description/A happy or neutral face in frontal or three-quarters frontal pose with long hair cropped presented as an achromatic foreground image on a black background with a white fixation cross superposed.))",
-      "circle_only_def": "(Definition/Circle-only, (Visual, (Foreground-view, ((White, Circle), (Center-of, Screen))), (Background-view, Black), Description/A white circle on a black background in the center of the screen.))"
+      "cross_only_def": "(Definition/Cross-only, (Visual-presentation, (Foreground-view, (White, Cross), (Center-of, Computer-screen)), (Background-view, Black), Description/A white fixation cross on a black background in the center of the screen.))",
+      "face_image_def": "(Definition/Face-image, (Visual-presentation, (Foreground-view, ((Image, Face, Hair), Color/Grayscale), ((White, Cross), (Center-of, Computer-screen))), (Background-view, Black), Description/A happy or neutral face in frontal or three-quarters frontal pose with long hair cropped presented as an achromatic foreground image on a black background with a white fixation cross superposed.))",
+      "circle_only_def": "(Definition/Circle-only, (Visual-presentation, (Foreground-view, ((White, Circle), (Center-of, Computer-screen))), (Background-view, Black), Description/A white circle on a black background in the center of the screen.))"
     }
   },
   "hed_def_actions": {
     "Description": "Metadata dictionary for gathering participant action definitions",
     "HED": {
-      "press_left_finger_def": "(Definition/Press-left-finger, (Experimental-participant, (Index-finger, Left-side), (Press, Keyboard-key), Description/The participant presses a key with the left index finger to indicate a face symmetry judgment.))",
-      "press_right_finger_def": "(Definition/Press-right-finger, (Experimental-participant, (Index-finger, Right-side), (Press, Keyboard-key), Description/The participant presses a key with the right index finger to indicate a face symmetry evaluation.))"
+      "press_left_finger_def": "(Definition/Press-left-finger, ((Index-finger, (Left-side-of, Experiment-participant)), (Press, Keyboard-key), Description/The participant presses a key with the left index finger to indicate a face symmetry judgment.))",
+      "press_right_finger_def": "(Definition/Press-right-finger, ((Index-finger, (Right-side-of, Experiment-participant)), (Press, Keyboard-key), Description/The participant presses a key with the right index finger to indicate a face symmetry evaluation.))"
     }
   },
   "hed_def_conds": {
     "Description": "Metadata dictionary for gathering experimental condition definitions",
     "HED": {
-      "famous_face_cond_def": "(Definition/Famous-face-cond, (Experimental-condition, Label/Face-type, (Image, (Face, Famous)), Description/A face that should be recognized by the participants))",
-      "unfamiliar_face_cond_def": "(Definition/Unfamiliar-face-cond, (Experimental-condition, Label/Face-type, (Image, (Face, Unfamiliar)), Description/A face that should not be recognized by the participants.))",
-      "scrambled_face_cond_def": "(Definition/Scrambled-face-cond, (Experimental-condition, Label/Face-type, (Image, (Face, Disordered)), Description/A scrambled face image generated by taking face 2D FFT.))",
-      "first_show_cond_def": "(Definition/First-show-cond, (Experimental-condition, Label/Repetition-type, (First-item, Repetition/1), Description/Factor level indicating the first display of this face.))",
-      "immediate_repeat_cond_def": "(Definition/Immediate-repeat-cond, (Experimental-condition, Label/Repetition-type, (Next-item, Repetition/2), Description/Factor level indicating this face was the same as previous one.))",
-      "delayed_repeat_cond_def": "(Definition/Delayed-repeat-cond, (Experimental-condition, Label/Repetition-type, (Later-item, Repetition/2), Description/Factor level indicating face was seen 5 to 15 trials ago.))",
-      "left_sym_cond_def": "(Definition/Left-sym-cond, (Experimental-condition, Label/Key-assignment, ((Button, Left-side), Symmetric), ((Button, Right-side), Asymmetric), Description/Pressing a key with the left index finger indicates a face with above average symmetry.))",
-      "right_sym_cond_def": "(Definition/Right-sym-cond, (Experimental-condition, Label/Key-assignment, ((Button, Right-side), (Behavioral-evidence, Symmetric)), ((Button, Left-side), (Behavioral-evidence, Asymmetric)), Description/Right finger key press means above average symmetry.))"
+      "famous_face_cond_def": "(Definition/Famous-face-cond, (Condition-variable/Face-type, (Image, (Face, Famous)), Description/A face that should be recognized by the participants))",
+      "unfamiliar_face_cond_def": "(Definition/Unfamiliar-face-cond, (Condition-variable/Face-type, (Image, (Face, Unfamiliar)), Description/A face that should not be recognized by the participants.))",
+      "scrambled_face_cond_def": "(Definition/Scrambled-face-cond, (Condition-variable/Face-type, (Image, (Face, Disordered)), Description/A scrambled face image generated by taking face 2D FFT.))",
+      "first_show_cond_def": "(Definition/First-show-cond, ((Condition-variable/Repetition-type, (Item-count/1, Face), Item-interval/0), Description/Factor level indicating the first display of this face.))",
+      "immediate_repeat_cond_def": "(Definition/Immediate-repeat-cond, ((Condition-variable/Repetition-type, (Item-count/2, Face), Item-interval/1), Description/Factor level indicating this face was the same as previous one.))",
+      "delayed_repeat_cond_def": "(Definition/Delayed-repeat-cond, (Condition-variable/Repetition-type, (Item-count/2, Face), (Item-interval, (Greater-than-or-equal-to, Item-interval/5)), Description/Factor level indicating face was seen 5 to 15 trials ago.))",
+      "left_sym_cond_def": "(Definition/Left-sym-cond, (Condition-variable/Key-assignment, ((Index-finger, (Left-side-of, Experiment-participant)), (Behavioral-evidence, Symmetrical)), ((Index-finger, (Right-side-of, Experiment-participant)), (Behavioral-evidence, Asymmetrical)), Description/Pressing a key with the left index finger indicates a face with above average symmetry.))",
+      "right_sym_cond_def": "(Definition/Right-sym-cond, (Condition-variable/Key-assignment, ((Index-finger, (Right-side-of, Experiment-participant)), (Behavioral-evidence, Symmetrical)), ((Index-finger, (Left-side-of, Experiment-participant)), (Behavioral-evidence, Asymmetrical)), Description/Right finger key press means above average symmetry.))"
     }
   },
   "hed_def_tasks": {
     "Description": "Metadata dictionary for gathering task definitions",
     "HED": {
-      "face_symmetry_evaluation_task_def": "(Definition/Face-symmetry-evaluation-task, (Task, Experimental-participant, (Look, Face), (Discriminate, (Face, Symmetric)), (Press, Keyboard-key), Description/Evaluate degree of image symmetry and respond with key press evaluation.))",
-      "blink_inhibition_task_def": "(Definition/Blink-inhibition-task, (Task, Experimental-participant, Inhibit-blinks, Description/Do not blink while the face image is displayed.))",
-      "fixation_task_def": "(Definition/Fixation-task, (Task, Experimental-participant, (Fixate, Cross), Description/Fixate on the cross at the screen center.))",
-      "face_novelty_detection_task_def": "(Definition/Face-novelty-detection-task, ((Task, Implicit), Experimental-participant, (Look, Face), (Detect, (Face, Novel)), Description/Recognize presentations of previously unseen face images-implicit task.))"
-    },
-    "hed_def_setup": {
-      "Description": "Metadata dictionary for gathering setup definitions",
-      "HED": {
-        "initialize_recording_def": "(Definition/Initialize-recording, (Description/Stuff and setup stuff.))"
-      }
+      "face_symmetry_evaluation_task_def": "(Definition/Face-symmetry-evaluation-task, (Task, Experiment-participant, (See, Face), (Discriminate, (Face, Symmetrical)), (Press, Keyboard-key), Description/Evaluate degree of image symmetry and respond with key press evaluation.))",
+      "blink_inhibition_task_def": "(Definition/Blink-inhibition-task, (Task, Experiment-participant, Inhibit-blinks, Description/Do not blink while the face image is displayed.))",
+      "fixation_task_def": "(Definition/Fixation-task, (Task, Experiment-participant, (Fixate, Cross), Description/Fixate on the cross at the screen center.))",
+      "face_novelty_detection_task_def": "(Definition/Face-novelty-detection-task, ((Task, Implicit), Experiment-participant, (See, Face), (Detect, (Face, Novel)), Description/Recognize presentations of previously unseen face images-implicit task.))"
     }
+  },
+  "hed_def_setup": {
+     "Description": "Metadata dictionary for gathering setup definitions",
+     "HED": {
+        "initialize_recording_def": "(Definition/Initialize-recording, (Recording))"
+      }
+
   },
   "trigger": {
     "Description": "Numerical event marker",
@@ -115,8 +124,9 @@
       "x17": "Initial presentation of scrambled face",
       "x18": "Immediate repeated  presentation of scrambled face",
       "x19": "Delayed repeated  presentation of scrambled face",
-      "x256": "Left button press",
-      "x4096": "Right button press"
+      "x256": "Left finger key press",
+      "x4096": "Right finger key press",
+	  "x4352": "Left and right finger key presses"
     }
   }
 }
