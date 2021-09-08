@@ -1,9 +1,10 @@
 {
-        "Manufacturer": "Hamamatsu",
-        "ManufacturersModelName": "C4742-95-12G04",
+        "Manufacturer": "Miltenyi Biotec",
+        "ManufacturersModelName": "UltraMicroscope II",
         "BodyPart": "CSPINE",
         "Environment": "exvivo",
         "SampleFixation": "4% paraformaldehyde, 2% glutaraldehyde",
+        "SampleStaining": "Luxol fast blue",
         "PixelSize": [1, 1, 1],
         "PixelSizeUnits": "um"
 }
