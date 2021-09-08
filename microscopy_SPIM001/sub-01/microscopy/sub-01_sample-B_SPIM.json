@@ -4,11 +4,6 @@
         "BodyPart": "CSPINE",
         "Environment": "exvivo",
         "SampleFixation": "4% paraformaldehyde, 2% glutaraldehyde",
-
-        "PixelSize": [
-                1,
-                1,
-                1
-        ],
+        "PixelSize": [1, 1, 1],
         "PixelSizeUnits": "um"
 }
