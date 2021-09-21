@@ -11,18 +11,18 @@ do
 
     elif [ -f ${i%%/}/.bids-validator-config.json ]; then
 
-        bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
+        bids-validator ${i%%/} $VALIDATOR_ARGS --ignoreNiftiHeaders || rc=$?
 
     else
 
         if [ $i == "synthetic/" ]; then
 
             echo "Validating NIfTI headers for dataset" $i
-            bids-validator ${i%%/} -c $PWD/bidsconfig.json || rc=$?
+            bids-validator ${i%%/} $VALIDATOR_ARGS -c $PWD/bidsconfig.json || rc=$?
 
         else
 
-            bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
+            bids-validator ${i%%/} $VALIDATOR_ARGS --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
 
         fi
 
