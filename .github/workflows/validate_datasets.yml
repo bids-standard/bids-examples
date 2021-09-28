@@ -33,7 +33,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Set up Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2
       with:
         node-version: 12
 
@@ -47,11 +47,11 @@ jobs:
       run: |
         pushd ..
         # Get npm 7+
-        npm install -g npm
+        npm install -g npm@^7
         git clone --depth 1 https://github.com/bids-standard/bids-validator
         cd bids-validator
         # Generate the full development node_modules
-        npm install
+        npm clean-install
         # Build & bundle the bids-validator CLI package
         npm -w bids-validator run build
         # Generate a package to install globally
