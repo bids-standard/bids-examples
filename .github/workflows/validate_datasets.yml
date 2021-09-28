@@ -46,11 +46,18 @@ jobs:
       if: "matrix.bids-validator == 'master'"
       run: |
         pushd ..
+        # Get npm 7+
+        npm install -g npm
         git clone --depth 1 https://github.com/bids-standard/bids-validator
         cd bids-validator
+        # Generate the full development node_modules
+        npm install
+        # Build & bundle the bids-validator CLI package
         npm -w bids-validator run build
+        # Generate a package to install globally
         npm -w bids-validator pack
-        npm install -g bids-validator-*.tgz
+        # Install the package globally
+        bash -c "npm install -g bids-validator-*.tgz"
         popd
 
     - name: Display versions and environment information
