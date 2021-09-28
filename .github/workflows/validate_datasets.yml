@@ -47,7 +47,10 @@ jobs:
       run: |
         pushd ..
         git clone --depth 1 https://github.com/bids-standard/bids-validator
-        npm install -g bids-validator/bids-validator
+        cd bids-validator
+        npm -w bids-validator run build
+        npm -w bids-validator pack
+        npm install -g bids-validator-*.tgz
         popd
 
     - name: Display versions and environment information
