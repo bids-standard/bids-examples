@@ -9,6 +9,8 @@ for i in $(ls -d */ | grep -v node_modules); do
 	continue
     fi
 
+    # Set the VALIDATOR_ARGS environment variable to pass additional arguments to the 
+    # validator.
     CMD="bids-validator ${i%%/} $VALIDATOR_ARGS"
 
     # Use default configuration unless overridden
