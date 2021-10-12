@@ -130,12 +130,43 @@ bids-examples (in alphabetical order).
 
 ### iEEG datasets
 
-| name                 | maintained by | description                                                      | link to full data |
-| -------------------- | ------------- | ---------------------------------------------------------------- | ----------------- | --- | --- | ---- | ---------------------- |
-| ieeg_filtered_speech | @choldgraf    | recordings of three seizures                                     |                   |     |     | ieeg | not publicly available |
-| ieeg_motorMiller2007 | @dorahermes   | Cue-based hand & tongue movement data                            |                   |     |     | ieeg |                        |
-| ieeg_visual          | @dorahermes   | Stimulus dependence of gamma oscillations in human visual cortex |                   |     |     | ieeg |                        |
+| name                 | maintained by | description                                                      |
+| -------------------- | ------------- | ---------------------------------------------------------------- |
+| ieeg_filtered_speech | @choldgraf    | recordings of three seizures                                     |
+| ieeg_motorMiller2007 | @dorahermes   | Cue-based hand & tongue movement data                            |
+| ieeg_visual          | @dorahermes   | Stimulus dependence of gamma oscillations in human visual cortex |
+
 ### MRI datasets
+
+| name              | maintained by     | description                                                                                          | link to link to full data                              |
+| ----------------- | ----------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 7t_trt            |                   | field maps, physiological data, quantitative T1 maps, T1w, BOLD                                      | https://bit.ly/2H0Z6Qt                                 |
+| ds001             |                   | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000001/versions/00006 |
+| ds002             |                   | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000002/versions/00002 |
+| ds003             |                   | single task, single run, in-plane T2, events, T1w, BOLD                                              | https://openneuro.org/datasets/ds000003/versions/00001 |
+| ds005             |                   | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000005/versions/00001 |
+| ds006             |                   | single task, multiple sessions, multiple runs, in-plane T2, events, T1w, BOLD                        | https://openneuro.org/datasets/ds000006/versions/00001 |
+| ds007             |                   | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000007/versions/00001 |
+| ds008             |                   | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000008/versions/00001 |
+| ds009             |                   | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000009/versions/00002 |
+| ds011             |                   | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000011/versions/00001 |
+| ds051             |                   | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000051/versions/00001 |
+| ds052             |                   | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000052/versions/00001 |
+| ds101             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000101/versions/00004 |
+| ds102             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000102/versions/00001 |
+| ds105             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000105/versions/00001 |
+| ds107             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000107/versions/00001 |
+| ds108             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000108/versions/00002 |
+| ds109             |                   | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000109/versions/00001 |
+| ds110             |                   | single task, multiple runs, T1w, BOLD, in plane T2                                                   | https://openneuro.org/datasets/ds000110/versions/00001 |
+| ds113b            |                   | forrest gump watching, multiple sessions, multiple runs, T1w, T2w, BOLD, angiography, dwi, fieldmaps | https://openneuro.org/datasets/ds000113/versions/1.3.0 |
+| ds114             |                   | multiple tasks, multiple runs, T1w, BOLD, DWI                                                        | https://openneuro.org/datasets/ds000114/versions/1.0.1 |
+| ds116             |                   | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000116/versions/00003 |
+| ds210             |                   | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000210/versions/00002 |
+| hcp_example_bids  | @robertoostenveld |                                                                                                      | https://bit.ly/2H0Z6Qt                                 |
+| synthetic         | @effigies         | A synthetic dataset                                                                                  | n/a                                                    |
+| ds000001-fmriprep | @effigies         | Common derivatives example                                                                           | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
+
 ### ASL datasets
 
 | name   | maintained by | description                                                                                   | link to link to full data                                                            |
@@ -171,44 +202,19 @@ bids-examples (in alphabetical order).
 | pet003 | @mnoergaard   | T1w, PET, blood |                                          |
 | pet004 | @mnoergaard   | PET, blood      |                                          |
 | pet005 | @mnoergaard   | T1w, PET        |                                          |
-| ds001             |                     | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000001/versions/00006                               |
-| ds002             |                     | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000002/versions/00002                               |
-| ds003             |                     | single task, single run, in-plane T2, events, T1w, BOLD                                              | https://openneuro.org/datasets/ds000003/versions/00001                               |
-| ds005             |                     | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000005/versions/00001                               |
-| ds006             |                     | single task, multiple sessions, multiple runs, in-plane T2, events, T1w, BOLD                        | https://openneuro.org/datasets/ds000006/versions/00001                               |
-| ds007             |                     | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000007/versions/00001                               |
-| ds008             |                     | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000008/versions/00001                               |
-| ds009             |                     | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000009/versions/00002                               |
-| ds011             |                     | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000011/versions/00001                               |
-| ds051             |                     | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000051/versions/00001                               |
-| ds052             |                     | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000052/versions/00001                               |
-| ds101             |                     | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000101/versions/00004                               |
-| ds102             |                     | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000102/versions/00001                               |
-| ds105             |                     | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000105/versions/00001                               |
-| ds107             |                     | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000107/versions/00001                               |
-| ds108             |                     | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000108/versions/00002                               |
-| ds109             |                     | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000109/versions/00001                               |
-| ds110             |                     | single task, multiple runs, T1w, BOLD, in plane T2                                                   | https://openneuro.org/datasets/ds000110/versions/00001                               |
-| ds113b            |                     | forrest gump watching, multiple sessions, multiple runs, T1w, T2w, BOLD, angiography, dwi, fieldmaps | https://openneuro.org/datasets/ds000113/versions/1.3.0                               |
-| ds114             |                     | multiple tasks, multiple runs, T1w, BOLD, DWI                                                        | https://openneuro.org/datasets/ds000114/versions/1.0.1                               |
-| ds116             |                     | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000116/versions/00003                               |
-| ds210             |                     | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000210/versions/00002                               |
-| hcp_example_bids  | @robertoostenveld   |                                                                                                      | https://bit.ly/2H0Z6Qt                                                               |
-| synthetic         | @effigies           | A synthetic dataset                                                                                  | mri                                                                                  |     |     |     |     | n/a                                                    |
-| ds000001-fmriprep | @effigies           | Common derivatives example                                                                           | mri                                                                                  |     |     |     |     | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
 
 ### Multimodal datasets
 
-| name                   | maintained by     | description                                                                                                                          | mri | meg | eeg | ieeg | pet | genetics | link to full data                                              |
-| ---------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --- | --- | --- | ---- | --- | -------- | -------------------------------------------------------------- |
-| ds000117               | @RikHenson        | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task                                          | mri | meg | eeg |      |     |          | https://openneuro.org/datasets/ds000117/                       |
-| ds000246               | @guiomar          | Auditory dataset used for Brainstorm’s general online tutorial                                                                       | mri | meg |     |      |     |          | https://openneuro.org/datasets/ds000246/versions/00001         |
-| ds000247               | @guiomar          | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA).                 | mri | meg |     |      |     |          | https://openneuro.org/datasets/ds000247/versions/00001         |
-| ds000248               | @agramfort        | MNE sample data: Data with visual and auditory stimuli                                                                               | mri | meg |     |      |     |          | https://openneuro.org/datasets/ds000248/versions/00001         |
-| eeg_cbm                | @cpernet          | Rest EEG. European Data Format (.edf)                                                                                                | mri |     | eeg |      |     |          |                                                                |
-| eeg_ds000117           | @robertoostenveld | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | mri |     | eeg |      |     |          | https://openneuro.org/datasets/ds000117/                       |
-| eeg_rest_fmri          | @cpernet          | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)                                                   | mri |     | eeg |      |     |          |                                                                |
-| ieeg_epilepsy          | @ftadel           | multiple sessions, tutorial                                                                                                          | mri |     |     | ieeg |     |          | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap |
-| ieeg_epilepsy_ecog     | @ftadel           | multiple sessions, tutorial                                                                                                          | mri |     |     | ieeg |     |          | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog     |
-| ieeg_visual_multimodal | @irisgroen        |                                                                                                                                      | mri |     |     | ieeg |     |          |                                                                |
-| genetics_ukbb          | @cpernet          | multiple tasks, T1w, DTI, BOLD, genetic info                                                                                         | mri |     |     |      |     | genetics |                                                                |
+| name                   | maintained by     | description                                                                                                                          | mri | meg | eeg | ieeg | genetics | link to full data                                              |
+| ---------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --- | --- | --- | ---- | -------- | -------------------------------------------------------------- |
+| ds000117               | @RikHenson        | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task                                          | mri | meg | eeg |      |          | https://openneuro.org/datasets/ds000117/                       |
+| ds000246               | @guiomar          | Auditory dataset used for Brainstorm’s general online tutorial                                                                       | mri | meg |     |      |          | https://openneuro.org/datasets/ds000246/versions/00001         |
+| ds000247               | @guiomar          | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA).                 | mri | meg |     |      |          | https://openneuro.org/datasets/ds000247/versions/00001         |
+| ds000248               | @agramfort        | MNE sample data: Data with visual and auditory stimuli                                                                               | mri | meg |     |      |          | https://openneuro.org/datasets/ds000248/versions/00001         |
+| eeg_cbm                | @cpernet          | Rest EEG. European Data Format (.edf)                                                                                                | mri |     | eeg |      |          |                                                                |
+| eeg_ds000117           | @robertoostenveld | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | mri |     | eeg |      |          | https://openneuro.org/datasets/ds000117/                       |
+| eeg_rest_fmri          | @cpernet          | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)                                                   | mri |     | eeg |      |          |                                                                |
+| ieeg_epilepsy          | @ftadel           | multiple sessions, tutorial                                                                                                          | mri |     |     | ieeg |          | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap |
+| ieeg_epilepsy_ecog     | @ftadel           | multiple sessions, tutorial                                                                                                          | mri |     |     | ieeg |          | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog     |
+| ieeg_visual_multimodal | @irisgroen        |                                                                                                                                      | mri |     |     | ieeg |          |                                                                |
+| genetics_ukbb          | @cpernet          | multiple tasks, T1w, DTI, BOLD, genetic info                                                                                         | mri |     |     |      | genetics |                                                                |
