@@ -127,6 +127,7 @@ bids-examples (in alphabetical order).
 | eeg_rishikesh       | @arnodelorme  | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | https://openneuro.org/datasets/ds001787 |
 | eeg_face13          | @andesha      | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format                     |                                         |
 | eeg_hed_small       | @VisLab       | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 |                                         |
+| eeg_cbm             | @cpernet      | Rest EEG. European Data Format (.edf)                                                                              |                                         |
 
 ### iEEG datasets
 
