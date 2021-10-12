@@ -114,6 +114,9 @@ bids-examples (in alphabetical order).
 - [EEG datasets](#eeg-datasets)
 - [iEEG datasets](#ieeg-datasets)
 - [MRI datasets](#mri-datasets)
+- [ASL datasets](#asl-datasets)
+- [qMRI datasets](#qmri-datasets)
+- [PET datasets](#PET-datasets)
 - [Multimodal datasets](#multimodal-datasets)
 
 ## EEG datasets
@@ -132,17 +135,41 @@ bids-examples (in alphabetical order).
 | ieeg_filtered_speech | @choldgraf    | recordings of three seizures                                     |                   |     |     | ieeg | not publicly available |
 | ieeg_motorMiller2007 | @dorahermes   | Cue-based hand & tongue movement data                            |                   |     |     | ieeg |                        |
 | ieeg_visual          | @dorahermes   | Stimulus dependence of gamma oscillations in human visual cortex |                   |     |     | ieeg |                        |
+### ASL datasets
 
-## MRI datasets
+| name   | maintained by | description                                                                                   | link to link to full data                                                            |
+| ------ | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| asl001 | @patsycle     | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                     | https://drive.google.com/drive/folders/1lPbAOQMn8TR6bzp9olt8XBov--A2Ci2j?usp=sharing |
+| asl002 | @patsycle     | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                    | https://drive.google.com/drive/folders/1JvbRjWj_Fksxa0rUC0wkrDHPe9FDHoue?usp=sharing |
+| asl003 | @patsycle     | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan                                    | https://drive.google.com/drive/folders/1VUovy3XK0Malkl6DT2JY0YtoAGuYWgWO?usp=sharing |
+| asl004 | @patsycle     | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | https://drive.google.com/drive/folders/1xDvjEgJ-flt4Sze6_EVtRIP43P7D6ZSX?usp=sharing |
+| asl005 | @patsycle     | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | https://drive.google.com/drive/folders/1tRKZpi3YTRcYAwqIV9bGCyW9hJmpJo1I?usp=sharing |
 
-| name              | maintained by       | description                                                                                          | link to link to full data                                                            |
-| ----------------- | ------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --- | --- | --- | --- | ------------------------------------------------------ |
-| 7t_trt            |                     | field maps, physiological data, quantitative T1 maps, T1w, BOLD                                      | https://bit.ly/2H0Z6Qt                                                               |
-| asl001            | @patsycle           | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                            | https://drive.google.com/drive/folders/1lPbAOQMn8TR6bzp9olt8XBov--A2Ci2j?usp=sharing |
-| asl002            | @patsycle           | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                           | https://drive.google.com/drive/folders/1JvbRjWj_Fksxa0rUC0wkrDHPe9FDHoue?usp=sharing |
-| asl003            | @patsycle           | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan                                           | https://drive.google.com/drive/folders/1VUovy3XK0Malkl6DT2JY0YtoAGuYWgWO?usp=sharing |
-| asl004            | @patsycle           | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch        | https://drive.google.com/drive/folders/1xDvjEgJ-flt4Sze6_EVtRIP43P7D6ZSX?usp=sharing |
-| asl005            | @patsycle           | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                               | https://drive.google.com/drive/folders/1tRKZpi3YTRcYAwqIV9bGCyW9hJmpJo1I?usp=sharing |
+### qMRI datasets
+
+| name           | maintained by       | description                                                                              | link to link to full data |
+| -------------- | ------------------- | ---------------------------------------------------------------------------------------- | ------------------------- |
+| qmri_mp2rage   | @Gilles86           | MP2RAGE for T1 mapping                                                                   | https://osf.io/k4bs5/     |
+| qmri_mp2rageme | @Gilles86           | Multi-echo MP2RAGE                                                                       | https://osf.io/k4bs5/     |
+| qmri_mpm       | @ChristophePhillips | Multi-parametric mapping for R1, R2star, MTsat and PD mapping                            | https://osf.io/k4bs5/     |
+| qmri_mtsat     | @agahkarakuzu       | Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example.   | https://osf.io/k4bs5/     |
+| qmri_qsm       | @agahkarakuzu       | Chimap using fast QSM                                                                    | `not publicly availabe`   |
+| qmri_sa2rage   | @agahkarakuzu       | Fast B1+ mapping using SA2RAGE                                                           | `not publicly availabe`   |
+| qmri_vfa       | @agahkarakuzu       | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | https://osf.io/k4bs5/     |
+| qmri_irt1      | @agahkarakuzu       | Inversion Recovery T1 mapping                                                            | `not publicly availabe`   |
+| qmri_mese      | @agahkarakuzu       | Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping.                      | `not publicly availabe`   |
+| qmri_megre     | @agahkarakuzu       | Multi-Echo Gradient-Echo for T2star mapping.                                             | `not publicly availabe`   |
+| qmri_tb1tfl    | @agahkarakuzu       | B1+ mapping with TurboFLASH readout.                                                     | `not publicly availabe`   |
+
+### PET datasets
+
+| name   | maintained by | description     | link to full data                        |
+| ------ | ------------- | --------------- | ---------------------------------------- |
+| pet001 | @mnoergaard   | T1w, PET, blood |                                          |
+| pet002 | @mnoergaard   | T1w, PET        | https://openneuro.org/datasets/ds001420/ |
+| pet003 | @mnoergaard   | T1w, PET, blood |                                          |
+| pet004 | @mnoergaard   | PET, blood      |                                          |
+| pet005 | @mnoergaard   | T1w, PET        |                                          |
 | ds001             |                     | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000001/versions/00006                               |
 | ds002             |                     | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000002/versions/00002                               |
 | ds003             |                     | single task, single run, in-plane T2, events, T1w, BOLD                                              | https://openneuro.org/datasets/ds000003/versions/00001                               |
@@ -168,17 +195,6 @@ bids-examples (in alphabetical order).
 | hcp_example_bids  | @robertoostenveld   |                                                                                                      | https://bit.ly/2H0Z6Qt                                                               |
 | synthetic         | @effigies           | A synthetic dataset                                                                                  | mri                                                                                  |     |     |     |     | n/a                                                    |
 | ds000001-fmriprep | @effigies           | Common derivatives example                                                                           | mri                                                                                  |     |     |     |     | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
-| qmri_mp2rage      | @Gilles86           | MP2RAGE for T1 mapping                                                                               | https://osf.io/k4bs5/                                                                |
-| qmri_mp2rageme    | @Gilles86           | Multi-echo MP2RAGE                                                                                   | https://osf.io/k4bs5/                                                                |
-| qmri_mpm          | @ChristophePhillips | Multi-parametric mapping for R1, R2star, MTsat and PD mapping                                        | https://osf.io/k4bs5/                                                                |
-| qmri_mtsat        | @agahkarakuzu       | Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example.               | https://osf.io/k4bs5/                                                                |
-| qmri_qsm          | @agahkarakuzu       | Chimap using fast QSM                                                                                | `not publicly availabe`                                                              |
-| qmri_sa2rage      | @agahkarakuzu       | Fast B1+ mapping using SA2RAGE                                                                       | `not publicly availabe`                                                              |
-| qmri_vfa          | @agahkarakuzu       | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example.             | https://osf.io/k4bs5/                                                                |
-| qmri_irt1         | @agahkarakuzu       | Inversion Recovery T1 mapping                                                                        | `not publicly availabe`                                                              |
-| qmri_mese         | @agahkarakuzu       | Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping.                                  | `not publicly availabe`                                                              |
-| qmri_megre        | @agahkarakuzu       | Multi-Echo Gradient-Echo for T2star mapping.                                                         | `not publicly availabe`                                                              |
-| qmri_tb1tfl       | @agahkarakuzu       | B1+ mapping with TurboFLASH readout.                                                                 | `not publicly availabe`                                                              |
 
 ## Multimodal datasets
 
@@ -195,8 +211,3 @@ bids-examples (in alphabetical order).
 | ieeg_epilepsy_ecog     | @ftadel           | multiple sessions, tutorial                                                                                                          | mri |     |     | ieeg |     |          | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog     |
 | ieeg_visual_multimodal | @irisgroen        |                                                                                                                                      | mri |     |     | ieeg |     |          |                                                                |
 | genetics_ukbb          | @cpernet          | multiple tasks, T1w, DTI, BOLD, genetic info                                                                                         | mri |     |     |      |     | genetics |                                                                |
-| pet001                 | @mnoergaard       | T1w, PET, blood                                                                                                                      | mri |     |     |      | pet |          |                                                                |
-| pet002                 | @mnoergaard       | T1w, PET                                                                                                                             | mri |     |     |      | pet |          | https://openneuro.org/datasets/ds001420/                       |
-| pet003                 | @mnoergaard       | T1w, PET, blood                                                                                                                      | mri |     |     |      | pet |          |                                                                |
-| pet004                 | @mnoergaard       | PET, blood                                                                                                                           |     |     |     |      | pet |          |                                                                |
-| pet005                 | @mnoergaard       | T1w, PET                                                                                                                             | mri |     |     |      | pet |          |                                                                |
