@@ -20,7 +20,7 @@ Headers are intact for the following datasets:
 - `synthetic`
 - Most EEG or iEEG data in BrainVision format (e.g., `eeg_matchingpennies`)
 
-# Validating BIDS examples
+## Validating BIDS examples
 
 The next three sections mention a few details on how the `bids-examples` can be
 validated using `bids-validator`.
@@ -29,7 +29,7 @@ For general information on the `bids-validator`, including installation and
 usage, see the
 [bids-validator README file](https://github.com/bids-standard/bids-validator#quickstart).
 
-## Validating individual examples
+### Validating individual examples
 
 Since all raw data files in this repository are empty, the `bids-validator` must
 to be configured to not report empty data files as errors. (See more on
@@ -53,7 +53,7 @@ For example:
 
 `bids-validator ds003 --config.ignore=99 --ignoreNiftiHeaders`
 
-## Validating all examples
+### Validating all examples
 
 If you want to validate all examples in one go, you can use the `run_tests.sh`
 script that is provided in this repository. This script makes use of the
@@ -64,7 +64,7 @@ handles some special case examples (see
 Simply run `bash run_tests.sh` in a command line from the root of the
 `bids-examples` repository.
 
-## Validator exceptions
+### Validator exceptions
 
 Some datasets may include a custom `.bids-validator-config.json` to ignore
 errors generated from idiosyncracies of the datasets as they existed on
@@ -89,7 +89,7 @@ validator, docker, or from the command line.
 | ----------------- | ------------------------------------------------------ |
 | ds000001-fmriprep | lack of coverage for "derivatives" in `bids-validator` |
 
-# Contributing
+## Contributing
 
 We are happy to receive contributions in the form of:
 
@@ -106,7 +106,7 @@ file or open a
 [new GitHub Issue](https://github.com/bids-standard/bids-examples/issues/new)
 and ask us directly.
 
-# Dataset index
+## Dataset index
 
 Below you find several tables with information about the datasets available in
 bids-examples (in alphabetical order).
@@ -119,7 +119,7 @@ bids-examples (in alphabetical order).
 - [PET datasets](#PET-datasets)
 - [Multimodal datasets](#multimodal-datasets)
 
-## EEG datasets
+### EEG datasets
 
 | name                | maintained by | description                                                                                                        | link to full data                       |
 | ------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
@@ -128,13 +128,14 @@ bids-examples (in alphabetical order).
 | eeg_face13          | @andesha      | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format                     |                                         |
 | eeg_hed_small       | @VisLab       | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 |                                         |
 
-## iEEG datasets
+### iEEG datasets
 
 | name                 | maintained by | description                                                      | link to full data |
 | -------------------- | ------------- | ---------------------------------------------------------------- | ----------------- | --- | --- | ---- | ---------------------- |
 | ieeg_filtered_speech | @choldgraf    | recordings of three seizures                                     |                   |     |     | ieeg | not publicly available |
 | ieeg_motorMiller2007 | @dorahermes   | Cue-based hand & tongue movement data                            |                   |     |     | ieeg |                        |
 | ieeg_visual          | @dorahermes   | Stimulus dependence of gamma oscillations in human visual cortex |                   |     |     | ieeg |                        |
+### MRI datasets
 ### ASL datasets
 
 | name   | maintained by | description                                                                                   | link to link to full data                                                            |
@@ -196,7 +197,7 @@ bids-examples (in alphabetical order).
 | synthetic         | @effigies           | A synthetic dataset                                                                                  | mri                                                                                  |     |     |     |     | n/a                                                    |
 | ds000001-fmriprep | @effigies           | Common derivatives example                                                                           | mri                                                                                  |     |     |     |     | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
 
-## Multimodal datasets
+### Multimodal datasets
 
 | name                   | maintained by     | description                                                                                                                          | mri | meg | eeg | ieeg | pet | genetics | link to full data                                              |
 | ---------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --- | --- | --- | ---- | --- | -------- | -------------------------------------------------------------- |
