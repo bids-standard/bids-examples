@@ -139,34 +139,34 @@ bids-examples (in alphabetical order).
 
 ### MRI datasets
 
-| name              | maintained by     | description                                                                                          | link to link to full data                              |
-| ----------------- | ----------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| 7t_trt            |                   | field maps, physiological data, quantitative T1 maps, T1w, BOLD                                      | https://bit.ly/2H0Z6Qt                                 |
-| ds001             |                   | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000001/versions/00006 |
-| ds002             |                   | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000002/versions/00002 |
-| ds003             |                   | single task, single run, in-plane T2, events, T1w, BOLD                                              | https://openneuro.org/datasets/ds000003/versions/00001 |
-| ds005             |                   | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000005/versions/00001 |
-| ds006             |                   | single task, multiple sessions, multiple runs, in-plane T2, events, T1w, BOLD                        | https://openneuro.org/datasets/ds000006/versions/00001 |
-| ds007             |                   | single task, multiple runs, in-plane T2, events, T1w, BOLD                                           | https://openneuro.org/datasets/ds000007/versions/00001 |
-| ds008             |                   | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000008/versions/00001 |
-| ds009             |                   | multiple tasks, multiple runs, in-plane T2, events, T1w, BOLD                                        | https://openneuro.org/datasets/ds000009/versions/00002 |
-| ds011             |                   | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000011/versions/00001 |
-| ds051             |                   | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000051/versions/00001 |
-| ds052             |                   | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000052/versions/00001 |
-| ds101             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000101/versions/00004 |
-| ds102             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000102/versions/00001 |
-| ds105             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000105/versions/00001 |
-| ds107             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000107/versions/00001 |
-| ds108             |                   | single task, multiple runs, T1w, BOLD                                                                | https://openneuro.org/datasets/ds000108/versions/00002 |
-| ds109             |                   | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000109/versions/00001 |
-| ds110             |                   | single task, multiple runs, T1w, BOLD, in plane T2                                                   | https://openneuro.org/datasets/ds000110/versions/00001 |
-| ds113b            |                   | forrest gump watching, multiple sessions, multiple runs, T1w, T2w, BOLD, angiography, dwi, fieldmaps | https://openneuro.org/datasets/ds000113/versions/1.3.0 |
-| ds114             |                   | multiple tasks, multiple runs, T1w, BOLD, DWI                                                        | https://openneuro.org/datasets/ds000114/versions/1.0.1 |
-| ds116             |                   | multiple tasks, multiple runs, T1w, BOLD, inplane T2                                                 | https://openneuro.org/datasets/ds000116/versions/00003 |
-| ds210             |                   | multiple tasks, multiple runs, T1w, BOLD                                                             | https://openneuro.org/datasets/ds000210/versions/00002 |
-| hcp_example_bids  | @robertoostenveld |                                                                                                      | https://bit.ly/2H0Z6Qt                                 |
-| synthetic         | @effigies         | A synthetic dataset                                                                                  | n/a                                                    |
-| ds000001-fmriprep | @effigies         | Common derivatives example                                                                           | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
+| name              | maintained by     | description                                             | func         | anat                      | other                  | link to link to full data                              |
+| ----------------- | ----------------- | ------------------------------------------------------- | ------------ | ------------------------- | ---------------------- | ------------------------------------------------------ |
+| 7t_trt            |                   |                                                         | bold, physio | T1w, quantitative T1 maps | fmap                   | https://bit.ly/2H0Z6Qt                                 |
+| ds001             |                   | single task, multiple runs                              | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000001/versions/00006 |
+| ds002             |                   | multiple tasks, multiple runs                           | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000002/versions/00002 |
+| ds003             |                   | single task, single run                                 | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000003/versions/00001 |
+| ds005             |                   | single task, multiple runs                              | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000005/versions/00001 |
+| ds006             |                   | single task, multiple sessions, multiple runs           | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000006/versions/00001 |
+| ds007             |                   | single task, multiple runs                              | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000007/versions/00001 |
+| ds008             |                   | multiple tasks, multiple runs                           | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000008/versions/00001 |
+| ds009             |                   | multiple tasks, multiple runs                           | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000009/versions/00002 |
+| ds011             |                   | multiple tasks, multiple runs                           | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000011/versions/00001 |
+| ds051             |                   | multiple tasks, multiple runs                           | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000051/versions/00001 |
+| ds052             |                   | multiple tasks, multiple runs                           | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000052/versions/00001 |
+| ds101             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000101/versions/00004 |
+| ds102             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000102/versions/00001 |
+| ds105             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000105/versions/00001 |
+| ds107             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000107/versions/00001 |
+| ds108             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000108/versions/00002 |
+| ds109             |                   | multiple tasks, multiple runs                           | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000109/versions/00001 |
+| ds110             |                   | single task, multiple runs                              | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000110/versions/00001 |
+| ds113b            |                   | forrest gump watching, multiple sessions, multiple runs | bold         | T1w, T2w                  | angiography, dwi, fmap | https://openneuro.org/datasets/ds000113/versions/1.3.0 |
+| ds114             |                   | multiple tasks, multiple runs                           | bold         | T1w                       | DWI                    | https://openneuro.org/datasets/ds000114/versions/1.0.1 |
+| ds116             |                   | multiple tasks, multiple runs                           | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000116/versions/00003 |
+| ds210             |                   | multiple tasks, multiple runs                           | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000210/versions/00002 |
+| hcp_example_bids  | @robertoostenveld |                                                         | bold         | T1w                       |                        | https://bit.ly/2H0Z6Qt                                 |
+| synthetic         | @effigies         | A synthetic dataset                                     | bold         | T1w                       |                        | n/a                                                    |
+| ds000001-fmriprep | @effigies         | Common derivatives example                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
 
 ### ASL datasets
 
