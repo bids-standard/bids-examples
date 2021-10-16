@@ -2,10 +2,10 @@
         "Manufacturer": "Hamamatsu",
         "ManufacturersModelName": "C4742-95-12G04",
         "BodyPart": "CSPINE",
-        "Environment": "exvivo",
+        "SampleEnvironment": "exvivo",
         "SampleFixation": "4% paraformaldehyde, 2% glutaraldehyde",
         "SliceThickness": 1,
-        "ShrinkageFactor": 2,
+        "TissueDeformationScaling": 2,
         "PixelSize": [0.18, 0.18],
         "PixelSizeUnits": "um"
 }
