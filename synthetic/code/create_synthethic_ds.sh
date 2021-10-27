@@ -23,7 +23,7 @@ create_raw_beh () {
 	mkdir -p ${this_dir}
 
 	filename=${this_dir}/sub-${subject}_ses-${ses}_task-${task_name}${suffix}.tsv
-	echo "trial_type\tresponse\treaction_time\tstim_file" > ${filename}
+	echo "trial\tresponse\treaction_time\tstim_file" > ${filename}
 	echo "congruent\tred\t1.435\timages/word-red_color-red.jpg"  >> ${filename}
 	echo "incongruent\tred\t1.739\timages/word-red_color-blue.jpg" >> ${filename}
 
