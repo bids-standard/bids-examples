@@ -1,0 +1,42 @@
+{
+	"InstitutionName": "Kiel University",
+	"InstitutionalDepartmentName": "Department of Neurology",
+	"MotionChannelCount": 159,
+	"RecordingDuration": 17.00500147,
+	"TaskDescription": "walking over low obstacles",
+	"TaskName": "obstacleLow",
+	"TrackedPointsCountTotal": 69,
+	"TrackedPointsTotal": 69,
+	"TrackingSystems": {
+		"imu": {
+			"Manufacturer": "Noraxon Inc.",
+			"ManufacturersModelName": "myoMOTION",
+			"SamplingFrequencyNominal": 200,
+			"StartTime": "2021-10-28T14:38:53.260Z",
+			"TrackedPointsCount": 16,
+			"POSChannelCount": 0,
+			"ORNTChannelCount": 0,
+			"VELChannelCount": 0,
+			"ANGVELChannelCount": 48,
+			"ACCChannelCount": 48,
+			"ANGACCChannelCount": 0,
+			"MAGNChannelCount": 48,
+			"JNTANGChannelCount": 0
+		},
+		"omc": {
+			"Manufacturer": "Qualisys",
+			"ManufacturersModelName": "AB",
+			"SamplingFrequencyNominal": 200,
+			"StartTime": "2021-10-28T14:38:53.261Z",
+			"TrackedPointsCount": 53,
+			"POSChannelCount": 159,
+			"ORNTChannelCount": 0,
+			"VELChannelCount": 0,
+			"ANGVELChannelCount": 0,
+			"ACCChannelCount": 0,
+			"ANGACCChannelCount": 0,
+			"MAGNChannelCount": 0,
+			"JNTANGChannelCount": 0
+		}
+	}
+}
