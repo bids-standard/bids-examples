@@ -1,18 +1,14 @@
 {
 	"InstitutionName": "Kiel University",
 	"InstitutionalDepartmentName": "Department of Neurology",
-	"MotionChannelCount": 153,
-	"RecordingDuration": 10.76500232,
 	"TaskDescription": "walking backwards",
 	"TaskName": "backwards",
 	"TrackedPointsCountTotal": 67,
-	"TrackedPointsTotal": 67,
 	"TrackingSystems": {
 		"imu": {
 			"Manufacturer": "Noraxon Inc.",
 			"ManufacturersModelName": "myoMOTION",
 			"SamplingFrequencyNominal": 200,
-			"StartTime": "2021-10-28T14:38:56.328Z",
 			"TrackedPointsCount": 16,
 			"POSChannelCount": 0,
 			"ORNTChannelCount": 0,
@@ -27,7 +23,6 @@
 			"Manufacturer": "Qualisys",
 			"ManufacturersModelName": "AB",
 			"SamplingFrequencyNominal": 200,
-			"StartTime": "2021-10-28T14:38:56.329Z",
 			"TrackedPointsCount": 51,
 			"POSChannelCount": 153,
 			"ORNTChannelCount": 0,

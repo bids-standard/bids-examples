@@ -45,6 +45,9 @@ nms_chns    = {};
 nms_type    = {};
 nms_locs    = {};   
 nms_comp    = {};
+
+locations = camelCase(locations);
+
 for l = 1:numel(locations)
     for t = 1:numel(types_chns)
         for c = 1:numel(components_chn)
