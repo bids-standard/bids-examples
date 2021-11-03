@@ -1,0 +1,15 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by FieldTrip
+
+[Common Infos]
+DataFile=sub-19_ses-body_task-Rotation_eeg.eeg
+MarkerFile=sub-19_ses-body_task-Rotation_eeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=0
+SamplingInterval=9.999993e+02
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]

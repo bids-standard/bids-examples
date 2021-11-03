@@ -1,0 +1,7 @@
+name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement
+headRigid_eul_z	ORNT	rad	60.0019354850607	VIRPos	headRigid	z	headRigid
+headRigid_eul_y	ORNT	rad	60.0019354850607	VIRPos	headRigid	y	headRigid
+headRigid_eul_x	ORNT	rad	60.0019354850607	VIRPos	headRigid	x	headRigid
+headRigid_cart_X	POS	vm	60.0019354850607	VIRPos	headRigid	X	headRigid
+headRigid_cart_Y	POS	vm	60.0019354850607	VIRPos	headRigid	Y	headRigid
+headRigid_cart_Z	POS	vm	60.0019354850607	VIRPos	headRigid	Z	headRigid
