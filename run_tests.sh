@@ -1,31 +1,31 @@
 #!/bin/bash
 
-rc=0;
-for i in $(ls -d */ | grep -v node_modules);
-do
+rc = 0;
+for i in $(ls -d */ | grep -v node_modules); do
     echo "Validating dataset" $i
 
     if [ -f ${i%%/}/.SKIP_VALIDATION ]; then
-
         echo "Skipping validation for ${i%%/}"
-
-    elif [ -f ${i%%/}/.bids-validator-config.json ]; then
-
-        bids-validator ${i%%/} --ignoreNiftiHeaders || rc=$?
-
-    else
-
-        if [ $i == "synthetic/" ]; then
-
-            echo "Validating NIfTI headers for dataset" $i
-            bids-validator ${i%%/} -c $PWD/bidsconfig.json || rc=$?
-
-        else
-
-            bids-validator ${i%%/} --ignoreNiftiHeaders -c $PWD/bidsconfig.json || rc=$?
-
-        fi
-
+        continue
     fi
+
+    # Set the VALIDATOR_ARGS environment variable to pass additional arguments to the 
+    # validator.
+    CMD="bids-validator ${i%%/} $VALIDATOR_ARGS"
+
+    # Use default configuration unless overridden
+    if [ ! -f ${i%%/}/.bids-validator-config.json ]; then
+        CMD="$CMD -c $PWD/bidsconfig.json"
+    fi
+
+    # Ignore NIfTI headers except for synthetic dataset
+    if [ $i != "synthetic/" ]; then
+        CMD="$CMD --ignoreNiftiHeaders"
+    else
+        echo "Validating NIfTI headers for dataset" $i
+    fi
+
+    echo $CMD
+    $CMD || rc=$?
 done
 exit $rc;
