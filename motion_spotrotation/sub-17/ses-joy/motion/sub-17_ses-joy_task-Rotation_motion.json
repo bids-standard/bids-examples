@@ -1,0 +1,31 @@
+{
+	"InstitutionAddress": "Strasse des 17. Juni 135, 10623, Berlin, Germany",
+	"InstitutionName": "Technische Universitaet zu Berlin",
+	"InstitutionalDepartmentName": "Biological Psychology and Neuroergonomics",
+	"MotionChannelCount": 6,
+	"RecordingType": "continuous",
+	"TaskDescription": "Participants equipped with VR HMD rotated either physically or using a joystick.",
+	"TaskName": "Rotation",
+	"TrackingSystemCount": 1,
+	"TrackingSystems": {
+		"VIRPos": {
+			"Manufacturer": "Impuls X2",
+			"ManufacturersModelName": "PhaseSpace",
+			"SamplingFrequencyNominal": 90,
+			"SamplingFrequencyEffective": 60.00201937,
+			"RecordingDuration": 192.2268637,
+			"TrackedPointsCount": 1,
+			"DeviceSerialNumber": null,
+			"SoftwareVersions": null,
+			"ExternalSoftwareVersions": null,
+			"POSChannelCount": 3,
+			"ORNTChannelCount": 3,
+			"VELChannelCount": 0,
+			"ANGVELChannelCount": 0,
+			"ACCChannelCount": 0,
+			"ANGACCChannelCount": 0,
+			"MAGNChannelCount": 0,
+			"JNTANGChannelCount": 0
+		}
+	}
+}

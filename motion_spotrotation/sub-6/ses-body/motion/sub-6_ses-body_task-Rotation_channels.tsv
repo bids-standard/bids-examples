@@ -1,0 +1,7 @@
+name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement
+headRigid_eul_z	ORNT	rad	89.4892230225668	HTCVive	headRigid	z	head
+headRigid_eul_y	ORNT	rad	89.4892230225668	HTCVive	headRigid	y	head
+headRigid_eul_x	ORNT	rad	89.4892230225668	HTCVive	headRigid	x	head
+headRigid_cart_X	POS	m	89.4892230225668	HTCVive	headRigid	X	head
+headRigid_cart_Y	POS	m	89.4892230225668	HTCVive	headRigid	Y	head
+headRigid_cart_Z	POS	m	89.4892230225668	HTCVive	headRigid	Z	head

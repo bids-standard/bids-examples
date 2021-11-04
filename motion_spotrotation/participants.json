@@ -1,17 +1,18 @@
 {
+	"nr": {
+		"Description": "numerical participant ID"
+         },
 	"age": {
 		"Description": "age of the participant",
 		"Unit": "years"
 	},
+
 	"sex": {
 		"Description": "sex of the participant",
 		"Levels": {
 			"M": "male",
 			"F": "female"
 		}
-	},
-	"group": {
-		"Description": "control group"
 	},
 	"handedness": {
 		"Description": "handedness of the participant",
