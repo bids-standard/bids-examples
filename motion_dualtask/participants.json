@@ -1,4 +1,7 @@
 {
+	"nr": {
+		"Description": "numerical ID of the participant"
+	},
 	"age": {
 		"Description": "age of the participant",
 		"Unit": "years"
