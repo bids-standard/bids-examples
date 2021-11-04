@@ -16,7 +16,7 @@ ft_notice('This script uses fieldtrip verision: %s',ft_version)
 display(['This script uses BIDS version 1.4.0 // BEP029'])
 
 %set paths
-dir_project     = fullfile('C:\Users\User\Desktop\\motion_dualsystem_validation');
+dir_project     = fullfile('C:\Users\User\Desktop\motion_dualsystem_validation');
 dir_raw_data    = fullfile(fileparts('C:\Users\User\Desktop\\motion_dualsystem_validation\sourcedata\'));
 addpath(genpath(dir_project));
 
@@ -71,7 +71,7 @@ for subject = 1:numel(nms_subs)
         [data_acc.label nms_acc_type nms_acc_loc nms_acc_comp]      = locs2chans(imu.imu_location,{'ACC'}); % only location, not label for *channels.tsv. Append accordingly :)
         data_acc.trial{1}   = reshape(imu.acc,[],size(imu.acc,2) * size(imu.acc,3))'; % change 3d matrix to 2d, where 2nd dim are all avaliable channels from tracking system
         data_acc.time{1}    = linspace(0,length(data_acc.trial{1})/imu.fs,length(data_acc.trial{1}+2));
-
+        
         data_gyro = [];
         [data_gyro.label nms_gyro_type nms_gyro_loc nms_gyro_comp]     = locs2chans(imu.imu_location,{'ANGVEL'}); % only location, not label for *channels.tsv. Append accordingly :)
         data_gyro.trial{1}   = reshape(imu.acc,[],size(imu.acc,2) * size(imu.acc,3))'; % change 3d matrix to 2d, where 2nd dim are all avaliable channels from tracking system
@@ -86,7 +86,7 @@ for subject = 1:numel(nms_subs)
         cfg = [];
         trackingSystem.imu = ft_appenddata(cfg, data_acc, data_gyro, data_magn);
 
-        %% construct ft header for imu data
+        % construct ft header for imu data
         trackingSystem.imu.hdr.Fs                  = round(trackingSystem.imu.fsample,0);
         trackingSystem.imu.hdr.nSamples            = length(trackingSystem.imu.time{1});
         trackingSystem.imu.hdr.nTrials             = size(trackingSystem.imu.trial);
@@ -167,6 +167,7 @@ for subject = 1:numel(nms_subs)
             
             % convert to bids
             data2bids(cfg, trackingSystem.(cfg.tracksys));
+
         end
     end  %tasks      
 end %participants

@@ -1,20 +1,17 @@
 {
 	"InstitutionName": "Kiel University",
 	"InstitutionalDepartmentName": "Department of Neurology",
-	"MotionChannelCount": 297,
+	"MotionChannelCount": 153,
+	"RecordingDuration": 10.04500249,
 	"TaskDescription": "walking backwards",
 	"TaskName": "backwards",
+	"TrackedPointsCountTotal": 67,
 	"TrackingSystems": {
 		"imu": {
 			"Manufacturer": "Noraxon Inc.",
 			"ManufacturersModelName": "myoMOTION",
 			"SamplingFrequencyNominal": 200,
 			"TrackedPointsCount": 16,
-			"DeviceSerialNumber": null,
-			"SoftwareVersions": null,
-			"ExternalSoftwareVersions": null,
-			"SamplingFrequencyEffective": 199.9058824,
-			"RecordingDuration": 10.63000235,
 			"POSChannelCount": 0,
 			"ORNTChannelCount": 0,
 			"VELChannelCount": 0,
@@ -22,18 +19,18 @@
 			"ACCChannelCount": 48,
 			"ANGACCChannelCount": 0,
 			"MAGNChannelCount": 48,
-			"JNTANGChannelCount": 0
+			"JNTANGChannelCount": 0,
+			"DeviceSerialNumber": null,
+			"SoftwareVersions": null,
+			"ExternalSoftwareVersions": null,
+			"SamplingFrequencyEffective": 199.9058824,
+			"RecordingDuration": 10.63000235
 		},
 		"omc": {
 			"Manufacturer": "Qualisys",
 			"ManufacturersModelName": "AB",
 			"SamplingFrequencyNominal": 200,
 			"TrackedPointsCount": 51,
-			"DeviceSerialNumber": null,
-			"SoftwareVersions": null,
-			"ExternalSoftwareVersions": null,
-			"SamplingFrequencyEffective": 199.9003984,
-			"RecordingDuration": 10.04500249,
 			"POSChannelCount": 153,
 			"ORNTChannelCount": 0,
 			"VELChannelCount": 0,
@@ -41,7 +38,12 @@
 			"ACCChannelCount": 0,
 			"ANGACCChannelCount": 0,
 			"MAGNChannelCount": 0,
-			"JNTANGChannelCount": 0
+			"JNTANGChannelCount": 0,
+			"DeviceSerialNumber": null,
+			"SoftwareVersions": null,
+			"ExternalSoftwareVersions": null,
+			"SamplingFrequencyEffective": 199.9003984,
+			"RecordingDuration": 10.04500249
 		}
 	}
 }

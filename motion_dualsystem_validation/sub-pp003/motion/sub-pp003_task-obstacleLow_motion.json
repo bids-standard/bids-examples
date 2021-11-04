@@ -1,20 +1,17 @@
 {
 	"InstitutionName": "Kiel University",
 	"InstitutionalDepartmentName": "Department of Neurology",
-	"MotionChannelCount": 303,
+	"MotionChannelCount": 159,
+	"RecordingDuration": 17.00500147,
 	"TaskDescription": "walking over low obstacles",
 	"TaskName": "obstacleLow",
+	"TrackedPointsCountTotal": 69,
 	"TrackingSystems": {
 		"imu": {
 			"Manufacturer": "Noraxon Inc.",
 			"ManufacturersModelName": "myoMOTION",
 			"SamplingFrequencyNominal": 200,
 			"TrackedPointsCount": 16,
-			"DeviceSerialNumber": null,
-			"SoftwareVersions": null,
-			"ExternalSoftwareVersions": null,
-			"SamplingFrequencyEffective": 199.9432785,
-			"RecordingDuration": 17.63500142,
 			"POSChannelCount": 0,
 			"ORNTChannelCount": 0,
 			"VELChannelCount": 0,
@@ -22,18 +19,18 @@
 			"ACCChannelCount": 48,
 			"ANGACCChannelCount": 0,
 			"MAGNChannelCount": 48,
-			"JNTANGChannelCount": 0
+			"JNTANGChannelCount": 0,
+			"DeviceSerialNumber": null,
+			"SoftwareVersions": null,
+			"ExternalSoftwareVersions": null,
+			"SamplingFrequencyEffective": 199.9432785,
+			"RecordingDuration": 17.63500142
 		},
 		"omc": {
 			"Manufacturer": "Qualisys",
 			"ManufacturersModelName": "AB",
 			"SamplingFrequencyNominal": 200,
 			"TrackedPointsCount": 53,
-			"DeviceSerialNumber": null,
-			"SoftwareVersions": null,
-			"ExternalSoftwareVersions": null,
-			"SamplingFrequencyEffective": 199.9411765,
-			"RecordingDuration": 17.00500147,
 			"POSChannelCount": 159,
 			"ORNTChannelCount": 0,
 			"VELChannelCount": 0,
@@ -41,7 +38,12 @@
 			"ACCChannelCount": 0,
 			"ANGACCChannelCount": 0,
 			"MAGNChannelCount": 0,
-			"JNTANGChannelCount": 0
+			"JNTANGChannelCount": 0,
+			"DeviceSerialNumber": null,
+			"SoftwareVersions": null,
+			"ExternalSoftwareVersions": null,
+			"SamplingFrequencyEffective": 199.9411765,
+			"RecordingDuration": 17.00500147
 		}
 	}
 }
