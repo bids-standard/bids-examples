@@ -1,0 +1,16 @@
+{
+        "Manufacturer": "Miltenyi Biotec",
+        "ManufacturersModelName": "UltraMicroscope II",
+        "BodyPart": "CSPINE",
+        "SampleEnvironment": "exvivo",
+        "SampleFixation": "4% paraformaldehyde, 2% glutaraldehyde",
+        "SampleStaining": "Luxol fast blue",
+        "PixelSize": [1, 1, 1],
+        "PixelSizeUnits": "um",
+        "ChunkTransformationMatrix": 
+          [[1, 0, 0, 5],
+           [0, 2, 0, 0], 
+           [0, 0, 1, 0],
+           [0, 0, 0, 1]],
+        "ChunkTransformationMatrixAxis": ["X", "Y", "Z"]
+}
