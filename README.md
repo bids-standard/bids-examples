@@ -207,10 +207,10 @@ bids-examples (in alphabetical order).
 
 ### Microscopy datasets
 
-| name      | maintained by  | description                                                                                     |
-| ----------| -------------- | ----------------------------------------------------------------------------------------------- |
-| micr_SEM  | @mariehbourget | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          |
-| micr_SPIM | @mariehbourget | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |
+| name      | maintained by | description                                                                                     |
+| ----------| ------------- | ----------------------------------------------------------------------------------------------- |
+| micr_SEM  | @jcohenadad   | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          |
+| micr_SPIM | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |
 
 ### Multimodal datasets
 
