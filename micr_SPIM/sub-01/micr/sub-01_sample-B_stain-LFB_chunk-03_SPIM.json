@@ -7,6 +7,9 @@
         "SampleStaining": "Luxol fast blue",
         "PixelSize": [1, 1, 1],
         "PixelSizeUnits": "um",
+        "Immersion": "Oil",
+        "NumericalAperture": 1.4,
+        "Magnification": 40,
         "ChunkTransformationMatrix":
           [[1, 0, 0, 0],
            [0, 2, 0, 0],
