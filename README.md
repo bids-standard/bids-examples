@@ -12,8 +12,8 @@ files**. These datasets can be useful to:
 **ALL RAW DATA FILES IN THIS REPOSITORY ARE EMPTY!**
 
 However for some of the data, the headers containing the metadata are still
-intact. (For example the NIfTI headers for `.nii` files, or the BrainVision data
-headers for `.vhdr` files.)
+intact. (For example the NIfTI headers for `.nii` files, the BrainVision data
+headers for `.vhdr` files, or the OME-XML headers for `.ome.tif` files.)
 
 Headers are intact for the following datasets:
 
@@ -117,6 +117,7 @@ bids-examples (in alphabetical order).
 - [ASL datasets](#asl-datasets)
 - [qMRI datasets](#qmri-datasets)
 - [PET datasets](#PET-datasets)
+- [Microscopy datasets](#microscopy-datasets)
 - [Multimodal datasets](#multimodal-datasets)
 
 ### EEG datasets
@@ -203,6 +204,13 @@ bids-examples (in alphabetical order).
 | pet003 | @mnoergaard   | T1w, PET, blood |                                          |
 | pet004 | @mnoergaard   | PET, blood      |                                          |
 | pet005 | @mnoergaard   | T1w, PET        |                                          |
+
+### Microscopy datasets
+
+| name      | maintained by | description                                                                                     |
+| ----------| ------------- | ----------------------------------------------------------------------------------------------- |
+| micr_SEM  | @jcohenadad   | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          |
+| micr_SPIM | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |
 
 ### Multimodal datasets
 
