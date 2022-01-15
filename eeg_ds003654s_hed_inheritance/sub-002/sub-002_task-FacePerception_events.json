@@ -1,0 +1,19 @@
+{
+  "rep_status": {
+    "Description": "Factor indicating whether this image has been already seen.",
+    "Levels": {
+      "first_show": "Factor level indicating the first display of this face.",
+      "immediate_repeat": "Factor level indicating this face was the same as previous one.",
+      "delayed_repeat": "Factor level indicating face was seen 5 to 15 trials ago."
+    },
+    "HED": {
+      "first_show": "Def/First-show-cond",
+      "immediate_repeat": "Def/Immediate-repeat-cond",
+      "delayed_repeat": "Def/Delayed-repeat-cond"
+    }
+  },
+  "rep_lag": {
+    "Description": "How face images before this one was the image was previously presented.",
+    "HED": "(Face, Item-interval/#)"
+  }
+}
