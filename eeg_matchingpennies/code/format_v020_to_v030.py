@@ -401,28 +401,28 @@ events_json_dict["trial_type"]["Levels"] = {
 }
 events_json_dict["trial_type"]["HED"] = {
     "raised-left/match-true": (
-        "Description/Subject raised left hand and computer presented image of left hand, "
-        "(Agent-action, Experiment-subject, (Lift, (Left-side, Hand)), (Release, (Left-side, Button)), "
-        "((Delay/68 ms, Approximated), (Sensory-presentation, Visual), (Drawing, ID/left_hand.png, "
-        "(Left-side, Hand)), (Feedback, (Intended-effect, Penalty))))"
+        "(Agent-action, Participant-reponse, (Lift, (Ring-finger, (Left-side-of, Experiment-participant))), (Release, (Mouse-button, (Left-side-of, Experiment-participant)))), "
+        "(Delay, Duration, (Approximately-equal-to, 68ms)), "
+        "(Sensory-event, Visual-presentation, (Drawing, (ID/left_hand.png, Hand, (Left-side-of, Computer-screen))), (Feedback, Penalty)), "
+        "Description/Subject raised left hand and computer presented image of hand to left side"
     ),
     "raised-left/match-false": (
-        "Description/Subject raised left hand and computer presented image of right hand, "
-        "(Agent-action, Experiment-subject, (Lift, (Left-side, Hand)), (Release, (Left-side, Button)), "
-        "((Delay/68 ms, Approximated), (Sensory-presentation, Visual), (Drawing, ID/right_hand.png, "
-        "(Right-side, Hand)), (Feedback, (Intended-effect, Reward))))"
+        "(Agent-action, Participant-reponse, (Lift, (Ring-finger, (Left-side-of, Experiment-participant))), (Release, (Mouse-button, (Left-side-of, Experiment-participant)))), "
+        "(Delay, Duration, (Approximately-equal-to, 68ms)), "
+        "(Sensory-event, Visual-presentation, (Drawing, (ID/right_hand.png, Hand, (Right-side-of, Computer-screen))), (Feedback, Reward)), "
+        "Description/Subject raised left hand and computer presented image of hand to right side"
     ),
     "raised-right/match-true": (
-        "Description/Subject raised right hand and computer presented image of right hand, "
-        "(Agent-action, Experiment-subject, (Lift, (Right-side, Hand)), (Release, (Right-side, Button)), "
-        "((Delay/68 ms, Approximated), (Sensory-presentation, Visual), (Drawing, ID/right_hand.png, "
-        "(Right-side, Hand)), (Feedback, (Intended-effect, Penalty))))"
+        "(Agent-action, Participant-reponse, (Lift, (Ring-finger, (Right-side-of, Experiment-participant))), (Release, (Mouse-button, (Right-side-of, Experiment-participant)))), "
+        "(Delay, Duration, (Approximately-equal-to, 68ms)), "
+        "(Sensory-event, Visual-presentation, (Drawing, (ID/right_hand.png, Hand, (Right-side-of, Computer-screen))), (Feedback, Penalty)), "
+        "Description/Subject raised right hand and computer presented image of hand to right side"
     ),
     "raised-right/match-false": (
-        "Description/Subject raised right hand and computer presented image of left hand, "
-        "(Agent-action, Experiment-subject, (Lift, (Right-side, Hand)), (Release, (Right-side, Button)), "
-        "((Delay/68 ms, Approximated), (Sensory-presentation, Visual), (Drawing, ID/left_hand.png, "
-        "(Left-side, Hand)), (Feedback, (Intended-effect, Reward))))"
+        "(Agent-action, Participant-reponse, (Lift, (Ring-finger, (Right-side-of, Experiment-participant))), (Release, (Mouse-button, (Right-side-of, Experiment-participant)))), "
+        "(Delay, Duration, (Approximately-equal-to, 68ms)), "
+        "(Sensory-event, Visual-presentation, (Drawing, (ID/left_hand.png, Hand, (Left-side-of, Computer-screen))), (Feedback, Reward)), "
+        "Description/Subject raised right hand and computer presented image of hand to left side"
     ),
 }
 
@@ -462,13 +462,14 @@ changes += [
     "Added HED tags to events.json file",
 ]
 
-# %% Add HEDVersion field to dataset_description.json
+# %% Add HEDVersion field to dataset_description.json, bump BIDSVersion
 
 dataset_description_json = op.join(mp_root, "dataset_description.json")
 
 with open(dataset_description_json, "r") as fin:
     dataset_description = json.load(fin)
 
+dataset_description["BIDSVersion"] = "1.6.0"
 dataset_description["HEDVersion"] = "8.0.0"
 
 with open(dataset_description_json, "w") as fout:
@@ -477,6 +478,7 @@ with open(dataset_description_json, "w") as fout:
 
 changes += [
      "Added HEDVersion field to dataset_description.json file",
+     "Bumped BIDSVersion field in dataset_description.json to 1.6.0",
 ]
 
 # %% Update contents of CHANGES
