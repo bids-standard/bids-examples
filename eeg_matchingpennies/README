@@ -26,7 +26,12 @@ For more information, see the `dataset_description.json` file.
 License
 -------
 This eeg_matchingpennies dataset is made available under the Open Database
-License: See the LICENSE file. A human readable information can be found at:
+License.
+
+Copyright (c) 2018-2022, Stefan Appelhoff, Daryl Sauer, and Suleman Samuel Gill
+
+See the LICENSE file.
+A human readable information can be found at:
 
 https://opendatacommons.org/licenses/odbl/summary/
 
@@ -119,5 +124,4 @@ screen (60fps = 1 screen every 16.66666ms)
 
 Subjects 1 to 4 participated in the pilot testing only. Their data are not
 included in this dataset.
-
 
