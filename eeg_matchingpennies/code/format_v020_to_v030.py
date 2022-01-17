@@ -401,25 +401,25 @@ events_json_dict["trial_type"]["Levels"] = {
 }
 events_json_dict["trial_type"]["HED"] = {
     "raised-left/match-true": (
-        "(Agent-action, Participant-response, (Lift, (Ring-finger, (Left-side-of, Experiment-participant))), (Release, (Mouse-button, (Left-side-of, Experiment-participant)))), "
+        "(Agent-action, Participant-response, (Lift, (Hand, (Left-side-of, Experiment-participant))), (Release, (Mouse-button, (Left-side-of, Experiment-participant)))), "
         "(Delay, Duration, (Approximately-equal-to, Time-block/68 ms)), "
         "(Sensory-event, Visual-presentation, (Drawing, (ID/left_hand.png, Hand, (Left-side-of, Computer-screen))), (Feedback, Penalty)), "
         "Description/Subject raised left hand and computer presented image of hand to left side"
     ),
     "raised-left/match-false": (
-        "(Agent-action, Participant-response, (Lift, (Ring-finger, (Left-side-of, Experiment-participant))), (Release, (Mouse-button, (Left-side-of, Experiment-participant)))), "
+        "(Agent-action, Participant-response, (Lift, (Hand, (Left-side-of, Experiment-participant))), (Release, (Mouse-button, (Left-side-of, Experiment-participant)))), "
         "(Delay, Duration, (Approximately-equal-to, Time-block/68 ms)), "
         "(Sensory-event, Visual-presentation, (Drawing, (ID/right_hand.png, Hand, (Right-side-of, Computer-screen))), (Feedback, Reward)), "
         "Description/Subject raised left hand and computer presented image of hand to right side"
     ),
     "raised-right/match-true": (
-        "(Agent-action, Participant-response, (Lift, (Ring-finger, (Right-side-of, Experiment-participant))), (Release, (Mouse-button, (Right-side-of, Experiment-participant)))), "
+        "(Agent-action, Participant-response, (Lift, (Hand, (Right-side-of, Experiment-participant))), (Release, (Mouse-button, (Right-side-of, Experiment-participant)))), "
         "(Delay, Duration, (Approximately-equal-to, Time-block/68 ms)), "
         "(Sensory-event, Visual-presentation, (Drawing, (ID/right_hand.png, Hand, (Right-side-of, Computer-screen))), (Feedback, Penalty)), "
         "Description/Subject raised right hand and computer presented image of hand to right side"
     ),
     "raised-right/match-false": (
-        "(Agent-action, Participant-response, (Lift, (Ring-finger, (Right-side-of, Experiment-participant))), (Release, (Mouse-button, (Right-side-of, Experiment-participant)))), "
+        "(Agent-action, Participant-response, (Lift, (Hand, (Right-side-of, Experiment-participant))), (Release, (Mouse-button, (Right-side-of, Experiment-participant)))), "
         "(Delay, Duration, (Approximately-equal-to, Time-block/68 ms)), "
         "(Sensory-event, Visual-presentation, (Drawing, (ID/left_hand.png, Hand, (Left-side-of, Computer-screen))), (Feedback, Reward)), "
         "Description/Subject raised right hand and computer presented image of hand to left side"
