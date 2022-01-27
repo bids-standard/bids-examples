@@ -118,6 +118,7 @@ bids-examples (in alphabetical order).
 - [qMRI datasets](#qmri-datasets)
 - [PET datasets](#PET-datasets)
 - [Microscopy datasets](#microscopy-datasets)
+- [fNIRS datasets](#fnirs-datasets)
 - [Multimodal datasets](#multimodal-datasets)
 
 ### EEG datasets
@@ -213,6 +214,14 @@ bids-examples (in alphabetical order).
 | ----------| ------------- | ----------------------------------------------------------------------------------------------- |
 | micr_SEM  | @jcohenadad   | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          |
 | micr_SPIM | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |
+
+
+### fNIRS datasets
+
+| name          | maintained by | description                                                        | link to full data                       |
+| ------------- | ------------- | -------------------------------------------------------------------| --------------------------------------- |
+| fnirs_tapping | @rob_luke     | Example fNIRS measurement with three conditions from five subjects | https://doi.org/10.5281/zenodo.5529797  |
+
 
 ### Multimodal datasets
 
