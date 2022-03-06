@@ -1,12 +1,11 @@
 {
 	"nr": {
-		"Description": "numerical participant ID"
-         },
+		"Description": "numerical ID of the participant"
+	},
 	"age": {
 		"Description": "age of the participant",
 		"Unit": "years"
 	},
-
 	"sex": {
 		"Description": "sex of the participant",
 		"Levels": {

@@ -2,22 +2,23 @@
 	"InstitutionAddress": "Strasse des 17. Juni 135, 10623, Berlin, Germany",
 	"InstitutionName": "Technische Universitaet zu Berlin",
 	"InstitutionalDepartmentName": "Biological Psychology and Neuroergonomics",
-	"MotionChannelCount": 24,
+	"MotionChannelCount": 37,
 	"RecordingType": "continuous",
 	"TaskDescription": "Participants equipped with VR HMD rotated either physically or using a joystick.",
 	"TaskName": "Rotation",
 	"TrackingSystemCount": 2,
-	"TrackingSystems": {
-		"HTCVive": {
-			"Manufacturer": "HTC",
-			"ManufacturersModelName": "Vive Pro",
-			"SamplingFrequencyNominal": 90,
-			"SamplingFrequencyEffective": 86.5095154,
-			"RecordingDuration": 194.0133397,
-			"TrackedPointsCount": 1,
+	"TrackingSystems": [
+		{
+			"TrackingSystemName": "HTCVive",
 			"DeviceSerialNumber": null,
 			"SoftwareVersions": null,
 			"ExternalSoftwareVersions": null,
+			"Manufacturer": "HTC",
+			"ManufacturersModelName": "Vive Pro",
+			"SamplingFrequency": 90,
+			"SamplingFrequencyEffective": 80.15345751,
+			"RecordingDuration": 1095.935256,
+			"TrackedPointsCount": 1,
 			"POSChannelCount": 3,
 			"ORNTChannelCount": 3,
 			"VELChannelCount": 0,
@@ -27,16 +28,17 @@
 			"MAGNChannelCount": 0,
 			"JNTANGChannelCount": 0
 		},
-		"PhaseSpace": {
-			"Manufacturer": "Virtual System Manufacturer",
-			"ManufacturersModelName": "Virtual System Manufacturer Model",
-			"SamplingFrequencyNominal": 60,
-			"SamplingFrequencyEffective": 86.50957507,
-			"RecordingDuration": 194.0132059,
-			"TrackedPointsCount": 4,
+		{
+			"TrackingSystemName": "PhaseSpace",
 			"DeviceSerialNumber": null,
 			"SoftwareVersions": null,
 			"ExternalSoftwareVersions": null,
+			"Manufacturer": "Impuls X2",
+			"ManufacturersModelName": "PhaseSpace",
+			"SamplingFrequency": 90,
+			"SamplingFrequencyEffective": 80.15344486,
+			"RecordingDuration": 1095.935429,
+			"TrackedPointsCount": 4,
 			"POSChannelCount": 12,
 			"ORNTChannelCount": 12,
 			"VELChannelCount": 0,
@@ -46,5 +48,5 @@
 			"MAGNChannelCount": 0,
 			"JNTANGChannelCount": 0
 		}
-	}
+	]
 }

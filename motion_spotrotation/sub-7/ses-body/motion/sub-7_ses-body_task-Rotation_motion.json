@@ -2,22 +2,23 @@
 	"InstitutionAddress": "Strasse des 17. Juni 135, 10623, Berlin, Germany",
 	"InstitutionName": "Technische Universitaet zu Berlin",
 	"InstitutionalDepartmentName": "Biological Psychology and Neuroergonomics",
-	"MotionChannelCount": 24,
+	"MotionChannelCount": 37,
 	"RecordingType": "continuous",
 	"TaskDescription": "Participants equipped with VR HMD rotated either physically or using a joystick.",
 	"TaskName": "Rotation",
 	"TrackingSystemCount": 2,
-	"TrackingSystems": {
-		"HTCVive": {
-			"Manufacturer": "HTC",
-			"ManufacturersModelName": "Vive Pro",
-			"SamplingFrequencyNominal": 90,
-			"SamplingFrequencyEffective": 83.71154162,
-			"RecordingDuration": 224.1268007,
-			"TrackedPointsCount": 1,
+	"TrackingSystems": [
+		{
+			"TrackingSystemName": "HTCVive",
 			"DeviceSerialNumber": null,
 			"SoftwareVersions": null,
 			"ExternalSoftwareVersions": null,
+			"Manufacturer": "HTC",
+			"ManufacturersModelName": "Vive Pro",
+			"SamplingFrequency": 90,
+			"SamplingFrequencyEffective": 87.53330142,
+			"RecordingDuration": 2328.382418,
+			"TrackedPointsCount": 1,
 			"POSChannelCount": 3,
 			"ORNTChannelCount": 3,
 			"VELChannelCount": 0,
@@ -25,19 +26,19 @@
 			"ACCChannelCount": 0,
 			"ANGACCChannelCount": 0,
 			"MAGNChannelCount": 0,
-			"JNTANGChannelCount": 0,
-			"StartTime": null
+			"JNTANGChannelCount": 0
 		},
-		"PhaseSpace": {
-			"Manufacturer": "Virtual System Manufacturer",
-			"ManufacturersModelName": "Virtual System Manufacturer Model",
-			"SamplingFrequencyNominal": 60,
-			"SamplingFrequencyEffective": 83.71277069,
-			"RecordingDuration": 224.1712924,
-			"TrackedPointsCount": 4,
+		{
+			"TrackingSystemName": "PhaseSpace",
 			"DeviceSerialNumber": null,
 			"SoftwareVersions": null,
 			"ExternalSoftwareVersions": null,
+			"Manufacturer": "Impuls X2",
+			"ManufacturersModelName": "PhaseSpace",
+			"SamplingFrequency": 90,
+			"SamplingFrequencyEffective": 87.54085006,
+			"RecordingDuration": 2328.170218,
+			"TrackedPointsCount": 4,
 			"POSChannelCount": 12,
 			"ORNTChannelCount": 12,
 			"VELChannelCount": 0,
@@ -45,8 +46,7 @@
 			"ACCChannelCount": 0,
 			"ANGACCChannelCount": 0,
 			"MAGNChannelCount": 0,
-			"JNTANGChannelCount": 0,
-			"StartTime": null
+			"JNTANGChannelCount": 0
 		}
-	}
+	]
 }
