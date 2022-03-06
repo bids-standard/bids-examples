@@ -1,0 +1,52 @@
+{
+	"InstitutionAddress": "Strasse des 17. Juni 135, 10623, Berlin, Germany",
+	"InstitutionName": "Technische Universitaet zu Berlin",
+	"InstitutionalDepartmentName": "Biological Psychology and Neuroergonomics",
+	"MotionChannelCount": 37,
+	"RecordingType": "continuous",
+	"TaskDescription": "Participants equipped with VR HMD rotated either physically or using a joystick.",
+	"TaskName": "Rotation",
+	"TrackingSystemCount": 2,
+	"TrackingSystems": [
+		{
+			"TrackingSystemName": "HTCVive",
+			"DeviceSerialNumber": null,
+			"SoftwareVersions": null,
+			"ExternalSoftwareVersions": null,
+			"Manufacturer": "HTC",
+			"ManufacturersModelName": "Vive Pro",
+			"SamplingFrequency": 90,
+			"SamplingFrequencyEffective": 84.71234777,
+			"RecordingDuration": 2154.609154,
+			"TrackedPointsCount": 1,
+			"POSChannelCount": 3,
+			"ORNTChannelCount": 3,
+			"VELChannelCount": 0,
+			"ANGVELChannelCount": 0,
+			"ACCChannelCount": 0,
+			"ANGACCChannelCount": 0,
+			"MAGNChannelCount": 0,
+			"JNTANGChannelCount": 0
+		},
+		{
+			"TrackingSystemName": "PhaseSpace",
+			"DeviceSerialNumber": null,
+			"SoftwareVersions": null,
+			"ExternalSoftwareVersions": null,
+			"Manufacturer": "Impuls X2",
+			"ManufacturersModelName": "PhaseSpace",
+			"SamplingFrequency": 90,
+			"SamplingFrequencyEffective": 84.71179906,
+			"RecordingDuration": 2154.363407,
+			"TrackedPointsCount": 4,
+			"POSChannelCount": 12,
+			"ORNTChannelCount": 12,
+			"VELChannelCount": 0,
+			"ANGVELChannelCount": 0,
+			"ACCChannelCount": 0,
+			"ANGACCChannelCount": 0,
+			"MAGNChannelCount": 0,
+			"JNTANGChannelCount": 0
+		}
+	]
+}

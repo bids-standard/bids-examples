@@ -1,0 +1,8 @@
+name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement
+headRigid_eul_x	ORNT	rad	60.0021200149194	VIRPos	headRigid	x	headRigid
+headRigid_eul_y	ORNT	rad	60.0021200149194	VIRPos	headRigid	y	headRigid
+headRigid_eul_z	ORNT	rad	60.0021200149194	VIRPos	headRigid	z	headRigid
+headRigid_cart_x	POS	vm	60.0021200149194	VIRPos	headRigid	x	headRigid
+headRigid_cart_y	POS	vm	60.0021200149194	VIRPos	headRigid	y	headRigid
+headRigid_cart_z	POS	vm	60.0021200149194	VIRPos	headRigid	z	headRigid
+headRigid_latency	LATENCY	seconds	60.0021200149194	VIRPos	headRigid	latency	headRigid

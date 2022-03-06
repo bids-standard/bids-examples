@@ -1,0 +1,30 @@
+{
+	"InstitutionAddress": "Strasse des 17. Juni 135, 10623, Berlin, Germany",
+	"InstitutionName": "Technische Universitaet zu Berlin",
+	"InstitutionalDepartmentName": "Biological Psychology and Neuroergonomics",
+	"MotionChannelCount": 7,
+	"RecordingType": "continuous",
+	"TaskDescription": "Participants equipped with VR HMD rotated either physically or using a joystick.",
+	"TaskName": "Rotation",
+	"TrackingSystemCount": 1,
+	"TrackingSystems": {
+		"TrackingSystemName": "VIRPos",
+		"DeviceSerialNumber": null,
+		"SoftwareVersions": null,
+		"ExternalSoftwareVersions": null,
+		"Manufacturer": "Virtual System Manufacturer",
+		"ManufacturersModelName": "Virtual System Manufacturer Model",
+		"SamplingFrequency": 60,
+		"SamplingFrequencyEffective": 60.00212964,
+		"RecordingDuration": 2232.170772,
+		"TrackedPointsCount": 1,
+		"POSChannelCount": 3,
+		"ORNTChannelCount": 3,
+		"VELChannelCount": 0,
+		"ANGVELChannelCount": 0,
+		"ACCChannelCount": 0,
+		"ANGACCChannelCount": 0,
+		"MAGNChannelCount": 0,
+		"JNTANGChannelCount": 0
+	}
+}
