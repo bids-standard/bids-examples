@@ -1,23 +1,23 @@
 {
-	"onset": {
-		"Description": "Onset of the event",
-		"Units": "s"
+	"onset":{
+		"Description":"Onset of the event",
+		"Units":"s"
 	},
-	"duration": {
-		"Description": "Duration of the event",
-		"Units": "s"
+	"duration":{
+		"Description":"Duration of the event",
+		"Units":"s"
 	},
-	"sample": {
-		"Description": "Sample index nearest to the onset of the event",
-		"Units": "sample"
+	"sample":{
+		"Description":"Sample index nearest to the onset of the event",
+		"Units":"sample"
 	},
-	"type": {
-		"Description": "Type of the event",
-		"Levels": {
-			"Markers": "Experiment marker"
+	"type":{
+		"Description":"Type of the event",
+		"Levels":{
+			"Markers":"Experiment marker"
 		}
 	},
-	"value": {
-		"Description": "Unparsed marker string"
+	"value":{
+		"Description":"Unparsed marker string"
 	}
 }
