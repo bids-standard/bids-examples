@@ -1,6 +1,6 @@
 {
     "Name": "Matching Pennies",
-    "BIDSVersion": "1.4",
+    "BIDSVersion": "1.6.0",
     "License": "ODbL (https://opendatacommons.org/licenses/odbl/summary/)",
     "Authors": [
         "Stefan Appelhoff",
@@ -13,5 +13,6 @@
         "Matthias Schultze-Kraft et al. “Predicting Motor Intentions with Closed-Loop Brain-Computer Interfaces”. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79–90. https://doi.org/10.1007/978-3-319-64373-1_8."
     ],
     "DatasetDOI": "10.17605/OSF.IO/CJ2DR",
-    "DatasetType": "raw"
+    "DatasetType": "raw",
+    "HEDVersion": "8.0.0"
 }
