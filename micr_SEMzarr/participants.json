@@ -1,0 +1,21 @@
+{
+    "participant_id": {
+        "Description": "Unique participant ID"
+    },    
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "species": {
+        "Description": "Binomial species name from the NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
+    },
+    "strain": {
+        "Description": "string value indicating the strain of the species"
+    },
+    "strain_rrid": {
+        "Description": "research resource identifier of the strain of the species from https://scicrunch.org/resources/Organisms/search"
+    }
+}
