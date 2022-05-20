@@ -1,11 +1,38 @@
 {
-	"Acknowledgements": "n/a",
-	"Authors": "Elke Warmerdam,Robbin Romijnders,Johanna Geritz,Morad Elshehabi,Corina Maetzler,Jan Carl Otto,Maren Reimer,Klarissa Stuerner,Ralf Baron,Steffen PaschenORCID,Thorben Beyer,Denise Dopcke,Tobias Eiken,Hendrik Ortmann,Falko Peters,Felix von der Recke,Moritz Riesen,Gothia Rohwedder,Anna Schaade,Maike Schumacher,Anton Sondermann,Walter Maetzler and Clint Hansen",
-	"BIDSVersion": "n/a",
-	"DatasetDOI": "doi.org/10.3390/s21175833",
-	"DatasetType": "raw",
-	"Funding": "Mobilise-D",
-	"License": "n/a",
-	"Name": "Neurological validation dataset",
-	"ReferencesAndLinks": "https://www.mdpi.com/1424-8220/21/17/5833"
+	"Acknowledgements":"n\/a",
+	"Authors":[
+		"Elke Warmerdam",
+		"Robbin Romijnders",
+		"Johanna Geritz",
+		"Morad Elshehabi",
+		"Corina Maetzler",
+		"Jan Carl Otto",
+		"Maren Reimer",
+		"Klarissa Stuerner",
+		"Ralf Baron",
+		"Steffen Paschen",
+		"Thorben Beyer",
+		"Denise Dopcke",
+		"Tobias Eiken",
+		"Hendrik Ortmann",
+		"Falko Peters",
+		"Felix von der Recke",
+		"Moritz Riesen",
+		"Gothia Rohwedder",
+		"Anna Schaade",
+		"Maike Schumacher",
+		"Anton Sondermann",
+		"Walter Maetzler and Clint Hansen"
+	],
+	"BIDSVersion":"n\/a",
+	"DatasetDOI":"n\/a",
+	"DatasetType":"raw",
+	"Funding":[
+		"Mobilise-D"
+	],
+	"License":"n\/a",
+	"Name":"Dual system validation",
+	"ReferencesAndLinks":[
+		"https:\/\/www.mdpi.com\/1424-8220\/21\/17\/5833"
+	]
 }
