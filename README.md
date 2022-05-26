@@ -173,13 +173,13 @@ bids-examples (in alphabetical order).
 
 ### ASL datasets
 
-| name   | maintained by | description                                                                                   | link to link to full data                                                            |
-| ------ | ------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| asl001 | @patsycle     | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                     | https://drive.google.com/drive/folders/1lPbAOQMn8TR6bzp9olt8XBov--A2Ci2j?usp=sharing |
-| asl002 | @patsycle     | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                    | https://drive.google.com/drive/folders/1JvbRjWj_Fksxa0rUC0wkrDHPe9FDHoue?usp=sharing |
-| asl003 | @patsycle     | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan                                    | https://drive.google.com/drive/folders/1VUovy3XK0Malkl6DT2JY0YtoAGuYWgWO?usp=sharing |
-| asl004 | @patsycle     | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | https://drive.google.com/drive/folders/1xDvjEgJ-flt4Sze6_EVtRIP43P7D6ZSX?usp=sharing |
-| asl005 | @patsycle     | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | https://drive.google.com/drive/folders/1tRKZpi3YTRcYAwqIV9bGCyW9hJmpJo1I?usp=sharing |
+| name   | maintained by | description                                                                                   | link to link to full data |
+| ------ | ------------- | --------------------------------------------------------------------------------------------- | ------------------------- |
+| asl001 | @patsycle     | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                     | https://osf.io/yru2q/     |
+| asl002 | @patsycle     | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                    | https://osf.io/yru2q/     |
+| asl003 | @patsycle     | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan                                    | https://osf.io/yru2q/     |
+| asl004 | @patsycle     | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | https://osf.io/yru2q/     |
+| asl005 | @patsycle     | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | https://osf.io/yru2q/     |
 
 ### qMRI datasets
 
