@@ -1,0 +1,41 @@
+{
+	"name": {
+		"Description": "REQUIRED. Name of the electrode"
+	},
+	"x": {
+		"Description": "REQUIRED. Recorded position along the x-axis"
+	},
+	"y": {
+		"Description": "REQUIRED. Recorded position along the y-axis"
+	},
+	"z": {
+		"Description": "REQUIRED. Recorded position along the z-axis"
+	},
+	"size": {
+		"Description": "Size of the electrode"
+	},
+	"hemisphere": {
+		"Description": "Specify the hemisphere in which the electrode is placed",
+		"Levels": {
+			"L": "Left hemisphere",
+			"R": "Right hemisphere"
+		}
+	},
+	"seizure_zone": {
+		"LongName": "Seizure onset zone",
+		"Description": "final conclusion drawn by an epileptologist on the electrodes involved in the seizures",
+		"Levels": {
+			"SOZ": "Seizure Onset Zone, the region where the recorded clinical seizures originated during the recording period.",
+			"IrritativeZone": "Region of cortex that generates interictal epileptiform discharges, but not seizures",
+			"EarlyPropagationZone": "Region of cortex that generates the initial seizure symptoms. Not seizure onset, but the propagation of seizure from SOZ into this region within first 3 seconds from seizure onset.",
+			"Resected": "Region of cortex that was resected",
+			"ResectedEdge": "Region of cortex that is within 1 cm of the edge of the resected area."
+		}
+	},
+	"Destrieux_label": {
+		"Description": "Label code according to the Destrieux Brain Atlas"
+	},
+	"Destrieux_label_text": {
+		"Description": "Label with the brain region according to the Destrieux Brain Atlas"
+	}
+}
