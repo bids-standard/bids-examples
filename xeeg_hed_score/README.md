@@ -17,9 +17,9 @@ There are two ways to annotate HED in BIDS: by defining an HED column in the _ev
  - When annotations are specific to a particular channel, the relevant channel was annotated by including a channel column in the events.tsv file.
 
 # Source data
-sub-ieegModulator   Collected at Mayo Clinic Rochester, MN
-sub-eegSeizureTUH   The TUH EEG Seizure Corpus. Database: TUH EEG Seizure Corpus (TUSZ), Version: 1.5.3, Patient: 258, Session: s003 (../tuh_eeg_seizure/v1.5.3/edf/dev/01_tcp_ar/002/00000258/s003_2003_07_22)
-sub-eegArtifactTUH  The TUH EEG Artifact Corpus. Database: TUH EEG Artifact Corpus (TUAR), Version: v2.0.0, Patient: 715 , Session: s010 (../tuh_eeg_artifact/edf/01_tcp_ar/007/00000715/s010_2014_08_07)
+ - sub-ieegModulator   Collected at Mayo Clinic Rochester, MN
+ - sub-eegSeizureTUH   The TUH EEG Seizure Corpus. Database: TUH EEG Seizure Corpus (TUSZ), Version: 1.5.3, Patient: 258, Session: s003 (../tuh_eeg_seizure/v1.5.3/edf/dev/01_tcp_ar/002/00000258/s003_2003_07_22)
+ - sub-eegArtifactTUH  The TUH EEG Artifact Corpus. Database: TUH EEG Artifact Corpus (TUAR), Version: v2.0.0, Patient: 715 , Session: s010 (../tuh_eeg_artifact/edf/01_tcp_ar/007/00000715/s010_2014_08_07)
 
 # More information
 HED: https://www.hedtags.org/
