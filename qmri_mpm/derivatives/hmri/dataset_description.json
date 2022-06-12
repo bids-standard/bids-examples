@@ -1,0 +1,20 @@
+{
+    "Name": "Example hMRI dataset",
+    "BIDSVersion": "1.5.0",
+    "DatasetType": "derivative",
+    "Authors": ["Martina Callaghan"],
+    "SourceDatasets": ["../../"],
+    "GeneratedBy": [
+        {
+          "Name": "hmri toolbox",
+          "CodeURL": "https://hmri-group.github.io/hMRI-toolbox/"
+        }
+      ],
+    "ReferencesAndLinks": [
+      "http://www.hmri.info/",
+      "https://doi.org/10.1016/j.dib.2019.104132",
+      "https://doi.org/10.1016/j.neuroimage.2019.01.029",
+      "https://doi.org/10.1016/j.dib.2019.104132"
+    ]
+  }
+  

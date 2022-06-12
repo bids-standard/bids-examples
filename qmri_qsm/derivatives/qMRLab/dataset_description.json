@@ -5,5 +5,14 @@
   "Authors": [
     "Agah Karakuzu"
   ],
+  "SourceDatasets": [
+    "../../"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Manual",
+      "Description": "Adapted from existing example, adjusted to conform to BIDS Derivatives"
+    }
+  ],
   "Description": "This is a sample dataset (with magnitude and phase parts reconstructed) from a high resolution 3D GRE scan, intended for QSM."
 }
