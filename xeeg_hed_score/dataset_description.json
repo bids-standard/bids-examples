@@ -1,13 +1,7 @@
 {
     "Name": "HED schema library for SCORE annotations example",
     "BIDSVersion": "1.7.0",
-    "HEDVersion": {
-        "base": "8.0.0",
-        "libraries": {
-            "sc": "score_0.0.1",
-            "test": "testlib_1.0.2"
-        }
-    },
+    "HEDVersion": "8.0.0",
     "Authors": [
         "Tal Pal Attia",
         "Dora Hermes"

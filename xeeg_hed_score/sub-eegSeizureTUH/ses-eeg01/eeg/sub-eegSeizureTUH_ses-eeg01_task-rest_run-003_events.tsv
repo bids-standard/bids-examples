@@ -1,59 +1,59 @@
 onset	duration	HED	channel
-0	205	Background-activity	FP1-F7
-0	205	Background-activity	F7-T3
-0	205	Background-activity	T3-T5
-0	205	Background-activity	T5-O1
-0	14.034	Background-activity	FP2-F8
-14.034	115.061	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	FP2-F8
-115.061	205	Background-activity	FP2-F8
-0	14.034	Background-activity	F8-T4
-14.034	174.7782	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	F8-T4
-174.7782	205	Background-activity	F8-T4
-0	14.034	Background-activity	T4-T6
-14.034	174.7782	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	T4-T6
-174.7782	205	Background-activity	T4-T6
-0	14.034	Background-activity	T6-O2
-14.034	115.061	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	T6-O2
-115.061	205	Background-activity	T6-O2
-0	14.034	Background-activity	A1-T3
-14.034	115.061	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	A1-T3
-115.061	205	Background-activity	A1-T3
-0	14.034	Background-activity	T3-C3
-14.034	115.061	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	T3-C3
-115.061	205	Background-activity	T3-C3
-0	14.034	Background-activity	C3-CZ
-14.034	115.061	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	C3-CZ
-115.061	205	Background-activity	C3-CZ
-0	7.9734	Background-activity	CZ-C4
-7.9734	115.061	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	CZ-C4
-115.061	205	Background-activity	CZ-C4
-0	3.9734	Background-activity	C4-T4
-3.9734	175.5054	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	C4-T4
-175.5054	205	Background-activity	C4-T4
-0	3.9734	Background-activity	T4-A2
-3.9734	175.5054	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	T4-A2
-175.5054	205	Background-activity	T4-A2
-0	21.2327	Background-activity	FP1-F3
-21.2327	115.0233	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	FP1-F3
-115.0233	205	Background-activity	FP1-F3
-0	21.2327	Background-activity	F3-C3
-21.2327	115.0233	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	F3-C3
-115.0233	205	Background-activity	F3-C3
-0	21.2327	Background-activity	C3-P3
-21.2327	115.0233	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	C3-P3
-115.0233	205	Background-activity	C3-P3
-0	21.2327	Background-activity	P3-O1
-21.2327	115.0233	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	P3-O1
-115.0233	205	Background-activity	P3-O1
-0	21.2327	Background-activity	FP2-F4
-21.2327	115.0233	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	FP2-F4
-115.0233	205	Background-activity	FP2-F4
-0	3.9623	Background-activity	F4-C4
-3.9623	115.0111	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	F4-C4
-115.0111	205	Background-activity	F4-C4
-0	13.9334	Background-activity	C4-P4
-13.9334	115.01	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	C4-P4
-115.01	205	Background-activity	C4-P4
-0	3.9789	Background-activity	P4-O2
-3.9789	115.0277	Epileptic-seizure, Tonic-clonic-motor-onset-epileptic-seizure	P4-O2
-115.0277	205	Background-activity	P4-O2
+0	205	sc:Background-activity	FP1-F7
+0	205	sc:Background-activity	F7-T3
+0	205	sc:Background-activity	T3-T5
+0	205	sc:Background-activity	T5-O1
+0	14.034	sc:Background-activity	FP2-F8
+14.034	115.061	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	FP2-F8
+115.061	205	sc:Background-activity	FP2-F8
+0	14.034	sc:Background-activity	F8-T4
+14.034	174.7782	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	F8-T4
+174.7782	205	sc:Background-activity	F8-T4
+0	14.034	sc:Background-activity	T4-T6
+14.034	174.7782	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	T4-T6
+174.7782	205	sc:Background-activity	T4-T6
+0	14.034	sc:Background-activity	T6-O2
+14.034	115.061	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	T6-O2
+115.061	205	sc:Background-activity	T6-O2
+0	14.034	sc:Background-activity	A1-T3
+14.034	115.061	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	A1-T3
+115.061	205	sc:Background-activity	A1-T3
+0	14.034	sc:Background-activity	T3-C3
+14.034	115.061	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	T3-C3
+115.061	205	sc:Background-activity	T3-C3
+0	14.034	sc:Background-activity	C3-CZ
+14.034	115.061	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	C3-CZ
+115.061	205	sc:Background-activity	C3-CZ
+0	7.9734	sc:Background-activity	CZ-C4
+7.9734	115.061	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	CZ-C4
+115.061	205	sc:Background-activity	CZ-C4
+0	3.9734	sc:Background-activity	C4-T4
+3.9734	175.5054	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	C4-T4
+175.5054	205	sc:Background-activity	C4-T4
+0	3.9734	sc:Background-activity	T4-A2
+3.9734	175.5054	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	T4-A2
+175.5054	205	sc:Background-activity	T4-A2
+0	21.2327	sc:Background-activity	FP1-F3
+21.2327	115.0233	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	FP1-F3
+115.0233	205	sc:Background-activity	FP1-F3
+0	21.2327	sc:Background-activity	F3-C3
+21.2327	115.0233	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	F3-C3
+115.0233	205	sc:Background-activity	F3-C3
+0	21.2327	sc:Background-activity	C3-P3
+21.2327	115.0233	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	C3-P3
+115.0233	205	sc:Background-activity	C3-P3
+0	21.2327	sc:Background-activity	P3-O1
+21.2327	115.0233	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	P3-O1
+115.0233	205	sc:Background-activity	P3-O1
+0	21.2327	sc:Background-activity	FP2-F4
+21.2327	115.0233	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	FP2-F4
+115.0233	205	sc:Background-activity	FP2-F4
+0	3.9623	sc:Background-activity	F4-C4
+3.9623	115.0111	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	F4-C4
+115.0111	205	sc:Background-activity	F4-C4
+0	13.9334	sc:Background-activity	C4-P4
+13.9334	115.01	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	C4-P4
+115.01	205	sc:Background-activity	C4-P4
+0	3.9789	sc:Background-activity	P4-O2
+3.9789	115.0277	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-epileptic-seizure	P4-O2
+115.0277	205	sc:Background-activity	P4-O2
