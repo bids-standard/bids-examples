@@ -1,0 +1,9 @@
+name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement
+headRigid_eul_x	ORNT	rad	89.1536307364188	HTCVive	headRigid	x	head
+headRigid_eul_y	ORNT	rad	89.1536307364188	HTCVive	headRigid	y	head
+headRigid_eul_z	ORNT	rad	89.1536307364188	HTCVive	headRigid	z	head
+headRigid_cart_x	POS	m	89.1536307364188	HTCVive	headRigid	x	head
+headRigid_cart_y	POS	m	89.1536307364188	HTCVive	headRigid	y	head
+headRigid_cart_z	POS	m	89.1536307364188	HTCVive	headRigid	z	head
+Rigid_headRigid_PS_offset_yaw	PS_OFFSET_YAW	euler	89.1536307364188	HTCVive	headRigid	yaw	head
+HTCVive_latency	LATENCY	seconds	89.1536307364188	HTCVive	n/a	latency	n/a
