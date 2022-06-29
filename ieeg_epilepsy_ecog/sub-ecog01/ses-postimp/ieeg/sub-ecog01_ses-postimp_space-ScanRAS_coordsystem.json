@@ -1,0 +1,8 @@
+{
+ "iEEGCoordinateSystem": "ScanRAS",
+ "iEEGCoordinateUnits": "mm",
+ "iEEGCoordinateSystemDescription": "Scanner-based RAS coordinates of the post-implantation T1 MRI",
+ "iEEGCoordinateProcessingDescription": "SEEG contacts manually placed with Brainstorm on the post-implanation T1 MRI",
+ "iEEGCoordinateProcessingReference": "https://neuroimage.usc.edu/brainstorm/Tutorials/ECoG",
+ "IntendedFor": "sub-ecog01/ses-postimp/anat/sub-ecog01_ses-postimp_T1w.nii.gz"
+}

@@ -1,17 +1,20 @@
 {
- "Name": "Brainstorm Tutorial ECoG/sEEG",
- "BIDSVersion": "1.2.0",
- "Authors": [
-  "Francois Tadel",
-  "Marcel Heers",
-  "Andreas Schulze-Bonhage"
- ],
- "License": "CC0",
- "ReferencesAndLinks": [
-    "https://neuroimage.usc.edu/brainstorm/Tutorials/ECoG"
+    "Name": "Brainstorm Tutorial ECoG/sEEG",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Francois Tadel",
+        "Marcel Heers",
+        "Andreas Schulze-Bonhage"
     ],
- "Acknowledgements": "n/a",
- "HowToAcknowledge": "n/a",
- "Funding": [],
- "DatasetDOI": "n/a"
+    "License": "Property of the Epilepsy Centre, University Hospital Freiburg, Germany",
+    "ReferencesAndLinks": [
+        "https://neuroimage.usc.edu/brainstorm/Tutorials/ECoG"
+    ],
+    "Acknowledgements": "n/a",
+    "HowToAcknowledge": "n/a",
+    "Funding": [],
+	"EthicsApprovals": [],
+    "DatasetDOI": "n/a",
+	"HEDVersion": "n/a"
 }
