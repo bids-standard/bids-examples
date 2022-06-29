@@ -1,0 +1,10 @@
+2 rat spinal cord samples from the same subject with 4 chunks each.
+Example dataset with empty images containing single plane illumination microscopy (SPIM) data to illustrate BIDS convention.
+
+For demonstration purposes, JSON metadata includes fictional `ChunkTransformationMatrix` and `ChunkTransformationMatrixAxis` fields corresponding to the following transformation for both samples:
+
+- All chunks are scaled by a factor 2 in the Y axis,
+- chunk-01 is at the origin
+- chunk-02 is translated by 5 um along X,
+- chunk-03 is translated by 3 um along Z,
+- chunk-04 is translated by 5 um along X and by 3 um along Z
