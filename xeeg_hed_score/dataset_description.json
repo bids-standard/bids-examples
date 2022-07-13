@@ -1,12 +1,12 @@
 {
     "Name": "HED schema library for SCORE annotations example",
     "BIDSVersion": "1.7.0",
-    "HEDVersion": "8.0.0",
+    "HEDVersion": ["8.1.0", "sc:score_1.0.0"],
     "Authors": [
         "Tal Pal Attia",
         "Dora Hermes"
     ],
-    "Acknowledgements": "Kay Robbins, Dung Truong, Arnaud Delorme, xxx, and Scott Makeig",
+    "Acknowledgements": "Kay Robbins, Dung Truong, Arnaud Delorme, and Scott Makeig",
     "Funding": [
         "National Institute of Health Grant R01MH126700 (SM)",
         "National Institute of Health Grant R01MH122258 (DH)"
