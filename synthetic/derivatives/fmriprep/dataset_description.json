@@ -18,5 +18,8 @@
             "URL": "../.."
         }
     ],
-    "HowToAcknowledge": "Please cite our paper (https://doi.org/10.1038/s41592-018-0235-4), and include the generated citation boilerplate within the Methods section of the text."
+    "HowToAcknowledge": "Please cite our paper (https://doi.org/10.1038/s41592-018-0235-4), and include the generated citation boilerplate within the Methods section of the text.",
+    "DatasetLinks": {
+        "raw": "../../"
+    }
 }
