@@ -1,0 +1,9 @@
+name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement
+Rigid9_eul_x	ORNT	rad	480.118931078213	PhaseSpace9	Rigid9	x	Rigid9
+Rigid9_eul_y	ORNT	rad	480.118931078213	PhaseSpace9	Rigid9	y	Rigid9
+Rigid9_eul_z	ORNT	rad	480.118931078213	PhaseSpace9	Rigid9	z	Rigid9
+Rigid9_cart_x	POS	m	480.118931078213	PhaseSpace9	Rigid9	x	Rigid9
+Rigid9_cart_y	POS	m	480.118931078213	PhaseSpace9	Rigid9	y	Rigid9
+Rigid9_cart_z	POS	m	480.118931078213	PhaseSpace9	Rigid9	z	Rigid9
+Rigid9_Conf	CONFIDENCE	n/a	480.118931078213	PhaseSpace9	Rigid9	Conf	Rigid9
+PhaseSpace9_latency	LATENCY	seconds	480.118931078213	PhaseSpace9	n/a	latency	n/a
