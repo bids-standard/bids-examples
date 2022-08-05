@@ -1,0 +1,14 @@
+{
+    "Name": "FreeSurfer recon-all segmentation of T1 MRI pre-implantation",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "derivative",
+        "GeneratedBy": [
+        {
+            "Name": "freesurfer",
+            "Version": "7.1.1"
+        }
+	],
+    "Authors": [
+        "Francois Tadel"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "ASL_Siemens_PCASL_singleTI_3DGRASE",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "raw",
+  "License": "This dataset is made available under CC0.",
+  "Authors": [   "Sjoerd B. Vos",
+    "David L. Thomas"
+],
+  "HowToAcknowledge": "If you reference this dataset in your publications, please acknowledge its authors.",
+  "EthicsApprovals": ["This original study from which this BIDS example dataset was derived was approved by the local ethics committee as protocol optimisation procedures"]
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "SA2RAGE estimate",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "SourceDatasets": [
+    "../../"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Manual",
+      "Description": "Adjusted to conform to BIDS Derivatives"
+    }
+  ]
+}

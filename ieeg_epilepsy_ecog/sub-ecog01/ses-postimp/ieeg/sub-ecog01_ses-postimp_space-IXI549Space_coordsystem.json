@@ -1,0 +1,7 @@
+{
+ "iEEGCoordinateSystem": "IXI549Space",
+ "iEEGCoordinateUnits": "mm",
+ "iEEGCoordinateProcessingDescription": "SEEG contacts manually placed with Brainstorm on the post-implanation T1 MRI, which was co-registered to the pre-implantation T1 MRI with SPM12, which itself was normalized to IXI549Space with SPM12",
+ "iEEGCoordinateProcessingReference": "Hermes et al., 2010 JNeuroMeth",
+ "IntendedFor": "sub-ecog01/ses-postimp/anat/sub-ecog01_ses-postimp_T1w.nii.gz"
+}

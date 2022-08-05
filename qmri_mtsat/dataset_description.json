@@ -1,0 +1,19 @@
+{
+  "Name": "BEP001 example dataset 0X (Variable Flip Angle)",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "raw",
+  "ReferencesAndLinks": [
+    "https://qmrlab.org",
+    "https://qmrlab.readthedocs.io/en/master/methods.html#mt_sat",
+    "https://qmrlab.readthedocs.io/en/master/methods.html#b1_dam",
+    "https://dx.doi.org/10.3233%2FBPL-160033",
+    "https://doi.org/10.1002/mrm.21732"
+  ],
+  "Authors": [
+    "Agah Karakuzu",
+    "Ilana R. Leppert",
+    "Mathieu Boudreau",
+    "Nikola Stikov"
+  ],
+  "Description": "This is a sample dataset from a Magnetization Transfer Saturation Index(MTsat) scan using FLASH sequence to compute T1map and MTsat."
+}

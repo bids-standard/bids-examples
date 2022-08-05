@@ -1,6 +1,10 @@
 {
 	"Name": "Synthetic dataset for inclusion in BIDS-examples",
-	"BIDSVersion": "1.0.2",
+	"BIDSVersion": "1.8.0",
+	"DatasetType": "raw",
 	"License": "PD",
-	"Authors": ["Markiewicz, C. J."]
+	"Authors": [
+		"Markiewicz, C. J.",
+		"Gau, Rémi"
+	]
 }

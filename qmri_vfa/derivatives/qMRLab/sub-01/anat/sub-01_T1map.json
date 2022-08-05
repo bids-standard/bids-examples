@@ -1,0 +1,22 @@
+{
+  "RawSources": [
+    "sub-01/anat/sub-01_flip-1_VFA.nii.gz",
+    "sub-01/anat/sub-01_flip-2_VFA.nii.gz",
+    "sub-01/fmap/sub-01_sub-01_TB1map.nii.gz"
+  ],
+  "MagneticFieldStrength": "3",
+  "Manufacturer": "Siemens",
+  "ManufacturerModelName": "TrioTim",
+  "PulseSequenceType": "SPGR",
+  "RepetitionTime": "0.0150",
+  "FlipAngle": [
+    "3",
+    "20"
+  ],
+  "EstimationPaper": "Deoni et. al.MRM, 2015",
+  "EstimationAlgorithm": "Linear",
+  "EstimationSoftwareName": "qMRLab",
+  "EstimationSoftwareLanguage": "MATLAB",
+  "EstimationSoftwareVersion": "2.3.0",
+  "EstimationSoftwareEnv": "OSX 10.14"
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "BEP001 example dataset 0X (Multi-Echo Spin-Echo)",
+  "BIDSVersion": "1.5.0",
+  "DatasetType": "raw",
+  "ReferencesAndLinks": [
+    "https://qmrlab.org",
+    "https://qmrlab.readthedocs.io/en/master/methods.html#mwf",
+    "https://qmrlab.readthedocs.io/en/master/methods.html#mono_t2",
+    "https://dx.doi.org/10.3233%2FBPL-160033"
+  ],
+  "Description": "This is a sample dataset from a Multi-Echo Spin-Echo (MESE) scan that can be used to calculate T2 and myelin water fraction (MWF) maps."
+}
