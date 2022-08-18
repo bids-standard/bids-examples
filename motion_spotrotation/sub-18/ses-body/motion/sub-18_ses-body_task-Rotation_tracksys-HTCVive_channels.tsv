@@ -5,5 +5,5 @@ headRigid_eul_z	ORNT	rad	86.6206113057641	HTCVive	headRigid	z	head
 headRigid_cart_x	POS	m	86.6206113057641	HTCVive	headRigid	x	head
 headRigid_cart_y	POS	m	86.6206113057641	HTCVive	headRigid	y	head
 headRigid_cart_z	POS	m	86.6206113057641	HTCVive	headRigid	z	head
-Rigid_headRigid_PS_offset_yaw	PS_OFFSET_YAW	euler	86.6206113057641	HTCVive	headRigid	yaw	head
+Rigid_headRigid_PS_offset_yaw	MISC	euler	86.6206113057641	HTCVive	headRigid	yaw	head
 HTCVive_latency	LATENCY	seconds	86.6206113057641	HTCVive	n/a	latency	n/a
