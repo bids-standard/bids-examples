@@ -960,12 +960,8 @@ onset	duration	sample	type	value
 813.780846439469	0	813785	Markers	Stop Vibro right
 813.977845676058	0	813982	Markers	Time between Warning and LED: 0.501
 813.977845676058	0	813982	Markers	Stim-40-R-walkWarning-134-yellow--1-kongruent
-814.278844509628	0	814283	Markers	WiimoteButtonB pressed
 814.279844505753	0	814284	Markers	BUT-RIGHT-ButtonB-Press
-814.473843753968	0	814478	Markers	WiimoteButtonB released
-814.618843192067	0	814623	Markers	WiimoteButtonB pressed
 814.619843188191	0	814624	Markers	BUT-RIGHT-ButtonB-Press
-814.770842603039	0	814775	Markers	WiimoteButtonB released
 815.528839665652	0	815533	Markers	Reaction: 0.302-right-yellow-correct
 815.530839657901	0	815535	Markers	End-Trial-3.613
 815.56383953002	0	815568	Markers	Trial Start: No.63-angle:40-left-left-kongruent-blue-FA:no
@@ -1014,9 +1010,7 @@ onset	duration	sample	type	value
 831.057779487961	0	831062	Markers	Stop Vibro right
 831.253778728426	0	831258	Markers	Time between Warning and LED: 0.501
 831.253778728426	0	831258	Markers	Stim-40-R-walkWarning-289-blue-1-kongruent
-831.508777740255	0	831513	Markers	WiimoteButtonB pressed
 831.50977773638	0	831514	Markers	BUT-RIGHT-ButtonB-Press
-831.712776949718	0	831717	Markers	WiimoteButtonB released
 832.80477271802	0	832809	Markers	Reaction: 0.258-right-blue-correct
 832.805772714144	0	832810	Markers	End-Trial-3.578
 832.839772582388	0	832844	Markers	Trial Start: No.67-angle:60-right-right-kongruent-none-FA:yes
@@ -1036,9 +1030,7 @@ onset	duration	sample	type	value
 840.599742510982	0	840604	Markers	Stop Vibro right
 840.796741747571	0	840801	Markers	Time between Warning and LED: 0.502
 840.796741747571	0	840801	Markers	Stim-40-R-walkWarning-139-blue--1-kongruent
-841.183740247876	0	841188	Markers	WiimoteButtonB pressed
 841.184740244001	0	841189	Markers	BUT-RIGHT-ButtonB-Press
-841.386739461214	0	841391	Markers	WiimoteButtonB released
 842.347735737165	0	842352	Markers	Reaction: 0.388-right-blue-correct
 842.348735733289	0	842353	Markers	End-Trial-3.515
 842.382735601533	0	842387	Markers	Trial Start: No.69-angle:60-left-left-kongruent-blue-FA:no
@@ -1072,9 +1064,7 @@ onset	duration	sample	type	value
 855.011686661869	0	855016	Markers	Stop Vibro right
 855.207685902333	0	855212	Markers	Time between Warning and LED: 0.501
 855.208685898458	0	855213	Markers	Stim-60-R-walkWarning-157-blue-1-kongruent
-855.562684526644	0	855567	Markers	WiimoteButtonB pressed
 855.563684522769	0	855568	Markers	BUT-RIGHT-ButtonB-Press
-855.77968368573	0	855784	Markers	WiimoteButtonB released
 856.759679888052	0	856764	Markers	Reaction: 0.357-right-blue-correct
 856.760679884177	0	856765	Markers	End-Trial-3.566
 856.794679752421	0	856799	Markers	Trial Start: No.72-angle:40-right-right-kongruent-blue-FA:no
@@ -1084,9 +1074,7 @@ onset	duration	sample	type	value
 858.724672273321	0	858729	Markers	Time between Warning and LED: 0.503
 858.724672273321	0	858729	Markers	Stim-40-R-walkWarning-291-blue-1-kongruent
 858.828671870302	0	858833	Markers	Stop Vibro right
-859.115670758125	0	859120	Markers	WiimoteButtonB pressed
 859.11667075425	0	859121	Markers	BUT-RIGHT-ButtonB-Press
-859.275670138096	0	859280	Markers	WiimoteButtonB released
 860.275666262914	0	860280	Markers	Reaction: 0.393-right-blue-correct
 860.276666259039	0	860281	Markers	End-Trial-3.482
 860.310666127283	0	860315	Markers	Trial Start: No.73-angle:40-right-left-inkongruent-yellow-FA:no
@@ -1096,29 +1084,19 @@ onset	duration	sample	type	value
 865.623645538445	0	865628	Markers	Stop Vibro left
 865.823644763409	0	865828	Markers	Time between Warning and LED: 0.502
 865.823644763409	0	865828	Markers	Stim-40-R-walkWarning-242-yellow--1-inkongruent
-866.289642957574	0	866294	Markers	WiimoteButtonB pressed
 866.289642957574	0	866294	Markers	BUT-RIGHT-ButtonB-Press
-866.462642287168	0	866467	Markers	WiimoteButtonB released
-866.661641516007	0	866666	Markers	WiimoteButtonB pressed
 866.661641516007	0	866666	Markers	BUT-RIGHT-ButtonB-Press
 867.374638753003	0	867379	Markers	Reaction: 0.467-right-yellow-correct
 867.375638749127	0	867380	Markers	End-Trial-7.065
-867.396638667749	0	867401	Markers	WiimoteButtonB released
 867.410638613496	0	867415	Markers	Trial Start: No.74-angle:40-right-right-kongruent-yellow-FA:no
-867.516638202727	0	867521	Markers	WiimoteButtonB pressed
-867.681637563322	0	867686	Markers	WiimoteButtonB released
 868.920632761972	0	868925	Markers	right
 868.920632761972	0	868925	Markers	WARN-right
 868.923632750347	0	868928	Markers	Start Vibro right
 869.224631583917	0	869229	Markers	Stop Vibro right
 869.422630816631	0	869427	Markers	Time between Warning and LED: 0.502
 869.422630816631	0	869427	Markers	Stim-40-R-walkWarning-117-yellow--1-kongruent
-869.761629502945	0	869766	Markers	WiimoteButtonB pressed
 869.76262949907	0	869767	Markers	BUT-RIGHT-ButtonB-Press
-869.937628820913	0	869942	Markers	WiimoteButtonB released
-870.09262822026	0	870097	Markers	WiimoteButtonB pressed
 870.093628216385	0	870098	Markers	BUT-RIGHT-ButtonB-Press
-870.247627619607	0	870252	Markers	WiimoteButtonB released
 870.97462480235	0	870979	Markers	Reaction: 0.34-right-yellow-correct
 870.975624798475	0	870980	Markers	End-Trial-3.566
 871.009624666719	0	871014	Markers	Trial Start: No.75-angle:40-left-left-kongruent-blue-FA:no
@@ -1254,9 +1232,7 @@ onset	duration	sample	type	value
 920.17643413568	0	920181	Markers	Stop Vibro right
 920.373433372269	0	920378	Markers	Time between Warning and LED: 0.502
 920.373433372269	0	920378	Markers	Stim-35-R-walkWarning-249-blue--1-kongruent
-920.636432353097	0	920641	Markers	WiimoteButtonB pressed
 920.637432349221	0	920642	Markers	BUT-RIGHT-ButtonB-Press
-920.853431512182	0	920858	Markers	WiimoteButtonB released
 921.925427357988	0	921930	Markers	Reaction: 0.264-right-blue-correct
 921.926427354113	0	921931	Markers	End-Trial-6.512
 921.960427222357	0	921965	Markers	Trial Start: No.85-angle:35-right-right-kongruent-blue-FA:no
@@ -1266,9 +1242,7 @@ onset	duration	sample	type	value
 923.754420270281	0	923759	Markers	Stop Vibro right
 923.95341949912	0	923958	Markers	Time between Warning and LED: 0.501
 923.954419495245	0	923959	Markers	Stim-35-R-walkWarning-130-blue--1-kongruent
-924.251418344316	0	924256	Markers	WiimoteButtonB pressed
 924.252418340441	0	924257	Markers	BUT-RIGHT-ButtonB-Press
-924.446417588656	0	924451	Markers	WiimoteButtonB released
 925.504413488714	0	925509	Markers	Reaction: 0.299-right-blue-correct
 925.506413480964	0	925511	Markers	End-Trial-3.545
 925.540413349208	0	925545	Markers	Trial Start: No.86-angle:60-left-left-kongruent-yellow-FA:no
@@ -1305,12 +1279,8 @@ onset	duration	sample	type	value
 938.10236466918	0	938107	Markers	Stop Vibro right
 938.299363905769	0	938304	Markers	Time between Warning and LED: 0.502
 938.299363905769	0	938304	Markers	Stim-40-R-walkWarning-169-yellow-1-kongruent
-938.609362704463	0	938614	Markers	WiimoteButtonB pressed
 938.609362704463	0	938614	Markers	BUT-RIGHT-ButtonB-Press
-938.799361968179	0	938804	Markers	WiimoteButtonB released
-938.994361212518	0	938999	Markers	WiimoteButtonB pressed
 938.995361208643	0	939000	Markers	BUT-RIGHT-ButtonB-Press
-939.168360538237	0	939173	Markers	WiimoteButtonB released
 939.850357895363	0	939855	Markers	Reaction: 0.311-right-yellow-correct
 939.852357887613	0	939857	Markers	End-Trial-3.631
 939.886357755857	0	939891	Markers	Trial Start: No.89-angle:40-right-right-kongruent-yellow-FA:no
@@ -1320,12 +1290,8 @@ onset	duration	sample	type	value
 941.697350737903	0	941702	Markers	Stop Vibro right
 941.897349962867	0	941902	Markers	Time between Warning and LED: 0.501
 941.897349962867	0	941902	Markers	Stim-40-R-walkWarning-286-yellow-1-kongruent
-942.208348757686	0	942213	Markers	WiimoteButtonB pressed
 942.209348753811	0	942214	Markers	BUT-RIGHT-ButtonB-Press
-942.380348091155	0	942385	Markers	WiimoteButtonB released
-942.575347335494	0	942580	Markers	WiimoteButtonB pressed
 942.576347331619	0	942581	Markers	BUT-RIGHT-ButtonB-Press
-942.770346579834	0	942775	Markers	WiimoteButtonB released
 943.448343952461	0	943453	Markers	Reaction: 0.312-right-yellow-correct
 943.449343948586	0	943454	Markers	End-Trial-3.564
 943.484343812954	0	943489	Markers	Trial Start: No.90-angle:40-left-left-kongruent-yellow-FA:no
@@ -1362,12 +1328,8 @@ onset	duration	sample	type	value
 955.994295334437	0	955999	Markers	Stop Vibro right
 956.190294574901	0	956195	Markers	Time between Warning and LED: 0.501
 956.190294574901	0	956195	Markers	Stim-60-R-walkWarning-024-yellow--1-kongruent
-956.676292691563	0	956681	Markers	WiimoteButtonB pressed
 956.677292687688	0	956682	Markers	BUT-RIGHT-ButtonB-Press
-956.865291959154	0	956870	Markers	WiimoteButtonB released
-957.054291226744	0	957059	Markers	WiimoteButtonB pressed
 957.054291226744	0	957059	Markers	BUT-RIGHT-ButtonB-Press
-957.249290471084	0	957254	Markers	WiimoteButtonB released
 957.741288564495	0	957746	Markers	Reaction: 0.488-right-yellow-correct
 957.743288556744	0	957748	Markers	End-Trial-3.613
 957.777288424988	0	957782	Markers	Trial Start: No.93-angle:60-right-right-kongruent-yellow-FA:no
@@ -1377,12 +1339,8 @@ onset	duration	sample	type	value
 963.744265301782	0	963749	Markers	Stop Vibro right
 963.936264557747	0	963941	Markers	Time between Warning and LED: 0.501
 963.936264557747	0	963941	Markers	Stim-60-R-walkWarning-045-yellow-1-kongruent
-964.203263523073	0	964208	Markers	WiimoteButtonB pressed
 964.203263523073	0	964208	Markers	BUT-RIGHT-ButtonB-Press
-964.375262856542	0	964380	Markers	WiimoteButtonB released
-964.601261980751	0	964606	Markers	WiimoteButtonB pressed
 964.603261973001	0	964608	Markers	BUT-RIGHT-ButtonB-Press
-964.783261275468	0	964788	Markers	WiimoteButtonB released
 965.487258547341	0	965492	Markers	Reaction: 0.267-right-yellow-correct
 965.488258543465	0	965493	Markers	End-Trial-7.711
 965.523258407834	0	965528	Markers	Trial Start: No.94-angle:40-right-right-kongruent-yellow-FA:no
@@ -1392,12 +1350,8 @@ onset	duration	sample	type	value
 967.370251250374	0	967375	Markers	Stop Vibro right
 967.566250490839	0	967571	Markers	Time between Warning and LED: 0.501
 967.566250490839	0	967571	Markers	Stim-40-R-walkWarning-179-yellow-1-kongruent
-967.870249312783	0	967875	Markers	WiimoteButtonB pressed
 967.871249308908	0	967876	Markers	BUT-RIGHT-ButtonB-Press
-968.072248529997	0	968077	Markers	WiimoteButtonB released
-968.297247658081	0	968302	Markers	WiimoteButtonB pressed
 968.297247658081	0	968302	Markers	BUT-RIGHT-ButtonB-Press
-968.502246863669	0	968507	Markers	WiimoteButtonB released
 969.117244480432	0	969122	Markers	Reaction: 0.307-right-yellow-correct
 969.118244476557	0	969123	Markers	End-Trial-3.596
 969.152244344801	0	969157	Markers	Trial Start: No.95-angle:25-left-left-kongruent-blue-FA:no
@@ -1443,12 +1397,8 @@ onset	duration	sample	type	value
 991.573157459361	0	991578	Markers	Stop Vibro right
 991.773156684325	0	991778	Markers	Time between Warning and LED: 0.502
 991.773156684325	0	991778	Markers	Stim-60-R-walkWarning-041-yellow-1-kongruent
-992.009155769782	0	992014	Markers	WiimoteButtonB pressed
 992.009155769782	0	992014	Markers	BUT-RIGHT-ButtonB-Press
-992.204155014122	0	992209	Markers	WiimoteButtonB released
-992.422154169332	0	992427	Markers	WiimoteButtonB pressed
 992.423154165457	0	992428	Markers	BUT-RIGHT-ButtonB-Press
-992.62915336717	0	992634	Markers	WiimoteButtonB released
 993.324150673919	0	993329	Markers	Reaction: 0.237-right-yellow-correct
 993.325150670044	0	993330	Markers	End-Trial-7.247
 993.360150534412	0	993365	Markers	Trial Start: No.99-angle:60-right-right-kongruent-blue-FA:no
@@ -1458,9 +1408,7 @@ onset	duration	sample	type	value
 995.258143179318	0	995263	Markers	Stop Vibro right
 995.454142419783	0	995459	Markers	Time between Warning and LED: 0.502
 995.454142419783	0	995459	Markers	Stim-60-R-walkWarning-163-blue-1-kongruent
-995.787141129347	0	995792	Markers	WiimoteButtonB pressed
 995.787141129347	0	995792	Markers	BUT-RIGHT-ButtonB-Press
-995.972140412439	0	995977	Markers	WiimoteButtonB released
 997.005136409377	0	997010	Markers	Reaction: 0.334-right-blue-correct
 997.006136405501	0	997011	Markers	End-Trial-3.646
 997.040136273745	0	997045	Markers	Trial Start: No.100-angle:60-left-left-kongruent-blue-FA:no
@@ -1497,12 +1445,8 @@ onset	duration	sample	type	value
 1009.63408746971	0	1009639	Markers	Stop Vibro right
 1009.83208670243	0	1009837	Markers	Time between Warning and LED: 0.502
 1009.83208670243	0	1009837	Markers	Stim-40-R-walkWarning-135-yellow--1-kongruent
-1010.06708579176	0	1010072	Markers	WiimoteButtonB pressed
 1010.06708579176	0	1010072	Markers	BUT-RIGHT-ButtonB-Press
-1010.29008492759	0	1010295	Markers	WiimoteButtonB released
-1010.45408429206	0	1010459	Markers	WiimoteButtonB pressed
 1010.45508428819	0	1010460	Markers	BUT-RIGHT-ButtonB-Press
-1010.63808357903	0	1010643	Markers	WiimoteButtonB released
 1011.38408068814	0	1011389	Markers	Reaction: 0.236-right-yellow-correct
 1011.38508068427	0	1011390	Markers	End-Trial-3.613
 1011.41908055251	0	1011424	Markers	Trial Start: No.103-angle:60-left-left-kongruent-blue-FA:no
@@ -1612,12 +1556,8 @@ onset	duration	sample	type	value
 1046.27494547919	0	1046280	Markers	Stop Vibro right
 1046.46994472353	0	1046475	Markers	Time between Warning and LED: 0.501
 1046.46994472353	0	1046475	Markers	Stim-60-R-walkWarning-043-yellow-1-kongruent
-1046.7829435106	0	1046788	Markers	WiimoteButtonB pressed
 1046.78394350673	0	1046789	Markers	BUT-RIGHT-ButtonB-Press
-1046.98394273169	0	1046989	Markers	WiimoteButtonB released
-1047.16794201866	0	1047173	Markers	WiimoteButtonB pressed
 1047.16894201478	0	1047174	Markers	BUT-RIGHT-ButtonB-Press
-1047.346941325	0	1047352	Markers	WiimoteButtonB released
 1048.02093871313	0	1048026	Markers	Reaction: 0.315-right-yellow-correct
 1048.02193870925	0	1048027	Markers	End-Trial-6.242
 1048.0559385775	0	1048061	Markers	Trial Start: No.110-angle:60-right-right-kongruent-yellow-FA:no
@@ -1627,12 +1567,8 @@ onset	duration	sample	type	value
 1049.76793194319	0	1049773	Markers	Stop Vibro right
 1049.96793116815	0	1049973	Markers	Time between Warning and LED: 0.502
 1049.96793116815	0	1049973	Markers	Stim-60-R-walkWarning-156-yellow-1-kongruent
-1050.54292893992	0	1050548	Markers	WiimoteButtonB pressed
 1050.54292893992	0	1050548	Markers	BUT-RIGHT-ButtonB-Press
-1050.72892821914	0	1050734	Markers	WiimoteButtonB released
-1050.98592722322	0	1050991	Markers	WiimoteButtonB pressed
 1050.98592722322	0	1050991	Markers	BUT-RIGHT-ButtonB-Press
-1051.17792647918	0	1051183	Markers	WiimoteButtonB released
 1051.51892515774	0	1051524	Markers	Reaction: 0.576-right-yellow-correct
 1051.52092514999	0	1051526	Markers	End-Trial-3.465
 1051.55492501824	0	1051560	Markers	Trial Start: No.111-angle:40-right-right-kongruent-yellow-FA:no
@@ -1650,12 +1586,8 @@ onset	duration	sample	type	value
 1059.29689501658	0	1059302	Markers	Stop Vibro right
 1059.49389425317	0	1059499	Markers	Time between Warning and LED: 0.501
 1059.49389425317	0	1059499	Markers	Stim-40-R-walkWarning-250-yellow--1-kongruent
-1059.76289321075	0	1059768	Markers	WiimoteButtonB pressed
 1059.76389320687	0	1059769	Markers	BUT-RIGHT-ButtonB-Press
-1059.97189240084	0	1059977	Markers	WiimoteButtonB released
-1060.19789152505	0	1060203	Markers	WiimoteButtonB pressed
 1060.19889152117	0	1060204	Markers	BUT-RIGHT-ButtonB-Press
-1060.39989074226	0	1060405	Markers	WiimoteButtonB released
 1061.04488824277	0	1061050	Markers	Reaction: 0.271-right-yellow-correct
 1061.04688823502	0	1061052	Markers	End-Trial-5.556
 1061.07988810714	0	1061085	Markers	Trial Start: No.112-angle:60-left-left-kongruent-blue-FA:no
@@ -1692,9 +1624,7 @@ onset	duration	sample	type	value
 1073.56783971387	0	1073573	Markers	Stop Vibro right
 1073.76683894271	0	1073772	Markers	Time between Warning and LED: 0.502
 1073.76683894271	0	1073772	Markers	Stim-60-R-walkWarning-041-blue-1-kongruent
-1074.01083799717	0	1074016	Markers	WiimoteButtonB pressed
 1074.01083799717	0	1074016	Markers	BUT-RIGHT-ButtonB-Press
-1074.20183725701	0	1074207	Markers	WiimoteButtonB released
 1075.31883292843	0	1075324	Markers	Reaction: 0.245-right-blue-correct
 1075.32083292068	0	1075326	Markers	End-Trial-7.21
 1075.35483278892	0	1075360	Markers	Trial Start: No.115-angle:60-right-right-kongruent-blue-FA:no
@@ -1704,9 +1634,7 @@ onset	duration	sample	type	value
 1077.23082551908	0	1077236	Markers	Stop Vibro right
 1077.39982486418	0	1077405	Markers	Time between Warning and LED: 0.501
 1077.39982486418	0	1077405	Markers	Stim-60-R-walkWarning-160-blue-1-kongruent
-1077.67982377913	0	1077685	Markers	WiimoteButtonB pressed
 1077.67982377913	0	1077685	Markers	BUT-RIGHT-ButtonB-Press
-1077.87682301572	0	1077882	Markers	WiimoteButtonB released
 1078.94981885765	0	1078955	Markers	Reaction: 0.281-right-blue-correct
 1078.95081885377	0	1078956	Markers	End-Trial-3.597
 1078.98481872201	0	1078990	Markers	Trial Start: No.116-angle:40-left-left-kongruent-yellow-FA:no
@@ -1783,12 +1711,8 @@ onset	duration	sample	type	value
 1105.32871663424	0	1105334	Markers	Time between Warning and LED: 0.502
 1105.32871663424	0	1105334	Markers	Stim-60-R-walkWarning-144-yellow-1-kongruent
 1105.43471622347	0	1105440	Markers	Stop Vibro right
-1105.80471478965	0	1105810	Markers	WiimoteButtonB pressed
 1105.80571478578	0	1105811	Markers	BUT-RIGHT-ButtonB-Press
-1106.00971399524	0	1106015	Markers	WiimoteButtonB released
-1106.25571304195	0	1106261	Markers	WiimoteButtonB pressed
 1106.25571304195	0	1106261	Markers	BUT-RIGHT-ButtonB-Press
-1106.44771229791	0	1106453	Markers	WiimoteButtonB released
 1106.88071061996	0	1106886	Markers	Reaction: 0.477-right-yellow-correct
 1106.88171061608	0	1106887	Markers	End-Trial-3.534
 1106.91671048045	0	1106922	Markers	Trial Start: No.122-angle:60-right-right-kongruent-blue-FA:no
@@ -1798,9 +1722,7 @@ onset	duration	sample	type	value
 1108.79770319123	0	1108803	Markers	Stop Vibro right
 1108.99470242782	0	1109000	Markers	Time between Warning and LED: 0.502
 1108.99470242782	0	1109000	Markers	Stim-60-R-walkWarning-262-blue-1-kongruent
-1109.31570118389	0	1109321	Markers	WiimoteButtonB pressed
 1109.31670118002	0	1109322	Markers	BUT-RIGHT-ButtonB-Press
-1109.51070042823	0	1109516	Markers	WiimoteButtonB released
 1110.54569641742	0	1110551	Markers	Reaction: 0.322-right-blue-correct
 1110.54669641354	0	1110552	Markers	End-Trial-3.631
 1110.58169627791	0	1110587	Markers	Trial Start: No.123-angle:60-right-right-kongruent-blue-FA:no
@@ -1810,9 +1732,7 @@ onset	duration	sample	type	value
 1115.84167589446	0	1115847	Markers	Stop Vibro right
 1116.02667517755	0	1116032	Markers	Time between Warning and LED: 0.501
 1116.02667517755	0	1116032	Markers	Stim-60-R-walkWarning-269-blue--1-kongruent
-1116.32167403437	0	1116327	Markers	WiimoteButtonB pressed
 1116.3226740305	0	1116328	Markers	BUT-RIGHT-ButtonB-Press
-1116.52767323608	0	1116533	Markers	WiimoteButtonB released
 1117.57766916714	0	1117583	Markers	Reaction: 0.296-right-blue-correct
 1117.57866916327	0	1117584	Markers	End-Trial-6.997
 1117.61266903151	0	1117618	Markers	Trial Start: No.124-angle:40-left-left-kongruent-blue-FA:no
@@ -1834,9 +1754,7 @@ onset	duration	sample	type	value
 1122.97564824891	0	1122981	Markers	Stop Vibro right
 1123.17064749325	0	1123176	Markers	Time between Warning and LED: 0.501
 1123.17064749325	0	1123176	Markers	Stim-40-R-walkWarning-014-blue--1-kongruent
-1123.57664591993	0	1123582	Markers	WiimoteButtonB pressed
 1123.57764591606	0	1123583	Markers	BUT-RIGHT-ButtonB-Press
-1123.78464511389	0	1123790	Markers	WiimoteButtonB released
 1124.72264147897	0	1124728	Markers	Reaction: 0.408-right-blue-correct
 1124.7236414751	0	1124729	Markers	End-Trial-3.579
 1124.75764134334	0	1124763	Markers	Trial Start: No.126-angle:40-left-left-kongruent-blue-FA:no
@@ -1873,9 +1791,7 @@ onset	duration	sample	type	value
 1137.5205918844	0	1137526	Markers	Stop Vibro right
 1137.61959150076	0	1137625	Markers	Time between Warning and LED: 0.502
 1137.61959150076	0	1137625	Markers	Stim-40-R-walkWarning-288-blue-1-kongruent
-1137.89159044671	0	1137897	Markers	WiimoteButtonB pressed
 1137.89259044283	0	1137898	Markers	BUT-RIGHT-ButtonB-Press
-1138.10958960192	0	1138115	Markers	WiimoteButtonB released
 1139.17058549035	0	1139176	Markers	Reaction: 0.274-right-blue-correct
 1139.17158548648	0	1139177	Markers	End-Trial-3.448
 1139.20558535472	0	1139211	Markers	Trial Start: No.129-angle:35-right-right-kongruent-yellow-FA:no
@@ -1885,12 +1801,8 @@ onset	duration	sample	type	value
 1145.07656260353	0	1145082	Markers	Stop Vibro right
 1145.27456183625	0	1145280	Markers	Time between Warning and LED: 0.503
 1145.27456183625	0	1145280	Markers	Stim-35-R-walkWarning-238-yellow--1-kongruent
-1145.53656082095	0	1145542	Markers	WiimoteButtonB pressed
 1145.53756081707	0	1145543	Markers	BUT-RIGHT-ButtonB-Press
-1145.73456005366	0	1145740	Markers	WiimoteButtonB released
-1145.9495592205	0	1145955	Markers	WiimoteButtonB pressed
 1145.9495592205	0	1145955	Markers	BUT-RIGHT-ButtonB-Press
-1146.12455854234	0	1146130	Markers	WiimoteButtonB released
 1146.82455582972	0	1146830	Markers	Reaction: 0.264-right-yellow-correct
 1146.82655582197	0	1146832	Markers	End-Trial-7.621
 1146.86055569021	0	1146866	Markers	Trial Start: No.130-angle:60-left-right-inkongruent-blue-FA:no
@@ -1954,9 +1866,7 @@ onset	duration	sample	type	value
 1172.85445495875	0	1172860	Markers	Stop Vibro right
 1173.05245419146	0	1173058	Markers	Time between Warning and LED: 0.503
 1173.05245419146	0	1173058	Markers	Stim-40-R-walkWarning-257-blue--1-kongruent
-1173.3884528894	0	1173394	Markers	WiimoteButtonB pressed
 1173.38945288552	0	1173395	Markers	BUT-RIGHT-ButtonB-Press
-1173.60445205236	0	1173610	Markers	WiimoteButtonB released
 1174.60344818105	0	1174609	Markers	Reaction: 0.338-right-blue-correct
 1174.6054481733	0	1174611	Markers	End-Trial-3.665
 1174.63844804542	0	1174644	Markers	Trial Start: No.135-angle:40-left-left-kongruent-yellow-FA:no
@@ -1991,9 +1901,7 @@ onset	duration	sample	type	value
 1188.22239540496	0	1188228	Markers	Stop Vibro right
 1188.41939464155	0	1188425	Markers	Time between Warning and LED: 0.504
 1188.41939464155	0	1188425	Markers	Stim-60-R-walkWarning-044-blue-1-kongruent
-1188.75739333174	0	1188763	Markers	WiimoteButtonB pressed
 1188.75739333174	0	1188763	Markers	BUT-RIGHT-ButtonB-Press
-1188.98439245207	0	1188990	Markers	WiimoteButtonB released
 1189.97038863114	0	1189976	Markers	Reaction: 0.338-right-blue-correct
 1189.97238862339	0	1189978	Markers	End-Trial-8.07
 1190.00638849164	0	1190012	Markers	Trial Start: No.138-angle:60-left-left-kongruent-blue-FA:no
@@ -2050,9 +1958,7 @@ onset	duration	sample	type	value
 1209.58931260396	0	1209595	Markers	Stop Vibro right
 1209.79031182505	0	1209796	Markers	Time between Warning and LED: 0.502
 1209.79031182505	0	1209796	Markers	Stim-40-R-walkWarning-017-blue--1-kongruent
-1210.19631025173	0	1210202	Markers	WiimoteButtonB pressed
 1210.19731024785	0	1210203	Markers	BUT-RIGHT-ButtonB-Press
-1210.42030938369	0	1210426	Markers	WiimoteButtonB released
 1211.34130581464	0	1211347	Markers	Reaction: 0.408-right-blue-correct
 1211.34230581077	0	1211348	Markers	End-Trial-3.581
 1211.37630567901	0	1211382	Markers	Trial Start: No.142-angle:60-right-right-kongruent-blue-FA:no
@@ -2062,9 +1968,7 @@ onset	duration	sample	type	value
 1216.79028469878	0	1216796	Markers	Stop Vibro right
 1216.98928392762	0	1216995	Markers	Time between Warning and LED: 0.504
 1216.98928392762	0	1216995	Markers	Stim-60-R-walkWarning-035-blue-1-kongruent
-1217.31428266819	0	1217320	Markers	WiimoteButtonB pressed
 1217.31528266431	0	1217321	Markers	BUT-RIGHT-ButtonB-Press
-1217.5282818389	0	1217534	Markers	WiimoteButtonB released
 1218.54027791721	0	1218546	Markers	Reaction: 0.327-right-blue-correct
 1218.54227790946	0	1218548	Markers	End-Trial-7.165
 1218.57527778158	0	1218581	Markers	Trial Start: No.143-angle:60-right-right-kongruent-blue-FA:no
@@ -2074,9 +1978,7 @@ onset	duration	sample	type	value
 1220.39127074425	0	1220397	Markers	Stop Vibro right
 1220.58826998084	0	1220594	Markers	Time between Warning and LED: 0.502
 1220.58826998084	0	1220594	Markers	Stim-60-R-walkWarning-148-blue-1-kongruent
-1220.90226876404	0	1220908	Markers	WiimoteButtonB pressed
 1220.90326876016	0	1220909	Markers	BUT-RIGHT-ButtonB-Press
-1221.08726804713	0	1221093	Markers	WiimoteButtonB released
 1222.13926397044	0	1222145	Markers	Reaction: 0.315-right-blue-correct
 1222.14126396269	0	1222147	Markers	End-Trial-3.565
 1222.17426383481	0	1222180	Markers	Trial Start: No.144-angle:40-left-left-kongruent-yellow-FA:no
@@ -2101,12 +2003,8 @@ onset	duration	sample	type	value
 1231.65322710196	0	1231659	Markers	Stop Vibro right
 1231.85322632693	0	1231859	Markers	Time between Warning and LED: 0.503
 1231.85322632693	0	1231859	Markers	Stim-40-R-walkWarning-246-yellow--1-kongruent
-1232.1222252845	0	1232128	Markers	WiimoteButtonB pressed
 1232.12322528063	0	1232129	Markers	BUT-RIGHT-ButtonB-Press
-1232.31722452884	0	1232323	Markers	WiimoteButtonB released
-1232.55022362592	0	1232556	Markers	WiimoteButtonB pressed
 1232.55122362205	0	1232557	Markers	BUT-RIGHT-ButtonB-Press
-1232.71522298652	0	1232721	Markers	WiimoteButtonB released
 1233.40422031652	0	1233410	Markers	Reaction: 0.27-right-yellow-correct
 1233.40622030877	0	1233412	Markers	End-Trial-7.732
 1233.43922018089	0	1233445	Markers	Trial Start: No.146-angle:60-left-left-kongruent-blue-FA:no
@@ -2128,9 +2026,7 @@ onset	duration	sample	type	value
 1238.85619918903	0	1238862	Markers	Stop Vibro right
 1239.05319842562	0	1239059	Markers	Time between Warning and LED: 0.502
 1239.05319842562	0	1239059	Markers	Stim-40-R-walkWarning-010-blue--1-kongruent
-1239.35419725919	0	1239360	Markers	WiimoteButtonB pressed
 1239.35519725532	0	1239361	Markers	BUT-RIGHT-ButtonB-Press
-1239.55919646478	0	1239565	Markers	WiimoteButtonB released
 1240.60419241521	0	1240610	Markers	Reaction: 0.303-right-blue-correct
 1240.60519241134	0	1240611	Markers	End-Trial-3.517
 1240.63919227958	0	1240645	Markers	Trial Start: No.148-angle:60-left-left-kongruent-none-FA:yes
@@ -2150,9 +2046,7 @@ onset	duration	sample	type	value
 1249.98115607764	0	1249987	Markers	Stop Vibro right
 1250.16915534911	0	1250175	Markers	Time between Warning and LED: 0.502
 1250.16915534911	0	1250175	Markers	Stim-60-R-walkWarning-152-blue-1-kongruent
-1250.4871541168	0	1250493	Markers	WiimoteButtonB pressed
 1250.4871541168	0	1250493	Markers	BUT-RIGHT-ButtonB-Press
-1250.71315324101	0	1250719	Markers	WiimoteButtonB released
 1251.7201493387	0	1251726	Markers	Reaction: 0.319-right-blue-correct
 1251.72214933095	0	1251728	Markers	End-Trial-3.514
 1251.75614919919	0	1251762	Markers	Trial Start: No.150-angle:40-right-right-kongruent-yellow-FA:no
@@ -2162,12 +2056,8 @@ onset	duration	sample	type	value
 1253.60114204948	0	1253607	Markers	Stop Vibro right
 1253.80214127057	0	1253808	Markers	Time between Warning and LED: 0.503
 1253.80214127057	0	1253808	Markers	Stim-40-R-walkWarning-280-yellow-1-kongruent
-1254.14613993751	0	1254152	Markers	WiimoteButtonB pressed
 1254.14613993751	0	1254152	Markers	BUT-RIGHT-ButtonB-Press
-1254.31813927098	0	1254324	Markers	WiimoteButtonB released
-1254.48313863157	0	1254489	Markers	WiimoteButtonB pressed
 1254.4841386277	0	1254490	Markers	BUT-RIGHT-ButtonB-Press
-1254.67813787591	0	1254684	Markers	WiimoteButtonB released
 1255.35313526017	0	1255359	Markers	Reaction: 0.345-right-yellow-correct
 1255.35413525629	0	1255360	Markers	End-Trial-3.599
 1255.38813512453	0	1255394	Markers	Trial Start: No.151-angle:60-left-left-kongruent-yellow-FA:no
@@ -2252,12 +2142,8 @@ onset	duration	sample	type	value
 1281.33103459071	0	1281337	Markers	Stop Vibro right
 1281.51503387767	0	1281521	Markers	Time between Warning and LED: 0.501
 1281.51503387767	0	1281521	Markers	Stim-60-R-walkWarning-266-yellow-1-kongruent
-1281.92403229272	0	1281930	Markers	WiimoteButtonB pressed
 1281.92503228885	0	1281931	Markers	BUT-RIGHT-ButtonB-Press
-1282.12703150606	0	1282133	Markers	WiimoteButtonB released
-1282.33203071165	0	1282338	Markers	WiimoteButtonB pressed
 1282.33203071165	0	1282338	Markers	BUT-RIGHT-ButtonB-Press
-1282.52702995599	0	1282533	Markers	WiimoteButtonB released
 1283.06702786339	0	1283073	Markers	Reaction: 0.411-right-yellow-correct
 1283.06802785952	0	1283074	Markers	End-Trial-3.465
 1283.10202772776	0	1283108	Markers	Trial Start: No.157-angle:40-right-right-kongruent-yellow-FA:no
@@ -2267,12 +2153,8 @@ onset	duration	sample	type	value
 1288.56700654989	0	1288573	Markers	Stop Vibro right
 1288.76400578648	0	1288770	Markers	Time between Warning and LED: 0.502
 1288.76400578648	0	1288770	Markers	Stim-40-R-walkWarning-251-yellow--1-kongruent
-1289.03800472468	0	1289044	Markers	WiimoteButtonB pressed
 1289.03900472081	0	1289045	Markers	BUT-RIGHT-ButtonB-Press
-1289.23900394577	0	1289245	Markers	WiimoteButtonB released
-1289.46400307386	0	1289470	Markers	WiimoteButtonB pressed
 1289.46500306998	0	1289471	Markers	BUT-RIGHT-ButtonB-Press
-1289.67300226394	0	1289679	Markers	WiimoteButtonB released
 1290.31399977995	0	1290320	Markers	Reaction: 0.276-right-yellow-correct
 1290.3159997722	0	1290322	Markers	End-Trial-7.214
 1290.34999964045	0	1290356	Markers	Trial Start: No.158-angle:40-left-left-kongruent-yellow-FA:no
@@ -2297,9 +2179,7 @@ onset	duration	sample	type	value
 1295.86297827657	0	1295869	Markers	Stop Vibro left
 1296.05897751704	0	1296065	Markers	Time between Warning and LED: 0.502
 1296.05897751704	0	1296065	Markers	Stim-60-R-walkWarning-021-blue--1-inkongruent
-1296.80997460677	0	1296816	Markers	WiimoteButtonB pressed
 1296.80997460677	0	1296816	Markers	BUT-RIGHT-ButtonB-Press
-1297.03597373098	0	1297042	Markers	WiimoteButtonB released
 1297.60997150663	0	1297616	Markers	Reaction: 0.752-right-blue-correct
 1297.61197149888	0	1297618	Markers	End-Trial-3.599
 1297.64597136712	0	1297652	Markers	Trial Start: No.160-angle:40-right-right-kongruent-blue-FA:no
@@ -2309,9 +2189,7 @@ onset	duration	sample	type	value
 1303.70994786802	0	1303716	Markers	Stop Vibro right
 1303.90994709299	0	1303916	Markers	Time between Warning and LED: 0.504
 1303.90994709299	0	1303916	Markers	Stim-40-R-walkWarning-059-blue-1-kongruent
-1304.1359462172	0	1304142	Markers	WiimoteButtonB pressed
 1304.13694621332	0	1304143	Markers	BUT-RIGHT-ButtonB-Press
-1304.33794543441	0	1304344	Markers	WiimoteButtonB released
 1305.46094108258	0	1305467	Markers	Reaction: 0.228-right-blue-correct
 1305.46194107871	0	1305468	Markers	End-Trial-7.816
 1305.49594094695	0	1305502	Markers	Trial Start: No.161-angle:60-right-right-kongruent-yellow-FA:no
@@ -2321,12 +2199,8 @@ onset	duration	sample	type	value
 1307.30493393675	0	1307311	Markers	Stop Vibro right
 1307.48593323534	0	1307492	Markers	Time between Warning and LED: 0.485
 1307.48593323534	0	1307492	Markers	Stim-60-R-walkWarning-162-yellow-1-kongruent
-1307.89993163101	0	1307906	Markers	WiimoteButtonB pressed
 1307.89993163101	0	1307906	Markers	BUT-RIGHT-ButtonB-Press
-1308.10593083273	0	1308112	Markers	WiimoteButtonB released
-1308.36192984068	0	1308368	Markers	WiimoteButtonB pressed
 1308.36192984068	0	1308368	Markers	BUT-RIGHT-ButtonB-Press
-1308.55692908502	0	1308563	Markers	WiimoteButtonB released
 1309.03692722493	0	1309043	Markers	Reaction: 0.415-right-yellow-correct
 1309.03792722106	0	1309044	Markers	End-Trial-3.542
 1309.07392708155	0	1309080	Markers	Trial Start: No.162-angle:40-left-left-kongruent-yellow-FA:no
@@ -2351,12 +2225,8 @@ onset	duration	sample	type	value
 1317.98589254594	0	1317992	Markers	Stop Vibro right
 1318.18289178252	0	1318189	Markers	Time between Warning and LED: 0.501
 1318.18289178252	0	1318189	Markers	Stim-60-R-walkWarning-254-yellow--1-kongruent
-1318.49689056572	0	1318503	Markers	WiimoteButtonB pressed
 1318.49789056184	0	1318504	Markers	BUT-RIGHT-ButtonB-Press
-1318.69188981006	0	1318698	Markers	WiimoteButtonB released
-1318.91788893427	0	1318924	Markers	WiimoteButtonB pressed
 1318.91788893427	0	1318924	Markers	BUT-RIGHT-ButtonB-Press
-1319.10288821736	0	1319109	Markers	WiimoteButtonB released
 1319.73288577599	0	1319739	Markers	Reaction: 0.316-right-yellow-correct
 1319.73388577212	0	1319740	Markers	End-Trial-7.144
 1319.76788564036	0	1319774	Markers	Trial Start: No.164-angle:60-left-left-kongruent-yellow-FA:no
@@ -2381,12 +2251,8 @@ onset	duration	sample	type	value
 1324.99886536929	0	1325005	Markers	Stop Vibro right
 1325.19586460588	0	1325202	Markers	Time between Warning and LED: 0.503
 1325.19586460588	0	1325202	Markers	Stim-40-R-walkWarning-004-yellow--1-kongruent
-1325.50086342395	0	1325507	Markers	WiimoteButtonB pressed
 1325.50086342395	0	1325507	Markers	BUT-RIGHT-ButtonB-Press
-1325.68486271091	0	1325691	Markers	WiimoteButtonB released
-1325.91986180025	0	1325926	Markers	WiimoteButtonB pressed
 1325.91986180025	0	1325926	Markers	BUT-RIGHT-ButtonB-Press
-1326.08586115697	0	1326092	Markers	WiimoteButtonB released
 1326.74685859547	0	1326753	Markers	Reaction: 0.305-right-yellow-correct
 1326.74885858772	0	1326755	Markers	End-Trial-3.398
 1326.78285845597	0	1326789	Markers	Trial Start: No.166-angle:40-right-right-kongruent-yellow-FA:no
@@ -2396,12 +2262,8 @@ onset	duration	sample	type	value
 1331.67483949858	0	1331681	Markers	Stop Vibro right
 1331.87583871967	0	1331882	Markers	Time between Warning and LED: 0.503
 1331.87583871967	0	1331882	Markers	Stim-40-R-walkWarning-049-yellow-1-kongruent
-1332.17183757261	0	1332178	Markers	WiimoteButtonB pressed
 1332.17283756874	0	1332179	Markers	BUT-RIGHT-ButtonB-Press
-1332.31483701846	0	1332321	Markers	WiimoteButtonB released
-1332.55583608454	0	1332562	Markers	WiimoteButtonB pressed
 1332.55683608067	0	1332563	Markers	BUT-RIGHT-ButtonB-Press
-1332.75083532888	0	1332757	Markers	WiimoteButtonB released
 1333.42683270926	0	1333433	Markers	Reaction: 0.298-right-yellow-correct
 1333.42883270151	0	1333435	Markers	End-Trial-6.646
 1333.46283256975	0	1333469	Markers	Trial Start: No.167-angle:60-right-right-kongruent-blue-FA:no
@@ -2411,9 +2273,7 @@ onset	duration	sample	type	value
 1335.16382597807	0	1335170	Markers	Stop Vibro right
 1335.35982521854	0	1335366	Markers	Time between Warning and LED: 0.501
 1335.35982521854	0	1335366	Markers	Stim-60-R-walkWarning-148-blue-1-kongruent
-1335.74582372272	0	1335752	Markers	WiimoteButtonB pressed
 1335.74682371884	0	1335753	Markers	BUT-RIGHT-ButtonB-Press
-1335.94082296706	0	1335947	Markers	WiimoteButtonB released
 1336.91081920813	0	1336917	Markers	Reaction: 0.388-right-blue-correct
 1336.91181920425	0	1336918	Markers	End-Trial-3.45
 1336.9458190725	0	1336952	Markers	Trial Start: No.168-angle:60-left-right-inkongruent-blue-FA:no
@@ -2450,9 +2310,7 @@ onset	duration	sample	type	value
 1349.86176902066	0	1349868	Markers	Stop Vibro right
 1350.05876825725	0	1350065	Markers	Time between Warning and LED: 0.502
 1350.05876825725	0	1350065	Markers	Stim-40-R-walkWarning-128-blue--1-kongruent
-1350.41076689318	0	1350417	Markers	WiimoteButtonB pressed
 1350.41176688931	0	1350418	Markers	BUT-RIGHT-ButtonB-Press
-1350.61776609102	0	1350624	Markers	WiimoteButtonB released
 1351.60876225072	0	1351615	Markers	Reaction: 0.355-right-blue-correct
 1351.61076224296	0	1351617	Markers	End-Trial-3.399
 1351.64376211508	0	1351650	Markers	Trial Start: No.171-angle:40-right-right-kongruent-yellow-FA:no
@@ -2462,12 +2320,8 @@ onset	duration	sample	type	value
 1353.40975527151	0	1353416	Markers	Stop Vibro right
 1353.60775450423	0	1353614	Markers	Time between Warning and LED: 0.504
 1353.60775450423	0	1353614	Markers	Stim-40-R-walkWarning-011-yellow--1-kongruent
-1353.91075333005	0	1353917	Markers	WiimoteButtonB pressed
 1353.91175332617	0	1353918	Markers	BUT-RIGHT-ButtonB-Press
-1354.09975259764	0	1354106	Markers	WiimoteButtonB released
-1354.36475157072	0	1354371	Markers	WiimoteButtonB pressed
 1354.36575156684	0	1354372	Markers	BUT-RIGHT-ButtonB-Press
-1354.54575086931	0	1354552	Markers	WiimoteButtonB released
 1355.15874849382	0	1355165	Markers	Reaction: 0.304-right-yellow-correct
 1355.16074848607	0	1355167	Markers	End-Trial-3.516
 1355.19474835431	0	1355201	Markers	Trial Start: No.172-angle:60-right-right-kongruent-yellow-FA:no
@@ -2477,12 +2331,8 @@ onset	duration	sample	type	value
 1360.47672788561	0	1360483	Markers	Stop Vibro right
 1360.6737271222	0	1360680	Markers	Time between Warning and LED: 0.503
 1360.6737271222	0	1360680	Markers	Stim-60-R-walkWarning-034-yellow-1-kongruent
-1360.89372626966	0	1360900	Markers	WiimoteButtonB pressed
 1360.89372626966	0	1360900	Markers	BUT-RIGHT-ButtonB-Press
-1361.064725607	0	1361071	Markers	WiimoteButtonB released
-1361.26072484747	0	1361267	Markers	WiimoteButtonB pressed
 1361.26172484359	0	1361268	Markers	BUT-RIGHT-ButtonB-Press
-1361.45172410731	0	1361458	Markers	WiimoteButtonB released
 1362.22572110792	0	1362232	Markers	Reaction: 0.221-right-yellow-correct
 1362.22672110404	0	1362233	Markers	End-Trial-7.033
 1362.26072097228	0	1362267	Markers	Trial Start: No.173-angle:60-left-left-kongruent-yellow-FA:no
@@ -2507,12 +2357,8 @@ onset	duration	sample	type	value
 1367.62170019744	0	1367628	Markers	Stop Vibro right
 1367.82269941853	0	1367829	Markers	Time between Warning and LED: 0.504
 1367.82269941853	0	1367829	Markers	Stim-40-R-walkWarning-281-yellow-1-kongruent
-1368.17069806996	0	1368177	Markers	WiimoteButtonB pressed
 1368.17169806609	0	1368178	Markers	BUT-RIGHT-ButtonB-Press
-1368.38369724455	0	1368390	Markers	WiimoteButtonB released
-1368.58869645014	0	1368595	Markers	WiimoteButtonB pressed
 1368.58869645014	0	1368595	Markers	BUT-RIGHT-ButtonB-Press
-1368.7846956906	0	1368791	Markers	WiimoteButtonB released
 1369.37369340812	0	1369380	Markers	Reaction: 0.349-right-yellow-correct
 1369.37469340424	0	1369381	Markers	End-Trial-3.434
 1369.40869327249	0	1369415	Markers	Trial Start: No.175-angle:40-left-left-kongruent-yellow-FA:no
@@ -2537,9 +2383,7 @@ onset	duration	sample	type	value
 1379.07665580724	0	1379083	Markers	Stop Vibro right
 1379.27365504382	0	1379280	Markers	Time between Warning and LED: 0.502
 1379.27365504382	0	1379280	Markers	Stim-60-R-walkWarning-138-blue--1-kongruent
-1379.53665402465	0	1379543	Markers	WiimoteButtonB pressed
 1379.53765402078	0	1379544	Markers	BUT-RIGHT-ButtonB-Press
-1379.72265330387	0	1379729	Markers	WiimoteButtonB released
 1380.82464903342	0	1380831	Markers	Reaction: 0.265-right-blue-correct
 1380.82564902954	0	1380832	Markers	End-Trial-3.597
 1380.85964889779	0	1380866	Markers	Trial Start: No.177-angle:60-right-right-kongruent-blue-FA:no
@@ -2549,9 +2393,7 @@ onset	duration	sample	type	value
 1382.52664243786	0	1382533	Markers	Stop Vibro right
 1382.72364167445	0	1382730	Markers	Time between Warning and LED: 0.503
 1382.72364167445	0	1382730	Markers	Stim-60-R-walkWarning-019-blue--1-kongruent
-1383.04164044214	0	1383048	Markers	WiimoteButtonB pressed
 1383.04264043827	0	1383049	Markers	BUT-RIGHT-ButtonB-Press
-1383.23863967873	0	1383245	Markers	WiimoteButtonB released
 1384.27463566404	0	1384281	Markers	Reaction: 0.32-right-blue-correct
 1384.27563566017	0	1384282	Markers	End-Trial-3.416
 1384.30963552841	0	1384316	Markers	Trial Start: No.178-angle:60-right-right-kongruent-yellow-FA:no
@@ -2561,12 +2403,8 @@ onset	duration	sample	type	value
 1390.09661310274	0	1390103	Markers	Stop Vibro right
 1390.29361233933	0	1390300	Markers	Time between Warning and LED: 0.502
 1390.29361233933	0	1390300	Markers	Stim-60-R-walkWarning-048-yellow-1-kongruent
-1390.5746112504	0	1390581	Markers	WiimoteButtonB pressed
 1390.57561124653	0	1390582	Markers	BUT-RIGHT-ButtonB-Press
-1390.77661046761	0	1390783	Markers	WiimoteButtonB released
-1390.97960968095	0	1390986	Markers	WiimoteButtonB pressed
 1390.97960968095	0	1390986	Markers	BUT-RIGHT-ButtonB-Press
-1391.16560896017	0	1391172	Markers	WiimoteButtonB released
 1391.84460632892	0	1391851	Markers	Reaction: 0.283-right-yellow-correct
 1391.84560632505	0	1391852	Markers	End-Trial-7.536
 1391.87960619329	0	1391886	Markers	Trial Start: No.179-angle:60-right-right-kongruent-none-FA:yes
@@ -2610,9 +2448,7 @@ onset	duration	sample	type	value
 1407.57754536069	0	1407584	Markers	Stop Vibro right
 1407.77554459341	0	1407782	Markers	Time between Warning and LED: 0.501
 1407.77654458953	0	1407783	Markers	Stim-40-R-walkWarning-140-blue--1-kongruent
-1408.04554354711	0	1408052	Markers	WiimoteButtonB pressed
 1408.04654354323	0	1408053	Markers	BUT-RIGHT-ButtonB-Press
-1408.22854283795	0	1408235	Markers	WiimoteButtonB released
 1409.32753857913	0	1409334	Markers	Reaction: 0.272-right-blue-correct
 1409.32853857525	0	1409335	Markers	End-Trial-3.532
 1409.36253844349	0	1409369	Markers	Trial Start: No.182-angle:40-right-right-kongruent-yellow-FA:no
@@ -2622,12 +2458,8 @@ onset	duration	sample	type	value
 1411.02753199132	0	1411034	Markers	Stop Vibro right
 1411.22353123178	0	1411230	Markers	Time between Warning and LED: 0.502
 1411.22353123178	0	1411230	Markers	Stim-40-R-walkWarning-019-yellow--1-kongruent
-1411.59752978246	0	1411604	Markers	WiimoteButtonB pressed
 1411.59752978246	0	1411604	Markers	BUT-RIGHT-ButtonB-Press
-1411.7925290268	0	1411799	Markers	WiimoteButtonB released
-1412.03852807351	0	1412045	Markers	WiimoteButtonB pressed
 1412.03952806963	0	1412046	Markers	BUT-RIGHT-ButtonB-Press
-1412.23352731785	0	1412240	Markers	WiimoteButtonB released
 1412.77452522138	0	1412781	Markers	Reaction: 0.375-right-yellow-correct
 1412.7755252175	0	1412782	Markers	End-Trial-3.413
 1412.81052508187	0	1412817	Markers	Trial Start: No.183-angle:60-right-right-kongruent-yellow-FA:no
@@ -2637,12 +2469,8 @@ onset	duration	sample	type	value
 1418.82650176878	0	1418833	Markers	Stop Vibro right
 1419.02150101312	0	1419028	Markers	Time between Warning and LED: 0.501
 1419.02150101312	0	1419028	Markers	Stim-60-R-walkWarning-049-yellow-1-kongruent
-1419.2904999707	0	1419297	Markers	WiimoteButtonB pressed
 1419.29149996682	0	1419298	Markers	BUT-RIGHT-ButtonB-Press
-1419.48549921503	0	1419492	Markers	WiimoteButtonB released
-1419.69149841675	0	1419698	Markers	WiimoteButtonB pressed
 1419.69249841287	0	1419699	Markers	BUT-RIGHT-ButtonB-Press
-1419.87849769209	0	1419885	Markers	WiimoteButtonB released
 1420.57249500271	0	1420579	Markers	Reaction: 0.27-right-yellow-correct
 1420.57349499884	0	1420580	Markers	End-Trial-7.764
 1420.60749486708	0	1420614	Markers	Trial Start: No.184-angle:60-left-left-kongruent-blue-FA:no
@@ -2703,9 +2531,7 @@ onset	duration	sample	type	value
 1440.58741744096	0	1440594	Markers	Stop Vibro right
 1440.78341668142	0	1440790	Markers	Time between Warning and LED: 0.502
 1440.78341668142	0	1440790	Markers	Stim-60-R-walkWarning-016-blue--1-kongruent
-1441.19641508097	0	1441203	Markers	WiimoteButtonB pressed
 1441.19641508097	0	1441203	Markers	BUT-RIGHT-ButtonB-Press
-1441.46241405018	0	1441469	Markers	WiimoteButtonB released
 1442.33441067102	0	1442341	Markers	Reaction: 0.414-right-blue-correct
 1442.33641066327	0	1442343	Markers	End-Trial-3.632
 1442.33641066327	0	1442343	Markers	EX-STOP
@@ -2715,12 +2541,8 @@ onset	duration	sample	type	value
 1808.38799214153	0	1808396	Markers	START-walk , Sub-No.-62
 1808.40899206015	0	1808417	Markers	Trial Start: No.0-angle:60-right-right-kongruent-yellow-FA:no
 1809.937986135	0	1809946	Markers	Stim-60-R-walk-278-yellow-1-kongruent
-1810.69898318599	0	1810707	Markers	WiimoteButtonB pressed
 1810.69898318599	0	1810707	Markers	BUT-RIGHT-ButtonB-Press
-1810.93598226757	0	1810944	Markers	WiimoteButtonB released
-1811.21098120189	0	1811219	Markers	WiimoteButtonB pressed
 1811.21098120189	0	1811219	Markers	BUT-RIGHT-ButtonB-Press
-1811.37898055086	0	1811387	Markers	WiimoteButtonB released
 1811.49098011684	0	1811499	Markers	Reaction: 0.761-right-yellow-correct
 1811.49198011297	0	1811500	Markers	End-Trial-3.084
 1811.52597998121	0	1811534	Markers	Trial Start: No.1-angle:60-left-left-kongruent-yellow-FA:no
@@ -2740,19 +2562,13 @@ onset	duration	sample	type	value
 1817.07395848171	0	1817082	Markers	End-Trial-5.549
 1817.10795834995	0	1817116	Markers	Trial Start: No.2-angle:25-right-right-kongruent-blue-FA:no
 1818.5039529402	0	1818512	Markers	Stim-25-R-walk-146-blue--1-kongruent
-1818.86595153738	0	1818874	Markers	WiimoteButtonB pressed
 1818.86695153351	0	1818875	Markers	BUT-RIGHT-ButtonB-Press
-1819.09195066159	0	1819100	Markers	WiimoteButtonB released
 1820.05494692979	0	1820063	Markers	Reaction: 0.363-right-blue-correct
 1820.05594692591	0	1820064	Markers	End-Trial-2.948
 1820.08994679416	0	1820098	Markers	Trial Start: No.3-angle:40-right-right-kongruent-yellow-FA:no
 1821.51894125652	0	1821527	Markers	Stim-40-R-walk-064-yellow--1-kongruent
-1821.88893982271	0	1821897	Markers	WiimoteButtonB pressed
 1821.88893982271	0	1821897	Markers	BUT-RIGHT-ButtonB-Press
-1822.09493902442	0	1822103	Markers	WiimoteButtonB released
-1822.24693843539	0	1822255	Markers	WiimoteButtonB pressed
 1822.24793843152	0	1822256	Markers	BUT-RIGHT-ButtonB-Press
-1822.44093768361	0	1822449	Markers	WiimoteButtonB released
 1823.06993524612	0	1823078	Markers	Reaction: 0.371-right-yellow-correct
 1823.07093524224	0	1823079	Markers	End-Trial-2.981
 1823.10493511049	0	1823113	Markers	Trial Start: No.4-angle:40-left-left-kongruent-blue-FA:no
@@ -2799,12 +2615,8 @@ onset	duration	sample	type	value
 1841.99486190831	0	1842003	Markers	Stim-NOTshown
 1842.51585988934	0	1842524	Markers	Stim-NOTshown
 1843.0378578665	0	1843046	Markers	Stim-40-R-walk-261-yellow--1-kongruent
-1843.41585640168	0	1843424	Markers	WiimoteButtonB pressed
 1843.4168563978	0	1843425	Markers	BUT-RIGHT-ButtonB-Press
-1843.61985561114	0	1843628	Markers	WiimoteButtonB released
-1843.79485493299	0	1843803	Markers	WiimoteButtonB pressed
 1843.79485493299	0	1843803	Markers	BUT-RIGHT-ButtonB-Press
-1843.98985417733	0	1843998	Markers	WiimoteButtonB released
 1844.58785185997	0	1844596	Markers	Reaction: 0.38-right-yellow-correct
 1844.58985185222	0	1844598	Markers	End-Trial-8.114
 1844.62385172046	0	1844632	Markers	Trial Start: No.8-angle:40-left-left-kongruent-yellow-FA:no
@@ -2819,9 +2631,7 @@ onset	duration	sample	type	value
 1847.7358396609	0	1847744	Markers	End-Trial-3.113
 1847.77083952527	0	1847779	Markers	Trial Start: No.9-angle:60-right-right-kongruent-blue-FA:no
 1849.08483443328	0	1849093	Markers	Stim-60-R-walk-062-blue--1-kongruent
-1849.48583287933	0	1849494	Markers	WiimoteButtonB pressed
 1849.48683287545	0	1849495	Markers	BUT-RIGHT-ButtonB-Press
-1849.67883213142	0	1849687	Markers	WiimoteButtonB released
 1850.63482842675	0	1850643	Markers	Reaction: 0.403-right-blue-correct
 1850.636828419	0	1850645	Markers	End-Trial-2.866
 1850.67082828724	0	1850679	Markers	Trial Start: No.10-angle:60-left-left-kongruent-blue-FA:no
@@ -2872,8 +2682,6 @@ onset	duration	sample	type	value
 1871.29774835388	0	1871306	Markers	Reaction: 0.389-left-blue-correct
 1871.29874835	0	1871307	Markers	R-End-Trial-6.769
 1871.33274821824	0	1871341	Markers	Trial Start: No.14-angle:40-left-left-kongruent-blue-FA:no
-1872.15374503672	0	1872162	Markers	WiimoteButtonB pressed
-1872.20874482358	0	1872217	Markers	WiimoteButtonB released
 1872.74374275036	0	1872752	Markers	Stim-40-L-walk-142-blue--1-kongruent
 1873.18374104528	0	1873192	Markers	WiimoteButtonB pressed
 1873.18474104141	0	1873193	Markers	BUT-LEFT-ButtonB-Press
@@ -2905,12 +2713,8 @@ onset	duration	sample	type	value
 1883.44870126655	0	1883457	Markers	End-Trial-6.137
 1883.48370113092	0	1883492	Markers	Trial Start: No.17-angle:60-right-right-kongruent-yellow-FA:no
 1884.84669584904	0	1884855	Markers	Stim-60-R-walk-127-yellow-1-kongruent
-1885.21769441135	0	1885226	Markers	WiimoteButtonB pressed
 1885.21869440748	0	1885227	Markers	BUT-RIGHT-ButtonB-Press
-1885.39469372544	0	1885403	Markers	WiimoteButtonB released
-1885.54469314417	0	1885553	Markers	WiimoteButtonB pressed
 1885.54469314417	0	1885553	Markers	BUT-RIGHT-ButtonB-Press
-1885.73969238851	0	1885748	Markers	WiimoteButtonB released
 1886.39768983864	0	1886406	Markers	Reaction: 0.372-right-yellow-correct
 1886.39968983089	0	1886408	Markers	End-Trial-2.916
 1886.43268970301	0	1886441	Markers	Trial Start: No.18-angle:60-left-left-kongruent-yellow-FA:no
@@ -2984,9 +2788,7 @@ onset	duration	sample	type	value
 1913.77258375555	0	1913781	Markers	End-Trial-3.149
 1913.80558362767	0	1913814	Markers	Trial Start: No.24-angle:60-right-right-kongruent-blue-FA:no
 1915.13557847368	0	1915144	Markers	Stim-60-R-walk-234-blue-1-kongruent
-1915.48757710961	0	1915496	Markers	WiimoteButtonB pressed
 1915.48757710961	0	1915496	Markers	BUT-RIGHT-ButtonB-Press
-1915.66957640433	0	1915678	Markers	WiimoteButtonB released
 1916.68657246327	0	1916695	Markers	Reaction: 0.352-right-blue-correct
 1916.6875724594	0	1916696	Markers	End-Trial-2.882
 1916.72157232764	0	1916730	Markers	Trial Start: No.25-angle:60-right-right-kongruent-blue-FA:no
@@ -3000,23 +2802,17 @@ onset	duration	sample	type	value
 1921.80355263397	0	1921812	Markers	Stim-NOTshown
 1922.32355061887	0	1922332	Markers	Stim-NOTshown
 1922.84554859603	0	1922854	Markers	Stim-60-R-walk-271-blue--1-kongruent
-1923.24354705371	0	1923252	Markers	WiimoteButtonB pressed
 1923.24454704983	0	1923253	Markers	BUT-RIGHT-ButtonB-Press
-1923.45454623604	0	1923463	Markers	WiimoteButtonB released
 1924.39754258175	0	1924406	Markers	Reaction: 0.398-right-blue-correct
 1924.399542574	0	1924408	Markers	End-Trial-7.677
 1924.43254244612	0	1924441	Markers	Trial Start: No.26-angle:40-right-right-kongruent-blue-FA:no
 1925.94253659459	0	1925951	Markers	Stim-40-R-walk-150-blue--1-kongruent
-1926.32353511815	0	1926332	Markers	WiimoteButtonB pressed
 1926.32353511815	0	1926332	Markers	BUT-RIGHT-ButtonB-Press
-1926.50453441674	0	1926513	Markers	WiimoteButtonB released
 1927.49353058419	0	1927502	Markers	Reaction: 0.381-right-blue-correct
 1927.49453058031	0	1927503	Markers	End-Trial-3.062
 1927.52853044856	0	1927537	Markers	Trial Start: No.27-angle:60-right-right-kongruent-blue-FA:no
 1928.95852490705	0	1928967	Markers	Stim-60-R-walk-057-blue--1-kongruent
-1929.29852358948	0	1929307	Markers	WiimoteButtonB pressed
 1929.29952358561	0	1929308	Markers	BUT-RIGHT-ButtonB-Press
-1929.48652286095	0	1929495	Markers	WiimoteButtonB released
 1930.50951889664	0	1930518	Markers	Reaction: 0.342-right-blue-correct
 1930.51051889277	0	1930519	Markers	End-Trial-2.982
 1930.54451876101	0	1930553	Markers	Trial Start: No.28-angle:60-right-right-kongruent-yellow-FA:no
@@ -3030,32 +2826,20 @@ onset	duration	sample	type	value
 1935.5444993851	0	1935553	Markers	Stim-NOTshown
 1936.06449737001	0	1936073	Markers	Stim-NOTshown
 1936.58649534716	0	1936595	Markers	Stim-60-R-walk-026-yellow-1-kongruent
-1937.17849305306	0	1937187	Markers	WiimoteButtonB pressed
 1937.17949304918	0	1937188	Markers	BUT-RIGHT-ButtonB-Press
-1937.3734922974	0	1937382	Markers	WiimoteButtonB released
-1937.53949165412	0	1937548	Markers	WiimoteButtonB pressed
 1937.54049165024	0	1937549	Markers	BUT-RIGHT-ButtonB-Press
-1937.76649077445	0	1937775	Markers	WiimoteButtonB released
 1938.13748933676	0	1938146	Markers	Reaction: 0.594-right-yellow-correct
 1938.13848933288	0	1938147	Markers	End-Trial-7.594
 1938.17248920113	0	1938181	Markers	Trial Start: No.29-angle:60-right-right-kongruent-yellow-FA:no
 1939.73448314809	0	1939743	Markers	Stim-60-R-walk-135-yellow-1-kongruent
-1940.1094816949	0	1940118	Markers	WiimoteButtonB pressed
 1940.11048169102	0	1940119	Markers	BUT-RIGHT-ButtonB-Press
-1940.28948099737	0	1940298	Markers	WiimoteButtonB released
-1940.51948010608	0	1940528	Markers	WiimoteButtonB pressed
 1940.5204801022	0	1940529	Markers	BUT-RIGHT-ButtonB-Press
-1940.70647938142	0	1940715	Markers	WiimoteButtonB released
 1941.28647713381	0	1941295	Markers	Reaction: 0.375-right-yellow-correct
 1941.28747712994	0	1941296	Markers	End-Trial-3.115
 1941.32147699818	0	1941330	Markers	Trial Start: No.30-angle:40-right-right-kongruent-yellow-FA:no
 1942.83447113503	0	1942843	Markers	Stim-40-R-walk-253-yellow-1-kongruent
-1943.17046983297	0	1943179	Markers	WiimoteButtonB pressed
 1943.17146982909	0	1943180	Markers	BUT-RIGHT-ButtonB-Press
-1943.34346916256	0	1943352	Markers	WiimoteButtonB released
-1943.54146839528	0	1943550	Markers	WiimoteButtonB pressed
 1943.54146839528	0	1943550	Markers	BUT-RIGHT-ButtonB-Press
-1943.75246757761	0	1943761	Markers	WiimoteButtonB released
 1944.38546512462	0	1944394	Markers	Reaction: 0.337-right-yellow-correct
 1944.38646512075	0	1944395	Markers	End-Trial-3.065
 1944.42046498899	0	1944429	Markers	Trial Start: No.31-angle:60-right-right-kongruent-yellow-FA:no
@@ -3069,19 +2853,13 @@ onset	duration	sample	type	value
 1949.55444509381	0	1949563	Markers	Stim-NOTshown
 1950.07344308259	0	1950082	Markers	Stim-NOTshown
 1950.59544105975	0	1950604	Markers	Stim-60-R-walk-276-yellow--1-kongruent
-1950.95743965693	0	1950966	Markers	WiimoteButtonB pressed
 1950.95843965306	0	1950967	Markers	BUT-RIGHT-ButtonB-Press
-1951.12043902528	0	1951129	Markers	WiimoteButtonB released
-1951.32743822312	0	1951336	Markers	WiimoteButtonB pressed
 1951.32843821924	0	1951337	Markers	BUT-RIGHT-ButtonB-Press
-1951.53043743645	0	1951539	Markers	WiimoteButtonB released
 1952.14743504547	0	1952156	Markers	Reaction: 0.362-right-yellow-correct
 1952.14843504159	0	1952157	Markers	End-Trial-7.728
 1952.18243490984	0	1952191	Markers	Trial Start: No.32-angle:40-right-right-kongruent-blue-FA:no
 1953.51142975972	0	1953520	Markers	Stim-40-R-walk-157-blue--1-kongruent
-1953.8774283414	0	1953886	Markers	WiimoteButtonB pressed
 1953.87842833753	0	1953887	Markers	BUT-RIGHT-ButtonB-Press
-1954.06842760124	0	1954077	Markers	WiimoteButtonB released
 1955.06342374544	0	1955072	Markers	Reaction: 0.366-right-blue-correct
 1955.06442374156	0	1955073	Markers	End-Trial-2.882
 1955.09842360981	0	1955107	Markers	Trial Start: No.33-angle:60-left-left-kongruent-yellow-FA:no
@@ -3116,19 +2894,13 @@ onset	duration	sample	type	value
 1966.44337964588	0	1966452	Markers	End-Trial-8.314
 1966.47737951412	0	1966486	Markers	Trial Start: No.35-angle:60-right-right-kongruent-blue-FA:no
 1967.99037365097	0	1967999	Markers	Stim-60-R-walk-135-blue-1-kongruent
-1968.34837226366	0	1968357	Markers	WiimoteButtonB pressed
 1968.34937225978	0	1968358	Markers	BUT-RIGHT-ButtonB-Press
-1968.503371663	0	1968512	Markers	WiimoteButtonB released
 1969.54136764056	0	1969550	Markers	Reaction: 0.358-right-blue-correct
 1969.54236763669	0	1969551	Markers	End-Trial-3.065
 1969.57636750493	0	1969585	Markers	Trial Start: No.36-angle:60-right-right-kongruent-yellow-FA:no
 1971.08936164178	0	1971098	Markers	Stim-60-R-walk-240-yellow-1-kongruent
-1971.58035973907	0	1971589	Markers	WiimoteButtonB pressed
 1971.58035973907	0	1971589	Markers	BUT-RIGHT-ButtonB-Press
-1971.77535898341	0	1971784	Markers	WiimoteButtonB released
-1971.93835835175	0	1971947	Markers	WiimoteButtonB pressed
 1971.93935834788	0	1971948	Markers	BUT-RIGHT-ButtonB-Press
-1972.14235756122	0	1972151	Markers	WiimoteButtonB released
 1972.64035563138	0	1972649	Markers	Reaction: 0.491-right-yellow-correct
 1972.6413556275	0	1972650	Markers	End-Trial-3.065
 1972.67535549575	0	1972684	Markers	Trial Start: No.37-angle:40-right-right-kongruent-blue-FA:no
@@ -3140,9 +2912,7 @@ onset	duration	sample	type	value
 1976.86933924324	0	1976878	Markers	Stim-NOTshown
 1977.38933722814	0	1977398	Markers	Stim-NOTshown
 1977.9113352053	0	1977920	Markers	Stim-40-R-walk-271-blue--1-kongruent
-1978.33333356997	0	1978342	Markers	WiimoteButtonB pressed
 1978.3343335661	0	1978343	Markers	BUT-RIGHT-ButtonB-Press
-1978.53033280656	0	1978539	Markers	WiimoteButtonB released
 1979.46232919489	0	1979471	Markers	Reaction: 0.423-right-blue-correct
 1979.46332919102	0	1979472	Markers	End-Trial-6.788
 1979.49732905926	0	1979506	Markers	Trial Start: No.38-angle:60-left-left-kongruent-blue-FA:no
@@ -3274,19 +3044,13 @@ onset	duration	sample	type	value
 2033.48111986147	0	2033490	Markers	Stim-NOTshown
 2034.00011785025	0	2034009	Markers	Stim-NOTshown
 2034.52211582741	0	2034531	Markers	Stim-40-R-walk-262-blue--1-kongruent
-2034.88611441684	0	2034895	Markers	WiimoteButtonB pressed
 2034.88711441297	0	2034896	Markers	BUT-RIGHT-ButtonB-Press
-2035.11111354493	0	2035120	Markers	WiimoteButtonB released
 2036.073109817	0	2036082	Markers	Reaction: 0.365-right-blue-correct
 2036.07510980925	0	2036084	Markers	End-Trial-7.73
 2036.1091096775	0	2036118	Markers	Trial Start: No.50-angle:40-right-right-kongruent-yellow-FA:no
 2037.60310388798	0	2037612	Markers	Stim-40-R-walk-158-yellow--1-kongruent
-2037.96010250454	0	2037969	Markers	WiimoteButtonB pressed
 2037.96110250066	0	2037970	Markers	BUT-RIGHT-ButtonB-Press
-2038.18110164812	0	2038190	Markers	WiimoteButtonB released
-2038.34010103197	0	2038349	Markers	WiimoteButtonB pressed
 2038.34110102809	0	2038350	Markers	BUT-RIGHT-ButtonB-Press
-2038.54110025306	0	2038550	Markers	WiimoteButtonB released
 2039.15409787757	0	2039163	Markers	Reaction: 0.358-right-yellow-correct
 2039.15609786982	0	2039165	Markers	End-Trial-3.046
 2039.19009773806	0	2039199	Markers	Trial Start: No.51-angle:40-left-left-kongruent-yellow-FA:no
@@ -3316,19 +3080,13 @@ onset	duration	sample	type	value
 2050.43405416552	0	2050443	Markers	End-Trial-8.13
 2050.46805403377	0	2050477	Markers	Trial Start: No.53-angle:60-right-right-kongruent-blue-FA:no
 2052.04504792261	0	2052054	Markers	Stim-60-R-walk-136-blue-1-kongruent
-2052.43404641516	0	2052443	Markers	WiimoteButtonB pressed
 2052.43404641516	0	2052443	Markers	BUT-RIGHT-ButtonB-Press
-2052.641045613	0	2052650	Markers	WiimoteButtonB released
 2053.5960419122	0	2053605	Markers	Reaction: 0.389-right-blue-correct
 2053.59804190445	0	2053607	Markers	End-Trial-3.13
 2053.63104177657	0	2053640	Markers	Trial Start: No.54-angle:40-right-right-kongruent-yellow-FA:no
 2055.22603559566	0	2055235	Markers	Stim-40-R-walk-250-yellow-1-kongruent
-2055.57003426259	0	2055579	Markers	WiimoteButtonB pressed
 2055.57103425872	0	2055580	Markers	BUT-RIGHT-ButtonB-Press
-2055.77003348756	0	2055779	Markers	WiimoteButtonB released
-2055.92303289465	0	2055932	Markers	WiimoteButtonB pressed
 2055.92303289465	0	2055932	Markers	BUT-RIGHT-ButtonB-Press
-2056.13903205761	0	2056148	Markers	WiimoteButtonB released
 2056.77702958525	0	2056786	Markers	Reaction: 0.345-right-yellow-correct
 2056.77802958137	0	2056787	Markers	End-Trial-3.147
 2056.81202944962	0	2056821	Markers	Trial Start: No.55-angle:60-right-right-kongruent-blue-FA:no
@@ -3342,9 +3100,7 @@ onset	duration	sample	type	value
 2061.81301006984	0	2061822	Markers	Stim-NOTshown
 2062.33200805862	0	2062341	Markers	Stim-NOTshown
 2062.8550060319	0	2062864	Markers	Stim-60-R-walk-284-blue--1-kongruent
-2063.30800427644	0	2063317	Markers	WiimoteButtonB pressed
 2063.30900427256	0	2063318	Markers	BUT-RIGHT-ButtonB-Press
-2063.51400347815	0	2063523	Markers	WiimoteButtonB released
 2064.40600002149	0	2064415	Markers	Reaction: 0.453-right-blue-correct
 2064.40700001762	0	2064416	Markers	End-Trial-7.595
 2064.44099988586	0	2064450	Markers	Trial Start: No.56-angle:40-left-left-kongruent-blue-FA:no
@@ -3356,9 +3112,7 @@ onset	duration	sample	type	value
 2067.5049880123	0	2067514	Markers	End-Trial-3.064
 2067.53898788055	0	2067548	Markers	Trial Start: No.57-angle:25-right-right-kongruent-blue-FA:no
 2068.90098260255	0	2068910	Markers	Stim-25-R-walk-043-blue--1-kongruent
-2069.29098109123	0	2069300	Markers	WiimoteButtonB pressed
 2069.29198108736	0	2069301	Markers	BUT-RIGHT-ButtonB-Press
-2069.51598021931	0	2069525	Markers	WiimoteButtonB released
 2070.45197659215	0	2070461	Markers	Reaction: 0.391-right-blue-correct
 2070.45297658827	0	2070462	Markers	End-Trial-2.914
 2070.48697645651	0	2070496	Markers	Trial Start: No.58-angle:40-right-right-kongruent-yellow-FA:no
@@ -3374,22 +3128,14 @@ onset	duration	sample	type	value
 2076.51095311242	0	2076520	Markers	Stim-NOTshown
 2077.03095109733	0	2077040	Markers	Stim-NOTshown
 2077.55294907448	0	2077562	Markers	Stim-40-R-walk-044-yellow-1-kongruent
-2077.94294756316	0	2077952	Markers	WiimoteButtonB pressed
 2077.94294756316	0	2077952	Markers	BUT-RIGHT-ButtonB-Press
-2078.11994687725	0	2078129	Markers	WiimoteButtonB released
-2078.28494623785	0	2078294	Markers	WiimoteButtonB pressed
 2078.28594623397	0	2078295	Markers	BUT-RIGHT-ButtonB-Press
-2078.50294539306	0	2078512	Markers	WiimoteButtonB released
 2079.1049430602	0	2079114	Markers	Reaction: 0.39-right-yellow-correct
 2079.10594305633	0	2079115	Markers	End-Trial-8.62
 2079.13994292457	0	2079149	Markers	Trial Start: No.59-angle:60-right-right-kongruent-yellow-FA:no
 2080.58693731718	0	2080596	Markers	Stim-60-R-walk-132-yellow-1-kongruent
-2080.94093594537	0	2080950	Markers	WiimoteButtonB pressed
 2080.94193594149	0	2080951	Markers	BUT-RIGHT-ButtonB-Press
-2081.14393515871	0	2081153	Markers	WiimoteButtonB released
-2081.33593441467	0	2081345	Markers	WiimoteButtonB pressed
 2081.3369344108	0	2081346	Markers	BUT-RIGHT-ButtonB-Press
-2081.53093365901	0	2081540	Markers	WiimoteButtonB released
 2082.13793130678	0	2082147	Markers	Reaction: 0.355-right-yellow-correct
 2082.1389313029	0	2082148	Markers	End-Trial-2.999
 2082.17293117115	0	2082182	Markers	Trial Start: No.60-angle:40-left-left-kongruent-blue-FA:no
@@ -3421,12 +3167,8 @@ onset	duration	sample	type	value
 2093.54188711421	0	2093551	Markers	End-Trial-8.335
 2093.57588698245	0	2093585	Markers	Trial Start: No.62-angle:40-right-right-kongruent-yellow-FA:no
 2095.11888100305	0	2095128	Markers	Stim-40-R-walk-171-yellow--1-kongruent
-2095.43287978624	0	2095442	Markers	WiimoteButtonB pressed
 2095.43287978624	0	2095442	Markers	BUT-RIGHT-ButtonB-Press
-2095.63987898408	0	2095649	Markers	WiimoteButtonB released
-2095.81487830592	0	2095824	Markers	WiimoteButtonB pressed
 2095.81587830205	0	2095825	Markers	BUT-RIGHT-ButtonB-Press
-2096.00987755026	0	2096019	Markers	WiimoteButtonB released
 2096.66987499264	0	2096679	Markers	Reaction: 0.314-right-yellow-correct
 2096.67087498877	0	2096680	Markers	End-Trial-3.095
 2096.70487485701	0	2096714	Markers	Trial Start: No.63-angle:40-left-left-kongruent-yellow-FA:no
@@ -3456,16 +3198,12 @@ onset	duration	sample	type	value
 2108.04983089308	0	2108059	Markers	End-Trial-8.198
 2108.08383076132	0	2108093	Markers	Trial Start: No.65-angle:60-right-right-kongruent-blue-FA:no
 2109.49382529732	0	2109503	Markers	Stim-60-R-walk-113-blue-1-kongruent
-2109.92682361936	0	2109936	Markers	WiimoteButtonB pressed
 2109.92782361549	0	2109937	Markers	BUT-RIGHT-ButtonB-Press
-2110.15282274357	0	2110162	Markers	WiimoteButtonB released
 2111.04581928304	0	2111055	Markers	Reaction: 0.434-right-blue-correct
 2111.04681927916	0	2111056	Markers	End-Trial-2.963
 2111.0808191474	0	2111090	Markers	Trial Start: No.66-angle:60-right-right-kongruent-blue-FA:no
 2112.42781392754	0	2112437	Markers	Stim-60-R-walk-212-blue-1-kongruent
-2112.80281247434	0	2112812	Markers	WiimoteButtonB pressed
 2112.80281247434	0	2112812	Markers	BUT-RIGHT-ButtonB-Press
-2112.99881171481	0	2113008	Markers	WiimoteButtonB released
 2113.97880791713	0	2113988	Markers	Reaction: 0.375-right-blue-correct
 2113.97980791325	0	2113989	Markers	End-Trial-2.899
 2114.01480777762	0	2114024	Markers	Trial Start: No.67-angle:60-right-right-kongruent-yellow-FA:no
@@ -3492,12 +3230,8 @@ onset	duration	sample	type	value
 2123.33877164543	0	2123348	Markers	End-Trial-9.324
 2123.37277151368	0	2123382	Markers	Trial Start: No.68-angle:40-right-right-kongruent-yellow-FA:no
 2124.70176636356	0	2124711	Markers	Stim-40-R-walk-163-yellow--1-kongruent
-2125.041765046	0	2125051	Markers	WiimoteButtonB pressed
 2125.041765046	0	2125051	Markers	BUT-RIGHT-ButtonB-Press
-2125.25476422058	0	2125264	Markers	WiimoteButtonB released
-2125.40876362381	0	2125418	Markers	WiimoteButtonB pressed
 2125.40876362381	0	2125418	Markers	BUT-RIGHT-ButtonB-Press
-2125.62376279064	0	2125633	Markers	WiimoteButtonB released
 2126.25276035315	0	2126262	Markers	Reaction: 0.34-right-yellow-correct
 2126.2547603454	0	2126264	Markers	End-Trial-2.882
 2126.28976020977	0	2126299	Markers	Trial Start: No.69-angle:40-left-left-kongruent-yellow-FA:no
@@ -3522,26 +3256,18 @@ onset	duration	sample	type	value
 2135.10872603455	0	2135118	Markers	Stim-NOTshown
 2135.62972401558	0	2135639	Markers	Stim-NOTshown
 2136.15172199273	0	2136161	Markers	Stim-60-R-walk-028-blue-1-kongruent
-2136.55472043104	0	2136564	Markers	WiimoteButtonB pressed
 2136.55472043104	0	2136564	Markers	BUT-RIGHT-ButtonB-Press
-2136.7427197025	0	2136752	Markers	WiimoteButtonB released
 2137.7017159862	0	2137711	Markers	Reaction: 0.404-right-blue-correct
 2137.70371597845	0	2137713	Markers	End-Trial-8.299
 2137.7377158467	0	2137747	Markers	Trial Start: No.71-angle:60-right-right-kongruent-blue-FA:no
 2139.06571070046	0	2139075	Markers	Stim-60-R-walk-125-blue-1-kongruent
-2139.48970905738	0	2139499	Markers	WiimoteButtonB pressed
 2139.4907090535	0	2139500	Markers	BUT-RIGHT-ButtonB-Press
-2139.68670829397	0	2139696	Markers	WiimoteButtonB released
 2140.61670469005	0	2140626	Markers	Reaction: 0.424-right-blue-correct
 2140.6187046823	0	2140628	Markers	End-Trial-2.881
 2140.65270455054	0	2140662	Markers	Trial Start: No.72-angle:40-right-right-kongruent-yellow-FA:no
 2142.19669856726	0	2142206	Markers	Stim-40-R-walk-243-yellow-1-kongruent
-2142.56969712182	0	2142579	Markers	WiimoteButtonB pressed
 2142.57069711795	0	2142580	Markers	BUT-RIGHT-ButtonB-Press
-2142.76469636616	0	2142774	Markers	WiimoteButtonB released
-2142.89769585076	0	2142907	Markers	WiimoteButtonB pressed
 2142.89869584689	0	2142908	Markers	BUT-RIGHT-ButtonB-Press
-2143.10269505635	0	2143112	Markers	WiimoteButtonB released
 2143.74669256073	0	2143756	Markers	Reaction: 0.374-right-yellow-correct
 2143.74869255298	0	2143758	Markers	End-Trial-3.096
 2143.78269242123	0	2143792	Markers	Trial Start: No.73-angle:40-left-left-kongruent-blue-FA:no
@@ -3563,16 +3289,12 @@ onset	duration	sample	type	value
 2151.89966096638	0	2151909	Markers	End-Trial-8.117
 2151.9326608385	0	2151942	Markers	Trial Start: No.74-angle:40-right-right-kongruent-blue-FA:no
 2153.34565536287	0	2153355	Markers	Stim-40-R-walk-166-blue--1-kongruent
-2153.67465408793	0	2153684	Markers	WiimoteButtonB pressed
 2153.67565408406	0	2153685	Markers	BUT-RIGHT-ButtonB-Press
-2153.90165320827	0	2153911	Markers	WiimoteButtonB released
 2154.89664935246	0	2154906	Markers	Reaction: 0.331-right-blue-correct
 2154.89864934471	0	2154908	Markers	End-Trial-2.965
 2154.93264921295	0	2154942	Markers	Trial Start: No.75-angle:40-right-right-kongruent-blue-FA:no
 2156.46264328393	0	2156472	Markers	Stim-40-R-walk-062-blue--1-kongruent
-2156.77364207875	0	2156783	Markers	WiimoteButtonB pressed
 2156.77464207487	0	2156784	Markers	BUT-RIGHT-ButtonB-Press
-2156.99464122233	0	2157004	Markers	WiimoteButtonB released
 2158.0126372774	0	2158022	Markers	Reaction: 0.312-right-blue-correct
 2158.01463726965	0	2158024	Markers	End-Trial-3.082
 2158.04863713789	0	2158058	Markers	Trial Start: No.76-angle:40-left-left-kongruent-blue-FA:no
@@ -3628,16 +3350,12 @@ onset	duration	sample	type	value
 2180.65954951617	0	2180669	Markers	End-Trial-7.628
 2180.69354938441	0	2180703	Markers	Trial Start: No.80-angle:60-right-right-kongruent-blue-FA:no
 2182.25854331975	0	2182268	Markers	Stim-60-R-walk-178-blue--1-kongruent
-2182.62754188981	0	2182637	Markers	WiimoteButtonB pressed
 2182.62854188593	0	2182638	Markers	BUT-RIGHT-ButtonB-Press
-2182.86654096364	0	2182876	Markers	WiimoteButtonB released
 2183.80953730934	0	2183819	Markers	Reaction: 0.37-right-blue-correct
 2183.81053730547	0	2183820	Markers	End-Trial-3.117
 2183.84453717371	0	2183854	Markers	Trial Start: No.81-angle:25-right-right-kongruent-blue-FA:no
 2185.40953110905	0	2185419	Markers	Stim-25-R-walk-031-blue--1-kongruent
-2185.78152966749	0	2185791	Markers	WiimoteButtonB pressed
 2185.78252966361	0	2185792	Markers	BUT-RIGHT-ButtonB-Press
-2186.00152881495	0	2186011	Markers	WiimoteButtonB released
 2186.96052509865	0	2186970	Markers	Reaction: 0.372-right-blue-correct
 2186.96152509477	0	2186971	Markers	End-Trial-3.117
 2186.99652495914	0	2187006	Markers	Trial Start: No.82-angle:60-left-left-kongruent-blue-FA:no
@@ -3657,12 +3375,8 @@ onset	duration	sample	type	value
 2195.0974935663	0	2195107	Markers	End-Trial-8.102
 2195.13149343454	0	2195141	Markers	Trial Start: No.83-angle:40-right-right-kongruent-yellow-FA:no
 2196.56048789691	0	2196570	Markers	Stim-40-R-walk-132-yellow-1-kongruent
-2197.01748612595	0	2197027	Markers	WiimoteButtonB pressed
 2197.01848612207	0	2197028	Markers	BUT-RIGHT-ButtonB-Press
-2197.23248529279	0	2197242	Markers	WiimoteButtonB released
-2197.36548477739	0	2197375	Markers	WiimoteButtonB pressed
 2197.36548477739	0	2197375	Markers	BUT-RIGHT-ButtonB-Press
-2197.57348397135	0	2197583	Markers	WiimoteButtonB released
 2198.1114818865	0	2198121	Markers	Reaction: 0.458-right-yellow-correct
 2198.11248188263	0	2198122	Markers	End-Trial-2.982
 2198.14648175087	0	2198156	Markers	Trial Start: No.84-angle:60-left-left-kongruent-yellow-FA:no
@@ -3687,9 +3401,7 @@ onset	duration	sample	type	value
 2206.93044771128	0	2206940	Markers	Stim-NOTshown
 2207.45044569618	0	2207460	Markers	Stim-NOTshown
 2207.97344366946	0	2207983	Markers	Stim-40-R-walk-264-blue--1-kongruent
-2208.32644230152	0	2208336	Markers	WiimoteButtonB pressed
 2208.32644230152	0	2208336	Markers	BUT-RIGHT-ButtonB-Press
-2208.54144146836	0	2208551	Markers	WiimoteButtonB released
 2209.52443765906	0	2209534	Markers	Reaction: 0.354-right-blue-correct
 2209.52543765518	0	2209535	Markers	End-Trial-8.365
 2209.55943752343	0	2209569	Markers	Trial Start: No.86-angle:60-left-left-kongruent-blue-FA:no
@@ -3728,12 +3440,8 @@ onset	duration	sample	type	value
 2223.95038175569	0	2223960	Markers	End-Trial-8.263
 2223.98438162394	0	2223994	Markers	Trial Start: No.89-angle:40-right-right-kongruent-yellow-FA:no
 2225.44737595455	0	2225457	Markers	Stim-40-R-walk-146-yellow-1-kongruent
-2225.82937447423	0	2225839	Markers	WiimoteButtonB pressed
 2225.82937447423	0	2225839	Markers	BUT-RIGHT-ButtonB-Press
-2226.05037361781	0	2226060	Markers	WiimoteButtonB released
-2226.22637293578	0	2226236	Markers	WiimoteButtonB pressed
 2226.2273729319	0	2226237	Markers	BUT-RIGHT-ButtonB-Press
-2226.42937214912	0	2226439	Markers	WiimoteButtonB released
 2226.99936994026	0	2227009	Markers	Reaction: 0.382-right-yellow-correct
 2227.00036993639	0	2227010	Markers	End-Trial-3.016
 2227.03436980463	0	2227044	Markers	Trial Start: No.90-angle:30-left-left-kongruent-yellow-FA:no
@@ -3758,23 +3466,17 @@ onset	duration	sample	type	value
 2235.75033602855	0	2235760	Markers	Stim-NOTshown
 2236.26933401733	0	2236279	Markers	Stim-NOTshown
 2236.79133199449	0	2236801	Markers	Stim-60-R-walk-278-blue--1-kongruent
-2237.33432989027	0	2237344	Markers	WiimoteButtonB pressed
 2237.33432989027	0	2237344	Markers	BUT-RIGHT-ButtonB-Press
-2237.55232904548	0	2237562	Markers	WiimoteButtonB released
 2238.34232598408	0	2238352	Markers	Reaction: 0.543-right-blue-correct
 2238.34332598021	0	2238353	Markers	End-Trial-8.195
 2238.37732584845	0	2238387	Markers	Trial Start: No.92-angle:40-right-right-kongruent-blue-FA:no
 2239.97231966754	0	2239982	Markers	Stim-40-R-walk-154-blue--1-kongruent
-2240.33631825697	0	2240346	Markers	WiimoteButtonB pressed
 2240.3373182531	0	2240347	Markers	BUT-RIGHT-ButtonB-Press
-2240.52131754006	0	2240531	Markers	WiimoteButtonB released
 2241.52331365713	0	2241533	Markers	Reaction: 0.366-right-blue-correct
 2241.52431365326	0	2241534	Markers	End-Trial-3.147
 2241.55931351762	0	2241569	Markers	Trial Start: No.93-angle:40-right-right-kongruent-blue-FA:no
 2242.98830797999	0	2242998	Markers	Stim-40-R-walk-049-blue--1-kongruent
-2243.38630643767	0	2243396	Markers	WiimoteButtonB pressed
 2243.38730643379	0	2243397	Markers	BUT-RIGHT-ButtonB-Press
-2243.57630570138	0	2243586	Markers	WiimoteButtonB released
 2244.53930196958	0	2244549	Markers	Reaction: 0.399-right-blue-correct
 2244.54130196183	0	2244551	Markers	End-Trial-2.982
 2244.57530183008	0	2244585	Markers	Trial Start: No.94-angle:60-left-left-kongruent-blue-FA:no
@@ -3823,19 +3525,13 @@ onset	duration	sample	type	value
 2264.48922465972	0	2264499	Markers	Stim-NOTshown
 2265.01022264075	0	2265020	Markers	Stim-NOTshown
 2265.5322206179	0	2265542	Markers	Stim-60-R-walk-285-blue--1-kongruent
-2265.91121914921	0	2265921	Markers	WiimoteButtonB pressed
 2265.91221914533	0	2265922	Markers	BUT-RIGHT-ButtonB-Press
-2266.11121837417	0	2266121	Markers	WiimoteButtonB released
 2267.0832146075	0	2267093	Markers	Reaction: 0.38-right-blue-correct
 2267.08521459975	0	2267095	Markers	End-Trial-8.181
 2267.11921446799	0	2267129	Markers	Trial Start: No.98-angle:40-right-right-kongruent-yellow-FA:no
 2268.49820912412	0	2268508	Markers	Stim-40-R-walk-173-yellow--1-kongruent
-2268.8722076748	0	2268882	Markers	WiimoteButtonB pressed
 2268.87320767092	0	2268883	Markers	BUT-RIGHT-ButtonB-Press
-2269.05720695789	0	2269067	Markers	WiimoteButtonB released
-2269.22020632624	0	2269230	Markers	WiimoteButtonB pressed
 2269.22120632236	0	2269231	Markers	BUT-RIGHT-ButtonB-Press
-2269.39420565195	0	2269404	Markers	WiimoteButtonB released
 2270.04920311371	0	2270059	Markers	Reaction: 0.374-right-yellow-correct
 2270.05120310596	0	2270061	Markers	End-Trial-2.932
 2270.0852029742	0	2270095	Markers	Trial Start: No.99-angle:40-left-left-kongruent-yellow-FA:no
@@ -3879,9 +3575,7 @@ onset	duration	sample	type	value
 2285.50514321891	0	2285515	Markers	End-Trial-3.064
 2285.53914308715	0	2285549	Markers	Trial Start: No.102-angle:60-right-right-kongruent-blue-FA:no
 2286.95213761152	0	2286962	Markers	Stim-60-R-walk-225-blue-1-kongruent
-2287.37913595682	0	2287389	Markers	WiimoteButtonB pressed
 2287.38013595294	0	2287390	Markers	BUT-RIGHT-ButtonB-Press
-2287.55313528254	0	2287563	Markers	WiimoteButtonB released
 2288.50313160111	0	2288513	Markers	Reaction: 0.428-right-blue-correct
 2288.50513159336	0	2288515	Markers	End-Trial-2.965
 2288.53913146161	0	2288549	Markers	Trial Start: No.103-angle:60-left-left-kongruent-yellow-FA:no
@@ -3906,22 +3600,14 @@ onset	duration	sample	type	value
 2296.76909956887	0	2296779	Markers	End-Trial-8.231
 2296.80409943323	0	2296814	Markers	Trial Start: No.104-angle:60-right-right-kongruent-yellow-FA:no
 2298.18209409323	0	2298192	Markers	Stim-60-R-walk-184-yellow--1-kongruent
-2298.58309253929	0	2298593	Markers	WiimoteButtonB pressed
 2298.58309253929	0	2298593	Markers	BUT-RIGHT-ButtonB-Press
-2298.74609190763	0	2298756	Markers	WiimoteButtonB released
-2298.86909143099	0	2298879	Markers	WiimoteButtonB pressed
 2298.87009142711	0	2298880	Markers	BUT-RIGHT-ButtonB-Press
-2299.05409071408	0	2299064	Markers	WiimoteButtonB released
 2299.73308808283	0	2299743	Markers	Reaction: 0.401-right-yellow-correct
 2299.73408807895	0	2299744	Markers	End-Trial-2.931
 2299.7680879472	0	2299778	Markers	Trial Start: No.105-angle:60-right-right-kongruent-yellow-FA:no
 2301.2790820918	0	2301289	Markers	Stim-60-R-walk-077-yellow--1-kongruent
-2301.75508024721	0	2301765	Markers	WiimoteButtonB pressed
 2301.75608024334	0	2301766	Markers	BUT-RIGHT-ButtonB-Press
-2301.91007964656	0	2301920	Markers	WiimoteButtonB released
-2302.05407908853	0	2302064	Markers	WiimoteButtonB pressed
 2302.05507908466	0	2302065	Markers	BUT-RIGHT-ButtonB-Press
-2302.2380783755	0	2302248	Markers	WiimoteButtonB released
 2302.83107607752	0	2302841	Markers	Reaction: 0.476-right-yellow-correct
 2302.83207607364	0	2302842	Markers	End-Trial-3.064
 2302.86607594189	0	2302876	Markers	Trial Start: No.106-angle:40-left-left-kongruent-yellow-FA:no
@@ -3948,9 +3634,7 @@ onset	duration	sample	type	value
 2312.22003969344	0	2312230	Markers	End-Trial-9.354
 2312.25403956168	0	2312264	Markers	Trial Start: No.107-angle:40-right-right-kongruent-blue-FA:no
 2313.85003337689	0	2313860	Markers	Stim-40-R-walk-152-blue-1-kongruent
-2314.19403204383	0	2314204	Markers	WiimoteButtonB pressed
 2314.19503203996	0	2314205	Markers	BUT-RIGHT-ButtonB-Press
-2314.40003124554	0	2314410	Markers	WiimoteButtonB released
 2315.40102736649	0	2315411	Markers	Reaction: 0.345-right-blue-correct
 2315.40202736261	0	2315412	Markers	End-Trial-3.148
 2315.43602723086	0	2315446	Markers	Trial Start: No.108-angle:60-left-left-kongruent-blue-FA:no
@@ -3972,12 +3656,8 @@ onset	duration	sample	type	value
 2324.10899362141	0	2324119	Markers	Stim-NOTshown
 2324.62999160244	0	2324640	Markers	Stim-NOTshown
 2325.15098958347	0	2325161	Markers	Stim-40-R-walk-266-yellow--1-kongruent
-2325.51298818065	0	2325523	Markers	WiimoteButtonB pressed
 2325.51298818065	0	2325523	Markers	BUT-RIGHT-ButtonB-Press
-2325.72998733974	0	2325740	Markers	WiimoteButtonB released
-2325.87998675846	0	2325890	Markers	WiimoteButtonB pressed
 2325.88098675459	0	2325891	Markers	BUT-RIGHT-ButtonB-Press
-2326.08498596405	0	2326095	Markers	WiimoteButtonB released
 2326.70298356919	0	2326713	Markers	Reaction: 0.362-right-yellow-correct
 2326.70398356531	0	2326714	Markers	End-Trial-8.269
 2326.73798343356	0	2326748	Markers	Trial Start: No.110-angle:30-left-left-kongruent-yellow-FA:no
@@ -3992,9 +3672,7 @@ onset	duration	sample	type	value
 2329.65397213353	0	2329664	Markers	R-End-Trial-2.916
 2329.68797200177	0	2329698	Markers	Trial Start: No.111-angle:40-right-right-kongruent-blue-FA:no
 2331.2159660805	0	2331226	Markers	Stim-40-R-walk-060-blue--1-kongruent
-2331.59696460405	0	2331607	Markers	WiimoteButtonB pressed
 2331.59796460018	0	2331608	Markers	BUT-RIGHT-ButtonB-Press
-2331.81296376701	0	2331823	Markers	WiimoteButtonB released
 2332.76696007009	0	2332777	Markers	Reaction: 0.381-right-blue-correct
 2332.76796006621	0	2332778	Markers	End-Trial-3.08
 2332.80195993446	0	2332812	Markers	Trial Start: No.112-angle:60-right-right-kongruent-yellow-FA:no
@@ -4011,22 +3689,14 @@ onset	duration	sample	type	value
 2339.42793425751	0	2339438	Markers	Stim-NOTshown
 2339.94793224241	0	2339958	Markers	Stim-NOTshown
 2340.46993021957	0	2340480	Markers	Stim-60-R-walk-029-yellow-1-kongruent
-2340.83892878963	0	2340849	Markers	WiimoteButtonB pressed
 2340.83992878575	0	2340850	Markers	BUT-RIGHT-ButtonB-Press
-2341.03192804172	0	2341042	Markers	WiimoteButtonB released
-2341.18792743719	0	2341198	Markers	WiimoteButtonB pressed
 2341.18892743331	0	2341199	Markers	BUT-RIGHT-ButtonB-Press
-2341.39992661565	0	2341410	Markers	WiimoteButtonB released
 2342.02092420916	0	2342031	Markers	Reaction: 0.371-right-yellow-correct
 2342.02192420529	0	2342032	Markers	End-Trial-9.22
 2342.05592407353	0	2342066	Markers	Trial Start: No.113-angle:40-right-right-kongruent-yellow-FA:no
 2343.6179180205	0	2343628	Markers	Stim-40-R-walk-145-yellow-1-kongruent
-2343.96591667193	0	2343976	Markers	WiimoteButtonB pressed
 2343.96691666806	0	2343977	Markers	BUT-RIGHT-ButtonB-Press
-2344.14391598215	0	2344154	Markers	WiimoteButtonB released
-2344.29791538537	0	2344308	Markers	WiimoteButtonB pressed
 2344.2989153815	0	2344309	Markers	BUT-RIGHT-ButtonB-Press
-2344.49691461421	0	2344507	Markers	WiimoteButtonB released
 2345.16791201397	0	2345178	Markers	Reaction: 0.349-right-yellow-correct
 2345.16991200622	0	2345180	Markers	End-Trial-3.114
 2345.20391187446	0	2345214	Markers	Trial Start: No.114-angle:60-left-left-kongruent-blue-FA:no
@@ -4048,9 +3718,7 @@ onset	duration	sample	type	value
 2354.08387746285	0	2354094	Markers	Stim-NOTshown
 2354.60387544776	0	2354614	Markers	Stim-NOTshown
 2355.12587342491	0	2355136	Markers	Stim-40-R-walk-277-blue--1-kongruent
-2355.65187138657	0	2355662	Markers	WiimoteButtonB pressed
 2355.65287138269	0	2355663	Markers	BUT-RIGHT-ButtonB-Press
-2355.8668705534	0	2355877	Markers	WiimoteButtonB released
 2356.67586741838	0	2356686	Markers	Reaction: 0.528-right-blue-correct
 2356.67786741063	0	2356688	Markers	End-Trial-8.309
 2356.71186727887	0	2356722	Markers	Trial Start: No.116-angle:40-left-left-kongruent-blue-FA:no
@@ -4062,12 +3730,8 @@ onset	duration	sample	type	value
 2359.67585579284	0	2359686	Markers	End-Trial-2.964
 2359.70985566108	0	2359720	Markers	Trial Start: No.117-angle:40-right-right-kongruent-yellow-FA:no
 2361.08785032108	0	2361098	Markers	Stim-40-R-walk-065-yellow--1-kongruent
-2361.38884915465	0	2361399	Markers	WiimoteButtonB pressed
 2361.38984915078	0	2361400	Markers	BUT-RIGHT-ButtonB-Press
-2361.57684842612	0	2361587	Markers	WiimoteButtonB released
-2361.72684784484	0	2361737	Markers	WiimoteButtonB pressed
 2361.72684784484	0	2361737	Markers	BUT-RIGHT-ButtonB-Press
-2361.92984705818	0	2361940	Markers	WiimoteButtonB released
 2362.63884431067	0	2362649	Markers	Reaction: 0.301-right-yellow-correct
 2362.6398443068	0	2362650	Markers	End-Trial-2.93
 2362.67384417504	0	2362684	Markers	Trial Start: No.118-angle:40-right-right-kongruent-yellow-FA:no
@@ -4083,32 +3747,20 @@ onset	duration	sample	type	value
 2368.94581986991	0	2368956	Markers	Stim-NOTshown
 2369.46581785481	0	2369476	Markers	Stim-NOTshown
 2369.98781583197	0	2369998	Markers	Stim-40-R-walk-033-yellow-1-kongruent
-2370.38681428577	0	2370397	Markers	WiimoteButtonB pressed
 2370.38681428577	0	2370397	Markers	BUT-RIGHT-ButtonB-Press
-2370.57281356499	0	2370583	Markers	WiimoteButtonB released
-2370.7668128132	0	2370777	Markers	WiimoteButtonB pressed
 2370.7668128132	0	2370777	Markers	BUT-RIGHT-ButtonB-Press
-2371.01381185603	0	2371024	Markers	WiimoteButtonB released
 2371.53880982156	0	2371549	Markers	Reaction: 0.399-right-yellow-correct
 2371.54080981381	0	2371551	Markers	End-Trial-8.867
 2371.57380968593	0	2371584	Markers	Trial Start: No.119-angle:60-right-right-kongruent-yellow-FA:no
 2372.88780459394	0	2372898	Markers	Stim-60-R-walk-109-yellow-1-kongruent
-2373.21480332676	0	2373225	Markers	WiimoteButtonB pressed
 2373.21580332288	0	2373226	Markers	BUT-RIGHT-ButtonB-Press
-2373.4098025711	0	2373420	Markers	WiimoteButtonB released
-2373.56380197432	0	2373574	Markers	WiimoteButtonB pressed
 2373.56480197044	0	2373575	Markers	BUT-RIGHT-ButtonB-Press
-2373.75880121866	0	2373769	Markers	WiimoteButtonB released
 2374.43779858741	0	2374448	Markers	Reaction: 0.329-right-yellow-correct
 2374.43979857966	0	2374450	Markers	End-Trial-2.865
 2374.4737984479	0	2374484	Markers	Trial Start: No.120-angle:60-right-right-kongruent-yellow-FA:no
 2376.06879226699	0	2376079	Markers	Stim-60-R-walk-215-yellow-1-kongruent
-2376.52779048828	0	2376538	Markers	WiimoteButtonB pressed
 2376.52879048441	0	2376539	Markers	BUT-RIGHT-ButtonB-Press
-2376.71678975587	0	2376727	Markers	WiimoteButtonB released
-2376.90178903896	0	2376912	Markers	WiimoteButtonB pressed
 2376.90178903896	0	2376912	Markers	BUT-RIGHT-ButtonB-Press
-2377.09778827943	0	2377108	Markers	WiimoteButtonB released
 2377.61978625658	0	2377630	Markers	Reaction: 0.46-right-yellow-correct
 2377.62178624883	0	2377632	Markers	End-Trial-3.148
 2377.65578611708	0	2377666	Markers	Trial Start: No.121-angle:60-left-left-kongruent-blue-FA:no
@@ -4133,19 +3785,13 @@ onset	duration	sample	type	value
 2387.37474845419	0	2387385	Markers	End-Trial-9.719
 2387.40774832631	0	2387418	Markers	Trial Start: No.122-angle:30-right-right-kongruent-yellow-FA:no
 2388.95274233915	0	2388963	Markers	Stim-30-R-walk-146-yellow--1-kongruent
-2389.35774076971	0	2389368	Markers	WiimoteButtonB pressed
 2389.35874076583	0	2389369	Markers	BUT-RIGHT-ButtonB-Press
-2389.55873999079	0	2389569	Markers	WiimoteButtonB released
-2389.70773941339	0	2389718	Markers	WiimoteButtonB pressed
 2389.70773941339	0	2389718	Markers	BUT-RIGHT-ButtonB-Press
-2389.9137386151	0	2389924	Markers	WiimoteButtonB released
 2390.50373632875	0	2390514	Markers	Reaction: 0.406-right-yellow-correct
 2390.50473632487	0	2390515	Markers	End-Trial-3.097
 2390.53873619312	0	2390549	Markers	Trial Start: No.123-angle:40-right-right-kongruent-blue-FA:no
 2392.08273020984	0	2392093	Markers	Stim-40-R-walk-053-blue--1-kongruent
-2392.45572876439	0	2392466	Markers	WiimoteButtonB pressed
 2392.45572876439	0	2392466	Markers	BUT-RIGHT-ButtonB-Press
-2392.63072808624	0	2392641	Markers	WiimoteButtonB released
 2393.63372419943	0	2393644	Markers	Reaction: 0.374-right-blue-correct
 2393.63472419555	0	2393645	Markers	End-Trial-3.095
 2393.6687240638	0	2393679	Markers	Trial Start: No.124-angle:40-right-right-kongruent-blue-FA:no
@@ -4162,19 +3808,13 @@ onset	duration	sample	type	value
 2400.39269800708	0	2400403	Markers	Stim-NOTshown
 2400.91269599199	0	2400923	Markers	Stim-NOTshown
 2401.43469396914	0	2401445	Markers	Stim-40-R-walk-039-blue-1-kongruent
-2401.83769240744	0	2401848	Markers	WiimoteButtonB pressed
 2401.83769240744	0	2401848	Markers	BUT-RIGHT-ButtonB-Press
-2402.0536915704	0	2402064	Markers	WiimoteButtonB released
 2402.98568795873	0	2402996	Markers	Reaction: 0.404-right-blue-correct
 2402.98668795486	0	2402997	Markers	End-Trial-9.318
 2403.0206878231	0	2403031	Markers	Trial Start: No.125-angle:30-right-right-kongruent-yellow-FA:no
 2404.4026824676	0	2404413	Markers	Stim-30-R-walk-152-yellow-1-kongruent
-2404.87168065014	0	2404882	Markers	WiimoteButtonB pressed
 2404.87168065014	0	2404882	Markers	BUT-RIGHT-ButtonB-Press
-2405.06767989061	0	2405078	Markers	WiimoteButtonB released
-2405.22367928608	0	2405234	Markers	WiimoteButtonB pressed
 2405.2246792822	0	2405235	Markers	BUT-RIGHT-ButtonB-Press
-2405.43567846454	0	2405446	Markers	WiimoteButtonB released
 2405.9536764572	0	2405964	Markers	Reaction: 0.47-right-yellow-correct
 2405.95467645332	0	2405965	Markers	End-Trial-2.934
 2405.98867632156	0	2405999	Markers	Trial Start: No.126-angle:60-left-left-kongruent-blue-FA:no
@@ -4207,19 +3847,13 @@ onset	duration	sample	type	value
 2417.69863094319	0	2417709	Markers	End-Trial-8.742
 2417.73263081144	0	2417743	Markers	Trial Start: No.128-angle:40-right-right-kongruent-blue-FA:no
 2419.07662560319	0	2419087	Markers	Stim-40-R-walk-172-blue--1-kongruent
-2419.82862268906	0	2419839	Markers	WiimoteButtonB pressed
 2419.82962268518	0	2419840	Markers	BUT-RIGHT-ButtonB-Press
-2420.06862175901	0	2420079	Markers	WiimoteButtonB released
 2420.62761959279	0	2420638	Markers	Reaction: 0.753-right-blue-correct
 2420.62861958891	0	2420639	Markers	End-Trial-2.896
 2420.66361945328	0	2420674	Markers	Trial Start: No.129-angle:60-right-right-kongruent-yellow-FA:no
 2422.10861385364	0	2422119	Markers	Stim-60-R-walk-076-yellow--1-kongruent
-2422.66461169904	0	2422675	Markers	WiimoteButtonB pressed
 2422.66561169517	0	2422676	Markers	BUT-RIGHT-ButtonB-Press
-2422.82961105964	0	2422840	Markers	WiimoteButtonB released
-2422.95361057911	0	2422964	Markers	WiimoteButtonB pressed
 2422.95461057524	0	2422965	Markers	BUT-RIGHT-ButtonB-Press
-2423.10860997846	0	2423119	Markers	WiimoteButtonB released
 2423.65860784711	0	2423669	Markers	Reaction: 0.558-right-yellow-correct
 2423.65960784324	0	2423670	Markers	End-Trial-2.997
 2423.69360771148	0	2423704	Markers	Trial Start: No.130-angle:40-left-left-kongruent-blue-FA:no
@@ -4243,22 +3877,14 @@ onset	duration	sample	type	value
 2433.10157125377	0	2433112	Markers	End-Trial-9.408
 2433.13557112202	0	2433146	Markers	Trial Start: No.131-angle:30-right-right-kongruent-yellow-FA:no
 2434.52956572002	0	2434540	Markers	Stim-30-R-walk-156-yellow-1-kongruent
-2434.91656422032	0	2434927	Markers	WiimoteButtonB pressed
 2434.91756421645	0	2434928	Markers	BUT-RIGHT-ButtonB-Press
-2435.11156346466	0	2435122	Markers	WiimoteButtonB released
-2435.2865627865	0	2435297	Markers	WiimoteButtonB pressed
 2435.28756278263	0	2435298	Markers	BUT-RIGHT-ButtonB-Press
-2435.48056203472	0	2435491	Markers	WiimoteButtonB released
 2436.08055970961	0	2436091	Markers	Reaction: 0.388-right-yellow-correct
 2436.08155970573	0	2436092	Markers	End-Trial-2.946
 2436.11555957398	0	2436126	Markers	Trial Start: No.132-angle:60-right-right-kongruent-yellow-FA:no
 2437.67655352482	0	2437687	Markers	Stim-60-R-walk-236-yellow-1-kongruent
-2438.10055188174	0	2438111	Markers	WiimoteButtonB pressed
 2438.10055188174	0	2438111	Markers	BUT-RIGHT-ButtonB-Press
-2438.29655112221	0	2438307	Markers	WiimoteButtonB released
-2438.45055052543	0	2438461	Markers	WiimoteButtonB pressed
 2438.45055052543	0	2438461	Markers	BUT-RIGHT-ButtonB-Press
-2438.6425497814	0	2438653	Markers	WiimoteButtonB released
 2439.22754751441	0	2439238	Markers	Reaction: 0.425-right-yellow-correct
 2439.22954750666	0	2439240	Markers	End-Trial-3.114
 2439.26354737491	0	2439274	Markers	Trial Start: No.133-angle:60-left-left-kongruent-yellow-FA:no
@@ -4319,19 +3945,13 @@ onset	duration	sample	type	value
 2462.98645544398	0	2462997	Markers	End-Trial-8.166
 2463.0194553161	0	2463030	Markers	Trial Start: No.137-angle:40-right-right-kongruent-blue-FA:no
 2464.5464493987	0	2464557	Markers	Stim-40-R-walk-141-blue-1-kongruent
-2464.89444805014	0	2464905	Markers	WiimoteButtonB pressed
 2464.89544804626	0	2464906	Markers	BUT-RIGHT-ButtonB-Press
-2465.09744726347	0	2465108	Markers	WiimoteButtonB released
 2466.09744338829	0	2466108	Markers	Reaction: 0.349-right-blue-correct
 2466.09944338054	0	2466110	Markers	End-Trial-3.08
 2466.13344324879	0	2466144	Markers	Trial Start: No.138-angle:60-right-right-kongruent-yellow-FA:no
 2467.69243720738	0	2467703	Markers	Stim-60-R-walk-234-yellow-1-kongruent
-2468.08643568056	0	2468097	Markers	WiimoteButtonB pressed
 2468.08643568056	0	2468097	Markers	BUT-RIGHT-ButtonB-Press
-2468.2694349714	0	2468280	Markers	WiimoteButtonB released
-2468.4144344095	0	2468425	Markers	WiimoteButtonB pressed
 2468.41543440562	0	2468426	Markers	BUT-RIGHT-ButtonB-Press
-2468.60943365384	0	2468620	Markers	WiimoteButtonB released
 2469.24243120085	0	2469253	Markers	Reaction: 0.394-right-yellow-correct
 2469.2444311931	0	2469255	Markers	End-Trial-3.111
 2469.27843106134	0	2469289	Markers	Trial Start: No.139-angle:60-right-right-kongruent-blue-FA:no
@@ -4364,12 +3984,8 @@ onset	duration	sample	type	value
 2481.09638526445	0	2481107	Markers	End-Trial-2.93
 2481.13038513269	0	2481141	Markers	Trial Start: No.141-angle:60-right-right-kongruent-yellow-FA:no
 2482.65837921142	0	2482669	Markers	Stim-60-R-walk-062-yellow--1-kongruent
-2483.05937765747	0	2483070	Markers	WiimoteButtonB pressed
 2483.06037765359	0	2483071	Markers	BUT-RIGHT-ButtonB-Press
-2483.24537693668	0	2483256	Markers	WiimoteButtonB released
-2483.36637646779	0	2483377	Markers	WiimoteButtonB pressed
 2483.36737646391	0	2483378	Markers	BUT-RIGHT-ButtonB-Press
-2483.55037575475	0	2483561	Markers	WiimoteButtonB released
 2484.21037319713	0	2484221	Markers	Reaction: 0.402-right-yellow-correct
 2484.21137319326	0	2484222	Markers	End-Trial-3.081
 2484.2453730615	0	2484256	Markers	Trial Start: No.142-angle:60-left-left-kongruent-yellow-FA:no
@@ -4389,16 +4005,12 @@ onset	duration	sample	type	value
 2492.42834135089	0	2492439	Markers	End-Trial-8.184
 2492.46234121914	0	2492473	Markers	Trial Start: No.143-angle:60-right-right-kongruent-blue-FA:no
 2493.85833580939	0	2493869	Markers	Stim-60-R-walk-116-blue-1-kongruent
-2494.30533407718	0	2494316	Markers	WiimoteButtonB pressed
 2494.3063340733	0	2494317	Markers	BUT-RIGHT-ButtonB-Press
-2494.49733333314	0	2494508	Markers	WiimoteButtonB released
 2495.40932979898	0	2495420	Markers	Reaction: 0.448-right-blue-correct
 2495.41132979123	0	2495422	Markers	End-Trial-2.948
 2495.44432966335	0	2495455	Markers	Trial Start: No.144-angle:40-right-right-kongruent-blue-FA:no
 2496.77332451323	0	2496784	Markers	Stim-40-R-walk-234-blue-1-kongruent
-2497.15032305229	0	2497161	Markers	WiimoteButtonB pressed
 2497.15032305229	0	2497161	Markers	BUT-RIGHT-ButtonB-Press
-2497.36632221525	0	2497377	Markers	WiimoteButtonB released
 2498.32431850283	0	2498335	Markers	Reaction: 0.377-right-blue-correct
 2498.32631849508	0	2498337	Markers	End-Trial-2.881
 2498.35931836719	0	2498370	Markers	Trial Start: No.145-angle:40-right-right-kongruent-blue-FA:no
@@ -4414,23 +4026,17 @@ onset	duration	sample	type	value
 2504.5322944457	0	2504543	Markers	Stim-NOTshown
 2505.05229243061	0	2505063	Markers	Stim-NOTshown
 2505.57429040776	0	2505585	Markers	Stim-40-R-walk-263-blue--1-kongruent
-2506.03828860968	0	2506049	Markers	WiimoteButtonB pressed
 2506.03828860968	0	2506049	Markers	BUT-RIGHT-ButtonB-Press
-2506.22828787339	0	2506239	Markers	WiimoteButtonB released
 2507.12528439735	0	2507136	Markers	Reaction: 0.464-right-blue-correct
 2507.1272843896	0	2507138	Markers	End-Trial-8.767
 2507.16028426172	0	2507171	Markers	Trial Start: No.146-angle:60-right-right-kongruent-blue-FA:no
 2508.72127821257	0	2508732	Markers	Stim-60-R-walk-172-blue--1-kongruent
-2509.20927632148	0	2509220	Markers	WiimoteButtonB pressed
 2509.20927632148	0	2509220	Markers	BUT-RIGHT-ButtonB-Press
-2509.42427548831	0	2509435	Markers	WiimoteButtonB released
 2510.27227220216	0	2510283	Markers	Reaction: 0.489-right-blue-correct
 2510.27327219828	0	2510284	Markers	End-Trial-3.113
 2510.30727206653	0	2510318	Markers	Trial Start: No.147-angle:40-right-right-kongruent-blue-FA:no
 2511.66826679241	0	2511679	Markers	Stim-40-R-walk-052-blue--1-kongruent
-2511.97926558722	0	2511990	Markers	WiimoteButtonB pressed
 2511.97926558722	0	2511990	Markers	BUT-RIGHT-ButtonB-Press
-2512.13826497107	0	2512149	Markers	WiimoteButtonB released
 2513.219260782	0	2513230	Markers	Reaction: 0.311-right-blue-correct
 2513.22126077425	0	2513232	Markers	End-Trial-2.914
 2513.25526064249	0	2513266	Markers	Trial Start: No.148-angle:40-right-right-kongruent-yellow-FA:no
@@ -4448,12 +4054,8 @@ onset	duration	sample	type	value
 2520.44023279932	0	2520451	Markers	Stim-NOTshown
 2520.96023078422	0	2520971	Markers	Stim-NOTshown
 2521.48222876138	0	2521493	Markers	Stim-40-R-walk-048-yellow-1-kongruent
-2521.89122717643	0	2521902	Markers	WiimoteButtonB pressed
 2521.89222717255	0	2521903	Markers	BUT-RIGHT-ButtonB-Press
-2522.07822645177	0	2522089	Markers	WiimoteButtonB released
-2522.21122593637	0	2522222	Markers	WiimoteButtonB pressed
 2522.21222593249	0	2522223	Markers	BUT-RIGHT-ButtonB-Press
-2522.41522514583	0	2522426	Markers	WiimoteButtonB released
 2523.03322275097	0	2523044	Markers	Reaction: 0.41-right-yellow-correct
 2523.0342227471	0	2523045	Markers	End-Trial-9.78
 2523.06822261534	0	2523079	Markers	Trial Start: No.149-angle:60-left-left-kongruent-blue-FA:no
@@ -4490,19 +4092,13 @@ onset	duration	sample	type	value
 2537.59716631283	0	2537608	Markers	End-Trial-8.436
 2537.63116618107	0	2537642	Markers	Trial Start: No.152-angle:40-right-right-kongruent-blue-FA:no
 2539.22516000404	0	2539236	Markers	Stim-40-R-walk-162-blue--1-kongruent
-2539.67315826795	0	2539684	Markers	WiimoteButtonB pressed
 2539.67315826795	0	2539684	Markers	BUT-RIGHT-ButtonB-Press
-2539.88115746192	0	2539892	Markers	WiimoteButtonB released
 2540.77615399363	0	2540787	Markers	Reaction: 0.449-right-blue-correct
 2540.77715398975	0	2540788	Markers	End-Trial-3.147
 2540.811153858	0	2540822	Markers	Trial Start: No.153-angle:60-right-right-kongruent-yellow-FA:no
 2542.20714844824	0	2542218	Markers	Stim-60-R-walk-073-yellow--1-kongruent
-2542.63514678967	0	2542646	Markers	WiimoteButtonB pressed
 2542.63614678579	0	2542647	Markers	BUT-RIGHT-ButtonB-Press
-2542.81114610764	0	2542822	Markers	WiimoteButtonB released
-2542.9831454411	0	2542994	Markers	WiimoteButtonB pressed
 2542.9831454411	0	2542994	Markers	BUT-RIGHT-ButtonB-Press
-2543.16614473195	0	2543177	Markers	WiimoteButtonB released
 2543.75814243784	0	2543769	Markers	Reaction: 0.429-right-yellow-correct
 2543.75914243396	0	2543770	Markers	End-Trial-2.948
 2543.79414229833	0	2543805	Markers	Trial Start: No.154-angle:40-left-left-kongruent-yellow-FA:no
@@ -4535,12 +4131,8 @@ onset	duration	sample	type	value
 2555.64209638518	0	2555653	Markers	End-Trial-2.931
 2555.67609625343	0	2555687	Markers	Trial Start: No.156-angle:40-right-right-kongruent-yellow-FA:no
 2557.17209045616	0	2557183	Markers	Stim-40-R-walk-237-yellow-1-kongruent
-2557.53408905334	0	2557545	Markers	WiimoteButtonB pressed
 2557.53508904947	0	2557546	Markers	BUT-RIGHT-ButtonB-Press
-2557.71308835968	0	2557724	Markers	WiimoteButtonB released
-2557.87208774353	0	2557883	Markers	WiimoteButtonB pressed
 2557.87208774353	0	2557883	Markers	BUT-RIGHT-ButtonB-Press
-2558.05008705375	0	2558061	Markers	WiimoteButtonB released
 2558.72308444575	0	2558734	Markers	Reaction: 0.363-right-yellow-correct
 2558.72408444188	0	2558735	Markers	End-Trial-3.048
 2558.75808431012	0	2558769	Markers	Trial Start: No.157-angle:60-right-right-kongruent-yellow-FA:no
@@ -4568,12 +4160,8 @@ onset	duration	sample	type	value
 2568.47304666273	0	2568484	Markers	End-Trial-9.715
 2568.50704653098	0	2568518	Markers	Trial Start: No.158-angle:40-right-right-kongruent-yellow-FA:no
 2570.06704048569	0	2570078	Markers	Stim-40-R-walk-165-yellow--1-kongruent
-2570.49703881937	0	2570508	Markers	WiimoteButtonB pressed
 2570.49803881549	0	2570509	Markers	BUT-RIGHT-ButtonB-Press
-2570.69203806371	0	2570703	Markers	WiimoteButtonB released
-2570.79403766844	0	2570805	Markers	WiimoteButtonB pressed
 2570.79503766456	0	2570806	Markers	BUT-RIGHT-ButtonB-Press
-2570.98903691278	0	2571000	Markers	WiimoteButtonB released
 2571.61803447529	0	2571629	Markers	Reaction: 0.43-right-yellow-correct
 2571.61903447141	0	2571630	Markers	End-Trial-3.112
 2571.65303433966	0	2571664	Markers	Trial Start: No.159-angle:40-left-left-kongruent-blue-FA:no
@@ -4650,12 +4238,8 @@ onset	duration	sample	type	value
 2603.3969113259	0	2603408	Markers	End-Trial-2.947
 2603.42991119802	0	2603441	Markers	Trial Start: No.165-angle:40-right-right-kongruent-yellow-FA:no
 2604.97590520699	0	2604987	Markers	Stim-40-R-walk-063-yellow--1-kongruent
-2605.32890383905	0	2605340	Markers	WiimoteButtonB pressed
 2605.32990383518	0	2605341	Markers	BUT-RIGHT-ButtonB-Press
-2605.47290328103	0	2605484	Markers	WiimoteButtonB released
-2605.64390261837	0	2605655	Markers	WiimoteButtonB pressed
 2605.64390261837	0	2605655	Markers	BUT-RIGHT-ButtonB-Press
-2605.82790190534	0	2605839	Markers	WiimoteButtonB released
 2606.52689919658	0	2606538	Markers	Reaction: 0.354-right-yellow-correct
 2606.52889918883	0	2606540	Markers	End-Trial-3.098
 2606.56289905708	0	2606574	Markers	Trial Start: No.166-angle:60-left-left-kongruent-yellow-FA:no
@@ -4731,8 +4315,6 @@ onset	duration	sample	type	value
 2638.29577608595	0	2638307	Markers	END-walk
 2675.58763157269	0	2675599	Markers	WiimoteButtonRight pressed
 2675.60163151844	0	2675613	Markers	WiimoteButtonLight released
-3102.30697795145	0	3102320	Markers	WiimoteButtonB pressed
-3102.49797721129	0	3102511	Markers	WiimoteButtonB released
 3111.04494409012	0	3111058	Markers	START-walkWarning , Sub-No.-62
 3111.06594400874	0	3111079	Markers	Trial Start: No.0-angle:40-left-left-kongruent-blue-FA:no
 3112.57393816497	0	3112587	Markers	left
@@ -4765,9 +4347,7 @@ onset	duration	sample	type	value
 3123.61189539072	0	3123625	Markers	Stop Vibro right
 3123.80789463118	0	3123821	Markers	Time between Warning and LED: 0.501
 3123.80789463118	0	3123821	Markers	Stim-60-R-walkWarning-169-blue-1-kongruent
-3124.06789362363	0	3124081	Markers	WiimoteButtonB pressed
 3124.06889361976	0	3124082	Markers	BUT-RIGHT-ButtonB-Press
-3124.28189279434	0	3124295	Markers	WiimoteButtonB released
 3125.35888862077	0	3125372	Markers	Reaction: 0.262-right-blue-correct
 3125.36088861302	0	3125374	Markers	End-Trial-3.534
 3125.39488848127	0	3125408	Markers	Trial Start: No.3-angle:60-right-right-kongruent-blue-FA:no
@@ -4777,9 +4357,7 @@ onset	duration	sample	type	value
 3127.07788195934	0	3127091	Markers	Stop Vibro right
 3127.27588119205	0	3127289	Markers	Time between Warning and LED: 0.502
 3127.27588119205	0	3127289	Markers	Stim-60-R-walkWarning-285-blue-1-kongruent
-3127.60687990937	0	3127620	Markers	WiimoteButtonB pressed
 3127.60787990549	0	3127621	Markers	BUT-RIGHT-ButtonB-Press
-3127.84787897545	0	3127861	Markers	WiimoteButtonB released
 3128.82687518165	0	3128840	Markers	Reaction: 0.333-right-blue-correct
 3128.82787517777	0	3128841	Markers	End-Trial-3.434
 3128.86187504601	0	3128875	Markers	Trial Start: No.4-angle:60-left-left-kongruent-yellow-FA:no
@@ -4816,12 +4394,8 @@ onset	duration	sample	type	value
 3139.8328325314	0	3139846	Markers	Stop Vibro left
 3140.02883177187	0	3140042	Markers	Time between Warning and LED: 0.502
 3140.02983176799	0	3140043	Markers	Stim-60-R-walkWarning-014-blue--1-inkongruent
-3140.59182959014	0	3140605	Markers	WiimoteButtonB pressed
 3140.59282958626	0	3140606	Markers	BUT-RIGHT-ButtonB-Press
-3140.78582883835	0	3140799	Markers	WiimoteButtonB released
-3141.00582798581	0	3141019	Markers	WiimoteButtonB pressed
 3141.00682798194	0	3141020	Markers	BUT-RIGHT-ButtonB-Press
-3141.17582732703	0	3141189	Markers	WiimoteButtonB released
 3141.57982576146	0	3141593	Markers	Reaction: 0.564-right-yellow-incorrect
 3141.58182575371	0	3141595	Markers	End-Trial-3.597
 3141.61582562195	0	3141629	Markers	Trial Start: No.7-angle:60-left-left-kongruent-blue-FA:no
@@ -4843,9 +4417,7 @@ onset	duration	sample	type	value
 3149.70579427174	0	3149719	Markers	Stop Vibro right
 3149.90279350832	0	3149916	Markers	Time between Warning and LED: 0.502
 3149.90279350832	0	3149916	Markers	Stim-60-R-walkWarning-163-blue-1-kongruent
-3150.17679244653	0	3150190	Markers	WiimoteButtonB pressed
 3150.17779244265	0	3150191	Markers	BUT-RIGHT-ButtonB-Press
-3150.37179169086	0	3150385	Markers	WiimoteButtonB released
 3151.45378749792	0	3151467	Markers	Reaction: 0.276-right-blue-correct
 3151.45478749404	0	3151468	Markers	End-Trial-3.564
 3151.48978735841	0	3151503	Markers	Trial Start: No.9-angle:60-right-right-kongruent-yellow-FA:no
@@ -4855,12 +4427,8 @@ onset	duration	sample	type	value
 3153.10478109999	0	3153118	Markers	Stop Vibro right
 3153.30278033271	0	3153316	Markers	Time between Warning and LED: 0.501
 3153.30278033271	0	3153316	Markers	Stim-60-R-walkWarning-278-yellow-1-kongruent
-3153.63977902677	0	3153653	Markers	WiimoteButtonB pressed
 3153.63977902677	0	3153653	Markers	BUT-RIGHT-ButtonB-Press
-3153.81477834862	0	3153828	Markers	WiimoteButtonB released
-3153.99177766271	0	3154005	Markers	WiimoteButtonB pressed
 3153.99277765883	0	3154006	Markers	BUT-RIGHT-ButtonB-Press
-3154.17177696518	0	3154185	Markers	WiimoteButtonB released
 3154.85277432618	0	3154866	Markers	Reaction: 0.339-right-yellow-correct
 3154.85477431843	0	3154868	Markers	End-Trial-3.365
 3154.8897741828	0	3154903	Markers	Trial Start: No.10-angle:40-left-left-kongruent-yellow-FA:no
@@ -4915,12 +4483,8 @@ onset	duration	sample	type	value
 3174.59869780685	0	3174612	Markers	Stop Vibro right
 3174.79569704344	0	3174809	Markers	Time between Warning and LED: 0.502
 3174.79569704344	0	3174809	Markers	Stim-40-R-walkWarning-061-yellow-1-kongruent
-3175.06569599714	0	3175079	Markers	WiimoteButtonB pressed
 3175.06669599326	0	3175080	Markers	BUT-RIGHT-ButtonB-Press
-3175.22869536548	0	3175242	Markers	WiimoteButtonB released
-3175.46669444319	0	3175480	Markers	WiimoteButtonB pressed
 3175.46769443932	0	3175481	Markers	BUT-RIGHT-ButtonB-Press
-3175.6766936294	0	3175690	Markers	WiimoteButtonB released
 3176.34669103303	0	3176360	Markers	Reaction: 0.271-right-yellow-correct
 3176.34869102528	0	3176362	Markers	End-Trial-7.164
 3176.38269089352	0	3176396	Markers	Trial Start: No.14-angle:40-left-left-kongruent-yellow-FA:no
@@ -4994,9 +4558,7 @@ onset	duration	sample	type	value
 3203.1355872208	0	3203149	Markers	Stop Vibro right
 3203.33358645351	0	3203347	Markers	Time between Warning and LED: 0.503
 3203.33358645351	0	3203347	Markers	Stim-60-R-walkWarning-047-blue-1-kongruent
-3203.57858550409	0	3203592	Markers	WiimoteButtonB pressed
 3203.57958550022	0	3203593	Markers	BUT-RIGHT-ButtonB-Press
-3203.79158467868	0	3203805	Markers	WiimoteButtonB released
 3204.88458044311	0	3204898	Markers	Reaction: 0.246-right-blue-correct
 3204.88558043923	0	3204899	Markers	End-Trial-6.778
 3204.91958030748	0	3204933	Markers	Trial Start: No.20-angle:60-right-right-kongruent-yellow-FA:no
@@ -5006,12 +4568,8 @@ onset	duration	sample	type	value
 3206.7015734019	0	3206715	Markers	Stop Vibro right
 3206.89857263849	0	3206912	Markers	Time between Warning and LED: 0.502
 3206.89857263849	0	3206912	Markers	Stim-60-R-walkWarning-166-yellow-1-kongruent
-3207.21557141006	0	3207229	Markers	WiimoteButtonB pressed
 3207.21657140618	0	3207230	Markers	BUT-RIGHT-ButtonB-Press
-3207.39957069703	0	3207413	Markers	WiimoteButtonB released
-3207.5635700615	0	3207577	Markers	WiimoteButtonB pressed
 3207.56457005762	0	3207578	Markers	BUT-RIGHT-ButtonB-Press
-3207.74856934459	0	3207762	Markers	WiimoteButtonB released
 3208.45056662421	0	3208464	Markers	Reaction: 0.319-right-yellow-correct
 3208.45156662034	0	3208465	Markers	End-Trial-3.532
 3208.48556648858	0	3208499	Markers	Trial Start: No.21-angle:40-left-left-kongruent-yellow-FA:no
@@ -5051,9 +4609,7 @@ onset	duration	sample	type	value
 3221.88851454952	0	3221902	Markers	Stop Vibro right
 3222.08651378224	0	3222100	Markers	Time between Warning and LED: 0.503
 3222.08651378224	0	3222100	Markers	Stim-60-R-walkWarning-137-blue--1-kongruent
-3222.33051283669	0	3222344	Markers	WiimoteButtonB pressed
 3222.33251282894	0	3222346	Markers	BUT-RIGHT-ButtonB-Press
-3222.54251201516	0	3222556	Markers	WiimoteButtonB released
 3223.63750777183	0	3223651	Markers	Reaction: 0.246-right-blue-correct
 3223.63850776796	0	3223652	Markers	End-Trial-3.366
 3223.6725076362	0	3223686	Markers	Trial Start: No.23-angle:40-right-left-inkongruent-yellow-FA:no
@@ -5066,12 +4622,8 @@ onset	duration	sample	type	value
 3225.85749916893	0	3225871	Markers	WiimoteButtonB pressed
 3225.85749916893	0	3225871	Markers	BUT-LEFT-ButtonB-Press
 3226.08449828926	0	3226098	Markers	WiimoteButtonB released
-3226.48549673532	0	3226499	Markers	WiimoteButtonB pressed
 3226.48649673144	0	3226500	Markers	BUT-RIGHT-ButtonB-Press
-3226.63849614241	0	3226652	Markers	WiimoteButtonB released
-3226.74249573939	0	3226756	Markers	WiimoteButtonB pressed
 3226.74249573939	0	3226756	Markers	BUT-RIGHT-ButtonB-Press
-3226.91049508836	0	3226924	Markers	WiimoteButtonB released
 3227.10249434433	0	3227116	Markers	Reaction: 0.307-both-unknown-incorrect
 3227.10349434045	0	3227117	Markers	End-Trial-3.431
 3227.1374942087	0	3227151	Markers	Trial Start: No.24-angle:60-left-left-kongruent-yellow-FA:no
@@ -5151,9 +4703,7 @@ onset	duration	sample	type	value
 3275.73130589814	0	3275745	Markers	Stop Vibro right
 3275.9273051386	0	3275941	Markers	Time between Warning and LED: 0.501
 3275.9273051386	0	3275941	Markers	Stim-60-R-walkWarning-261-blue--1-kongruent
-3276.17430418143	0	3276188	Markers	WiimoteButtonB pressed
 3276.17530417756	0	3276189	Markers	BUT-RIGHT-ButtonB-Press
-3276.36930342577	0	3276383	Markers	WiimoteButtonB released
 3277.4782991282	0	3277492	Markers	Reaction: 0.249-right-blue-correct
 3277.47929912432	0	3277493	Markers	End-Trial-8.64
 3277.51329899257	0	3277527	Markers	Trial Start: No.29-angle:60-left-left-kongruent-blue-FA:no
@@ -5175,12 +4725,8 @@ onset	duration	sample	type	value
 3282.94027796196	0	3282954	Markers	Stop Vibro right
 3283.14127718305	0	3283155	Markers	Time between Warning and LED: 0.505
 3283.14127718305	0	3283155	Markers	BackupLED used - Stim-40-R-walkWarning-011-yellow--1-kongruent
-3283.43727603599	0	3283451	Markers	WiimoteButtonB pressed
 3283.43727603599	0	3283451	Markers	BUT-RIGHT-ButtonB-Press
-3283.62727529971	0	3283641	Markers	WiimoteButtonB released
-3283.77227473781	0	3283786	Markers	WiimoteButtonB pressed
 3283.77227473781	0	3283786	Markers	BUT-RIGHT-ButtonB-Press
-3283.96827397827	0	3283982	Markers	WiimoteButtonB released
 3284.69227117264	0	3284706	Markers	Reaction: 0.296-right-yellow-correct
 3284.69427116489	0	3284708	Markers	End-Trial-3.566
 3284.72827103313	0	3284742	Markers	Trial Start: No.30-angle:-40-right-right-kongruent-yellow-FA:no
@@ -5205,9 +4751,7 @@ onset	duration	sample	type	value
 3293.4462372493	0	3293460	Markers	Stop Vibro right
 3293.64223648977	0	3293656	Markers	Time between Warning and LED: 0.502
 3293.64223648977	0	3293656	Markers	Stim-60-R-walkWarning-153-blue-1-kongruent
-3294.0062350792	0	3294020	Markers	WiimoteButtonB pressed
 3294.0062350792	0	3294020	Markers	BUT-RIGHT-ButtonB-Press
-3294.22223424216	0	3294236	Markers	WiimoteButtonB released
 3295.19423047548	0	3295208	Markers	Reaction: 0.365-right-blue-correct
 3295.19523047161	0	3295209	Markers	End-Trial-3.416
 3295.22923033985	0	3295243	Markers	Trial Start: No.32-angle:40-left-left-kongruent-yellow-FA:no
@@ -5240,12 +4784,8 @@ onset	duration	sample	type	value
 3308.07518055927	0	3308089	Markers	Stop Vibro right
 3308.27517978424	0	3308289	Markers	Time between Warning and LED: 0.502
 3308.27517978424	0	3308289	Markers	Stim-40-R-walkWarning-128-yellow--1-kongruent
-3308.56617865656	0	3308580	Markers	WiimoteButtonB pressed
 3308.56617865656	0	3308580	Markers	BUT-RIGHT-ButtonB-Press
-3308.77117786215	0	3308785	Markers	WiimoteButtonB released
-3308.95317715687	0	3308967	Markers	WiimoteButtonB pressed
 3308.95417715299	0	3308968	Markers	BUT-RIGHT-ButtonB-Press
-3309.13717644383	0	3309151	Markers	WiimoteButtonB released
 3309.82617377383	0	3309840	Markers	Reaction: 0.292-right-yellow-correct
 3309.82817376608	0	3309842	Markers	End-Trial-3.649
 3309.86217363433	0	3309876	Markers	Trial Start: No.34-angle:40-right-right-kongruent-blue-FA:no
@@ -5255,9 +4795,7 @@ onset	duration	sample	type	value
 3311.60916686438	0	3311623	Markers	Stop Vibro right
 3311.8071660971	0	3311821	Markers	Time between Warning and LED: 0.503
 3311.8071660971	0	3311821	Markers	Stim-40-R-walkWarning-007-blue--1-kongruent
-3312.14916477179	0	3312163	Markers	WiimoteButtonB pressed
 3312.15016476791	0	3312164	Markers	BUT-RIGHT-ButtonB-Press
-3312.31916411301	0	3312333	Markers	WiimoteButtonB released
 3313.35916008282	0	3313373	Markers	Reaction: 0.344-right-blue-correct
 3313.36116007507	0	3313375	Markers	End-Trial-3.498
 3313.39415994719	0	3313408	Markers	Trial Start: No.35-angle:60-right-right-kongruent-yellow-FA:no
@@ -5267,12 +4805,8 @@ onset	duration	sample	type	value
 3319.19413747113	0	3319208	Markers	Stop Vibro right
 3319.39113670772	0	3319405	Markers	Time between Warning and LED: 0.502
 3319.39113670772	0	3319405	Markers	Stim-60-R-walkWarning-034-yellow-1-kongruent
-3319.65713567693	0	3319671	Markers	WiimoteButtonB pressed
 3319.65813567305	0	3319672	Markers	BUT-RIGHT-ButtonB-Press
-3319.85213492126	0	3319866	Markers	WiimoteButtonB released
-3320.00313433611	0	3320017	Markers	WiimoteButtonB pressed
 3320.00413433224	0	3320018	Markers	BUT-RIGHT-ButtonB-Press
-3320.18113364633	0	3320195	Markers	WiimoteButtonB released
 3320.94213069732	0	3320956	Markers	Reaction: 0.268-right-yellow-correct
 3320.94313069344	0	3320957	Markers	End-Trial-7.549
 3320.97713056169	0	3320991	Markers	Trial Start: No.36-angle:40-left-left-kongruent-yellow-FA:no
@@ -5297,12 +4831,8 @@ onset	duration	sample	type	value
 3326.48310922494	0	3326497	Markers	Time between Warning and LED: 0.501
 3326.48310922494	0	3326497	Markers	Stim-60-R-walkWarning-270-yellow-1-kongruent
 3326.58710882192	0	3326601	Markers	Stop Vibro right
-3326.89810761674	0	3326912	Markers	WiimoteButtonB pressed
 3326.89910761286	0	3326913	Markers	BUT-RIGHT-ButtonB-Press
-3327.08310689983	0	3327097	Markers	WiimoteButtonB released
-3327.2671061868	0	3327281	Markers	WiimoteButtonB pressed
 3327.26810618292	0	3327282	Markers	BUT-RIGHT-ButtonB-Press
-3327.47110539626	0	3327485	Markers	WiimoteButtonB released
 3328.03410321453	0	3328048	Markers	Reaction: 0.416-right-yellow-correct
 3328.03510321066	0	3328049	Markers	End-Trial-3.545
 3328.0691030789	0	3328083	Markers	Trial Start: No.38-angle:35-right-right-kongruent-blue-FA:no
@@ -5312,9 +4842,7 @@ onset	duration	sample	type	value
 3335.58507395304	0	3335599	Markers	Stop Vibro right
 3335.78307318575	0	3335797	Markers	Time between Warning and LED: 0.504
 3335.78407318188	0	3335798	Markers	Stim-35-R-walkWarning-239-blue--1-kongruent
-3336.03207222083	0	3336046	Markers	WiimoteButtonB pressed
 3336.03307221696	0	3336047	Markers	BUT-RIGHT-ButtonB-Press
-3336.21107152717	0	3336225	Markers	WiimoteButtonB released
 3337.33506717147	0	3337349	Markers	Reaction: 0.249-right-blue-correct
 3337.3360671676	0	3337350	Markers	End-Trial-9.267
 3337.37006703584	0	3337384	Markers	Trial Start: No.39-angle:40-right-right-kongruent-blue-FA:no
@@ -5324,9 +4852,7 @@ onset	duration	sample	type	value
 3338.98706076967	0	3339001	Markers	Stop Vibro right
 3339.18406000626	0	3339198	Markers	Time between Warning and LED: 0.502
 3339.18406000626	0	3339198	Markers	Stim-40-R-walkWarning-122-blue--1-kongruent
-3339.45605895221	0	3339470	Markers	WiimoteButtonB pressed
 3339.45605895221	0	3339470	Markers	BUT-RIGHT-ButtonB-Press
-3339.6610581578	0	3339675	Markers	WiimoteButtonB released
 3340.73505399585	0	3340749	Markers	Reaction: 0.273-right-blue-correct
 3340.73605399198	0	3340750	Markers	End-Trial-3.366
 3340.77005386022	0	3340784	Markers	Trial Start: No.40-angle:60-right-right-kongruent-yellow-FA:no
@@ -5336,12 +4862,8 @@ onset	duration	sample	type	value
 3342.51904708253	0	3342533	Markers	Stop Vibro right
 3342.71604631912	0	3342730	Markers	Time between Warning and LED: 0.502
 3342.71604631912	0	3342730	Markers	Stim-60-R-walkWarning-016-yellow--1-kongruent
-3343.07004494731	0	3343084	Markers	WiimoteButtonB pressed
 3343.07004494731	0	3343084	Markers	BUT-RIGHT-ButtonB-Press
-3343.23304431565	0	3343247	Markers	WiimoteButtonB released
-3343.4000436685	0	3343414	Markers	WiimoteButtonB pressed
 3343.4000436685	0	3343414	Markers	BUT-RIGHT-ButtonB-Press
-3343.59704290508	0	3343611	Markers	WiimoteButtonB released
 3344.26704030871	0	3344281	Markers	Reaction: 0.355-right-yellow-correct
 3344.26804030484	0	3344282	Markers	End-Trial-3.498
 3344.30204017308	0	3344316	Markers	Trial Start: No.41-angle:40-right-right-kongruent-yellow-FA:no
@@ -5351,12 +4873,8 @@ onset	duration	sample	type	value
 3350.7090153448	0	3350723	Markers	Stop Vibro right
 3350.90501458526	0	3350919	Markers	Time between Warning and LED: 0.501
 3350.90501458526	0	3350919	Markers	Stim-40-R-walkWarning-052-yellow-1-kongruent
-3351.16601357384	0	3351180	Markers	WiimoteButtonB pressed
 3351.16701356996	0	3351181	Markers	BUT-RIGHT-ButtonB-Press
-3351.3460128763	0	3351360	Markers	WiimoteButtonB released
-3351.52101219815	0	3351535	Markers	WiimoteButtonB pressed
 3351.52201219427	0	3351536	Markers	BUT-RIGHT-ButtonB-Press
-3351.72701139986	0	3351741	Markers	WiimoteButtonB released
 3352.45600857485	0	3352470	Markers	Reaction: 0.263-right-yellow-correct
 3352.4580085671	0	3352472	Markers	End-Trial-8.156
 3352.49200843535	0	3352506	Markers	Trial Start: No.42-angle:60-left-left-kongruent-yellow-FA:no
@@ -5381,12 +4899,8 @@ onset	duration	sample	type	value
 3357.79898786976	0	3357813	Markers	Stop Vibro right
 3357.98698714123	0	3358001	Markers	Time between Warning and LED: 0.502
 3357.98698714123	0	3358001	Markers	Stim-60-R-walkWarning-272-yellow-1-kongruent
-3358.30898589342	0	3358323	Markers	WiimoteButtonB pressed
 3358.30898589342	0	3358323	Markers	BUT-RIGHT-ButtonB-Press
-3358.45698531989	0	3358471	Markers	WiimoteButtonB released
-3358.61798469599	0	3358632	Markers	WiimoteButtonB pressed
 3358.61898469211	0	3358633	Markers	BUT-RIGHT-ButtonB-Press
-3358.80198398295	0	3358816	Markers	WiimoteButtonB released
 3359.53898112694	0	3359553	Markers	Reaction: 0.323-right-yellow-correct
 3359.53998112307	0	3359554	Markers	End-Trial-3.615
 3359.57398099131	0	3359588	Markers	Trial Start: No.44-angle:40-right-right-kongruent-yellow-FA:no
@@ -5396,12 +4910,8 @@ onset	duration	sample	type	value
 3365.93895632578	0	3365953	Markers	Stop Vibro right
 3366.13795555462	0	3366152	Markers	Time between Warning and LED: 0.501
 3366.13795555462	0	3366152	Markers	Stim-40-R-walkWarning-246-yellow--1-kongruent
-3366.43995438432	0	3366454	Markers	WiimoteButtonB pressed
 3366.43995438432	0	3366454	Markers	BUT-RIGHT-ButtonB-Press
-3366.59595377979	0	3366610	Markers	WiimoteButtonB released
-3366.78995302801	0	3366804	Markers	WiimoteButtonB pressed
 3366.78995302801	0	3366804	Markers	BUT-RIGHT-ButtonB-Press
-3366.98595226847	0	3367000	Markers	WiimoteButtonB released
 3367.68894954422	0	3367703	Markers	Reaction: 0.303-right-yellow-correct
 3367.69094953647	0	3367705	Markers	End-Trial-8.117
 3367.72394940859	0	3367738	Markers	Trial Start: No.45-angle:60-right-right-kongruent-yellow-FA:no
@@ -5411,12 +4921,8 @@ onset	duration	sample	type	value
 3369.37394301454	0	3369388	Markers	Stop Vibro right
 3369.569942255	0	3369584	Markers	Time between Warning and LED: 0.501
 3369.569942255	0	3369584	Markers	Stim-60-R-walkWarning-139-yellow--1-kongruent
-3369.86694110407	0	3369881	Markers	WiimoteButtonB pressed
 3369.8679411002	0	3369882	Markers	BUT-RIGHT-ButtonB-Press
-3370.03194046467	0	3370046	Markers	WiimoteButtonB released
-3370.18593986789	0	3370200	Markers	WiimoteButtonB pressed
 3370.18593986789	0	3370200	Markers	BUT-RIGHT-ButtonB-Press
-3370.36293918198	0	3370377	Markers	WiimoteButtonB released
 3371.11993624847	0	3371134	Markers	Reaction: 0.299-right-yellow-correct
 3371.12193624072	0	3371136	Markers	End-Trial-3.397
 3371.15593610896	0	3371170	Markers	Trial Start: No.46-angle:60-left-left-kongruent-yellow-FA:no
@@ -5441,9 +4947,7 @@ onset	duration	sample	type	value
 3381.16789731065	0	3381182	Markers	Stop Vibro right
 3381.33289667124	0	3381347	Markers	Time between Warning and LED: 0.471
 3381.33289667124	0	3381347	Markers	Stim-35-R-walkWarning-070-blue-1-kongruent
-3381.54989583033	0	3381564	Markers	WiimoteButtonB pressed
 3381.54989583033	0	3381564	Markers	BUT-RIGHT-ButtonB-Press
-3381.76689498942	0	3381781	Markers	WiimoteButtonB released
 3382.88389066084	0	3382898	Markers	Reaction: 0.218-right-blue-correct
 3382.88589065309	0	3382900	Markers	End-Trial-8.065
 3382.91989052133	0	3382934	Markers	Trial Start: No.48-angle:60-left-left-kongruent-yellow-FA:no
@@ -5468,9 +4972,7 @@ onset	duration	sample	type	value
 3388.00587081216	0	3388020	Markers	Stop Vibro right
 3388.19887006425	0	3388213	Markers	Time between Warning and LED: 0.502
 3388.19887006425	0	3388213	Markers	Stim-60-R-walkWarning-280-blue-1-kongruent
-3388.48186896757	0	3388496	Markers	WiimoteButtonB pressed
 3388.4828689637	0	3388497	Markers	BUT-RIGHT-ButtonB-Press
-3388.68886816541	0	3388703	Markers	WiimoteButtonB released
 3389.74986405384	0	3389764	Markers	Reaction: 0.285-right-blue-correct
 3389.75186404609	0	3389766	Markers	End-Trial-3.399
 3389.78586391434	0	3389800	Markers	Trial Start: No.50-angle:40-right-right-kongruent-blue-FA:no
@@ -5480,9 +4982,7 @@ onset	duration	sample	type	value
 3396.1788391403	0	3396193	Markers	Stop Vibro right
 3396.37783836914	0	3396392	Markers	Time between Warning and LED: 0.502
 3396.37783836914	0	3396392	Markers	Stim-40-R-walkWarning-248-blue--1-kongruent
-3396.65183730734	0	3396666	Markers	WiimoteButtonB pressed
 3396.65283730347	0	3396667	Markers	BUT-RIGHT-ButtonB-Press
-3396.84483655943	0	3396859	Markers	WiimoteButtonB released
 3397.92783236261	0	3397942	Markers	Reaction: 0.276-right-blue-correct
 3397.92983235486	0	3397944	Markers	End-Trial-8.144
 3397.9638322231	0	3397978	Markers	Trial Start: No.51-angle:40-right-right-kongruent-blue-FA:no
@@ -5492,9 +4992,7 @@ onset	duration	sample	type	value
 3399.74682531366	0	3399761	Markers	Stop Vibro right
 3399.94382455024	0	3399958	Markers	Time between Warning and LED: 0.501
 3399.94382455024	0	3399958	Markers	Stim-40-R-walkWarning-123-blue--1-kongruent
-3400.22982344194	0	3400244	Markers	WiimoteButtonB pressed
 3400.23082343807	0	3400245	Markers	BUT-RIGHT-ButtonB-Press
-3400.42382269016	0	3400438	Markers	WiimoteButtonB released
 3401.49481853984	0	3401509	Markers	Reaction: 0.288-right-blue-correct
 3401.49681853209	0	3401511	Markers	End-Trial-3.533
 3401.52981840421	0	3401544	Markers	Trial Start: No.52-angle:60-left-left-kongruent-yellow-FA:no
@@ -5519,12 +5017,8 @@ onset	duration	sample	type	value
 3411.17778101646	0	3411192	Markers	Stop Vibro right
 3411.37578024917	0	3411390	Markers	Time between Warning and LED: 0.502
 3411.37578024917	0	3411390	Markers	Stim-60-R-walkWarning-046-yellow-1-kongruent
-3411.74677881148	0	3411761	Markers	WiimoteButtonB pressed
 3411.7477788076	0	3411762	Markers	BUT-RIGHT-ButtonB-Press
-3411.91477816045	0	3411929	Markers	WiimoteButtonB released
-3412.09577745904	0	3412110	Markers	WiimoteButtonB pressed
 3412.09677745517	0	3412111	Markers	BUT-RIGHT-ButtonB-Press
-3412.28977670726	0	3412304	Markers	WiimoteButtonB released
 3412.92677423877	0	3412941	Markers	Reaction: 0.374-right-yellow-correct
 3412.92777423489	0	3412942	Markers	End-Trial-7.752
 3412.96277409926	0	3412977	Markers	Trial Start: No.54-angle:40-right-right-kongruent-yellow-FA:no
@@ -5534,12 +5028,8 @@ onset	duration	sample	type	value
 3414.86176674029	0	3414876	Markers	Stop Vibro right
 3415.05876597688	0	3415073	Markers	Time between Warning and LED: 0.503
 3415.05876597688	0	3415073	Markers	Stim-40-R-walkWarning-185-yellow-1-kongruent
-3415.45676443456	0	3415471	Markers	WiimoteButtonB pressed
 3415.45776443068	0	3415472	Markers	BUT-RIGHT-ButtonB-Press
-3415.59876388428	0	3415613	Markers	WiimoteButtonB released
-3415.79376312862	0	3415808	Markers	WiimoteButtonB pressed
 3415.79476312475	0	3415809	Markers	BUT-RIGHT-ButtonB-Press
-3415.97376243109	0	3415988	Markers	WiimoteButtonB released
 3416.60975996647	0	3416624	Markers	Reaction: 0.4-right-yellow-correct
 3416.6107599626	0	3416625	Markers	End-Trial-3.649
 3416.64575982697	0	3416660	Markers	Trial Start: No.55-angle:60-right-right-kongruent-blue-FA:no
@@ -5549,9 +5039,7 @@ onset	duration	sample	type	value
 3418.49375266563	0	3418508	Markers	Stop Vibro right
 3418.6897519061	0	3418704	Markers	Time between Warning and LED: 0.502
 3418.6897519061	0	3418704	Markers	Stim-60-R-walkWarning-294-blue-1-kongruent
-3418.95775086755	0	3418972	Markers	WiimoteButtonB pressed
 3418.95775086755	0	3418972	Markers	BUT-RIGHT-ButtonB-Press
-3419.11275026689	0	3419127	Markers	WiimoteButtonB released
 3420.24074589569	0	3420255	Markers	Reaction: 0.269-right-blue-correct
 3420.24174589181	0	3420256	Markers	End-Trial-3.597
 3420.27574576006	0	3420290	Markers	Trial Start: No.56-angle:40-left-left-kongruent-yellow-FA:no
@@ -5588,9 +5076,7 @@ onset	duration	sample	type	value
 3434.77068958931	0	3434785	Markers	Stop Vibro right
 3434.96868882202	0	3434983	Markers	Time between Warning and LED: 0.503
 3434.96868882202	0	3434983	Markers	Stim-60-R-walkWarning-007-blue--1-kongruent
-3435.29368756259	0	3435308	Markers	WiimoteButtonB pressed
 3435.29468755871	0	3435309	Markers	BUT-RIGHT-ButtonB-Press
-3435.4676868883	0	3435482	Markers	WiimoteButtonB released
 3436.51968281161	0	3436534	Markers	Reaction: 0.326-right-blue-correct
 3436.52068280774	0	3436535	Markers	End-Trial-3.647
 3436.55468267598	0	3436569	Markers	Trial Start: No.59-angle:60-right-right-kongruent-yellow-FA:no
@@ -5600,12 +5086,8 @@ onset	duration	sample	type	value
 3441.93566182363	0	3441950	Markers	Stop Vibro right
 3442.13366105635	0	3442148	Markers	Time between Warning and LED: 0.503
 3442.13366105635	0	3442148	Markers	Stim-60-R-walkWarning-038-yellow-1-kongruent
-3442.35566019606	0	3442370	Markers	WiimoteButtonB pressed
 3442.35666019218	0	3442371	Markers	BUT-RIGHT-ButtonB-Press
-3442.5426594714	0	3442557	Markers	WiimoteButtonB released
-3442.72565876224	0	3442740	Markers	WiimoteButtonB pressed
 3442.72665875836	0	3442741	Markers	BUT-RIGHT-ButtonB-Press
-3442.92065800658	0	3442935	Markers	WiimoteButtonB released
 3443.68365504982	0	3443698	Markers	Reaction: 0.224-right-yellow-correct
 3443.68565504206	0	3443700	Markers	End-Trial-7.131
 3443.71965491031	0	3443734	Markers	Trial Start: No.60-angle:40-right-right-kongruent-yellow-FA:no
@@ -5615,12 +5097,8 @@ onset	duration	sample	type	value
 3445.38664845038	0	3445401	Markers	Stop Vibro right
 3445.58564767922	0	3445600	Markers	Time between Warning and LED: 0.504
 3445.58564767922	0	3445600	Markers	Stim-40-R-walkWarning-165-yellow-1-kongruent
-3445.86864658254	0	3445883	Markers	WiimoteButtonB pressed
 3445.86964657867	0	3445884	Markers	BUT-RIGHT-ButtonB-Press
-3446.01864600127	0	3446033	Markers	WiimoteButtonB released
-3446.18564535411	0	3446200	Markers	WiimoteButtonB pressed
 3446.18664535024	0	3446201	Markers	BUT-RIGHT-ButtonB-Press
-3446.35564469533	0	3446370	Markers	WiimoteButtonB released
 3447.13664166881	0	3447151	Markers	Reaction: 0.285-right-yellow-correct
 3447.13764166494	0	3447152	Markers	End-Trial-3.418
 3447.17164153318	0	3447186	Markers	Trial Start: No.61-angle:40-right-right-kongruent-blue-FA:no
@@ -5630,9 +5108,7 @@ onset	duration	sample	type	value
 3448.87163494537	0	3448886	Markers	Stop Vibro right
 3449.06863418196	0	3449083	Markers	Time between Warning and LED: 0.502
 3449.06863418196	0	3449083	Markers	Stim-40-R-walkWarning-282-blue-1-kongruent
-3449.38763294578	0	3449402	Markers	WiimoteButtonB pressed
 3449.38863294191	0	3449403	Markers	BUT-RIGHT-ButtonB-Press
-3449.53963235675	0	3449554	Markers	WiimoteButtonB released
 3450.61962817156	0	3450634	Markers	Reaction: 0.321-right-blue-correct
 3450.62062816768	0	3450635	Markers	End-Trial-3.449
 3450.65462803593	0	3450669	Markers	Trial Start: No.62-angle:40-right-right-kongruent-yellow-FA:no
@@ -5642,12 +5118,8 @@ onset	duration	sample	type	value
 3457.01260339752	0	3457027	Markers	Stop Vibro right
 3457.20860263799	0	3457223	Markers	Time between Warning and LED: 0.501
 3457.20860263799	0	3457223	Markers	Stim-40-R-walkWarning-247-yellow--1-kongruent
-3457.47860159169	0	3457493	Markers	WiimoteButtonB pressed
 3457.47860159169	0	3457493	Markers	BUT-RIGHT-ButtonB-Press
-3457.63360099104	0	3457648	Markers	WiimoteButtonB released
-3457.78760039426	0	3457802	Markers	WiimoteButtonB pressed
 3457.78760039426	0	3457802	Markers	BUT-RIGHT-ButtonB-Press
-3457.95959972773	0	3457974	Markers	WiimoteButtonB released
 3458.75959662758	0	3458774	Markers	Reaction: 0.271-right-yellow-correct
 3458.76059662371	0	3458775	Markers	End-Trial-8.106
 3458.79559648808	0	3458810	Markers	Trial Start: No.63-angle:40-left-left-kongruent-yellow-FA:no
@@ -5672,12 +5144,8 @@ onset	duration	sample	type	value
 3464.22157546134	0	3464236	Markers	Stop Vibro right
 3464.42357467855	0	3464438	Markers	Time between Warning and LED: 0.505
 3464.42357467855	0	3464438	Markers	BackupLED used - Stim-45-R-walkWarning-015-yellow--1-kongruent
-3464.81257317111	0	3464827	Markers	WiimoteButtonB pressed
 3464.81357316723	0	3464828	Markers	BUT-RIGHT-ButtonB-Press
-3464.9775725317	0	3464992	Markers	WiimoteButtonB released
-3465.1385719078	0	3465153	Markers	WiimoteButtonB pressed
 3465.13957190393	0	3465154	Markers	BUT-RIGHT-ButtonB-Press
-3465.31257123352	0	3465327	Markers	WiimoteButtonB released
 3465.97456866815	0	3465989	Markers	Reaction: 0.391-right-yellow-correct
 3465.97556866427	0	3465990	Markers	End-Trial-3.632
 3466.00956853252	0	3466024	Markers	Trial Start: No.64-angle:-45-right-right-kongruent-yellow-FA:no
@@ -5687,9 +5155,7 @@ onset	duration	sample	type	value
 3471.38654769567	0	3471401	Markers	Stop Vibro right
 3471.58654692063	0	3471601	Markers	Time between Warning and LED: 0.502
 3471.58654692063	0	3471601	Markers	R-Stim-45-L-walkWarning-041-yellow-1-kongruent
-3471.81454603709	0	3471829	Markers	WiimoteButtonB pressed
 3471.81554603322	0	3471830	Markers	R-BUT-RIGHT-ButtonB-Press
-3471.96754544419	0	3471982	Markers	WiimoteButtonB released
 3472.40754373911	0	3472422	Markers	WiimoteButtonB pressed
 3472.40754373911	0	3472422	Markers	R-BUT-LEFT-ButtonB-Press
 3472.61054295245	0	3472625	Markers	WiimoteButtonB released
@@ -5705,12 +5171,8 @@ onset	duration	sample	type	value
 3475.0705334195	0	3475085	Markers	Stop Vibro right
 3475.26753265609	0	3475282	Markers	Time between Warning and LED: 0.502
 3475.26753265609	0	3475282	Markers	Stim-60-R-walkWarning-159-yellow-1-kongruent
-3475.59953136953	0	3475614	Markers	WiimoteButtonB pressed
 3475.60053136565	0	3475615	Markers	BUT-RIGHT-ButtonB-Press
-3475.77453069137	0	3475789	Markers	WiimoteButtonB released
-3475.91853013335	0	3475933	Markers	WiimoteButtonB pressed
 3475.91953012947	0	3475934	Markers	BUT-RIGHT-ButtonB-Press
-3476.10452941256	0	3476119	Markers	WiimoteButtonB released
 3476.81852664568	0	3476833	Markers	Reaction: 0.333-right-yellow-correct
 3476.82052663793	0	3476835	Markers	End-Trial-3.648
 3476.85452650618	0	3476869	Markers	Trial Start: No.66-angle:60-left-left-kongruent-blue-FA:no
@@ -5747,9 +5209,7 @@ onset	duration	sample	type	value
 3489.83947618695	0	3489854	Markers	Stop Vibro right
 3490.03647542354	0	3490051	Markers	Time between Warning and LED: 0.501
 3490.03647542354	0	3490051	Markers	Stim-40-R-walkWarning-128-blue--1-kongruent
-3490.35947417185	0	3490374	Markers	WiimoteButtonB pressed
 3490.36047416798	0	3490375	Markers	BUT-RIGHT-ButtonB-Press
-3490.53147350532	0	3490546	Markers	WiimoteButtonB released
 3491.62746925812	0	3491642	Markers	Reaction: 0.325-right-blue-correct
 3491.62846925425	0	3491643	Markers	End-Trial-3.604
 3491.66346911862	0	3491678	Markers	Trial Start: No.69-angle:60-left-left-kongruent-yellow-FA:no
@@ -5771,9 +5231,7 @@ onset	duration	sample	type	value
 3501.10843251753	0	3501123	Markers	Stop Vibro right
 3501.30543175412	0	3501320	Markers	Time between Warning and LED: 0.501
 3501.30543175412	0	3501320	Markers	Stim-40-R-walkWarning-062-blue-1-kongruent
-3501.57943069232	0	3501594	Markers	WiimoteButtonB pressed
 3501.57943069232	0	3501594	Markers	BUT-RIGHT-ButtonB-Press
-3501.77442993666	0	3501789	Markers	WiimoteButtonB released
 3502.85642574371	0	3502871	Markers	Reaction: 0.276-right-blue-correct
 3502.85742573984	0	3502872	Markers	End-Trial-7.547
 3502.89142560808	0	3502906	Markers	Trial Start: No.71-angle:40-left-left-kongruent-yellow-FA:no
@@ -5806,12 +5264,8 @@ onset	duration	sample	type	value
 3516.21237398679	0	3516227	Markers	Stop Vibro right
 3516.41037321951	0	3516425	Markers	Time between Warning and LED: 0.501
 3516.41037321951	0	3516425	Markers	Stim-60-R-walkWarning-271-yellow--1-kongruent
-3516.80437169268	0	3516819	Markers	WiimoteButtonB pressed
 3516.80537168881	0	3516820	Markers	BUT-RIGHT-ButtonB-Press
-3516.98137100678	0	3516996	Markers	WiimoteButtonB released
-3517.12237046038	0	3517137	Markers	WiimoteButtonB pressed
 3517.1233704565	0	3517138	Markers	BUT-RIGHT-ButtonB-Press
-3517.31736970472	0	3517332	Markers	WiimoteButtonB released
 3517.9613672091	0	3517976	Markers	Reaction: 0.397-right-yellow-correct
 3517.96236720522	0	3517977	Markers	End-Trial-3.563
 3517.99736706959	0	3518012	Markers	Trial Start: No.73-angle:40-left-left-kongruent-none-FA:yes
@@ -5831,9 +5285,7 @@ onset	duration	sample	type	value
 3523.360346287	0	3523375	Markers	Stop Vibro right
 3523.55834551971	0	3523573	Markers	Time between Warning and LED: 0.503
 3523.55834551971	0	3523573	Markers	Stim-60-R-walkWarning-021-blue--1-kongruent
-3523.92734408977	0	3523942	Markers	WiimoteButtonB pressed
 3523.92834408589	0	3523943	Markers	BUT-RIGHT-ButtonB-Press
-3524.11134337673	0	3524126	Markers	WiimoteButtonB released
 3525.1093395093	0	3525124	Markers	Reaction: 0.37-right-blue-correct
 3525.11033950543	0	3525125	Markers	End-Trial-3.55
 3525.14433937367	0	3525159	Markers	Trial Start: No.75-angle:60-left-right-inkongruent-yellow-FA:no
@@ -5858,12 +5310,8 @@ onset	duration	sample	type	value
 3534.17130439241	0	3534186	Markers	Stop Vibro right
 3534.37130361737	0	3534386	Markers	Time between Warning and LED: 0.503
 3534.37130361737	0	3534386	Markers	Stim-60-R-walkWarning-160-yellow-1-kongruent
-3534.71130229981	0	3534726	Markers	WiimoteButtonB pressed
 3534.71130229981	0	3534726	Markers	BUT-RIGHT-ButtonB-Press
-3534.8963015829	0	3534911	Markers	WiimoteButtonB released
-3535.03830103263	0	3535053	Markers	WiimoteButtonB pressed
 3535.04030102488	0	3535055	Markers	BUT-RIGHT-ButtonB-Press
-3535.22330031572	0	3535238	Markers	WiimoteButtonB released
 3535.92329760309	0	3535938	Markers	Reaction: 0.341-right-yellow-correct
 3535.92429759922	0	3535939	Markers	End-Trial-3.482
 3535.95829746746	0	3535973	Markers	Trial Start: No.77-angle:40-left-left-kongruent-blue-FA:no
@@ -5922,9 +5370,7 @@ onset	duration	sample	type	value
 3561.08920008028	0	3561104	Markers	Stop Vibro right
 3561.28619931687	0	3561301	Markers	Time between Warning and LED: 0.502
 3561.28619931687	0	3561301	Markers	Stim-40-R-walkWarning-060-blue-1-kongruent
-3561.59819810781	0	3561613	Markers	WiimoteButtonB pressed
 3561.59919810394	0	3561614	Markers	BUT-RIGHT-ButtonB-Press
-3561.77619741803	0	3561791	Markers	WiimoteButtonB released
 3562.83719330646	0	3562852	Markers	Reaction: 0.314-right-blue-correct
 3562.83919329871	0	3562854	Markers	End-Trial-8.745
 3562.87319316696	0	3562888	Markers	Trial Start: No.82-angle:60-left-left-kongruent-yellow-FA:no
@@ -5985,12 +5431,8 @@ onset	duration	sample	type	value
 3583.10811475266	0	3583123	Markers	Stop Vibro right
 3583.3071139815	0	3583322	Markers	Time between Warning and LED: 0.503
 3583.3071139815	0	3583322	Markers	Stim-60-R-walkWarning-032-yellow--1-kongruent
-3583.60711281895	0	3583622	Markers	WiimoteButtonB pressed
 3583.60811281507	0	3583623	Markers	BUT-RIGHT-ButtonB-Press
-3583.77111218342	0	3583786	Markers	WiimoteButtonB released
-3583.90311167189	0	3583918	Markers	WiimoteButtonB pressed
 3583.90411166802	0	3583919	Markers	BUT-RIGHT-ButtonB-Press
-3584.07811099374	0	3584093	Markers	WiimoteButtonB released
 3584.85710797497	0	3584872	Markers	Reaction: 0.302-right-yellow-correct
 3584.85910796722	0	3584874	Markers	End-Trial-3.497
 3584.89310783546	0	3584908	Markers	Trial Start: No.86-angle:40-right-right-kongruent-yellow-FA:no
@@ -6000,12 +5442,8 @@ onset	duration	sample	type	value
 3591.37808270491	0	3591393	Markers	Stop Vibro right
 3591.5750819415	0	3591590	Markers	Time between Warning and LED: 0.502
 3591.5750819415	0	3591590	Markers	Stim-40-R-walkWarning-063-yellow-1-kongruent
-3591.83608093008	0	3591851	Markers	WiimoteButtonB pressed
 3591.83608093008	0	3591851	Markers	BUT-RIGHT-ButtonB-Press
-3592.0100802558	0	3592025	Markers	WiimoteButtonB released
-3592.16207966677	0	3592177	Markers	WiimoteButtonB pressed
 3592.1630796629	0	3592178	Markers	BUT-RIGHT-ButtonB-Press
-3592.34707894986	0	3592362	Markers	WiimoteButtonB released
 3593.1260759311	0	3593141	Markers	Reaction: 0.263-right-yellow-correct
 3593.12807592335	0	3593143	Markers	End-Trial-8.235
 3593.16207579159	0	3593177	Markers	Trial Start: No.87-angle:45-right-right-kongruent-yellow-FA:no
@@ -6015,12 +5453,8 @@ onset	duration	sample	type	value
 3595.00606864576	0	3595021	Markers	Stop Vibro right
 3595.20606787072	0	3595221	Markers	Time between Warning and LED: 0.501
 3595.20606787072	0	3595221	Markers	Stim-45-R-walkWarning-176-yellow-1-kongruent
-3595.51606666941	0	3595531	Markers	WiimoteButtonB pressed
 3595.51606666941	0	3595531	Markers	BUT-RIGHT-ButtonB-Press
-3595.69206598738	0	3595707	Markers	WiimoteButtonB released
-3595.8460653906	0	3595861	Markers	WiimoteButtonB pressed
 3595.8460653906	0	3595861	Markers	BUT-RIGHT-ButtonB-Press
-3596.04906460394	0	3596064	Markers	WiimoteButtonB released
 3596.75706186031	0	3596772	Markers	Reaction: 0.312-right-yellow-correct
 3596.75906185256	0	3596774	Markers	End-Trial-3.597
 3596.79206172468	0	3596807	Markers	Trial Start: No.88-angle:40-right-right-kongruent-blue-FA:no
@@ -6030,9 +5464,7 @@ onset	duration	sample	type	value
 3598.67305443547	0	3598688	Markers	Stop Vibro right
 3598.87405365656	0	3598889	Markers	Time between Warning and LED: 0.506
 3598.87405365656	0	3598889	Markers	BackupLED used - Stim-40-R-walkWarning-293-blue-1-kongruent
-3599.24105223436	0	3599256	Markers	WiimoteButtonB pressed
 3599.24105223436	0	3599256	Markers	BUT-RIGHT-ButtonB-Press
-3599.42605151746	0	3599441	Markers	WiimoteButtonB released
 3600.42504764615	0	3600440	Markers	Reaction: 0.369-right-blue-correct
 3600.4270476384	0	3600442	Markers	End-Trial-3.634
 3600.46004751052	0	3600475	Markers	Trial Start: No.88-angle:-40-right-right-kongruent-blue-FA:no
@@ -6054,9 +5486,7 @@ onset	duration	sample	type	value
 3610.27100949111	0	3610286	Markers	Stop Vibro right
 3610.4680087277	0	3610483	Markers	Time between Warning and LED: 0.503
 3610.4680087277	0	3610483	Markers	Stim-40-R-walkWarning-118-blue--1-kongruent
-3610.80900740627	0	3610824	Markers	WiimoteButtonB pressed
 3610.80900740627	0	3610824	Markers	BUT-RIGHT-ButtonB-Press
-3611.01000662736	0	3611025	Markers	WiimoteButtonB released
 3612.0190027173	0	3612034	Markers	Reaction: 0.341-right-blue-correct
 3612.02100270955	0	3612036	Markers	End-Trial-3.449
 3612.05400258167	0	3612069	Markers	Trial Start: No.90-angle:60-right-right-kongruent-yellow-FA:no
@@ -6066,12 +5496,8 @@ onset	duration	sample	type	value
 3613.85499560246	0	3613870	Markers	Stop Vibro right
 3614.0499948468	0	3614065	Markers	Time between Warning and LED: 0.502
 3614.0499948468	0	3614065	Markers	Stim-60-R-walkWarning-011-yellow--1-kongruent
-3614.48699315335	0	3614502	Markers	WiimoteButtonB pressed
 3614.48799314947	0	3614503	Markers	BUT-RIGHT-ButtonB-Press
-3614.64099255657	0	3614656	Markers	WiimoteButtonB released
-3614.7749920373	0	3614790	Markers	WiimoteButtonB pressed
 3614.77599203342	0	3614791	Markers	BUT-RIGHT-ButtonB-Press
-3614.96399130489	0	3614979	Markers	WiimoteButtonB released
 3615.6009888364	0	3615616	Markers	Reaction: 0.439-right-yellow-correct
 3615.60298882865	0	3615618	Markers	End-Trial-3.548
 3615.63598870077	0	3615651	Markers	Trial Start: No.91-angle:40-right-right-kongruent-yellow-FA:no
@@ -6081,12 +5507,8 @@ onset	duration	sample	type	value
 3622.20196325633	0	3622217	Markers	Stop Vibro right
 3622.39796249679	0	3622413	Markers	Time between Warning and LED: 0.501
 3622.39796249679	0	3622413	Markers	Stim-40-R-walkWarning-058-yellow-1-kongruent
-3622.69196135749	0	3622707	Markers	WiimoteButtonB pressed
 3622.69296135361	0	3622708	Markers	BUT-RIGHT-ButtonB-Press
-3622.86596068321	0	3622881	Markers	WiimoteButtonB released
-3623.03996000892	0	3623055	Markers	WiimoteButtonB pressed
 3623.04096000505	0	3623056	Markers	BUT-RIGHT-ButtonB-Press
-3623.22495929202	0	3623240	Markers	WiimoteButtonB released
 3623.94895648638	0	3623964	Markers	Reaction: 0.296-right-yellow-correct
 3623.94995648251	0	3623965	Markers	End-Trial-8.314
 3623.98495634688	0	3624000	Markers	Trial Start: No.92-angle:60-left-left-kongruent-yellow-FA:no
@@ -6111,9 +5533,7 @@ onset	duration	sample	type	value
 3629.38193543252	0	3629397	Markers	Stop Vibro right
 3629.57893466911	0	3629594	Markers	Time between Warning and LED: 0.503
 3629.57893466911	0	3629594	Markers	Stim-40-R-walkWarning-293-blue-1-kongruent
-3629.9569332043	0	3629972	Markers	WiimoteButtonB pressed
 3629.95793320042	0	3629973	Markers	BUT-RIGHT-ButtonB-Press
-3630.10993261139	0	3630125	Markers	WiimoteButtonB released
 3631.12992865871	0	3631145	Markers	Reaction: 0.38-right-blue-correct
 3631.13092865483	0	3631146	Markers	End-Trial-3.599
 3631.16492852308	0	3631180	Markers	Trial Start: No.94-angle:45-left-left-kongruent-blue-FA:no
@@ -6135,12 +5555,8 @@ onset	duration	sample	type	value
 3640.21289346044	0	3640228	Markers	Stop Vibro right
 3640.4088927009	0	3640424	Markers	Time between Warning and LED: 0.501
 3640.4088927009	0	3640424	Markers	Stim-60-R-walkWarning-135-yellow--1-kongruent
-3640.67589166623	0	3640691	Markers	WiimoteButtonB pressed
 3640.67689166235	0	3640692	Markers	BUT-RIGHT-ButtonB-Press
-3640.85389097644	0	3640869	Markers	WiimoteButtonB released
-3641.00589038742	0	3641021	Markers	WiimoteButtonB pressed
 3641.00689038354	0	3641022	Markers	BUT-RIGHT-ButtonB-Press
-3641.20088963176	0	3641216	Markers	WiimoteButtonB released
 3641.95988669049	0	3641975	Markers	Reaction: 0.269-right-yellow-correct
 3641.96088668662	0	3641976	Markers	End-Trial-3.514
 3641.99488655486	0	3642010	Markers	Trial Start: No.96-angle:60-left-left-kongruent-blue-FA:no
@@ -6177,12 +5593,8 @@ onset	duration	sample	type	value
 3654.85983670066	0	3654875	Markers	Stop Vibro right
 3655.05783593337	0	3655073	Markers	Time between Warning and LED: 0.503
 3655.05783593337	0	3655073	Markers	Stim-40-R-walkWarning-169-yellow-1-kongruent
-3655.35483478244	0	3655370	Markers	WiimoteButtonB pressed
 3655.35583477857	0	3655371	Markers	BUT-RIGHT-ButtonB-Press
-3655.53983406553	0	3655555	Markers	WiimoteButtonB released
-3655.68083351913	0	3655696	Markers	WiimoteButtonB pressed
 3655.68183351526	0	3655697	Markers	BUT-RIGHT-ButtonB-Press
-3655.86783279447	0	3655883	Markers	WiimoteButtonB released
 3656.60782992684	0	3656623	Markers	Reaction: 0.298-right-yellow-correct
 3656.60982991909	0	3656625	Markers	End-Trial-3.549
 3656.64382978733	0	3656659	Markers	Trial Start: No.99-angle:40-left-left-kongruent-blue-FA:no
@@ -6204,9 +5616,7 @@ onset	duration	sample	type	value
 3666.26379250809	0	3666279	Markers	Stop Vibro right
 3666.46279173693	0	3666478	Markers	Time between Warning and LED: 0.502
 3666.46279173693	0	3666478	Markers	Stim-60-R-walkWarning-267-blue--1-kongruent
-3666.79879043487	0	3666814	Markers	WiimoteButtonB pressed
 3666.79979043099	0	3666815	Markers	BUT-RIGHT-ButtonB-Press
-3666.96078980709	0	3666976	Markers	WiimoteButtonB released
 3668.01378572652	0	3668029	Markers	Reaction: 0.337-right-blue-correct
 3668.01478572265	0	3668030	Markers	End-Trial-7.703
 3668.04878559089	0	3668064	Markers	Trial Start: No.101-angle:40-left-left-kongruent-blue-FA:no
@@ -6252,9 +5662,7 @@ onset	duration	sample	type	value
 3684.55872161165	0	3684574	Markers	Stop Vibro right
 3684.75572084824	0	3684771	Markers	Time between Warning and LED: 0.502
 3684.75572084824	0	3684771	Markers	Stim-60-R-walkWarning-163-blue-1-kongruent
-3685.1047194958	0	3685120	Markers	WiimoteButtonB pressed
 3685.10571949192	0	3685121	Markers	BUT-RIGHT-ButtonB-Press
-3685.29271876726	0	3685308	Markers	WiimoteButtonB released
 3686.30671483783	0	3686322	Markers	Reaction: 0.351-right-blue-correct
 3686.30871483008	0	3686324	Markers	End-Trial-3.497
 3686.3417147022	0	3686357	Markers	Trial Start: No.105-angle:40-left-left-kongruent-blue-FA:no
@@ -6300,9 +5708,7 @@ onset	duration	sample	type	value
 3703.316648921	0	3703332	Markers	Stop Vibro right
 3703.51364815759	0	3703529	Markers	Time between Warning and LED: 0.501
 3703.51364815759	0	3703529	Markers	Stim-40-R-walkWarning-012-blue--1-kongruent
-3703.83364691753	0	3703849	Markers	WiimoteButtonB pressed
 3703.83464691365	0	3703850	Markers	BUT-RIGHT-ButtonB-Press
-3704.01364621999	0	3704029	Markers	WiimoteButtonB released
 3705.06464214718	0	3705080	Markers	Reaction: 0.321-right-blue-correct
 3705.0656421433	0	3705081	Markers	End-Trial-3.48
 3705.10064200767	0	3705116	Markers	Trial Start: No.108-angle:45-left-left-kongruent-yellow-FA:no
@@ -6327,9 +5733,7 @@ onset	duration	sample	type	value
 3714.4696057011	0	3714485	Markers	Stop Vibro left
 3714.66660493769	0	3714682	Markers	Time between Warning and LED: 0.502
 3714.66660493769	0	3714682	Markers	Stim-60-R-walkWarning-159-blue-1-inkongruent
-3715.10360324423	0	3715119	Markers	WiimoteButtonB pressed
 3715.10360324423	0	3715119	Markers	BUT-RIGHT-ButtonB-Press
-3715.31660241882	0	3715332	Markers	WiimoteButtonB released
 3716.21759892728	0	3716233	Markers	Reaction: 0.439-right-blue-correct
 3716.21959891953	0	3716235	Markers	End-Trial-3.532
 3716.25359878778	0	3716269	Markers	Trial Start: No.110-angle:60-right-right-kongruent-yellow-FA:no
@@ -6339,12 +5743,8 @@ onset	duration	sample	type	value
 3727.4195555175	0	3727435	Markers	Stop Vibro right
 3727.61655475409	0	3727632	Markers	Time between Warning and LED: 0.501
 3727.61655475409	0	3727632	Markers	Stim-60-R-walkWarning-175-yellow--1-kongruent
-3728.14255271575	0	3728158	Markers	WiimoteButtonB pressed
 3728.14255271575	0	3728158	Markers	BUT-RIGHT-ButtonB-Press
-3728.36955183608	0	3728385	Markers	WiimoteButtonB released
-3728.50155132455	0	3728517	Markers	WiimoteButtonB pressed
 3728.50155132455	0	3728517	Markers	BUT-RIGHT-ButtonB-Press
-3728.70455053789	0	3728720	Markers	WiimoteButtonB released
 3729.16654874756	0	3729182	Markers	Reaction: 0.528-right-yellow-correct
 3729.16854873981	0	3729184	Markers	End-Trial-12.916
 3729.20154861193	0	3729217	Markers	Trial Start: No.111-angle:40-right-right-kongruent-blue-FA:no
@@ -6399,7 +5799,5 @@ onset	duration	sample	type	value
 3761.65542284679	0	3761671	Markers	End-Trial-3.473
 3761.68942271504	0	3761705	Markers	Trial Start: No.112-angle:40-right-right-kongruent-yellow-FA:no
 3766.42340436993	0	3766439	Markers	PAUSE
-3806.12425052136	0	3806140	Markers	WiimoteButtonA pressed
-3806.22925011446	0	3806245	Markers	WiimoteButtonA released
 3890.18992475037	0	3890206	Markers	WiimoteButtonB pressed
 3890.59992316154	0	3890616	Markers	WiimoteButtonB released
