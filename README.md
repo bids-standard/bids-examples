@@ -219,9 +219,10 @@ bids-examples (in alphabetical order).
 
 ### fNIRS datasets
 
-| name          | maintained by | description                                                        | link to full data                       |
-| ------------- | ------------- | -------------------------------------------------------------------| --------------------------------------- |
-| fnirs_tapping | @rob_luke     | Example fNIRS measurement with three conditions from five subjects | https://doi.org/10.5281/zenodo.5529797  |
+| name              | maintained by     | description                                                             | link to full data                       |
+| ----------------- | ----------------- | ----------------------------------------------------------------------- | --------------------------------------- |
+| fnirs_tapping     | @rob_luke         | Example fNIRS measurement with three conditions from five subjects      | https://doi.org/10.5281/zenodo.5529797  |
+| fnirs_automaticiy | @robertoostenveld | 24 subjects performing (non-)automatic finger tapping and foot stepping | https://doi.org/10.34973/vesb-mh30      |
 
 
 ### Multimodal datasets
