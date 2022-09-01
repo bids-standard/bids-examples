@@ -1,0 +1,31 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "logbook filled in by the participants after each training session",
+    "Remark": "Exact dates are removed to protect the privacy of the participants and are replaced by relative days in relation to the first practice day. Sometimes the participants forget to fill in the logbook and reported this practice session on another day. In this case, the relative day was reestimated based on their notes and the hour was set to n/a."
+  },
+  "day": {
+    "Description": "practice day, relative to the first practice day (= day 1)"
+  },
+  "hour": {
+    "Description": "hour that the logbook was filled in"
+  },
+  "practiceduration_finger": {
+    "Description": "reported practice time for the finger tapping task",
+    "Units": "minutes"
+  },
+  "practiceduration_foot": {
+    "Description": "reported practice time for the foot stepping task",
+    "Units": "minutes"
+  },
+  "selfassessment_finger": {
+    "Description": "'On a scale from 1 to 10, how would rate your performance today?' for the finger tapping task",
+    "Range": "1 (can't perform the sequence at all) to 10 (automaticity is reached)"
+  },
+  "selfassessment_foot": {
+    "Description": "'On a scale from 1 to 10, how would rate your performance today?' for the foot stepping task",
+    "Range": "1 (can't perform the sequence at all) to 10 (automaticity is reached)"
+  },
+  "notes": {
+    "Description": "additional comments/observations/notes, reported by the participant"
+  }
+}

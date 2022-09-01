@@ -1,0 +1,14 @@
+{
+	"AnatomicalLandmarkCoordinateSystem": "CTF",
+	"AnatomicalLandmarkCoordinateUnits": "mm",
+	"AnatomicalLandmarkCoordinates": {
+		"NAS": [88.96828432,0.08835212123,-1.996544163],
+		"LPA": [-2.338635902,78.35065633,3.148182471],
+		"RPA": [-0.7582733068,-79.46388827,-1.443515863],
+		"Cz": [-5.616486486,2.202906734,142.155011],
+		"Iz": [-105.7511388,-4.384634084,3.899950749]
+	},
+	"NIRSCoordinateSystem": "CTF",
+	"NIRSCoordinateSystemDescription": "Coordinate system with the origin exactly between LPA and RPA; the x-axis going towards and through the nasion; the y-axis orthogonal to X and in the plane from RPA going to LPA; and the z-axis orthogonal to X and Y, going towards the vertex.",
+	"NIRSCoordinateUnits": "mm"
+}
