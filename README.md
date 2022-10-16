@@ -118,7 +118,7 @@ bids-examples (in alphabetical order).
 - [qMRI datasets](#qmri-datasets)
 - [PET datasets](#PET-datasets)
 - [Microscopy datasets](#microscopy-datasets)
-- [fNIRS datasets](#fnirs-datasets)
+- [NIRS datasets](#nirs-datasets)
 - [Multimodal datasets](#multimodal-datasets)
 
 ### EEG datasets
@@ -218,7 +218,7 @@ bids-examples (in alphabetical order).
 | micr_SPIM     | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |
 
 
-### fNIRS datasets
+### NIRS datasets
 
 | name              | maintained by     | description                                                             | link to full data                       |
 | ----------------- | ----------------- | ----------------------------------------------------------------------- | --------------------------------------- |
