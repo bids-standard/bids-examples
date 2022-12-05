@@ -1,145 +1,145 @@
-name	type	units	sampling_frequency	tracked_point	component
-head_ACC_x	ACC	m/s^2	199.910514541387	head	x
-head_ACC_y	ACC	m/s^2	199.910514541387	head	y
-head_ACC_z	ACC	m/s^2	199.910514541387	head	z
-sternum_ACC_x	ACC	m/s^2	199.910514541387	sternum	x
-sternum_ACC_y	ACC	m/s^2	199.910514541387	sternum	y
-sternum_ACC_z	ACC	m/s^2	199.910514541387	sternum	z
-leftUpperArm_ACC_x	ACC	m/s^2	199.910514541387	leftUpperArm	x
-leftUpperArm_ACC_y	ACC	m/s^2	199.910514541387	leftUpperArm	y
-leftUpperArm_ACC_z	ACC	m/s^2	199.910514541387	leftUpperArm	z
-leftForeArm_ACC_x	ACC	m/s^2	199.910514541387	leftForeArm	x
-leftForeArm_ACC_y	ACC	m/s^2	199.910514541387	leftForeArm	y
-leftForeArm_ACC_z	ACC	m/s^2	199.910514541387	leftForeArm	z
-rightUpperArm_ACC_x	ACC	m/s^2	199.910514541387	rightUpperArm	x
-rightUpperArm_ACC_y	ACC	m/s^2	199.910514541387	rightUpperArm	y
-rightUpperArm_ACC_z	ACC	m/s^2	199.910514541387	rightUpperArm	z
-rightForeArm_ACC_x	ACC	m/s^2	199.910514541387	rightForeArm	x
-rightForeArm_ACC_y	ACC	m/s^2	199.910514541387	rightForeArm	y
-rightForeArm_ACC_z	ACC	m/s^2	199.910514541387	rightForeArm	z
-pelvis_ACC_x	ACC	m/s^2	199.910514541387	pelvis	x
-pelvis_ACC_y	ACC	m/s^2	199.910514541387	pelvis	y
-pelvis_ACC_z	ACC	m/s^2	199.910514541387	pelvis	z
-leftThigh_ACC_x	ACC	m/s^2	199.910514541387	leftThigh	x
-leftThigh_ACC_y	ACC	m/s^2	199.910514541387	leftThigh	y
-leftThigh_ACC_z	ACC	m/s^2	199.910514541387	leftThigh	z
-leftShank_ACC_x	ACC	m/s^2	199.910514541387	leftShank	x
-leftShank_ACC_y	ACC	m/s^2	199.910514541387	leftShank	y
-leftShank_ACC_z	ACC	m/s^2	199.910514541387	leftShank	z
-leftFoot_ACC_x	ACC	m/s^2	199.910514541387	leftFoot	x
-leftFoot_ACC_y	ACC	m/s^2	199.910514541387	leftFoot	y
-leftFoot_ACC_z	ACC	m/s^2	199.910514541387	leftFoot	z
-rightThigh_ACC_x	ACC	m/s^2	199.910514541387	rightThigh	x
-rightThigh_ACC_y	ACC	m/s^2	199.910514541387	rightThigh	y
-rightThigh_ACC_z	ACC	m/s^2	199.910514541387	rightThigh	z
-rightShank_ACC_x	ACC	m/s^2	199.910514541387	rightShank	x
-rightShank_ACC_y	ACC	m/s^2	199.910514541387	rightShank	y
-rightShank_ACC_z	ACC	m/s^2	199.910514541387	rightShank	z
-rightFoot_ACC_x	ACC	m/s^2	199.910514541387	rightFoot	x
-rightFoot_ACC_y	ACC	m/s^2	199.910514541387	rightFoot	y
-rightFoot_ACC_z	ACC	m/s^2	199.910514541387	rightFoot	z
-leftAnkle_ACC_x	ACC	m/s^2	199.910514541387	leftAnkle	x
-leftAnkle_ACC_y	ACC	m/s^2	199.910514541387	leftAnkle	y
-leftAnkle_ACC_z	ACC	m/s^2	199.910514541387	leftAnkle	z
-rightAnkle_ACC_x	ACC	m/s^2	199.910514541387	rightAnkle	x
-rightAnkle_ACC_y	ACC	m/s^2	199.910514541387	rightAnkle	y
-rightAnkle_ACC_z	ACC	m/s^2	199.910514541387	rightAnkle	z
-pocket_ACC_x	ACC	m/s^2	199.910514541387	pocket	x
-pocket_ACC_y	ACC	m/s^2	199.910514541387	pocket	y
-pocket_ACC_z	ACC	m/s^2	199.910514541387	pocket	z
-head_ANGVEL_x	ANGVEL	rad/s	199.910514541387	head	x
-head_ANGVEL_y	ANGVEL	rad/s	199.910514541387	head	y
-head_ANGVEL_z	ANGVEL	rad/s	199.910514541387	head	z
-sternum_ANGVEL_x	ANGVEL	rad/s	199.910514541387	sternum	x
-sternum_ANGVEL_y	ANGVEL	rad/s	199.910514541387	sternum	y
-sternum_ANGVEL_z	ANGVEL	rad/s	199.910514541387	sternum	z
-leftUpperArm_ANGVEL_x	ANGVEL	rad/s	199.910514541387	leftUpperArm	x
-leftUpperArm_ANGVEL_y	ANGVEL	rad/s	199.910514541387	leftUpperArm	y
-leftUpperArm_ANGVEL_z	ANGVEL	rad/s	199.910514541387	leftUpperArm	z
-leftForeArm_ANGVEL_x	ANGVEL	rad/s	199.910514541387	leftForeArm	x
-leftForeArm_ANGVEL_y	ANGVEL	rad/s	199.910514541387	leftForeArm	y
-leftForeArm_ANGVEL_z	ANGVEL	rad/s	199.910514541387	leftForeArm	z
-rightUpperArm_ANGVEL_x	ANGVEL	rad/s	199.910514541387	rightUpperArm	x
-rightUpperArm_ANGVEL_y	ANGVEL	rad/s	199.910514541387	rightUpperArm	y
-rightUpperArm_ANGVEL_z	ANGVEL	rad/s	199.910514541387	rightUpperArm	z
-rightForeArm_ANGVEL_x	ANGVEL	rad/s	199.910514541387	rightForeArm	x
-rightForeArm_ANGVEL_y	ANGVEL	rad/s	199.910514541387	rightForeArm	y
-rightForeArm_ANGVEL_z	ANGVEL	rad/s	199.910514541387	rightForeArm	z
-pelvis_ANGVEL_x	ANGVEL	rad/s	199.910514541387	pelvis	x
-pelvis_ANGVEL_y	ANGVEL	rad/s	199.910514541387	pelvis	y
-pelvis_ANGVEL_z	ANGVEL	rad/s	199.910514541387	pelvis	z
-leftThigh_ANGVEL_x	ANGVEL	rad/s	199.910514541387	leftThigh	x
-leftThigh_ANGVEL_y	ANGVEL	rad/s	199.910514541387	leftThigh	y
-leftThigh_ANGVEL_z	ANGVEL	rad/s	199.910514541387	leftThigh	z
-leftShank_ANGVEL_x	ANGVEL	rad/s	199.910514541387	leftShank	x
-leftShank_ANGVEL_y	ANGVEL	rad/s	199.910514541387	leftShank	y
-leftShank_ANGVEL_z	ANGVEL	rad/s	199.910514541387	leftShank	z
-leftFoot_ANGVEL_x	ANGVEL	rad/s	199.910514541387	leftFoot	x
-leftFoot_ANGVEL_y	ANGVEL	rad/s	199.910514541387	leftFoot	y
-leftFoot_ANGVEL_z	ANGVEL	rad/s	199.910514541387	leftFoot	z
-rightThigh_ANGVEL_x	ANGVEL	rad/s	199.910514541387	rightThigh	x
-rightThigh_ANGVEL_y	ANGVEL	rad/s	199.910514541387	rightThigh	y
-rightThigh_ANGVEL_z	ANGVEL	rad/s	199.910514541387	rightThigh	z
-rightShank_ANGVEL_x	ANGVEL	rad/s	199.910514541387	rightShank	x
-rightShank_ANGVEL_y	ANGVEL	rad/s	199.910514541387	rightShank	y
-rightShank_ANGVEL_z	ANGVEL	rad/s	199.910514541387	rightShank	z
-rightFoot_ANGVEL_x	ANGVEL	rad/s	199.910514541387	rightFoot	x
-rightFoot_ANGVEL_y	ANGVEL	rad/s	199.910514541387	rightFoot	y
-rightFoot_ANGVEL_z	ANGVEL	rad/s	199.910514541387	rightFoot	z
-leftAnkle_ANGVEL_x	ANGVEL	rad/s	199.910514541387	leftAnkle	x
-leftAnkle_ANGVEL_y	ANGVEL	rad/s	199.910514541387	leftAnkle	y
-leftAnkle_ANGVEL_z	ANGVEL	rad/s	199.910514541387	leftAnkle	z
-rightAnkle_ANGVEL_x	ANGVEL	rad/s	199.910514541387	rightAnkle	x
-rightAnkle_ANGVEL_y	ANGVEL	rad/s	199.910514541387	rightAnkle	y
-rightAnkle_ANGVEL_z	ANGVEL	rad/s	199.910514541387	rightAnkle	z
-pocket_ANGVEL_x	ANGVEL	rad/s	199.910514541387	pocket	x
-pocket_ANGVEL_y	ANGVEL	rad/s	199.910514541387	pocket	y
-pocket_ANGVEL_z	ANGVEL	rad/s	199.910514541387	pocket	z
-head_MAGN_x	MAGN	T	199.910514541387	head	x
-head_MAGN_y	MAGN	T	199.910514541387	head	y
-head_MAGN_z	MAGN	T	199.910514541387	head	z
-sternum_MAGN_x	MAGN	T	199.910514541387	sternum	x
-sternum_MAGN_y	MAGN	T	199.910514541387	sternum	y
-sternum_MAGN_z	MAGN	T	199.910514541387	sternum	z
-leftUpperArm_MAGN_x	MAGN	T	199.910514541387	leftUpperArm	x
-leftUpperArm_MAGN_y	MAGN	T	199.910514541387	leftUpperArm	y
-leftUpperArm_MAGN_z	MAGN	T	199.910514541387	leftUpperArm	z
-leftForeArm_MAGN_x	MAGN	T	199.910514541387	leftForeArm	x
-leftForeArm_MAGN_y	MAGN	T	199.910514541387	leftForeArm	y
-leftForeArm_MAGN_z	MAGN	T	199.910514541387	leftForeArm	z
-rightUpperArm_MAGN_x	MAGN	T	199.910514541387	rightUpperArm	x
-rightUpperArm_MAGN_y	MAGN	T	199.910514541387	rightUpperArm	y
-rightUpperArm_MAGN_z	MAGN	T	199.910514541387	rightUpperArm	z
-rightForeArm_MAGN_x	MAGN	T	199.910514541387	rightForeArm	x
-rightForeArm_MAGN_y	MAGN	T	199.910514541387	rightForeArm	y
-rightForeArm_MAGN_z	MAGN	T	199.910514541387	rightForeArm	z
-pelvis_MAGN_x	MAGN	T	199.910514541387	pelvis	x
-pelvis_MAGN_y	MAGN	T	199.910514541387	pelvis	y
-pelvis_MAGN_z	MAGN	T	199.910514541387	pelvis	z
-leftThigh_MAGN_x	MAGN	T	199.910514541387	leftThigh	x
-leftThigh_MAGN_y	MAGN	T	199.910514541387	leftThigh	y
-leftThigh_MAGN_z	MAGN	T	199.910514541387	leftThigh	z
-leftShank_MAGN_x	MAGN	T	199.910514541387	leftShank	x
-leftShank_MAGN_y	MAGN	T	199.910514541387	leftShank	y
-leftShank_MAGN_z	MAGN	T	199.910514541387	leftShank	z
-leftFoot_MAGN_x	MAGN	T	199.910514541387	leftFoot	x
-leftFoot_MAGN_y	MAGN	T	199.910514541387	leftFoot	y
-leftFoot_MAGN_z	MAGN	T	199.910514541387	leftFoot	z
-rightThigh_MAGN_x	MAGN	T	199.910514541387	rightThigh	x
-rightThigh_MAGN_y	MAGN	T	199.910514541387	rightThigh	y
-rightThigh_MAGN_z	MAGN	T	199.910514541387	rightThigh	z
-rightShank_MAGN_x	MAGN	T	199.910514541387	rightShank	x
-rightShank_MAGN_y	MAGN	T	199.910514541387	rightShank	y
-rightShank_MAGN_z	MAGN	T	199.910514541387	rightShank	z
-rightFoot_MAGN_x	MAGN	T	199.910514541387	rightFoot	x
-rightFoot_MAGN_y	MAGN	T	199.910514541387	rightFoot	y
-rightFoot_MAGN_z	MAGN	T	199.910514541387	rightFoot	z
-leftAnkle_MAGN_x	MAGN	T	199.910514541387	leftAnkle	x
-leftAnkle_MAGN_y	MAGN	T	199.910514541387	leftAnkle	y
-leftAnkle_MAGN_z	MAGN	T	199.910514541387	leftAnkle	z
-rightAnkle_MAGN_x	MAGN	T	199.910514541387	rightAnkle	x
-rightAnkle_MAGN_y	MAGN	T	199.910514541387	rightAnkle	y
-rightAnkle_MAGN_z	MAGN	T	199.910514541387	rightAnkle	z
-pocket_MAGN_x	MAGN	T	199.910514541387	pocket	x
-pocket_MAGN_y	MAGN	T	199.910514541387	pocket	y
-pocket_MAGN_z	MAGN	T	199.910514541387	pocket	z
+name	type	units	sampling_frequency	tracked_point	component	orientation_component
+head_ACCEL_x	ACCEL	m/s^2	199.910514541387	head	x	x
+head_ACCEL_y	ACCEL	m/s^2	199.910514541387	head	y	y
+head_ACCEL_z	ACCEL	m/s^2	199.910514541387	head	z	z
+sternum_ACCEL_x	ACCEL	m/s^2	199.910514541387	sternum	x	x
+sternum_ACCEL_y	ACCEL	m/s^2	199.910514541387	sternum	y	y
+sternum_ACCEL_z	ACCEL	m/s^2	199.910514541387	sternum	z	z
+leftUpperArm_ACCEL_x	ACCEL	m/s^2	199.910514541387	leftUpperArm	x	x
+leftUpperArm_ACCEL_y	ACCEL	m/s^2	199.910514541387	leftUpperArm	y	y
+leftUpperArm_ACCEL_z	ACCEL	m/s^2	199.910514541387	leftUpperArm	z	z
+leftForeArm_ACCEL_x	ACCEL	m/s^2	199.910514541387	leftForeArm	x	x
+leftForeArm_ACCEL_y	ACCEL	m/s^2	199.910514541387	leftForeArm	y	y
+leftForeArm_ACCEL_z	ACCEL	m/s^2	199.910514541387	leftForeArm	z	z
+rightUpperArm_ACCEL_x	ACCEL	m/s^2	199.910514541387	rightUpperArm	x	x
+rightUpperArm_ACCEL_y	ACCEL	m/s^2	199.910514541387	rightUpperArm	y	y
+rightUpperArm_ACCEL_z	ACCEL	m/s^2	199.910514541387	rightUpperArm	z	z
+rightForeArm_ACCEL_x	ACCEL	m/s^2	199.910514541387	rightForeArm	x	x
+rightForeArm_ACCEL_y	ACCEL	m/s^2	199.910514541387	rightForeArm	y	y
+rightForeArm_ACCEL_z	ACCEL	m/s^2	199.910514541387	rightForeArm	z	z
+pelvis_ACCEL_x	ACCEL	m/s^2	199.910514541387	pelvis	x	x
+pelvis_ACCEL_y	ACCEL	m/s^2	199.910514541387	pelvis	y	y
+pelvis_ACCEL_z	ACCEL	m/s^2	199.910514541387	pelvis	z	z
+leftThigh_ACCEL_x	ACCEL	m/s^2	199.910514541387	leftThigh	x	x
+leftThigh_ACCEL_y	ACCEL	m/s^2	199.910514541387	leftThigh	y	y
+leftThigh_ACCEL_z	ACCEL	m/s^2	199.910514541387	leftThigh	z	z
+leftShank_ACCEL_x	ACCEL	m/s^2	199.910514541387	leftShank	x	x
+leftShank_ACCEL_y	ACCEL	m/s^2	199.910514541387	leftShank	y	y
+leftShank_ACCEL_z	ACCEL	m/s^2	199.910514541387	leftShank	z	z
+leftFoot_ACCEL_x	ACCEL	m/s^2	199.910514541387	leftFoot	x	x
+leftFoot_ACCEL_y	ACCEL	m/s^2	199.910514541387	leftFoot	y	y
+leftFoot_ACCEL_z	ACCEL	m/s^2	199.910514541387	leftFoot	z	z
+rightThigh_ACCEL_x	ACCEL	m/s^2	199.910514541387	rightThigh	x	x
+rightThigh_ACCEL_y	ACCEL	m/s^2	199.910514541387	rightThigh	y	y
+rightThigh_ACCEL_z	ACCEL	m/s^2	199.910514541387	rightThigh	z	z
+rightShank_ACCEL_x	ACCEL	m/s^2	199.910514541387	rightShank	x	x
+rightShank_ACCEL_y	ACCEL	m/s^2	199.910514541387	rightShank	y	y
+rightShank_ACCEL_z	ACCEL	m/s^2	199.910514541387	rightShank	z	z
+rightFoot_ACCEL_x	ACCEL	m/s^2	199.910514541387	rightFoot	x	x
+rightFoot_ACCEL_y	ACCEL	m/s^2	199.910514541387	rightFoot	y	y
+rightFoot_ACCEL_z	ACCEL	m/s^2	199.910514541387	rightFoot	z	z
+leftAnkle_ACCEL_x	ACCEL	m/s^2	199.910514541387	leftAnkle	x	x
+leftAnkle_ACCEL_y	ACCEL	m/s^2	199.910514541387	leftAnkle	y	y
+leftAnkle_ACCEL_z	ACCEL	m/s^2	199.910514541387	leftAnkle	z	z
+rightAnkle_ACCEL_x	ACCEL	m/s^2	199.910514541387	rightAnkle	x	x
+rightAnkle_ACCEL_y	ACCEL	m/s^2	199.910514541387	rightAnkle	y	y
+rightAnkle_ACCEL_z	ACCEL	m/s^2	199.910514541387	rightAnkle	z	z
+pocket_ACCEL_x	ACCEL	m/s^2	199.910514541387	pocket	x	x
+pocket_ACCEL_y	ACCEL	m/s^2	199.910514541387	pocket	y	y
+pocket_ACCEL_z	ACCEL	m/s^2	199.910514541387	pocket	z	z
+head_GYRO_x	GYRO	rad/s	199.910514541387	head	x	x
+head_GYRO_y	GYRO	rad/s	199.910514541387	head	y	y
+head_GYRO_z	GYRO	rad/s	199.910514541387	head	z	z
+sternum_GYRO_x	GYRO	rad/s	199.910514541387	sternum	x	x
+sternum_GYRO_y	GYRO	rad/s	199.910514541387	sternum	y	y
+sternum_GYRO_z	GYRO	rad/s	199.910514541387	sternum	z	z
+leftUpperArm_GYRO_x	GYRO	rad/s	199.910514541387	leftUpperArm	x	x
+leftUpperArm_GYRO_y	GYRO	rad/s	199.910514541387	leftUpperArm	y	y
+leftUpperArm_GYRO_z	GYRO	rad/s	199.910514541387	leftUpperArm	z	z
+leftForeArm_GYRO_x	GYRO	rad/s	199.910514541387	leftForeArm	x	x
+leftForeArm_GYRO_y	GYRO	rad/s	199.910514541387	leftForeArm	y	y
+leftForeArm_GYRO_z	GYRO	rad/s	199.910514541387	leftForeArm	z	z
+rightUpperArm_GYRO_x	GYRO	rad/s	199.910514541387	rightUpperArm	x	x
+rightUpperArm_GYRO_y	GYRO	rad/s	199.910514541387	rightUpperArm	y	y
+rightUpperArm_GYRO_z	GYRO	rad/s	199.910514541387	rightUpperArm	z	z
+rightForeArm_GYRO_x	GYRO	rad/s	199.910514541387	rightForeArm	x	x
+rightForeArm_GYRO_y	GYRO	rad/s	199.910514541387	rightForeArm	y	y
+rightForeArm_GYRO_z	GYRO	rad/s	199.910514541387	rightForeArm	z	z
+pelvis_GYRO_x	GYRO	rad/s	199.910514541387	pelvis	x	x
+pelvis_GYRO_y	GYRO	rad/s	199.910514541387	pelvis	y	y
+pelvis_GYRO_z	GYRO	rad/s	199.910514541387	pelvis	z	z
+leftThigh_GYRO_x	GYRO	rad/s	199.910514541387	leftThigh	x	x
+leftThigh_GYRO_y	GYRO	rad/s	199.910514541387	leftThigh	y	y
+leftThigh_GYRO_z	GYRO	rad/s	199.910514541387	leftThigh	z	z
+leftShank_GYRO_x	GYRO	rad/s	199.910514541387	leftShank	x	x
+leftShank_GYRO_y	GYRO	rad/s	199.910514541387	leftShank	y	y
+leftShank_GYRO_z	GYRO	rad/s	199.910514541387	leftShank	z	z
+leftFoot_GYRO_x	GYRO	rad/s	199.910514541387	leftFoot	x	x
+leftFoot_GYRO_y	GYRO	rad/s	199.910514541387	leftFoot	y	y
+leftFoot_GYRO_z	GYRO	rad/s	199.910514541387	leftFoot	z	z
+rightThigh_GYRO_x	GYRO	rad/s	199.910514541387	rightThigh	x	x
+rightThigh_GYRO_y	GYRO	rad/s	199.910514541387	rightThigh	y	y
+rightThigh_GYRO_z	GYRO	rad/s	199.910514541387	rightThigh	z	z
+rightShank_GYRO_x	GYRO	rad/s	199.910514541387	rightShank	x	x
+rightShank_GYRO_y	GYRO	rad/s	199.910514541387	rightShank	y	y
+rightShank_GYRO_z	GYRO	rad/s	199.910514541387	rightShank	z	z
+rightFoot_GYRO_x	GYRO	rad/s	199.910514541387	rightFoot	x	x
+rightFoot_GYRO_y	GYRO	rad/s	199.910514541387	rightFoot	y	y
+rightFoot_GYRO_z	GYRO	rad/s	199.910514541387	rightFoot	z	z
+leftAnkle_GYRO_x	GYRO	rad/s	199.910514541387	leftAnkle	x	x
+leftAnkle_GYRO_y	GYRO	rad/s	199.910514541387	leftAnkle	y	y
+leftAnkle_GYRO_z	GYRO	rad/s	199.910514541387	leftAnkle	z	z
+rightAnkle_GYRO_x	GYRO	rad/s	199.910514541387	rightAnkle	x	x
+rightAnkle_GYRO_y	GYRO	rad/s	199.910514541387	rightAnkle	y	y
+rightAnkle_GYRO_z	GYRO	rad/s	199.910514541387	rightAnkle	z	z
+pocket_GYRO_x	GYRO	rad/s	199.910514541387	pocket	x	x
+pocket_GYRO_y	GYRO	rad/s	199.910514541387	pocket	y	y
+pocket_GYRO_z	GYRO	rad/s	199.910514541387	pocket	z	z
+head_MAGN_x	MAGN	T	199.910514541387	head	x	x
+head_MAGN_y	MAGN	T	199.910514541387	head	y	y
+head_MAGN_z	MAGN	T	199.910514541387	head	z	z
+sternum_MAGN_x	MAGN	T	199.910514541387	sternum	x	x
+sternum_MAGN_y	MAGN	T	199.910514541387	sternum	y	y
+sternum_MAGN_z	MAGN	T	199.910514541387	sternum	z	z
+leftUpperArm_MAGN_x	MAGN	T	199.910514541387	leftUpperArm	x	x
+leftUpperArm_MAGN_y	MAGN	T	199.910514541387	leftUpperArm	y	y
+leftUpperArm_MAGN_z	MAGN	T	199.910514541387	leftUpperArm	z	z
+leftForeArm_MAGN_x	MAGN	T	199.910514541387	leftForeArm	x	x
+leftForeArm_MAGN_y	MAGN	T	199.910514541387	leftForeArm	y	y
+leftForeArm_MAGN_z	MAGN	T	199.910514541387	leftForeArm	z	z
+rightUpperArm_MAGN_x	MAGN	T	199.910514541387	rightUpperArm	x	x
+rightUpperArm_MAGN_y	MAGN	T	199.910514541387	rightUpperArm	y	y
+rightUpperArm_MAGN_z	MAGN	T	199.910514541387	rightUpperArm	z	z
+rightForeArm_MAGN_x	MAGN	T	199.910514541387	rightForeArm	x	x
+rightForeArm_MAGN_y	MAGN	T	199.910514541387	rightForeArm	y	y
+rightForeArm_MAGN_z	MAGN	T	199.910514541387	rightForeArm	z	z
+pelvis_MAGN_x	MAGN	T	199.910514541387	pelvis	x	x
+pelvis_MAGN_y	MAGN	T	199.910514541387	pelvis	y	y
+pelvis_MAGN_z	MAGN	T	199.910514541387	pelvis	z	z
+leftThigh_MAGN_x	MAGN	T	199.910514541387	leftThigh	x	x
+leftThigh_MAGN_y	MAGN	T	199.910514541387	leftThigh	y	y
+leftThigh_MAGN_z	MAGN	T	199.910514541387	leftThigh	z	z
+leftShank_MAGN_x	MAGN	T	199.910514541387	leftShank	x	x
+leftShank_MAGN_y	MAGN	T	199.910514541387	leftShank	y	y
+leftShank_MAGN_z	MAGN	T	199.910514541387	leftShank	z	z
+leftFoot_MAGN_x	MAGN	T	199.910514541387	leftFoot	x	x
+leftFoot_MAGN_y	MAGN	T	199.910514541387	leftFoot	y	y
+leftFoot_MAGN_z	MAGN	T	199.910514541387	leftFoot	z	z
+rightThigh_MAGN_x	MAGN	T	199.910514541387	rightThigh	x	x
+rightThigh_MAGN_y	MAGN	T	199.910514541387	rightThigh	y	y
+rightThigh_MAGN_z	MAGN	T	199.910514541387	rightThigh	z	z
+rightShank_MAGN_x	MAGN	T	199.910514541387	rightShank	x	x
+rightShank_MAGN_y	MAGN	T	199.910514541387	rightShank	y	y
+rightShank_MAGN_z	MAGN	T	199.910514541387	rightShank	z	z
+rightFoot_MAGN_x	MAGN	T	199.910514541387	rightFoot	x	x
+rightFoot_MAGN_y	MAGN	T	199.910514541387	rightFoot	y	y
+rightFoot_MAGN_z	MAGN	T	199.910514541387	rightFoot	z	z
+leftAnkle_MAGN_x	MAGN	T	199.910514541387	leftAnkle	x	x
+leftAnkle_MAGN_y	MAGN	T	199.910514541387	leftAnkle	y	y
+leftAnkle_MAGN_z	MAGN	T	199.910514541387	leftAnkle	z	z
+rightAnkle_MAGN_x	MAGN	T	199.910514541387	rightAnkle	x	x
+rightAnkle_MAGN_y	MAGN	T	199.910514541387	rightAnkle	y	y
+rightAnkle_MAGN_z	MAGN	T	199.910514541387	rightAnkle	z	z
+pocket_MAGN_x	MAGN	T	199.910514541387	pocket	x	x
+pocket_MAGN_y	MAGN	T	199.910514541387	pocket	y	y
+pocket_MAGN_z	MAGN	T	199.910514541387	pocket	z	z
