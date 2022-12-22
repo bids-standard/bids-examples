@@ -53,3 +53,4 @@ for i in os.listdir("."):
 This tutorial dataset (EEG and MRI data) remains property of the Grenoble University Hospital, France.
 Its use and transfer outside the ImaGIN tutorial, e.g. for research purposes, is prohibited without written consent.
 For questions, please contact Olivier David, PhD (olivier.david@inserm.fr).
+The metadata and filename stubs shared in this repository can be used, transferred, and derived, without explicit permission.
