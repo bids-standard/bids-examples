@@ -111,15 +111,22 @@ and ask us directly.
 Below you find several tables with information about the datasets available in
 bids-examples (in alphabetical order).
 
-- [EEG datasets](#eeg-datasets)
-- [iEEG datasets](#ieeg-datasets)
-- [MRI datasets](#mri-datasets)
-- [ASL datasets](#asl-datasets)
-- [qMRI datasets](#qmri-datasets)
-- [PET datasets](#PET-datasets)
-- [Microscopy datasets](#microscopy-datasets)
-- [NIRS datasets](#nirs-datasets)
-- [Multimodal datasets](#multimodal-datasets)
+- [bids-examples](#bids-examples)
+  - [Validating BIDS examples](#validating-bids-examples)
+    - [Validating individual examples](#validating-individual-examples)
+    - [Validating all examples](#validating-all-examples)
+    - [Validator exceptions](#validator-exceptions)
+  - [Contributing](#contributing)
+  - [Dataset index](#dataset-index)
+    - [EEG datasets](#eeg-datasets)
+    - [iEEG datasets](#ieeg-datasets)
+    - [MRI datasets](#mri-datasets)
+    - [ASL datasets](#asl-datasets)
+    - [qMRI datasets](#qmri-datasets)
+    - [PET datasets](#pet-datasets)
+    - [Microscopy datasets](#microscopy-datasets)
+    - [NIRS datasets](#nirs-datasets)
+    - [Multimodal datasets](#multimodal-datasets)
 
 ### EEG datasets
 
@@ -172,6 +179,8 @@ bids-examples (in alphabetical order).
 | hcp_example_bids  | @robertoostenveld |                                                         | bold         | T1w                       |                        | https://bit.ly/2H0Z6Qt                                 |
 | synthetic         | @effigies         | A synthetic dataset                                     | bold         | T1w                       |                        | n/a                                                    |
 | ds000001-fmriprep | @effigies         | Common derivatives example                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
+| ds004332          | @Remi-Gau         | Anat dataset with task entity                           |              | FLAIR, T1w, T2starw, T2w |                        | https://openneuro.org/datasets/ds004332/versions/1.0.2 |
+
 
 ### ASL datasets
 
