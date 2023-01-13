@@ -1,9 +1,0 @@
-name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement
-Rigid2_eul_x	ORNT	rad	480.119339272521	PhaseSpace2	Rigid2	x	Rigid2
-Rigid2_eul_y	ORNT	rad	480.119339272521	PhaseSpace2	Rigid2	y	Rigid2
-Rigid2_eul_z	ORNT	rad	480.119339272521	PhaseSpace2	Rigid2	z	Rigid2
-Rigid2_cart_x	POS	m	480.119339272521	PhaseSpace2	Rigid2	x	Rigid2
-Rigid2_cart_y	POS	m	480.119339272521	PhaseSpace2	Rigid2	y	Rigid2
-Rigid2_cart_z	POS	m	480.119339272521	PhaseSpace2	Rigid2	z	Rigid2
-Rigid2_Conf	MISC	n/a	480.119339272521	PhaseSpace2	Rigid2	Conf	Rigid2
-PhaseSpace2_latency	LATENCY	seconds	480.119339272521	PhaseSpace2	n/a	latency	n/a
