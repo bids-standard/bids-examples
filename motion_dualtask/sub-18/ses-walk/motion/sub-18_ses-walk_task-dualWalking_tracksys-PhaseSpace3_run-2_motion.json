@@ -1,7 +1,7 @@
 {
-	"ACCChannelCount":0,
+	"ACCELChannelCount":0,
 	"ANGACCChannelCount":0,
-	"ANGVELChannelCount":0,
+	"GYROChannelCount":0,
 	"InstitutionAddress":"Marchstr. 23, 10587, Berlin, Germany",
 	"InstitutionName":"Technische Universitaet Berlin",
 	"InstitutionalDepartmentName":"Junior research group FANS (Pedestrian Assistance System for Older Road Users), Department of Psychology and Ergonomics",
@@ -15,7 +15,7 @@
 	"RecordingDuration":1265.344362,
 	"SamplingFrequency":480,
 	"SamplingFrequencyEffective":480.119103,
-	"StartTime":"n/a",
+	"StartTime":"n\/a",
 	"TaskDescription":"Younger and older adults performed a visual discrimination task (button presses to peripheral presented LED flashes) during walking. Visual targets were either presented with or without preceding vibro-tactile cues",
 	"TaskName":"dualWalking",
 	"TrackedPointsCount":1,
