@@ -1,10 +1,10 @@
 name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement
-headRigid_quat_w	ORNT	n/a	89.4772018626178	HTCVive	headRigid	w	head
-headRigid_quat_x	ORNT	n/a	89.4772018626178	HTCVive	headRigid	x	head
-headRigid_quat_y	ORNT	n/a	89.4772018626178	HTCVive	headRigid	y	head
-headRigid_quat_z	ORNT	n/a	89.4772018626178	HTCVive	headRigid	z	head
+headRigid_quat_w	ORNT	n/a	89.4772018626178	HTCVive	headRigid	quat_w	head
+headRigid_quat_x	ORNT	n/a	89.4772018626178	HTCVive	headRigid	quat_x	head
+headRigid_quat_y	ORNT	n/a	89.4772018626178	HTCVive	headRigid	quat_y	head
+headRigid_quat_z	ORNT	n/a	89.4772018626178	HTCVive	headRigid	quat_z	head
 headRigid_cart_x	POS	m	89.4772018626178	HTCVive	headRigid	x	head
 headRigid_cart_y	POS	m	89.4772018626178	HTCVive	headRigid	y	head
 headRigid_cart_z	POS	m	89.4772018626178	HTCVive	headRigid	z	head
-Rigid_headRigid_PS_orientation_yaw	MISC	euler	89.4772018626178	HTCVive	headRigid	yaw	head
-HTCVive_latency	LATENCY	seconds	89.4772018626178	HTCVive	n/a	latency	n/a
+Rigid_headRigid_PS_orientation_yaw	MISC	n/a	89.4772018626178	HTCVive	headRigid	n/a	head
+HTCVive_latency	LATENCY	seconds	89.4772018626178	HTCVive	n/a	n/a	n/a
