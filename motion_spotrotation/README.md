@@ -23,11 +23,8 @@ For more information, see the `dataset_description.json` file.
 
 License
 -------
-This motion_spotrotation dataset is made available under the CC BY-NC 4.0.
-
-A human readable information can be found at:
-
-https://creativecommons.org/licenses/by-nc/4.0/
+This motion_spotrotation dataset is made available under the Creative Commons CC0 license. 
+Information on CC0 can be found here : https://creativecommons.org/share-your-work/public-domain/cc0/
 
 
 Format
