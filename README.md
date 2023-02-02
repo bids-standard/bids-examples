@@ -118,6 +118,7 @@ bids-examples (in alphabetical order).
 - [qMRI datasets](#qmri-datasets)
 - [PET datasets](#PET-datasets)
 - [Microscopy datasets](#microscopy-datasets)
+- [NIRS datasets](#nirs-datasets)
 - [Multimodal datasets](#multimodal-datasets)
 
 ### EEG datasets
@@ -130,6 +131,7 @@ bids-examples (in alphabetical order).
 | eeg_ds003654s_hed       | @VisLab       | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 | https://openneuro.org/datasets/ds003645 |
 | eeg_ds003654s_hed_inheritance       | @VisLab       | HED annotation with multiple inherited sidecars                                                 | https://openneuro.org/datasets/ds003645 |
 | eeg_ds003654s_hed_longform       | @VisLab       | HED annotation using tags in long form.                                                 | https://openneuro.org/datasets/ds003645 |
+| eeg_ds003654s_hed_library       | @VisLab       | HED annotation using HED library vocabularies (schema).                                                 | https://openneuro.org/datasets/ds003645 |
 | eeg_cbm             | @cpernet      | Rest EEG. European Data Format (.edf)                                                                              |                                         |
 
 ### iEEG datasets
@@ -215,6 +217,15 @@ bids-examples (in alphabetical order).
 | micr_SEMzarr  | @TheChymera   | Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions             |
 | micr_SPIM     | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |
 
+
+### NIRS datasets
+
+| name              | maintained by     | description                                                             | link to full data                       |
+| ----------------- | ----------------- | ----------------------------------------------------------------------- | --------------------------------------- |
+| fnirs_tapping     | @rob_luke         | Example fNIRS measurement with three conditions from five subjects      | https://doi.org/10.5281/zenodo.5529797  |
+| fnirs_automaticiy | @robertoostenveld | 24 subjects performing (non-)automatic finger tapping and foot stepping | https://doi.org/10.34973/vesb-mh30      |
+
+
 ### Multimodal datasets
 
 | name                   | maintained by     | description                                                                                                                          | mri                   | meg | eeg | ieeg | genetics | link to full data                                              |
@@ -226,6 +237,7 @@ bids-examples (in alphabetical order).
 | eeg_ds000117           | @robertoostenveld | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | anat                  |     | eeg |      |          | https://openneuro.org/datasets/ds000117/                       |
 | eeg_rest_fmri          | @cpernet          | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)                                                   | anat, dwi, func       |     | eeg |      |          |                                                                |
 | ieeg_epilepsy          | @ftadel           | multiple sessions, tutorial                                                                                                          | anat                  |     |     | ieeg |          | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids |
+| ieeg_epilepsyNWB       | @TheChymera       | multiple sessions, tutorial — derivative dataset of `ieeg_epilepsy` showcasing the NWB file format alternative                       | anat                  |     |     | ieeg |          | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids |
 | ieeg_epilepsy_ecog     | @ftadel           | multiple sessions, tutorial                                                                                                          | anat                  |     |     | ieeg |          | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog     |
 | ieeg_visual_multimodal | @irisgroen        |                                                                                                                                      | anat, fmap, func      |     |     | ieeg |          |                                                                |
 | genetics_ukbb          | @cpernet          | multiple tasks, T1w, DTI, BOLD, genetic info                                                                                         | anat, dwi, func, fmap |     |     |      | genetics |                                                                |
