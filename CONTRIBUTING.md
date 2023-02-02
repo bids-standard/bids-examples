@@ -49,3 +49,18 @@ which means:
 - `{}` is where a file name is put automatically (do not modify it)
 - `+` means, this is performed not file-wise but with a bunch of files at once.
   Could also be `\;` to have it one after the other
+
+## How to make a release
+
+We release `bids-examples` in sync with `bids-specification`.
+
+1. Make sure your local repository is up to date: `git fetch upstream`
+   (this assumes you have the `bids-standard/bids-examples` repository
+    configured as a git remote called "upstream")
+1. Tag the `master` branch: `git tag -a -m "X.X.X" X.X.X upstream/master`
+   (replace `X.X.X` with the version to be released)
+1. Push the tag upstream: `git push upstream X.X.X`
+1. Create a GitHub release using the new tag. Fill the title of the release
+   with the name of the tag. Fill the description of the release with a sentence like
+   > "Microscopy" BEP was merged into BIDS-specification (2022-02-15).
+1. You are done!

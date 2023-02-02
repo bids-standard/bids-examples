@@ -1,8 +1,0 @@
-{
- "iEEGCoordinateSystem": "Other",
- "iEEGCoordinateUnits": "mm",
- "iEEGCoordinateSystemDescription": "Scanner-based reference of the FreeSurfer T1.mgz",
- "iEEGCoordinateProcessingDescription": "SEEG contacts manually placed with Brainstorm on the post-implanation T1 MRI, which was resliced on the FreeSurfer T1.mgz",
- "iEEGCoordinateProcessingReference": "https://neuroimage.usc.edu/brainstorm/Tutorials/ECoG",
- "IntendedFor": "derivatives/freesurfer/sub-ecog01_ses-preimp/mri/T1.mgz"
-}
