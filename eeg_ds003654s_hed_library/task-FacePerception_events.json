@@ -25,7 +25,7 @@
       "show_face": "Sensory-event, test:Experimental-stimulus, (Def/Face-image, Onset), (Def/Blink-inhibition-task,Onset),(Def/Cross-only, Offset)",
       "show_face_initial": "Sensory-event, Experimental-stimulus, (Def/Face-image, Onset), (Def/Blink-inhibition-task,Onset), (Def/Fixation-task, Onset)",
       "show_circle": "Sensory-event, (Intended-effect, Cue), (Def/Circle-only, Onset), (Def/Face-image, Offset), (Def/Blink-inhibition-task, Offset), (Def/Fixation-task, Offset)",
-      "show_cross": "Sensory-event, (Intended-effect, Cue), (Def/Cross-only, Onset), (Def/Fixation-task, Onset),  (Def/Circle-only, Offset), sc:Quality-of-hyperventilation",
+      "show_cross": "Sensory-event, (Intended-effect, Cue), (Def/Cross-only, Onset), (Def/Fixation-task, Onset),  (Def/Circle-only, Offset), sc:Hyperventilation-refused-procedure/Could not comply",
       "left_press": "Agent-action, Participant-response, Def/Press-left-finger",
       "right_press": "Agent-action, Participant-response, Def/Press-right-finger",
       "setup_left_sym": "Experiment-structure, (Def/Left-sym-cond, Onset), (Def/Initialize-recording, Onset)",
