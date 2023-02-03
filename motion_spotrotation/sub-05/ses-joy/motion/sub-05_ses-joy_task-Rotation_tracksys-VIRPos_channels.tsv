@@ -1,0 +1,9 @@
+name	type	units	sampling_frequency	tracking_system	tracked_point	component	placement
+headRigid_quat_w	ORNT	n/a	60.0022301623014	VIRPos	headRigid	quat_w	headRigid
+headRigid_quat_x	ORNT	n/a	60.0022301623014	VIRPos	headRigid	quat_x	headRigid
+headRigid_quat_y	ORNT	n/a	60.0022301623014	VIRPos	headRigid	quat_y	headRigid
+headRigid_quat_z	ORNT	n/a	60.0022301623014	VIRPos	headRigid	quat_z	headRigid
+headRigid_cart_x	POS	vm	60.0022301623014	VIRPos	headRigid	x	headRigid
+headRigid_cart_y	POS	vm	60.0022301623014	VIRPos	headRigid	y	headRigid
+headRigid_cart_z	POS	vm	60.0022301623014	VIRPos	headRigid	z	headRigid
+VIRPos_latency	LATENCY	seconds	60.0022301623014	VIRPos	n/a	n/a	n/a

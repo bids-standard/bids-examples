@@ -250,4 +250,6 @@ bids-examples (in alphabetical order).
 | ieeg_visual_multimodal | @irisgroen        |                                                                                                                                      | anat, fmap, func      |     |     | ieeg |          |        |                                                                     |
 | genetics_ukbb          | @cpernet          | multiple tasks, T1w, DTI, BOLD, genetic info                                                                                         | anat, dwi, func, fmap |     |     |      | genetics |        |                                                                     |
 | motion_dualtask        | @sjeung           | older and younger participants walking while performing discrimination task                                                          |                       |     | eeg |      |          | motion |                                                                     |
+| motion_spotrotation    | @sjeung           | participants rotated heading using full-body motion or joystick                                                                      |                       |     | eeg |      |          | motion | https://openneuro.org/datasets/ds004460                             |
+
 
