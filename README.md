@@ -128,10 +128,10 @@ bids-examples (in alphabetical order).
 | eeg_matchingpennies | @sappelhoff   | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | https://doi.org/10.17605/OSF.IO/CJ2DR   |
 | eeg_rishikesh       | @arnodelorme  | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | https://openneuro.org/datasets/ds001787 |
 | eeg_face13          | @andesha      | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format                     |                                         |
-| eeg_ds003654s_hed       | @VisLab       | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003654s_hed_inheritance       | @VisLab       | HED annotation with multiple inherited sidecars                                                 | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003654s_hed_longform       | @VisLab       | HED annotation using tags in long form.                                                 | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003654s_hed_library       | @VisLab       | HED annotation using HED library vocabularies (schema).                                                 | https://openneuro.org/datasets/ds003645 |
+| eeg_ds003645s_hed       | @VisLab       | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 | https://openneuro.org/datasets/ds003645 |
+| eeg_ds003645s_hed_inheritance       | @VisLab       | HED annotation with multiple inherited sidecars                                                 | https://openneuro.org/datasets/ds003645 |
+| eeg_ds003645s_hed_longform       | @VisLab       | HED annotation using tags in long form.                                                 | https://openneuro.org/datasets/ds003645 |
+| eeg_ds003645s_hed_library       | @VisLab       | HED annotation using HED library vocabularies (schema).                                                 | https://openneuro.org/datasets/ds003645 |
 | eeg_cbm             | @cpernet      | Rest EEG. European Data Format (.edf)                                                                              |                                         |
 
 ### iEEG datasets
