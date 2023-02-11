@@ -1,6 +1,6 @@
 Overview
 --------
-This is the "Spot roration" dataset.
+This is the "Spot rotation" dataset.
 It contains EEG and motion data collected from 20 subjects
 collected at the Berlin Mobile Brain-Body Imaging Lab,
 while they rotated their heading in physical space or on flat screen using a joystick.
