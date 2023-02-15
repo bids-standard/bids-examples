@@ -1,5 +1,5 @@
 onset	duration	trial_type	value	sample
-05	0	discontinuity	2	1
+0.005	0	discontinuity	2	1
 0.005	0	eyes closed	65	1
 301.045	0	eyes opened	66	60209
 313.695	0	eyes closed	65	62739
@@ -31,4 +31,3 @@ onset	duration	trial_type	value	sample
 863.655	0	recuperation	70	172731
 995.905	0	discontinuity	2	199181
 999.155	0	eyes closed	65	199831
-
