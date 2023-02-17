@@ -231,7 +231,7 @@ bids-examples (in alphabetical order).
 
 | name                     | maintained by | description                                                                                               | link to full data |
 | ------------------------ | ------------- | --------------------------------------------------------------------------------------------------------- | ----------------- |
-| motion_systemvalidation  | @JuliusWelzel | Example dataset of two different motion captured system recorded almost simultaneously, but no brain data |                   |
+| motion_systemvalidation  | @JuliusWelzel | Example dataset of two different motion captured system recorded almost simultaneously, but no brain data | https://doi.org/10.6084/m9.figshare.20238006.v2 |
 
 
 ### Multimodal datasets
