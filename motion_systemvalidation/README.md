@@ -10,7 +10,7 @@ https://doi.org/10.3390/s21175833
 
 
 ## Availability
-This motion_spotrotation dataset is made available: https://doi.org/10.6084/m9.figshare.20238006.v2
+This motion_systemvalidation dataset is made available: https://doi.org/10.6084/m9.figshare.20238006.v2
 
 
 
