@@ -1,4 +1,8 @@
-# Datasets with and without deliberate head movements for evaluating the performance of markerless prospective motion correction and selective reacquisition in a general clinical protocol for brain MRI
+# Datasets with and without deliberate head movements 
+
+Used to evaluate the performance of markerless 
+prospective motion correction and selective reacquisition 
+in a general clinical protocol for brain MRI
 
 Head motion is one of the most common sources of artefacts in brain MRI. In this
 study, we evaluate the performance of markerless prospective motion correction
