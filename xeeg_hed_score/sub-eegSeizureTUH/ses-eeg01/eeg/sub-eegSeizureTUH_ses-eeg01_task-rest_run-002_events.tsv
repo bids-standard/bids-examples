@@ -1,63 +1,63 @@
 onset	duration	HED	channel
-0	203	sc:Background-activity	FP1-F7
-0	203	sc:Background-activity	F7-T3
-0	24.8325	sc:Background-activity	T3-T5
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T3-T5
-127.058	203	sc:Background-activity	T3-T5
-0	24.8325	sc:Background-activity	T5-O1
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T5-O1
-127.058	203	sc:Background-activity	T5-O1
-0	24.8325	sc:Background-activity	FP2-F8
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	FP2-F8
-127.058	203	sc:Background-activity	FP2-F8
-0	13.8275	sc:Background-activity	F8-T4
-13.8275	173.3791	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	F8-T4
-173.3791	203	sc:Background-activity	F8-T4
-0	13.8275	sc:Background-activity	T4-T6
-13.8275	173.3791	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T4-T6
-173.3791	203	sc:Background-activity	T4-T6
-0	24.8325	sc:Background-activity	T6-O2
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T6-O2
-127.058	203	sc:Background-activity	T6-O2
-0	24.8325	sc:Background-activity	A1-T3
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	A1-T3
-127.058	203	sc:Background-activity	A1-T3
-0	24.8325	sc:Background-activity	T3-C3
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T3-C3
-127.058	203	sc:Background-activity	T3-C3
-0	24.8325	sc:Background-activity	C3-CZ
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	C3-CZ
-127.058	203	sc:Background-activity	C3-CZ
-0	8.8275	sc:Background-activity	CZ-C4
-8.8275	126.953	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	CZ-C4
-126.953	203	sc:Background-activity	CZ-C4
-0	8.8275	sc:Background-activity	C4-T4
-8.8275	173.2126	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	C4-T4
-173.2126	203	sc:Background-activity	C4-T4
-0	24.8325	sc:Background-activity	T4-A2
-24.8325	173.3176	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T4-A2
-173.3176	203	sc:Background-activity	T4-A2
-0	24.8325	sc:Background-activity	FP1-F3
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	FP1-F3
-127.058	203	sc:Background-activity	FP1-F3
-0	24.8325	sc:Background-activity	F3-C3
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	F3-C3
-127.058	203	sc:Background-activity	F3-C3
-0	24.8325	sc:Background-activity	C3-P3
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	C3-P3
-127.058	203	sc:Background-activity	C3-P3
-0	24.8325	sc:Background-activity	P3-O1
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	P3-O1
-127.058	203	sc:Background-activity	P3-O1
-0	24.8325	sc:Background-activity	FP2-F4
-24.8325	127.058	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	FP2-F4
-127.058	203	sc:Background-activity	FP2-F4
-0	8.8275	sc:Background-activity	F4-C4
-8.8275	126.953	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	F4-C4
-126.953	203	sc:Background-activity	F4-C4
-0	8.8275	sc:Background-activity	C4-P4
-8.8275	126.953	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	C4-P4
-126.953	203	sc:Background-activity	C4-P4
-0	8.8275	sc:Background-activity	P4-O2
-8.8275	126.953	sc:Epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	P4-O2
-126.953	203	sc:Background-activity	P4-O2
+0	203	sc:Other-organized-rhythm/non-interesting events	FP1-F7
+0	203	sc:Other-organized-rhythm/non-interesting events	F7-T3
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	T3-T5
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T3-T5
+127.058	203	sc:Other-organized-rhythm/non-interesting events	T3-T5
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	T5-O1
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T5-O1
+127.058	203	sc:Other-organized-rhythm/non-interesting events	T5-O1
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	FP2-F8
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	FP2-F8
+127.058	203	sc:Other-organized-rhythm/non-interesting events	FP2-F8
+0	13.8275	sc:Other-organized-rhythm/non-interesting events	F8-T4
+13.8275	173.3791	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	F8-T4
+173.3791	203	sc:Other-organized-rhythm/non-interesting events	F8-T4
+0	13.8275	sc:Other-organized-rhythm/non-interesting events	T4-T6
+13.8275	173.3791	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T4-T6
+173.3791	203	sc:Other-organized-rhythm/non-interesting events	T4-T6
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	T6-O2
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T6-O2
+127.058	203	sc:Other-organized-rhythm/non-interesting events	T6-O2
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	A1-T3
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	A1-T3
+127.058	203	sc:Other-organized-rhythm/non-interesting events	A1-T3
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	T3-C3
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T3-C3
+127.058	203	sc:Other-organized-rhythm/non-interesting events	T3-C3
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	C3-CZ
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	C3-CZ
+127.058	203	sc:Other-organized-rhythm/non-interesting events	C3-CZ
+0	8.8275	sc:Other-organized-rhythm/non-interesting events	CZ-C4
+8.8275	126.953	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	CZ-C4
+126.953	203	sc:Other-organized-rhythm/non-interesting events	CZ-C4
+0	8.8275	sc:Other-organized-rhythm/non-interesting events	C4-T4
+8.8275	173.2126	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	C4-T4
+173.2126	203	sc:Other-organized-rhythm/non-interesting events	C4-T4
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	T4-A2
+24.8325	173.3176	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	T4-A2
+173.3176	203	sc:Other-organized-rhythm/non-interesting events	T4-A2
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	FP1-F3
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	FP1-F3
+127.058	203	sc:Other-organized-rhythm/non-interesting events	FP1-F3
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	F3-C3
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	F3-C3
+127.058	203	sc:Other-organized-rhythm/non-interesting events	F3-C3
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	C3-P3
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	C3-P3
+127.058	203	sc:Other-organized-rhythm/non-interesting events	C3-P3
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	P3-O1
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	P3-O1
+127.058	203	sc:Other-organized-rhythm/non-interesting events	P3-O1
+0	24.8325	sc:Other-organized-rhythm/non-interesting events	FP2-F4
+24.8325	127.058	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	FP2-F4
+127.058	203	sc:Other-organized-rhythm/non-interesting events	FP2-F4
+0	8.8275	sc:Other-organized-rhythm/non-interesting events	F4-C4
+8.8275	126.953	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	F4-C4
+126.953	203	sc:Other-organized-rhythm/non-interesting events	F4-C4
+0	8.8275	sc:Other-organized-rhythm/non-interesting events	C4-P4
+8.8275	126.953	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	C4-P4
+126.953	203	sc:Other-organized-rhythm/non-interesting events	C4-P4
+0	8.8275	sc:Other-organized-rhythm/non-interesting events	P4-O2
+8.8275	126.953	sc:Unknown-onset-epileptic-seizure, sc:Tonic-clonic-motor-onset-seizure	P4-O2
+126.953	203	sc:Other-organized-rhythm/non-interesting events	P4-O2
