@@ -116,31 +116,32 @@ bids-examples (in alphabetical order).
 - [MRI datasets](#mri-datasets)
 - [ASL datasets](#asl-datasets)
 - [qMRI datasets](#qmri-datasets)
-- [PET datasets](#PET-datasets)
+- [PET datasets](#pet-datasets)
 - [Microscopy datasets](#microscopy-datasets)
+- [Motion datasets](#motion-datasets)
 - [NIRS datasets](#nirs-datasets)
 - [Multimodal datasets](#multimodal-datasets)
 
 ### EEG datasets
 
-| name                | maintained by | description                                                                                                        | link to full data                       |
-| ------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
-| eeg_matchingpennies | @sappelhoff   | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | https://doi.org/10.17605/OSF.IO/CJ2DR   |
-| eeg_rishikesh       | @arnodelorme  | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | https://openneuro.org/datasets/ds001787 |
-| eeg_face13          | @andesha      | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format                     |                                         |
-| eeg_ds003645s_hed       | @VisLab       | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003645s_hed_inheritance       | @VisLab       | HED annotation with multiple inherited sidecars                                                 | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003645s_hed_longform       | @VisLab       | HED annotation using tags in long form.                                                 | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003645s_hed_library       | @VisLab       | HED annotation using HED library vocabularies (schema).                                                 | https://openneuro.org/datasets/ds003645 |
-| eeg_cbm             | @cpernet      | Rest EEG. European Data Format (.edf)                                                                              |                                         |
+| name                          | maintained by | description                                                                                                        | link to full data                       |
+| ----------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
+| eeg_matchingpennies           | @sappelhoff   | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | https://doi.org/10.17605/OSF.IO/CJ2DR   |
+| eeg_rishikesh                 | @arnodelorme  | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | https://openneuro.org/datasets/ds001787 |
+| eeg_face13                    | @andesha      | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format                     |                                         |
+| eeg_ds003645s_hed             | @VisLab       | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 | https://openneuro.org/datasets/ds003645 |
+| eeg_ds003645s_hed_inheritance | @VisLab       | HED annotation with multiple inherited sidecars                                                                    | https://openneuro.org/datasets/ds003645 |
+| eeg_ds003645s_hed_longform    | @VisLab       | HED annotation using tags in long form.                                                                            | https://openneuro.org/datasets/ds003645 |
+| eeg_ds003645s_hed_library     | @VisLab       | HED annotation using HED library vocabularies (schema).                                                            | https://openneuro.org/datasets/ds003645 |
+| eeg_cbm                       | @cpernet      | Rest EEG. European Data Format (.edf)                                                                              |                                         |
 
 ### iEEG datasets
 
-| name                 | maintained by | description                                                      |
-| -------------------- | ------------- | ---------------------------------------------------------------- |
-| ieeg_filtered_speech | @choldgraf    | recordings of three seizures                                     |
-| ieeg_motorMiller2007 | @dorahermes   | Cue-based hand & tongue movement data                            |
-| ieeg_visual          | @dorahermes   | Stimulus dependence of gamma oscillations in human visual cortex |
+| name                 | maintained by | description                                                      | link to full data |
+| -------------------- | ------------- | ---------------------------------------------------------------- | ----------------- |
+| ieeg_filtered_speech | @choldgraf    | recordings of three seizures                                     |                   |
+| ieeg_motorMiller2007 | @dorahermes   | Cue-based hand & tongue movement data                            |                   |
+| ieeg_visual          | @dorahermes   | Stimulus dependence of gamma oscillations in human visual cortex |                   |
 
 ### MRI datasets
 
@@ -170,7 +171,7 @@ bids-examples (in alphabetical order).
 | ds116             |                   | multiple tasks, multiple runs                           | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000116/versions/00003 |
 | ds210             |                   | multiple tasks, multiple runs                           | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000210/versions/00002 |
 | hcp_example_bids  | @robertoostenveld |                                                         | bold         | T1w                       |                        | https://bit.ly/2H0Z6Qt                                 |
-| synthetic         | @effigies         | A synthetic dataset                                     | bold         | T1w                       |                        | n/a                                                    |
+| synthetic         | @effigies         | A synthetic dataset                                     | bold         | T1w                       |                        |                                                        |
 | ds000001-fmriprep | @effigies         | Common derivatives example                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
 
 ### ASL datasets
@@ -211,11 +212,11 @@ bids-examples (in alphabetical order).
 
 ### Microscopy datasets
 
-| name          | maintained by | description                                                                                     |
-| ------------- | ------------- | ----------------------------------------------------------------------------------------------- |
-| micr_SEM      | @jcohenadad   | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          |
-| micr_SEMzarr  | @TheChymera   | Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions             |
-| micr_SPIM     | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |
+| name          | maintained by | description                                                                                     | link to full data |
+| ------------- | ------------- | ----------------------------------------------------------------------------------------------- | ----------------- |
+| micr_SEM      | @jcohenadad   | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          |                   |
+| micr_SEMzarr  | @TheChymera   | Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions             |                   |
+| micr_SPIM     | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |                   |
 
 
 ### NIRS datasets
@@ -226,18 +227,27 @@ bids-examples (in alphabetical order).
 | fnirs_automaticiy | @robertoostenveld | 24 subjects performing (non-)automatic finger tapping and foot stepping | https://doi.org/10.34973/vesb-mh30      |
 
 
+### Motion datasets
+
+| name                     | maintained by | description                                                                                               | link to full data                               |
+| ------------------------ | ------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| motion_systemvalidation  | @JuliusWelzel | Example dataset of two different motion captured system recorded almost simultaneously, but no brain data | https://doi.org/10.6084/m9.figshare.20238006.v2 |
+
+
 ### Multimodal datasets
 
-| name                   | maintained by     | description                                                                                                                          | mri                   | meg | eeg | ieeg | genetics | link to full data                                              |
-| ---------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | --- | --- | ---- | -------- | -------------------------------------------------------------- |
-| ds000117               | @RikHenson        | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task                                          | anat, dwi, func, fmap | meg | eeg |      |          | https://openneuro.org/datasets/ds000117/                       |
-| ds000246               | @guiomar          | Auditory dataset used for Brainstorm’s general online tutorial                                                                       | anat                  | meg |     |      |          | https://openneuro.org/datasets/ds000246/versions/00001         |
-| ds000247               | @guiomar          | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA).                 | anat                  | meg |     |      |          | https://openneuro.org/datasets/ds000247/versions/00001         |
-| ds000248               | @agramfort        | MNE sample data: Data with visual and auditory stimuli                                                                               | anat                  | meg |     |      |          | https://openneuro.org/datasets/ds000248/versions/00001         |
-| eeg_ds000117           | @robertoostenveld | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | anat                  |     | eeg |      |          | https://openneuro.org/datasets/ds000117/                       |
-| eeg_rest_fmri          | @cpernet          | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)                                                   | anat, dwi, func       |     | eeg |      |          |                                                                |
-| ieeg_epilepsy          | @ftadel           | multiple sessions, tutorial                                                                                                          | anat                  |     |     | ieeg |          | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids |
-| ieeg_epilepsyNWB       | @TheChymera       | multiple sessions, tutorial — derivative dataset of `ieeg_epilepsy` showcasing the NWB file format alternative                       | anat                  |     |     | ieeg |          | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids |
-| ieeg_epilepsy_ecog     | @ftadel           | multiple sessions, tutorial                                                                                                          | anat                  |     |     | ieeg |          | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog     |
-| ieeg_visual_multimodal | @irisgroen        |                                                                                                                                      | anat, fmap, func      |     |     | ieeg |          |                                                                |
-| genetics_ukbb          | @cpernet          | multiple tasks, T1w, DTI, BOLD, genetic info                                                                                         | anat, dwi, func, fmap |     |     |      | genetics |                                                                |
+| name                   | maintained by     | description                                                                                                                          | mri                   | meg | eeg | ieeg | genetics | motion | link to full data                                                   |
+| ---------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | --- | --- | ---- | -------- | ------ | ------------------------------------------------------------------- |
+| ds000117               | @RikHenson        | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task                                          | anat, dwi, func, fmap | meg | eeg |      |          |        | https://openneuro.org/datasets/ds000117/                            |
+| ds000246               | @guiomar          | Auditory dataset used for Brainstorm’s general online tutorial                                                                       | anat                  | meg |     |      |          |        | https://openneuro.org/datasets/ds000246/versions/00001              |
+| ds000247               | @guiomar          | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA).                 | anat                  | meg |     |      |          |        | https://openneuro.org/datasets/ds000247/versions/00001              |
+| ds000248               | @agramfort        | MNE sample data: Data with visual and auditory stimuli                                                                               | anat                  | meg |     |      |          |        | https://openneuro.org/datasets/ds000248/versions/00001              |
+| eeg_ds000117           | @robertoostenveld | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | anat                  |     | eeg |      |          |        | https://openneuro.org/datasets/ds000117/                            |
+| eeg_rest_fmri          | @cpernet          | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)                                                   | anat, dwi, func       |     | eeg |      |          |        |                                                                     |
+| ieeg_epilepsy          | @ftadel           | multiple sessions, tutorial                                                                                                          | anat                  |     |     | ieeg |          |        | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids |
+| ieeg_epilepsyNWB       | @TheChymera       | multiple sessions, tutorial — derivative dataset of `ieeg_epilepsy` showcasing the NWB file format alternative                       | anat                  |     |     | ieeg |          |        | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids |
+| ieeg_epilepsy_ecog     | @ftadel           | multiple sessions, tutorial                                                                                                          | anat                  |     |     | ieeg |          |        | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog          |
+| ieeg_visual_multimodal | @irisgroen        |                                                                                                                                      | anat, fmap, func      |     |     | ieeg |          |        |                                                                     |
+| genetics_ukbb          | @cpernet          | multiple tasks, T1w, DTI, BOLD, genetic info                                                                                         | anat, dwi, func, fmap |     |     |      | genetics |        |                                                                     |
+| motion_dualtask        | @sjeung           | older and younger participants walking while performing discrimination task                                                          |                       |     | eeg |      |          | motion |                                                                     |
+| motion_spotrotation    | @sjeung           | participants rotated heading using full-body motion or joystick                                                                      |                       |     | eeg |      |          | motion | https://openneuro.org/datasets/ds004460                             |
