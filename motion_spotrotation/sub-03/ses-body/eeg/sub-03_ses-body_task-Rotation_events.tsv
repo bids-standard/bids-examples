@@ -1,0 +1,101 @@
+onset	duration	sample	type	value
+8.62801911390572	0	8629	Markers	('/Event/Category/Participant response', '/Event/Label/wii_button', '/Event/Description/Button press with the right index finger (devices include Wiimote/Joystick/Mouse)', '/Action/Type/Button press/Joystick', '/Participant/Effect/Tactile', '/Participant/Effect/Body part/Arm/Hand/Finger/Index', '/Attribute/Object side/Left')
+8.62901911612105	0	8630	Markers	('/Event/Category/Experimental stimulus/Instruction/Read/', '/Event/Label/inst_read', '/Event/Description/Text instruction to understand experiment presented to the subject', '/Item/Symbolic/Character/Letter/Unicode', '/Attribute/Onset', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Color/White', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Attribute/Language/Unit/Sentence/Full', '/Attribute/Language/Family/Latin/German', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+8.62901911612105	0	8630	Markers	red_pole_lang
+11.8450262406367	0	11846	Markers	('/Event/Category/Participant response', '/Event/Label/wii_button', '/Event/Description/Button press with the right index finger (devices include Wiimote/Joystick/Mouse)', '/Action/Type/Button press/Joystick', '/Participant/Effect/Tactile', '/Participant/Effect/Body part/Arm/Hand/Finger/Index', '/Attribute/Object side/Left')
+11.846026242852	0	11847	Markers	('/Event/Category/Experimental stimulus/Instruction/Read/', '/Event/Label/inst_read', '/Event/Description/Text instruction to understand experiment presented to the subject', '/Item/Symbolic/Character/Letter/Unicode', '/Attribute/Onset', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Color/White', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Attribute/Language/Unit/Sentence/Full', '/Attribute/Language/Family/Latin/German', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+11.846026242852	0	11847	Markers	target_lang
+14.7380326495993	0	14739	Markers	('/Event/Category/Participant response', '/Event/Label/wii_button', '/Event/Description/Button press with the right index finger (devices include Wiimote/Joystick/Mouse)', '/Action/Type/Button press/Joystick', '/Participant/Effect/Tactile', '/Participant/Effect/Body part/Arm/Hand/Finger/Index', '/Attribute/Object side/Left')
+14.7380326495993	0	14739	Markers	('/Event/Category/Experimental stimulus/Instruction/Read/', '/Event/Label/inst_read', '/Event/Description/Text instruction to understand experiment presented to the subject', '/Item/Symbolic/Character/Letter/Unicode', '/Attribute/Offset', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Color/White', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Attribute/Language/Unit/Sentence/Full', '/Attribute/Language/Family/Latin/German', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+14.7380326495993	0	14739	Markers	('/Event/Category/Experimental stimulus/Instruction/Attend/', '/Event/Label/targ_color_change', '/Event/Description/A target subject had to focus on while rotating on the spot', '/Item/3D Shape/Sphere', '/Attribute/Offset', '/Attribute/Visual/Color/Red', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+14.7380326495993	0	14739	Markers	('/Event/Category/Experimental stimulus/Instruction/Attend/', '/Event/Label/targ_color_change', '/Event/Description/A target subject had to focus on while rotating on the spot', '/Item/3D Shape/Sphere', '/Attribute/Onset', '/Attribute/Visual/Color/Red', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+14.7380326495993	0	14739	Markers	start_outward_rotation
+14.7380326495993	0	14739	Markers	start_outward_rotation,459069.311
+14.7380326495993	0	14739	Markers	start_outward_rotation:steamvr with PS CAPTURE,learn,learn:0,clock,slow,144,459069.311
+14.7380326495993	0	14739	Markers	control_style:steamvr with PS CAPTURE,459069.311
+14.7380326495993	0	14739	Markers	trial_type:learn,459069.311
+14.7380326495993	0	14739	Markers	trial_nr:learn:0,459069.311
+14.7380326495993	0	14739	Markers	direction:clock,459069.311
+14.7380326495993	0	14739	Markers	speed:slow,459069.311
+14.7380326495993	0	14739	Markers	angle:144,459069.311
+14.7380326495993	0	14739	Markers	posori:([0.0664060115814209, 1.6829962730407715, 0.08072614669799805], [1.8599475622177124, -2.106917142868042, 1.2635589838027954]),459069.311
+15.1410335423791	0	15142	Markers	current_angle:1,speed_at_angle:5.01206417999
+15.3420339876613	0	15343	Markers	current_angle:2,speed_at_angle:5.04823343285
+15.5430344329435	0	15544	Markers	current_angle:3,speed_at_angle:5.10843794221
+15.7340348560724	0	15735	Markers	current_angle:4,speed_at_angle:5.19256149717
+15.9230352747706	0	15924	Markers	current_angle:5,speed_at_angle:5.30044171666
+16.1030356735308	0	16104	Markers	current_angle:6,speed_at_angle:5.43187036286
+16.280036065645	0	16281	Markers	current_angle:7,speed_at_angle:5.58659374316
+16.4590364621899	0	16460	Markers	current_angle:8,speed_at_angle:5.76431319984
+16.6260368321507	0	16627	Markers	current_angle:9,speed_at_angle:5.96468568658
+16.7830371799582	0	16784	Markers	current_angle:10,speed_at_angle:6.18732443062
+16.9390375255504	0	16940	Markers	current_angle:11,speed_at_angle:6.43179967933
+17.0850378489892	0	17086	Markers	current_angle:12,speed_at_angle:6.69763952979
+17.2300381702127	0	17231	Markers	current_angle:13,speed_at_angle:6.98433083961
+17.3750384914362	0	17376	Markers	current_angle:14,speed_at_angle:7.29132021751
+17.4980387639224	0	17499	Markers	current_angle:15,speed_at_angle:7.61801509146
+17.6320390607772	0	17633	Markers	current_angle:16,speed_at_angle:7.96378485255
+17.7430393066793	0	17744	Markers	current_angle:17,speed_at_angle:8.3279620722
+17.8660395791655	0	17867	Markers	current_angle:18,speed_at_angle:8.70984379048
+17.9670398029142	0	17968	Markers	current_angle:19,speed_at_angle:9.10869287303
+18.0780400488164	0	18079	Markers	current_angle:20,speed_at_angle:9.5237394339
+18.1790402725651	0	18180	Markers	current_angle:21,speed_at_angle:9.95418232167
+18.2680404697299	0	18269	Markers	current_angle:22,speed_at_angle:10.3991906659
+18.3690406934787	0	18370	Markers	current_angle:23,speed_at_angle:10.8579054808
+18.4580408906435	0	18459	Markers	current_angle:24,speed_at_angle:11.3294413235
+18.5360410634395	0	18537	Markers	current_angle:25,speed_at_angle:11.812888003
+18.615041238451	0	18616	Markers	current_angle:26,speed_at_angle:12.3073123375
+18.6930414112471	0	18694	Markers	current_angle:27,speed_at_angle:12.8117599549
+18.7710415840431	0	18772	Markers	current_angle:28,speed_at_angle:13.3252571358
+18.8490417568392	0	18850	Markers	current_angle:29,speed_at_angle:13.8468126925
+18.9160419052666	0	18917	Markers	current_angle:30,speed_at_angle:14.3754198828
+18.983042053694	0	18984	Markers	current_angle:31,speed_at_angle:14.9100583526
+19.0500422021215	0	19051	Markers	current_angle:32,speed_at_angle:15.4496961059
+19.1060423261802	0	19107	Markers	current_angle:33,speed_at_angle:15.9932914968
+19.1740424768229	0	19175	Markers	current_angle:34,speed_at_angle:16.5397952402
+19.2290425986663	0	19230	Markers	current_angle:35,speed_at_angle:17.0881524368
+19.2850427227251	0	19286	Markers	current_angle:36,speed_at_angle:17.63730461
+19.3410428467838	0	19342	Markers	current_angle:37,speed_at_angle:18.1861917483
+19.3970429708425	0	19398	Markers	current_angle:38,speed_at_angle:18.7337543521
+19.4410430683172	0	19442	Markers	current_angle:39,speed_at_angle:19.2789354784
+19.497043192376	0	19498	Markers	current_angle:40,speed_at_angle:19.8206827811
+19.542043292066	0	19543	Markers	current_angle:41,speed_at_angle:20.3579505421
+19.5860433895407	0	19587	Markers	current_angle:42,speed_at_angle:20.8897016905
+19.6420435135995	0	19643	Markers	current_angle:43,speed_at_angle:21.4149098034
+19.6870436132895	0	19688	Markers	current_angle:44,speed_at_angle:21.932561088
+19.7320437129796	0	19733	Markers	current_angle:45,speed_at_angle:22.4416563383
+19.7760438104543	0	19777	Markers	current_angle:46,speed_at_angle:22.9412128636
+19.8100438857756	0	19811	Markers	current_angle:47,speed_at_angle:23.4302663854
+19.8540439832504	0	19855	Markers	current_angle:48,speed_at_angle:23.9078728991
+19.8990440829404	0	19900	Markers	current_angle:49,speed_at_angle:24.3731104957
+19.9330441582618	0	19934	Markers	current_angle:50,speed_at_angle:24.8250811415
+19.9780442579518	0	19979	Markers	current_angle:51,speed_at_angle:25.2629124117
+20.0220443554266	0	20023	Markers	current_angle:52,speed_at_angle:25.6857591743
+20.0560444307479	0	20057	Markers	current_angle:53,speed_at_angle:26.0928052214
+20.089044503854	0	20090	Markers	current_angle:54,speed_at_angle:26.4832648447
+20.134044603544	0	20135	Markers	current_angle:55,speed_at_angle:26.8563843521
+20.1670446766501	0	20168	Markers	current_angle:56,speed_at_angle:27.2114435228
+20.2010447519714	0	20202	Markers	current_angle:57,speed_at_angle:27.547756997
+20.2340448250775	0	20235	Markers	current_angle:58,speed_at_angle:27.8646755995
+20.2790449247675	0	20280	Markers	current_angle:59,speed_at_angle:28.161587592
+20.3130450000889	0	20314	Markers	current_angle:60,speed_at_angle:28.4379198546
+20.3460450731949	0	20347	Markers	current_angle:61,speed_at_angle:28.6931389918
+20.379045146301	0	20380	Markers	current_angle:62,speed_at_angle:28.926752362
+20.4130452216223	0	20414	Markers	current_angle:63,speed_at_angle:29.1383090288
+20.4460452947284	0	20447	Markers	current_angle:64,speed_at_angle:29.3274006307
+20.4800453700497	0	20481	Markers	current_angle:65,speed_at_angle:29.4936621702
+20.5140454453711	0	20515	Markers	current_angle:66,speed_at_angle:29.6367727178
+20.5470455184771	0	20548	Markers	current_angle:67,speed_at_angle:29.7564560318
+20.5810455937985	0	20582	Markers	current_angle:68,speed_at_angle:29.8524810911
+20.6140456669046	0	20615	Markers	current_angle:69,speed_at_angle:29.9246625415
+20.6480457422259	0	20649	Markers	current_angle:70,speed_at_angle:29.9728610536
+20.681045815332	0	20682	Markers	current_angle:71,speed_at_angle:29.9969835911
+20.714045888438	0	20715	Markers	current_angle:72,speed_at_angle:29.9969835911
+20.7480459637594	0	20749	Markers	current_angle:73,speed_at_angle:29.9728610536
+20.7810460368654	0	20782	Markers	current_angle:74,speed_at_angle:29.9246625415
+20.8150461121868	0	20816	Markers	current_angle:75,speed_at_angle:29.8524810911
+20.8480461852928	0	20849	Markers	current_angle:76,speed_at_angle:29.7564560318
+20.8820462606142	0	20883	Markers	current_angle:77,speed_at_angle:29.6367727178
+20.9150463337202	0	20916	Markers	current_angle:78,speed_at_angle:29.4936621702
+20.9490464090416	0	20950	Markers	current_angle:79,speed_at_angle:29.3274006307
+20.983046484363	0	20984	Markers	current_angle:80,speed_at_angle:29.1383090288

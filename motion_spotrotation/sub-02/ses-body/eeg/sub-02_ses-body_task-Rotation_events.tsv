@@ -1,0 +1,101 @@
+onset	duration	sample	type	value
+8.39999552517466	0	8401	Markers	('/Event/Category/Participant response', '/Event/Label/wii_button', '/Event/Description/Button press with the right index finger (devices include Wiimote/Joystick/Mouse)', '/Action/Type/Button press/Joystick', '/Participant/Effect/Tactile', '/Participant/Effect/Body part/Arm/Hand/Finger/Index', '/Attribute/Object side/Left')
+8.40099552464194	0	8402	Markers	('/Event/Category/Experimental stimulus/Instruction/Read/', '/Event/Label/inst_read', '/Event/Description/Text instruction to understand experiment presented to the subject', '/Item/Symbolic/Character/Letter/Unicode', '/Attribute/Onset', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Color/White', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Attribute/Language/Unit/Sentence/Full', '/Attribute/Language/Family/Latin/German', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+8.40099552464194	0	8402	Markers	training_start
+8.40099552464194	0	8402	Markers	learn trial start
+15.8829915388511	0	15884	Markers	('/Event/Category/Participant response', '/Event/Label/wii_button', '/Event/Description/Button press with the right index finger (devices include Wiimote/Joystick/Mouse)', '/Action/Type/Button press/Joystick', '/Participant/Effect/Tactile', '/Participant/Effect/Body part/Arm/Hand/Finger/Index', '/Attribute/Object side/Left')
+15.8839915383184	0	15885	Markers	('/Event/Category/Experimental stimulus/Instruction/Read/', '/Event/Label/inst_read', '/Event/Description/Text instruction to understand experiment presented to the subject', '/Item/Symbolic/Character/Letter/Unicode', '/Attribute/Onset', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Color/White', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Attribute/Language/Unit/Sentence/Full', '/Attribute/Language/Family/Latin/German', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+15.8839915383184	0	15885	Markers	red_pole_lang
+46.3209753240018	0	46322	Markers	('/Event/Category/Participant response', '/Event/Label/wii_button', '/Event/Description/Button press with the right index finger (devices include Wiimote/Joystick/Mouse)', '/Action/Type/Button press/Joystick', '/Participant/Effect/Tactile', '/Participant/Effect/Body part/Arm/Hand/Finger/Index', '/Attribute/Object side/Left')
+46.3229753229364	0	46324	Markers	('/Event/Category/Experimental stimulus/Instruction/Read/', '/Event/Label/inst_read', '/Event/Description/Text instruction to understand experiment presented to the subject', '/Item/Symbolic/Character/Letter/Unicode', '/Attribute/Onset', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Color/White', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Attribute/Language/Unit/Sentence/Full', '/Attribute/Language/Family/Latin/German', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+46.3229753229364	0	46324	Markers	target_lang
+61.6329671670345	0	61634	Markers	('/Event/Category/Participant response', '/Event/Label/wii_button', '/Event/Description/Button press with the right index finger (devices include Wiimote/Joystick/Mouse)', '/Action/Type/Button press/Joystick', '/Participant/Effect/Tactile', '/Participant/Effect/Body part/Arm/Hand/Finger/Index', '/Attribute/Object side/Left')
+61.6329671670345	0	61634	Markers	('/Event/Category/Experimental stimulus/Instruction/Read/', '/Event/Label/inst_read', '/Event/Description/Text instruction to understand experiment presented to the subject', '/Item/Symbolic/Character/Letter/Unicode', '/Attribute/Offset', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Color/White', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Attribute/Language/Unit/Sentence/Full', '/Attribute/Language/Family/Latin/German', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+61.6329671670345	0	61634	Markers	('/Event/Category/Experimental stimulus/Instruction/Attend/', '/Event/Label/targ_color_change', '/Event/Description/A target subject had to focus on while rotating on the spot', '/Item/3D Shape/Sphere', '/Attribute/Offset', '/Attribute/Visual/Color/Red', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+61.6329671670345	0	61634	Markers	('/Event/Category/Experimental stimulus/Instruction/Attend/', '/Event/Label/targ_color_change', '/Event/Description/A target subject had to focus on while rotating on the spot', '/Item/3D Shape/Sphere', '/Attribute/Onset', '/Attribute/Visual/Color/Red', '/Attribute/Location/Screen/Center', '/Attribute/Visual/Foreground', '/Attribute/Visual/Background/Color/Black with grassy ground', '/Sensory presentation/Visual/Rendering type/Screen/3D/Rift DK2', '/Participant/Effect/Cognitive/Meaningful', '/Participant/Effect/Visual/Foveal')
+61.6329671670345	0	61634	Markers	start_outward_rotation
+61.6329671670345	0	61634	Markers	start_outward_rotation,358172.276
+61.6339671665018	0	61635	Markers	start_outward_rotation:steamvr with PS CAPTURE,learn,learn:0,anticlock,slow,84,358172.276
+61.6339671665018	0	61635	Markers	steamvr with PS CAPTURE,358172.276
+61.6339671665018	0	61635	Markers	learn,358172.276
+61.6339671665018	0	61635	Markers	learn:0,358172.276
+61.6339671665018	0	61635	Markers	anticlock,358172.276
+61.6339671665018	0	61635	Markers	slow,358172.276
+61.6339671665018	0	61635	Markers	84,358172.276
+61.6339671665018	0	61635	Markers	([0.14736151695251465, 1.645212173461914, 0.3928539752960205], [1.2093760967254639, -7.201109409332275, 0.6692613959312439]),358172.276
+62.0359669523494	0	62037	Markers	-1,5.035799434
+62.2379668447405	0	62239	Markers	-2,5.1429926801
+62.4159667499169	0	62417	Markers	-3,5.32096574508
+62.5949666545605	0	62596	Markers	-4,5.56869921536
+62.7739665592041	0	62775	Markers	-5,5.88477409603
+62.9299664761002	0	62931	Markers	-6,6.26737993882
+63.0749663988562	0	63076	Markers	-7,6.71432521209
+63.2199663216121	0	63221	Markers	-8,7.22304985381
+63.3429662560879	0	63344	Markers	-9,7.7906399353
+63.4659661905637	0	63467	Markers	-10,8.41384435196
+63.5779661308994	0	63579	Markers	-11,9.08909344534
+63.6789660770949	0	63680	Markers	-12,9.81251944978
+63.7679660296831	0	63769	Markers	-13,10.5799786466
+63.8569659822712	0	63858	Markers	-14,11.3870750991
+63.9349659407193	0	63936	Markers	-15,12.2291858319
+64.0129658991673	0	64014	Markers	-16,13.1014873109
+64.0919658570827	0	64093	Markers	-17,13.9989830722
+64.1589658213906	0	64160	Markers	-18,14.9165323414
+64.2139657920911	0	64215	Markers	-19,15.8488794795
+64.2819657558664	0	64283	Markers	-20,16.7906840863
+64.3369657265669	0	64338	Markers	-21,17.7365515905
+64.3929656967347	0	64394	Markers	-22,18.6810641486
+64.4379656727625	0	64439	Markers	-23,19.6188116782
+64.4829656487902	0	64484	Markers	-24,20.5444228464
+64.5379656194907	0	64539	Markers	-25,21.4525958362
+64.5829655955185	0	64584	Markers	-26,22.338128715
+64.6169655774061	0	64618	Markers	-27,23.1959492307
+64.6619655534338	0	64663	Markers	-28,24.021143865
+64.7059655299942	0	64707	Markers	-29,24.8089859778
+64.7389655124146	0	64740	Markers	-30,25.5549628808
+64.7839654884423	0	64785	Markers	-31,26.2548016859
+64.8179654703299	0	64819	Markers	-32,26.9044937797
+64.8509654527502	0	64852	Markers	-33,27.5003177849
+64.8959654287779	0	64897	Markers	-34,28.0388608754
+64.9289654111983	0	64930	Markers	-35,28.5170383252
+64.9629653930859	0	64964	Markers	-36,28.9321111771
+64.9959653755062	0	64997	Markers	-37,29.2817019316
+65.0299653573938	0	65031	Markers	-38,29.5638081643
+65.0639653392814	0	65065	Markers	-39,29.7768139963
+65.0969653217018	0	65098	Markers	-40,29.9194993495
+65.1299653041221	0	65131	Markers	-41,29.9910469352
+65.1639652860097	0	65165	Markers	-42,29.9910469352
+65.19696526843	0	65198	Markers	-43,29.9194993495
+65.2309652503177	0	65232	Markers	-44,29.7768139963
+65.263965232738	0	65265	Markers	-45,29.5638081643
+65.2979652146256	0	65299	Markers	-46,29.2817019316
+65.3319651965132	0	65333	Markers	-47,28.9321111771
+65.3649651789335	0	65366	Markers	-48,28.5170383252
+65.3979651613539	0	65399	Markers	-49,28.0388608754
+65.4429651373816	0	65444	Markers	-50,27.5003177849
+65.4769651192692	0	65478	Markers	-51,26.9044937797
+65.5099651016895	0	65511	Markers	-52,26.2548016859
+65.5549650777172	0	65556	Markers	-53,25.5549628808
+65.5879650601376	0	65589	Markers	-54,24.8089859778
+65.6329650361653	0	65634	Markers	-55,24.021143865
+65.677965012193	0	65679	Markers	-56,23.1959492307
+65.7219649887535	0	65723	Markers	-57,22.338128715
+65.7679649642485	0	65769	Markers	-58,21.4525958362
+65.822964934949	0	65824	Markers	-59,20.5444228464
+65.8669649115094	0	65868	Markers	-60,19.6188116782
+65.9229648816773	0	65924	Markers	-61,18.6810641486
+65.9789648518451	0	65980	Markers	-62,17.7365515905
+66.0349648220129	0	66036	Markers	-63,16.7906840863
+66.1019647863209	0	66103	Markers	-64,15.8488794795
+66.1689647506288	0	66170	Markers	-65,14.9165323414
+66.2369647144041	0	66238	Markers	-66,13.9989830722
+66.3139646733848	0	66315	Markers	-67,13.1014873109
+66.3929646313001	0	66394	Markers	-68,12.2291858319
+66.4819645838883	0	66483	Markers	-69,11.3870750991
+66.5829645300839	0	66584	Markers	-70,10.5799786466
+66.6829644768121	0	66684	Markers	-71,9.81251944978
+66.7949644171478	0	66796	Markers	-72,9.08909344534
+66.9059643580162	0	66907	Markers	-73,8.41384435196
+67.0399642866321	0	67041	Markers	-74,7.7906399353
+67.1739642152479	0	67175	Markers	-75,7.22304985381
+67.3309641316113	0	67332	Markers	-76,6.71432521209
