@@ -1,0 +1,25 @@
+{
+    "Name": "Datasets with and without deliberate head movements for evaluating the performance of markerless prospective motion correction and selective reacquisition in a general clinical protocol for brain MRI",
+    "BIDSVersion": "1.7.0",
+    "License": "CC0",
+    "Authors": [
+        "Melanie Ganz",
+        "Hannah Eichhorn"
+    ],
+    "HowToAcknowledge": "Please cite the paper preprint https://psyarxiv.com/vzh4g when using this data.",
+    "ReferencesAndLinks": [
+        "https://psyarxiv.com/vzh4g",
+        "https://github.com/melanieganz/MoCoProject"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds004332.v1.0.2",
+    "EthicsApprovals": [
+        "The recruitment was performed by advertisement for different research projects, with approval by the Ethics Committee of Copenhagen and Frederiksberg, Denmark (protocol number H-KF-2006-20). Written informed consent was obtained from each participant."
+    ],
+    "Funding": [
+        "Elsass Fonden (18-3-0147)",
+        "Novo Nordisk and Novozymes Talent Program",
+        "National Institute of Biomedical Engineering (R21EB029641)",
+        "Shared Instrumentation Grants (S10OD025253 and MGH ECOR)"
+    ],
+    "Acknowledgements": "Eichhorn, H., Frost, S. R., Kongsgaard, A., Kettless, K., Slipsager, J., Glimberg, S., … Ganz, M. (2022, November 9). Evaluating the performance of markerless prospective motion correction and selective reacquisition in a general clinical protocol for brain MRI. Retrieved from psyarxiv.com/vzh4g"
+}
