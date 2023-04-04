@@ -23,6 +23,8 @@
     },
     "channel": {
         "LongName": "Annotated channel",
-        "Description": "List annotated channel. n/a for all channels."
+        "Description": "Comma-separated list of annotated channels corresponding to *_channels.tsv."
     }
 }
+
+

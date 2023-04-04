@@ -1,33 +1,12 @@
 onset	duration	HED	channel
-0	309	sc:Other-organized-rhythm/non-interesting events	FP1-F7
-0	309	sc:Other-organized-rhythm/non-interesting events	F7-T3
-0	309	sc:Other-organized-rhythm/non-interesting events	T3-T5
-0	309	sc:Other-organized-rhythm/non-interesting events	T5-O1
-0	309	sc:Other-organized-rhythm/non-interesting events	FP2-F8
+0	309	sc:Other-organized-rhythm/non-interesting events	FP1-F7,F7-T3,T3-T5,T5-O1,FP2-F8,A1-T3,T3-C3,C3-CZ,CZ-C4,FP1-F3,F3-C3,C3-P3,P3-O1,FP2-F4,F4-C4,C4-P4,P4-O2
 0	207.9323	sc:Other-organized-rhythm/non-interesting events	F8-T4
 207.9323	308	sc:Focal-onset-epileptic-seizure	F8-T4
-308	309	sc:Other-organized-rhythm/non-interesting events	F8-T4
+308	309	sc:Other-organized-rhythm/non-interesting events	F8-T4,T4-T6,C4-T4,T4-A2
 0	207.9434	sc:Other-organized-rhythm/non-interesting events	T4-T6
 207.9434	308	sc:Focal-onset-epileptic-seizure	T4-T6
-308	309	sc:Other-organized-rhythm/non-interesting events	T4-T6
 0	240.0202	sc:Other-organized-rhythm/non-interesting events	T6-O2
 240.0202	290.2828	sc:Focal-onset-epileptic-seizure	T6-O2
 290.2828	309	sc:Other-organized-rhythm/non-interesting events	T6-O2
-0	309	sc:Other-organized-rhythm/non-interesting events	A1-T3
-0	309	sc:Other-organized-rhythm/non-interesting events	T3-C3
-0	309	sc:Other-organized-rhythm/non-interesting events	C3-CZ
-0	309	sc:Other-organized-rhythm/non-interesting events	CZ-C4
-0	207.9101	sc:Other-organized-rhythm/non-interesting events	C4-T4
-207.9101	308	sc:Focal-onset-epileptic-seizure	C4-T4
-308	309	sc:Other-organized-rhythm/non-interesting events	C4-T4
-0	207.9101	sc:Other-organized-rhythm/non-interesting events	T4-A2
-207.9101	308	sc:Focal-onset-epileptic-seizure	T4-A2
-308	309	sc:Other-organized-rhythm/non-interesting events	T4-A2
-0	309	sc:Other-organized-rhythm/non-interesting events	FP1-F3
-0	309	sc:Other-organized-rhythm/non-interesting events	F3-C3
-0	309	sc:Other-organized-rhythm/non-interesting events	C3-P3
-0	309	sc:Other-organized-rhythm/non-interesting events	P3-O1
-0	309	sc:Other-organized-rhythm/non-interesting events	FP2-F4
-0	309	sc:Other-organized-rhythm/non-interesting events	F4-C4
-0	309	sc:Other-organized-rhythm/non-interesting events	C4-P4
-0	309	sc:Other-organized-rhythm/non-interesting events	P4-O2
+0	207.9101	sc:Other-organized-rhythm/non-interesting events	C4-T4,T4-A2
+207.9101	308	sc:Focal-onset-epileptic-seizure	C4-T4,T4-A2
