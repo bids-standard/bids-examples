@@ -1,67 +1,57 @@
-Overview
---------
-This is the "Matching Pennies" dataset. It was collected as part of a small
-scale replication project targeting the following reference:
+# Overview
 
-Matthias Schultze-Kraft et al.
-"Predicting Motor Intentions with Closed-Loop Brain-Computer Interfaces".
-In: Springer Briefs in Electrical and Computer Engineering.
-Springer International Publishing, 2017, pp. 79–90.
+This is the "Matching Pennies" dataset.
+It was collected as part of a small scale replication project targeting the following reference:
+
+> Matthias Schultze-Kraft et al.
+> "Predicting Motor Intentions with Closed-Loop Brain-Computer Interfaces".
+> In: Springer Briefs in Electrical and Computer Engineering.
+> Springer International Publishing, 2017, pp. 79–90.
 
 In brief, it contains EEG data for 7 subjects raising either their left or right hand,
 thus giving rise to a lateralized readiness potential as measured with the EEG.
 For details, see the `Details about the experiment` section.
 
+# Citing this dataset
 
-Citing this dataset
--------------------
 Please cite as follows:
 
-Appelhoff, S., Sauer, D., & Gill, S. S. (2018, July 22).
-Matching Pennies: A Brain Computer Interface Implementation Dataset.
+> Appelhoff, S., Sauer, D. & Gill, S. S. Matching Pennies: A Brain Computer Interface Implementation Dataset. Open Science Framework, https://doi.org/10.17605/OSF.IO/CJ2DR (2018).
 
 For more information, see the `dataset_description.json` file.
 
+# License
 
-License
--------
-This eeg_matchingpennies dataset is made available under the Open Database
-License.
+The `eeg_matchingpennies` dataset is made available under the Public Domain Dedication and License (PDDL).
 
-Copyright (c) 2018-2022, Stefan Appelhoff, Daryl Sauer, and Suleman Samuel Gill
+Copyright (c) 2018-2023, Stefan Appelhoff, Daryl Sauer, and Suleman Samuel Gill
 
-See the LICENSE file.
+See the `LICENSE` file.
 A human readable information can be found at:
 
-https://opendatacommons.org/licenses/odbl/summary/
+https://opendatacommons.org/licenses/pddl/1-0/
 
-Any rights in individual contents of the database are licensed under the
-Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
+# Format
 
+The dataset is formatted according to the Brain Imaging Data Structure (BIDS).
+See the `dataset_description.json` file for the specific version used.
 
-Format
-------
-The dataset is formatted according to the Brain Imaging Data Structure. See the
-`dataset_description.json` file for the specific version used.
-
-Generally, you can find data in the .tsv files and descriptions in the
-accompanying .json files.
+Generally, you can find metadata in the `.tsv` files and documentation thereof in the accompanying `.json` files.
+For example `participants.tsv` contains metadata about the participants,
+and `participants.json` contains documentation about the columns in `participants.tsv`
 
 An important BIDS definition to consider is the "Inheritance Principle", which
 is described in the BIDS specification under the following link:
 
-https://bids-specification.rtfd.io/en/stable/02-common-principles.html#the-inheritance-principle
+https://bids-specification.readthedocs.io/en/latest/common-principles.html#the-inheritance-principle
 
-The section states that:
+In brief, the Inheritance Pinciple states that any metadata file (such as `.json`, `.tsv`)
+may be defined at any directory level, but no more than one applicable file may be defined at a given level [...],
+and the values from the top level are inherited by all lower levels --
+unless they are overridden by a file at the lower level.
 
-> Any metadata file (such as .json, .bvec or .tsv) may be defined at any directory level,
-> but no more than one applicable file may be defined at a given level [...]
-> The values from the top level are inherited by all lower levels unless
-> they are overridden by a file at the lower level.
+# Details about the experiment
 
-
-Details about the experiment
-----------------------------
 For a detailed description of the task, see Schultze-Kraft et al. (2017)
 and the supplied `task-matchingpennies_eeg.json` file.
 What follows is a brief summary.
@@ -124,4 +114,3 @@ screen (60fps = 1 screen every 16.66666ms)
 
 Subjects 1 to 4 participated in the pilot testing only. Their data are not
 included in this dataset.
-

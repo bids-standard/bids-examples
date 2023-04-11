@@ -25,7 +25,7 @@
         }
     },
     "sample": {
-        "Description": "The sample within the EEG data at which the button release event occurred (i.e., a hand was raised)."
+        "Description": "The sample within the EEG data at which the button release event occurred (i.e., a hand was raised). This variable is using 1-based indexing."
     },
     "countdown_onset": {
         "Description": "Onset of the countdown after which to raise a hand (duration: 3 s).",
