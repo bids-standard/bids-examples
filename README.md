@@ -222,10 +222,10 @@ bids-examples (in alphabetical order).
 ### Microscopy datasets
 
 | name          | maintained by | description                                                                                     | link to full data |
-| ------------- | ------------- | ----------------------------------------------------------------------------------------------- | ----------------- |
-| micr_SEM      | @jcohenadad   | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          |                   |
-| micr_SEMzarr  | @TheChymera   | Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions             |                   |
-| micr_SPIM     | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |                   |
+| ------------- | ------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------- |
+| micr_SEM      | @jcohenadad   | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          | https://doi.org/10.5281/zenodo.5498378 |
+| micr_SEMzarr  | @TheChymera   | Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions             |                                                      |
+| micr_SPIM     | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each | https://doi.org/10.5281/zenodo.5517223 |
 
 
 ### NIRS datasets
