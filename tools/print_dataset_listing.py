@@ -101,6 +101,7 @@ def add_links(df):
     return df
 
 
+
 def clean_previous_run(output_file: Path) -> None:
     print("Cleaning output files from previous run...")
     lines = output_file.read_text().split("\n")
@@ -108,16 +109,17 @@ def clean_previous_run(output_file: Path) -> None:
         for line in lines:
             if line.startswith("## Dataset index"):
                 f.write(line + "\n")
-                f.write("\n")
-                f.write(
-                    """<!--
-Tables below are generated automatically.
-Do not edit them directly.
--->""".upper()
-                )
+                add_warning(f)
                 break
             f.write(line + "\n")
 
+def add_warning(f):
+    f.write("""<!--
+Table below is generated automatically.
+Do not edit directly.
+-->
+
+""".upper())
 
 def add_tables(df: pd.DataFrame, output_file: Path) -> None:
     print("Writing markdown tables...")
@@ -125,6 +127,7 @@ def add_tables(df: pd.DataFrame, output_file: Path) -> None:
     for table_name, table_datatypes in tables_order.items():
         with output_file.open("a") as f:
             f.write(f"\n\n### {table_name}\n\n")
+            add_warning(f)
         if table_name == "qMRI":
             sub_df = df[df["name"].str.contains("qmri_")]
         else:

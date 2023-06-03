@@ -107,23 +107,34 @@ file or open a
 and ask us directly.
 
 ## Dataset index
-
 <!--
-TABLES BELOW ARE GENERATED AUTOMATICALLY.
-DO NOT EDIT THEM DIRECTLY.
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
 -->
 
+
+
 ### ASL
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
 | name   | description                                                                                   | datatypes        | suffixes                                  | link to full data             | maintained by                            |
 |:-------|:----------------------------------------------------------------------------------------------|:-----------------|:------------------------------------------|:------------------------------|:-----------------------------------------|
 | asl001 | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                     | anat, perf       | T1w, asl, aslcontext, asllabeling         | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 | asl002 | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                    | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 | asl003 | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan                                    | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
-| asl004 | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar approach | anat, fmap, perf | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
+| asl004 | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | anat, fmap, perf | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 | asl005 | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 
 ### EEG
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
 | name                          | description                                                                                                        | datatypes   | suffixes                                       | link to full data                               | maintained by                                  |
 |:------------------------------|:-------------------------------------------------------------------------------------------------------------------|:------------|:-----------------------------------------------|:------------------------------------------------|:-----------------------------------------------|
@@ -138,6 +149,11 @@ DO NOT EDIT THEM DIRECTLY.
 
 ### iEGG
 
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
 | name                   | description                                                                                                    | datatypes              | suffixes                                                               | link to full data                                                           | maintained by                                |
 |:-----------------------|:---------------------------------------------------------------------------------------------------------------|:-----------------------|:-----------------------------------------------------------------------|:----------------------------------------------------------------------------|:---------------------------------------------|
 | ieeg_epilepsy          | multiple sessions, tutorial                                                                                    | anat, ieeg             | T1w, channels, coordsystem, electrodes, events, ieeg, scans            | [link](https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids) | [@ftadel](https://github.com/ftadel)         |
@@ -150,6 +166,11 @@ DO NOT EDIT THEM DIRECTLY.
 
 ### MEG
 
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
 | name     | description                                                                                                          | datatypes                       | suffixes                                                                                                                      | link to full data                                              | maintained by                              |
 |:---------|:---------------------------------------------------------------------------------------------------------------------|:--------------------------------|:------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
 | ds000117 | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task                          | anat, beh, dwi, fmap, func, meg | T1w, beh, bold, channels, coordsystem, dwi, events, headshape, magnitude1, magnitude2, meg, phasediff, scans                  | [link](https://openneuro.org/datasets/ds000117/)               | [@RikHenson](https://github.com/RikHenson) |
@@ -159,6 +180,11 @@ DO NOT EDIT THEM DIRECTLY.
 
 ### Microscopy
 
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
 | name         | description                                                                                     | datatypes   | suffixes                      | link to full data                              | maintained by                                |
 |:-------------|:------------------------------------------------------------------------------------------------|:------------|:------------------------------|:-----------------------------------------------|:---------------------------------------------|
 | micr_SEM     | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          | micr        | SEM, photo, samples, sessions | [link](https://doi.org/10.5281/zenodo.5498378) | [@jcohenadad](https://github.com/jcohenadad) |
@@ -167,6 +193,11 @@ DO NOT EDIT THEM DIRECTLY.
 
 ### Motion
 
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
 | name                    | description                                                                                               | datatypes   | suffixes                                                      | link to full data                                       | maintained by                                    |
 |:------------------------|:----------------------------------------------------------------------------------------------------------|:------------|:--------------------------------------------------------------|:--------------------------------------------------------|:-------------------------------------------------|
 | motion_dualtask         | older and younger participants walking while performing discrimination task                               | eeg, motion | channels, eeg, events, motion, scans                          | n/a                                                     | [@sjeung](https://github.com/sjeung)             |
@@ -174,6 +205,11 @@ DO NOT EDIT THEM DIRECTLY.
 | motion_systemvalidation | Example dataset of two different motion captured system recorded almost simultaneously, but no brain data | motion      | channels, motion, scans                                       | [link](https://doi.org/10.6084/m9.figshare.20238006.v2) | [@JuliusWelzel](https://github.com/JuliusWelzel) |
 
 ### MRI
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
 | name                   | description                                                                                 | datatypes                       | suffixes                                                                                                     | link to full data                                              | maintained by                              |
 |:-----------------------|:--------------------------------------------------------------------------------------------|:--------------------------------|:-------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
@@ -208,12 +244,22 @@ DO NOT EDIT THEM DIRECTLY.
 
 ### NIRS
 
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
 | name               | description                                                             | datatypes   | suffixes                                                             | link to full data                              | maintained by                                            |
 |:-------------------|:------------------------------------------------------------------------|:------------|:---------------------------------------------------------------------|:-----------------------------------------------|:---------------------------------------------------------|
 | fnirs_automaticity | 24 subjects performing (non-)automatic finger tapping and foot stepping | nirs        | channels, coordsystem, events, nirs, optodes, practicelogbook, scans | [link](https://doi.org/10.34973/vesb-mh30)     | [@robertoostenveld](https://github.com/robertoostenveld) |
 | fnirs_tapping      | Example fNIRS measurement with three conditions from five subjects      | nirs        | channels, coordsystem, events, nirs, optodes, scans                  | [link](https://doi.org/10.5281/zenodo.5529797) | [@rob_luke](https://github.com/rob_luke)                 |
 
 ### PET
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
 | name   | description     | datatypes   | suffixes         | link to full data                                | maintained by                                |
 |:-------|:----------------|:------------|:-----------------|:-------------------------------------------------|:---------------------------------------------|
@@ -224,6 +270,11 @@ DO NOT EDIT THEM DIRECTLY.
 | pet005 | T1w, PET        | anat, pet   | T1w, events, pet | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
 
 ### qMRI
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
 | name           | description                                                                              | datatypes   | suffixes                                               | link to full data             | maintained by                                                |
 |:---------------|:-----------------------------------------------------------------------------------------|:------------|:-------------------------------------------------------|:------------------------------|:-------------------------------------------------------------|

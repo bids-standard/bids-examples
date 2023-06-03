@@ -51,6 +51,22 @@ which means:
 -   `+` means, this is performed not file-wise but with a bunch of files at once.
     Could also be `\;` to have it one after the other
 
+## How to generate the tables in the readme 
+
+Edit the `dataset_listing.tsv` file to add or update datasets from the table.
+
+Install all the necessary dependencies:
+
+```bash
+pip install -r tool/requirements.txt
+```
+
+Then run the script:
+
+```bash
+python tools/print_dataset_listing.py
+```
+
 ## How to make a release
 
 We release `bids-examples` in sync with `bids-specification`.
