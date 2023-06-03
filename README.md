@@ -93,7 +93,7 @@ validator, docker, or from the command line.
 
 We are happy to receive contributions in the form of:
 
-- updates to existing examples, or the [dataset index](dataset-index)
+- updates to existing examples, or the [dataset index](#dataset-index)
 - new examples
   - only if they cover aspects that are currently not covered by existing
     examples
@@ -101,7 +101,7 @@ We are happy to receive contributions in the form of:
 - suggestions on how to improve the bids-examples repository
 
 For more information, please see our
-[CONTRIBUTING.md](https://github.com/bids-standard/bids-examples/blob/master/CONTRIBUTING.md)
+[CONTRIBUTING.md](./CONTRIBUTING.md)
 file or open a
 [new GitHub Issue](https://github.com/bids-standard/bids-examples/issues/new)
 and ask us directly.
@@ -111,23 +111,6 @@ and ask us directly.
 Below you find several tables with information about the datasets available in
 bids-examples (in alphabetical order).
 
-- [bids-examples](#bids-examples)
-  - [Validating BIDS examples](#validating-bids-examples)
-    - [Validating individual examples](#validating-individual-examples)
-    - [Validating all examples](#validating-all-examples)
-    - [Validator exceptions](#validator-exceptions)
-  - [Contributing](#contributing)
-  - [Dataset index](#dataset-index)
-    - [EEG datasets](#eeg-datasets)
-    - [iEEG datasets](#ieeg-datasets)
-    - [MRI datasets](#mri-datasets)
-    - [ASL datasets](#asl-datasets)
-    - [qMRI datasets](#qmri-datasets)
-    - [PET datasets](#pet-datasets)
-    - [Microscopy datasets](#microscopy-datasets)
-    - [Motion datasets](#motion-datasets)    
-    - [NIRS datasets](#nirs-datasets)
-    - [Multimodal datasets](#multimodal-datasets)
 
 ### EEG datasets
 

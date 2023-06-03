@@ -2,8 +2,8 @@ site_name: bids-examples
 
 nav:
     - The BIDS examples:
-      - Introduction: index.md
-      - Contributing: contributing.md
+      - Introduction: README.md
+      - Contributing: CONTRIBUTING.md
 
 theme:
     name: material
