@@ -67,7 +67,7 @@ Simply run `bash run_tests.sh` in a command line from the root of the
 ### Validator exceptions
 
 Some datasets may include a custom `.bids-validator-config.json` to ignore
-errors generated from idiosyncracies of the datasets as they existed on
+errors generated from idiosyncrasies of the datasets as they existed on
 creation.
 
 | name          | errors ignored                                                                                                                 |
@@ -120,7 +120,7 @@ DO NOT EDIT THEM DIRECTLY.
 | asl001 | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                     | anat, perf       | T1w, asl, aslcontext, asllabeling         | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 | asl002 | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                    | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 | asl003 | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan                                    | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
-| asl004 | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | anat, fmap, perf | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
+| asl004 | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar approach | anat, fmap, perf | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 | asl005 | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 
 ### EEG

@@ -40,15 +40,16 @@ find <path_to_ds> -type f -name '*.fif' -exec truncate -s 0 {} +
 ```
 
 which means:
-- in this directory `<path_to_ds>`
-- ... find everything of type "file" (or specify `d` for directory, ...)
-- [optional] ... use `-name` with wildcard `*` to match to particular file types
-- ... for each file, execute something
-- ... namely, truncate the file
-- ... to size 0
-- `{}` is where a file name is put automatically (do not modify it)
-- `+` means, this is performed not file-wise but with a bunch of files at once.
-  Could also be `\;` to have it one after the other
+
+-   in this directory `<path_to_ds>`
+-   ... find everything of type "file" (or specify `d` for directory, ...)
+-   [optional] ... use `-name` with wildcard `*` to match to particular file types
+-   ... for each file, execute something
+-   ... namely, truncate the file
+-   ... to size 0
+-   `{}` is where a file name is put automatically (do not modify it)
+-   `+` means, this is performed not file-wise but with a bunch of files at once.
+    Could also be `\;` to have it one after the other
 
 ## How to make a release
 
