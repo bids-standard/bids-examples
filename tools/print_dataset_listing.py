@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from bids import BIDSLayout
 
-folders_to_skip = ["docs", ".git", ".github"]
+folders_to_skip = ["docs", ".git", ".github", "tools", "env"]
 suffixes_to_remove = ["README", "description", "participants"]
 column_order = [
     "name",
