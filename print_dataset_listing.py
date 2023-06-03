@@ -20,7 +20,7 @@ update_content = False
 
 root = Path(__file__).parent
 input_file = root / "dataset_listing.tsv"
-output_file = root / "dataset_listing.md"
+output_file = root / "README.md"
 
 tables_order = {
     "ASL": "perf",
@@ -84,7 +84,7 @@ Do not edit them directly.
     df.fillna("n/a", inplace=True)
     for table_name, table_datatypes in tables_order.items():
         with output_file.open("a") as f:
-            f.write(f"\n\n## {table_name} datasets\n\n")
+            f.write(f"\n\n### {table_name}\n\n")
         if table_name == "qMRI":
             sub_df = df[df["name"].str.contains("qmri_")]
         else:
