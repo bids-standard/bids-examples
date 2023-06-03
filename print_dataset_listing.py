@@ -1,18 +1,46 @@
+"""Take the listing of examples datasets
+and turns it into a markdown document with a series of markdown tables."""
 from pathlib import Path
 import pandas as pd
 from bids import BIDSLayout
 
+folders_to_skip = ["docs", ".git", ".github"]
+suffixes_to_remove = ["README", "description", "participants"]
+column_order = [
+    "name",
+    "description",
+    "datatypes",
+    "suffixes",
+    "link to full data",
+    "maintained by",
+]
+
+# set to True to update the listing of datasets with the datatypes and suffixes
+update_content = False
+
+root = Path(__file__).parent
+input_file = root / "dataset_listing.tsv"
+output_file = root / "dataset_listing.md"
+
+tables_order = {
+    "ASL": "perf",
+    "EEG": "^eeg$",
+    "iEGG": "ieeg",
+    "MEG": "meg",
+    "Microscopy": "micr",
+    "Motion": "motion",
+    "MRI": "func",
+    "NIRS": "nirs",
+    "PET": "pet",
+    "qMRI": "((anat)|(fmap)){1}(, fmap){0,1}",
+}
+
 
 def main():
-    root = Path(__file__).parent
-
-    input_file = root / "dataset_listing.tsv"
-
     df = pd.read_csv(input_file, sep="\t")
 
     nb_datasets = len(df)
 
-    folders_to_skip = ["docs", ".git", ".github"]
     folders = list(root.glob("*"))
     folders = [f.name for f in folders if f.is_dir() and f.name not in folders_to_skip]
     if len(folders) != nb_datasets:
@@ -30,37 +58,64 @@ def main():
             if col == "maintained by" and row[1][col].startswith("@"):
                 row[1][col] = f"[{row[1][col]}](https://github.com/{row[1][col][1:]})"
 
+    if update_content:
+        df = update_datatypes_and_suffixes(df, root)
+        df.to_csv(input_file, sep="\t", index=False)
+
+    df = df[column_order]
+
+    print("Cleaning output files from previous run...")
+    lines = output_file.read_text().split("\n")
+    with output_file.open("w") as f:
+        for line in lines:
+            if line.startswith("## Dataset index"):
+                f.write(line + "\n")
+                f.write("\n")
+                f.write(
+                    """<!--
+Tables below are generated automatically.
+Do not edit them directly.
+-->""".upper()
+                )
+                break
+            f.write(line + "\n")
+
+    print("Writing markdown tables...")
+    df.fillna("n/a", inplace=True)
+    for table_name, table_datatypes in tables_order.items():
+        with output_file.open("a") as f:
+            f.write(f"\n\n## {table_name} datasets\n\n")
+        if table_name == "qMRI":
+            sub_df = df[df["name"].str.contains("qmri_")]
+        else:
+            sub_df = df[df["datatypes"].str.contains(table_datatypes, regex=True)]
+        sub_df.sort_values(by=["name"], inplace=True)
+        print(sub_df)
+        sub_df.to_markdown(output_file, index=False, mode="a")
+
+
+def update_datatypes_and_suffixes(df, root):
     print("Listing datatypes, suffixes...")
     datatypes = []
     suffixes = []
-    suffixes_to_remove = ["README", "description", "participants"]
-
     for row in df.iterrows():
         print(f"  {row[1]['name']}")
 
         layout = BIDSLayout(root / row[1]["name"])
 
-        datatypes.append(stringify_list(layout.get_datatypes()))
+        tmp = sorted(layout.get_datatypes()) or ["n/a"]
+        datatypes.append(stringify_list(tmp))
 
         tmp = layout.get_suffixes()
-        tmp = [s for s in tmp if s not in suffixes_to_remove]
+        tmp = sorted([s for s in tmp if s not in suffixes_to_remove]) or ["n/a"]
         suffixes.append(stringify_list(tmp))
 
+    if not datatypes:
+        datatypes = ["n/a"]
     df["datatypes"] = datatypes
     df["suffixes"] = suffixes
 
-    df = df[
-        [
-            "name",
-            "description",
-            "datatypes",
-            "suffixes",
-            "link to full data",
-            "maintained by",
-        ]
-    ]
-
-    df.to_markdown(input_file.with_suffix(".md"), index=False)
+    return df
 
 
 def stringify_list(l):
