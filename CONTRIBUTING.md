@@ -27,7 +27,7 @@ functionality. Because the tests cannot go beyond very basic checks of
 filenames and directory structures.
 
 To provide a remedy for that, we provide some datasets with intact data headers,
-see the [Dataset Index Table](https://github.com/bids-standard/bids-examples/blob/master/README.md#dataset-index).
+see the [Dataset Index Table](./README.md#dataset-index).
 
 ## How to truncate data files to 0kb
 
