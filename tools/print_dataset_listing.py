@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from bids import BIDSLayout
 
-folders_to_skip = ["docs", ".git", ".github", "tools", "env"]
+folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site"]
 suffixes_to_remove = ["README", "description", "participants"]
 column_order = [
     "name",
@@ -32,15 +32,29 @@ tables_order = {
     "MRI": "func",
     "NIRS": "nirs",
     "PET": "pet",
-    "qMRI": "((anat)|(fmap)){1}(, fmap){0,1}",
+    "qMRI": "",
 }
 
 
 def main():
     df = pd.read_csv(input_file, sep="\t")
 
-    nb_datasets = len(df)
+    check_missing_folders(df, root)
 
+    if update_content:
+        df = update_datatypes_and_suffixes(df, root)
+        df.to_csv(input_file, sep="\t", index=False)
+
+    df = add_links(df)
+
+    clean_previous_run(output_file)
+
+    df = df[column_order]
+    add_tables(df, output_file)
+
+
+def check_missing_folders(df, root):
+    nb_datasets = len(df)
     folders = list(root.glob("*"))
     folders = [f.name for f in folders if f.is_dir() and f.name not in folders_to_skip]
     if len(folders) != nb_datasets:
@@ -48,50 +62,6 @@ def main():
             f"Found {len(folders)} folders but {nb_datasets} datasets in the table:"
             f"missing {set(folders) - set(df['name'].values)} folders"
         )
-
-    for row in df.iterrows():
-        for col in ["link to full data", "maintained by"]:
-            if not isinstance(row[1][col], str):
-                continue
-            if col == "link to full data" and row[1][col].startswith("http"):
-                row[1][col] = f"[link]({row[1][col]})"
-            if col == "maintained by" and row[1][col].startswith("@"):
-                row[1][col] = f"[{row[1][col]}](https://github.com/{row[1][col][1:]})"
-
-    if update_content:
-        df = update_datatypes_and_suffixes(df, root)
-        df.to_csv(input_file, sep="\t", index=False)
-
-    df = df[column_order]
-
-    print("Cleaning output files from previous run...")
-    lines = output_file.read_text().split("\n")
-    with output_file.open("w") as f:
-        for line in lines:
-            if line.startswith("## Dataset index"):
-                f.write(line + "\n")
-                f.write("\n")
-                f.write(
-                    """<!--
-Tables below are generated automatically.
-Do not edit them directly.
--->""".upper()
-                )
-                break
-            f.write(line + "\n")
-
-    print("Writing markdown tables...")
-    df.fillna("n/a", inplace=True)
-    for table_name, table_datatypes in tables_order.items():
-        with output_file.open("a") as f:
-            f.write(f"\n\n### {table_name}\n\n")
-        if table_name == "qMRI":
-            sub_df = df[df["name"].str.contains("qmri_")]
-        else:
-            sub_df = df[df["datatypes"].str.contains(table_datatypes, regex=True)]
-        sub_df.sort_values(by=["name"], inplace=True)
-        print(sub_df)
-        sub_df.to_markdown(output_file, index=False, mode="a")
 
 
 def update_datatypes_and_suffixes(df, root):
@@ -116,6 +86,52 @@ def update_datatypes_and_suffixes(df, root):
     df["suffixes"] = suffixes
 
     return df
+
+
+def add_links(df):
+    print("Adding hyperlinks in table...")
+    for row in df.iterrows():
+        for col in ["link to full data", "maintained by"]:
+            if not isinstance(row[1][col], str):
+                continue
+            if col == "link to full data" and row[1][col].startswith("http"):
+                row[1][col] = f"[link]({row[1][col]})"
+            if col == "maintained by" and row[1][col].startswith("@"):
+                row[1][col] = f"[{row[1][col]}](https://github.com/{row[1][col][1:]})"
+    return df
+
+
+def clean_previous_run(output_file: Path) -> None:
+    print("Cleaning output files from previous run...")
+    lines = output_file.read_text().split("\n")
+    with output_file.open("w") as f:
+        for line in lines:
+            if line.startswith("## Dataset index"):
+                f.write(line + "\n")
+                f.write("\n")
+                f.write(
+                    """<!--
+Tables below are generated automatically.
+Do not edit them directly.
+-->""".upper()
+                )
+                break
+            f.write(line + "\n")
+
+
+def add_tables(df: pd.DataFrame, output_file: Path) -> None:
+    print("Writing markdown tables...")
+    df.fillna("n/a", inplace=True)
+    for table_name, table_datatypes in tables_order.items():
+        with output_file.open("a") as f:
+            f.write(f"\n\n### {table_name}\n\n")
+        if table_name == "qMRI":
+            sub_df = df[df["name"].str.contains("qmri_")]
+        else:
+            sub_df = df[df["datatypes"].str.contains(table_datatypes, regex=True)]
+        sub_df.sort_values(by=["name"], inplace=True)
+        print(sub_df)
+        sub_df.to_markdown(output_file, index=False, mode="a")
 
 
 def stringify_list(l):
