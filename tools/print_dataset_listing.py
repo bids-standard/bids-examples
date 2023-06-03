@@ -18,7 +18,7 @@ column_order = [
 # set to True to update the listing of datasets with the datatypes and suffixes
 update_content = False
 
-root = Path(__file__).parent
+root = Path(__file__).resolve().parent.parent
 input_file = root / "dataset_listing.tsv"
 output_file = root / "README.md"
 
