@@ -1,0 +1,79 @@
+name	description	link to full data	maintained by
+eeg_matchingpennies	Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk)	https://doi.org/10.17605/OSF.IO/CJ2DR	@sappelhoff
+eeg_rishikesh	Mind wandering experiment. EEG data in Biosemi (.bdf) format	https://openneuro.org/datasets/ds001787	@arnodelorme
+eeg_face13	Deconstructing the early visual electrocortical response to face and house stimuli. EDF format	n/a	@andesha
+eeg_ds003645s_hed	Shows usage of Hierarchical Event Descriptor (HED) in events files	https://openneuro.org/datasets/ds003645	@VisLab
+eeg_ds003645s_hed_inheritance	HED annotation with multiple inherited sidecars	https://openneuro.org/datasets/ds003645	@VisLab
+eeg_ds003645s_hed_longform	HED annotation using tags in long form.	https://openneuro.org/datasets/ds003645	@VisLab
+eeg_ds003645s_hed_library	HED annotation using HED library vocabularies (schema).	https://openneuro.org/datasets/ds003645	@VisLab
+eeg_cbm	Rest EEG. European Data Format (.edf)	n/a	@cpernet
+ieeg_filtered_speech	recordings of three seizures	n/a	@choldgraf
+ieeg_motorMiller2007	Cue-based hand & tongue movement data	n/a	@dorahermes
+ieeg_visual	Stimulus dependence of gamma oscillations in human visual cortex	n/a	@dorahermes
+7t_trt	n/a	https://bit.ly/2H0Z6Qt	n/a
+ds001	single task, multiple runs	https://openneuro.org/datasets/ds000001/versions/00006	n/a
+ds002	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000002/versions/00002	n/a
+ds003	single task, single run	https://openneuro.org/datasets/ds000003/versions/00001	n/a
+ds005	single task, multiple runs	https://openneuro.org/datasets/ds000005/versions/00001	n/a
+ds006	single task, multiple sessions, multiple runs	https://openneuro.org/datasets/ds000006/versions/00001	n/a
+ds007	single task, multiple runs	https://openneuro.org/datasets/ds000007/versions/00001	n/a
+ds008	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000008/versions/00001	n/a
+ds009	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000009/versions/00002	n/a
+ds011	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000011/versions/00001	n/a
+ds051	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000051/versions/00001	n/a
+ds052	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000052/versions/00001	n/a
+ds101	single task, multiple runs	https://openneuro.org/datasets/ds000101/versions/00004	n/a
+ds102	single task, multiple runs	https://openneuro.org/datasets/ds000102/versions/00001	n/a
+ds105	single task, multiple runs	https://openneuro.org/datasets/ds000105/versions/00001	n/a
+ds107	single task, multiple runs	https://openneuro.org/datasets/ds000107/versions/00001	n/a
+ds108	single task, multiple runs	https://openneuro.org/datasets/ds000108/versions/00002	n/a
+ds109	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000109/versions/00001	n/a
+ds110	single task, multiple runs	https://openneuro.org/datasets/ds000110/versions/00001	n/a
+ds113b	forrest gump watching, multiple sessions, multiple runs	https://openneuro.org/datasets/ds000113/versions/1.3.0	n/a
+ds114	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000114/versions/1.0.1	n/a
+ds116	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000116/versions/00003	n/a
+ds210	multiple tasks, multiple runs	https://openneuro.org/datasets/ds000210/versions/00002	n/a
+hcp_example_bids	n/a	https://bit.ly/2H0Z6Qt	@robertoostenveld
+synthetic	A synthetic dataset	n/a	@effigies
+ds000001-fmriprep	Common derivatives example	https://openneuro.org/datasets/ds000001/versions/1.0.0	@effigies
+ds004332	Anat dataset with task entity	https://openneuro.org/datasets/ds004332/versions/1.0.2	@Remi-Gau
+asl001	T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries	https://osf.io/yru2q/	@patsycle
+asl002	T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan	https://osf.io/yru2q/	@patsycle
+asl003	T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan	https://osf.io/yru2q/	@patsycle
+asl004	T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch	https://osf.io/yru2q/	@patsycle
+asl005	T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan	https://osf.io/yru2q/	@patsycle
+qmri_mp2rage	MP2RAGE for T1 mapping	https://osf.io/k4bs5/	@Gilles86
+qmri_mp2rageme	Multi-echo MP2RAGE	https://osf.io/k4bs5/	@Gilles86
+qmri_mpm	Multi-parametric mapping for R1, R2star, MTsat and PD mapping	https://osf.io/k4bs5/	@ChristophePhillips
+qmri_mtsat	Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example.	https://osf.io/k4bs5/	@agahkarakuzu
+qmri_qsm	Chimap using fast QSM	`not publicly availabe`	@agahkarakuzu
+qmri_sa2rage	Fast B1+ mapping using SA2RAGE	`not publicly availabe`	@agahkarakuzu
+qmri_vfa	Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example.	https://osf.io/k4bs5/	@agahkarakuzu
+qmri_irt1	Inversion Recovery T1 mapping	`not publicly availabe`	@agahkarakuzu
+qmri_mese	Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping.	`not publicly availabe`	@agahkarakuzu
+qmri_megre	Multi-Echo Gradient-Echo for T2star mapping.	`not publicly availabe`	@agahkarakuzu
+qmri_tb1tfl	B1+ mapping with TurboFLASH readout.	`not publicly availabe`	@agahkarakuzu
+pet001	T1w, PET, blood	n/a	@mnoergaard
+pet002	T1w, PET	https://openneuro.org/datasets/ds001420/	@mnoergaard
+pet003	T1w, PET, blood	n/a	@mnoergaard
+pet004	PET, blood	n/a	@mnoergaard
+pet005	T1w, PET	n/a	@mnoergaard
+micr_SEM	Example SEM dataset in PNG format with 1 sample imaged over 2 sessions	https://doi.org/10.5281/zenodo.5498378	@jcohenadad
+micr_SEMzarr	Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions	n/a	@TheChymera
+micr_SPIM	Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each	https://doi.org/10.5281/zenodo.5517223	@jcohenadad
+fnirs_tapping	Example fNIRS measurement with three conditions from five subjects	https://doi.org/10.5281/zenodo.5529797	@rob_luke
+fnirs_automaticity	24 subjects performing (non-)automatic finger tapping and foot stepping	https://doi.org/10.34973/vesb-mh30	@robertoostenveld
+motion_systemvalidation	Example dataset of two different motion captured system recorded almost simultaneously, but no brain data	https://doi.org/10.6084/m9.figshare.20238006.v2	@JuliusWelzel
+ds000117	A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task	https://openneuro.org/datasets/ds000117/	@RikHenson
+ds000246	Auditory dataset used for Brainstorm’s general online tutorial	https://openneuro.org/datasets/ds000246/versions/00001	@guiomar
+ds000247	Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA).	https://openneuro.org/datasets/ds000247/versions/00001	@guiomar
+ds000248	MNE sample data: Data with visual and auditory stimuli	https://openneuro.org/datasets/ds000248/versions/00001	@agramfort
+eeg_ds000117	Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt)	https://openneuro.org/datasets/ds000117/	@robertoostenveld
+eeg_rest_fmri	Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)	n/a	@cpernet
+ieeg_epilepsy	multiple sessions, tutorial	https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids	@ftadel
+ieeg_epilepsyNWB	multiple sessions, tutorial — derivative dataset of `ieeg_epilepsy` showcasing the NWB file format alternative	https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids	@TheChymera
+ieeg_epilepsy_ecog	multiple sessions, tutorial	https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog	@ftadel
+ieeg_visual_multimodal	n/a	n/a	@irisgroen
+genetics_ukbb	multiple tasks, T1w, DTI, BOLD, genetic info	n/a	@cpernet
+motion_dualtask	older and younger participants walking while performing discrimination task	n/a	@sjeung
+motion_spotrotation	participants rotated heading using full-body motion or joystick	https://openneuro.org/datasets/ds004460	@sjeung

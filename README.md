@@ -135,7 +135,7 @@ bids-examples (in alphabetical order).
 
 ### MRI datasets
 
-| name              | maintained by     | description                                             | func         | anat                      | other                  | link to link to full data                              |
+| name              | maintained by     | description                                             | func         | anat                      | other                  | link to full data                              |
 | ----------------- | ----------------- | ------------------------------------------------------- | ------------ | ------------------------- | ---------------------- | ------------------------------------------------------ |
 | 7t_trt            |                   |                                                         | bold, physio | T1w, quantitative T1 maps | fmap                   | https://bit.ly/2H0Z6Qt                                 |
 | ds001             |                   | single task, multiple runs                              | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000001/versions/00006 |
@@ -168,7 +168,7 @@ bids-examples (in alphabetical order).
 
 ### ASL datasets
 
-| name   | maintained by | description                                                                                   | link to link to full data |
+| name   | maintained by | description                                                                                   | link to full data |
 | ------ | ------------- | --------------------------------------------------------------------------------------------- | ------------------------- |
 | asl001 | @patsycle     | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                     | https://osf.io/yru2q/     |
 | asl002 | @patsycle     | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                    | https://osf.io/yru2q/     |
@@ -178,7 +178,7 @@ bids-examples (in alphabetical order).
 
 ### qMRI datasets
 
-| name           | maintained by       | description                                                                              | link to link to full data |
+| name           | maintained by       | description                                                                              | link to full data |
 | -------------- | ------------------- | ---------------------------------------------------------------------------------------- | ------------------------- |
 | qmri_mp2rage   | @Gilles86           | MP2RAGE for T1 mapping                                                                   | https://osf.io/k4bs5/     |
 | qmri_mp2rageme | @Gilles86           | Multi-echo MP2RAGE                                                                       | https://osf.io/k4bs5/     |
@@ -216,7 +216,7 @@ bids-examples (in alphabetical order).
 | name              | maintained by     | description                                                             | link to full data                       |
 | ----------------- | ----------------- | ----------------------------------------------------------------------- | --------------------------------------- |
 | fnirs_tapping     | @rob_luke         | Example fNIRS measurement with three conditions from five subjects      | https://doi.org/10.5281/zenodo.5529797  |
-| fnirs_automaticiy | @robertoostenveld | 24 subjects performing (non-)automatic finger tapping and foot stepping | https://doi.org/10.34973/vesb-mh30      |
+| fnirs_automaticity | @robertoostenveld | 24 subjects performing (non-)automatic finger tapping and foot stepping | https://doi.org/10.34973/vesb-mh30      |
 
 
 ### Motion datasets
