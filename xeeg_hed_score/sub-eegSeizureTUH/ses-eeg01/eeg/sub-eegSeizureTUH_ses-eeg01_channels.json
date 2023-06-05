@@ -7,8 +7,5 @@
 	},
 	"units": {
 		"Description": "REQUIRED. Physical unit of the value represented in this channel."
-	},
-	"reference": {
-		"Description": "OPTIONAL. Name of the reference electrode(s). This column is not needed when it is common to all channels. In that case the reference electrode(s) can be specified in *_eeg.json as EEGReference)."
 	}
 }
