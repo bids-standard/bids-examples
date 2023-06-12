@@ -53,19 +53,12 @@ which means:
 
 ## How to generate the tables in the readme 
 
-Edit the `dataset_listing.tsv` file to add or update datasets from the table.
+Note that these steps must be executed whenever a new dataset is added to the repository.
 
-Install all the necessary dependencies:
-
-```bash
-pip install -r tool/requirements.txt
-```
-
-Then run the script:
-
-```bash
-python tools/print_dataset_listing.py
-```
+1. Edit the `dataset_listing.tsv` file to add or update datasets from the table.
+1. Install all the necessary dependencies: `pip install -r tools/requirements.txt`
+1. Then run the script: `python tools/print_dataset_listing.py`
+1. Finally, `git commit` all changes and `git push` them to your remote (for example when you are working on a Pull Request)
 
 ## How to make a release
 
