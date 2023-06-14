@@ -1,5 +1,5 @@
 onset	duration	sample	trial_type	response_time	value	HED
-0.718750	0.000000	n/a	n/a	n/a	e-198	
+0.718750	0.000000	n/a	n/a	n/a	e-198	Experiment-control, Recording
 17.264648	0.000000	n/a	n/a	n/a	house-upright-f2	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 17.347656	0.000000	n/a	n/a	n/a	house-upright-f3	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 17.431641	0.000000	n/a	n/a	n/a	house-upright-f4	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
@@ -1500,7 +1500,7 @@ onset	duration	sample	trial_type	response_time	value	HED
 233.811523	0.000000	n/a	n/a	n/a	face-inverted-f5	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, (Rotated, Downward)
 233.877930	0.000000	n/a	n/a	n/a	face-inverted-f6	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, (Rotated, Downward)
 243.999023	0.000000	n/a	n/a	n/a	boundary	Happy, Experiment-procedure, Recording
-244.812500	0.000000	n/a	n/a	n/a	e-198	
+244.812500	0.000000	n/a	n/a	n/a	e-198	Experiment-control, Recording
 264.517578	0.000000	n/a	n/a	n/a	house-inverted-f2	Sensory-event, Experimental-stimulus, Visual-presentation, Image, (Rotated, Downward)
 264.584961	0.000000	n/a	n/a	n/a	house-inverted-f3	Sensory-event, Experimental-stimulus, Visual-presentation, Image, (Rotated, Downward)
 264.651367	0.000000	n/a	n/a	n/a	house-inverted-f4	Sensory-event, Experimental-stimulus, Visual-presentation, Image, (Rotated, Downward)
@@ -3001,7 +3001,7 @@ onset	duration	sample	trial_type	response_time	value	HED
 479.016602	0.000000	n/a	n/a	n/a	house-upright-f5	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 479.083984	0.000000	n/a	n/a	n/a	house-upright-f6	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 492.999023	0.000000	n/a	n/a	n/a	boundary	Happy, Experiment-procedure, Recording
-493.820313	0.000000	n/a	n/a	n/a	e-198	
+493.820313	0.000000	n/a	n/a	n/a	e-198	Experiment-control, Recording
 507.500000	0.000000	n/a	n/a	n/a	house-upright-f2	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 507.583984	0.000000	n/a	n/a	n/a	house-upright-f3	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 507.666992	0.000000	n/a	n/a	n/a	house-upright-f4	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
@@ -4502,8 +4502,8 @@ onset	duration	sample	trial_type	response_time	value	HED
 721.949219	0.000000	n/a	n/a	n/a	face-upright-f5	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
 722.016602	0.000000	n/a	n/a	n/a	face-upright-f6	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
 730.999023	0.000000	n/a	n/a	n/a	boundary	Happy, Experiment-procedure, Recording
-731.312500	0.000000	n/a	n/a	n/a	e-198	
-748.936523	0.000000	n/a	n/a	n/a	e-223	
+731.312500	0.000000	n/a	n/a	n/a	e-198	Experiment-control, Recording
+748.936523	0.000000	n/a	n/a	n/a	e-223	Experiment-control, Recording
 749.002930	0.000000	n/a	n/a	n/a	face-upright-f2	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
 749.069336	0.000000	n/a	n/a	n/a	face-upright-f3	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
 749.136719	0.000000	n/a	n/a	n/a	face-upright-f4	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
@@ -6004,7 +6004,7 @@ onset	duration	sample	trial_type	response_time	value	HED
 960.572266	0.000000	n/a	n/a	n/a	house-inverted-f5	Sensory-event, Experimental-stimulus, Visual-presentation, Image, (Rotated, Downward)
 960.622070	0.000000	n/a	n/a	n/a	house-inverted-f6	Sensory-event, Experimental-stimulus, Visual-presentation, Image, (Rotated, Downward)
 967.999023	0.000000	n/a	n/a	n/a	boundary	Happy, Experiment-procedure, Recording
-968.898438	0.000000	n/a	n/a	n/a	e-198	
+968.898438	0.000000	n/a	n/a	n/a	e-198	Experiment-control, Recording
 982.382813	0.000000	n/a	n/a	n/a	checker-left	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Leftward, Target
 983.264648	0.000000	n/a	n/a	n/a	face-upright	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
 984.280273	0.000000	n/a	n/a	n/a	house-inverted	Sensory-event, Experimental-stimulus, Visual-presentation, Image, (Rotated, Downward)
@@ -6406,7 +6406,7 @@ onset	duration	sample	trial_type	response_time	value	HED
 1244.746094	0.000000	n/a	n/a	n/a	face-upright	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
 1245.678711	0.000000	n/a	n/a	n/a	house-upright	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 1256.999023	0.000000	n/a	n/a	n/a	boundary	Happy, Experiment-procedure, Recording
-1257.898438	0.000000	n/a	n/a	n/a	e-198	
+1257.898438	0.000000	n/a	n/a	n/a	e-198	Experiment-control, Recording
 1274.880859	0.000000	n/a	n/a	n/a	house-inverted	Sensory-event, Experimental-stimulus, Visual-presentation, Image, (Rotated, Downward)
 1275.813477	0.000000	n/a	n/a	n/a	house-upright	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 1276.711914	0.000000	n/a	n/a	n/a	face-upright	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
@@ -7207,7 +7207,7 @@ onset	duration	sample	trial_type	response_time	value	HED
 1901.872070	0.000000	n/a	n/a	n/a	checker-left	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Leftward, Target
 1902.261719	0.000000	n/a	n/a	n/a	press-left	Agent-action, Experiment-participant, Participant-response, (Press, Keyboard-key)
 1909.999023	0.000000	n/a	n/a	n/a	boundary	Happy, Experiment-procedure, Recording
-1910.882813	0.000000	n/a	n/a	n/a	e-198	
+1910.882813	0.000000	n/a	n/a	n/a	e-198	Experiment-control, Recording
 1928.312500	0.000000	n/a	n/a	n/a	house-upright	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Upward
 1929.078125	0.000000	n/a	n/a	n/a	face-inverted	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, (Rotated, Downward)
 1930.026367	0.000000	n/a	n/a	n/a	face-upright	Sensory-event, Experimental-stimulus, Visual-presentation, Image, Face, Upward
