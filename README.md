@@ -1,5 +1,9 @@
 [![GitHub Actions](https://github.com/bids-standard/bids-examples/workflows/validate_datasets/badge.svg)](https://github.com/bids-standard/bids-examples/actions)
 
+The content of this repository can also be viewed here
+
+**http://bids-standard.github.io/bids-examples/**
+
 # bids-examples
 
 This repository contains a set of
