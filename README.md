@@ -151,7 +151,7 @@ DO NOT EDIT DIRECTLY.
 | eeg_matchingpennies           | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | eeg         | channels, eeg, events                          | [link](https://doi.org/10.17605/OSF.IO/CJ2DR)   | [@sappelhoff](https://github.com/sappelhoff)   |
 | eeg_rishikesh                 | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | eeg         | channels, eeg, events                          | [link](https://openneuro.org/datasets/ds001787) | [@arnodelorme](https://github.com/arnodelorme) |
 
-### iEGG
+### iEEG
 
 <!--
 TABLE BELOW IS GENERATED AUTOMATICALLY.
