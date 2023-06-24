@@ -25,7 +25,7 @@ output_file = root / "README.md"
 tables_order = {
     "ASL": "perf",
     "EEG": "^eeg$",
-    "iEGG": "ieeg",
+    "iEEG": "ieeg",
     "MEG": "meg",
     "Microscopy": "micr",
     "Motion": "motion",
