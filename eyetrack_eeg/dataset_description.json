@@ -1,0 +1,15 @@
+{
+  "Name": "eye-tracking (plus simultaneous EEG) dataset",
+  "ReferencesAndLinks": ["No bibliographic reference other than the DOI for this dataset"],
+  "BIDSVersion": "1.8.0",
+  "License": "CC0",
+  "Authors": [
+    "Arnaud Delorme",
+    "Deepa Gupta"
+  ],
+  "HEDVersion": "8.1.0",
+  "GeneratedBy": {
+    "Name": "bids-matlab-tools",
+    "Version": "7.6"
+  }
+}
