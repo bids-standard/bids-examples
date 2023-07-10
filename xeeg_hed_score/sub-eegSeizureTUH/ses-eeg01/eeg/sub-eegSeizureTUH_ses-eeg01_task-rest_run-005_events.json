@@ -5,7 +5,7 @@
     "duration":{
         "Description": "REQUIRED. Duration of the event (measured from onset) in seconds"
     },
-    "HED": {
+    "HED_annotations": {
         "LongName": "Hierarchical Event Descriptors annotations",
         "Description": "EEG interpretation Hierarchical Event Descriptors annotations"
     },

@@ -1,7 +1,7 @@
 {
     "Name": "HED schema library for SCORE annotations example",
     "BIDSVersion": "1.7.0",
-    "HEDVersion": ["8.1.0", "sc:score_1.0.0"],
+    "HEDVersion": "score_1.1.0",
     "Authors": [
         "Tal Pal Attia",
         "Dora Hermes"
@@ -12,8 +12,17 @@
         "National Institute of Health Grant R01MH122258 (DH)"
     ],
     "SourceDatasets": [
-        "The TUH EEG Seizure Corpus. Database: TUH EEG Seizure Corpus (TUSZ), Version: 1.5.3. URL: https://isip.piconepress.com/projects/tuh_eeg/downloads/",
-        "The TUH EEG Artifact Corpus. Database: TUH EEG Artifact Corpus (TUAR), Version: v2.0.0. URL: https://isip.piconepress.com/projects/tuh_eeg/downloads/"],
+        {
+            "Name": "The TUH EEG Seizure Corpus. Database: TUH EEG Seizure Corpus (TUSZ).",
+            "Version": "1.5.3",
+            "URL": "https://isip.piconepress.com/projects/tuh_eeg/downloads/"
+        },
+        {
+            "Name": "The TUH EEG Artifact Corpus. Database: TUH EEG Artifact Corpus (TUAR)",
+            "Version": "2.0.0.",
+            "URL": "https://isip.piconepress.com/projects/tuh_eeg/downloads/"
+        }
+    ],
     "ReferencesAndLinks": ["https://github.com/hed-standard/hed-schema-library",
                             "https://www.hedtags.org/",
                             "Robbins, Kay, Dung Truong, Stefan Appelhoff, Arnaud Delorme, and Scott Makeig. 'Capturing the nature of events and event context using Hierarchical Event Descriptors (HED).' NeuroImage 245 (2021): 118766.",

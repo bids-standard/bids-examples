@@ -15,10 +15,10 @@
             "eyem+musc": "Eye and Muscle"
         },
         "HED": {
-            "eyem": "sc:Eye-movement-horizontal-artifact",
-            "elec": "sc:Electrode-pops-artifact",
-            "musc": "sc:EMG-artifact",
-            "eyem+musc": "(sc:Eye-movement-horizontal-artifact , sc:EMG-artifact)"
+            "eyem": "Eye-movement-horizontal-artifact",
+            "elec": "Electrode-pops-artifact",
+            "musc": "EMG-artifact",
+            "eyem+musc": "(Eye-movement-horizontal-artifact , EMG-artifact)"
         }
     },
     "channel": {
