@@ -15,6 +15,8 @@ column_order = [
     "maintained by",
 ]
 
+UPSTREAM_REPO = "https://github.com/bids-standard/bids-examples/tree/master/"
+
 # set to True to update the listing of datasets with the datatypes and suffixes
 update_content = False
 
@@ -91,9 +93,11 @@ def update_datatypes_and_suffixes(df, root):
 def add_links(df):
     print("Adding hyperlinks in table...")
     for row in df.iterrows():
-        for col in ["link to full data", "maintained by"]:
+        for col in ["name","link to full data", "maintained by"]:
             if not isinstance(row[1][col], str):
                 continue
+            if col == "name":
+                row[1][col] = f"[{row[1][col]}]({UPSTREAM_REPO}{row[1][col]})"
             if col == "link to full data" and row[1][col].startswith("http"):
                 row[1][col] = f"[link]({row[1][col]})"
             if col == "maintained by" and row[1][col].startswith("@"):
