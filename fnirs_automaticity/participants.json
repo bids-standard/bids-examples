@@ -1,0 +1,83 @@
+{
+  "sex": {
+    "Description": "sex of the participant as reported by the participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "age of the participant on the moment of participation",
+    "Units": "years"
+  },
+  "haircolor": {
+    "Description": "hair color as described by the Fischer-Saller scale",
+    "TermURL": "https://en.wikipedia.org/wiki/Human_hair_color",
+    "Levels": {
+      "bald": "bald",
+      "white": "white",
+      "gray": "gray",
+      "blond": "blond",
+      "light brown": "light brown",
+      "dark brown": "dark brown",
+      "black": "black",
+      "ginger red": "ginger red",
+      "copper red": "copper red"
+    }
+  },
+  "skincolor": {
+    "Description": "skin color as described by the Von Luschan's chromatic scale ",
+    "TermURL": "https://en.wikipedia.org/wiki/Von_Luschan%27s_chromatic_scale",
+    "Levels": {
+      "very light": "very light",
+      "light": "light",
+      "light intermediate": "light intermediate",
+      "dark intermediate": "dark intermediate",
+      "dark": "dark",
+      "very dark": "very dark"
+    }
+  },
+  "handedness": {
+    "Description": "handedness of the participant as a score on the Dutch Handedness Questionnaire",
+    "TermURL": "doi:1765/956",
+    "Range": "-10 (left) to + 10 (right)"
+  },
+  "footedness": {
+    "Description": "footedness of the participant as a score on the Waterloo Footedness Questionnaire",
+    "TermURL": "doi:10.1016/S0028-3932(97)00107-3",
+    "Range": "-20 (left) to + 20 (right)"
+  },
+  "musicality": {
+    "Description": "score on the 'musical training' part of the Goldsmiths Musical Sophistication Index",
+    "TermURL": "https://www.gold.ac.uk/music-mind-brain/gold-msi/",
+    "Range": "7 to 49"
+  },
+  "comfortlevel_begin": {
+    "Description": "Comfort level regarding the fNIRS cap as reported by the participant at the beginning of the measurement",
+    "Range": "1 (very uncomfortable) to 10 (very comfortable)"
+  },
+  "comfortlevel_end": {
+    "Description": "Comfort level regarding the fNIRS cap as reported by the participant at the end of the measurement",
+    "Range": "1 (very uncomfortable) to 10 (very comfortable)"
+  },
+  "included": {
+    "Description": "Participant was included in the final analysis",
+    "Levels": {
+      "0": "excluded",
+      "1": "included"
+    }
+  },
+  "reason_for_exclusion": {
+    "Description": "Reason to exclude the participant from the final analysis if applicable"
+  },
+  "headcircumference": {
+    "Description": "maximal head circumference of the participant",
+    "Units": "cm"
+  },
+  "distance_NzIz": {
+    "Description": "measured distance from nasion to inion"
+  },
+  "distance_LPARPA": {
+    "Description": "measured distance from left preauricular point to right preauricular point"
+  }
+}

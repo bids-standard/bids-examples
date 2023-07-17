@@ -1,3 +1,12 @@
+0.3.1 2023-04-11
+    - Bumped BIDSVersion field in dataset_description.json to 1.8.0
+    - Clarified 1-based indexing in documentation of "sample" column in task-matchingpennies_events.json file
+    - turned "sample" and "value" columns from float to int in all events.tsv files
+    - Renamed README -> README.md and adjusted content for Markdown syntax
+    - Fixed dataset citation in README.md
+    - Improved general README documentation (e.g., Inheritance Principle)
+    - Changed the dataset license to PDDL
+
 0.3.0 2022-01-17
     - Fixed typos in README file, and updated "inheritance principle" quote
     - Changed the order of changelog items: More recent items are now at the top

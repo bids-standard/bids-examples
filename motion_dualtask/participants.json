@@ -1,0 +1,30 @@
+{
+	"nr":{
+		"Description":"numerical ID of the participant"
+	},
+	"age":{
+		"Description":"age of the participant",
+		"Unit":"years"
+	},
+	"sex":{
+		"Description":"sex of the participant",
+		"Levels":{
+			"M":"male",
+			"F":"female"
+		}
+	},
+	"handedness":{
+		"Description":"handedness of the participant",
+		"Levels":{
+			"R":"right-handed",
+			"L":"left-handed"
+		}
+	},
+	"group":{
+		"Description":"sex of the participant",
+		"Levels":{
+			"young":"young participant (< 35 years old)",
+			"old":"old participant (> 60 years)"
+		}
+	}
+}
