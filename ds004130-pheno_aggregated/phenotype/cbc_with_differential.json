@@ -1,0 +1,62 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "BASOPHILS % %": {
+        "Units": "%"
+    },
+    "EOSINOPHILS % %": {
+        "Units": "%"
+    },
+    "HEMATOCRIT %": {
+        "Units": "%"
+    },
+    "HEMOGLOBIN G/DL": {
+        "Units": "G/DL"
+    },
+    "IMMATURE GRANULOCYTES % %": {
+        "Units": "%"
+    },
+    "LYMPHOCYTES  % %": {
+        "Units": "%"
+    },
+    "MCH PG": {
+        "Units": "PG"
+    },
+    "MCHC G/DL": {
+        "Units": "G/DL"
+    },
+    "MCV FL": {
+        "Units": "FL"
+    },
+    "MONOCYTES  % %": {
+        "Units": "%"
+    },
+    "MPV FL": {
+        "Units": "FL"
+    },
+    "NEUTROPHILS  % %": {
+        "Units": "%"
+    },
+    "PLATELET COUNT K/MCL": {
+        "Units": "K/MCL"
+    },
+    "PLATELET COUNT K/UL": {
+        "Units": "K/UL"
+    },
+    "RBC COUNT M/MCL": {
+        "Units": "M/MCL"
+    },
+    "RBC COUNT M/UL": {
+        "Units": "M/UL"
+    },
+    "RBC DISTRIBUTION WIDTH %": {
+        "Units": "%"
+    },
+    "WBC COUNT K/MCL": {
+        "Units": "K/MCL"
+    },
+    "WBC COUNT K/UL": {
+        "Units": "K/UL"
+    }
+}

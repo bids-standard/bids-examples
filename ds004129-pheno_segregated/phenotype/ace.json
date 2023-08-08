@@ -1,0 +1,85 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "b_ace_q1": {
+        "LongName": "ACE_HUMILIATE_HURT (question ID 176435)",
+        "Description": "1. Did a parent or other adult in the household often swear at you, insult you, put you down, or humiliate you, or act in a way that made you afraid that you might be physically hurt?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "b_ace_q2": {
+        "LongName": "ACE_INJURE (question ID 176436)",
+        "Description": "2. Did a parent or other adult in the household often push, grab, slap, or throw something at you or ever hit you so hard that you had marks or were injured? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "b_ace_q3": {
+        "LongName": "ACE_TOUCH_SEX_WAY (question ID 176437)",
+        "Description": "3. Did an adult or person at least 5 years older than you ever touch or fondle you or have you touch their body in a sexual way or try to or actually have oral, anal, or vaginal sex with you? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "b_ace_q4": {
+        "LongName": "ACE_NO_LOVE_SUPPORT (question ID 176438)",
+        "Description": "4. Did you often feel that no one in your family loved you or thought you were important or special or your family didn\u0092t look out for each other, feel close to each other, or support each other? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "b_ace_q5": {
+        "LongName": "ACE_PROTECT_CARE (question ID 176439)",
+        "Description": "5. Did you often feel that you didn\u0092t have enough to eat, had to wear dirty clothes, and had no one to protect you or your parents were too drunk or high to take care of you or take you to the doctor if you needed it?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "tesi_s_165": {
+        "LongName": "ACE_SEPARATE_DIVORCE (question ID 176440)",
+        "Description": "6. Were your parents ever separated or divorced?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "b_ace_q7": {
+        "LongName": "ACE_MOTHER_HURT (question ID 176441)",
+        "Description": "7. Was your mother or stepmother: Often pushed, grabbed, slapped, or had something thrown at her? or sometimes or often kicked, bitten, hit with a fist, or hit with something hard? or ever repeatedly hit over at least a few minutes or threatened with a gun or knife? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "b_ace_q8": {
+        "LongName": "ACE_LIVE_ALCOHOL_DRUGS (question ID 176442)",
+        "Description": "8. Did you live with anyone who was a problem drinker or alcoholic or who used street drugs? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "b_ace_q9": {
+        "LongName": "ACE_HOUSEHOLD_DEPRESS (question ID 176443)",
+        "Description": "9. Was a household member depressed or mentally ill or did a household member attempt suicide? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "ceahd15": {
+        "LongName": "ACE_HOUSEHOLD_PRISON (question ID 176444)",
+        "Description": "10. Did a household member go to prison?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    }
+}

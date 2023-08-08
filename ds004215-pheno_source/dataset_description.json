@@ -1,0 +1,47 @@
+{
+    "Name": "The NIMH Intramural Healthy Volunteer Dataset",
+    "BIDSVersion": "1.6.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Allison C. Nugent",
+        "Adam G Thomas",
+        "Margaret Mahoney",
+        "Alison Gibbons",
+        "Jarrod Smith",
+        "Antoinette Charles",
+        "Jacob S Shaw",
+        "Jeffrey D Stout",
+        "Anna M Namyst",
+        "Arshitha Basavaraj",
+        "Eric Earl",
+        "Travis Riddle",
+        "Joseph Snow",
+        "Shruti Japee",
+        "Adriana Pavletic",
+        "Stephen Sinclair",
+        "Vinai Roopchansingh",
+        "Peter A Bandettini",
+        "Joyce Chung"
+    ],
+    "Acknowledgements": "We thank the NIMH Office of the Clinical Director, the outpatient behavioral health clinic and NMR center for providing support for the data collection. This work utilized the computational resources of the NIH HPC Biowulf cluster http://hpc.nih.gov. We thank Sil van der Woerd for graciously allowing us to use his film as a behavioral task. In addition, we thank the subjects who generously contributed their data to this project.",
+    "HowToAcknowledge": "Please cite this paper: The NIMH Intramural Healthy Volunteer Dataset: A Comprehensive MEG, MRI, and Behavioral Resource",
+    "Funding": [
+        "ZICMH002889",
+        "ZICMH002960",
+        "ZIAMH002783",
+        "ZIDMH00291"
+    ],
+    "EthicsApprovals": [
+        "NIH Institutional Review Board (Recruitment and Characterization of Healthy Research Volunteer for NIMH Intramural Studies NCT033046)"
+    ],
+    "ReferencesAndLinks": [
+        "https://nimhresearchvolunteer.ctss.nih.gov",
+        "https://github.com/nih-megcore/hv_protocol",
+        "doi:10.1016/j.psychres.2020.112822",
+        "doi:10.1101/2021.04.28.21256253",
+        "doi:10.1371/journal.pone.0184661",
+        "doi:10.1038/s41592-018-0235-4"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds004215.v1.0.0"
+}

@@ -1,0 +1,379 @@
+name	type	units	description
+SCLK01	SYSCLOCK	s	system clock
+BG1	MEGREFMAG	T	reference magnetometer
+BG2	MEGREFMAG	T	reference magnetometer
+BG3	MEGREFMAG	T	reference magnetometer
+BP1	MEGREFMAG	T	reference magnetometer
+BP2	MEGREFMAG	T	reference magnetometer
+BP3	MEGREFMAG	T	reference magnetometer
+BR1	MEGREFMAG	T	reference magnetometer
+BR2	MEGREFMAG	T	reference magnetometer
+BR3	MEGREFMAG	T	reference magnetometer
+G11	MEGREFGRADAXIAL	T	reference gradiometer
+G12	MEGREFGRADAXIAL	T	reference gradiometer
+G13	MEGREFGRADAXIAL	T	reference gradiometer
+G22	MEGREFGRADAXIAL	T	reference gradiometer
+G23	MEGREFGRADAXIAL	T	reference gradiometer
+P11	MEGREFGRADAXIAL	T	reference gradiometer
+P12	MEGREFGRADAXIAL	T	reference gradiometer
+P22	MEGREFGRADAXIAL	T	reference gradiometer
+P23	MEGREFGRADAXIAL	T	reference gradiometer
+Q11	MEGREFGRADAXIAL	T	reference gradiometer
+Q12	MEGREFGRADAXIAL	T	reference gradiometer
+Q13	MEGREFGRADAXIAL	T	reference gradiometer
+Q22	MEGREFGRADAXIAL	T	reference gradiometer
+Q23	MEGREFGRADAXIAL	T	reference gradiometer
+R11	MEGREFGRADAXIAL	T	reference gradiometer
+R12	MEGREFGRADAXIAL	T	reference gradiometer
+R13	MEGREFGRADAXIAL	T	reference gradiometer
+R22	MEGREFGRADAXIAL	T	reference gradiometer
+R23	MEGREFGRADAXIAL	T	reference gradiometer
+MLC11	MEGGRADAXIAL	T	primary gradiometer
+MLC12	MEGGRADAXIAL	T	primary gradiometer
+MLC13	MEGGRADAXIAL	T	primary gradiometer
+MLC14	MEGGRADAXIAL	T	primary gradiometer
+MLC15	MEGGRADAXIAL	T	primary gradiometer
+MLC16	MEGGRADAXIAL	T	primary gradiometer
+MLC17	MEGGRADAXIAL	T	primary gradiometer
+MLC21	MEGGRADAXIAL	T	primary gradiometer
+MLC22	MEGGRADAXIAL	T	primary gradiometer
+MLC23	MEGGRADAXIAL	T	primary gradiometer
+MLC24	MEGGRADAXIAL	T	primary gradiometer
+MLC25	MEGGRADAXIAL	T	primary gradiometer
+MLC31	MEGGRADAXIAL	T	primary gradiometer
+MLC32	MEGGRADAXIAL	T	primary gradiometer
+MLC41	MEGGRADAXIAL	T	primary gradiometer
+MLC42	MEGGRADAXIAL	T	primary gradiometer
+MLC51	MEGGRADAXIAL	T	primary gradiometer
+MLC52	MEGGRADAXIAL	T	primary gradiometer
+MLC53	MEGGRADAXIAL	T	primary gradiometer
+MLC54	MEGGRADAXIAL	T	primary gradiometer
+MLC55	MEGGRADAXIAL	T	primary gradiometer
+MLC61	MEGGRADAXIAL	T	primary gradiometer
+MLC62	MEGGRADAXIAL	T	primary gradiometer
+MLC63	MEGGRADAXIAL	T	primary gradiometer
+MLF11	MEGGRADAXIAL	T	primary gradiometer
+MLF12	MEGGRADAXIAL	T	primary gradiometer
+MLF13	MEGGRADAXIAL	T	primary gradiometer
+MLF14	MEGGRADAXIAL	T	primary gradiometer
+MLF21	MEGGRADAXIAL	T	primary gradiometer
+MLF22	MEGGRADAXIAL	T	primary gradiometer
+MLF23	MEGGRADAXIAL	T	primary gradiometer
+MLF24	MEGGRADAXIAL	T	primary gradiometer
+MLF31	MEGGRADAXIAL	T	primary gradiometer
+MLF32	MEGGRADAXIAL	T	primary gradiometer
+MLF33	MEGGRADAXIAL	T	primary gradiometer
+MLF34	MEGGRADAXIAL	T	primary gradiometer
+MLF35	MEGGRADAXIAL	T	primary gradiometer
+MLF41	MEGGRADAXIAL	T	primary gradiometer
+MLF42	MEGGRADAXIAL	T	primary gradiometer
+MLF43	MEGGRADAXIAL	T	primary gradiometer
+MLF44	MEGGRADAXIAL	T	primary gradiometer
+MLF45	MEGGRADAXIAL	T	primary gradiometer
+MLF46	MEGGRADAXIAL	T	primary gradiometer
+MLF51	MEGGRADAXIAL	T	primary gradiometer
+MLF52	MEGGRADAXIAL	T	primary gradiometer
+MLF53	MEGGRADAXIAL	T	primary gradiometer
+MLF54	MEGGRADAXIAL	T	primary gradiometer
+MLF55	MEGGRADAXIAL	T	primary gradiometer
+MLF56	MEGGRADAXIAL	T	primary gradiometer
+MLF61	MEGGRADAXIAL	T	primary gradiometer
+MLF62	MEGGRADAXIAL	T	primary gradiometer
+MLF63	MEGGRADAXIAL	T	primary gradiometer
+MLF64	MEGGRADAXIAL	T	primary gradiometer
+MLF65	MEGGRADAXIAL	T	primary gradiometer
+MLF66	MEGGRADAXIAL	T	primary gradiometer
+MLF67	MEGGRADAXIAL	T	primary gradiometer
+MLO11	MEGGRADAXIAL	T	primary gradiometer
+MLO12	MEGGRADAXIAL	T	primary gradiometer
+MLO13	MEGGRADAXIAL	T	primary gradiometer
+MLO14	MEGGRADAXIAL	T	primary gradiometer
+MLO21	MEGGRADAXIAL	T	primary gradiometer
+MLO22	MEGGRADAXIAL	T	primary gradiometer
+MLO23	MEGGRADAXIAL	T	primary gradiometer
+MLO24	MEGGRADAXIAL	T	primary gradiometer
+MLO31	MEGGRADAXIAL	T	primary gradiometer
+MLO32	MEGGRADAXIAL	T	primary gradiometer
+MLO33	MEGGRADAXIAL	T	primary gradiometer
+MLO34	MEGGRADAXIAL	T	primary gradiometer
+MLO41	MEGGRADAXIAL	T	primary gradiometer
+MLO42	MEGGRADAXIAL	T	primary gradiometer
+MLO43	MEGGRADAXIAL	T	primary gradiometer
+MLO44	MEGGRADAXIAL	T	primary gradiometer
+MLO51	MEGGRADAXIAL	T	primary gradiometer
+MLO52	MEGGRADAXIAL	T	primary gradiometer
+MLO53	MEGGRADAXIAL	T	primary gradiometer
+MLP11	MEGGRADAXIAL	T	primary gradiometer
+MLP12	MEGGRADAXIAL	T	primary gradiometer
+MLP21	MEGGRADAXIAL	T	primary gradiometer
+MLP22	MEGGRADAXIAL	T	primary gradiometer
+MLP23	MEGGRADAXIAL	T	primary gradiometer
+MLP31	MEGGRADAXIAL	T	primary gradiometer
+MLP32	MEGGRADAXIAL	T	primary gradiometer
+MLP33	MEGGRADAXIAL	T	primary gradiometer
+MLP34	MEGGRADAXIAL	T	primary gradiometer
+MLP35	MEGGRADAXIAL	T	primary gradiometer
+MLP41	MEGGRADAXIAL	T	primary gradiometer
+MLP42	MEGGRADAXIAL	T	primary gradiometer
+MLP43	MEGGRADAXIAL	T	primary gradiometer
+MLP44	MEGGRADAXIAL	T	primary gradiometer
+MLP45	MEGGRADAXIAL	T	primary gradiometer
+MLP51	MEGGRADAXIAL	T	primary gradiometer
+MLP52	MEGGRADAXIAL	T	primary gradiometer
+MLP53	MEGGRADAXIAL	T	primary gradiometer
+MLP54	MEGGRADAXIAL	T	primary gradiometer
+MLP55	MEGGRADAXIAL	T	primary gradiometer
+MLP56	MEGGRADAXIAL	T	primary gradiometer
+MLP57	MEGGRADAXIAL	T	primary gradiometer
+MLT11	MEGGRADAXIAL	T	primary gradiometer
+MLT12	MEGGRADAXIAL	T	primary gradiometer
+MLT13	MEGGRADAXIAL	T	primary gradiometer
+MLT14	MEGGRADAXIAL	T	primary gradiometer
+MLT15	MEGGRADAXIAL	T	primary gradiometer
+MLT16	MEGGRADAXIAL	T	primary gradiometer
+MLT21	MEGGRADAXIAL	T	primary gradiometer
+MLT22	MEGGRADAXIAL	T	primary gradiometer
+MLT23	MEGGRADAXIAL	T	primary gradiometer
+MLT24	MEGGRADAXIAL	T	primary gradiometer
+MLT25	MEGGRADAXIAL	T	primary gradiometer
+MLT26	MEGGRADAXIAL	T	primary gradiometer
+MLT27	MEGGRADAXIAL	T	primary gradiometer
+MLT31	MEGGRADAXIAL	T	primary gradiometer
+MLT32	MEGGRADAXIAL	T	primary gradiometer
+MLT33	MEGGRADAXIAL	T	primary gradiometer
+MLT34	MEGGRADAXIAL	T	primary gradiometer
+MLT35	MEGGRADAXIAL	T	primary gradiometer
+MLT36	MEGGRADAXIAL	T	primary gradiometer
+MLT37	MEGGRADAXIAL	T	primary gradiometer
+MLT41	MEGGRADAXIAL	T	primary gradiometer
+MLT42	MEGGRADAXIAL	T	primary gradiometer
+MLT43	MEGGRADAXIAL	T	primary gradiometer
+MLT44	MEGGRADAXIAL	T	primary gradiometer
+MLT45	MEGGRADAXIAL	T	primary gradiometer
+MLT46	MEGGRADAXIAL	T	primary gradiometer
+MLT47	MEGGRADAXIAL	T	primary gradiometer
+MLT51	MEGGRADAXIAL	T	primary gradiometer
+MLT52	MEGGRADAXIAL	T	primary gradiometer
+MLT53	MEGGRADAXIAL	T	primary gradiometer
+MLT54	MEGGRADAXIAL	T	primary gradiometer
+MLT55	MEGGRADAXIAL	T	primary gradiometer
+MLT56	MEGGRADAXIAL	T	primary gradiometer
+MLT57	MEGGRADAXIAL	T	primary gradiometer
+MRC11	MEGGRADAXIAL	T	primary gradiometer
+MRC12	MEGGRADAXIAL	T	primary gradiometer
+MRC13	MEGGRADAXIAL	T	primary gradiometer
+MRC14	MEGGRADAXIAL	T	primary gradiometer
+MRC15	MEGGRADAXIAL	T	primary gradiometer
+MRC16	MEGGRADAXIAL	T	primary gradiometer
+MRC17	MEGGRADAXIAL	T	primary gradiometer
+MRC21	MEGGRADAXIAL	T	primary gradiometer
+MRC22	MEGGRADAXIAL	T	primary gradiometer
+MRC23	MEGGRADAXIAL	T	primary gradiometer
+MRC24	MEGGRADAXIAL	T	primary gradiometer
+MRC25	MEGGRADAXIAL	T	primary gradiometer
+MRC31	MEGGRADAXIAL	T	primary gradiometer
+MRC32	MEGGRADAXIAL	T	primary gradiometer
+MRC41	MEGGRADAXIAL	T	primary gradiometer
+MRC42	MEGGRADAXIAL	T	primary gradiometer
+MRC51	MEGGRADAXIAL	T	primary gradiometer
+MRC52	MEGGRADAXIAL	T	primary gradiometer
+MRC53	MEGGRADAXIAL	T	primary gradiometer
+MRC54	MEGGRADAXIAL	T	primary gradiometer
+MRC55	MEGGRADAXIAL	T	primary gradiometer
+MRC61	MEGGRADAXIAL	T	primary gradiometer
+MRC62	MEGGRADAXIAL	T	primary gradiometer
+MRC63	MEGGRADAXIAL	T	primary gradiometer
+MRF11	MEGGRADAXIAL	T	primary gradiometer
+MRF12	MEGGRADAXIAL	T	primary gradiometer
+MRF13	MEGGRADAXIAL	T	primary gradiometer
+MRF14	MEGGRADAXIAL	T	primary gradiometer
+MRF21	MEGGRADAXIAL	T	primary gradiometer
+MRF22	MEGGRADAXIAL	T	primary gradiometer
+MRF23	MEGGRADAXIAL	T	primary gradiometer
+MRF24	MEGGRADAXIAL	T	primary gradiometer
+MRF25	MEGGRADAXIAL	T	primary gradiometer
+MRF31	MEGGRADAXIAL	T	primary gradiometer
+MRF32	MEGGRADAXIAL	T	primary gradiometer
+MRF33	MEGGRADAXIAL	T	primary gradiometer
+MRF34	MEGGRADAXIAL	T	primary gradiometer
+MRF35	MEGGRADAXIAL	T	primary gradiometer
+MRF41	MEGGRADAXIAL	T	primary gradiometer
+MRF42	MEGGRADAXIAL	T	primary gradiometer
+MRF44	MEGGRADAXIAL	T	primary gradiometer
+MRF45	MEGGRADAXIAL	T	primary gradiometer
+MRF46	MEGGRADAXIAL	T	primary gradiometer
+MRF51	MEGGRADAXIAL	T	primary gradiometer
+MRF52	MEGGRADAXIAL	T	primary gradiometer
+MRF53	MEGGRADAXIAL	T	primary gradiometer
+MRF54	MEGGRADAXIAL	T	primary gradiometer
+MRF55	MEGGRADAXIAL	T	primary gradiometer
+MRF56	MEGGRADAXIAL	T	primary gradiometer
+MRF61	MEGGRADAXIAL	T	primary gradiometer
+MRF62	MEGGRADAXIAL	T	primary gradiometer
+MRF63	MEGGRADAXIAL	T	primary gradiometer
+MRF64	MEGGRADAXIAL	T	primary gradiometer
+MRF65	MEGGRADAXIAL	T	primary gradiometer
+MRF66	MEGGRADAXIAL	T	primary gradiometer
+MRF67	MEGGRADAXIAL	T	primary gradiometer
+MRO11	MEGGRADAXIAL	T	primary gradiometer
+MRO12	MEGGRADAXIAL	T	primary gradiometer
+MRO14	MEGGRADAXIAL	T	primary gradiometer
+MRO21	MEGGRADAXIAL	T	primary gradiometer
+MRO22	MEGGRADAXIAL	T	primary gradiometer
+MRO23	MEGGRADAXIAL	T	primary gradiometer
+MRO24	MEGGRADAXIAL	T	primary gradiometer
+MRO31	MEGGRADAXIAL	T	primary gradiometer
+MRO32	MEGGRADAXIAL	T	primary gradiometer
+MRO33	MEGGRADAXIAL	T	primary gradiometer
+MRO34	MEGGRADAXIAL	T	primary gradiometer
+MRO41	MEGGRADAXIAL	T	primary gradiometer
+MRO42	MEGGRADAXIAL	T	primary gradiometer
+MRO43	MEGGRADAXIAL	T	primary gradiometer
+MRO44	MEGGRADAXIAL	T	primary gradiometer
+MRO51	MEGGRADAXIAL	T	primary gradiometer
+MRO52	MEGGRADAXIAL	T	primary gradiometer
+MRO53	MEGGRADAXIAL	T	primary gradiometer
+MRP11	MEGGRADAXIAL	T	primary gradiometer
+MRP12	MEGGRADAXIAL	T	primary gradiometer
+MRP21	MEGGRADAXIAL	T	primary gradiometer
+MRP22	MEGGRADAXIAL	T	primary gradiometer
+MRP23	MEGGRADAXIAL	T	primary gradiometer
+MRP31	MEGGRADAXIAL	T	primary gradiometer
+MRP32	MEGGRADAXIAL	T	primary gradiometer
+MRP33	MEGGRADAXIAL	T	primary gradiometer
+MRP34	MEGGRADAXIAL	T	primary gradiometer
+MRP35	MEGGRADAXIAL	T	primary gradiometer
+MRP41	MEGGRADAXIAL	T	primary gradiometer
+MRP42	MEGGRADAXIAL	T	primary gradiometer
+MRP43	MEGGRADAXIAL	T	primary gradiometer
+MRP44	MEGGRADAXIAL	T	primary gradiometer
+MRP45	MEGGRADAXIAL	T	primary gradiometer
+MRP51	MEGGRADAXIAL	T	primary gradiometer
+MRP52	MEGGRADAXIAL	T	primary gradiometer
+MRP53	MEGGRADAXIAL	T	primary gradiometer
+MRP54	MEGGRADAXIAL	T	primary gradiometer
+MRP55	MEGGRADAXIAL	T	primary gradiometer
+MRP56	MEGGRADAXIAL	T	primary gradiometer
+MRP57	MEGGRADAXIAL	T	primary gradiometer
+MRT11	MEGGRADAXIAL	T	primary gradiometer
+MRT12	MEGGRADAXIAL	T	primary gradiometer
+MRT13	MEGGRADAXIAL	T	primary gradiometer
+MRT14	MEGGRADAXIAL	T	primary gradiometer
+MRT15	MEGGRADAXIAL	T	primary gradiometer
+MRT16	MEGGRADAXIAL	T	primary gradiometer
+MRT21	MEGGRADAXIAL	T	primary gradiometer
+MRT22	MEGGRADAXIAL	T	primary gradiometer
+MRT23	MEGGRADAXIAL	T	primary gradiometer
+MRT24	MEGGRADAXIAL	T	primary gradiometer
+MRT25	MEGGRADAXIAL	T	primary gradiometer
+MRT26	MEGGRADAXIAL	T	primary gradiometer
+MRT27	MEGGRADAXIAL	T	primary gradiometer
+MRT31	MEGGRADAXIAL	T	primary gradiometer
+MRT32	MEGGRADAXIAL	T	primary gradiometer
+MRT33	MEGGRADAXIAL	T	primary gradiometer
+MRT34	MEGGRADAXIAL	T	primary gradiometer
+MRT35	MEGGRADAXIAL	T	primary gradiometer
+MRT36	MEGGRADAXIAL	T	primary gradiometer
+MRT37	MEGGRADAXIAL	T	primary gradiometer
+MRT41	MEGGRADAXIAL	T	primary gradiometer
+MRT42	MEGGRADAXIAL	T	primary gradiometer
+MRT43	MEGGRADAXIAL	T	primary gradiometer
+MRT44	MEGGRADAXIAL	T	primary gradiometer
+MRT45	MEGGRADAXIAL	T	primary gradiometer
+MRT46	MEGGRADAXIAL	T	primary gradiometer
+MRT47	MEGGRADAXIAL	T	primary gradiometer
+MRT51	MEGGRADAXIAL	T	primary gradiometer
+MRT52	MEGGRADAXIAL	T	primary gradiometer
+MRT53	MEGGRADAXIAL	T	primary gradiometer
+MRT54	MEGGRADAXIAL	T	primary gradiometer
+MRT55	MEGGRADAXIAL	T	primary gradiometer
+MRT56	MEGGRADAXIAL	T	primary gradiometer
+MRT57	MEGGRADAXIAL	T	primary gradiometer
+MZC01	MEGGRADAXIAL	T	primary gradiometer
+MZC02	MEGGRADAXIAL	T	primary gradiometer
+MZC03	MEGGRADAXIAL	T	primary gradiometer
+MZC04	MEGGRADAXIAL	T	primary gradiometer
+MZF01	MEGGRADAXIAL	T	primary gradiometer
+MZF02	MEGGRADAXIAL	T	primary gradiometer
+MZF03	MEGGRADAXIAL	T	primary gradiometer
+MZO01	MEGGRADAXIAL	T	primary gradiometer
+MZO02	MEGGRADAXIAL	T	primary gradiometer
+MZO03	MEGGRADAXIAL	T	primary gradiometer
+MZP01	MEGGRADAXIAL	T	primary gradiometer
+UPPT001	TRIG	bit	parallel port
+MSTAT101	OTHER	unknown	unknown
+MRSYN101	OTHER	unknown	unknown
+MPLLU101	OTHER	unknown	unknown
+MMSTC101	OTHER	unknown	unknown
+MSTAT102	OTHER	unknown	unknown
+MRSYN102	OTHER	unknown	unknown
+MPLLU102	OTHER	unknown	unknown
+MMSTC102	OTHER	unknown	unknown
+MSTAT103	OTHER	unknown	unknown
+MRSYN103	OTHER	unknown	unknown
+MPLLU103	OTHER	unknown	unknown
+MMSTC103	OTHER	unknown	unknown
+MSTAT104	OTHER	unknown	unknown
+MRSYN104	OTHER	unknown	unknown
+MPLLU104	OTHER	unknown	unknown
+MMSTC104	OTHER	unknown	unknown
+MSTAT105	OTHER	unknown	unknown
+MRSYN105	OTHER	unknown	unknown
+MPLLU105	OTHER	unknown	unknown
+MMSTC105	OTHER	unknown	unknown
+MSTAT106	OTHER	unknown	unknown
+MRSYN106	OTHER	unknown	unknown
+MPLLU106	OTHER	unknown	unknown
+MMSTC106	OTHER	unknown	unknown
+MSTAT107	OTHER	unknown	unknown
+MRSYN107	OTHER	unknown	unknown
+MPLLU107	OTHER	unknown	unknown
+MMSTC107	OTHER	unknown	unknown
+MSTAT108	OTHER	unknown	unknown
+MRSYN108	OTHER	unknown	unknown
+MPLLU108	OTHER	unknown	unknown
+MMSTC108	OTHER	unknown	unknown
+MSTAT109	OTHER	unknown	unknown
+MRSYN109	OTHER	unknown	unknown
+MPLLU109	OTHER	unknown	unknown
+MMSTC109	OTHER	unknown	unknown
+MSTAT110	OTHER	unknown	unknown
+MRSYN110	OTHER	unknown	unknown
+MPLLU110	OTHER	unknown	unknown
+MMSTC110	OTHER	unknown	unknown
+MSTAT701	OTHER	unknown	unknown
+MRSYN701	OTHER	unknown	unknown
+MPLLU701	OTHER	unknown	unknown
+MMSTC701	OTHER	unknown	unknown
+MSTAT702	OTHER	unknown	unknown
+MRSYN702	OTHER	unknown	unknown
+MPLLU702	OTHER	unknown	unknown
+MMSTC702	OTHER	unknown	unknown
+MSTAT703	OTHER	unknown	unknown
+MRSYN703	OTHER	unknown	unknown
+MPLLU703	OTHER	unknown	unknown
+MMSTC703	OTHER	unknown	unknown
+MSTAT704	OTHER	unknown	unknown
+MRSYN704	OTHER	unknown	unknown
+MPLLU704	OTHER	unknown	unknown
+MMSTC704	OTHER	unknown	unknown
+MSTAT705	OTHER	unknown	unknown
+MRSYN705	OTHER	unknown	unknown
+MPLLU705	OTHER	unknown	unknown
+MMSTC705	OTHER	unknown	unknown
+MSTAT706	OTHER	unknown	unknown
+MRSYN706	OTHER	unknown	unknown
+MPLLU706	OTHER	unknown	unknown
+MMSTC706	OTHER	unknown	unknown
+MSTAT707	OTHER	unknown	unknown
+MRSYN707	OTHER	unknown	unknown
+MPLLU707	OTHER	unknown	unknown
+MMSTC707	OTHER	unknown	unknown
+MSTAT708	OTHER	unknown	unknown
+MRSYN708	OTHER	unknown	unknown
+MPLLU708	OTHER	unknown	unknown
+MMSTC708	OTHER	unknown	unknown
+MSTAT709	OTHER	unknown	unknown
+MRSYN709	OTHER	unknown	unknown
+MPLLU709	OTHER	unknown	unknown
+MMSTC709	OTHER	unknown	unknown

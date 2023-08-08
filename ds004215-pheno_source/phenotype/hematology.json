@@ -1,0 +1,20 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "HGB A1C %": {
+        "Units": "%"
+    },
+    "PT - INR": {
+        "Units": "INR"
+    },
+    "PT(AUTOMATED) SECONDS": {
+        "Units": "SECONDS"
+    },
+    "PTT(AUTOMATED) SECONDS": {
+        "Units": "SECONDS"
+    },
+    "RETICULOCYTE % %": {
+        "Units": "%"
+    }
+}

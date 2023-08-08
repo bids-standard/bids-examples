@@ -1,0 +1,38 @@
+{
+    "Name": "BIDS Phenotype Segregation Example Dataset",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Samuel Guay",
+        "Eric Earl",
+        "Hao-Ting Wang",
+        "Remi Gau",
+        "Dorota Jarecka",
+        "David Keator",
+        "Melissa Kline Struhl",
+        "Satra Ghosh",
+        "Louis De Beaumont",
+        "Adam G. Thomas"
+    ],
+    "Acknowledgements": "Many thanks to the first two authors' teams who allowed them to work on this among other tasks.",
+    "HowToAcknowledge": "Please cite the OHBM 2022 poster \"New guidelines for phenotypic data in Brain Imaging Data Structure (BIDS)\" and the paper (in review) \"The NIMH Healthy Research Volunteer Dataset: A comprehensive clinical, MRI, and MEG resource\".",
+    "Funding": [
+        "ZICMH002889",
+        "ZICMH002960",
+        "ZIAMH002783",
+        "ZIDMH00291"
+    ],
+    "EthicsApprovals": [
+        "For the data itself: NIH Institutional Review Board (Recruitment and Characterization of Healthy Research Volunteer for NIMH Intramural Studies NCT033046)"
+    ],
+    "ReferencesAndLinks": [
+        "https://nimhresearchvolunteer.ctss.nih.gov",
+        "https://github.com/nih-megcore/hv_protocol",
+        "doi:10.1016/j.psychres.2020.112822",
+        "doi:10.1101/2021.04.28.21256253",
+        "doi:10.1371/journal.pone.0184661",
+        "doi:10.1038/s41592-018-0235-4"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds004129.v1.0.0"
+}

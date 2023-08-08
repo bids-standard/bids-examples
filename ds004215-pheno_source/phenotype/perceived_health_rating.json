@@ -1,0 +1,24 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "MEDICAL_HEALTH": {
+        "LongName": "MEDICAL_HEALTH (question ID 209908)",
+        "Description": "1. How would you rate your MEDICAL health?"
+    },
+    "MENTAL_HEALTH": {
+        "LongName": "MENTAL_HEALTH (question ID 49762)",
+        "Description": "2. How would you rate your MENTAL health?",
+        "Levels": {
+            "1": "Mental health problems / Emotional disturbance"
+        }
+    },
+    "OVERALL_HEALTH": {
+        "LongName": "OVERALL_HEALTH (question ID 209909)",
+        "Description": "3. How would you rate your OVERALL health (both medical and mental)? "
+    },
+    "HEALTH_COMMENTS": {
+        "LongName": "HEALTH_COMMENTS (question ID 209910)",
+        "Description": "4. Do you have any questions, concerns, or comments about your health?"
+    }
+}

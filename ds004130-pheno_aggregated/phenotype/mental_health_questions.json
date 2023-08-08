@@ -1,0 +1,203 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "dsm5_1_bl, dsm5_1_fu": {
+        "LongName": "KSADS_DSM5_CHILD_1 (question ID 173479)",
+        "Description": "1. Little interest or pleasure in doing things?",
+        "Levels": {
+            "0": "0-None- not at all",
+            "1": "1-Slight- rare, less than a day or two",
+            "2": "2-Mild - several days",
+            "3": "3-Moderate - more than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_2_bl, dsm5_2_fu": {
+        "LongName": "KSADS_DSM5_CHILD_2 (question ID 173480)",
+        "Description": "2. Feeling down, depressed, or hopeless?",
+        "Levels": {
+            "0": "0-None- Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_3_bl, dsm5_3_fu": {
+        "LongName": "KSADS_DSM5_CHILD_3 (question ID 173482)",
+        "Description": "3. Feeling more irritated, grouchy, or angry than usual?",
+        "Levels": {
+            "0": "0-None - not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "broad_psychpath4, dsm5_4_bl, dsm5_4_fu": {
+        "LongName": "KSADS_DSM5_CHILD_4 (question ID 173483)",
+        "Description": "4. Sleeping less than usual, but still have a lot of energy?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare,  less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "broad_psychpath5, dsm5_5_bl, dsm5_5_fu": {
+        "LongName": "KSADS_DSM5_CHILD_5 (question ID 173484)",
+        "Description": "5. Starting lots more projects than usual or doing more risky things than usual?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_6_bl, dsm5_6_fu": {
+        "LongName": "KSADS_DSM5_CHILD_6 (question ID 173485)",
+        "Description": "6. Feeling nervous, anxious, frightened, worried, or on edge?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_7_bl, dsm5_7_fu": {
+        "LongName": "KSADS_DSM5_CHILD_7 (question ID 173486)",
+        "Description": "7. Feeling panic or being frightened?",
+        "Levels": {
+            "0": "0-None - Not at  all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - more than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_8_bl, dsm5_8_fu": {
+        "LongName": "KSADS_DSM5_CHILD_8 (question ID 173487)",
+        "Description": "8. Avoiding situations that make you anxious?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "broad_psychpath9, dsm5_9_bl, dsm5_9_fu": {
+        "LongName": "KSADS_DSM5_CHILD_9 (question ID 173488)",
+        "Description": "9. Unexplained aches and pains (e.g., head, back, joints, abdomen, legs)?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "broad_psychpath10, dsm5_10_bl, dsm5_10_fu": {
+        "LongName": "KSADS_DSM5_CHILD_10 (question ID 173489)",
+        "Description": "10. Feeling that your illnesses are not being taken seriously enough?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_12_bl, dsm5_12_fu": {
+        "LongName": "KSADS_DSM5_CHILD_12 (question ID 173491)",
+        "Description": "12. Hearing things other people couldn\u0092t hear, such as voices even when no one was around?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_13_bl, dsm5_13_fu": {
+        "LongName": "KSADS_DSM5_CHILD_13 (question ID 173492)",
+        "Description": "13. Feeling that someone could hear your thoughts, or that you could hear what another person was thinking?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - more than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_14_bl, dsm5_14_fu": {
+        "LongName": "KSADS_DSM5_CHILD_14 (question ID 173494)",
+        "Description": "14. Problems with sleep that affected your sleep quality over all?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_15_bl, dsm5_15_fu": {
+        "LongName": "KSADS_DSM5_CHILD_15 (question ID 173495)",
+        "Description": "15. Problems with memory (e.g., learning new information) or with location(e.g., finding your way home)?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "broad_psychpath16, dsm5_16_bl, dsm5_16_fu": {
+        "LongName": "KSADS_DSM5_CHILD_16 (question ID 173497)",
+        "Description": "16. Unpleasant thoughts, urges, or images that repeatedly enter your mind?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "broad_psychpath17, dsm5_17_bl, dsm5_17_fu": {
+        "LongName": "KSADS_DSM5_CHILD_17 (question ID 173499)",
+        "Description": "17. Feeling driven to perform certain behaviors or mental acts over and over again?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "dsm5_18_bl, dsm5_18_fu": {
+        "LongName": "KSADS_DSM5_CHILD_18 (question ID 173500)",
+        "Description": "18. Feeling detached or distant from yourself, your body, your physicalsurroundings, or your memories?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    },
+    "broad_psychpath22, dsm5_22_fu": {
+        "LongName": "KSADS_DSM5_CHILD_22 (question ID 173504)",
+        "Description": "22. Smoking any cigarettes, a cigar, or pipe, or using snuff or chewing tobacco?",
+        "Levels": {
+            "0": "0-None - Not at all",
+            "1": "1-Slight - Rare, less than a day or two",
+            "2": "2-Mild - Several days",
+            "3": "3-Moderate - More than half the days",
+            "4": "4-Severe - Nearly every day"
+        }
+    }
+}

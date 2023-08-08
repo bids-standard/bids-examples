@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/wq/FG/SHA256E-s300--e36d7ed1b26de66568c3cdeaf576da332f271f69b064810f7dc699191cd610e8.cls/SHA256E-s300--e36d7ed1b26de66568c3cdeaf576da332f271f69b064810f7dc699191cd610e8.cls

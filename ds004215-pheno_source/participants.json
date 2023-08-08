@@ -1,0 +1,257 @@
+{
+  "participant_id": {
+    "Description": "OpenNeuro ID of the subject."
+  },
+  "age": {
+    "Description": "Participant's age in years. n/a means there was no response from participant though a response was possible. Question may have been skipped over by participant.",
+    "Units": "Years"
+  },
+  "sex": {
+    "Description": "Biological sex assigned at birth.",
+    "Levels": {
+      "male": "Male",
+      "female": "Female",
+      "n/a": "No response, meaning there was no response from participant though a response was possible. Question may have been skipped over by participant."
+    }
+  },
+  "handedness": {
+    "Description": "Handedness is decided based on Laterality Quotient ranges from the Edinburgh Handedness Inventory.  See Levels below for exact ranges.",
+    "Levels": {
+      "left": "Left-handedness (Laterality Quotient between -100 and -40)",
+      "ambidextrous": "Ambidexterity (Laterality Quotient between -40 and 40)",
+      "right": "Right-handedness (Laterality Quotient between 40 and 100)",
+      "n/a": "No data available for a response.  The question was not presented or asked to the participant."
+    }
+  },
+  "eligibility": {
+    "Description": "Eligibility for the study.",
+    "Levels": {
+      "0": "Ineligible",
+      "1": "Eligible"
+    }
+  },
+  "MRI": {
+    "Description": "Presence of Magnetic Resonance Imaging (MRI) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "MEG": {
+    "Description": "Presence of Magnetoencephalography (MEG) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "cbc_with_differential": {
+    "Description": "Presence of Complete Blood Count with Differential data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "vitamin_levels": {
+    "Description": "Presence of Vitamin Levels data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "other": {
+    "Description": "Presence of Other Panel data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "hematology": {
+    "Description": "Presence of Hematology Panel data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "blood_chemistry": {
+    "Description": "Presence of Blood Chemistry data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "acute_care": {
+    "Description": "Presence of Acute Care Panel data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "urinalysis": {
+    "Description": "Presence of Urinalysis data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "infectious_disease": {
+    "Description": "Presence of Infectious Disease Panel data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "urine_chemistry": {
+    "Description": "Presence of Urine Chemistry data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "lipid": {
+    "Description": "Presence of Lipid Panel data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "hepatic": {
+    "Description": "Presence of Hepatic Function Panel data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "scid5": {
+    "Description": "Presence of Structured Clinical Interview for DSM-5 Disorders (SCID-5) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "whodas": {
+    "Description": "Presence of World Health Organization Disability Assessment Schedule 2.0 (WHODAS 2.0) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "drug_use": {
+    "Description": "Presence of Drug Use Questionnaire data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "ehi": {
+    "Description": "Presence of Edinburgh Handedness Inventory (EHI) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "kbit2_vas": {
+    "Description": "Presence of Kaufman Brief Intelligence Test 2nd Edition (KBIT-2) and Vocabulary Assessment Scale (VAS) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "health_history_questions": {
+    "Description": "Presence of Health History Questions data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "perceived_health_rating": {
+    "Description": "Presence of Perceived Health Rating data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "ace": {
+    "Description": "Presence of Adverse Childhood Experiences (ACEs) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "satisfaction": {
+    "Description": "Presence of Satisfaction Survey data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "demographics": {
+    "Description": "Presence of Demographics data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "bdi": {
+    "Description": "Presence of Beck Depression Inventory-II (BDI-II) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "health_rating": {
+    "Description": "Presence of Health Rating data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "nih_toolbox": {
+    "Description": "Presence of National Institutes of Health (NIH) Toolbox Cognition Battery data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "audit": {
+    "Description": "Presence of Alcohol Use Disorders Identification Test (AUDIT) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "figs": {
+    "Description": "Presence of Family Interview for Genetic Studies (FIGS) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "mri_variables": {
+    "Description": "Presence of MRI Variables data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "clinical_variable_form": {
+    "Description": "Presence of Clinical Variable Form data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "mental_health_questions": {
+    "Description": "Presence of Mental Health Questions data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  },
+  "bai": {
+    "Description": "Presence of Beck Anxiety Inventory (BAI) data in data set.",
+    "Levels": {
+      "0": "Not Present",
+      "1": "Present"
+    }
+  }
+}

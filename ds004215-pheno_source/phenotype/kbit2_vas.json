@@ -1,0 +1,69 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "q1_raw": {
+        "LongName": "KBIT_2_VERBAL_KNOWLEDGE (question ID 192746)",
+        "Description": "Verbal Knowledge"
+    },
+    "q3_raw": {
+        "LongName": "KBIT_2_VERBAL_RIDDLES (question ID 192747)",
+        "Description": "Riddles"
+    },
+    "raw_verb": {
+        "LongName": "KBIT_2_VERBAL_SUM (question ID 192749)",
+        "Description": "Verbal Sum"
+    },
+    "stand_verb": {
+        "LongName": "KBIT_2_VERBAL_STANDARD (question ID 192751)",
+        "Description": "Verbal Standard Score"
+    },
+    "KBIT_2_VERBAL_AGE_EQUIV_YR": {
+        "LongName": "KBIT_2_VERBAL_AGE_EQUIV_YR (question ID 192752)",
+        "Description": "Verbal Age Equivalent\u00a0 (years)"
+    },
+    "KBIT_2_VERBAL_AGE_EQUIV_MNTH": {
+        "LongName": "KBIT_2_VERBAL_AGE_EQUIV_MNTH (question ID 192753)",
+        "Description": "Verbal Age Equivalent\u00a0 (months)"
+    },
+    "q2_raw": {
+        "LongName": "KBIT_2_NONVERBAL_MATRICES (question ID 192754)",
+        "Description": "Matrices"
+    },
+    "raw_nonverb": {
+        "LongName": "KBIT_2_NONVERBAL_SUM (question ID 192756)",
+        "Description": "Nonverbal Sum"
+    },
+    "stand_nonverb": {
+        "LongName": "KBIT_2_NONVERBAL_STANDARD (question ID 192757)",
+        "Description": "Nonverbal Standard Score"
+    },
+    "KBIT_2_NONVERBAL_AGE_EQUIV_YR": {
+        "LongName": "KBIT_2_NONVERBAL_AGE_EQUIV_YR (question ID 192758)",
+        "Description": "Nonverbal Age Equivalent (years)"
+    },
+    "KBIT_2_NONVERBAL_AGE_EQUIV_MNTH": {
+        "LongName": "KBIT_2_NONVERBAL_AGE_EQUIV_MNTH (question ID 192760)",
+        "Description": "Nonverbal Age Equivalent (months)"
+    },
+    "raw_IQ": {
+        "LongName": "KBIT_2_IQ_COMP_SUM_STANDARD (question ID 192761)",
+        "Description": "IQ Composite Sum of Standard Scores"
+    },
+    "stand_IQ": {
+        "LongName": "KBIT_2_IQ_COMP (question ID 192762)",
+        "Description": "IQ Composite"
+    },
+    "VAS_EFFORT_SCALE": {
+        "LongName": "VAS_EFFORT_SCALE (question ID 209905)",
+        "Description": "Effort Score:"
+    },
+    "VAS_FATIGUE_SCORE": {
+        "LongName": "VAS_FATIGUE_SCORE (question ID 209906)",
+        "Description": "Fatigue Score: "
+    },
+    "VAS_PERFORMANCE_SCORE": {
+        "LongName": "VAS_PERFORMANCE_SCORE (question ID 209907)",
+        "Description": "Performance Score:"
+    }
+}

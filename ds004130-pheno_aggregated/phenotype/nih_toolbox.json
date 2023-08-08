@@ -1,0 +1,113 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "TOOLBOX_LOCATION": {
+        "LongName": "TOOLBOX_LOCATION (question ID 216204)",
+        "Description": "Location of Testing"
+    },
+    "TOOLBOX_DEVICE_ID": {
+        "LongName": "TOOLBOX_DEVICE_ID (question ID 216205)",
+        "Description": "Device ID"
+    },
+    "FLANKER_INHIB_CTL_ATTNTN_RAW": {
+        "LongName": "FLANKER_INHIB_CTL_ATTNTN_RAW (question ID 177864)",
+        "Description": "Raw Score"
+    },
+    "FLANKER_INHIB_CTL_ATTNTN_COUNT": {
+        "LongName": "FLANKER_INHIB_CTL_ATTNTN_COUNT (question ID 216207)",
+        "Description": "Item Count"
+    },
+    "FLANKER_INHIB_CTL_ATTNTN_DATE": {
+        "LongName": "FLANKER_INHIB_CTL_ATTNTN_DATE (question ID 216208)",
+        "Description": "Date Finished"
+    },
+    "FLANKER_INHIB_CTL_ATTN_COMPUTE": {
+        "LongName": "FLANKER_INHIB_CTL_ATTN_COMPUTE (question ID 177865)",
+        "Description": "Computed Score"
+    },
+    "FLANKER_INHIB_CTL_ATTN_UNCRECT": {
+        "LongName": "FLANKER_INHIB_CTL_ATTN_UNCRECT (question ID 216209)",
+        "Description": "Uncorrected Standard Score"
+    },
+    "FLANKER_INHIB_CTL_ATTN_AGE_CRE": {
+        "LongName": "FLANKER_INHIB_CTL_ATTN_AGE_CRE (question ID 216210)",
+        "Description": "Age-Corrected Standard Score"
+    },
+    "LIST_SORT_MEM_TEST_RAW": {
+        "LongName": "LIST_SORT_MEM_TEST_RAW (question ID 216211)",
+        "Description": "Raw Score"
+    },
+    "LIST_SORT_MEM_TEST_COUNT": {
+        "LongName": "LIST_SORT_MEM_TEST_COUNT (question ID 216212)",
+        "Description": "Item Count"
+    },
+    "LIST_SORT_MEM_TEST_DATE": {
+        "LongName": "LIST_SORT_MEM_TEST_DATE (question ID 216213)",
+        "Description": "Date Finished"
+    },
+    "LIST_SORT_MEM_TEST_UNCRECTD": {
+        "LongName": "LIST_SORT_MEM_TEST_UNCRECTD (question ID 216214)",
+        "Description": "Uncorrected Standard Score"
+    },
+    "LIST_SORT_MEM_TEST_AGE_CRECTD": {
+        "LongName": "LIST_SORT_MEM_TEST_AGE_CRECTD (question ID 216215)",
+        "Description": "Age-Corrected Standard Score"
+    },
+    "PIC_SEQ_MEM_TEST_RAW": {
+        "LongName": "PIC_SEQ_MEM_TEST_RAW (question ID 216216)",
+        "Description": "Raw Score"
+    },
+    "PIC_SEQ_MEM_TEST_THETA": {
+        "LongName": "PIC_SEQ_MEM_TEST_THETA (question ID 216217)",
+        "Description": "Theta"
+    },
+    "PIC_SEQ_MEM_TEST_SE": {
+        "LongName": "PIC_SEQ_MEM_TEST_SE (question ID 216218)",
+        "Description": "SE"
+    },
+    "PIC_SEQ_MEM_TEST_COUNT": {
+        "LongName": "PIC_SEQ_MEM_TEST_COUNT (question ID 216219)",
+        "Description": "Item Count"
+    },
+    "PIC_SEQ_MEM_TEST_DATE": {
+        "LongName": "PIC_SEQ_MEM_TEST_DATE (question ID 216220)",
+        "Description": "Date Finished"
+    },
+    "PIC_SEQ_MEM_TEST_COMP": {
+        "LongName": "PIC_SEQ_MEM_TEST_COMP (question ID 216221)",
+        "Description": "Computed Score"
+    },
+    "PIC_SEQ_MEM_TEST_UNCRECTD": {
+        "LongName": "PIC_SEQ_MEM_TEST_UNCRECTD (question ID 216222)",
+        "Description": "Uncorrected Standard Score"
+    },
+    "PIC_SEQ_MEM_TEST_AGE_CRECTD": {
+        "LongName": "PIC_SEQ_MEM_TEST_AGE_CRECTD (question ID 216223)",
+        "Description": "Age-Corrected Standard Score"
+    },
+    "DIM_CHANGE_SORT_TEST_RAW": {
+        "LongName": "DIM_CHANGE_SORT_TEST_RAW (question ID 216224)",
+        "Description": "Raw Score"
+    },
+    "DIM_CHANGE_SORT_TEST_COUNT": {
+        "LongName": "DIM_CHANGE_SORT_TEST_COUNT (question ID 216225)",
+        "Description": "Item Count"
+    },
+    "DIM_CHANGE_SORT_TEST_DATE": {
+        "LongName": "DIM_CHANGE_SORT_TEST_DATE (question ID 216226)",
+        "Description": "Date Finished"
+    },
+    "DIM_CHANGE_SORT_TEST_COMP": {
+        "LongName": "DIM_CHANGE_SORT_TEST_COMP (question ID 216227)",
+        "Description": "Computed Score"
+    },
+    "DIM_CHANGE_SORT_TEST_UNCRECTD": {
+        "LongName": "DIM_CHANGE_SORT_TEST_UNCRECTD (question ID 216228)",
+        "Description": "Uncorrected Standard Score"
+    },
+    "DIM_CHANGE_SORT_TEST_AGE_CRECT": {
+        "LongName": "DIM_CHANGE_SORT_TEST_AGE_CRECT (question ID 216229)",
+        "Description": "Age-Corrected Standard Score"
+    }
+}

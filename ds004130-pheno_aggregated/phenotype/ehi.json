@@ -1,0 +1,366 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "laterality_quotient": {
+        "LongName": "Calculated Laterality Quotient.",
+        "Description": "Laterality Quotient = ROUND[ (R-L)/(R+L) X 100 ] ; where questions 11 (EDINBURGH_KICK) and 12 (EDINBURGH_EYE) were excluded, R = SUM[ available right-handed responses ], L = SUM[ available left-handed responses ], ROUND[ ] = round to nearest integer, and SUM[ ] = summation of all underlying data."
+    },
+    "handedness": {
+        "Description": "Handedness is decided based on Laterality Quotient ranges from the Edinburgh Handedness Inventory.  See Levels below for exact ranges.",
+        "Levels": {
+            "-1": "Left-handedness (Laterality Quotient between -100 and -40)",
+            "0": "Ambidexterity (Laterality Quotient between -40 and 40)",
+            "1": "Right-handedness (Laterality Quotient between 40 and 100)",
+            "-777": "No data available for a response.  The question was not presented or asked to the participant."
+        }
+    },
+    "EDINBURGH_WRITING_LH": {
+        "LongName": "ehi_01, hand1, hand_1_writing (question ID 200676)",
+        "Description": "1. Writing (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_WRITING_RH": {
+        "LongName": "ehi_01, hand1, hand_1_writing (question ID 200677)",
+        "Description": "1. Writing (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_DRAWING_RH": {
+        "LongName": "draw, ehi_02, hand2, hand2l_drawing, hand2r_drawing, hand_2_drawing (question ID 200679)",
+        "Description": "2. Drawing (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_DRAWING_LH": {
+        "LongName": "draw, ehi_02, hand2, hand2l_drawing, hand2r_drawing, hand_2_drawing (question ID 200678)",
+        "Description": "2. Drawing (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_THROWING_RH": {
+        "LongName": "ehi_03, hand3, hand3l_throwing, hand3r_throwing, hand_3_throwing, throw (question ID 200681)",
+        "Description": "3. Throwing (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_THROWING_LH": {
+        "LongName": "ehi_03, hand3, hand3l_throwing, hand3r_throwing, hand_3_throwing, throw (question ID 200680)",
+        "Description": "3. Throwing (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_SCISSORS_LH": {
+        "LongName": "ehi_04, hand4, hand4l_scissors, hand4r_scissors, hand_4_scissors, scissor (question ID 200682)",
+        "Description": "4. Scissors (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_SCISSORS_RH": {
+        "LongName": "ehi_04, hand4, hand4l_scissors, hand4r_scissors, hand_4_scissors, scissor (question ID 200683)",
+        "Description": "4. Scissors (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_TOOTHBRUSH_LH": {
+        "LongName": "ehi_06, hand5, hand5l_toothbrush, hand5r_toothbrush, hand_5_toothbrush, tooth (question ID 200684)",
+        "Description": "5. Toothbrush (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_TOOTHBRUSH_RH": {
+        "LongName": "ehi_06, hand5, hand5l_toothbrush, hand5r_toothbrush, hand_5_toothbrush, tooth (question ID 200685)",
+        "Description": "5. Toothbrush (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_KNIFE_LH": {
+        "LongName": "ehi_07, hand6, hand6l_knife, hand6r_knife, hand_6_knife, knife (question ID 200686)",
+        "Description": "6. Knife (without fork) (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_KNIFE_RH": {
+        "LongName": "ehi_07, hand6, hand6l_knife, hand6r_knife, hand_6_knife, knife (question ID 200687)",
+        "Description": "6. Knife (without fork) (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_SPOON_RH": {
+        "LongName": "hand7, hand7l_spoon, hand7r_spoon, hand_7_spoon (question ID 200689)",
+        "Description": "7. Spoon (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_SPOON_LH": {
+        "LongName": "hand7, hand7l_spoon, hand7r_spoon, hand_7_spoon (question ID 200688)",
+        "Description": "7. Spoon (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_BROOM_RH": {
+        "LongName": "ehi_08, hand8, hand8l_broom, hand8r_broom, hand_8_broom (question ID 200691)",
+        "Description": "8. Broom (upper hand) (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_BROOM_LH": {
+        "LongName": "ehi_08, hand8, hand8l_broom, hand8r_broom, hand_8_broom (question ID 200690)",
+        "Description": "8. Broom (upper hand) (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_MATCH_RH": {
+        "LongName": "ehi_09, hand9, hand9l_match, hand9r_match, hand_9_match, strike (question ID 200693)",
+        "Description": "9. Striking a Match (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_MATCH_LH": {
+        "LongName": "ehi_09, hand9, hand9l_match, hand9r_match, hand_9_match, strike (question ID 200692)",
+        "Description": "9. Striking a Match (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_OPEN_BOX_LH": {
+        "LongName": "ehi_10, hand10, hand10l_box, hand10r_box, hand_10_box, open (question ID 200694)",
+        "Description": "10. Opening a Box (lid) (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_OPEN_BOX_RH": {
+        "LongName": "ehi_10, hand10, hand10l_box, hand10r_box, hand_10_box, open (question ID 200695)",
+        "Description": "10. Opening a Box (lid) (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_KICK_RH": {
+        "LongName": "hand11 (question ID 209465)",
+        "Description": "i. Which foot do you prefer to kick with? (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_KICK_LH": {
+        "LongName": "hand11 (question ID 209464)",
+        "Description": "i. Which foot do you prefer to kick with? (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_EYE_LH": {
+        "LongName": "hand12 (question ID 209466)",
+        "Description": "ii. Which eye do you use when using only one? (LH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_EYE_RH": {
+        "LongName": "hand12 (question ID 209467)",
+        "Description": "ii. Which eye do you use when using only one? (RH)",
+        "Levels": {
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "EDINBURGH_WRITING": {
+        "LongName": "EDINBURGH_WRITING (question ID 201986)",
+        "Description": "1.Writing",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_DRAWING": {
+        "LongName": "EDINBURGH_DRAWING (question ID 200678)",
+        "Description": "2. Drawing",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_THROWING": {
+        "LongName": "EDINBURGH_THROWING (question ID 201988)",
+        "Description": "3.Throwing",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_SCISSORS": {
+        "LongName": "EDINBURGH_SCISSORS (question ID 201989)",
+        "Description": "4.Scissors",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_TOOTHBRUSH": {
+        "LongName": "EDINBURGH_TOOTHBRUSH (question ID 201990)",
+        "Description": "5.Toothbrush",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_KNIFE": {
+        "LongName": "EDINBURGH_KNIFE (question ID 201991)",
+        "Description": "6.Knife (without fork)",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_SPOON": {
+        "LongName": "EDINBURGH_SPOON (question ID 201992)",
+        "Description": "7.Spoon",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_BROOM": {
+        "LongName": "EDINBURGH_BROOM (question ID 237953)",
+        "Description": "8. Broom",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_MATCH": {
+        "LongName": "EDINBURGH_MATCH (question ID 201993)",
+        "Description": "9. Match (when striking)",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_OPEN_BOX": {
+        "LongName": "EDINBURGH_OPEN_BOX (question ID 237954)",
+        "Description": "10. Opening a Box (lid)",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_KICK": {
+        "LongName": "EDINBURGH_KICK (question ID 237955)",
+        "Description": "i. Which foot do you prefer to kick with?",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    },
+    "EDINBURGH_EYE": {
+        "LongName": "EDINBURGH_EYE (question ID 237956)",
+        "Description": "ii. Which eye do you use when using only one?",
+        "Levels": {
+            "-2": "Always left",
+            "-1": "Usually left",
+            "0": "No preference",
+            "1": "Usually right",
+            "2": "Always right"
+        }
+    }
+}

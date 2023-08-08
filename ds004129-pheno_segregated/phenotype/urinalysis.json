@@ -1,0 +1,65 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "APPEARANCE": {
+        "Units": "APPEARANCE"
+    },
+    "BACTERIA": {
+        "Units": "BACTERIA"
+    },
+    "BILIRUBIN": {
+        "Units": "BILIRUBIN"
+    },
+    "CLARITY": {
+        "Units": "CLARITY"
+    },
+    "COLOR": {
+        "Units": "COLOR"
+    },
+    "GLUCOSE, URINE.": {
+        "Units": "URINE."
+    },
+    "HEMOGLOBIN, URINE": {
+        "Units": "URINE"
+    },
+    "HYALINE CASTS /MCL": {
+        "Units": "/MCL"
+    },
+    "KETONES": {
+        "Units": "KETONES"
+    },
+    "LEUKOCYTE ESTERASE": {
+        "Units": "ESTERASE"
+    },
+    "MUCUS": {
+        "Units": "MUCUS"
+    },
+    "NITRITE": {
+        "Units": "NITRITE"
+    },
+    "PH, URINE.": {
+        "Units": "URINE."
+    },
+    "PROTEIN, URINE. MG/DL": {
+        "Units": "MG/DL"
+    },
+    "RBC, URINE /MCL": {
+        "Units": "/MCL"
+    },
+    "SPECIFIC GRAVITY, URINE.": {
+        "Units": "URINE."
+    },
+    "SQUAMOUS EPITHELIAL /MCL": {
+        "Units": "/MCL"
+    },
+    "UROBILINOGEN EU/DL": {
+        "Units": "EU/DL"
+    },
+    "UROBILINOGEN MG/DL": {
+        "Units": "MG/DL"
+    },
+    "WBC, URINE /MCL": {
+        "Units": "/MCL"
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "figs_14": {
+        "LongName": "ADOPTED (question ID 48195)",
+        "Description": "1. Was anyone adopted?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_15": {
+        "LongName": "ADOPTED_NOTES (question ID 246136)",
+        "Description": "a. Notes:"
+    },
+    "figs_16": {
+        "LongName": "INTEL_DISABLED (question ID 246188)",
+        "Description": "2. Was anyone intellectually disabled? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_17": {
+        "LongName": "ID_NOTES (question ID 246190)",
+        "Description": "a. Notes:"
+    },
+    "figs_18": {
+        "LongName": "NERVES_EMOTIONS (question ID 246203)",
+        "Description": "3. Did anyone have problems with their nerves or emotions? Take medicine or see a doctor for it? Take lithium?\n",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_19": {
+        "LongName": "NERVES_EMOTIONS_NOTES (question ID 246218)",
+        "Description": "a. Notes:"
+    },
+    "figs_24": {
+        "LongName": "DEPRESSION (question ID 246219)",
+        "Description": "4. Did anyone feel very low for a couple of weeks or more, or have a diagnosis of depression?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_25": {
+        "LongName": "DEPRESSION_NOTES (question ID 246234)",
+        "Description": "a. Notes:"
+    },
+    "figs_26": {
+        "LongName": "SUICIDE_ (question ID 246235)",
+        "Description": "5. Did anyone attempt or complete suicide?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_27": {
+        "LongName": "SUICIDE_NOTES (question ID 246252)",
+        "Description": "a. Notes:"
+    },
+    "figs_28": {
+        "LongName": "MANIA_ (question ID 246253)",
+        "Description": "6. Did anyone seem overexcited (or manic) day and night, or have a diagnosis of mania? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_29": {
+        "LongName": "MANIA_NOTES (question ID 246273)",
+        "Description": "a. Notes:"
+    },
+    "figs_30": {
+        "LongName": "VISIONS_VOICES_ (question ID 246278)",
+        "Description": "7. Did anyone have visions, hear voices, or have beliefs that seem strange or unreal?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_3": {
+        "LongName": "VISIONS_VOICES_NOTES (question ID 246293)",
+        "Description": "a. Notes:"
+    },
+    "figs_32": {
+        "LongName": "SCHIZO (question ID 246359)",
+        "Description": "8. Did anyone have unusual or bizarre behavior, or have a diagnosis of schizophrenia? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_33": {
+        "LongName": "SCHIZO_NOTES (question ID 246374)",
+        "Description": "a. Notes:"
+    },
+    "figs_34": {
+        "LongName": "AUTHORITY_ (question ID 246375)",
+        "Description": "9. Did anyone have trouble with the police, with completing school, or with keeping a job? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_35": {
+        "LongName": "AUTHORITY_NOTES (question ID 246390)",
+        "Description": "a. Notes:"
+    },
+    "figs_36": {
+        "LongName": "ALCOHOL_DRUG (question ID 246391)",
+        "Description": "10. Did anyone have alcohol or drug use that caused problems (with health, family, job, or police)? Go to AA or NA, or have treatment for this?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_37": {
+        "LongName": "ALCOHOL_DRUG_NOTES (question ID 246405)",
+        "Description": "b. Notes:"
+    },
+    "figs_40": {
+        "LongName": "HOSPITALIZED (question ID 246830)",
+        "Description": "11. Was anyone hospitalized for psychiatric problems, or for drug or alcohol problems?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_41": {
+        "LongName": "HOSPITALIZED_NOTES (question ID 246849)",
+        "Description": "a. Notes:"
+    },
+    "figs_42": {
+        "LongName": "BRAIN_DISORDER (question ID 246855)",
+        "Description": "12. Did anyone have inherited medical diseases such as Huntington\u0092s disease or seizure disorder or any other disorders of the brain or nervous system? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_43": {
+        "LongName": "BRAIN_DISORDER_NOTES (question ID 246874)",
+        "Description": "a. Notes:"
+    },
+    "figs_44": {
+        "LongName": "LONER_ (question ID 246881)",
+        "Description": "13. Did anyone have few friends, or seem to be a loner?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_45": {
+        "LongName": "LONER_NOTES (question ID 246896)",
+        "Description": "a. Notes:"
+    },
+    "figs_46": {
+        "LongName": "BEHAVIOR_ (question ID 246899)",
+        "Description": "14. Did anyone seem odd or eccentric in behavior or appearance? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_47": {
+        "LongName": "BEHAVIOR_NOTES (question ID 246916)",
+        "Description": "a. Notes:"
+    },
+    "figs_48": {
+        "LongName": "JEALOUS (question ID 11122)",
+        "Description": "(Was anyone) extremely jealous, or suspicious, or believe in magic, or see special meanings in things that no one else saw? ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "figs_49": {
+        "LongName": "JEALOUS_NOTES (question ID 246172)",
+        "Description": "a. Notes:"
+    }
+}
