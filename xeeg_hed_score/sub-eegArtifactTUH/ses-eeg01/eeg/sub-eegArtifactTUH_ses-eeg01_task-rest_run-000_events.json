@@ -16,7 +16,7 @@
         },
         "HED": {
             "eyem": "Eye-movement-horizontal-artifact",
-            "elec": "Electrode-pops-artifact",
+            "elec": "Non-biological-artifact",
             "musc": "EMG-artifact",
             "eyem+musc": "(Eye-movement-horizontal-artifact , EMG-artifact)"
         }
