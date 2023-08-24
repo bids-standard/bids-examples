@@ -1,5 +1,6 @@
 import pandas as pd
 from pathlib import Path
+from rich import print
 
 root = Path(__file__).parent.parent
 
@@ -8,8 +9,10 @@ root = Path(__file__).parent.parent
 events_tsv = root.glob("sub-*/func/*task-*_events.tsv")
 
 for event in events_tsv:
-    df = pd.read_csv(event, sep="\t")
-    # remove rows with "n/a" in the "onset" column
-    df = df[df["onset"] != "n/a"]
-    # save
-    df.to_csv(event, sep="\t", index=False)
+    # replace "n/a" with "NaN"
+    df = pd.read_csv(event, sep="\t", na_values="n/a")
+    print(df)
+    # # remove rows with NaN in the "onset" column
+    df = df.dropna(subset=["onset"])
+    # save replacing NaN with "n/a"
+    df.to_csv(event, sep="\t", na_rep="n/a", index=False)
