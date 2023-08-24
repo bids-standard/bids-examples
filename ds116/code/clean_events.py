@@ -14,5 +14,5 @@ for event in events_tsv:
     print(df)
     # # remove rows with NaN in the "onset" column
     df = df.dropna(subset=["onset"])
-    # save replacing NaN with "n/a"
-    df.to_csv(event, sep="\t", na_rep="n/a", index=False)
+    # save replacing NaN with "n/a" and with 3 decimal places
+    df.to_csv(event, sep="\t", na_rep="n/a", float_format="%.3f", index=False)
