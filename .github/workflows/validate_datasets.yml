@@ -30,12 +30,12 @@ jobs:
       FORCE_COLOR: 1
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-        node-version: 14
+        node-version: 18
 
     - name: Install BIDS validator (stable)
       if: "matrix.bids-validator == 'stable'"
@@ -47,7 +47,7 @@ jobs:
       run: |
         pushd ..
         # Get npm 7+
-        npm install -g npm@^7
+        npm install -g npm
         git clone --depth 1 https://github.com/bids-standard/bids-validator
         cd bids-validator
         # Generate the full development node_modules

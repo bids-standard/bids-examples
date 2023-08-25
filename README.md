@@ -1,5 +1,9 @@
 [![GitHub Actions](https://github.com/bids-standard/bids-examples/workflows/validate_datasets/badge.svg)](https://github.com/bids-standard/bids-examples/actions)
 
+The content of this repository can also be viewed here:
+
+**https://bids-standard.github.io/bids-examples/**
+
 # bids-examples
 
 This repository contains a set of
@@ -67,7 +71,7 @@ Simply run `bash run_tests.sh` in a command line from the root of the
 ### Validator exceptions
 
 Some datasets may include a custom `.bids-validator-config.json` to ignore
-errors generated from idiosyncracies of the datasets as they existed on
+errors generated from idiosyncrasies of the datasets as they existed on
 creation.
 
 | name          | errors ignored                                                                                                                 |
@@ -93,7 +97,7 @@ validator, docker, or from the command line.
 
 We are happy to receive contributions in the form of:
 
-- updates to existing examples, or the [dataset index](dataset-index)
+- updates to existing examples, or the [dataset index](#dataset-index)
 - new examples
   - only if they cover aspects that are currently not covered by existing
     examples
@@ -101,162 +105,191 @@ We are happy to receive contributions in the form of:
 - suggestions on how to improve the bids-examples repository
 
 For more information, please see our
-[CONTRIBUTING.md](https://github.com/bids-standard/bids-examples/blob/master/CONTRIBUTING.md)
+[CONTRIBUTING.md](./CONTRIBUTING.md)
 file or open a
 [new GitHub Issue](https://github.com/bids-standard/bids-examples/issues/new)
 and ask us directly.
 
 ## Dataset index
-
-Below you find several tables with information about the datasets available in
-bids-examples (in alphabetical order).
-
-- [bids-examples](#bids-examples)
-  - [Validating BIDS examples](#validating-bids-examples)
-    - [Validating individual examples](#validating-individual-examples)
-    - [Validating all examples](#validating-all-examples)
-    - [Validator exceptions](#validator-exceptions)
-  - [Contributing](#contributing)
-  - [Dataset index](#dataset-index)
-    - [EEG datasets](#eeg-datasets)
-    - [iEEG datasets](#ieeg-datasets)
-    - [MRI datasets](#mri-datasets)
-    - [ASL datasets](#asl-datasets)
-    - [qMRI datasets](#qmri-datasets)
-    - [PET datasets](#pet-datasets)
-    - [Microscopy datasets](#microscopy-datasets)
-    - [Motion datasets](#motion-datasets)    
-    - [NIRS datasets](#nirs-datasets)
-    - [Multimodal datasets](#multimodal-datasets)
-
-### EEG datasets
-
-| name                          | maintained by | description                                                                                                        | link to full data                       |
-| ----------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
-| eeg_matchingpennies           | @sappelhoff   | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | https://doi.org/10.17605/OSF.IO/CJ2DR   |
-| eeg_rishikesh                 | @arnodelorme  | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | https://openneuro.org/datasets/ds001787 |
-| eeg_face13                    | @andesha      | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format                     |                                         |
-| eeg_ds003645s_hed             | @VisLab       | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003645s_hed_inheritance | @VisLab       | HED annotation with multiple inherited sidecars                                                                    | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003645s_hed_longform    | @VisLab       | HED annotation using tags in long form.                                                                            | https://openneuro.org/datasets/ds003645 |
-| eeg_ds003645s_hed_library     | @VisLab       | HED annotation using HED library vocabularies (schema).                                                            | https://openneuro.org/datasets/ds003645 |
-| eeg_cbm                       | @cpernet      | Rest EEG. European Data Format (.edf)                                                                              |                                         |
-
-### iEEG datasets
-
-| name                 | maintained by | description                                                      | link to full data |
-| -------------------- | ------------- | ---------------------------------------------------------------- | ----------------- |
-| ieeg_filtered_speech | @choldgraf    | recordings of three seizures                                     |                   |
-| ieeg_motorMiller2007 | @dorahermes   | Cue-based hand & tongue movement data                            |                   |
-| ieeg_visual          | @dorahermes   | Stimulus dependence of gamma oscillations in human visual cortex |                   |
-
-### MRI datasets
-
-| name              | maintained by     | description                                             | func         | anat                      | other                  | link to link to full data                              |
-| ----------------- | ----------------- | ------------------------------------------------------- | ------------ | ------------------------- | ---------------------- | ------------------------------------------------------ |
-| 7t_trt            |                   |                                                         | bold, physio | T1w, quantitative T1 maps | fmap                   | https://bit.ly/2H0Z6Qt                                 |
-| ds001             |                   | single task, multiple runs                              | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000001/versions/00006 |
-| ds002             |                   | multiple tasks, multiple runs                           | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000002/versions/00002 |
-| ds003             |                   | single task, single run                                 | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000003/versions/00001 |
-| ds005             |                   | single task, multiple runs                              | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000005/versions/00001 |
-| ds006             |                   | single task, multiple sessions, multiple runs           | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000006/versions/00001 |
-| ds007             |                   | single task, multiple runs                              | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000007/versions/00001 |
-| ds008             |                   | multiple tasks, multiple runs                           | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000008/versions/00001 |
-| ds009             |                   | multiple tasks, multiple runs                           | bold, events | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000009/versions/00002 |
-| ds011             |                   | multiple tasks, multiple runs                           | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000011/versions/00001 |
-| ds051             |                   | multiple tasks, multiple runs                           | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000051/versions/00001 |
-| ds052             |                   | multiple tasks, multiple runs                           | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000052/versions/00001 |
-| ds101             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000101/versions/00004 |
-| ds102             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000102/versions/00001 |
-| ds105             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000105/versions/00001 |
-| ds107             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000107/versions/00001 |
-| ds108             |                   | single task, multiple runs                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000108/versions/00002 |
-| ds109             |                   | multiple tasks, multiple runs                           | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000109/versions/00001 |
-| ds110             |                   | single task, multiple runs                              | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000110/versions/00001 |
-| ds113b            |                   | forrest gump watching, multiple sessions, multiple runs | bold         | T1w, T2w                  | angiography, dwi, fmap | https://openneuro.org/datasets/ds000113/versions/1.3.0 |
-| ds114             |                   | multiple tasks, multiple runs                           | bold         | T1w                       | DWI                    | https://openneuro.org/datasets/ds000114/versions/1.0.1 |
-| ds116             |                   | multiple tasks, multiple runs                           | bold         | T1w, in-plane T2          |                        | https://openneuro.org/datasets/ds000116/versions/00003 |
-| ds210             |                   | multiple tasks, multiple runs                           | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000210/versions/00002 |
-| hcp_example_bids  | @robertoostenveld |                                                         | bold         | T1w                       |                        | https://bit.ly/2H0Z6Qt                                 |
-| synthetic         | @effigies         | A synthetic dataset                                     | bold         | T1w                       |                        |                                                        |
-| ds000001-fmriprep | @effigies         | Common derivatives example                              | bold         | T1w                       |                        | https://openneuro.org/datasets/ds000001/versions/1.0.0 |
-| ds004332          | @Remi-Gau         | Anat dataset with task entity                           |              | FLAIR, T1w, T2starw, T2w |                        | https://openneuro.org/datasets/ds004332/versions/1.0.2 |
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
 
-### ASL datasets
 
-| name   | maintained by | description                                                                                   | link to link to full data |
-| ------ | ------------- | --------------------------------------------------------------------------------------------- | ------------------------- |
-| asl001 | @patsycle     | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                     | https://osf.io/yru2q/     |
-| asl002 | @patsycle     | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                    | https://osf.io/yru2q/     |
-| asl003 | @patsycle     | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan                                    | https://osf.io/yru2q/     |
-| asl004 | @patsycle     | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | https://osf.io/yru2q/     |
-| asl005 | @patsycle     | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | https://osf.io/yru2q/     |
+### ASL
 
-### qMRI datasets
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
-| name           | maintained by       | description                                                                              | link to link to full data |
-| -------------- | ------------------- | ---------------------------------------------------------------------------------------- | ------------------------- |
-| qmri_mp2rage   | @Gilles86           | MP2RAGE for T1 mapping                                                                   | https://osf.io/k4bs5/     |
-| qmri_mp2rageme | @Gilles86           | Multi-echo MP2RAGE                                                                       | https://osf.io/k4bs5/     |
-| qmri_mpm       | @ChristophePhillips | Multi-parametric mapping for R1, R2star, MTsat and PD mapping                            | https://osf.io/k4bs5/     |
-| qmri_mtsat     | @agahkarakuzu       | Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example.   | https://osf.io/k4bs5/     |
-| qmri_qsm       | @agahkarakuzu       | Chimap using fast QSM                                                                    | `not publicly availabe`   |
-| qmri_sa2rage   | @agahkarakuzu       | Fast B1+ mapping using SA2RAGE                                                           | `not publicly availabe`   |
-| qmri_vfa       | @agahkarakuzu       | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | https://osf.io/k4bs5/     |
-| qmri_irt1      | @agahkarakuzu       | Inversion Recovery T1 mapping                                                            | `not publicly availabe`   |
-| qmri_mese      | @agahkarakuzu       | Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping.                      | `not publicly availabe`   |
-| qmri_megre     | @agahkarakuzu       | Multi-Echo Gradient-Echo for T2star mapping.                                             | `not publicly availabe`   |
-| qmri_tb1tfl    | @agahkarakuzu       | B1+ mapping with TurboFLASH readout.                                                     | `not publicly availabe`   |
+| name                                                                        | description                                                                                   | datatypes        | suffixes                                  | link to full data             | maintained by                            |
+|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|:-----------------|:------------------------------------------|:------------------------------|:-----------------------------------------|
+| [asl001](https://github.com/bids-standard/bids-examples/tree/master/asl001) | T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries                                     | anat, perf       | T1w, asl, aslcontext, asllabeling         | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
+| [asl002](https://github.com/bids-standard/bids-examples/tree/master/asl002) | T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan                                    | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
+| [asl003](https://github.com/bids-standard/bids-examples/tree/master/asl003) | T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan                                    | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
+| [asl004](https://github.com/bids-standard/bids-examples/tree/master/asl004) | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch | anat, fmap, perf | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
+| [asl005](https://github.com/bids-standard/bids-examples/tree/master/asl005) | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 
-### PET datasets
+### EEG
 
-| name   | maintained by | description     | link to full data                        |
-| ------ | ------------- | --------------- | ---------------------------------------- |
-| pet001 | @mnoergaard   | T1w, PET, blood |                                          |
-| pet002 | @mnoergaard   | T1w, PET        | https://openneuro.org/datasets/ds001420/ |
-| pet003 | @mnoergaard   | T1w, PET, blood |                                          |
-| pet004 | @mnoergaard   | PET, blood      |                                          |
-| pet005 | @mnoergaard   | T1w, PET        |                                          |
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
-### Microscopy datasets
+| name                                                                                                                      | description                                                                                                        | datatypes   | suffixes                                       | link to full data                               | maintained by                                  |
+|:--------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|:------------|:-----------------------------------------------|:------------------------------------------------|:-----------------------------------------------|
+| [eeg_cbm](https://github.com/bids-standard/bids-examples/tree/master/eeg_cbm)                                             | Rest EEG. European Data Format (.edf)                                                                              | eeg         | channels, eeg, events, scans                   | n/a                                             | [@cpernet](https://github.com/cpernet)         |
+| [eeg_ds003645s_hed](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed)                         | Shows usage of Hierarchical Event Descriptor (HED) in events files                                                 | eeg         | channels, eeg, events                          | [link](https://openneuro.org/datasets/ds003645) | [@VisLab](https://github.com/VisLab)           |
+| [eeg_ds003645s_hed_inheritance](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed_inheritance) | HED annotation with multiple inherited sidecars                                                                    | eeg         | channels, eeg, events                          | [link](https://openneuro.org/datasets/ds003645) | [@VisLab](https://github.com/VisLab)           |
+| [eeg_ds003645s_hed_library](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed_library)         | HED annotation using HED library vocabularies (schema).                                                            | eeg         | channels, eeg, events                          | [link](https://openneuro.org/datasets/ds003645) | [@VisLab](https://github.com/VisLab)           |
+| [eeg_ds003645s_hed_longform](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed_longform)       | HED annotation using tags in long form.                                                                            | eeg         | channels, eeg, events                          | [link](https://openneuro.org/datasets/ds003645) | [@VisLab](https://github.com/VisLab)           |
+| [eeg_face13](https://github.com/bids-standard/bids-examples/tree/master/eeg_face13)                                       | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format                     | eeg         | channels, coordsystem, eeg, electrodes, events | n/a                                             | [@andesha](https://github.com/andesha)         |
+| [eeg_matchingpennies](https://github.com/bids-standard/bids-examples/tree/master/eeg_matchingpennies)                     | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | eeg         | channels, eeg, events                          | [link](https://doi.org/10.17605/OSF.IO/CJ2DR)   | [@sappelhoff](https://github.com/sappelhoff)   |
+| [eeg_rishikesh](https://github.com/bids-standard/bids-examples/tree/master/eeg_rishikesh)                                 | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | eeg         | channels, eeg, events                          | [link](https://openneuro.org/datasets/ds001787) | [@arnodelorme](https://github.com/arnodelorme) |
 
-| name          | maintained by | description                                                                                     | link to full data |
-| ------------- | ------------- | ----------------------------------------------------------------------------------------------- | ----------------- |
-| micr_SEM      | @jcohenadad   | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          |                   |
-| micr_SEMzarr  | @TheChymera   | Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions             |                   |
-| micr_SPIM     | @jcohenadad   | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each |                   |
+### iEEG
 
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
-### NIRS datasets
+| name                                                                                                        | description                                                                                                    | datatypes              | suffixes                                                               | link to full data                                                           | maintained by                                |
+|:------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|:-----------------------|:-----------------------------------------------------------------------|:----------------------------------------------------------------------------|:---------------------------------------------|
+| [ieeg_epilepsyNWB](https://github.com/bids-standard/bids-examples/tree/master/ieeg_epilepsyNWB)             | multiple sessions, tutorial — derivative dataset of `ieeg_epilepsy` showcasing the NWB file format alternative | anat, ieeg             | T1w, channels, coordsystem, electrodes, events, ieeg, scans            | [link](https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids) | [@TheChymera](https://github.com/TheChymera) |
+| [ieeg_epilepsy](https://github.com/bids-standard/bids-examples/tree/master/ieeg_epilepsy)                   | multiple sessions, tutorial                                                                                    | anat, ieeg             | T1w, channels, coordsystem, electrodes, events, ieeg, scans            | [link](https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids) | [@ftadel](https://github.com/ftadel)         |
+| [ieeg_epilepsy_ecog](https://github.com/bids-standard/bids-examples/tree/master/ieeg_epilepsy_ecog)         | multiple sessions, tutorial                                                                                    | anat, ieeg             | T1w, channels, coordsystem, electrodes, events, ieeg, photo, scans     | [link](https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog)          | [@ftadel](https://github.com/ftadel)         |
+| [ieeg_filtered_speech](https://github.com/bids-standard/bids-examples/tree/master/ieeg_filtered_speech)     | recordings of three seizures                                                                                   | ieeg                   | channels, coordsystem, electrodes, events, ieeg, photo                 | n/a                                                                         | [@choldgraf](https://github.com/choldgraf)   |
+| [ieeg_motorMiller2007](https://github.com/bids-standard/bids-examples/tree/master/ieeg_motorMiller2007)     | Cue-based hand & tongue movement data                                                                          | ieeg                   | channels, coordsystem, electrodes, events, ieeg                        | n/a                                                                         | [@dorahermes](https://github.com/dorahermes) |
+| [ieeg_visual](https://github.com/bids-standard/bids-examples/tree/master/ieeg_visual)                       | Stimulus dependence of gamma oscillations in human visual cortex                                               | anat, ieeg             | T1w, channels, coordsystem, electrodes, events, ieeg                   | n/a                                                                         | [@dorahermes](https://github.com/dorahermes) |
+| [ieeg_visual_multimodal](https://github.com/bids-standard/bids-examples/tree/master/ieeg_visual_multimodal) | n/a                                                                                                            | anat, fmap, func, ieeg | T1w, bold, channels, coordsystem, electrodes, epi, events, ieeg, sbref | n/a                                                                         | [@irisgroen](https://github.com/irisgroen)   |
 
-| name              | maintained by     | description                                                             | link to full data                       |
-| ----------------- | ----------------- | ----------------------------------------------------------------------- | --------------------------------------- |
-| fnirs_tapping     | @rob_luke         | Example fNIRS measurement with three conditions from five subjects      | https://doi.org/10.5281/zenodo.5529797  |
-| fnirs_automaticiy | @robertoostenveld | 24 subjects performing (non-)automatic finger tapping and foot stepping | https://doi.org/10.34973/vesb-mh30      |
+### MEG
 
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
-### Motion datasets
+| name                                                                            | description                                                                                                          | datatypes                       | suffixes                                                                                                                      | link to full data                                              | maintained by                              |
+|:--------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|:--------------------------------|:------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
+| [ds000117](https://github.com/bids-standard/bids-examples/tree/master/ds000117) | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task                          | anat, beh, dwi, fmap, func, meg | T1w, beh, bold, channels, coordsystem, dwi, events, headshape, magnitude1, magnitude2, meg, phasediff, scans                  | [link](https://openneuro.org/datasets/ds000117/)               | [@RikHenson](https://github.com/RikHenson) |
+| [ds000246](https://github.com/bids-standard/bids-examples/tree/master/ds000246) | Auditory dataset used for Brainstorm’s general online tutorial                                                       | anat, meg                       | ChannelGroupSet, ClassFile, MarkerFile, T1w, channels, coordsystem, default, headshape, meg, params, photo, processing, scans | [link](https://openneuro.org/datasets/ds000246/versions/00001) | [@guiomar](https://github.com/guiomar)     |
+| [ds000247](https://github.com/bids-standard/bids-examples/tree/master/ds000247) | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA). | anat, meg                       | ClassFile, T1w, bad, channels, coordsystem, default, headshape, meg, params, processing, scans                                | [link](https://openneuro.org/datasets/ds000247/versions/00001) | [@guiomar](https://github.com/guiomar)     |
+| [ds000248](https://github.com/bids-standard/bids-examples/tree/master/ds000248) | MNE sample data: Data with visual and auditory stimuli                                                               | anat, meg                       | FLASH, T1w, channels, coordsystem, events, meg, scans                                                                         | [link](https://openneuro.org/datasets/ds000248/versions/00001) | [@agramfort](https://github.com/agramfort) |
 
-| name                     | maintained by | description                                                                                               | link to full data                               |
-| ------------------------ | ------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| motion_systemvalidation  | @JuliusWelzel | Example dataset of two different motion captured system recorded almost simultaneously, but no brain data | https://doi.org/10.6084/m9.figshare.20238006.v2 |
+### Microscopy
 
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
 
-### Multimodal datasets
+| name                                                                                    | description                                                                                     | datatypes   | suffixes                      | link to full data                              | maintained by                                |
+|:----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|:------------|:------------------------------|:-----------------------------------------------|:---------------------------------------------|
+| [micr_SEM](https://github.com/bids-standard/bids-examples/tree/master/micr_SEM)         | Example SEM dataset in PNG format with 1 sample imaged over 2 sessions                          | micr        | SEM, photo, samples, sessions | [link](https://doi.org/10.5281/zenodo.5498378) | [@jcohenadad](https://github.com/jcohenadad) |
+| [micr_SEMzarr](https://github.com/bids-standard/bids-examples/tree/master/micr_SEMzarr) | Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions             | micr        | SEM, samples, sessions        | n/a                                            | [@TheChymera](https://github.com/TheChymera) |
+| [micr_SPIM](https://github.com/bids-standard/bids-examples/tree/master/micr_SPIM)       | Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each | micr        | SPIM, photo, samples          | [link](https://doi.org/10.5281/zenodo.5517223) | [@jcohenadad](https://github.com/jcohenadad) |
 
-| name                   | maintained by     | description                                                                                                                          | mri                   | meg | eeg | ieeg | genetics | motion | link to full data                                                   |
-| ---------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | --- | --- | ---- | -------- | ------ | ------------------------------------------------------------------- |
-| ds000117               | @RikHenson        | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task                                          | anat, dwi, func, fmap | meg | eeg |      |          |        | https://openneuro.org/datasets/ds000117/                            |
-| ds000246               | @guiomar          | Auditory dataset used for Brainstorm’s general online tutorial                                                                       | anat                  | meg |     |      |          |        | https://openneuro.org/datasets/ds000246/versions/00001              |
-| ds000247               | @guiomar          | Five minutes, eyes-open, resting-state MEG data from 5 subjects. This is a sample from The Open MEG Archive (OMEGA).                 | anat                  | meg |     |      |          |        | https://openneuro.org/datasets/ds000247/versions/00001              |
-| ds000248               | @agramfort        | MNE sample data: Data with visual and auditory stimuli                                                                               | anat                  | meg |     |      |          |        | https://openneuro.org/datasets/ds000248/versions/00001              |
-| eeg_ds000117           | @robertoostenveld | Multimodal (fMRI, MEG, EEG) stripped down to EEG with MRI anatomical scan and electrode coordinates. EEGLAB data format (.set, .fdt) | anat                  |     | eeg |      |          |        | https://openneuro.org/datasets/ds000117/                            |
-| eeg_rest_fmri          | @cpernet          | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)                                                   | anat, dwi, func       |     | eeg |      |          |        |                                                                     |
-| ieeg_epilepsy          | @ftadel           | multiple sessions, tutorial                                                                                                          | anat                  |     |     | ieeg |          |        | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids |
-| ieeg_epilepsyNWB       | @TheChymera       | multiple sessions, tutorial — derivative dataset of `ieeg_epilepsy` showcasing the NWB file format alternative                       | anat                  |     |     | ieeg |          |        | https://neuroimage.usc.edu/bst/getupdate.php?s=tutorial_epimap_bids |
-| ieeg_epilepsy_ecog     | @ftadel           | multiple sessions, tutorial                                                                                                          | anat                  |     |     | ieeg |          |        | https://neuroimage.usc.edu/bst/getupdate.php?s=sample_ecog          |
-| ieeg_visual_multimodal | @irisgroen        |                                                                                                                                      | anat, fmap, func      |     |     | ieeg |          |        |                                                                     |
-| genetics_ukbb          | @cpernet          | multiple tasks, T1w, DTI, BOLD, genetic info                                                                                         | anat, dwi, func, fmap |     |     |      | genetics |        |                                                                     |
-| motion_dualtask        | @sjeung           | older and younger participants walking while performing discrimination task                                                          |                       |     | eeg |      |          | motion |                                                                     |
-| motion_spotrotation    | @sjeung           | participants rotated heading using full-body motion or joystick                                                                      |                       |     | eeg |      |          | motion | https://openneuro.org/datasets/ds004460                             |
+### Motion
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                          | description                                                                                               | datatypes   | suffixes                                                      | link to full data                                       | maintained by                                    |
+|:--------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|:------------|:--------------------------------------------------------------|:--------------------------------------------------------|:-------------------------------------------------|
+| [motion_dualtask](https://github.com/bids-standard/bids-examples/tree/master/motion_dualtask)                 | older and younger participants walking while performing discrimination task                               | eeg, motion | channels, eeg, events, motion, scans                          | n/a                                                     | [@sjeung](https://github.com/sjeung)             |
+| [motion_spotrotation](https://github.com/bids-standard/bids-examples/tree/master/motion_spotrotation)         | participants rotated heading using full-body motion or joystick                                           | eeg, motion | channels, coordsystem, eeg, electrodes, events, motion, scans | [link](https://openneuro.org/datasets/ds004460)         | [@sjeung](https://github.com/sjeung)             |
+| [motion_systemvalidation](https://github.com/bids-standard/bids-examples/tree/master/motion_systemvalidation) | Example dataset of two different motion captured system recorded almost simultaneously, but no brain data | motion      | channels, motion, scans                                       | [link](https://doi.org/10.6084/m9.figshare.20238006.v2) | [@JuliusWelzel](https://github.com/JuliusWelzel) |
+
+### MRI
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                        | description                                                                                 | datatypes                       | suffixes                                                                                                     | link to full data                                              | maintained by                              |
+|:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|:--------------------------------|:-------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
+| [7t_trt](https://github.com/bids-standard/bids-examples/tree/master/7t_trt)                                 | n/a                                                                                         | anat, fmap, func                | T1map, T1w, bold, magnitude1, magnitude2, phasediff, physio, scans, sessions                                 | [link](https://bit.ly/2H0Z6Qt)                                 | n/a                                        |
+| [ds000117](https://github.com/bids-standard/bids-examples/tree/master/ds000117)                             | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | anat, beh, dwi, fmap, func, meg | T1w, beh, bold, channels, coordsystem, dwi, events, headshape, magnitude1, magnitude2, meg, phasediff, scans | [link](https://openneuro.org/datasets/ds000117/)               | [@RikHenson](https://github.com/RikHenson) |
+| [ds001](https://github.com/bids-standard/bids-examples/tree/master/ds001)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000001/versions/00006) | n/a                                        |
+| [ds002](https://github.com/bids-standard/bids-examples/tree/master/ds002)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000002/versions/00002) | n/a                                        |
+| [ds003](https://github.com/bids-standard/bids-examples/tree/master/ds003)                                   | single task, single run                                                                     | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000003/versions/00001) | n/a                                        |
+| [ds005](https://github.com/bids-standard/bids-examples/tree/master/ds005)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000005/versions/00001) | n/a                                        |
+| [ds006](https://github.com/bids-standard/bids-examples/tree/master/ds006)                                   | single task, multiple sessions, multiple runs                                               | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000006/versions/00001) | n/a                                        |
+| [ds007](https://github.com/bids-standard/bids-examples/tree/master/ds007)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000007/versions/00001) | n/a                                        |
+| [ds008](https://github.com/bids-standard/bids-examples/tree/master/ds008)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000008/versions/00001) | n/a                                        |
+| [ds009](https://github.com/bids-standard/bids-examples/tree/master/ds009)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events, inplaneT2, scans                                                                          | [link](https://openneuro.org/datasets/ds000009/versions/00002) | n/a                                        |
+| [ds011](https://github.com/bids-standard/bids-examples/tree/master/ds011)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000011/versions/00001) | n/a                                        |
+| [ds051](https://github.com/bids-standard/bids-examples/tree/master/ds051)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000051/versions/00001) | n/a                                        |
+| [ds052](https://github.com/bids-standard/bids-examples/tree/master/ds052)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000052/versions/00001) | n/a                                        |
+| [ds101](https://github.com/bids-standard/bids-examples/tree/master/ds101)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events                                                                                            | [link](https://openneuro.org/datasets/ds000101/versions/00004) | n/a                                        |
+| [ds102](https://github.com/bids-standard/bids-examples/tree/master/ds102)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events                                                                                            | [link](https://openneuro.org/datasets/ds000102/versions/00001) | n/a                                        |
+| [ds105](https://github.com/bids-standard/bids-examples/tree/master/ds105)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events                                                                                            | [link](https://openneuro.org/datasets/ds000105/versions/00001) | n/a                                        |
+| [ds107](https://github.com/bids-standard/bids-examples/tree/master/ds107)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events                                                                                            | [link](https://openneuro.org/datasets/ds000107/versions/00001) | n/a                                        |
+| [ds108](https://github.com/bids-standard/bids-examples/tree/master/ds108)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events                                                                                            | [link](https://openneuro.org/datasets/ds000108/versions/00002) | n/a                                        |
+| [ds109](https://github.com/bids-standard/bids-examples/tree/master/ds109)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events                                                                                            | [link](https://openneuro.org/datasets/ds000109/versions/00001) | n/a                                        |
+| [ds110](https://github.com/bids-standard/bids-examples/tree/master/ds110)                                   | single task, multiple runs                                                                  | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000110/versions/00001) | n/a                                        |
+| [ds113b](https://github.com/bids-standard/bids-examples/tree/master/ds113b)                                 | forrest gump watching, multiple sessions, multiple runs                                     | func                            | bold, events                                                                                                 | [link](https://openneuro.org/datasets/ds000113/versions/1.3.0) | n/a                                        |
+| [ds114](https://github.com/bids-standard/bids-examples/tree/master/ds114)                                   | multiple tasks, multiple runs                                                               | anat, dwi, func                 | T1w, bold, dwi, events                                                                                       | [link](https://openneuro.org/datasets/ds000114/versions/1.0.1) | n/a                                        |
+| [ds116](https://github.com/bids-standard/bids-examples/tree/master/ds116)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events, inplaneT2                                                                                 | [link](https://openneuro.org/datasets/ds000116/versions/00003) | n/a                                        |
+| [ds210](https://github.com/bids-standard/bids-examples/tree/master/ds210)                                   | multiple tasks, multiple runs                                                               | func                            | bold, physio                                                                                                 | [link](https://openneuro.org/datasets/ds000210/versions/00002) | n/a                                        |
+| [eeg_rest_fmri](https://github.com/bids-standard/bids-examples/tree/master/eeg_rest_fmri)                   | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)          | anat, dwi, eeg, func            | T1w, bold, dwi, eeg                                                                                          | n/a                                                            | [@cpernet](https://github.com/cpernet)     |
+| [genetics_ukbb](https://github.com/bids-standard/bids-examples/tree/master/genetics_ukbb)                   | multiple tasks, T1w, DTI, BOLD, genetic info                                                | anat, dwi, fmap, func           | FLAIR, T1w, bold, dwi, events, info, magnitude1, phasediff                                                   | n/a                                                            | [@cpernet](https://github.com/cpernet)     |
+| [ieeg_visual_multimodal](https://github.com/bids-standard/bids-examples/tree/master/ieeg_visual_multimodal) | n/a                                                                                         | anat, fmap, func, ieeg          | T1w, bold, channels, coordsystem, electrodes, epi, events, ieeg, sbref                                       | n/a                                                            | [@irisgroen](https://github.com/irisgroen) |
+| [synthetic](https://github.com/bids-standard/bids-examples/tree/master/synthetic)                           | A synthetic dataset                                                                         | anat, beh, func                 | T1w, beh, bold, events, physio, scans, sessions, stim                                                        | n/a                                                            | [@effigies](https://github.com/effigies)   |
+
+### NIRS
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                | description                                                             | datatypes   | suffixes                                                             | link to full data                              | maintained by                                            |
+|:----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|:------------|:---------------------------------------------------------------------|:-----------------------------------------------|:---------------------------------------------------------|
+| [fnirs_automaticity](https://github.com/bids-standard/bids-examples/tree/master/fnirs_automaticity) | 24 subjects performing (non-)automatic finger tapping and foot stepping | nirs        | channels, coordsystem, events, nirs, optodes, practicelogbook, scans | [link](https://doi.org/10.34973/vesb-mh30)     | [@robertoostenveld](https://github.com/robertoostenveld) |
+| [fnirs_tapping](https://github.com/bids-standard/bids-examples/tree/master/fnirs_tapping)           | Example fNIRS measurement with three conditions from five subjects      | nirs        | channels, coordsystem, events, nirs, optodes, scans                  | [link](https://doi.org/10.5281/zenodo.5529797) | [@rob_luke](https://github.com/rob_luke)                 |
+
+### PET
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                        | description     | datatypes   | suffixes         | link to full data                                | maintained by                                |
+|:----------------------------------------------------------------------------|:----------------|:------------|:-----------------|:-------------------------------------------------|:---------------------------------------------|
+| [pet001](https://github.com/bids-standard/bids-examples/tree/master/pet001) | T1w, PET, blood | anat, pet   | T1w, blood, pet  | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
+| [pet002](https://github.com/bids-standard/bids-examples/tree/master/pet002) | T1w, PET        | anat, pet   | T1w, pet         | [link](https://openneuro.org/datasets/ds001420/) | [@mnoergaard](https://github.com/mnoergaard) |
+| [pet003](https://github.com/bids-standard/bids-examples/tree/master/pet003) | T1w, PET, blood | anat, pet   | T1w, blood, pet  | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
+| [pet004](https://github.com/bids-standard/bids-examples/tree/master/pet004) | PET, blood      | pet         | blood, pet       | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
+| [pet005](https://github.com/bids-standard/bids-examples/tree/master/pet005) | T1w, PET        | anat, pet   | T1w, events, pet | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
+
+### qMRI
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                        | description                                                                              | datatypes   | suffixes                                               | link to full data             | maintained by                                                |
+|:--------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|:------------|:-------------------------------------------------------|:------------------------------|:-------------------------------------------------------------|
+| [qmri_irt1](https://github.com/bids-standard/bids-examples/tree/master/qmri_irt1)           | Inversion Recovery T1 mapping                                                            | anat        | IRT1                                                   | `not publicly availabe`       | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
+| [qmri_megre](https://github.com/bids-standard/bids-examples/tree/master/qmri_megre)         | Multi-Echo Gradient-Echo for T2star mapping.                                             | anat        | MEGRE                                                  | `not publicly availabe`       | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
+| [qmri_mese](https://github.com/bids-standard/bids-examples/tree/master/qmri_mese)           | Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping.                      | anat        | MESE                                                   | `not publicly availabe`       | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
+| [qmri_mp2rage](https://github.com/bids-standard/bids-examples/tree/master/qmri_mp2rage)     | MP2RAGE for T1 mapping                                                                   | anat        | MP2RAGE, defacemask                                    | [link](https://osf.io/k4bs5/) | [@Gilles86](https://github.com/Gilles86)                     |
+| [qmri_mp2rageme](https://github.com/bids-standard/bids-examples/tree/master/qmri_mp2rageme) | Multi-echo MP2RAGE                                                                       | anat, fmap  | MP2RAGE, TB1map                                        | [link](https://osf.io/k4bs5/) | [@Gilles86](https://github.com/Gilles86)                     |
+| [qmri_mpm](https://github.com/bids-standard/bids-examples/tree/master/qmri_mpm)             | Multi-parametric mapping for R1, R2star, MTsat and PD mapping                            | anat, fmap  | MPM, RB1COR, TB1EPI, magnitude1, magnitude2, phasediff | [link](https://osf.io/k4bs5/) | [@ChristophePhillips](https://github.com/ChristophePhillips) |
+| [qmri_mtsat](https://github.com/bids-standard/bids-examples/tree/master/qmri_mtsat)         | Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example.   | anat, fmap  | MTS, TB1DAM                                            | [link](https://osf.io/k4bs5/) | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
+| [qmri_qsm](https://github.com/bids-standard/bids-examples/tree/master/qmri_qsm)             | Chimap using fast QSM                                                                    | anat        | T1w                                                    | `not publicly availabe`       | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
+| [qmri_sa2rage](https://github.com/bids-standard/bids-examples/tree/master/qmri_sa2rage)     | Fast B1+ mapping using SA2RAGE                                                           | fmap        | TB1SRGE                                                | `not publicly availabe`       | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
+| [qmri_tb1tfl](https://github.com/bids-standard/bids-examples/tree/master/qmri_tb1tfl)       | B1+ mapping with TurboFLASH readout.                                                     | fmap        | TB1TFL                                                 | `not publicly availabe`       | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
+| [qmri_vfa](https://github.com/bids-standard/bids-examples/tree/master/qmri_vfa)             | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | anat, fmap  | TB1AFI, VFA                                            | [link](https://osf.io/k4bs5/) | [@agahkarakuzu](https://github.com/agahkarakuzu)             |

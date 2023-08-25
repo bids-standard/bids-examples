@@ -1,7 +1,7 @@
 {
     "Name": "Face processing MEEG dataset with HED annotation",
-    "BIDSVersion": "1.8.4",
-    "HEDVersion": ["8.0.0", "sc:score_1.0.0",  "test:testlib_1.0.2"],
+    "BIDSVersion": "1.8.0",
+    "HEDVersion": "8.1.0",
     "License": "CC0",
     "Authors": [
         "Daniel G. Wakeman",
@@ -18,7 +18,10 @@
     ],
     "Funding": [
         "Experiment was supported by the UK Medical Research Council (MC_A060_5PR10) and Elekta Ltd.",
-        "Curation was supported by: Army Research Laboratory W911NF-10-2-0022, NIH R01 EB023297-03, NIH R01 NS047293-l4, and NIH R24 MH120037-01."
+        "Curation was supported by: NIH R01 EB023297-03, NIH R01 NS047293-l4, NIH R24 MH120037-01, and R01 MH126700-01A1."
     ],
-    "DatasetDOI": "10.18112/openneuro.ds003645.v1.0.0"
+    "DatasetDOI": "10.18112/openneuro.ds003645.v2.0.2",
+	"EthicsApprovals": [
+	    "The study was approved by Cambridge University Psychological Ethics Committee. Written informed consent was obtained from each participant prior to and following each phase of the experiment."
+	]
 }
