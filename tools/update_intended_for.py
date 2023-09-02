@@ -82,7 +82,7 @@ def main():
         if not DRY_RUN:
             with open(json_path, "w") as f:
                 content["IntendedFor"] = intended_for
-                json.dump(content, f, indent=4)
+                json.dump(content, f, indent=1)
 
 
 if __name__ == "__main__":
