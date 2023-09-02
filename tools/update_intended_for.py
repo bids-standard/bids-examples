@@ -49,6 +49,7 @@ def main():
             was_str = True
             intended_for = [intended_for]
 
+        update = False
         for i, intended_for_path in enumerate(intended_for):
             if intended_for_path.startswith("bids:"):
                 continue
@@ -58,6 +59,8 @@ def main():
             ):
                 print(f"[red]will not update {intended_for_path}[/red]")
                 continue
+
+            update = True
 
             filename = Path(intended_for_path).name
             subject = filename.split("_")[0]
@@ -75,10 +78,9 @@ def main():
         if was_str:
             intended_for = intended_for[0]
 
-        if VERBOSE:
-            print(intended_for)
-
-        if not DRY_RUN:
+        if update and not DRY_RUN:
+            if VERBOSE:
+                print(intended_for)
             with open(json_path, "w") as f:
                 content["IntendedFor"] = intended_for
                 json.dump(content, f, indent=1)
