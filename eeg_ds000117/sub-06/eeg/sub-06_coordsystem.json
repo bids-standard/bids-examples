@@ -1,14 +1,26 @@
 {
-    "EEGCoordinateSystem": "Other",
-    "EEGCoordinateUnits": "mm",
-    "EEGCoordinateSystemDescription": "T1w",
-    "AnatomicalLandmarkCoordinates": {
-        "LPA": [-0.06559, 2.3605e-08, 2.773e-09],
-        "NAS": [-4.4034e-09, 0.095805, 2.3015e-09],
-        "RPA": [0.060385, 1.144e-09, 3.8683e-09]
-    },
-    "AnatomicalLandmarkCoordinateSystem": "Other",
-    "AnatomicalLandmarkCoordinateUnits": "mm",
-    "AnatomicalLandmarkCoordinateSystemDescription": "T1w",
-    "IntendedFor": "anat/sub-06_T1w.nii.gz"
+ "EEGCoordinateSystem": "Other",
+ "EEGCoordinateUnits": "mm",
+ "EEGCoordinateSystemDescription": "T1w",
+ "AnatomicalLandmarkCoordinates": {
+  "LPA": [
+   -0.06559,
+   2.3605e-08,
+   2.773e-09
+  ],
+  "NAS": [
+   -4.4034e-09,
+   0.095805,
+   2.3015e-09
+  ],
+  "RPA": [
+   0.060385,
+   1.144e-09,
+   3.8683e-09
+  ]
+ },
+ "AnatomicalLandmarkCoordinateSystem": "Other",
+ "AnatomicalLandmarkCoordinateUnits": "mm",
+ "AnatomicalLandmarkCoordinateSystemDescription": "T1w",
+ "IntendedFor": "bids::sub-06/anat/sub-06_T1w.nii.gz"
 }
