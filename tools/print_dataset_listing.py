@@ -1,6 +1,7 @@
 """Take the listing of examples datasets
 and turns it into a markdown document with a series of markdown tables."""
 from pathlib import Path
+
 import pandas as pd
 from bids import BIDSLayout
 
@@ -93,7 +94,7 @@ def update_datatypes_and_suffixes(df, root):
 def add_links(df):
     print("Adding hyperlinks in table...")
     for row in df.iterrows():
-        for col in ["name","link to full data", "maintained by"]:
+        for col in ["name", "link to full data", "maintained by"]:
             if not isinstance(row[1][col], str):
                 continue
             if col == "name":
@@ -103,7 +104,6 @@ def add_links(df):
             if col == "maintained by" and row[1][col].startswith("@"):
                 row[1][col] = f"[{row[1][col]}](https://github.com/{row[1][col][1:]})"
     return df
-
 
 
 def clean_previous_run(output_file: Path) -> None:
@@ -117,13 +117,17 @@ def clean_previous_run(output_file: Path) -> None:
                 break
             f.write(line + "\n")
 
+
 def add_warning(f):
-    f.write("""<!--
+    f.write(
+        """<!--
 Table below is generated automatically.
 Do not edit directly.
 -->
 
-""".upper())
+""".upper()
+    )
+
 
 def add_tables(df: pd.DataFrame, output_file: Path) -> None:
     print("Writing markdown tables...")
