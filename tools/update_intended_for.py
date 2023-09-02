@@ -23,7 +23,8 @@ from pathlib import Path
 
 from rich import print
 
-VERBOSE = False
+VERBOSE = True
+DRY_RUN = False
 
 
 def root_dir():
@@ -32,7 +33,6 @@ def root_dir():
 
 def main():
     for json_path in root_dir().glob("**/*.json"):
-
         if VERBOSE:
             print(f"Checking {json_path.relative_to(root_dir())}")
 
@@ -78,6 +78,11 @@ def main():
 
         if VERBOSE:
             print(intended_for)
+
+        if not DRY_RUN:
+            with open(json_path, "w") as f:
+                content["IntendedFor"] = intended_for
+                json.dump(content, f, indent=4)
 
 
 if __name__ == "__main__":
