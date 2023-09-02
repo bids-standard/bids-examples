@@ -23,8 +23,8 @@ from pathlib import Path
 
 from rich import print
 
-VERBOSE = True
-DRY_RUN = False
+VERBOSE = False
+DRY_RUN = True
 
 
 def root_dir():
@@ -33,14 +33,15 @@ def root_dir():
 
 def main():
     for json_path in root_dir().glob("**/*.json"):
-        if VERBOSE:
-            print(f"Checking {json_path.relative_to(root_dir())}")
 
         with open(json_path) as f:
             content = json.load(f)
 
         if "IntendedFor" not in content:
             continue
+        
+        print()
+        print(f"Checking {json_path.relative_to(root_dir())}")
 
         intended_for = content["IntendedFor"]
 
@@ -56,8 +57,7 @@ def main():
             if not intended_for_path.startswith(
                 ("ses-", "anat", "func", "ieeg", "fmap", "perf", "micr")
             ):
-                if VERBOSE:
-                    print(f"[red]will not update {intended_for_path}[/red]")
+                print(f"[red]will not update {intended_for_path}[/red]")
                 continue
 
             filename = Path(intended_for_path).name
