@@ -24,7 +24,7 @@ from pathlib import Path
 from rich import print
 
 VERBOSE = False
-DRY_RUN = True
+DRY_RUN = False
 
 
 def root_dir():
@@ -33,13 +33,12 @@ def root_dir():
 
 def main():
     for json_path in root_dir().glob("**/*.json"):
-
         with open(json_path) as f:
             content = json.load(f)
 
         if "IntendedFor" not in content:
             continue
-        
+
         print()
         print(f"Checking {json_path.relative_to(root_dir())}")
 
