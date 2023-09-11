@@ -1,0 +1,68 @@
+{
+  "sex": {
+    "LongName": "sex",
+    "Description": "String value indicating phenotypical sex.",
+    "TermURL": "TODO",
+    "Levels": {
+      "F": {
+        "Description": "Female",
+        "TermURL": "TODO"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "TODO"
+      }
+    }
+  },
+  "age": {
+    "LongName": "age",
+    "Units": "year",
+    "TermURL": "TODO"
+  },
+  "handedness": {
+    "LongName": "handedness",
+    "Description": "String value indicating handedness",
+    "TermURL": "TODO",
+    "Levels": {
+      "L": {
+        "Description": "Left",
+        "TermURL": "TODO"
+      },
+      "R": {
+        "Description": "Right",
+        "TermURL": "TODO"
+      }
+    }
+  },
+  "ethnicity": {
+    "LongName": "ethnicity",
+    "Description": "TODO",
+    "TermURL": "TODO",
+    "Levels": {
+      "Asian": {
+        "Description": "Asian",
+        "TermURL": "TODO"
+      },
+      "Asian/Caucasian": {
+        "Description": "Asian Caucasian",
+        "TermURL": "TODO"
+      },
+      "Caucasian": {
+        "Description": "Caucasian",
+        "TermURL": "TODO"
+      },
+      "Caucasian/African/NativeSouthAmerican": {
+        "Description": "Caucasian African NativeSouthAmerican",
+        "TermURL": "TODO"
+      },
+      "Hispanic": {
+        "Description": "Hispanic",
+        "TermURL": "TODO"
+      },
+      "MiddleEastern": {
+        "Description": "MiddleEastern",
+        "TermURL": "TODO"
+      }
+    }
+  }
+}

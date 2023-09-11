@@ -1,0 +1,35 @@
+{
+  "age": {
+    "LongName": "age",
+    "Units": "year",
+    "TermURL": "TODO"
+  },
+  "sex": {
+    "LongName": "sex",
+    "Description": "String value indicating phenotypical sex.",
+    "Units": "TODO",
+    "TermURL": "TODO",
+    "Levels": {
+      "F": {
+        "Description": "Female",
+        "TermURL": "TODO"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "TODO"
+      }
+    }
+  },
+  "first_ses": {
+    "LongName": "first session",
+    "Description": "Indicates which session was the first session for this subject.",
+    "Levels": {
+      "meg": {
+        "Description": "meg was the first session"
+      },
+      "mri": {
+        "Description": "mri was the first session"
+      }
+    }
+  }
+}

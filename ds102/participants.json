@@ -1,0 +1,26 @@
+{
+  "sex": {
+    "LongName": "sex",
+    "Description": "String value indicating phenotypical sex.",
+    "TermURL": "TODO",
+    "Levels": {
+      "D": {
+        "Description": "D",
+        "TermURL": "TODO"
+      },
+      "F": {
+        "Description": "Female",
+        "TermURL": "TODO"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "TODO"
+      }
+    }
+  },
+  "age": {
+    "LongName": "age",
+    "Units": "year",
+    "TermURL": "TODO"
+  }
+}

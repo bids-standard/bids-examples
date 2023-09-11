@@ -1,0 +1,21 @@
+{
+  "Age": {
+    "LongName": "Age",
+    "Units": "years",
+    "TermURL": "TODO"
+  },
+  "Gender": {
+    "LongName": "Gender",
+    "TermURL": "TODO",
+    "Levels": {
+      "F": {
+        "Description": "Female",
+        "TermURL": "TODO"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "TODO"
+      }
+    }
+  }
+}
