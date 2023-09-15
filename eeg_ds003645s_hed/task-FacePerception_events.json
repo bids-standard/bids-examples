@@ -60,8 +60,7 @@
     }
   },
   "trial": {
-    "Description": "Indicates which trial this event belongs to.",
-    "HED": "Experimental-trial/#"
+    "Description": "Indicates which trial this event belongs to."
   },
   "rep_lag": {
     "Description": "How face images before this one was the image was previously presented.",
