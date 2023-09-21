@@ -1,4 +1,6 @@
 [![GitHub Actions](https://github.com/bids-standard/bids-examples/workflows/validate_datasets/badge.svg)](https://github.com/bids-standard/bids-examples/actions)
+![GitHub repo size](https://img.shields.io/github/repo-size/bids-standard/bids-examples)
+
 
 The content of this repository can also be viewed here:
 
