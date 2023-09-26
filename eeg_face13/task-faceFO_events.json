@@ -1,5 +1,13 @@
 {
-    "EventValue": {
+    "onset": {
+        "Description": "Position of event marker in seconds relative to the start.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event in seconds.",
+        "Units": "s"
+    },
+    "value": {
         "Levels": {
             "e-27": "experiment procedure",
             "e-254": "experiment procedure",
