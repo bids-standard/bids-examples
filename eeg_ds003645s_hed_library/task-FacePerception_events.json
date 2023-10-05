@@ -60,12 +60,11 @@
     }
   },
   "trial": {
-    "Description": "Indicates which trial this event belongs to.",
-    "HED": "Experimental-trial/#, test:Informational-property, sc:Discontinuous-background-activity"
+    "Description": "Indicates which trial this event belongs to."
   },
   "rep_lag": {
     "Description": "How face images before this one was the image was previously presented.",
-    "HED": "(Face, Item-interval/#)"
+    "HED": "(Face, Item-interval/#), test:Informational-property, sc:Discontinuous-background-activity"
   },
   "stim_file": {
     "Description": "Path of the stimulus file in the stimuli directory.",

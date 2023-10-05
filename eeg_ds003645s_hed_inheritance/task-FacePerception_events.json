@@ -43,8 +43,7 @@
     }
   },
   "trial": {
-    "Description": "Indicates which trial this event belongs to.",
-    "HED": "Experimental-trial/#"
+    "Description": "Indicates which trial this event belongs to."
   },
   "stim_file": {
     "Description": "Path of the stimulus file in the stimuli directory.",
