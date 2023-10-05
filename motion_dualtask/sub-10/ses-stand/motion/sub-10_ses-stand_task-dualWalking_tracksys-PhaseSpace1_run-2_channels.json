@@ -4,7 +4,7 @@
 		"Description":"reference frame in which the channels is represented.",
 		"Levels":{
 			"global":{
-				"ReferenceFrameDescription":"room-fixed global reference frame",
+				"Description":"room-fixed global reference frame",
 				"SpatialAxes":"ARS",
 				"RotationOrder":"ZXY",
 				"RotationRule":"left-hand"
