@@ -1,0 +1,14 @@
+{
+	"reference_frame":{
+		"LongName":"reference_frame",
+		"Description":"reference frame in which the channels is represented.",
+		"Levels":{
+			"global":{
+				"Description":"room-fixed global reference frame",
+				"SpatialAxes":"ARS",
+				"RotationOrder":"ZXY",
+				"RotationRule":"left-hand"
+			}
+		}
+	}
+}
