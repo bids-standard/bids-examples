@@ -2,19 +2,19 @@
   "Age": {
     "LongName": "Age",
     "Units": "years",
-    "TermURL": "TODO"
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0000011"
   },
   "Gender": {
     "LongName": "Gender",
-    "TermURL": "TODO",
+    "TermURL": "https://schema.org/gender",
     "Levels": {
       "F": {
         "Description": "Female",
-        "TermURL": "TODO"
+        "TermURL": "https://schema.org/Female"
       },
       "M": {
         "Description": "Male",
-        "TermURL": "TODO"
+        "TermURL": "https://schema.org/Male"
       }
     }
   }

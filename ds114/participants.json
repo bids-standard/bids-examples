@@ -1,16 +1,14 @@
 {
   "dominant_hand": {
-    "LongName": "dominant_hand",
-    "Description": "TODO",
-    "TermURL": "TODO",
+    "LongName": "dominant_hand"
     "Levels": {
       "left": {
         "Description": "left",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/87683000"
       },
       "right": {
         "Description": "right",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/46669005"
       }
     }
   }

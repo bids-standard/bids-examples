@@ -2,15 +2,15 @@
   "sex": {
     "LongName": "sex",
     "Description": "String value indicating phenotypical sex.",
-    "TermURL": "TODO",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0001894",
     "Levels": {
       "F": {
         "Description": "Female",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000383"
       },
       "M": {
         "Description": "Male",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000384"
       }
     }
   },

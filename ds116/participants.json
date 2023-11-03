@@ -2,66 +2,63 @@
   "sex": {
     "LongName": "sex",
     "Description": "String value indicating phenotypical sex.",
-    "TermURL": "TODO",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0001894",
     "Levels": {
       "F": {
         "Description": "Female",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000383"
       },
       "M": {
         "Description": "Male",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000384"
       }
     }
   },
   "age": {
     "LongName": "age",
     "Units": "year",
-    "TermURL": "TODO"
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0000011"
   },
   "handedness": {
     "LongName": "handedness",
     "Description": "String value indicating handedness",
-    "TermURL": "TODO",
+    "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/57427004",
     "Levels": {
       "L": {
         "Description": "Left",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/87683000"
       },
       "R": {
         "Description": "Right",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/46669005"
       }
     }
   },
   "ethnicity": {
     "LongName": "ethnicity",
-    "Description": "TODO",
-    "TermURL": "TODO",
+    "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0004",
     "Levels": {
       "Asian": {
         "Description": "Asian",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0008"
       },
       "Asian/Caucasian": {
-        "Description": "Asian Caucasian",
-        "TermURL": "TODO"
+        "Description": "Asian Caucasian"
       },
       "Caucasian": {
         "Description": "Caucasian",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0005"
       },
       "Caucasian/African/NativeSouthAmerican": {
-        "Description": "Caucasian African NativeSouthAmerican",
-        "TermURL": "TODO"
+        "Description": "Caucasian African NativeSouthAmerican"
       },
       "Hispanic": {
         "Description": "Hispanic",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0014"
       },
       "MiddleEastern": {
         "Description": "MiddleEastern",
-        "TermURL": "TODO"
+        "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0015"
       }
     }
   }
