@@ -1,0 +1,34 @@
+{
+  "age": {
+    "LongName": "age",
+    "Units": "year",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0000011"
+  },
+  "sex": {
+    "LongName": "sex",
+    "Description": "String value indicating phenotypical sex.",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0001894",
+    "Levels": {
+      "F": {
+        "Description": "Female",
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000383"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000384"
+      }
+    }
+  },
+  "first_ses": {
+    "LongName": "first session",
+    "Description": "Indicates which session was the first session for this subject.",
+    "Levels": {
+      "meg": {
+        "Description": "meg was the first session"
+      },
+      "mri": {
+        "Description": "mri was the first session"
+      }
+    }
+  }
+}

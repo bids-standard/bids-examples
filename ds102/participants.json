@@ -1,0 +1,25 @@
+{
+  "sex": {
+    "LongName": "sex",
+    "Description": "String value indicating phenotypical sex.",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0001894",
+    "Levels": {
+      "D": {
+        "Description": "D"
+      },
+      "F": {
+        "Description": "Female",
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000383"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000384"
+      }
+    }
+  },
+  "age": {
+    "LongName": "age",
+    "Units": "year",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0000011"
+  }
+}
