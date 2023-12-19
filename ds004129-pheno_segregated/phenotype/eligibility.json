@@ -1,0 +1,25 @@
+{
+  "participant_id": {
+    "Description": "OpenNeuro ID of the subject."
+  },
+  "eligibility": {
+    "Description": "Denotes if the participant was deemed eligible or ineligible",
+    "Levels": {
+      "1": "eligible",
+      "0": "ineligible"
+    }
+  },
+  "ineligibility_reason": {
+    "Description": "Reason for a participant's ineligibility",
+    "Levels": {
+      "MED": "Medical",
+      "MH" : "Mental Health",
+      "OTHER": "Other unlisted reasons",
+      "UNKNOWN": "Unknown Reasons",
+      "ELIGIBLE": "Participant was deemed eligible"
+    },
+    "ineligibility_comments": {
+      "Description": "Comments about ineligibility/eligibility, if any"
+    }
+  }
+}

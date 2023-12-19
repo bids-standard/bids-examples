@@ -1,0 +1,215 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "bai01_r03, bai1_1": {
+        "LongName": "NUMBNESS (question ID 3892)",
+        "Description": "Numbness or tingling",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai02_r03, bai1_2": {
+        "LongName": "FEEL_HOT (question ID 35143)",
+        "Description": "2. Feeling hot",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai03_r03, bai1_3": {
+        "LongName": "LEGS_WOBBLE (question ID 54497)",
+        "Description": "3. Wobbliness in legs",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai04_r03, bai1_4": {
+        "LongName": "RELAX (question ID 10882)",
+        "Description": "4. Unable to relax",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai05_r03, bai1_5": {
+        "LongName": "FEAR_WORST_HAPPEN (question ID 54498)",
+        "Description": "5. Fear of the worst happening",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai06_r03, bai1_6": {
+        "LongName": "DIZZY (question ID 10469)",
+        "Description": "6. Dizzy or lightheaded",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai07_r03, bai2_7": {
+        "LongName": "HEART_POUNDING (question ID 142972)",
+        "Description": "Heart pounding or racing",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai08_r03, bai2_8": {
+        "LongName": "UNSTEADY (question ID 150388)",
+        "Description": "8. Unsteady",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai09_r03, bai2_9": {
+        "LongName": "TERRIFIED (question ID 150389)",
+        "Description": "9. Terrified",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai10_r03, bai2_10": {
+        "LongName": "NERVOUS (question ID 10557)",
+        "Description": "1. Nervous.",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai11_r03, bai2_11": {
+        "LongName": "CHOKE (question ID 22627)",
+        "Description": "11. Feeling of choking",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai12_r03, bai3_12": {
+        "LongName": "HANDS_TREMBLING (question ID 150390)",
+        "Description": "12. Hands trembling",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai13_r03, bai3_13": {
+        "LongName": "SHAKY (question ID 13563)",
+        "Description": "13. Shaky",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai14_r03, bai3_14": {
+        "LongName": "FEAR_LOSE_CONTROL (question ID 150391)",
+        "Description": "14. Fear of losing control",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai15_r03, bai3_15": {
+        "LongName": "DIFF_BREATH (question ID 150417)",
+        "Description": "15. Difficulty breathing",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai16_r03, bai3_16": {
+        "LongName": "AFRAID_WERE_DYING (question ID 20679)",
+        "Description": "16. Fear of dying",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai17_r03, bai4_1": {
+        "LongName": "SCARED (question ID 18447)",
+        "Description": "17. Scared",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai18_r03, bai4_2": {
+        "LongName": "INDIGESTION (question ID 5494)",
+        "Description": "18. Indigestion or discomfort in abdomen",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai19_r03, bai4_3": {
+        "LongName": "FAINTING (question ID 61896)",
+        "Description": "19. Faint",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai20_r03, bai4_4": {
+        "LongName": "FLUSHING (question ID 11239)",
+        "Description": "20. Face Flushed",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    },
+    "bai21_r03, bai4_5": {
+        "LongName": "SWEATING (question ID 11233)",
+        "Description": "21. Sweating (not due to heat)",
+        "Levels": {
+            "0": "Not at all",
+            "1": "Mildly, It did not bother me much",
+            "2": "Moderately, It was very unpleasant but I could stand it",
+            "3": "Severely, I could barely stand it"
+        }
+    }
+}

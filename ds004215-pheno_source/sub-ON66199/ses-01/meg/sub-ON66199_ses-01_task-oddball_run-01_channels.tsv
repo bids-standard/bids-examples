@@ -1,0 +1,307 @@
+name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status
+SCLK01-177	MISC	V	0.0	600.0	Miscellaneous	1200.0	good
+BG1-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+BG2-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+BG3-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+BP1-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+BP2-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+BP3-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+BR1-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+BR2-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+BR3-1609	MEGREFMAG	T	0.0	600.0	Magnetometer Reference	1200.0	good
+G11-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+G12-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+G13-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+G22-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+G23-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+P11-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+P12-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+P22-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+P23-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+Q11-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+Q12-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+Q13-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+Q22-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+Q23-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+R11-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+R12-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+R13-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+R22-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+R23-1609	MEGREFGRADAXIAL	T	0.0	600.0	Axial Gradiometer Reference	1200.0	good
+MLC11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC13-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC14-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC15-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC16-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC17-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC24-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC25-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC54-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC55-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC61-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC62-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLC63-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF13-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF14-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF24-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF33-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF34-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF35-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF43-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF44-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF45-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF46-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF54-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF55-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF56-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF61-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF62-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF63-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF64-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF65-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF66-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLF67-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO13-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO14-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO24-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO33-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO34-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO43-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO44-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLO53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP33-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP34-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP35-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP43-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP44-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP45-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP54-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP55-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP56-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLP57-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT13-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT14-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT15-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT16-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT24-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT25-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT26-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT27-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT33-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT34-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT35-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT36-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT37-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT43-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT44-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT45-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT46-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT47-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT54-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT55-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT56-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MLT57-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC13-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC14-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC15-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC16-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC17-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC24-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC25-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC54-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC55-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC61-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC62-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRC63-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF13-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF14-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF24-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF25-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF33-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF34-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF35-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF44-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF45-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF46-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF54-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF55-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF56-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF61-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF62-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF63-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF64-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF65-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF66-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRF67-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO14-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO24-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO33-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO34-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO43-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO44-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRO53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP33-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP34-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP35-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP43-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP44-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP45-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP54-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP55-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP56-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRP57-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT11-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT12-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT13-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT14-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT15-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT16-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT21-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT22-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT23-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT24-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT25-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT26-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT27-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT31-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT32-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT33-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT34-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT35-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT36-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT37-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT41-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT42-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT43-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT44-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT45-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT46-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT47-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT51-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT52-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT53-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT54-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT55-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT56-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MRT57-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZC01-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZC02-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZC03-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZC04-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZF01-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZF02-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZF03-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZO01-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZO02-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZO03-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+MZP01-1609	OTHER	T	0.0	600.0	Other type of channel	1200.0	good
+UADC003-2104	MISC	V	0.0	600.0	Miscellaneous	1200.0	good
+UADC004-2104	MISC	V	0.0	600.0	Miscellaneous	1200.0	good
+UADC005-2104	MISC	V	0.0	600.0	Miscellaneous	1200.0	good
+UPPT001	MISC	V	0.0	600.0	Miscellaneous	1200.0	good
+trigger	MISC	V	0.0	600.0	Miscellaneous	1200.0	good

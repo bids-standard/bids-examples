@@ -1,0 +1,238 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "NEW_SUBJECT_NIH": {
+        "LongName": "NEW_SUBJECT_NIH (question ID 223580)",
+        "Description": "New to NIH",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "NEW_SUBJECT_NIMH": {
+        "LongName": "NEW_SUBJECT_NIMH (question ID 223581)",
+        "Description": "New to NIMH",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "HANDEDNESS": {
+        "LongName": "HANDEDNESS (question ID 17467)",
+        "Description": "Self-reported Handedness",
+        "Levels": {
+            "1": "Right",
+            "2": "Left",
+            "3": "Ambidextrous/Both"
+        }
+    },
+    "MRI_SCREEN": {
+        "LongName": "MRI_SCREEN (question ID 223584)",
+        "Description": "MRI Screen",
+        "Levels": {
+            "0": "Negative",
+            "1": "Review",
+            "2": "Positive",
+            "3": "N/A"
+        }
+    },
+    "MRI_CONSENT": {
+        "LongName": "MRI_CONSENT (question ID 196918)",
+        "Description": "MRI Consent",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "NATIVE_ENGLISH": {
+        "LongName": "NATIVE_ENGLISH (question ID 223585)",
+        "Description": "Native English Speaker",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "SIG_MENTAL_HEALTH_COND": {
+        "LongName": "SIG_MENTAL_HEALTH_COND (question ID 223589)",
+        "Description": "Significant mental health condition",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "SIG_MENTAL_HEALTH_COND_NOTES": {
+        "LongName": "SIG_MENTAL_HEALTH_COND_NOTES (question ID 223590)",
+        "Description": "Notes"
+    },
+    "OTHER_MENTAL_HEALTH_COND": {
+        "LongName": "OTHER_MENTAL_HEALTH_COND (question ID 223591)",
+        "Description": "Other mental health condition",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "OTHER_MENTAL_HEALTH_COND_NOTES": {
+        "LongName": "OTHER_MENTAL_HEALTH_COND_NOTES (question ID 223592)",
+        "Description": "Notes"
+    },
+    "HISTORY_MENTAL_HEALTH_MED": {
+        "LongName": "HISTORY_MENTAL_HEALTH_MED (question ID 223593)",
+        "Description": "History of mental health medication",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "HISTORY_MENTAL_HEALTH_MED_NOTES": {
+        "LongName": "HISTORY_MENTAL_HEALTH_MED_NOTES (question ID 223594)",
+        "Description": "Notes (name)"
+    },
+    "HISTORY_NON_MED_INTERVENTION": {
+        "LongName": "HISTORY_NON_MED_INTERVENTION (question ID 223595)",
+        "Description": "History of non-medication intervention ",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "HISTORY_NON_MED_INTERVENTION_NOTES": {
+        "LongName": "HISTORY_NON_MED_INTERVENTION_NOTES (question ID 223596)",
+        "Description": "Notes"
+    },
+    "SIG_MED_COND": {
+        "LongName": "SIG_MED_COND (question ID 223597)",
+        "Description": "Significant medical condition",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "SIG_MED_COND_NOTES": {
+        "LongName": "SIG_MED_COND_NOTES (question ID 223598)",
+        "Description": "Notes"
+    },
+    "OTHER_MED_COND": {
+        "LongName": "OTHER_MED_COND (question ID 223600)",
+        "Description": "Other medical condition",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "OTHER_MED_COND_NOTES": {
+        "LongName": "OTHER_MED_COND_NOTES (question ID 223601)",
+        "Description": "Notes"
+    },
+    "CURRENT_MEDS": {
+        "LongName": "CURRENT_MEDS (question ID 150005)",
+        "Description": "Current medications",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "CURRENT_MEDS_NOTES": {
+        "LongName": "CURRENT_MEDS_NOTES (question ID 223603)",
+        "Description": "Notes (name)"
+    },
+    "REPRODUCTIVE": {
+        "LongName": "REPRODUCTIVE (question ID 48459)",
+        "Description": "Reproductive status",
+        "Levels": {
+            "0": "N/A (male)",
+            "1": "Reproductive",
+            "2": "Perimenopausal",
+            "3": "Postmenopausal"
+        }
+    },
+    "REPRODUCTIVE_NOTES": {
+        "LongName": "REPRODUCTIVE_NOTES (question ID 223604)",
+        "Description": "Notes"
+    },
+    "SIG_PE_FINDINGS": {
+        "LongName": "SIG_PE_FINDINGS (question ID 223605)",
+        "Description": "Significant PE findings",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "SIG_PE_FINDINGS_NOTES": {
+        "LongName": "SIG_PE_FINDINGS_NOTES (question ID 223606)",
+        "Description": "Notes"
+    },
+    "OTHER_PE_FINDINGS": {
+        "LongName": "OTHER_PE_FINDINGS (question ID 223607)",
+        "Description": "Other PE findings",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "OTHER_PE_FINDINGS_NOTES": {
+        "LongName": "OTHER_PE_FINDINGS_NOTES (question ID 223608)",
+        "Description": "Notes"
+    },
+    "HEIGHT": {
+        "LongName": "HEIGHT (question ID 6841)",
+        "Description": "Height (cm)"
+    },
+    "Weight": {
+        "LongName": "Weight (question ID 29)",
+        "Description": "Weight (kg)"
+    },
+    "BMI": {
+        "LongName": "BMI (question ID 300)",
+        "Description": "BMI"
+    },
+    "BP_SYSTOLIC": {
+        "LongName": "BP_SYSTOLIC (question ID 1344)",
+        "Description": "Systolic"
+    },
+    "BP_DIASTOLIC": {
+        "LongName": "BP_DIASTOLIC (question ID 1345)",
+        "Description": "Diastolic"
+    },
+    "HEART_RATE": {
+        "LongName": "HEART_RATE (question ID 14658)",
+        "Description": "HR (BPM)"
+    },
+    "REACTANCE": {
+        "LongName": "REACTANCE (question ID 223613)",
+        "Description": "Reactance"
+    },
+    "RESISTANCE": {
+        "LongName": "RESISTANCE (question ID 223615)",
+        "Description": "Resistance"
+    },
+    "SIG_LAB_FINDINGS": {
+        "LongName": "SIG_LAB_FINDINGS (question ID 223616)",
+        "Description": "Significant lab findings",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "SIG_LAB_FINDINGS_NOTES": {
+        "LongName": "SIG_LAB_FINDINGS_NOTES (question ID 223617)",
+        "Description": "Notes"
+    },
+    "OTHER_LAB_FINDINGS": {
+        "LongName": "OTHER_LAB_FINDINGS (question ID 223618)",
+        "Description": "Other lab findings",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "OTHER_LAB_FINDINGS_NOTES": {
+        "LongName": "OTHER_LAB_FINDINGS_NOTES (question ID 223619)",
+        "Description": "Notes"
+    },
+    "NOTES": {
+        "LongName": "NOTES (question ID 39077)",
+        "Description": "Additional Notes:"
+    }
+}
