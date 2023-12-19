@@ -77,3 +77,4 @@ ieeg_visual_multimodal			[@irisgroen](https://github.com/irisgroen)	anat, fmap, 
 genetics_ukbb	multiple tasks, T1w, DTI, BOLD, genetic info		[@cpernet](https://github.com/cpernet)	anat, dwi, fmap, func	FLAIR, T1w, bold, dwi, events, info, magnitude1, phasediff
 motion_dualtask	older and younger participants walking while performing discrimination task		[@sjeung](https://github.com/sjeung)	eeg, motion	channels, eeg, events, motion, scans
 motion_spotrotation	participants rotated heading using full-body motion or joystick	[link](https://openneuro.org/datasets/ds004460)	[@sjeung](https://github.com/sjeung)	eeg, motion	channels, coordsystem, eeg, electrodes, events, motion, scans
+mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject, two chunks.		[@valosekj](https://github.com/valosekj)	anat	T1w
