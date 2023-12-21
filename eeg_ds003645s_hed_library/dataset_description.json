@@ -1,7 +1,7 @@
 {
     "Name": "Face processing MEEG dataset with HED annotation",
     "BIDSVersion": "1.8.0",
-    "HEDVersion": "8.1.0",
+    "HEDVersion": ["8.2.0", "sc:score_1.0.0", "test:testlib_1.0.2"],
     "License": "CC0",
     "Authors": [
         "Daniel G. Wakeman",
