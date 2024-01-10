@@ -1,0 +1,23 @@
+{
+  "response_time": {
+    "Description": "Response time measured in seconds. A negative response time can be used to represent preemptive responses and n/a denotes a missed response.",
+    "HED": "(Time-value/# s, Label/Response-time)"
+  },
+  "button_press": {
+    "Description": "The button press indicating if subject recognized the faces they saw in the MEG experiment",
+    "Levels": {
+      "1": "Not known at all.",
+      "2": "Familiar because seen before but not famous.",
+      "3": "A well-known face belonging to a famous person."
+    },
+	"HED": {
+      "1": "(Unfamiliar, Face)",
+      "2": "(Familiar, Face)",
+      "3": "(Famous, Face)"
+    }
+  },
+  "stim_file": {
+    "Description": "Path of the stimulus file in the stimuli directory.",
+	"HED": "(Pathname/#, {response_time}, {button_press})"
+  }
+}
