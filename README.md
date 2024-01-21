@@ -248,6 +248,19 @@ DO NOT EDIT DIRECTLY.
 | [ieeg_visual_multimodal](https://github.com/bids-standard/bids-examples/tree/master/ieeg_visual_multimodal) | n/a                                                                                         | anat, fmap, func, ieeg          | T1w, bold, channels, coordsystem, electrodes, epi, events, ieeg, sbref                                       | n/a                                                            | [@irisgroen](https://github.com/irisgroen) |
 | [synthetic](https://github.com/bids-standard/bids-examples/tree/master/synthetic)                           | A synthetic dataset                                                                         | anat, beh, func                 | T1w, beh, bold, events, physio, scans, sessions, stim                                                        | n/a                                                            | [@effigies](https://github.com/effigies)   |
 
+### MRS
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                  | description                                                                            | datatypes   | suffixes              | link to full data                                | maintained by                                      |
+|:--------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|:------------|:----------------------|:-------------------------------------------------|:---------------------------------------------------|
+| [mrs_2dmrsi](https://github.com/bids-standard/bids-examples/tree/master/mrs_2dmrsi)   | 2D sLASER MRSI data from 8 subjects                                                    | anat, mrs   | T1w, mrsi             | [link](https://zenodo.org/records/7701228)       | [@markmikkelsen](https://github.com/markmikkelsen) |
+| [mrs_biggaba](https://github.com/bids-standard/bids-examples/tree/master/mrs_biggaba) | MEGA-PRESS and PRESS MRS data from 12 subjects from one site from the Big GABA project | anat, mrs   | T1w, svs, ref         | [link](https://www.nitrc.org/projects/biggaba)   | [@markmikkelsen](https://github.com/markmikkelsen) |
+| [mrs_fmrs](https://github.com/bids-standard/bids-examples/tree/master/mrs_fmrs)       | Functional MRS data involving a pain stimulus task from 15 subjects                    | anat, mrs   | T1w, svs, ref, events | [link](https://www.nitrc.org/projects/fmrs_2020) | [@markmikkelsen](https://github.com/markmikkelsen) |
+
 ### NIRS
 
 <!--

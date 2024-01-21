@@ -32,6 +32,7 @@ tables_order = {
     "Microscopy": "micr",
     "Motion": "motion",
     "MRI": "func",
+    "MRS": "mrs",
     "NIRS": "nirs",
     "PET": "pet",
     "qMRI": "",
