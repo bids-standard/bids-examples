@@ -3,7 +3,7 @@
       "Description": "Unique participant identifier"
   },
   "sex": {
-    "Description": "Sex of the participant as reported by the participant",
+    "Description": "Sex of the participant",
     "Levels": {
       "M": "Male",
       "F": "Female"
