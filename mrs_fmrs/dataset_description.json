@@ -9,7 +9,9 @@
         "John Kramer"
     ],
     "HowToAcknowledge": "Please cite the following publication if you use the fMRS in pain dataset: Archibald J., MacMillan EL., Graf C., Kozlowski P., Laule C., Kramer J.L.K. ''Metabolite activity in the anterior cingulate cortex during a painful stimulus using functional MRS''. Sci Reports 2020",
-    "ReferencesAndLinks": "doi:10.1038/s41598-020-76263-3",
+    "ReferencesAndLinks": [
+        "doi:10.1038/s41598-020-76263-3"
+    ],
     "SourceDatasets": [
         {
             "URL": "https://www.nitrc.org/projects/fmrs_2020/"
