@@ -2,9 +2,7 @@ name	description	link to full data	maintained by	datatypes	suffixes
 eeg_matchingpennies	Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk)	[link](https://doi.org/10.17605/OSF.IO/CJ2DR)	[@sappelhoff](https://github.com/sappelhoff)	eeg	channels, eeg, events
 eeg_rishikesh	Mind wandering experiment. EEG data in Biosemi (.bdf) format	[link](https://openneuro.org/datasets/ds001787)	[@arnodelorme](https://github.com/arnodelorme)	eeg	channels, eeg, events
 eeg_face13	Deconstructing the early visual electrocortical response to face and house stimuli. EDF format		[@andesha](https://github.com/andesha)	eeg	channels, coordsystem, eeg, electrodes, events
-eeg_ds003645s_hed	Shows usage of Hierarchical Event Descriptor (HED) in events files	[link](https://openneuro.org/datasets/ds003645)	[@VisLab](https://github.com/VisLab)	eeg	channels, eeg, events
-eeg_ds003645s_hed_inheritance	HED annotation with multiple inherited sidecars	[link](https://openneuro.org/datasets/ds003645)	[@VisLab](https://github.com/VisLab)	eeg	channels, eeg, events
-eeg_ds003645s_hed_longform	HED annotation using tags in long form.	[link](https://openneuro.org/datasets/ds003645)	[@VisLab](https://github.com/VisLab)	eeg	channels, eeg, events
+eeg_ds003645s_hed_demo	Shows usage of Hierarchical Event Descriptor (HED) in .tsv files	[link](https://openneuro.org/datasets/ds003645)	[@VisLab](https://github.com/VisLab)	eeg	channels, eeg, events, participants, scans
 eeg_ds003645s_hed_library	HED annotation using HED library vocabularies (schema).	[link](https://openneuro.org/datasets/ds003645)	[@VisLab](https://github.com/VisLab)	eeg	channels, eeg, events
 eeg_cbm	Rest EEG. European Data Format (.edf)		[@cpernet](https://github.com/cpernet)	eeg	channels, eeg, events, scans
 ieeg_filtered_speech	recordings of three seizures		[@choldgraf](https://github.com/choldgraf)	ieeg	channels, coordsystem, electrodes, events, ieeg, photo
