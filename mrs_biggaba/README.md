@@ -12,7 +12,7 @@ Publications:
 
 ## Overview
 
-These data were acquired as part of the Big GABA project, a large-scale multi-site study to determine differences in the measurement outcomes from GABA-edited and non-edited single-voxel MRS data over the three major MRI manufacturers: GE, Philips, and Siemens. The data here are only from one site (P3). Please visit the [Big GABA data repository](https://www.nitrc.org/projects/biggaba/) and refer to the publications above for more information.
+These data were acquired as part of the Big GABA project, a large-scale multi-site study to determine differences in the measurement outcomes from GABA-edited and non-edited single-voxel MRS data across the three major MRI manufacturers: GE, Philips, and Siemens. The data here are only from one site (P3). Please visit the [Big GABA data repository](https://www.nitrc.org/projects/biggaba/) and refer to the publications above for more information.
 
 Data types included are T1-weighted structural MRI images and single-voxel PRESS and GABA-edited MEGA-PRESS MRS data. The MEGA-PRESS data were acquired using standard GABA editing (TE = 68 ms) and symmetric macromolecule suppression (TE = 80 ms).
 
@@ -28,7 +28,7 @@ MR data were acquired using a 3T Philips Achieva (Philips Healthcare, Eindhoven,
 
 #### MRI
 
-T1-weighted structural imaging acquisition parameters:
+T1-weighted structural MRI acquisition parameters:
 
 - Voxel resolution = 1 × 1 × 1 mm<sup>3</sup>
 - TE/TI/TR (ms) = 3.1/865/6.9
@@ -37,11 +37,11 @@ T1-weighted structural imaging acquisition parameters:
 - Slices =  204
 - FOV = 256 × 256 mm<sup>2</sup>
 - Matrix size = 256 × 256 × 204
-- Acquisition mode: SENSE acceleration factor = 2
+- SENSE acceleration factor = 2
 
 #### MRS
 
-General MR spectroscopy acquisition parameters:
+General MRS acquisition parameters:
 
 - Volume of interest = medial parietal lobe
 - Voxel resolution = 30 × 30 × 30 mm<sup>3</sup>

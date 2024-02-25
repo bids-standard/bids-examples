@@ -14,7 +14,7 @@ Data types included are T1-weighted structural MRI images and 2D semi-LASER MRSI
 
 ### Subjects
 
-Eight healthy adults (2 female, mean age = 21 years).
+Eight healthy adults (2 females, 6 males, mean age = 21 years).
 
 ### MR protocol
 
