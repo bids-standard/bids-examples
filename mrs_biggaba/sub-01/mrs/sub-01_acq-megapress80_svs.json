@@ -1,0 +1,35 @@
+{
+    "Manufacturer": "Philips",
+    "ManufacturersModelName": "Achieva",
+    "SoftwareVersions": "R3.2.2",
+    "MagneticFieldStrength": 3,
+    "PulseSequenceType": "MEGA-PRESS",
+    "ScanningSequence": "SVS",
+    "ResonantNucleus": "1H",
+    "SpectrometerFrequency": 127.751,
+    "SpectralWidth": 2000,
+    "EchoTime": 0.080,
+    "NumberOfSpectralPoints": 2048,
+    "NumberOfTransients": 320,
+    "RepetitionTime": 2,
+    "AcquisitionVoxelSize": [30, 30, 30],
+    "BodyPart": "BRAIN",
+    "BodyPartDetails":  "Medial parietal lobe",
+    "EditTarget": "GABA",
+    "EditPulse": {
+        "ON": {
+            "FrequencyOffset": 1.9, "PulseDuration": 20
+        },
+        "OFF": {
+            "FrequencyOffset": 1.5, "PulseDuration": 20
+        }
+    },
+    "EditCondition": ["ON", "OFF"],
+    "WaterSuppression": true,
+    "WaterSuppressionTechnique": "VAPOR",
+    "OuterVolumeSuppression": false,
+    "B0ShimmingTechnique": "Second-order pencil-beam projection",
+    "ChemicalShiftOffset": 4.68,
+    "ChemicalShiftReference": 3,
+    "EchoAcquisition": "Half echo"
+}

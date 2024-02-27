@@ -1,0 +1,13 @@
+{
+  "SpectrometerFrequency": 123.252161,
+  "ResonantNucleus": "1H",
+  "SpectralWidth": 2000,
+  "NumberOfSpectralPoints": 1024,
+  "AcquisitionVoxelSize": [10, 10, 15],
+  "ChemicalShiftOffset": 4.65,
+  "EchoTime": 0.04,
+  "RepetitionTime": 2,
+  "FlipAngle": 90,
+  "SequenceName": "%SiemensSeq%\\csi_slaser",
+  "ChemicalShiftReference": 2
+}
