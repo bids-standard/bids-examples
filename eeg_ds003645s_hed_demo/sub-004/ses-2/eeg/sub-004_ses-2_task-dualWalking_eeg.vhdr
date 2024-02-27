@@ -1,0 +1,79 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by FieldTrip
+
+[Common Infos]
+DataFile=sub-07_ses-walk_task-dualWalking_eeg.eeg
+MarkerFile=sub-07_ses-walk_task-dualWalking_eeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=64
+SamplingInterval=9.999958e+02
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=BrainVision RDA_Fp1,,1
+Ch2=BrainVision RDA_Fp2,,1
+Ch3=BrainVision RDA_F7,,1
+Ch4=BrainVision RDA_F3,,1
+Ch5=BrainVision RDA_Fz,,1
+Ch6=BrainVision RDA_F4,,1
+Ch7=BrainVision RDA_F8,,1
+Ch8=BrainVision RDA_FC5,,1
+Ch9=BrainVision RDA_FC1,,1
+Ch10=BrainVision RDA_FC2,,1
+Ch11=BrainVision RDA_FC6,,1
+Ch12=BrainVision RDA_T7,,1
+Ch13=BrainVision RDA_C3,,1
+Ch14=BrainVision RDA_Cz,,1
+Ch15=BrainVision RDA_C4,,1
+Ch16=BrainVision RDA_T8,,1
+Ch17=BrainVision RDA_TP9,,1
+Ch18=BrainVision RDA_CP5,,1
+Ch19=BrainVision RDA_CP1,,1
+Ch20=BrainVision RDA_CP2,,1
+Ch21=BrainVision RDA_CP6,,1
+Ch22=BrainVision RDA_TP10,,1
+Ch23=BrainVision RDA_P7,,1
+Ch24=BrainVision RDA_P3,,1
+Ch25=BrainVision RDA_Pz,,1
+Ch26=BrainVision RDA_P4,,1
+Ch27=BrainVision RDA_P8,,1
+Ch28=BrainVision RDA_PO9,,1
+Ch29=BrainVision RDA_O1,,1
+Ch30=BrainVision RDA_Oz,,1
+Ch31=BrainVision RDA_O2,,1
+Ch32=BrainVision RDA_PO10,,1
+Ch33=BrainVision RDA_AF7,,1
+Ch34=BrainVision RDA_AF3,,1
+Ch35=BrainVision RDA_AF4,,1
+Ch36=BrainVision RDA_AF8,,1
+Ch37=BrainVision RDA_F5,,1
+Ch38=BrainVision RDA_F1,,1
+Ch39=BrainVision RDA_F2,,1
+Ch40=BrainVision RDA_F6,,1
+Ch41=BrainVision RDA_FT9,,1
+Ch42=BrainVision RDA_FT7,,1
+Ch43=BrainVision RDA_FC3,,1
+Ch44=BrainVision RDA_FC4,,1
+Ch45=BrainVision RDA_FT8,,1
+Ch46=BrainVision RDA_FT10,,1
+Ch47=BrainVision RDA_C5,,1
+Ch48=BrainVision RDA_C1,,1
+Ch49=BrainVision RDA_C2,,1
+Ch50=BrainVision RDA_C6,,1
+Ch51=BrainVision RDA_TP7,,1
+Ch52=BrainVision RDA_CP3,,1
+Ch53=BrainVision RDA_CPz,,1
+Ch54=BrainVision RDA_CP4,,1
+Ch55=BrainVision RDA_TP8,,1
+Ch56=BrainVision RDA_P5,,1
+Ch57=BrainVision RDA_P1,,1
+Ch58=BrainVision RDA_P2,,1
+Ch59=BrainVision RDA_P6,,1
+Ch60=BrainVision RDA_PO7,,1
+Ch61=BrainVision RDA_PO3,,1
+Ch62=BrainVision RDA_POz,,1
+Ch63=BrainVision RDA_PO4,,1
+Ch64=BrainVision RDA_PO8,,1

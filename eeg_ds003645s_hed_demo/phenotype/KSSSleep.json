@@ -1,0 +1,41 @@
+{
+  "participant_id": {
+    "Description": "Dataset-wide identifier of participant",
+    "HED": "((Experiment-participant, ID/#), {session_id}, {kss_scale}, {notes})"
+  },
+  "session_id": {
+    "Description": "The number of the session in this dataset for this participant.",
+    "HED": "(Label/Session, ID/#)"
+  },
+  "kss_scale": {
+    "Description": "Karolinska sleepiness",
+    "Levels": {
+      "1": "Extremely alert",
+      "2": "Very alert",
+      "3": "Alert",
+      "4": "Rather alert",
+      "5": "Neither alert nor sleepy",
+      "6": "Some signs of sleepiness",
+      "7": "Sleepy but no effort to keep awake",
+      "8": "Sleepy, but some effort to keep awake",
+      "9": "Very sleepy, great effort to keep awake, fighting sleep",
+      "10": "Extremely sleepy, can't keep awake"
+    },
+    "HED": {
+      "1": "(Alert, High)",
+      "2": "(Alert, Medium)",
+      "3": "Alert",
+      "4": "(Alert, Low)",
+      "5": "Awake",
+      "6": "(Drowsy, Low)",
+      "7": "Drowsy",
+      "8": "(Drowsy, Medium)",
+      "9": "(Drowsy, High)",
+      "10": "Asleep"
+    }
+  },
+  "notes": {
+    "Description": "additional comments/observations/notes, reported by the participant",
+    "HED": "Experimental-note/#"
+  }
+}
