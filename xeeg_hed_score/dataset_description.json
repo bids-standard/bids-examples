@@ -1,0 +1,36 @@
+{
+    "Name": "HED schema library for SCORE annotations example",
+    "BIDSVersion": "1.7.0",
+    "HEDVersion": "score_1.1.1",
+    "Authors": [
+        "Tal Pal Attia",
+        "Dora Hermes"
+    ],
+    "Acknowledgements": "Kay Robbins, Dung Truong, Arnaud Delorme, and Scott Makeig",
+    "Funding": [
+        "National Institute of Health Grant R01MH126700 (SM)",
+        "National Institute of Health Grant R01MH122258 (DH)"
+    ],
+    "SourceDatasets": [
+        {
+            "Name": "The TUH EEG Seizure Corpus. Database: TUH EEG Seizure Corpus (TUSZ).",
+            "Version": "1.5.3",
+            "URL": "https://isip.piconepress.com/projects/tuh_eeg/downloads/"
+        },
+        {
+            "Name": "The TUH EEG Artifact Corpus. Database: TUH EEG Artifact Corpus (TUAR)",
+            "Version": "2.0.0.",
+            "URL": "https://isip.piconepress.com/projects/tuh_eeg/downloads/"
+        }
+    ],
+    "ReferencesAndLinks": ["https://github.com/hed-standard/hed-schema-library",
+                            "https://www.hedtags.org/",
+                            "Robbins, Kay, Dung Truong, Stefan Appelhoff, Arnaud Delorme, and Scott Makeig. 'Capturing the nature of events and event context using Hierarchical Event Descriptors (HED).' NeuroImage 245 (2021): 118766.",
+                            "Robbins, Kay, Dung Truong, Alexander Jones, Ian Callanan, and Scott Makeig. 'Building FAIR functionality: Annotating events in time series data using Hierarchical Event Descriptors (HED).' Neuroinformatics (2021): 1-19.",
+                            "Obeid, Iyad, and Joseph Picone. 'The temple university hospital EEG data corpus.' Frontiers in neuroscience 10 (2016): 196.",
+                            "Shah, Vinit, Eva Von Weltin, Silvia Lopez, James Riley McHugh, Lillian Veloso, Meysam Golmohammadi, Iyad Obeid, and Joseph Picone. 'The temple university hospital seizure detection corpus.' Frontiers in neuroinformatics 12 (2018): 83.",
+                            "Ochal, Domenic, Safwanur Rahman, Sean Ferrell, Tarek Elseify, Iyad Obeid, and Joseph Picone. 'The temple university hospital eeg corpus: Annotation guidelines.' Institute for Signal and Information Processing Report 1, no. 1 (2020).",
+                            "Buckwalter, G., S. Chhin, S. Rahman, I. Obeid, and J. Picone. 'Recent Advances in the TUH EEG Corpus: Improving the Interrater Agreement for Artifacts and Epileptiform Events.' In 2021 IEEE Signal Processing in Medicine and Biology Symposium (SPMB), pp. 1-3. IEEE, 2021.",
+                            "Hamid, Ahmed, Katherine Gagliano, Safwanur Rahman, Nikita Tulin, Vincent Tchiong, Iyad Obeid, and Joseph Picone. 'The temple university artifact corpus: An annotated corpus of EEG artifacts.' In 2020 IEEE Signal Processing in Medicine and Biology Symposium (SPMB), pp. 1-4. IEEE, 2020."
+    ]
+}                          
