@@ -1,0 +1,5 @@
+onset	duration	trial_type	data_entity_id	channel_id	sample_id	response_time	stim_type	stim_unit	stim_amplitude
+1.23	0.65	start	62342cc5-fe7d-4eca-b702-404f9e7f2ccd	chan-01	sample-cell001	1.435	square pulse	1	mV
+5.65	0.65	stop	3aca136f-0851-4eb4-bb37-2070b9745537	chan-02	sample-cell001	1.739	square pulse	5	mV
+6.21	0.65	start	cd16b031-5288-42f5-9a7f-17de24eb1004	chan-01	sample-cell001	2.43	square pulse	10	uA
+15.65	0.65	stop	b35b9e87-d232-4cb3-9d6a-f8797c859c83	chan-02	sample-cell001	5.68	square pulse	45	uA
