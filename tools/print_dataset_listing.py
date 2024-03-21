@@ -35,6 +35,7 @@ tables_order = {
     "NIRS": "nirs",
     "PET": "pet",
     "qMRI": "",
+    "Behavioral": "beh",
 }
 
 
