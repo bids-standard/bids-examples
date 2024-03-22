@@ -1,0 +1,46 @@
+{
+    "AGE": {
+        "LongName": "AGE (question ID 208)",
+        "Description": "1. What is your current age?"
+    },
+    "SEX": {
+        "LongName": "SEX (question ID 117530)",
+        "Description": "2. What sex were you assigned at birth, on your original birth certificate?",
+        "Levels": {
+            "1": "Male",
+            "2": "Female",
+            "3": "Other"
+        }
+    },
+    "EDUCATION": {
+        "LongName": "EDUCATION (question ID 58226)",
+        "Description": "10. Education level:",
+        "Levels": {
+            "0": "High school graduate or above",
+            "1": "Some college or above",
+            "2": "Associates degree or above",
+            "3": "Bachelors degree or above",
+            "4": "Advanced/professional degree"
+        }
+    },
+    "LANGUAGE": {
+        "LongName": "LANGUAGE (question ID 49916)",
+        "Description": "14. What is your primary language?"
+    },
+    "INCOME": {
+        "LongName": "INCOME (question ID 15416)",
+        "Description": "12. Household income:",
+        "Levels": {
+            "1": "Less than $10,000",
+            "2": "$10,001 to $15,000",
+            "3": "$15,001 to $25,000",
+            "4": "$25,001 to $35,000",
+            "5": "$35,001 to $50,000",
+            "6": "$50,001 to $75,000",
+            "7": "$75,001 to $100,000",
+            "8": "$100,001 to $150,000",
+            "9": "$150,000 to $199,999",
+            "10": "$200,000 or more"
+        }
+    }
+}
