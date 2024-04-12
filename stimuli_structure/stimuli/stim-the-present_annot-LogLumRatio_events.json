@@ -1,0 +1,17 @@
+{
+    "onset": {
+        "LongName": "Event onset",
+        "Description": "Position (latency) of event marker in seconds relative to the start.",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event. For this stimulus, this is the duration of the shot.",
+        "Units": "seconds"
+    },
+    "shot_number": {
+        "Description": "Shot sequence number in the movie"
+    },
+    "LLR": {
+        "Description": "Log Luminance Ratio"
+    }
+}
