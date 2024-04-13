@@ -76,5 +76,5 @@ genetics_ukbb	"multiple tasks, T1w, DTI, BOLD, genetic info"		[@cpernet](https:/
 motion_dualtask	older and younger participants walking while performing discrimination task		[@sjeung](https://github.com/sjeung)	"eeg, motion"	"channels, eeg, events, motion, scans"
 motion_spotrotation	participants rotated heading using full-body motion or joystick	[link](https://openneuro.org/datasets/ds004460)	[@sjeung](https://github.com/sjeung)	"eeg, motion"	"channels, coordsystem, eeg, electrodes, events, motion, scans"
 mrs_2dmrsi	2D sLASER MRSI data from 8 subjects	[link](https://zenodo.org/records/7701228)	[@markmikkelsen](https://github.com/markmikkelsen)	"anat, mrs"	"T1w, mrsi"
-mrs_biggaba	MEGA-PRESS and PRESS MRS data from 12 subjects from one site from the Big GABA project	[link](https://www.nitrc.org/projects/biggaba)	[@markmikkelsen](https://github.com/markmikkelsen)	"anat, mrs"	"T1w, svs, ref"
-mrs_fmrs	Functional MRS data involving a pain stimulus task from 15 subjects	[link](https://www.nitrc.org/projects/fmrs_2020)	[@markmikkelsen](https://github.com/markmikkelsen)	"anat, mrs"	"T1w, svs, ref, events"
+mrs_biggaba	MEGA-PRESS and PRESS MRS data from 12 subjects from one site from the Big GABA project	[link](https://www.nitrc.org/projects/biggaba)	[@markmikkelsen](https://github.com/markmikkelsen)	"anat, mrs"	"T1w, svs, mrsref"
+mrs_fmrs	Functional MRS data involving a pain stimulus task from 15 subjects	[link](https://www.nitrc.org/projects/fmrs_2020)	[@markmikkelsen](https://github.com/markmikkelsen)	"anat, mrs"	"T1w, svs, mrsref, events"
