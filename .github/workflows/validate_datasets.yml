@@ -21,7 +21,7 @@ jobs:
       fail-fast: false
       matrix:
         platform: [ubuntu-latest, macos-latest, windows-latest]
-        bids-validator: [master, stable]
+        bids-validator: [master, stable, master-deno]
 
     runs-on: ${{ matrix.platform }}
 
@@ -58,6 +58,26 @@ jobs:
         npm -w bids-validator pack
         # Install the package globally
         bash -c "npm install -g bids-validator-*.tgz"
+        popd
+
+    - uses: denoland/setup-deno@v1.1.2
+      if: "matrix.bids-validator == 'master-deno'"
+      with:
+        deno-version: v1.x
+
+    - name: Install BIDS validator (master deno build)
+      if: "matrix.bids-validator == 'master-deno'"
+      run: |
+        pushd ..
+        git clone --depth 1 https://github.com/bids-standard/bids-validator
+        cd bids-validator/bids-validator
+        ./build.ts
+        ls -l dist/validator
+        # TODO: install properly somehow!! Yarik knows no "deno"
+        sudo ln -s $PWD/dist/validator /usr/bin/bids-validator
+        which -a bids-validator
+        bids-validator --version
+        bids-validator --help
         popd
 
     - name: Display versions and environment information
