@@ -70,11 +70,8 @@ jobs:
       run: |
         pushd ..
         git clone --depth 1 https://github.com/bids-standard/bids-validator
-        cd bids-validator/bids-validator
-        ./build.ts
-        ls -l dist/validator
-        # TODO: install properly somehow!! Yarik knows no "deno"
-        sudo ln -s $PWD/dist/validator /usr/bin/bids-validator
+        echo -e '#!/bin/sh\n'"$PWD/bids-validator/bids-validator/bids-validator-deno \"\$@\"" >| /usr/local/bin/bids-validator
+        chmod a+x /usr/local/bin/bids-validator
         which -a bids-validator
         bids-validator --version
         bids-validator --help
