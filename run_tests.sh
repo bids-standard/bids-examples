@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 
 rc=0;
+
+if bids-validator --version | grep -q 'alpha$'; then
+       VALIDATOR_SUPPORTS_CONFIG=no
+else
+       VALIDATOR_SUPPORTS_CONFIG=yes
+fi
+
 for i in $(ls -d */ | grep -v node_modules); do
     echo "Validating dataset" $i
 
@@ -14,7 +21,7 @@ for i in $(ls -d */ | grep -v node_modules); do
     CMD="bids-validator ${i%%/} $VALIDATOR_ARGS"
 
     # Use default configuration unless overridden
-    if [ ! -f ${i%%/}/.bids-validator-config.json ]; then
+    if [ "$VALIDATOR_SUPPORTS_CONFIG" = "yes" ] && [ ! -f ${i%%/}/.bids-validator-config.json ]; then
         CMD="$CMD -c $PWD/bidsconfig.json"
     fi
 
