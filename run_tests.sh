@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rc=0;
+failed=
 
 which bids-validator
 if bids-validator --help | grep -q -e '--config'; then
@@ -41,9 +41,9 @@ for i in $(ls -d */ | grep -v node_modules); do
     echo "Running " $CMD
 
     if [ -n "$VALIDATOR_SUPPORTS_CONFIG" ]; then
-        $CMD || rc=$?
+        $CMD || failed+=" $i"
     else
-        # rc is not returned correctly anyways and for the best since we need to ignore
+        # exit code is not returned correctly anyways and for the best since we need to ignore
         # ref: https://github.com/bids-standard/bids-validator/issues/1909
         # NOTE:  limit to 1 file per error to not flood screen!
         errors=$($CMD 2>/dev/null \
@@ -51,8 +51,11 @@ for i in $(ls -d */ | grep -v node_modules); do
         )
         if [ -n "$errors" ]; then
             echo -e "$errors" | sed -e 's,^,  ,g'
-            rc=1
+            failed+=" $i"
         fi
     fi
 done
-exit $rc;
+if [ -n "$failed" ]; then
+    echo "Datasets failed validation: $failed"
+    exit 1
+fi
