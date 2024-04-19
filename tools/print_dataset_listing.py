@@ -131,7 +131,7 @@ def add_tables(df: pd.DataFrame, output_file: Path) -> None:
     df.fillna("n/a", inplace=True)
     for table_name, table_datatypes in tables_order.items():
         with output_file.open("a") as f:
-            f.write(f"\n\n### {table_name}\n\n")
+            f.write(f"\n### {table_name}\n\n")
             add_warning(f)
         if table_name == "qMRI":
             sub_df = df[df["name"].str.contains("qmri_")]
@@ -140,6 +140,8 @@ def add_tables(df: pd.DataFrame, output_file: Path) -> None:
         sub_df.sort_values(by=["name"], inplace=True)
         print(sub_df)
         sub_df.to_markdown(output_file, index=False, mode="a")
+        with output_file.open("a") as f:
+            f.write("\n")
 
 
 def stringify_list(l):
