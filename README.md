@@ -67,7 +67,7 @@ script that is provided in this repository. This script makes use of the
 handles some special case examples (see
 [Validator Exceptions](#validator-exceptions)).
 
-Simply run `bash run_tests.sh` in a command line from the root of the
+Simply run `./run_tests.sh` in a command line from the root of the
 `bids-examples` repository.
 
 ### Validator exceptions

@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-rc = 0;
+rc=0;
 for i in $(ls -d */ | grep -v node_modules); do
     echo "Validating dataset" $i
 
