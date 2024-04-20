@@ -9,7 +9,7 @@
  "DigitizedHeadPointsCoordinateSystem": "ElektaNeuromag",
  "DigitizedHeadPointsCoordinateUnits": "mm",
  "DigitizedHeadPointsCoordinateSystemDescription": "Headpoints include arcs of points along front of head and around nose, as well as centre of 70 EEG electrodes spread across scalp, which also help define headshape. Beware that nose points can bias coregistration with MRI if MRI image does not include all of the nose.",
- "IntendedFor": "sub-09/ses-mri/anat/sub-09_ses-mri_acq-mprage_T1w.nii.gz",
+ "IntendedFor": "ses-mri/anat/sub-09_ses-mri_acq-mprage_T1w.nii.gz",
  "AnatomicalLandmarkCoordinates": {
   "LPA": [-66.77,0,0],
   "RPA": [70.31999999999999,0,0],
