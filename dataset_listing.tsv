@@ -38,19 +38,19 @@ ds004332	Anat dataset with task entity	[link](https://openneuro.org/datasets/ds0
 asl001	T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries	[link](https://osf.io/yru2q/)	[@patsycle](https://github.com/patsycle)	anat, perf	T1w, asl, aslcontext, asllabeling
 asl002	T1w, asl (Philips, PCASL, 2D_EPI), m0scan as separate scan	[link](https://osf.io/yru2q/)	[@patsycle](https://github.com/patsycle)	anat, perf	T1w, asl, aslcontext, asllabeling, m0scan
 asl003	T1w, asl (Siemens, PASL, multiTI), M0scan as separate scan	[link](https://osf.io/yru2q/)	[@patsycle](https://github.com/patsycle)	anat, perf	T1w, asl, aslcontext, asllabeling, m0scan
-asl004	T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar appraoch	[link](https://osf.io/yru2q/)	[@patsycle](https://github.com/patsycle)	anat, fmap, perf	T1w, asl, aslcontext, asllabeling, m0scan
+asl004	T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar approach	[link](https://osf.io/yru2q/)	[@patsycle](https://github.com/patsycle)	anat, fmap, perf	T1w, asl, aslcontext, asllabeling, m0scan
 asl005	T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan	[link](https://osf.io/yru2q/)	[@patsycle](https://github.com/patsycle)	anat, perf	T1w, asl, aslcontext, asllabeling, m0scan
 qmri_mp2rage	MP2RAGE for T1 mapping	[link](https://osf.io/k4bs5/)	[@Gilles86](https://github.com/Gilles86)	anat	MP2RAGE, defacemask
 qmri_mp2rageme	Multi-echo MP2RAGE	[link](https://osf.io/k4bs5/)	[@Gilles86](https://github.com/Gilles86)	anat, fmap	MP2RAGE, TB1map
 qmri_mpm	Multi-parametric mapping for R1, R2star, MTsat and PD mapping	[link](https://osf.io/k4bs5/)	[@ChristophePhillips](https://github.com/ChristophePhillips)	anat, fmap	MPM, RB1COR, TB1EPI, magnitude1, magnitude2, phasediff
 qmri_mtsat	Example dataset for T1 and MTsat mapping. Includes a double-angle B1+ mapping example.	[link](https://osf.io/k4bs5/)	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat, fmap	MTS, TB1DAM
-qmri_qsm	Chimap using fast QSM	`not publicly availabe`	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat	T1w
-qmri_sa2rage	Fast B1+ mapping using SA2RAGE	`not publicly availabe`	[@agahkarakuzu](https://github.com/agahkarakuzu)	fmap	TB1SRGE
+qmri_qsm	Chimap using fast QSM	`not publicly available`	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat	T1w
+qmri_sa2rage	Fast B1+ mapping using SA2RAGE	`not publicly available`	[@agahkarakuzu](https://github.com/agahkarakuzu)	fmap	TB1SRGE
 qmri_vfa	Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example.	[link](https://osf.io/k4bs5/)	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat, fmap	TB1AFI, VFA
-qmri_irt1	Inversion Recovery T1 mapping	`not publicly availabe`	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat	IRT1
-qmri_mese	Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping.	`not publicly availabe`	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat	MESE
-qmri_megre	Multi-Echo Gradient-Echo for T2star mapping.	`not publicly availabe`	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat	MEGRE
-qmri_tb1tfl	B1+ mapping with TurboFLASH readout.	`not publicly availabe`	[@agahkarakuzu](https://github.com/agahkarakuzu)	fmap	TB1TFL
+qmri_irt1	Inversion Recovery T1 mapping	`not publicly available`	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat	IRT1
+qmri_mese	Multi-Echo Spin-Echo for T2 or Myelin Water Fraction (MWF) mapping.	`not publicly available`	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat	MESE
+qmri_megre	Multi-Echo Gradient-Echo for T2star mapping.	`not publicly available`	[@agahkarakuzu](https://github.com/agahkarakuzu)	anat	MEGRE
+qmri_tb1tfl	B1+ mapping with TurboFLASH readout.	`not publicly available`	[@agahkarakuzu](https://github.com/agahkarakuzu)	fmap	TB1TFL
 pet001	T1w, PET, blood		[@mnoergaard](https://github.com/mnoergaard)	anat, pet	T1w, blood, pet
 pet002	T1w, PET	[link](https://openneuro.org/datasets/ds001420/)	[@mnoergaard](https://github.com/mnoergaard)	anat, pet	T1w, pet
 pet003	T1w, PET, blood		[@mnoergaard](https://github.com/mnoergaard)	anat, pet	T1w, blood, pet
