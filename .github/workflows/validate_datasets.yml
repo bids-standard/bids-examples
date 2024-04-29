@@ -15,10 +15,6 @@ concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     strategy:
@@ -40,6 +36,7 @@ jobs:
       run: |
         mkdir -p /usr/local/bin
         echo PATH="/usr/local/bin:$PATH" >> $GITHUB_ENV
+      shell: bash
 
     - name: Set up Node.js
       if: "matrix.bids-validator == 'stable' || matrix.bids-validator == 'master'"
@@ -74,7 +71,6 @@ jobs:
       if: "matrix.bids-validator == 'master-deno'"
       with:
         deno-version: v1.x
-      shell: ${{ matrix.platform == 'windows-latest' && 'powershell' || 'bash' }}
 
     - name: Install BIDS validator (master deno build)
       if: "matrix.bids-validator == 'master-deno'"
@@ -91,6 +87,7 @@ jobs:
         bids-validator --version
         bids-validator --help
         popd
+      shell: bash
 
     - name: Display versions and environment information
       run: |
@@ -113,13 +110,16 @@ jobs:
             echo "$found"
             exit 1;
         fi
+      shell: bash
 
     - name: Mark to be skipped some examples for a deno based
       if: "matrix.bids-validator == 'master-deno'"
       run: |
         touch {ds000117,ds000246,ds000247,ds000248,eeg_ds003645s_hed_demo,ieeg_motorMiller2007,ieeg_visual}/.SKIP_VALIDATION
+      shell: bash
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
         cat ./run_tests.sh
         ./run_tests.sh
+      shell: bash
