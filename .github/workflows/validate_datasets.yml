@@ -36,6 +36,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Ensure /usr/local/bin is in the PATH
+      run: |
+        mkdir -p /usr/local/bin
+        echo PATH="/usr/local/bin:$PATH" >> $GITHUB_ENV
+
     - name: Set up Node.js
       if: "matrix.bids-validator == 'stable' || matrix.bids-validator == 'master'"
       uses: actions/setup-node@v4
@@ -73,10 +78,13 @@ jobs:
     - name: Install BIDS validator (master deno build)
       if: "matrix.bids-validator == 'master-deno'"
       run: |
-        env
         pushd ..
         git clone --depth 1 https://github.com/bids-standard/bids-validator
-        echo -e '#!/bin/sh\n'"$PWD/bids-validator/bids-validator/bids-validator-deno \"\$@\"" >/usr/local/bin/bids-validator
+        cat >> /usr/local/bin/bids-validator <<END
+        \#\!/usr/bin/env -S deno run --allow-read --allow-write --allow-env --allow-net --allow-run
+        import $PWD/bids-validator/bids-validator/src/bids-validator.ts
+        END
+        cat /usr/local/bin/bids-validator
         chmod a+x /usr/local/bin/bids-validator
         which -a bids-validator
         bids-validator --version
