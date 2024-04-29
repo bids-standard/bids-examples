@@ -74,6 +74,7 @@ jobs:
       if: "matrix.bids-validator == 'master-deno'"
       with:
         deno-version: v1.x
+      shell: ${{ matrix.platform == 'windows-latest' && 'powershell' || 'bash' }}
 
     - name: Install BIDS validator (master deno build)
       if: "matrix.bids-validator == 'master-deno'"
