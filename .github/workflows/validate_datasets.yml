@@ -81,7 +81,7 @@ jobs:
         set -x
         pushd ..
         git clone --depth 1 https://github.com/bids-standard/bids-validator
-        cat >> /usr/local/bin/bids-validator <<END
+        cat <<END > /usr/local/bin/bids-validator
         \#\!env -S deno run --allow-read --allow-write --allow-env --allow-net --allow-run
         import $PWD/bids-validator/bids-validator/src/bids-validator.ts
         END
