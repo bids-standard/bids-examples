@@ -32,12 +32,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Ensure /usr/local/bin is in the PATH
-      run: |
-        mkdir -p /usr/local/bin
-        echo PATH="/usr/local/bin:$PATH" >> $GITHUB_ENV
-      shell: bash
-
     - name: Set up Node.js
       if: "matrix.bids-validator == 'stable' || matrix.bids-validator == 'master'"
       uses: actions/setup-node@v4
@@ -72,6 +66,12 @@ jobs:
       with:
         deno-version: v1.x
 
+    - name: Ensure /usr/local/bin is in the PATH
+      run: |
+        mkdir -p /usr/local/bin
+        echo PATH="/usr/local/bin:$PATH" >> $GITHUB_ENV
+      shell: bash
+
     - name: Install BIDS validator (master deno build)
       if: "matrix.bids-validator == 'master-deno'"
       run: |
@@ -96,6 +96,7 @@ jobs:
         echo "npm"; npm --version
         echo "node"; node --version
         echo "bids-validator"; bids-validator --version
+      shell: bash
 
     - name: Check that no large files are present
       if: "matrix.bids-validator == 'stable'"
