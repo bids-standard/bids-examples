@@ -66,20 +66,13 @@ jobs:
       with:
         deno-version: v1.x
 
-    - name: Ensure /usr/local/bin is in the PATH
-      run: |
-        mkdir -p /usr/local/bin
-        echo PATH="/usr/local/bin:$PATH" >> $GITHUB_ENV
-      shell: bash
-
     - name: Install BIDS validator (master deno build)
       if: "matrix.bids-validator == 'master-deno'"
       run: |
         set -x
         pushd ..
-        which /usr/bin/env
         git clone --depth 1 https://github.com/bids-standard/bids-validator
-        VALIDATOR=/usr/local/bin/bids-validator
+        VALIDATOR=/usr/bin/bids-validator
         echo -e '#!/bin/sh\n'"$PWD/bids-validator/bids-validator/bids-validator-deno \"\$@\"" > $VALIDATOR
         cat $VALIDATOR
         chmod a+x $VALIDATOR
