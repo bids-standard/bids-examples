@@ -1,0 +1,23 @@
+{
+    "Name": "Atlas X",
+    "BIDSVersion": "1.9.x",
+    "DatasetType": "derivative",
+    "License": "CC0",
+    "Authors": [
+        "Someone"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "petsurfer",
+            "Version": "freesurfer-linux-centos7_x86_64-7.3.2-20220804-6354275"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "doi:xxxx",
+            "URL": "xxx",
+            "Version": "xxx"
+        }
+    ],
+    "DatasetDOI": "doi:xxxx"
+}
