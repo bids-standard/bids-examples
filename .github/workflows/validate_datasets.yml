@@ -86,5 +86,5 @@ jobs:
     - name: Validate all BIDS datasets using bids-validator
       run: |
         cat ./run_tests.sh
-        bash ./run_tests.sh
+        ./run_tests.sh
       shell: bash
