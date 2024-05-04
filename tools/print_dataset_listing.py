@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from bids import BIDSLayout
 
-folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site"]
+folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site", ".vscode"]
 suffixes_to_remove = ["README", "description", "participants"]
 column_order = [
     "name",
@@ -18,7 +18,7 @@ column_order = [
 UPSTREAM_REPO = "https://github.com/bids-standard/bids-examples/tree/master/"
 
 # set to True to update the listing of datasets with the datatypes and suffixes
-update_content = False
+update_content = True
 
 root = Path(__file__).resolve().parent.parent
 input_file = root / "dataset_listing.tsv"
