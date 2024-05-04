@@ -48,8 +48,11 @@ def main():
     if update_content:
         df = update_datatypes_and_suffixes(df, root)
         df.to_csv(input_file, sep="\t", index=False)
+        df = pd.read_csv(input_file, sep="\t")
 
     df = add_links(df)
+
+    print(df)
 
     clean_previous_run(output_file)
 
@@ -95,7 +98,7 @@ def update_datatypes_and_suffixes(df, root):
 def add_links(df):
     print("Adding hyperlinks in table...")
     for row in df.iterrows():
-        for col in ["name","link to full data", "maintained by"]:
+        for col in ["name", "link to full data", "maintained by"]:
             if not isinstance(row[1][col], str):
                 continue
             if col == "name":
@@ -139,6 +142,7 @@ def add_tables(df: pd.DataFrame, output_file: Path) -> None:
         else:
             sub_df = df[df["datatypes"].str.contains(table_datatypes, regex=True)]
         sub_df.sort_values(by=["name"], inplace=True)
+        # sub_df["name"] = df["name"].apply(lambda x: f'[{x}](https://github.com/bids-standard/bids-examples/tree/master/{x})')
         print(sub_df)
         sub_df.to_markdown(output_file, index=False, mode="a")
         with output_file.open("a") as f:
