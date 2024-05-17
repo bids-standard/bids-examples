@@ -1,0 +1,20 @@
+{
+    "session_id": {
+        "Description": "Session ID"
+    },
+    "acq_time": {
+        "Description": "Time when the sample has been acquired"
+    },
+    "proposal_facility": {
+        "Description": "Synchrotron radiation facility where the proposal was submitted"
+    },
+    "proposal_reference": {
+        "Description": "Synchrotron beam time proposal reference"
+    },
+    "proposal_title": {
+        "Description": "Synchrotron beam time proposal title"
+    },
+    "proposal_users": {
+        "Description": "Synchrotron beam time proposal users"
+    }
+}

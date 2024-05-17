@@ -1,0 +1,33 @@
+{
+    "participant_id": {
+        "Description": "Unique participant ID"
+    },    
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "year"
+    },
+    "weight": {
+        "Description": "weight of the participant",
+        "Units": "kilogram"
+    },
+    "height": {
+        "Description": "height of the participant",
+        "Units": "centimeter"
+    },
+    "species": {
+        "Description": "Binomial species name from the NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
+    },
+    "medical_information": {
+        "Description": "Medical information as provided by the biobank"
+    },
+    "institute": {
+        "Description": "Name of the biobank"
+    }
+}
