@@ -1,0 +1,23 @@
+{
+    "Name": "spm-5-0-0 outputs",
+    "BIDSVersion": "1.4.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "fsl",
+            "Version": "6.0.3",
+            "Container": {
+                "Type": "docker",
+                "Tag": "elodiegermani/open_pipeline:latest"
+              }
+        },
+    ],
+    "SourceDatasets": [
+        {
+            "Name": "Human Connectome Project"
+            "DOI": "",
+            "URL": "https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release",
+            "Version": "S1200"
+        }
+    ]
+}
