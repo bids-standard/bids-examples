@@ -73,9 +73,9 @@ jobs:
         pushd ..
         git clone --depth 1 https://github.com/bids-standard/bids-validator
         VALIDATOR=/usr/bin/bids-validator
-        echo -e '#!/bin/sh\n'"$PWD/bids-validator/bids-validator/bids-validator-deno \"\$@\"" > $VALIDATOR
+        sudo bash -c 'echo -e "#!/bin/sh\n""$PWD/bids-validator/bids-validator/bids-validator-deno \"\$@\"" > /usr/bin/bids-validator'
         cat $VALIDATOR
-        chmod a+x $VALIDATOR
+        sudo chmod a+rx $VALIDATOR
         which -a bids-validator
         bids-validator --version
         bids-validator --help
