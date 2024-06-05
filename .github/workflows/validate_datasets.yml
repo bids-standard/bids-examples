@@ -76,7 +76,7 @@ jobs:
         mkdir -p $LOCAL_BIN
         export PATH="$LOCAL_BIN:$PATH"
         echo PATH="$PATH" | tee -a $GITHUB_ENV
-        echo -e '#!/bin/env'" -S deno run --allow-read --allow-write --allow-env --allow-net --allow-run\nimport 'https://github.com/bids-standard/bids-validator/raw/master/bids-validator/src/bids-validator.ts'" > $VALIDATOR
+        echo -e '#!/usr/bin/env'" -S deno run --allow-read --allow-write --allow-env --allow-net --allow-run\nimport 'https://github.com/bids-standard/bids-validator/raw/master/bids-validator/src/bids-validator.ts'" > $VALIDATOR
         chmod +x $VALIDATOR
         # For debugging purposes
         cat $VALIDATOR
