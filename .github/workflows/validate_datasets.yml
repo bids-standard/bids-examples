@@ -61,7 +61,7 @@ jobs:
         bash -c "npm install -g bids-validator-*.tgz"
         popd
 
-    - uses: denoland/setup-deno@v1.1.2
+    - uses: denoland/setup-deno@v1
       if: "matrix.bids-validator == 'master-deno'"
       with:
         deno-version: v1.x
@@ -69,20 +69,14 @@ jobs:
     - name: Install BIDS validator (master deno build)
       if: "matrix.bids-validator == 'master-deno'"
       run: |
-        set -x
         LOCAL_BIN=$HOME/.local/bin
         VALIDATOR=$LOCAL_BIN/bids-validator
-        echo $VALIDATOR  # debug
         mkdir -p $LOCAL_BIN
         export PATH="$LOCAL_BIN:$PATH"
-        echo PATH="$PATH" | tee -a $GITHUB_ENV
+        echo PATH="$PATH" >> $GITHUB_ENV
         echo -e '#!/usr/bin/env'" -S deno run --allow-read --allow-write --allow-env --allow-net --allow-run\nimport 'https://github.com/bids-standard/bids-validator/raw/master/bids-validator/src/bids-validator.ts'" > $VALIDATOR
         chmod +x $VALIDATOR
-        # For debugging purposes
-        cat $VALIDATOR
-        which -a bids-validator
         bids-validator --version
-        bids-validator --help
       shell: bash
 
     - name: Display versions and environment information
