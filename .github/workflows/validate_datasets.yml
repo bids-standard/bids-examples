@@ -72,6 +72,8 @@ jobs:
         set -x
         pushd ..
         git clone --depth 1 https://github.com/bids-standard/bids-validator
+        # For debugging purposes
+        echo "PATH=$PATH"
         VALIDATOR=/usr/bin/bids-validator
         sudo bash -c 'echo -e "#!/bin/sh\n""$PWD/bids-validator/bids-validator/bids-validator-deno \"\$@\"" > /usr/bin/bids-validator'
         cat $VALIDATOR
