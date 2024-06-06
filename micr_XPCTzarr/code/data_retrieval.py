@@ -3,6 +3,7 @@ import zarr.convenience
 import dask.array
 import ome_zarr, ome_zarr.io, ome_zarr.writer
 from numcodecs import Blosc, Delta
+import time
 
 """
 You may use the following command to prepare a Python 3.8+ environment for the download of the dataset: `pip install -r data_retrieval_reqs.txt`
@@ -28,6 +29,8 @@ path_roi = data_path / "sub-LADAF-2020-31_ses-01_sample-brain_XPCT.ome.zarr" # f
 
 print('Writing in', str(path_roi))
 
+tic = time.time()
+
 store = ome_zarr.io.parse_url(path_roi,mode="a").store # NB: `mode="a"` should allow overwrite but it does not at the moment, see https://github.com/ome/ome-zarr-py/issues/376
 root = zarr.group(store=store)
 ome_zarr.writer.write_image(image=dataset_full,
@@ -40,4 +43,6 @@ ome_zarr.writer.write_image(image=dataset_full,
                                 )
                             )
 
-print('Writing completed!')
+toc = time.time()
+
+print('Writing completed in', (toc - tic)/60, 'min!')
