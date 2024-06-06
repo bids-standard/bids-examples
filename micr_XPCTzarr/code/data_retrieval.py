@@ -25,6 +25,9 @@ filters = [Delta(dtype='i4')]
 compressor = Blosc(cname='zstd', clevel=1, shuffle=Blosc.SHUFFLE)
 
 path_roi = data_path / "sub-LADAF-2020-31_ses-01_sample-brain_XPCT.ome.zarr" # full name of the dataset following BIDS specification
+
+print('Writing in', str(path_roi))
+
 store = ome_zarr.io.parse_url(path_roi,mode="a").store # NB: `mode="a"` should allow overwrite but it does not at the moment, see https://github.com/ome/ome-zarr-py/issues/376
 root = zarr.group(store=store)
 ome_zarr.writer.write_image(image=dataset_full,
@@ -36,3 +39,5 @@ ome_zarr.writer.write_image(image=dataset_full,
                                 compressor=compressor # default compressors made the script crash
                                 )
                             )
+
+print('Writing completed!')
