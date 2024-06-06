@@ -8,7 +8,7 @@ from numcodecs import Blosc, Delta
 You may use the following command to prepare a Python 3.8+ environment for the download of the dataset: `pip install -r data_retrieval_reqs.txt`
 """
 
-data_path = Path("sub-LADAF-2020-31/ses-01/micr/") # path to session
+data_path = Path("../sub-LADAF-2020-31/ses-01/micr/") # path to session
 data_path.mkdir(exist_ok=True) # create directory
 
 # short utility function
@@ -31,7 +31,7 @@ ome_zarr.writer.write_image(image=dataset_full,
                             group=root, 
                             axes="zyx", # axis order of the dataset following BIDS specification
                             storage_options=dict(
-                                chunks=(128,128,128), 
+                                chunks=(512,512,512), # this chunk size may be altered depending on someone's needs
                                 filters=filters, # default filters made the script crash
                                 compressor=compressor # default compressors made the script crash
                                 )
