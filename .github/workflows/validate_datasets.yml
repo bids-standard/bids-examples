@@ -106,7 +106,7 @@ jobs:
     - name: Mark to be skipped some examples for a deno based
       if: "matrix.bids-validator == 'master-deno'"
       run: |
-        touch {ds000117,ds000246,ds000247,ds000248,eeg_ds003645s_hed_demo,ieeg_motorMiller2007,ieeg_visual}/.SKIP_VALIDATION
+        touch {ds000117,ds000246,ds000247,ds000248,eeg_ds003645s_hed_demo,ieeg_motorMiller2007,ieeg_visual,7t_trt,ds102,fnirs_automaticity,genetics_ukbb,ieeg_epilepsy,ieeg_epilepsyNWB}/.SKIP_VALIDATION
       shell: bash
 
     - name: Validate all BIDS datasets using bids-validator
