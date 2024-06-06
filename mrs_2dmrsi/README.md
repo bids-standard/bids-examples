@@ -4,6 +4,10 @@ Contact: <wilsonmp@bham.ac.uk>
 
 Data availability: <https://doi.org/10.5281/zenodo.7701228>
 
+Publications:
+
+- <https://doi.org/10.1016/j.neuroimage.2023.120235>
+
 ## Overview
 
 The data from this study were acquired as part of a project to validate [SLIPMAT](https://doi.org/10.1016/j.neuroimage.2023.120235), a tool to extract high-quality, tissue-specific, spectral profiles from MR spectroscopic imaging data (MRSI).
