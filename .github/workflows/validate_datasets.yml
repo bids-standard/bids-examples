@@ -71,11 +71,9 @@ jobs:
       run: |
         LOCAL_BIN=$HOME/.local/bin
         VALIDATOR=$LOCAL_BIN/bids-validator
-        mkdir -p $LOCAL_BIN
-        export PATH="$LOCAL_BIN:$PATH"
-        echo PATH="$PATH" >> $GITHUB_ENV
-        echo -e '#!/usr/bin/env'" -S deno run --allow-read --allow-write --allow-env --allow-net --allow-run\nimport 'https://github.com/bids-standard/bids-validator/raw/master/bids-validator/src/bids-validator.ts'" > $VALIDATOR
-        chmod +x $VALIDATOR
+        # Clone "lean" but with tags for versioning
+        git clone --filter=blob:none http://github.com/bids-standard/bids-validator
+        deno compile -o "$VALIDATOR" -A bids-validator/bids-validator/src/bids-validator.ts
         bids-validator --version
       shell: bash
 
