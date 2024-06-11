@@ -72,8 +72,10 @@ jobs:
         LOCAL_BIN=$HOME/.local/bin
         VALIDATOR=$LOCAL_BIN/bids-validator
         # Clone "lean" but with tags for versioning
+        pushd ..
         git clone --filter=blob:none http://github.com/bids-standard/bids-validator
         deno compile -o "$VALIDATOR" -A bids-validator/bids-validator/src/bids-validator.ts
+        popd
         bids-validator --version
       shell: bash
 
