@@ -1,5 +1,10 @@
 """Take the listing of examples datasets
-and turns it into a markdown document with a series of markdown tables."""
+and turns it into a markdown document with a series of markdown tables.
+
+You can pass an argument to insert the content in another file.
+Otherwise the content will be added to the README of this repository.
+"""
+import sys
 from pathlib import Path
 import pandas as pd
 from bids import BIDSLayout
@@ -22,7 +27,6 @@ update_content = False
 
 root = Path(__file__).resolve().parent.parent
 input_file = root / "dataset_listing.tsv"
-output_file = root / "README.md"
 
 tables_order = {
     "ASL": "perf",
@@ -39,7 +43,14 @@ tables_order = {
 }
 
 
-def main():
+def main(output_file=None):
+
+    if len(sys.argv) > 1:
+        output_file = Path(sys.argv[1])
+
+    if output_file is None:
+        output_file = root / "README.md"
+
     df = pd.read_csv(input_file, sep="\t")
 
     check_missing_folders(df, root)
