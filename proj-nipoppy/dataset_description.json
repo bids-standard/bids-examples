@@ -1,0 +1,9 @@
+{
+    "Name": "Example how nipoppy dataset could be presented as project-type BIDS dataset",
+	"Description": "Demonstration for the https://github.com/bids-standard/bids-specification/pull/1861",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "project",
+    "Authors": [
+        "Yaroslav O. Halchenko", "Samuel Nastase"
+    ]
+}
