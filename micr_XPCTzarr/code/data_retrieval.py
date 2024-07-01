@@ -34,14 +34,43 @@ tic = time.time()
 store = ome_zarr.io.parse_url(path_roi,mode="a").store # NB: `mode="a"` should allow overwrite but it does not at the moment, see https://github.com/ome/ome-zarr-py/issues/376
 root = zarr.group(store=store)
 ome_zarr.writer.write_image(image=dataset_full,
-                            group=root, 
-                            axes="zyx", # axis order of the dataset following BIDS specification
+                            group=root,
+                            scaler=None,
+                            axes=[
+                                {
+                                    "name": "z",
+                                    "type": "space",
+                                    "units": "micrometer" # voxel size is an isotropic 25.08 um
+                                },
+                                {
+                                    "name": "y",
+                                    "type": "space",
+                                    "units": "micrometer" # voxel size is an isotropic 25.08 um
+                                },
+                                {
+                                    "name": "x",
+                                    "type": "space",
+                                    "units": "micrometer" # voxel size is an isotropic 25.08 um
+                                }
+                            ], # axis order of the dataset following BIDS specification
+                            coordinate_transformations=[
+                                [
+                                    {
+                                        "scale": [
+                                            25.08,
+                                            25.08,
+                                            25.08 
+                                        ], # voxel size is an isotropic 25.08 um
+                                        "type": "scale"
+                                    }
+                                ] 
+                            ],
                             storage_options=dict(
                                 chunks=(512,512,512), # this chunk size may be altered depending on someone's needs
                                 filters=filters, # default filters made the script crash
                                 compressor=compressor # default compressors made the script crash
-                                )
                             )
+                        )
 
 toc = time.time()
 

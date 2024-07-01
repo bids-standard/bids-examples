@@ -4,15 +4,18 @@
             "axes": [
                 {
                     "name": "z",
-                    "type": "space"
+                    "type": "space",
+                    "units": "micrometer"
                 },
                 {
                     "name": "y",
-                    "type": "space"
+                    "type": "space",
+                    "units": "micrometer"
                 },
                 {
                     "name": "x",
-                    "type": "space"
+                    "type": "space",
+                    "units": "micrometer"
                 }
             ],
             "datasets": [
@@ -20,66 +23,14 @@
                     "coordinateTransformations": [
                         {
                             "scale": [
-                                1.0,
-                                1.0,
-                                1.0
+                                25.08,
+                                25.08,
+                                25.08
                             ],
                             "type": "scale"
                         }
                     ],
                     "path": "0"
-                },
-                {
-                    "coordinateTransformations": [
-                        {
-                            "scale": [
-                                1.0,
-                                2.0003353454057677,
-                                2.0003353454057677
-                            ],
-                            "type": "scale"
-                        }
-                    ],
-                    "path": "1"
-                },
-                {
-                    "coordinateTransformations": [
-                        {
-                            "scale": [
-                                1.0,
-                                4.0006706908115355,
-                                4.0006706908115355
-                            ],
-                            "type": "scale"
-                        }
-                    ],
-                    "path": "2"
-                },
-                {
-                    "coordinateTransformations": [
-                        {
-                            "scale": [
-                                1.0,
-                                8.006711409395972,
-                                8.006711409395972
-                            ],
-                            "type": "scale"
-                        }
-                    ],
-                    "path": "3"
-                },
-                {
-                    "coordinateTransformations": [
-                        {
-                            "scale": [
-                                1.0,
-                                16.03494623655914,
-                                16.03494623655914
-                            ],
-                            "type": "scale"
-                        }
-                    ],
-                    "path": "4"
                 }
             ],
             "name": "/",
