@@ -4,6 +4,6 @@
   "ManufacturerModelName": "TrioTim",
   "PulseSequenceType": "GR",
   "MRAcquisitionType": "3D",
-  "EchoTime": "0.0081",
+  "EchoTime": 0.0081,
   "AcquisitionVoxelSize": ["0.6","0.6","0.6"]
 }
