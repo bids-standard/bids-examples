@@ -16,5 +16,8 @@
     },
     "proposal_members": {
         "Description": "Synchrotron beam time proposal members"
+    },
+    "session_doi": {
+        "Description": "Raw data DOI for the session (e.g. the ESRF-minted DOI)"
     }
 }
