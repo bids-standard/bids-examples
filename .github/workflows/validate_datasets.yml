@@ -108,3 +108,5 @@ jobs:
         cat ./run_tests.sh
         ./run_tests.sh
       shell: bash
+      env:
+        BIDS_SCHEMA: https://bids-specification--1875.org.readthedocs.build/en/1875/schema.json
