@@ -246,6 +246,17 @@ DO NOT EDIT DIRECTLY.
 | [ieeg_visual_multimodal](https://github.com/bids-standard/bids-examples/tree/master/ieeg_visual_multimodal) | n/a                                                                                         | anat, fmap, func, ieeg          | T1w, bold, channels, coordsystem, electrodes, epi, events, ieeg, sbref                                              | n/a                                                            | [@irisgroen](https://github.com/irisgroen) |
 | [synthetic](https://github.com/bids-standard/bids-examples/tree/master/synthetic)                           | A synthetic dataset                                                                         | anat, beh, func                 | T1w, beh, bold, events, physio, scans, sessions, stim                                                               | n/a                                                            | [@effigies](https://github.com/effigies)   |
 
+### MRS
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                            | description                                                         | datatypes   | suffixes    | link to full data                                | maintained by                                      |
+|:--------------------------------------------------------------------------------|:--------------------------------------------------------------------|:------------|:------------|:-------------------------------------------------|:---------------------------------------------------|
+| [mrs_fmrs](https://github.com/bids-standard/bids-examples/tree/master/mrs_fmrs) | Functional MRS data involving a pain stimulus task from 15 subjects | anat, mrs   | T1w, events | [link](https://www.nitrc.org/projects/fmrs_2020) | [@markmikkelsen](https://github.com/markmikkelsen) |
+
 ### NIRS
 
 <!--
