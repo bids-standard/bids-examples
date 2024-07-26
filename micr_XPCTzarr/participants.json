@@ -1,7 +1,10 @@
 {
     "participant_id": {
-        "Description": "Unique participant ID"
-    },    
+        "Description": "Unique alphanumeric participant ID starting with sub-"
+    },
+    "participant_name": {
+        "Description": "full name or pseudo of the participant which can contain non-alphanumeric characters"
+    },
     "sex": {
         "Description": "sex of the participant",
         "Levels": {
@@ -22,12 +25,12 @@
         "Units": "centimeter"
     },
     "species": {
-        "Description": "Binomial species name from the NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
+        "Description": "binomial species name from the NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
     },
     "medical_information": {
-        "Description": "Medical information as provided by the biobank"
+        "Description": "medical information as provided by the biobank"
     },
     "institute": {
-        "Description": "Name of the biobank"
+        "Description": "name of the biobank"
     }
 }
