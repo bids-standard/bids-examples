@@ -69,14 +69,9 @@ jobs:
     - name: Install BIDS validator (master deno build)
       if: "matrix.bids-validator == 'master-deno'"
       run: |
-        LOCAL_BIN=$HOME/.local/bin
-        VALIDATOR=$LOCAL_BIN/bids-validator
-        mkdir -p $LOCAL_BIN
-        export PATH="$LOCAL_BIN:$PATH"
-        echo PATH="$PATH" >> $GITHUB_ENV
-        echo -e '#!/usr/bin/env'" -S deno run --allow-read --allow-write --allow-env --allow-net --allow-run\nimport 'https://github.com/bids-standard/bids-validator/raw/master/bids-validator/src/bids-validator.ts'" > $VALIDATOR
-        chmod +x $VALIDATOR
-        bids-validator --version
+        # If unmerged validator PRs are needed for testing, you can use
+        # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
+        deno install -Agf https://github.com/bids-standard/bids-validator/raw/deno-build/bids-validator.js
       shell: bash
 
     - name: Display versions and environment information
@@ -108,3 +103,7 @@ jobs:
         cat ./run_tests.sh
         ./run_tests.sh
       shell: bash
+      env:
+        # When proposing new features, schema changes may be necessary.
+        # Update this URL to the schema.json from PRs to the spec, when needed.
+        BIDS_SCHEMA: https://bids-specification.readthedocs.io/en/latest/schema.json
