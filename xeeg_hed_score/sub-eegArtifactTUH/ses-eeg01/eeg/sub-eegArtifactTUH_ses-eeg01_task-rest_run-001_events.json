@@ -1,0 +1,28 @@
+{
+    "onset": {
+        "Description": "REQUIRED. Onset (in seconds) of the event, measured from the beginning of the acquisition of the first data point stored in the corresponding task data file. Negative onsets are allowed, to account for events that occur prior to the first stored data point."
+    },
+    "duration": {
+        "Description": "REQUIRED. Duration of the event (measured from onset) in seconds"
+    },
+    "annotation_type": {
+        "LongName": "Hierarchical Event Descriptors annotations",
+        "Description": "EEG interpretation Hierarchical Event Descriptors annotations",
+        "Levels": {
+            "eyem": "A spike-like waveform created during patient eye movement. This artifact is usually found on all of the frontal polar electrodes with occasional echoing on the frontal electrodes.",
+            "elec": "An electrode artifact encompasses various electrode related artifacts. Electrode pop is an artifact characterized by channels using the same electrode 'spiking' with an electrographic phase reversal. ",
+            "musc": "Muscle artifact. A very common, high frequency, sharp artifact that corresponds with agitation/nervousness in a patient.",
+            "eyem+musc": "Eye and Muscle"
+        },
+        "HED": {
+            "eyem": "Eye-movement-horizontal-artifact",
+            "elec": "Non-biological-artifact",
+            "musc": "EMG-artifact",
+            "eyem+musc": "(Eye-movement-horizontal-artifact , EMG-artifact)"
+        }
+    },
+    "channel": {
+        "LongName": "Annotated channel",
+        "Description": "Comma-separated list of annotated channels corresponding to *_channels.tsv."
+    }
+}
