@@ -18,11 +18,11 @@
     },
     "weight": {
         "Description": "weight of the participant",
-        "Units": "kilogram"
+        "Units": "kg"
     },
     "height": {
         "Description": "height of the participant",
-        "Units": "centimeter"
+        "Units": "cm"
     },
     "species": {
         "Description": "binomial species name from the NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
