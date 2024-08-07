@@ -1,0 +1,17 @@
+{
+    "sample_id": {
+        "Description": "Sample ID"
+    },
+    "participant_id": {
+        "Description": "Participant ID from whom tissue samples have been acquired"
+    },
+    "sample_type": {
+        "Description": "Type of sample from ENCODE Biosample Type (https://www.encodeproject.org/profiles/biosample_type)"
+    },
+    "sample_info": {
+        "Description": "One-line title of the sample"
+    },
+    "sample_preparation": {
+        "Description": "Specific preparation of the sample"
+    }
+}
