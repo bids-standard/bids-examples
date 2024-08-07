@@ -113,6 +113,7 @@ file or open a
 and ask us directly.
 
 ## Dataset index
+<!-- ADD EXAMPLE LISTING HERE -->
 <!--
 TABLE BELOW IS GENERATED AUTOMATICALLY.
 DO NOT EDIT DIRECTLY.
@@ -267,7 +268,7 @@ DO NOT EDIT DIRECTLY.
 | name                                                                                                | description                                                             | datatypes   | suffixes                                                             | link to full data                              | maintained by                                            |
 |:----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|:------------|:---------------------------------------------------------------------|:-----------------------------------------------|:---------------------------------------------------------|
 | [fnirs_automaticity](https://github.com/bids-standard/bids-examples/tree/master/fnirs_automaticity) | 24 subjects performing (non-)automatic finger tapping and foot stepping | nirs        | channels, coordsystem, events, nirs, optodes, practicelogbook, scans | [link](https://doi.org/10.34973/vesb-mh30)     | [@robertoostenveld](https://github.com/robertoostenveld) |
-| [fnirs_tapping](https://github.com/bids-standard/bids-examples/tree/master/fnirs_tapping)           | Example fNIRS measurement with three conditions from five subjects      | nirs        | channels, coordsystem, events, nirs, optodes, scans                  | [link](https://doi.org/10.5281/zenodo.5529797) | [@rob_luke](https://github.com/rob_luke)                 |
+| [fnirs_tapping](https://github.com/bids-standard/bids-examples/tree/master/fnirs_tapping)           | Example fNIRS measurement with three conditions from five subjects      | nirs        | channels, coordsystem, events, nirs, optodes, scans                  | [link](https://doi.org/10.5281/zenodo.5529797) | [@rob-luke](https://github.com/rob-luke)                 |
 
 ### PET
 

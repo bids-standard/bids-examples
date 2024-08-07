@@ -43,6 +43,7 @@ tables_order = {
     "Behavioral": "beh",
 }
 
+DELIMITER = "<!-- ADD EXAMPLE LISTING HERE -->"
 
 def main(output_file=None):
 
@@ -127,7 +128,7 @@ def clean_previous_run(output_file: Path) -> None:
     lines = output_file.read_text().split("\n")
     with output_file.open("w") as f:
         for line in lines:
-            if line.startswith("## Dataset index"):
+            if line.startswith(DELIMITER):
                 f.write(line + "\n")
                 add_warning(f)
                 break
