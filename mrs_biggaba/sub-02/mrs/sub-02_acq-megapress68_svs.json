@@ -5,8 +5,8 @@
     "MagneticFieldStrength": 3,
     "PulseSequenceType": "MEGA-PRESS",
     "ScanningSequence": "SVS",
-    "ResonantNucleus": "1H",
-    "SpectrometerFrequency": 127.751,
+    "ResonantNucleus": ["1H"],
+    "SpectrometerFrequency": [127.751],
     "SpectralWidth": 2000,
     "EchoTime": 0.068,
     "NumberOfSpectralPoints": 2048,
@@ -14,14 +14,16 @@
     "RepetitionTime": 2,
     "AcquisitionVoxelSize": [30, 30, 30],
     "BodyPart": "BRAIN",
-    "BodyPartDetails":  "Medial parietal lobe",
+    "BodyPartDetails": "Medial parietal lobe",
     "EditTarget": "GABA",
     "EditPulse": {
         "ON": {
-            "FrequencyOffset": 1.9, "PulseDuration": 15
+            "FrequencyOffset": 1.9,
+            "PulseDuration": 15
         },
         "OFF": {
-            "FrequencyOffset": 7.46, "PulseDuration": 15
+            "FrequencyOffset": 7.46,
+            "PulseDuration": 15
         }
     },
     "EditCondition": ["ON", "OFF"],

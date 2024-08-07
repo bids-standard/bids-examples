@@ -1,6 +1,6 @@
 {
-  "SpectrometerFrequency": 123.252034,
-  "ResonantNucleus": "1H",
+  "SpectrometerFrequency": [123.252034],
+  "ResonantNucleus": ["1H"],
   "SpectralWidth": 2000,
   "NumberOfSpectralPoints": 1024,
   "AcquisitionVoxelSize": [10, 10, 15],
