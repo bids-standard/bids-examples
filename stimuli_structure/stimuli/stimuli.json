@@ -1,0 +1,20 @@
+{
+    "stim_id": {
+        "Description": "The stimulus ID included in the stimli directory"
+    },
+    "type": {
+        "Description": "The type of stimulus"
+    },
+    "nsd_id": {
+        "Description": "The Natural Scene ID of the stimulus"
+    },
+    "coco_id": {
+        "Description": "The COCO ID of the stimulus"
+    },
+    "first_coco_description": {
+        "Description": "The first COCO description of the stimulus"
+    },
+    "HED": {
+        "Description": "The HED description of the stimulus"
+    }
+}
