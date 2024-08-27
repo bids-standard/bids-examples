@@ -100,6 +100,9 @@ jobs:
         fi
       shell: bash
 
+    - name: Skip MRS validation for legacy validator
+      run: for DS in mrs_*; do touch $DS/.SKIP_VALIDATION; done
+
     - name: Validate all BIDS datasets using bids-validator
       run: |
         cat ./run_tests.sh
