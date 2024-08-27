@@ -73,7 +73,7 @@ jobs:
         # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
         # Note that the typescript (.ts) MUST be used instead of (.js),
         # otherwise BIDS_SCHEMA will not be respected
-        deno install -Agf https://github.com/bids-standard/bids-validator/raw/master/bids-validator/src/bids-validator.ts
+        deno install -Agf https://raw.githubusercontent.com/bids-standard/bids-validator/deno-build/bids-validator.js
       shell: bash
 
     - name: Display versions and environment information
@@ -108,4 +108,4 @@ jobs:
       env:
         # When proposing new features, schema changes may be necessary.
         # Update this URL to the schema.json from PRs to the spec, when needed.
-        BIDS_SCHEMA: https://bids-specification--1377.org.readthedocs.build/en/1377/schema.json
+        BIDS_SCHEMA: https://bids-specification.readthedocs.io/en/latest/schema.json
