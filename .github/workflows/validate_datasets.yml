@@ -102,6 +102,8 @@ jobs:
 
     - name: Skip MRS validation for legacy validator
       run: for DS in mrs_*; do touch $DS/.SKIP_VALIDATION; done
+      if: "matrix.bids-validator != 'master-deno'"
+      shell: bash
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
