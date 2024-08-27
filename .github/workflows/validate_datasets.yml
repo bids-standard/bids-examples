@@ -71,9 +71,7 @@ jobs:
       run: |
         # If unmerged validator PRs are needed for testing, you can use
         # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
-        # Note that the typescript (.ts) MUST be used instead of (.js),
-        # otherwise BIDS_SCHEMA will not be respected
-        deno install -Agf https://raw.githubusercontent.com/bids-standard/bids-validator/deno-build/bids-validator.js
+        deno install -Agf https://github.com/bids-standard/bids-validator/raw/deno-build/bids-validator.js
       shell: bash
 
     - name: Display versions and environment information
