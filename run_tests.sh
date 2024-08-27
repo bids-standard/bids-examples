@@ -3,10 +3,11 @@
 failed=
 
 which bids-validator
-if bids-validator --help | grep -q -e '--config'; then
-       VALIDATOR_SUPPORTS_CONFIG=yes
+
+if bids-validator --help | grep -q Description; then
+    VARIANT="schema"
 else
-       VALIDATOR_SUPPORTS_CONFIG=
+    VARIANT="legacy"
 fi
 
 for i in $(ls -d */ | grep -v node_modules); do
@@ -22,13 +23,8 @@ for i in $(ls -d */ | grep -v node_modules); do
     CMD="bids-validator ${i%%/} $VALIDATOR_ARGS"
 
     # Use default configuration unless overridden
-    if [ -n "$VALIDATOR_SUPPORTS_CONFIG" ]; then
-        if [ ! -f ${i%%/}/.bids-validator-config.json ]; then
-            CMD="$CMD -c $PWD/bidsconfig.json"
-        fi
-    else
-        # with new one we do not have config so let's get --json and exclude some using jq
-        CMD="$CMD --json"
+    if [[ ! ( -f ${i%%/}/.bids-validator-config.json || $CMD =~ /--config/ ) ]]; then
+        CMD="$CMD --config $PWD/${VARIANT}config.json"
     fi
 
     # Ignore NIfTI headers except for synthetic dataset
@@ -40,20 +36,7 @@ for i in $(ls -d */ | grep -v node_modules); do
 
     echo "Running " $CMD
 
-    if [ -n "$VALIDATOR_SUPPORTS_CONFIG" ]; then
-        $CMD || failed+=" $i"
-    else
-        # exit code is not returned correctly anyways and for the best since we need to ignore
-        # ref: https://github.com/bids-standard/bids-validator/issues/1909
-        # NOTE:  limit to 1 file per error to not flood screen!
-        errors=$($CMD 2>/dev/null \
-          | jq '(.issues | map(select(.severity == "error" and .key != "EMPTY_FILE"))) | map(.files_1 = (.files | if length > 0 then .[0:1] else empty end) | del(.files)) | if length > 0 then . else empty end' \
-        )
-        if [ -n "$errors" ]; then
-            echo -e "$errors" | sed -e 's,^,  ,g'
-            failed+=" $i"
-        fi
-    fi
+    $CMD || failed+=" $i"
 done
 if [ -n "$failed" ]; then
     echo "Datasets failed validation: $failed"
