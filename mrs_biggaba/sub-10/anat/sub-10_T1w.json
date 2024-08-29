@@ -1,0 +1,17 @@
+{
+	"Manufacturer": "Philips",
+	"ManufacturersModelName": "Achieva",
+	"SoftwareVersions": "R3.2.2",
+	"MagneticFieldStrength": 3,
+	"PulseSequenceType": "MPRAGE",
+	"MRAcquisitionType": "3D",
+	"ParallelReductionFactorInPlane": 2,
+	"ParallelAcquisitionTechnique": "SENSE",
+	"EchoTime": 0.00313,
+	"InversionTime": 0.865,
+	"RepetitionTimeExcitation": 0.006953,
+	"FlipAngle": 8,
+	"AcquisitionVoxelSize": [1, 1, 1],
+	"BodyPart": "BRAIN",
+	"BodyPartDetails": "Medial parietal lobe"
+}

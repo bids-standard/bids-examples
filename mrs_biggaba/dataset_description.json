@@ -1,0 +1,24 @@
+{
+    "Name": "mrs_biggaba",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "raw",
+    "License": "Creative Commons Attribution-NonCommercial 4.0 International License",
+    "Authors": [
+        "Mikkelsen et al."
+    ],
+    "Funding": [
+        "NIH grant R01 EB016089"
+    ],
+    "ReferencesAndLinks": [
+        "doi:10.1016/j.neuroimage.2017.07.021",
+        "doi:10.1016/j.neuroimage.2019.02.059",
+        "doi:10.1148/radiol.2020191037"
+    ],
+    "DatasetDOI": "doi:10.25790/bml0cm.78",
+    "SourceDatasets": [
+        {
+            "URL": "https://www.nitrc.org/projects/biggaba/",
+            "DOI": "doi:10.25790/bml0cm.78"
+        }
+    ]
+}
