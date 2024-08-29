@@ -99,7 +99,7 @@ jobs:
       shell: bash
 
     - name: Skip MRS validation for legacy validator
-      run: for DS in mrs_*; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in mrs_* dwi_deriv; do touch $DS/.SKIP_VALIDATION; done
       if: "matrix.bids-validator != 'master-deno'"
       shell: bash
 
