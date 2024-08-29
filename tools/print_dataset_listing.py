@@ -9,7 +9,7 @@ from pathlib import Path
 import pandas as pd
 from bids import BIDSLayout
 
-folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site"]
+folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site", ".vscode"]
 suffixes_to_remove = ["README", "description", "participants"]
 column_order = [
     "name",
@@ -23,7 +23,7 @@ column_order = [
 UPSTREAM_REPO = "https://github.com/bids-standard/bids-examples/tree/master/"
 
 # set to True to update the listing of datasets with the datatypes and suffixes
-update_content = False
+update_content = True
 
 root = Path(__file__).resolve().parent.parent
 input_file = root / "dataset_listing.tsv"
@@ -36,6 +36,7 @@ tables_order = {
     "Microscopy": "micr",
     "Motion": "motion",
     "MRI": "func",
+    "MRS": "mrs",
     "NIRS": "nirs",
     "PET": "pet",
     "qMRI": "",
@@ -59,8 +60,11 @@ def main(output_file=None):
     if update_content:
         df = update_datatypes_and_suffixes(df, root)
         df.to_csv(input_file, sep="\t", index=False)
+        df = pd.read_csv(input_file, sep="\t")
 
     df = add_links(df)
+
+    print(df)
 
     clean_previous_run(output_file)
 
@@ -106,7 +110,7 @@ def update_datatypes_and_suffixes(df, root):
 def add_links(df):
     print("Adding hyperlinks in table...")
     for row in df.iterrows():
-        for col in ["name","link to full data", "maintained by"]:
+        for col in ["name", "link to full data", "maintained by"]:
             if not isinstance(row[1][col], str):
                 continue
             if col == "name":
@@ -150,6 +154,7 @@ def add_tables(df: pd.DataFrame, output_file: Path) -> None:
         else:
             sub_df = df[df["datatypes"].str.contains(table_datatypes, regex=True)]
         sub_df.sort_values(by=["name"], inplace=True)
+        # sub_df["name"] = df["name"].apply(lambda x: f'[{x}](https://github.com/bids-standard/bids-examples/tree/master/{x})')
         print(sub_df)
         sub_df.to_markdown(output_file, index=False, mode="a")
         with output_file.open("a") as f:

@@ -1,0 +1,21 @@
+{
+    "Name": "mrs_2dmrsi",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "raw",
+    "License": "Creative Commons Attribution 4.0 International License",
+    "Authors": [
+        "Martin Wilson",
+        "Olivia Vella"
+    ],
+    "ReferencesAndLinks": [
+        "doi:10.1016/j.neuroimage.2023.120235"
+    ],
+    "DatasetDOI": "doi:10.5281/zenodo.7701228",
+    "SourceDatasets": [
+        {
+            "URL": "https://zenodo.org/records/7701228",
+            "DOI": "doi:10.5281/zenodo.7701228",
+            "Version": "v4"
+        }
+    ]
+}

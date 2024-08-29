@@ -1,0 +1,23 @@
+{
+    "Manufacturer": "Philips",
+	"ManufacturersModelName": "Achieva",
+	"MagneticFieldStrength": 3,
+	"InstitutionName": "University of British Columbia",
+    "PulseSequenceType": "PRESS",
+    "ScanningSequence": "SVS",
+    "WaterSuppression": true,
+    "WaterSuppressionTechnique": "Excitation",
+    "B0ShimmingTechnique": "Second-order",
+    "BodyPart": "BRAIN",
+    "BodyPartDetails": "Anterior cingulate cortex",
+    "ResonantNucleus": ["1H"],
+    "SpectrometerFrequency": [127.7],
+    "SpectralWidth": 2000,
+    "EchoTime": 0.022,
+    "NumberOfTransients": 32,
+    "NumberOfSpectralPoints": 2048,
+    "RepetitionTime": 4,
+    "AcquisitionVoxelSize": [30, 25, 15],
+    "ReferenceSignal": "bids::sub-07/mrs/sub-07_task-baseline_mrsref.nii.gz",
+    "AnatomicalImage": "bids::sub-07/anat/sub-07_T1w.nii.gz"
+}
