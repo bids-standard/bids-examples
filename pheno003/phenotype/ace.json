@@ -5,8 +5,8 @@
   "session_id": {
     "Description": "ID assigned to participant's visit.",
     "Levels": {
-      "01": "First phenotype assessment and imaging visit.",
-      "02": "Second imaging only visit."
+      "baseline": "First imaging and phenotype data collection visit.",
+      "followup": "Second phenotype data collection visit."
     }
   },
   "b_ace_q1": {

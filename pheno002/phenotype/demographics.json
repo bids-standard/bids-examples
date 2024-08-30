@@ -9,10 +9,6 @@
       "02": "Second imaging only visit."
     }
   },
-  "age_at_visit": {
-    "Description": "1. What is your current age?",
-    "Units": "years"
-  },
   "gender": {
     "Description": "2. What sex were you assigned at birth, on your original birth certificate?",
     "Levels": {

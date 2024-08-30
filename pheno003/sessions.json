@@ -5,15 +5,12 @@
   "session_id": {
     "Description": "ID assigned to participant's visit.",
     "Levels": {
-      "01": "First phenotype assessment and imaging visit.",
-      "02": "Second imaging only visit."
+      "baseline": "First imaging and phenotype data collection visit.",
+      "followup": "Second phenotype data collection visit."
     }
   },
   "age_at_visit": {
     "Description": "Age of the participant at the time of the visit.",
     "Units": "years"
-  },
-  "acq_time": {
-    "Description": "Date and/or time of acquisition."
   }
 }
