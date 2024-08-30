@@ -79,3 +79,4 @@ motion_spotrotation	participants rotated heading using full-body motion or joyst
 mrs_2dmrsi	2D sLASER MRSI data from 8 subjects	[link](https://zenodo.org/records/7701228)	[@markmikkelsen](https://github.com/markmikkelsen)	anat, mrs	T1w, mrsi
 mrs_biggaba	MEGA-PRESS and PRESS MRS data from 12 subjects from one site from the Big GABA project	[link](https://www.nitrc.org/projects/biggaba)	[@markmikkelsen](https://github.com/markmikkelsen)	anat, mrs	T1w, mrsref, svs
 mrs_fmrs	Functional MRS data involving a pain stimulus task from 15 subjects	[link](https://www.nitrc.org/projects/fmrs_2020)	[@markmikkelsen](https://github.com/markmikkelsen)	anat, mrs	T1w, events, mrsref, svs
+2d_mb_pcasl	Siemens 2D MultiBand Multi-delay PCASL (m0 and noRF included within timeseries)	[link](https://osf.io/xrkc4/)	[@aptinis](https://github.com/aptinis)	anat, fmap, perf	T1w, asl, aslcontext, epi
