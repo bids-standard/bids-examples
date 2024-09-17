@@ -1,0 +1,21 @@
+{
+    "duration": {
+        "HED": "Duration/# second"
+    },
+    "seizure_info": {
+        "LongName": "Hierarchical Event Descriptors annotations",
+        "Description": "EEG interpretation Hierarchical Event Descriptors annotations from the HED-SCORE library",
+        "Levels": {
+            "tcs": "A sequence consisting of a tonic followed by a clonic phase. Definition from ILAE 2017 Classification of Seizure Types Expanded Version."
+        },
+        "HED": {
+            "tcs": "({duration}, (Tonic-clonic-seizure,(Parameter-label/channels,{channel})))"
+            }
+    },
+    "channel":{
+        "LongName": "Channels involved in the seizure.",
+        "Description": "Space separated list of annotated channels corresponding to *_channels.tsv.",
+        "Delimiter": " ",
+        "HED": "Parameter-value/#"
+    }
+}
