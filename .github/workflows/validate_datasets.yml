@@ -61,7 +61,7 @@ jobs:
         bash -c "npm install -g bids-validator-*.tgz"
         popd
 
-    - uses: denoland/setup-deno@v1
+    - uses: denoland/setup-deno@v2
       if: "matrix.bids-validator == 'master-deno'"
       with:
         deno-version: v1.x
