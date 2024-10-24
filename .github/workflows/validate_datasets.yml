@@ -99,7 +99,7 @@ jobs:
       shell: bash
 
     - name: Skip MRS validation for legacy validator
-      run: for DS in mrs_*; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in mrs_* dwi_deriv; do touch $DS/.SKIP_VALIDATION; done
       if: "matrix.bids-validator != 'master-deno'"
       shell: bash
 
@@ -111,4 +111,4 @@ jobs:
       env:
         # When proposing new features, schema changes may be necessary.
         # Update this URL to the schema.json from PRs to the spec, when needed.
-        BIDS_SCHEMA: https://bids-specification.readthedocs.io/en/latest/schema.json
+        BIDS_SCHEMA: https://bids-specification--1864.org.readthedocs.build/en/1864/schema.json
