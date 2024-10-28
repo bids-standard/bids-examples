@@ -4,11 +4,11 @@
     "sub-01/anat/sub-01_flip-2_VFA.nii.gz",
     "sub-01/fmap/sub-01_sub-01_TB1map.nii.gz"
   ],
-  "MagneticFieldStrength": "3",
+  "MagneticFieldStrength": 3,
   "Manufacturer": "Siemens",
   "ManufacturerModelName": "TrioTim",
   "PulseSequenceType": "SPGR",
-  "RepetitionTime": "0.0150",
+  "RepetitionTime": 0.0150,
   "FlipAngle": [
     "3",
     "20"

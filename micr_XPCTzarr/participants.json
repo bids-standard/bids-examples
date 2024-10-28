@@ -1,0 +1,36 @@
+{
+    "participant_id": {
+        "Description": "Unique alphanumeric participant ID starting with sub-"
+    },
+    "participant_name": {
+        "Description": "full name or pseudo of the participant which can contain non-alphanumeric characters"
+    },
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "year"
+    },
+    "weight": {
+        "Description": "weight of the participant",
+        "Units": "kg"
+    },
+    "height": {
+        "Description": "height of the participant",
+        "Units": "cm"
+    },
+    "species": {
+        "Description": "binomial species name from the NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
+    },
+    "medical_information": {
+        "Description": "medical information as provided by the biobank"
+    },
+    "institute": {
+        "Description": "name of the biobank"
+    }
+}

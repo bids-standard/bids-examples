@@ -1,11 +1,20 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-rc = 0;
+failed=
+
+which bids-validator
+
+if bids-validator --help | grep -q Description; then
+    VARIANT="schema"
+else
+    VARIANT="legacy"
+fi
+
 for i in $(ls -d */ | grep -v node_modules); do
-    echo "Validating dataset" $i
+    echo -n "Validating dataset $i: "
 
     if [ -f ${i%%/}/.SKIP_VALIDATION ]; then
-        echo "Skipping validation for ${i%%/}"
+        echo "skipping validation"
         continue
     fi
 
@@ -14,18 +23,22 @@ for i in $(ls -d */ | grep -v node_modules); do
     CMD="bids-validator ${i%%/} $VALIDATOR_ARGS"
 
     # Use default configuration unless overridden
-    if [ ! -f ${i%%/}/.bids-validator-config.json ]; then
-        CMD="$CMD -c $PWD/bidsconfig.json"
+    if [[ ! ( -f ${i%%/}/.bids-validator-config.json || $CMD =~ /--config/ ) ]]; then
+        CMD="$CMD --config $PWD/${VARIANT}config.json"
     fi
 
     # Ignore NIfTI headers except for synthetic dataset
     if [ $i != "synthetic/" ]; then
         CMD="$CMD --ignoreNiftiHeaders"
     else
-        echo "Validating NIfTI headers for dataset" $i
+        echo "validating NIfTI headers. "
     fi
 
-    echo $CMD
-    $CMD || rc=$?
+    echo "Running " $CMD
+
+    $CMD || failed+=" $i"
 done
-exit $rc;
+if [ -n "$failed" ]; then
+    echo "Datasets failed validation: $failed"
+    exit 1
+fi
