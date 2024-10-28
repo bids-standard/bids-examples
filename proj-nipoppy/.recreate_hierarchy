@@ -18,6 +18,11 @@ cat >| dataset_description.json <<EOF
 EOF
 
 cat >| CHANGES << EOF
+0.0.2 2024-10-28
+
+  -  Updated to reflect addressed in bids-validator issues and
+     to merge "master" branch of the bids-examples project
+
 0.0.1 2024-06-20
 
   -  Started to work on this support of the DatasetType project
@@ -36,7 +41,7 @@ located under folders where bids layout is not enforced -- should be just fine.
 Some outstanding issues with validator(s) which were ran into while trying to
 get "proper" validation working using deno bids-validator (mark when solved)
 
-- [ ] https://github.com/bids-standard/bids-validator/issues/2007
+- [x] https://github.com/bids-standard/bids-validator/issues/2007
 
 EOF
 
