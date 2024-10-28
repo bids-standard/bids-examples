@@ -5,5 +5,12 @@
     "DatasetType": "project",
     "Authors": [
         "Yaroslav O. Halchenko", "Samuel Nastase"
-    ]
+    ],
+    "GeneratedBy": [
+       {
+         "Name": "Script to produce this dataset",
+         "CodeURL": "file://./recreate-hierarchy"
+       }
+    ],
+    "License": "PDDL"
 }
