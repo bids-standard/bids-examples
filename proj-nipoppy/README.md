@@ -9,5 +9,5 @@ located under folders where bids layout is not enforced -- should be just fine.
 Some outstanding issues with validator(s) which were ran into while trying to
 get "proper" validation working using deno bids-validator (mark when solved)
 
-- [ ] https://github.com/bids-standard/bids-validator/issues/2007
+- [x] https://github.com/bids-standard/bids-validator/issues/2007
 
