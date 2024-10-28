@@ -1,0 +1,26 @@
+{
+    "onset": {
+        "Description": "REQUIRED. Onset (in seconds) of the event, measured from the beginning of the acquisition of the first data point stored in the corresponding task data file. Negative onsets are allowed, to account for events that occur prior to the first stored data point."
+    },
+    "duration": {
+        "Description": "REQUIRED. Duration of the event (measured from onset) in seconds"
+    },
+   "event_type": {
+        "LongName": "Hierarchical Event Descriptors annotations",
+        "Description": "The main category of the event",
+        "Levels": {
+            "eyes_open": "Eyes are open",
+            "eyes_closed": "Eyes are closed",
+            "photicstim": "Intermittent photic stimulation"
+          },
+          "HED": {
+            "eyes_open": "Open-eyes",
+            "eyes_closed": "Close-eyes",
+            "photicstim": "Intermittent-photic-stimulation"          }
+        },
+    "stim_frequency": {
+      "LongName": "Photic stimulation frequency",
+      "Description": "Frequency of photic stimulation in Hz",
+      "HED": "Intermittent-photic-stimulation/# Hz"
+    }
+}

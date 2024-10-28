@@ -1,0 +1,21 @@
+{
+	"TaskName": "photicstim",
+	"TaskDescription": "Photic stimulation",
+	"SamplingFrequency": 512,
+	"PowerLineFrequency": 60,
+	"SoftwareFilters": "n/a",
+	"HardwareFilters": {
+		"HighpassFilter": {
+			"CutoffFrequency": 219
+		},
+		"LowpassFilter": {
+			"CutoffFrequency": 0.01
+		}
+	},
+	"Manufacturer": "Natus",
+	"InstitutionName": "Mayo Clinic",
+	"SEEGChannelCount": 166,
+	"RecordingDuration": 865.235,
+	"RecordingType": "continuous",
+	"iEEGReference": "subgaleal"
+}

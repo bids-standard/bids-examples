@@ -1,0 +1,29 @@
+# BIDS example with HED-SCORE schema library annotations
+
+The HED schema library for the Standardized Computer-based Organized Reporting of EEG (SCORE) can be used to add annotations for BIDS datasets. The annotations are machine readable and validated with the BIDS and HED validators. 
+
+The examples are related to the following preprint:
+Attia TP, Robbins K, Beniczky S, Bosch-Bayard J, Delorme A, Lundstrom BN, Rogers C, Rampp S, Valdes-Sosa P, Truong D, Worrell G, Makeig S, Hermes D. Hierarchical Event Descriptor library schema for EEG data annotation. arXiv preprint arXiv:2310.15173. 2023 Oct 4.
+
+# General information
+This BIDS example set includes 3 subjects where EEG data are annotated according to the HED-SCORE schema library:
+- Example subject with annotated Seizures.
+- Example subject with annotated Artifacts.
+- Example subject with an annotated Modulator (photic stimulation).
+
+Data are annotated by adding a column for annotations in the _events.tsv. This levels/annotations in this column are defined in the _events.json sidecar as HED tags. When annotations are observed in particular EEG channels, the relevant channels is annotated by including a channel column in the events.tsv file.
+
+# Source data
+Examples are based on original datasets:
+- sub-eegSeizureTUH    The TUH EEG Seizure Corpus. Database: TUH EEG Seizure Corpus (TUSZ), Version: 1.5.3, Patient: 258, Session: s003 (../tuh_eeg_seizure/v1.5.3/edf/dev/01_tcp_ar/002/00000258/s003_2003_07_22)
+- sub-eegArtifactTUH   The TUH EEG Artifact Corpus. Database: TUH EEG Artifact Corpus (TUAR), Version: v2.0.0, Patient: 715 , Session: s010 (../tuh_eeg_artifact/edf/01_tcp_ar/007/00000715/s010_2014_08_07)
+- sub-ieegModulator    Intracranial EEG dataset collected at Mayo Clinic Rochester, MN during photic stimulation. The photic stimulation is annotated using the HED-SCORE modulator.
+
+# More information
+HED: https://www.hedtags.org/
+HED schema library for SCORE: https://github.com/hed-standard/hed-schema-library 
+Temple University Hospital EEG Data Corpus: https://isip.piconepress.com/projects/tuh_eeg/
+
+# Contact
+Tal Pal Attia: attia.tal@mayo.edu
+Dora Hermes: hermes.dora@mayo.edu

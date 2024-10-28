@@ -1,0 +1,30 @@
+{
+    "onset": {
+        "Description": "REQUIRED. Onset (in seconds) of the event, measured from the beginning of the acquisition of the first data point stored in the corresponding task data file. Negative onsets are allowed, to account for events that occur prior to the first stored data point."
+    },
+    "duration": {
+        "Description": "REQUIRED. Duration of the event (measured from onset) in seconds"
+    },
+    "annotation_type": {
+        "LongName": "Hierarchical Event Descriptors annotations",
+        "Description": "EEG interpretation Hierarchical Event Descriptors annotations",
+        "Levels": {
+            "eyem": "Eye movements can cause artifacts on recordings. The charge of the eye can especially cause artifacts in electrophysiology data.",
+            "elec": "Non biological artifacts encompass various electrode related artifacts, such as electrode pop and electrode movement.",
+            "musc": "EMG artifact. Artifact from muscle activity and myogenic potentials at the measurements site.",
+            "eyem_musc": "Eye and Muscle artifacts."
+        },
+        "HED": {
+            "eyem": "Eye-movement-artifact",
+            "elec": "Nonbiological-artifact",
+            "musc": "EMG-artifact",
+            "eyem_musc": "(Eye-movement-artifact, EMG-artifact)"
+        }
+    },
+    "channel": {
+        "LongName": "Annotated channel",
+        "Description": "Space separated list of annotated channels corresponding to *_channels.tsv.",
+        "Delimiter": " ",
+        "HED": "Parameter-value/#"
+    }
+}
