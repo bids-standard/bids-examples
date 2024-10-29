@@ -1,9 +1,12 @@
 {
-    "stim_id": {
-        "Description": "The stimulus ID included in the stimli directory"
+    "stimulus_id": {
+        "Description": "The stimulus ID included in the stimuli directory"
     },
     "type": {
         "Description": "The type of stimulus"
+    },
+    "present": {
+        "Description": "The presence of the stimulus file in the directory"
     },
     "nsd_id": {
         "Description": "The Natural Scene ID of the stimulus"
