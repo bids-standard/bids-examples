@@ -12,10 +12,10 @@
     "HED": "Label/dog_voice, (Sensory-event, (Auditory-presentation, (Animal-agent, Barking)))"
   },
   "foley_sound": {
-    "HED": "Label/foley_sound, (Sensory-event, Auditory-presentation, (Named-object-sound, Label/#))"
+    "HED": "Label/foley_sound, (Sensory-event, Auditory-presentation, (Named-object-sound, ID/#))"
   },  
   "background_music": {
-    "HED": "Label/background_music, (Sensory-event, Auditory-presentation, Label/#)"
+    "HED": "Label/background_music, (Sensory-event, Auditory-presentation, ID/#)"
   },
   "game_sound": {
     "Description": "This describes the background sound generated from the video game played in the movie",

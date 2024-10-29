@@ -6,12 +6,16 @@
     },
     "duration": {
         "Description": "Duration of the event. For this stimulus, this is the duration of the shot.",
-        "Units": "seconds"
+        "Units": "seconds",
+        "HED": "(Duration/# s, ({shot_number}))"
     },
     "shot_number": {
-        "Description": "Shot sequence number in the movie"
+        "Description": "Shot sequence number in the movie",
+        "HED": "(Sensory-event, Visual-presentation, (Computer-screen, Label/shotNumber, Item/#))"
     },
     "LLR": {
-        "Description": "Log Luminance Ratio"
+        "Description": "Log Luminance Ratio for the three frames before and after the shot change",
+        "Units": "dB",
+        "HED": "(Luminance, Computed-feature, Ratio/#)"
     }
 }
