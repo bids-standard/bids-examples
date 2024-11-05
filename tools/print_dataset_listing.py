@@ -10,7 +10,7 @@ import pandas as pd
 from bids import BIDSLayout
 
 folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site", ".vscode"]
-suffixes_to_remove = ["README", "description", "participants"]
+suffixes_to_remove = ["README", "description", "participants", "CITATION"]
 column_order = [
     "name",
     "description",
