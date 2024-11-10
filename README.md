@@ -136,6 +136,19 @@ DO NOT EDIT DIRECTLY.
 | [asl004](https://github.com/bids-standard/bids-examples/tree/master/asl004)           | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar approach | anat, fmap, perf | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 | [asl005](https://github.com/bids-standard/bids-examples/tree/master/asl005)           | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 
+### Behavioral
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                        | description                                                                                 | datatypes                       | suffixes                                                                                                       | link to full data                                | maintained by                              |
+|:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|:--------------------------------|:---------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|:-------------------------------------------|
+| [ds000117](https://github.com/bids-standard/bids-examples/tree/master/ds000117)                             | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | anat, beh, dwi, fmap, func, meg | FLASH, T1w, bold, channels, coordsystem, dwi, events, headshape, magnitude1, magnitude2, meg, phasediff, scans | [link](https://openneuro.org/datasets/ds000117/) | [@RikHenson](https://github.com/RikHenson) |
+| [eeg_ds003645s_hed_demo](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed_demo) | Shows usage of Hierarchical Event Descriptor (HED) in .tsv files                            | anat, beh, eeg, micr, motion    | KSSSleep, SPIM, beh, channels, coordsystem, defacemask, eeg, electrodes, events, motion, photo, samples, scans | [link](https://openneuro.org/datasets/ds003645)  | [@VisLab](https://github.com/VisLab)       |
+| [synthetic](https://github.com/bids-standard/bids-examples/tree/master/synthetic)                           | A synthetic dataset                                                                         | anat, beh, func                 | T1w, beh, bold, events, physio, scans, sessions, stim                                                          | n/a                                              | [@effigies](https://github.com/effigies)   |
+
 ### EEG
 
 <!--
@@ -150,6 +163,21 @@ DO NOT EDIT DIRECTLY.
 | [eeg_face13](https://github.com/bids-standard/bids-examples/tree/master/eeg_face13)                               | Deconstructing the early visual electrocortical response to face and house stimuli. EDF format                     | eeg         | channels, coordsystem, eeg, electrodes, events | n/a                                             | [@andesha](https://github.com/andesha)         |
 | [eeg_matchingpennies](https://github.com/bids-standard/bids-examples/tree/master/eeg_matchingpennies)             | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | eeg         | channels, eeg, events                          | [link](https://doi.org/10.17605/OSF.IO/CJ2DR)   | [@sappelhoff](https://github.com/sappelhoff)   |
 | [eeg_rishikesh](https://github.com/bids-standard/bids-examples/tree/master/eeg_rishikesh)                         | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | eeg         | channels, eeg, events                          | [link](https://openneuro.org/datasets/ds001787) | [@arnodelorme](https://github.com/arnodelorme) |
+
+### DWI
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                      | description                                                                                          | datatypes                       | suffixes                                                                                                       | link to full data                                              | maintained by                              |
+|:------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:--------------------------------|:---------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
+| [ds000117](https://github.com/bids-standard/bids-examples/tree/master/ds000117)           | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task          | anat, beh, dwi, fmap, func, meg | FLASH, T1w, bold, channels, coordsystem, dwi, events, headshape, magnitude1, magnitude2, meg, phasediff, scans | [link](https://openneuro.org/datasets/ds000117/)               | [@RikHenson](https://github.com/RikHenson) |
+| [ds114](https://github.com/bids-standard/bids-examples/tree/master/ds114)                 | multiple tasks, multiple runs                                                                        | anat, dwi, func                 | T1w, bold, dwi, events                                                                                         | [link](https://openneuro.org/datasets/ds000114/versions/1.0.1) | n/a                                        |
+| [dwi_deriv](https://github.com/bids-standard/bids-examples/tree/master/dwi_deriv)         | exemplifies the storage of diffusion MRI derivates that may be generated on the Siemens XA platform. | dwi                             | dwi                                                                                                            | n/a                                                            | n/a                                        |
+| [eeg_rest_fmri](https://github.com/bids-standard/bids-examples/tree/master/eeg_rest_fmri) | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)                   | anat, dwi, eeg, func            | T1w, bold, dwi, eeg                                                                                            | n/a                                                            | [@cpernet](https://github.com/cpernet)     |
+| [genetics_ukbb](https://github.com/bids-standard/bids-examples/tree/master/genetics_ukbb) | multiple tasks, T1w, DTI, BOLD, genetic info                                                         | anat, dwi, func                 | FLAIR, T1w, bold, dwi, events, info                                                                            | n/a                                                            | [@cpernet](https://github.com/cpernet)     |
 
 ### iEEG
 
@@ -167,6 +195,20 @@ DO NOT EDIT DIRECTLY.
 | [ieeg_motorMiller2007](https://github.com/bids-standard/bids-examples/tree/master/ieeg_motorMiller2007)     | Cue-based hand & tongue movement data                                                                          | ieeg                   | channels, coordsystem, electrodes, events, ieeg                        | n/a                                                                         | [@dorahermes](https://github.com/dorahermes) |
 | [ieeg_visual](https://github.com/bids-standard/bids-examples/tree/master/ieeg_visual)                       | Stimulus dependence of gamma oscillations in human visual cortex                                               | anat, ieeg             | T1w, channels, coordsystem, electrodes, events, ieeg                   | n/a                                                                         | [@dorahermes](https://github.com/dorahermes) |
 | [ieeg_visual_multimodal](https://github.com/bids-standard/bids-examples/tree/master/ieeg_visual_multimodal) | n/a                                                                                                            | anat, fmap, func, ieeg | T1w, bold, channels, coordsystem, electrodes, epi, events, ieeg, sbref | n/a                                                                         | [@irisgroen](https://github.com/irisgroen)   |
+| [xeeg_hed_score](https://github.com/bids-standard/bids-examples/tree/master/xeeg_hed_score)                 | EEG and iEEG data with annotations of artifacts, seizures and modulators using HED-SCORE                       | anat, eeg, ieeg        | T1w, channels, coordsystem, eeg, electrodes, events, ieeg              | n/a                                                                         | [@dorahermes](https://github.com/dorahermes) |
+
+### HED
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                              | description                                                                              | datatypes                    | suffixes                                                                                                       | link to full data                               | maintained by                                |
+|:------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|:-----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------------|:---------------------------------------------|
+| [eeg_ds003645s_hed_demo](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed_demo)       | Shows usage of Hierarchical Event Descriptor (HED) in .tsv files                         | anat, beh, eeg, micr, motion | KSSSleep, SPIM, beh, channels, coordsystem, defacemask, eeg, electrodes, events, motion, photo, samples, scans | [link](https://openneuro.org/datasets/ds003645) | [@VisLab](https://github.com/VisLab)         |
+| [eeg_ds003645s_hed_library](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed_library) | HED annotation using HED library vocabularies (schema).                                  | eeg                          | channels, eeg, events                                                                                          | [link](https://openneuro.org/datasets/ds003645) | [@VisLab](https://github.com/VisLab)         |
+| [xeeg_hed_score](https://github.com/bids-standard/bids-examples/tree/master/xeeg_hed_score)                       | EEG and iEEG data with annotations of artifacts, seizures and modulators using HED-SCORE | anat, eeg, ieeg              | T1w, channels, coordsystem, eeg, electrodes, events, ieeg                                                      | n/a                                             | [@dorahermes](https://github.com/dorahermes) |
 
 ### MEG
 
@@ -309,16 +351,3 @@ DO NOT EDIT DIRECTLY.
 | [qmri_sa2rage](https://github.com/bids-standard/bids-examples/tree/master/qmri_sa2rage)     | Fast B1+ mapping using SA2RAGE                                                           | fmap        | TB1SRGE                                                | `not publicly available`      | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
 | [qmri_tb1tfl](https://github.com/bids-standard/bids-examples/tree/master/qmri_tb1tfl)       | B1+ mapping with TurboFLASH readout.                                                     | fmap        | TB1TFL                                                 | `not publicly available`      | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
 | [qmri_vfa](https://github.com/bids-standard/bids-examples/tree/master/qmri_vfa)             | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | anat, fmap  | TB1AFI, VFA                                            | [link](https://osf.io/k4bs5/) | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
-
-### Behavioral
-
-<!--
-TABLE BELOW IS GENERATED AUTOMATICALLY.
-DO NOT EDIT DIRECTLY.
--->
-
-| name                                                                                                        | description                                                                                 | datatypes                       | suffixes                                                                                                       | link to full data                                | maintained by                              |
-|:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|:--------------------------------|:---------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|:-------------------------------------------|
-| [ds000117](https://github.com/bids-standard/bids-examples/tree/master/ds000117)                             | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | anat, beh, dwi, fmap, func, meg | FLASH, T1w, bold, channels, coordsystem, dwi, events, headshape, magnitude1, magnitude2, meg, phasediff, scans | [link](https://openneuro.org/datasets/ds000117/) | [@RikHenson](https://github.com/RikHenson) |
-| [eeg_ds003645s_hed_demo](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed_demo) | Shows usage of Hierarchical Event Descriptor (HED) in .tsv files                            | anat, beh, eeg, micr, motion    | KSSSleep, SPIM, beh, channels, coordsystem, defacemask, eeg, electrodes, events, motion, photo, samples, scans | [link](https://openneuro.org/datasets/ds003645)  | [@VisLab](https://github.com/VisLab)       |
-| [synthetic](https://github.com/bids-standard/bids-examples/tree/master/synthetic)                           | A synthetic dataset                                                                         | anat, beh, func                 | T1w, beh, bold, events, physio, scans, sessions, stim                                                          | n/a                                              | [@effigies](https://github.com/effigies)   |
