@@ -3,8 +3,8 @@
 # small bash script to create a synthethic BIDS data set
 
 # defines where the BIDS data set will be created
-start_dir=$(pwd)
-raw_dir=${start_dir}/../
+code_dir=$( dirname $0 )
+raw_dir=$( dirname $code_dir )
 
 subject_list='01 02 03 04 05'
 session_list='01'
@@ -23,10 +23,9 @@ create_raw_beh() {
     mkdir -p ${this_dir}
 
     filename=${this_dir}/sub-${subject}_ses-${ses}_task-${task_name}${suffix}.tsv
-    echo "trial\tresponse\treaction_time\tstim_file" >${filename}
-    echo "congruent\tred\t1.435\timages/word-red_color-red.jpg" >>${filename}
-    echo "incongruent\tred\t1.739\timages/word-red_color-blue.jpg" >>${filename}
-
+    echo -e "trial\tresponse\treaction_time\tstim_file" >${filename}
+    echo -e "congruent\tred\t1.435\timages/word-red_color-red.jpg" >>${filename}
+    echo -e "incongruent\tred\t1.739\timages/word-red_color-blue.jpg" >>${filename}
 }
 
 # RAW DATASET
@@ -36,3 +35,7 @@ for subject in ${subject_list}; do
     done
 
 done
+
+mkdir -p ${raw_dir}/stimuli/images
+touch ${raw_dir}/stimuli/images/word-red_color-red.jpg
+touch ${raw_dir}/stimuli/images/word-red_color-blue.jpg
