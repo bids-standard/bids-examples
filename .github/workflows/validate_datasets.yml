@@ -100,12 +100,16 @@ jobs:
       if: matrix.bids-validator == 'legacy'
       shell: bash
 
+    - name: Set BIDS_SCHEMA variable for dev version
+      if: matrix.bids-validator == 'dev'
+      # When proposing new features, schema changes may be necessary.
+      # Update this URL to the schema.json from PRs to the spec, when needed.
+      # If this variable is unset, dev will generally track the latest development
+      # release of https://jsr.io/@bids/schema
+      run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
+
     - name: Validate all BIDS datasets using bids-validator
       run: |
         cat ./run_tests.sh
         ./run_tests.sh
       shell: bash
-      env:
-        # When proposing new features, schema changes may be necessary.
-        # Update this URL to the schema.json from PRs to the spec, when needed.
-        BIDS_SCHEMA: https://bids-specification.readthedocs.io/en/latest/schema.json
