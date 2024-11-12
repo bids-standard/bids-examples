@@ -1,1 +1,1 @@
-The wesbite listing BIDS examples can now be found on the [main BIDS website](https://bids-website.readthedocs.io/en/latest/datasets/examples.html).
+The website listing BIDS examples can now be found on the [main BIDS website](https://bids-website.readthedocs.io/en/latest/datasets/examples.html).
