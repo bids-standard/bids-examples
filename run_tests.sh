@@ -31,7 +31,7 @@ for i in "${datasets[@]}"; do
 
     # Use default configuration unless overridden
     if [[ ! ( -f "${i%%/}/.bids-validator-config.json" || $CMD =~ /--config/ ) ]]; then
-        CMD="$CMD --config '$PWD/${VARIANT}config.json'"
+        CMD="$CMD --config $PWD/${VARIANT}config.json"
     fi
 
     # Ignore NIfTI headers except for synthetic dataset
