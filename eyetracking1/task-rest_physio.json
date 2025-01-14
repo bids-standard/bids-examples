@@ -1,0 +1,31 @@
+{
+    "PhysioType": "eyetrack",
+    "Manufacturer": "SR-Research",
+    "Columns": [
+        "timestamp",
+        "x_coordinate",
+        "y_coordinate",
+        "pupil_size"
+    ],
+    "timestamp": {
+        "Description": "Timestamp issued by the eye-tracker indexing the continuous recordings corresponding to the sampled eye."
+    },
+    "x_coordinate": {
+        "Description": "Gaze position x-coordinate of the recorded eye, in the coordinate units specified in the corresponding metadata sidecar.",
+        "Units": "a.u."
+    },
+    "y_coordinate": {
+        "Description": "Gaze position y-coordinate of the recorded eye, in the coordinate units specified in the corresponding metadata sidecar.",
+        "Units": "a.u."
+    },
+    "pupil_size": {
+        "Description": "Pupil area of the recorded eye as calculated by the eye-tracker in arbitrary units (see EyeLink's documentation for conversion).",
+        "Units": "a.u."
+    },
+    "SampleCoordinateSystem": "gaze-on-screen",
+    "SampleCoordinateUnits": "pixel",
+    "ManufacturersModelName": "EYELINK II CL v5.09 Nov 17 2015",
+    "DeviceSerialNumber": "CLO-ZBD04",
+    "EyeTrackingMethod": "P-CR",
+    "SamplingFrequency": 1000
+}

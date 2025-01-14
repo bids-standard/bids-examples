@@ -1,0 +1,20 @@
+{
+    "Columns": [
+        "onset",
+        "duration",
+        "trial_type",
+        "blink",
+        "message"
+    ],
+    "Description": "Messages logged by the measurement device",
+    "ForeignIndexColumn": "timestamp",
+    "blink": {
+        "Description": "One indicates if the eye was closed, zero if open."
+    },
+    "message": {
+        "Description": "String messages logged by the eye-tracker."
+    },
+    "trial_type": {
+        "Description": "Event type as identified by the eye-tracker's model ((either 'n/a' if not applicabble, 'fixation', or 'saccade')."
+    }
+}
