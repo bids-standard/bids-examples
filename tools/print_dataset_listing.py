@@ -4,13 +4,15 @@ and turns it into a markdown document with a series of markdown tables.
 You can pass an argument to insert the content in another file.
 Otherwise the content will be added to the README of this repository.
 """
+
 import sys
 from pathlib import Path
 import pandas as pd
 from bids import BIDSLayout
+from rich import print
 
 folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site", ".vscode"]
-suffixes_to_remove = ["README", "description", "participants"]
+suffixes_to_remove = ["README", "description", "participants", "CITATION"]
 column_order = [
     "name",
     "description",
@@ -23,15 +25,18 @@ column_order = [
 UPSTREAM_REPO = "https://github.com/bids-standard/bids-examples/tree/master/"
 
 # set to True to update the listing of datasets with the datatypes and suffixes
-update_content = True
+update_content = False
 
 root = Path(__file__).resolve().parent.parent
 input_file = root / "dataset_listing.tsv"
 
 tables_order = {
     "ASL": "perf",
+    "Behavioral": "beh",
     "EEG": "^eeg$",
+    "DWI": "dwi",
     "iEEG": "ieeg",
+    "HED": "",
     "MEG": "meg",
     "Microscopy": "micr",
     "Motion": "motion",
@@ -40,10 +45,10 @@ tables_order = {
     "NIRS": "nirs",
     "PET": "pet",
     "qMRI": "",
-    "Behavioral": "beh",
 }
 
 DELIMITER = "<!-- ADD EXAMPLE LISTING HERE -->"
+
 
 def main(output_file=None):
 
@@ -55,6 +60,8 @@ def main(output_file=None):
 
     df = pd.read_csv(input_file, sep="\t")
 
+    names = df["name"].copy()
+
     check_missing_folders(df, root)
 
     if update_content:
@@ -64,12 +71,10 @@ def main(output_file=None):
 
     df = add_links(df)
 
-    print(df)
-
     clean_previous_run(output_file)
 
     df = df[column_order]
-    add_tables(df, output_file)
+    add_tables(df, output_file, names)
 
 
 def check_missing_folders(df, root):
@@ -93,10 +98,12 @@ def update_datatypes_and_suffixes(df, root):
         layout = BIDSLayout(root / row[1]["name"])
 
         tmp = sorted(layout.get_datatypes()) or ["n/a"]
+        print(f"  {tmp}")
         datatypes.append(stringify_list(tmp))
 
         tmp = layout.get_suffixes()
         tmp = sorted([s for s in tmp if s not in suffixes_to_remove]) or ["n/a"]
+        print(f"  {tmp}")
         suffixes.append(stringify_list(tmp))
 
     if not datatypes:
@@ -122,7 +129,6 @@ def add_links(df):
     return df
 
 
-
 def clean_previous_run(output_file: Path) -> None:
     print("Cleaning output files from previous run...")
     lines = output_file.read_text().split("\n")
@@ -134,28 +140,38 @@ def clean_previous_run(output_file: Path) -> None:
                 break
             f.write(line + "\n")
 
+
 def add_warning(f):
-    f.write("""<!--
+    f.write(
+        """<!--
 Table below is generated automatically.
 Do not edit directly.
 -->
 
-""".upper())
+""".upper()
+    )
 
-def add_tables(df: pd.DataFrame, output_file: Path) -> None:
+
+def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
     print("Writing markdown tables...")
     df.fillna("n/a", inplace=True)
     for table_name, table_datatypes in tables_order.items():
         with output_file.open("a") as f:
             f.write(f"\n### {table_name}\n\n")
             add_warning(f)
+
         if table_name == "qMRI":
-            sub_df = df[df["name"].str.contains("qmri_")]
+            mask = names.str.contains("qmri_")
+        elif table_name == "HED":
+            mask = names.str.contains("_hed_")
         else:
-            sub_df = df[df["datatypes"].str.contains(table_datatypes, regex=True)]
+            mask = df["datatypes"].str.contains(table_datatypes, regex=True)
+
+        sub_df = df[mask].copy()
         sub_df.sort_values(by=["name"], inplace=True)
-        # sub_df["name"] = df["name"].apply(lambda x: f'[{x}](https://github.com/bids-standard/bids-examples/tree/master/{x})')
+
         print(sub_df)
+
         sub_df.to_markdown(output_file, index=False, mode="a")
         with output_file.open("a") as f:
             f.write("\n")
