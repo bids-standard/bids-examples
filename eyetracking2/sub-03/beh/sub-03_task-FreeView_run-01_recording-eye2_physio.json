@@ -1,0 +1,76 @@
+{
+    "StartTime": [
+        910429
+    ],
+    "StopTime": [
+        1251424
+    ],
+    "CalibrationCount": 1,
+    "CalibrationUnit": "pixel",
+    "CalibrationType": "HV13",
+    "CalibrationPosition": [
+        [
+            960,
+            540
+        ],
+        [
+            960,
+            732
+        ],
+        [
+            1126,
+            444
+        ],
+        [
+            576,
+            540
+        ],
+        [
+            1344,
+            540
+        ],
+        [
+            768,
+            873
+        ],
+        [
+            1152,
+            873
+        ],
+        [
+            768,
+            207
+        ],
+        [
+            1152,
+            207
+        ],
+        [
+            794,
+            636
+        ],
+        [
+            1126,
+            636
+        ],
+        [
+            794,
+            444
+        ],
+        [
+            960,
+            348
+        ]
+    ],
+    "RecordedEye": "Right",
+    "AverageCalibrationError": [
+        [
+            0.48
+        ]
+    ],
+    "MaximalCalibrationError": [
+        [
+            0.74
+        ]
+    ]
+}
