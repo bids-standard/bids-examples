@@ -1,5 +1,10 @@
 {
-  "Name": "Human Connectome Project",
-  "BIDSVersion": "1.0.2",
-  "License": "Custom"
+  "Name": "BIDS-Prov example based on hirni-demo",
+  "BIDSVersion": "1.10.0",
+  "SourceDatasets": [
+    {
+      "URL": "https://github.com/psychoinformatics-de/hirni-demo",
+      "Version": "Commit f5aa766d900037d97c82329e7dfc94ee80086b92"
+    }
+  ]
 }
