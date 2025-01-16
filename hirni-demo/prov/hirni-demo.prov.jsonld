@@ -1,0 +1,90 @@
+{
+"@context": "https://purl.org/nidash/bidsprov/context.json",
+  "BIDSProvVersion": "0.0.1",
+  "Records": {
+    "Environments": [
+      {
+        "Id": "urn:fedora",
+        "Label": "Fedora release 36 (Thirty Six)",
+        "OperatingSystem": " GNU/Linux 6.2.15-100.fc36.x86_64"
+      }
+    ],
+    "Software": [
+      {
+        "Id": "urn:dcm2niix-4a586b50",
+        "Label": "dcm2niix",
+        "Version": "v1.0.20220720"
+      }
+    ],
+    "Activities": [
+      {
+        "Id": "urn:conversion-00f3a18f",
+        "Label": "Conversion",
+        "Command": "dcm2niix -o . -f sub-%i/ses-%t/anat/sub-%i_ses-%t_T1w sourcedata/acq1/dicoms/example-dicom-structural-master/dicoms/",
+        "AssociatedWith": "urn:dcm2niix-4a586b50",
+        "Used": [
+          "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms/N2D_0001.dcm",
+          "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms/N2D_0002.dcm",
+          "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms/N2D_0003.dcm"
+        ]
+      },
+      {
+        "Id": "urn:conversion-5a66f5be",
+        "Label": "Conversion",
+        "Command": "dcm2niix -o . -f sub-%i/ses-%t/func/sub-%i_ses-%t_task-oneback_run-1_bold sourcedata/acq1/dicoms/example-dicom-structural-master/dicoms/",
+        "AssociatedWith": "urn:dcm2niix-4a586b50",
+        "Used": [
+          "bids::sourcedata/hirni-demo/acq2/dicoms/example-dicom-functional-master/dicoms/MR.1.3.46.670589.11.38317.5.0.4476.2014042516042547586",
+          "bids::sourcedata/hirni-demo/acq2/dicoms/example-dicom-functional-master/dicoms/MR.1.3.46.670589.11.38317.5.0.4476.2014042516042548588",
+          "bids::sourcedata/hirni-demo/acq2/dicoms/example-dicom-functional-master/dicoms/MR.1.3.46.670589.11.38317.5.0.4476.2014042516042551590"
+        ]
+      }
+    ],
+    "Entities": [
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms/N2D_0001.dcm",
+        "Label": "N2D_0001.dcm"
+      },
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms/N2D_0002.dcm",
+        "Label": "N2D_0002.dcm"
+      },
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms/N2D_0003.dcm",
+        "Label": "N2D_0003.dcm"
+      },
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq2/dicoms/example-dicom-functional-master/dicoms/MR.1.3.46.670589.11.38317.5.0.4476.2014042516042547586",
+        "Label": "MR.1.3.46.670589.11.38317.5.0.4476.2014042516042547586"
+      },
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq2/dicoms/example-dicom-functional-master/dicoms/MR.1.3.46.670589.11.38317.5.0.4476.2014042516042548588",
+        "Label": "MR.1.3.46.670589.11.38317.5.0.4476.2014042516042548588"
+      },
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq2/dicoms/example-dicom-functional-master/dicoms/MR.1.3.46.670589.11.38317.5.0.4476.2014042516042551590",
+        "Label": "MR.1.3.46.670589.11.38317.5.0.4476.2014042516042551590"
+      },
+      {
+        "Id": "bids::sub-02/ses-20130717141500/anat/sub-02_ses-20130717141500_T1w.nii",
+        "Label": "sub-02_ses-20130717141500_T1w.nii",
+        "GeneratedBy": "urn:conversion-00f3a18f"
+      },
+      {
+        "Id": "bids::sub-02/ses-20130717141500/anat/sub-02_ses-20130717141500_T1w.json",
+        "Label": "sub-02_ses-20130717141500_T1w.json",
+        "GeneratedBy": "urn:conversion-00f3a18f"
+      },
+      {
+        "Id": "bids::sub-02/ses-20140425155335/func/sub-02_ses-20140425155335_task-oneback_run-1_bold.nii",
+        "Label": "sub-02_ses-20140425155335_task-oneback_run-1_bold.nii",
+        "GeneratedBy": "urn:conversion-5a66f5be"
+      },
+      {
+        "Id": "bids::sub-02/ses-20140425155335/func/sub-02_ses-20140425155335_task-oneback_run-1_bold.json",
+        "Label": "sub-02_ses-20140425155335_task-oneback_run-1_bold.json",
+        "GeneratedBy": "urn:conversion-5a66f5be"
+      },
+    ]
+  }
+}
