@@ -1,5 +1,5 @@
 {
-"@context": "https://purl.org/nidash/bidsprov/context.json",
+  "@context": "https://purl.org/nidash/bidsprov/context.json",
   "BIDSProvVersion": "0.0.1",
   "Records": {
     "Environments": [
@@ -84,7 +84,7 @@
         "Id": "bids::sub-02/ses-20140425155335/func/sub-02_ses-20140425155335_task-oneback_run-1_bold.json",
         "Label": "sub-02_ses-20140425155335_task-oneback_run-1_bold.json",
         "GeneratedBy": "urn:conversion-5a66f5be"
-      },
+      }
     ]
   }
 }
