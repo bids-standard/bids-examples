@@ -21,7 +21,7 @@ jobs:
       fail-fast: false
       matrix:
         platform: [ubuntu-latest, macos-latest, windows-latest]
-        bids-validator: [master, stable, master-deno]
+        bids-validator: [stable, main, dev, legacy]
 
     runs-on: ${{ matrix.platform }}
 
@@ -33,53 +33,50 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Set up Node.js
-      if: "matrix.bids-validator == 'stable' || matrix.bids-validator == 'master'"
+      if: matrix.bids-validator == 'legacy'
       uses: actions/setup-node@v4
       with:
         node-version: 18
 
-    - name: Install BIDS validator (stable)
-      if: "matrix.bids-validator == 'stable'"
-      run: |
-        npm install -g bids-validator
-
-    - name: Install BIDS validator (master)
-      if: "matrix.bids-validator == 'master'"
-      run: |
-        pushd ..
-        # Get npm 7+
-        npm install -g npm
-        git clone --depth 1 https://github.com/bids-standard/bids-validator
-        cd bids-validator
-        # Generate the full development node_modules
-        npm clean-install
-        # Build & bundle the bids-validator CLI package
-        npm -w bids-validator run build
-        # Generate a package to install globally
-        npm -w bids-validator pack
-        # Install the package globally
-        bash -c "npm install -g bids-validator-*.tgz"
-        popd
-
-    - uses: denoland/setup-deno@v1
-      if: "matrix.bids-validator == 'master-deno'"
+    - uses: denoland/setup-deno@v2
+      if: matrix.bids-validator != 'legacy'
       with:
-        deno-version: v1.x
+        deno-version: v2.x
 
-    - name: Install BIDS validator (master deno build)
-      if: "matrix.bids-validator == 'master-deno'"
+    - name: Install BIDS validator (stable)
+      if: matrix.bids-validator == 'stable'
+      run: |
+          deno install -Agf -n bids-validator jsr:@bids/validator
+      shell: bash
+
+    - name: Install BIDS validator (main)
+      if: matrix.bids-validator == 'main'
       run: |
         # If unmerged validator PRs are needed for testing, you can use
         # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
         deno install -Agf https://github.com/bids-standard/bids-validator/raw/deno-build/bids-validator.js
       shell: bash
 
+    - name: Install BIDS validator (dev)
+      if: matrix.bids-validator == 'dev'
+      run: |
+        git clone -b dev https://github.com/bids-standard/bids-validator/ ../bids-validator
+        cd ../bids-validator
+        deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
+      shell: bash
+
+    - name: Install BIDS validator (legacy)
+      if: "matrix.bids-validator == 'legacy'"
+      run: |
+        npm install -g bids-validator
+
     - name: Display versions and environment information
       run: |
         echo $TZ
         date
-        echo "npm"; npm --version
-        echo "node"; node --version
+        which deno && echo "deno\n----" && deno --version || true
+        echo "node\n----"; node --version
+        echo "npm\n----"; npm --version
         echo "bids-validator"; bids-validator --version
       shell: bash
 
@@ -98,17 +95,26 @@ jobs:
         fi
       shell: bash
 
-    - name: Skip MRS validation for legacy validator
-      run: for DS in mrs_*; do touch $DS/.SKIP_VALIDATION; done
-      if: "matrix.bids-validator != 'master-deno'"
+    - name: Skip legacy validation for post-legacy datasets
+      run: for DS in mrs_* dwi_deriv; do touch $DS/.SKIP_VALIDATION; done
+      if: matrix.bids-validator == 'legacy'
       shell: bash
+
+    - name: Skip stable validation for datasets with unreleased features
+      run: for DS in dwi_deriv; do touch $DS/.SKIP_VALIDATION; done
+      if: matrix.bids-validator != 'dev'
+      shell: bash
+
+    - name: Set BIDS_SCHEMA variable for dev version
+      if: matrix.bids-validator == 'dev'
+      # When proposing new features, schema changes may be necessary.
+      # Update this URL to the schema.json from PRs to the spec, when needed.
+      # If this variable is unset, dev will generally track the latest development
+      # release of https://jsr.io/@bids/schema
+      run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
         cat ./run_tests.sh
         ./run_tests.sh
       shell: bash
-      env:
-        # When proposing new features, schema changes may be necessary.
-        # Update this URL to the schema.json from PRs to the spec, when needed.
-        BIDS_SCHEMA: https://bids-specification.readthedocs.io/en/latest/schema.json
