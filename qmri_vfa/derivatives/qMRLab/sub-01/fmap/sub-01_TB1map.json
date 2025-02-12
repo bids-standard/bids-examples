@@ -10,7 +10,7 @@
     "ManufacturerModelName": "Skyra",
     "MRAcquisitionType": "3D",
     "PulseSequenceType": "SPGR",
-    "RepetitionTime": [0.02,0.1],
+    "RepetitionTimeExcitation": [0.02,0.1],
     "SpoilingState": true,
     "SpoilingType": "COMBINED",
     "SpoilingGradientMoment": [0.540,2.250],
