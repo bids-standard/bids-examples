@@ -15,6 +15,10 @@ concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   build:
     strategy:
@@ -47,7 +51,6 @@ jobs:
       if: matrix.bids-validator == 'stable'
       run: |
           deno install -Agf -n bids-validator jsr:@bids/validator
-      shell: bash
 
     - name: Install BIDS validator (main)
       if: matrix.bids-validator == 'main'
@@ -55,7 +58,6 @@ jobs:
         # If unmerged validator PRs are needed for testing, you can use
         # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
         deno install -Agf https://github.com/bids-standard/bids-validator/raw/deno-build/bids-validator.js
-      shell: bash
 
     - name: Install BIDS validator (dev)
       if: matrix.bids-validator == 'dev'
@@ -63,7 +65,6 @@ jobs:
         git clone -b dev https://github.com/bids-standard/bids-validator/ ../bids-validator
         cd ../bids-validator
         deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
-      shell: bash
 
     - name: Install BIDS validator (legacy)
       if: "matrix.bids-validator == 'legacy'"
@@ -78,7 +79,6 @@ jobs:
         echo "node\n----"; node --version
         echo "npm\n----"; npm --version
         echo "bids-validator"; bids-validator --version
-      shell: bash
 
     - name: Check that no large files are present
       if: "matrix.bids-validator == 'stable'"
@@ -93,17 +93,22 @@ jobs:
             echo "$found"
             exit 1;
         fi
-      shell: bash
 
     - name: Skip legacy validation for post-legacy datasets
-      run: for DS in mrs_* dwi_deriv; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in mrs_* dwi_deriv pheno004; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator == 'legacy'
-      shell: bash
 
-    - name: Skip stable validation for datasets with unreleased features
-      run: for DS in dwi_deriv; do touch $DS/.SKIP_VALIDATION; done
+    - name: Skip stable validation for datasets with unreleased validator features
+      # Replace ${EMPTY} with dataset patterns, when this is needed
+      # Reset to "for DS in ${EMPTY}; ..." after a validator release
+      run: for DS in ${EMPTY}; do touch $DS/.SKIP_VALIDATION; done
+      if: matrix.bids-validator == 'stable'
+
+    - name: Skip main validation for datasets with unreleased spec features
+      # Replace ${EMPTY} with dataset patterns, when this is needed
+      # Reset to "for DS in ${EMPTY}; ..." after a spec release
+      run: for DS in dwi_deriv pheno004; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator != 'dev'
-      shell: bash
 
     - name: Set BIDS_SCHEMA variable for dev version
       if: matrix.bids-validator == 'dev'
@@ -117,4 +122,3 @@ jobs:
       run: |
         cat ./run_tests.sh
         ./run_tests.sh
-      shell: bash
