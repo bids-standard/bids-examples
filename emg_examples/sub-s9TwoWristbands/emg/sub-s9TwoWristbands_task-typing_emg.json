@@ -1,0 +1,18 @@
+{
+	"EMGChannelCount":32,
+	"EMGPlacementScheme":"The wristbands were pleaced on the left and right wrists of the subject. See the channels.tsv file for details.",
+	"EMGReference":"bipolar",
+	"EMGGround":"n/a",
+    "EMGElectrodeCount":36,
+	"EMGElectrodeGroups": ["left-wristband", "right-wristband"],
+    "ElectrodeMaterial":"n/a",
+	"Manufacturer":"CTRL-Labs at Meta Reality Labs",
+	"ManufacturersModelName":"SEMG Research Device (SEMG-RD)",
+    "AmpifierType":"Wireless",
+	"RecordingDuration":1.00,
+	"SamplingFrequency":2000,
+    "HardwareFilters":"loawpass at 850 Hz, Highpass at 20 Hz",
+	"TaskDescription":"Subekcts were typing on a keyboard while their EMG data was recorded.",
+	"TaskName":"typing",
+	"TriggerChannelCount":0
+}

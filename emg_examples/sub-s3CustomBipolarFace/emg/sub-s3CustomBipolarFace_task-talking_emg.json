@@ -1,0 +1,16 @@
+{
+	"EMGChannelCount":6,
+	"EMGPlacementScheme":"Electrodes placed over articulatory muscles on the lower face.",
+	"EMGReference":"Behind the ear (Mastoid)",
+	"EMGGround":"n/a",
+    "EMGElectrodeCount":13,
+    "ElectrodeMaterial":"Ag/AgCl",
+	"Manufacturer":"Custom",
+	"ManufacturersModelName":"n/a",
+    "AmpifierType":"Wired",
+	"RecordingDuration":1.00,
+	"SamplingFrequency":2000,
+	"TaskDescription":"Subject perofrmed speech tasks.",
+	"TaskName":"talking",
+	"TriggerChannelCount":0
+}

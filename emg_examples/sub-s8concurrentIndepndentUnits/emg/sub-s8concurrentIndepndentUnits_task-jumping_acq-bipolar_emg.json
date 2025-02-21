@@ -1,0 +1,17 @@
+{
+	"EMGChannelCount":1,
+	"EMGPlacementScheme":"The bipolar electrode was palced on Retus Femoris according to SENIAM.",
+	"EMGReference":"bipolar",
+	"EMGGround":"n/a",
+    "EMGElectrodeCount":4,
+    "ElectrodeMaterial":"Ag/AgCl",
+	"Manufacturer":"Delsys",
+	"ManufacturersModelName":"Trigno",
+    "AmpifierType":"Wireless",
+	"RecordingDuration":1.00,
+	"SamplingFrequency":2000,
+    "HardwareFilters":"loawpass at 500 Hz",
+	"TaskDescription":"Subject performs single-leg jumping for 30 seconds.",
+	"TaskName":"jumpings",
+	"TriggerChannelCount":0
+}
