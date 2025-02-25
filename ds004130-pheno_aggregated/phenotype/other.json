@@ -1,0 +1,38 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "ANTI-HAV IGM (HEPA IGM)": {
+        "Units": "IGM)"
+    },
+    "ANTI-HBC ANTIBODY": {
+        "Units": "ANTIBODY"
+    },
+    "ANTI-HBC IGM": {
+        "Units": "IGM"
+    },
+    "ANTI-HBS ANTIBODY": {
+        "Units": "ANTIBODY"
+    },
+    "ANTI-HCV ANTIBODY": {
+        "Units": "ANTIBODY"
+    },
+    "ANTI-HIV1/2 ANTIBODY": {
+        "Units": "ANTIBODY"
+    },
+    "HBS AG, SCREENING": {
+        "Units": "SCREENING"
+    },
+    "HIV 1/2 ANTIGEN/ANTIBODY COMBO": {
+        "Units": "COMBO"
+    },
+    "HIV-1 AB DIFFERENTIATION, S": {
+        "Units": "S"
+    },
+    "HIV-1 RNA QUANTIFICATION COPIE COPIES/ML": {
+        "Units": "COPIES/ML"
+    },
+    "HIV-2 AB DIFFERENTIATION, S": {
+        "Units": "S"
+    }
+}
