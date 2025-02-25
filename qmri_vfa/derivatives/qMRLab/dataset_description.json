@@ -14,5 +14,8 @@
       "Name": "Manual",
       "Description": "Adjusted to conform to BIDS Derivatives"
     }
-  ]
+  ],
+  "DatasetLinks": {
+    "source": "../../"
+}
 }
