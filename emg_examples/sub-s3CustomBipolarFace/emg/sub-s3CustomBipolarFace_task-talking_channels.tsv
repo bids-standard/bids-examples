@@ -1,0 +1,7 @@
+name	type	units	reference	target_muscle	interelectrode_distance	signal_electrode
+EMG1	EMG	V	E2	tongue, anterior belly of the digastric	n/a	E1
+EMG2	EMG	V	E4	levator angulis oris, zygomaticus major	20 mm	E3
+EMG3	EMG	V	E6	levator angulis oris, zygomaticus major	n/a	E5
+EMG4	EMG	V	E8	platysma	n/a	E7
+EMG5	EMG	V	E10	orbicularis oris	n/a	E9
+EMG6	EMG	V	E12	tongue	20 mm	E11
