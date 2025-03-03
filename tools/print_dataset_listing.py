@@ -11,7 +11,7 @@ import pandas as pd
 from bids import BIDSLayout
 from rich import print
 
-folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site", ".vscode"]
+folders_to_skip = ["docs", ".git", ".github", "tools", "env", ".venv", "site", ".vscode"]
 suffixes_to_remove = ["README", "description", "participants", "CITATION"]
 column_order = [
     "name",
