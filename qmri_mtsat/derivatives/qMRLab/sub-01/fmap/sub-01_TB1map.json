@@ -1,7 +1,7 @@
 {
     "RawSources": [
-      "sub-01/fmap/sub-01_flip-01_TB1DAM.nii.gz",
-      "sub-01/fmap/sub-01_flip-02_TB1DAM.nii.gz"
+      "bids:source:sub-01/sub-01/fmap/sub-01_flip-01_TB1DAM.nii.gz",
+      "bids:source:sub-01/sub-01/fmap/sub-01_flip-02_TB1DAM.nii.gz"
     ],
     "IntendedFor": [
       "anat/sub-01_T1map.nii.gz"

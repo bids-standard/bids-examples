@@ -9,5 +9,8 @@
       "Name": "Manual",
       "Description": "Adapted from existing example, adjusted to conform to BIDS Derivatives"
     }
-  ]
+  ],
+  "DatasetLinks": {
+    "source": "../../"
+}
 }
