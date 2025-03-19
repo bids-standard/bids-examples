@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "pandas",
+#     "pybids",
+#     "rich",
+#     "tabulate",
+# ]
+# ///
+
 """Take the listing of examples datasets
 and turns it into a markdown document with a series of markdown tables.
 
