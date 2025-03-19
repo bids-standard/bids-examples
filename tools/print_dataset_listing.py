@@ -56,6 +56,7 @@ tables_order = {
     "NIRS": "nirs",
     "PET": "pet",
     "qMRI": "",
+    "Phenotype": "phenotype",
 }
 
 DELIMITER = "<!-- ADD EXAMPLE LISTING HERE -->"
