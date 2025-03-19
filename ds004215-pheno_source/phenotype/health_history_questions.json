@@ -1,0 +1,1476 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "nimh_rv_clinhx_01": {
+        "LongName": "HOSPITALIZATION_TREATMENT (question ID 209583)",
+        "Description": "I. Have you ever received the following? (Check all that apply)\n     (medical hospitalization not including uncomplicated childbirth)",
+        "Levels": {
+            "1": "Medical hospitalization",
+            "2": "Mental health hospitalization",
+            "3": "Treatment for alcohol and/or drug abuse",
+            "4": "Mental health counseling",
+            "5": "Medication for a mental health condition",
+            "0": "None"
+        }
+    },
+    "nimh_rv_clinhx_01_2": {
+        "LongName": "HOSPITALIZATION_TREATMENT (question ID 209583)",
+        "Description": "I. Have you ever received the following? (Check all that apply)\n     (medical hospitalization not including uncomplicated childbirth)",
+        "Levels": {
+            "1": "Medical hospitalization",
+            "2": "Mental health hospitalization",
+            "3": "Treatment for alcohol and/or drug abuse",
+            "4": "Mental health counseling",
+            "5": "Medication for a mental health condition",
+            "0": "None"
+        }
+    },
+    "nimh_rv_clinhx_01_3": {
+        "LongName": "HOSPITALIZATION_TREATMENT (question ID 209583)",
+        "Description": "I. Have you ever received the following? (Check all that apply)\n     (medical hospitalization not including uncomplicated childbirth)",
+        "Levels": {
+            "1": "Medical hospitalization",
+            "2": "Mental health hospitalization",
+            "3": "Treatment for alcohol and/or drug abuse",
+            "4": "Mental health counseling",
+            "5": "Medication for a mental health condition",
+            "0": "None"
+        }
+    },
+    "nimh_rv_clinhx_01_4": {
+        "LongName": "HOSPITALIZATION_TREATMENT (question ID 209583)",
+        "Description": "I. Have you ever received the following? (Check all that apply)\n     (medical hospitalization not including uncomplicated childbirth)",
+        "Levels": {
+            "1": "Medical hospitalization",
+            "2": "Mental health hospitalization",
+            "3": "Treatment for alcohol and/or drug abuse",
+            "4": "Mental health counseling",
+            "5": "Medication for a mental health condition",
+            "0": "None"
+        }
+    },
+    "nimh_rv_clinhx_01_5": {
+        "LongName": "HOSPITALIZATION_TREATMENT (question ID 209583)",
+        "Description": "I. Have you ever received the following? (Check all that apply)\n     (medical hospitalization not including uncomplicated childbirth)",
+        "Levels": {
+            "1": "Medical hospitalization",
+            "2": "Mental health hospitalization",
+            "3": "Treatment for alcohol and/or drug abuse",
+            "4": "Mental health counseling",
+            "5": "Medication for a mental health condition",
+            "0": "None"
+        }
+    },
+    "HOSPITALIZATION_TREATMENT_SPFY": {
+        "LongName": "HOSPITALIZATION_TREATMENT_SPFY (question ID 230203)",
+        "Description": "Please describe reason(s):"
+    },
+    "nimh_rv_clinhx_02, current_medication": {
+        "LongName": "MEDICATIONS (question ID 17491)",
+        "Description": "II. Are you currently taking any prescription and/or non-prescription medications?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "MEDICATIONS_SPFY": {
+        "LongName": "MEDICATIONS_SPFY (question ID 31524)",
+        "Description": "List medication(s):"
+    },
+    "BP_HIGH": {
+        "LongName": "BP_HIGH (question ID 141509)",
+        "Description": "High blood pressure",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "ANEMIA_": {
+        "LongName": "ANEMIA_ (question ID 38487)",
+        "Description": "Anemia",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "NEUROLOGICAL_ILLNESS": {
+        "LongName": "NEUROLOGICAL_ILLNESS (question ID 230204)",
+        "Description": "Neurological illness",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "PREGNANT": {
+        "LongName": "PREGNANT (question ID 3683)",
+        "Description": "Pregnant or trying to get pregnant",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "nimh_rv_clinhx_03": {
+        "LongName": "CLIN_HX_CANCER (question ID 209584)",
+        "Description": "Cancer",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_03_2": {
+        "LongName": "CLIN_HX_CANCER (question ID 209584)",
+        "Description": "Cancer",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_03_3": {
+        "LongName": "CLIN_HX_CANCER (question ID 209584)",
+        "Description": "Cancer",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_03_4": {
+        "LongName": "CLIN_HX_CANCER (question ID 209584)",
+        "Description": "Cancer",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_03_5": {
+        "LongName": "CLIN_HX_CANCER (question ID 209584)",
+        "Description": "Cancer",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_04": {
+        "LongName": "CLIN_HX_HEART_DISEASE (question ID 209586)",
+        "Description": "Heart disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_04_2": {
+        "LongName": "CLIN_HX_HEART_DISEASE (question ID 209586)",
+        "Description": "Heart disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_04_3": {
+        "LongName": "CLIN_HX_HEART_DISEASE (question ID 209586)",
+        "Description": "Heart disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_04_4": {
+        "LongName": "CLIN_HX_HEART_DISEASE (question ID 209586)",
+        "Description": "Heart disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_04_5": {
+        "LongName": "CLIN_HX_HEART_DISEASE (question ID 209586)",
+        "Description": "Heart disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "CLIN_HX_STROKE": {
+        "LongName": "CLIN_HX_STROKE (question ID 209592)",
+        "Description": "Stroke",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "CLIN_HX_STROKE_2": {
+        "LongName": "CLIN_HX_STROKE (question ID 209592)",
+        "Description": "Stroke",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "CLIN_HX_STROKE_3": {
+        "LongName": "CLIN_HX_STROKE (question ID 209592)",
+        "Description": "Stroke",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "CLIN_HX_STROKE_4": {
+        "LongName": "CLIN_HX_STROKE (question ID 209592)",
+        "Description": "Stroke",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_05": {
+        "LongName": "CLIN_HX_DIABETES (question ID 209590)",
+        "Description": "Diabetes",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_05_2": {
+        "LongName": "CLIN_HX_DIABETES (question ID 209590)",
+        "Description": "Diabetes",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_05_3": {
+        "LongName": "CLIN_HX_DIABETES (question ID 209590)",
+        "Description": "Diabetes",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_05_4": {
+        "LongName": "CLIN_HX_DIABETES (question ID 209590)",
+        "Description": "Diabetes",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_05_5": {
+        "LongName": "CLIN_HX_DIABETES (question ID 209590)",
+        "Description": "Diabetes",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_06": {
+        "LongName": "CLIN_HX_LUNG_DISEASE (question ID 209594)",
+        "Description": "Lung disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_06_2": {
+        "LongName": "CLIN_HX_LUNG_DISEASE (question ID 209594)",
+        "Description": "Lung disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_06_3": {
+        "LongName": "CLIN_HX_LUNG_DISEASE (question ID 209594)",
+        "Description": "Lung disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_06_4": {
+        "LongName": "CLIN_HX_LUNG_DISEASE (question ID 209594)",
+        "Description": "Lung disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_06_5": {
+        "LongName": "CLIN_HX_LUNG_DISEASE (question ID 209594)",
+        "Description": "Lung disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_07": {
+        "LongName": "CLIN_HX_LIVER_DISEASE (question ID 209596)",
+        "Description": "Liver disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_07_2": {
+        "LongName": "CLIN_HX_LIVER_DISEASE (question ID 209596)",
+        "Description": "Liver disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_07_3": {
+        "LongName": "CLIN_HX_LIVER_DISEASE (question ID 209596)",
+        "Description": "Liver disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "CLIN_HX_STOMACH": {
+        "LongName": "CLIN_HX_STOMACH (question ID 209598)",
+        "Description": "Stomach or intestinal disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "CLIN_HX_STOMACH_2": {
+        "LongName": "CLIN_HX_STOMACH (question ID 209598)",
+        "Description": "Stomach or intestinal disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "CLIN_HX_STOMACH_3": {
+        "LongName": "CLIN_HX_STOMACH (question ID 209598)",
+        "Description": "Stomach or intestinal disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "CLIN_HX_STOMACH_4": {
+        "LongName": "CLIN_HX_STOMACH (question ID 209598)",
+        "Description": "Stomach or intestinal disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_08": {
+        "LongName": "CLIN_HX_KIDNEY_DISEASE (question ID 209600)",
+        "Description": "Kidney disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_08_2": {
+        "LongName": "CLIN_HX_KIDNEY_DISEASE (question ID 209600)",
+        "Description": "Kidney disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_08_3": {
+        "LongName": "CLIN_HX_KIDNEY_DISEASE (question ID 209600)",
+        "Description": "Kidney disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_09": {
+        "LongName": "CLIN_HX_THYROID_DISEASE (question ID 209602)",
+        "Description": "Thyroid or endocrine disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_09_2": {
+        "LongName": "CLIN_HX_THYROID_DISEASE (question ID 209602)",
+        "Description": "Thyroid or endocrine disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_09_3": {
+        "LongName": "CLIN_HX_THYROID_DISEASE (question ID 209602)",
+        "Description": "Thyroid or endocrine disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_09_4": {
+        "LongName": "CLIN_HX_THYROID_DISEASE (question ID 209602)",
+        "Description": "Thyroid or endocrine disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_10": {
+        "LongName": "CLIN_HX_BLOOD_DISORDER (question ID 209604)",
+        "Description": "Blood disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_10_2": {
+        "LongName": "CLIN_HX_BLOOD_DISORDER (question ID 209604)",
+        "Description": "Blood disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_10_3": {
+        "LongName": "CLIN_HX_BLOOD_DISORDER (question ID 209604)",
+        "Description": "Blood disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_10_4": {
+        "LongName": "CLIN_HX_BLOOD_DISORDER (question ID 209604)",
+        "Description": "Blood disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_11": {
+        "LongName": "CLIN_HX_EPILEPSY_SEIZURE (question ID 209610)",
+        "Description": "Epilepsy/seizure disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_11_2": {
+        "LongName": "CLIN_HX_EPILEPSY_SEIZURE (question ID 209610)",
+        "Description": "Epilepsy/seizure disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_12": {
+        "LongName": "CLIN_HX_DEMENTIA (question ID 209612)",
+        "Description": "Dementia/Alzheimer's disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_12_2": {
+        "LongName": "CLIN_HX_DEMENTIA (question ID 209612)",
+        "Description": "Dementia/Alzheimer's disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_12_3": {
+        "LongName": "CLIN_HX_DEMENTIA (question ID 209612)",
+        "Description": "Dementia/Alzheimer's disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_12_4": {
+        "LongName": "CLIN_HX_DEMENTIA (question ID 209612)",
+        "Description": "Dementia/Alzheimer's disease",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_13": {
+        "LongName": "CLIN_HX_OTHER_DISORDER (question ID 209614)",
+        "Description": "Other medical disorder (including genetic disorders)",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_13_2": {
+        "LongName": "CLIN_HX_OTHER_DISORDER (question ID 209614)",
+        "Description": "Other medical disorder (including genetic disorders)",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_13_3": {
+        "LongName": "CLIN_HX_OTHER_DISORDER (question ID 209614)",
+        "Description": "Other medical disorder (including genetic disorders)",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_13_4": {
+        "LongName": "CLIN_HX_OTHER_DISORDER (question ID 209614)",
+        "Description": "Other medical disorder (including genetic disorders)",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_13_5": {
+        "LongName": "CLIN_HX_OTHER_DISORDER (question ID 209614)",
+        "Description": "Other medical disorder (including genetic disorders)",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_13a": {
+        "LongName": "CLIN_HX_OTHER_DISORDER_SPFY (question ID 209615)",
+        "Description": "Describe:"
+    },
+    "nimh_rv_clinhx_14": {
+        "LongName": "CLIN_HX_ALCOHOL_ABUSE (question ID 209616)",
+        "Description": "Alcohol abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_14_2": {
+        "LongName": "CLIN_HX_ALCOHOL_ABUSE (question ID 209616)",
+        "Description": "Alcohol abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_14_3": {
+        "LongName": "CLIN_HX_ALCOHOL_ABUSE (question ID 209616)",
+        "Description": "Alcohol abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_14_4": {
+        "LongName": "CLIN_HX_ALCOHOL_ABUSE (question ID 209616)",
+        "Description": "Alcohol abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_14_5": {
+        "LongName": "CLIN_HX_ALCOHOL_ABUSE (question ID 209616)",
+        "Description": "Alcohol abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_15": {
+        "LongName": "CLIN_HX_DRUG_ABUSE (question ID 209618)",
+        "Description": "Drug abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_15_2": {
+        "LongName": "CLIN_HX_DRUG_ABUSE (question ID 209618)",
+        "Description": "Drug abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_15_3": {
+        "LongName": "CLIN_HX_DRUG_ABUSE (question ID 209618)",
+        "Description": "Drug abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_15_4": {
+        "LongName": "CLIN_HX_DRUG_ABUSE (question ID 209618)",
+        "Description": "Drug abuse/dependence",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_16": {
+        "LongName": "CLIN_HX_DEPRESSION (question ID 209620)",
+        "Description": "Depression",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_16_2": {
+        "LongName": "CLIN_HX_DEPRESSION (question ID 209620)",
+        "Description": "Depression",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_16_3": {
+        "LongName": "CLIN_HX_DEPRESSION (question ID 209620)",
+        "Description": "Depression",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_16_4": {
+        "LongName": "CLIN_HX_DEPRESSION (question ID 209620)",
+        "Description": "Depression",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_16_5": {
+        "LongName": "CLIN_HX_DEPRESSION (question ID 209620)",
+        "Description": "Depression",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_16_6": {
+        "LongName": "CLIN_HX_DEPRESSION (question ID 209620)",
+        "Description": "Depression",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_17": {
+        "LongName": "CLIN_HX_BIPOLAR (question ID 209622)",
+        "Description": "Bipolar disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_17_2": {
+        "LongName": "CLIN_HX_BIPOLAR (question ID 209622)",
+        "Description": "Bipolar disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_17_3": {
+        "LongName": "CLIN_HX_BIPOLAR (question ID 209622)",
+        "Description": "Bipolar disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_17_4": {
+        "LongName": "CLIN_HX_BIPOLAR (question ID 209622)",
+        "Description": "Bipolar disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_18, medhx_anxiety_specify": {
+        "LongName": "CLIN_HX_ANXIETY (question ID 209624)",
+        "Description": "Anxiety disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_18, medhx_anxiety_specify_2": {
+        "LongName": "CLIN_HX_ANXIETY (question ID 209624)",
+        "Description": "Anxiety disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_18, medhx_anxiety_specify_3": {
+        "LongName": "CLIN_HX_ANXIETY (question ID 209624)",
+        "Description": "Anxiety disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_18, medhx_anxiety_specify_4": {
+        "LongName": "CLIN_HX_ANXIETY (question ID 209624)",
+        "Description": "Anxiety disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_18, medhx_anxiety_specify_5": {
+        "LongName": "CLIN_HX_ANXIETY (question ID 209624)",
+        "Description": "Anxiety disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_19": {
+        "LongName": "CLIN_HX_SCHIZOPHRENIA (question ID 209626)",
+        "Description": "Schizophrenia/psychosis",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_19_2": {
+        "LongName": "CLIN_HX_SCHIZOPHRENIA (question ID 209626)",
+        "Description": "Schizophrenia/psychosis",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_20": {
+        "LongName": "CLIN_HX_AUTISM (question ID 209628)",
+        "Description": "Autism spectrum disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_20_2": {
+        "LongName": "CLIN_HX_AUTISM (question ID 209628)",
+        "Description": "Autism spectrum disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_21": {
+        "LongName": "CLIN_HX_EATING_DISORDER (question ID 209632)",
+        "Description": "Eating disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_21_2": {
+        "LongName": "CLIN_HX_EATING_DISORDER (question ID 209632)",
+        "Description": "Eating disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_21_3": {
+        "LongName": "CLIN_HX_EATING_DISORDER (question ID 209632)",
+        "Description": "Eating disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_21_4": {
+        "LongName": "CLIN_HX_EATING_DISORDER (question ID 209632)",
+        "Description": "Eating disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_22": {
+        "LongName": "CLIN_HX_STRESS (question ID 209634)",
+        "Description": "Post-traumatic stress disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_22_2": {
+        "LongName": "CLIN_HX_STRESS (question ID 209634)",
+        "Description": "Post-traumatic stress disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_22_3": {
+        "LongName": "CLIN_HX_STRESS (question ID 209634)",
+        "Description": "Post-traumatic stress disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_22_4": {
+        "LongName": "CLIN_HX_STRESS (question ID 209634)",
+        "Description": "Post-traumatic stress disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_22_5": {
+        "LongName": "CLIN_HX_STRESS (question ID 209634)",
+        "Description": "Post-traumatic stress disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_22_6": {
+        "LongName": "CLIN_HX_STRESS (question ID 209634)",
+        "Description": "Post-traumatic stress disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_23": {
+        "LongName": "CLIN_HX_ATTENTION (question ID 209637)",
+        "Description": "Attention deficit hyperactivity disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_23_2": {
+        "LongName": "CLIN_HX_ATTENTION (question ID 209637)",
+        "Description": "Attention deficit hyperactivity disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_23_3": {
+        "LongName": "CLIN_HX_ATTENTION (question ID 209637)",
+        "Description": "Attention deficit hyperactivity disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_23_4": {
+        "LongName": "CLIN_HX_ATTENTION (question ID 209637)",
+        "Description": "Attention deficit hyperactivity disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_24": {
+        "LongName": "CLIN_HX_OTHER_MENTAL (question ID 209641)",
+        "Description": "Other mental disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_24_2": {
+        "LongName": "CLIN_HX_OTHER_MENTAL (question ID 209641)",
+        "Description": "Other mental disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_24_3": {
+        "LongName": "CLIN_HX_OTHER_MENTAL (question ID 209641)",
+        "Description": "Other mental disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_24_4": {
+        "LongName": "CLIN_HX_OTHER_MENTAL (question ID 209641)",
+        "Description": "Other mental disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_24_5": {
+        "LongName": "CLIN_HX_OTHER_MENTAL (question ID 209641)",
+        "Description": "Other mental disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_24_6": {
+        "LongName": "CLIN_HX_OTHER_MENTAL (question ID 209641)",
+        "Description": "Other mental disorder",
+        "Levels": {
+            "0": "You",
+            "1": "Grandparents",
+            "2": "Father",
+            "3": "Mother",
+            "4": "Siblings",
+            "5": "Children",
+            "6": "None"
+        }
+    },
+    "nimh_rv_clinhx_24a": {
+        "LongName": "CLIN_HX_OTHER_MENTAL_SPFY (question ID 209642)",
+        "Description": "Describe:"
+    },
+    "DIET_RATING": {
+        "LongName": "DIET_RATING (question ID 209899)",
+        "Description": "1. Overall, how would you rate your diet?"
+    },
+    "DIET_FRUIT_VEG_SERVINGS": {
+        "LongName": "DIET_FRUIT_VEG_SERVINGS (question ID 209900)",
+        "Description": "2. During the PAST WEEK, how many servings of fruits and vegetables did you eat per day? \nOne serving of fruit is equal to one piece of fruit approximately the size of a baseball or 1/2 a cup of fresh, frozen, canned, or juiced fruit. One serving of vegetable is either 1 cup for raw leafy vegetable or 1/2 a cup of fresh, frozen, canned, or juiced vegetable.\n",
+        "Levels": {
+            "0": "None",
+            "1": "1-2 servings per day",
+            "2": "3-4 servings per day",
+            "3": "5-6 servings per day",
+            "4": "7-9 servings per day",
+            "5": "10+ servings per day"
+        }
+    },
+    "DIET_RESTRICTIONS": {
+        "LongName": "DIET_RESTRICTIONS (question ID 209901)",
+        "Description": "3. What diet or dietary restrictions do you follow/have (e.g., NONE or vegetarian, gluten-free, kosher, paleo, etc.)?"
+    },
+    "PHYSICAL_ACTIVITY_LEVEL": {
+        "LongName": "PHYSICAL_ACTIVITY_LEVEL (question ID 209902)",
+        "Description": "1. Overall, how would you rate your physical activity level?"
+    },
+    "PHYSICAL_ACTIVITY_BREATHING": {
+        "LongName": "PHYSICAL_ACTIVITY_BREATHING (question ID 209903)",
+        "Description": "2. In the PAST WEEK, on how many days have you done a total of 30 min or more of physical activity, which was enough to raise your breathing rate? \nThis may include sport, exercise, and brisk walking or cycling for recreation or to get to and from places, but should not include housework or physical activity that may be part of your job.\n",
+        "Levels": {
+            "0": "0 days",
+            "1": "1 day",
+            "2": "2 days",
+            "3": "3 days",
+            "4": "4 days",
+            "5": "5 days",
+            "6": "6 days",
+            "7": "7 days"
+        }
+    },
+    "PHYSICAL_ACTIVITY_REGULAR": {
+        "LongName": "PHYSICAL_ACTIVITY_REGULAR (question ID 209904)",
+        "Description": "3. What do you regularly do to stay active (e.g., NONE or running, yoga, walking, workout classes, gym, etc.)?"
+    }
+}
