@@ -2,13 +2,6 @@
   "participant_id": {
     "Description": "OpenNeuro ID of the subject."
   },
-  "session_id": {
-    "Description": "ID assigned to participant's visit.",
-    "Levels": {
-      "onlineScreening": "First online screening visit.",
-      "onlineFollowup": "Online follow-up visit after 1 year of first in-person visit."
-    }
-  },
   "gender": {
     "Description": "2. What sex were you assigned at birth, on your original birth certificate?",
     "Levels": {

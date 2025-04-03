@@ -2,13 +2,6 @@
   "participant_id": {
     "Description": "OpenNeuro ID of the subject."
   },
-  "session_id": {
-    "Description": "ID assigned to participant's visit.",
-    "Levels": {
-      "baseline": "First in-person visit.",
-      "followup": "Second in-person visit."
-    }
-  },
   "b_ace_q1": {
     "LongName": "ACE_HUMILIATE_HURT (question ID 176435)",
     "Description": "1. Did a parent or other adult in the household often swear at you, insult you, put you down, or humiliate you, or act in a way that made you afraid that you might be physically hurt?",
