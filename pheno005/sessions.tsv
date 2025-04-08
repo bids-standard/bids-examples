@@ -1,4 +1,5 @@
-participant_id	session_id
-sub-01	baseline
-sub-01	followup
-sub-02	baseline
+participant_id	session_id	run_id	acq_time
+sub-01	baseline	01	2001-01-05 10:05:23
+sub-01	baseline	02	2001-01-05 14:15:59
+sub-01	followup	01	2003-02-06 09:45:00
+sub-02	baseline	01	2001-01-13 12:04:08
