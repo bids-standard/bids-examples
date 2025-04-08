@@ -1,0 +1,12 @@
+{
+	"participant_id": {
+		"Description": "OpenNeuro ID of the subject."
+	},
+	"session_id": {
+		"Description": "ID assigned to participant's visit.",
+		"Levels": {
+			"baseline": "First imaging and phenotype data collection visit.",
+			"followup": "Second phenotype data collection visit."
+		}
+	}
+}
