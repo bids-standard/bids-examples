@@ -5,15 +5,15 @@
 	"session_id": {
 		"Description": "ID assigned to participant's visit.",
 		"Levels": {
-			"baseline": "First imaging and phenotype data collection visit.",
-			"followup": "Second phenotype data collection visit."
+			"ses-baseline": "First imaging and phenotype data collection visit.",
+			"ses-followup": "Second phenotype data collection visit."
 		}
 	},
-	"run_id": {
-		"Description": "ID assigned to a run for a given session.",
+	"run": {
+		"Description": "Run index assigned to a given session.",
 		"Levels": {
-			"01": "First run of the session.",
-			"02": "Second run of the session."
+			"run-01": "First run of the session.",
+			"run-02": "Second run of the session."
 		}
 	},
 	"b_ace_q1": {

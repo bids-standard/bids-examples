@@ -5,8 +5,18 @@
 	"session_id": {
 		"Description": "ID assigned to participant's visit.",
 		"Levels": {
-			"baseline": "First imaging and phenotype data collection visit.",
-			"followup": "Second phenotype data collection visit."
+			"ses-baseline": "First imaging and phenotype data collection visit.",
+			"ses-followup": "Second phenotype data collection visit."
 		}
+	},
+	"run": {
+		"Description": "Run index assigned to a given session.",
+		"Levels": {
+			"run-01": "First run of the session.",
+			"run-02": "Second run of the session."
+		}
+	},
+	"acq_time": {
+		"Description": "Date and time of data acquisition in YYYY-MM-DD HH:MM:SS format."
 	}
 }
