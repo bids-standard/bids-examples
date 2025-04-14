@@ -1,0 +1,86 @@
+{
+    "probe_id": {
+      "Description": "Unique identifier for the probe.",
+      "Units": "n/a"
+    },
+    "type": {
+      "Description": "Type of probe used for neural recording.",
+      "Levels": {
+        "utah array": "A type of multi-electrode array commonly used for intracortical recordings."
+      }
+    },
+    "location": {
+      "Description": "Brain region where the probe was implanted.",
+      "Levels": {
+        "M1": "Primary motor cortex"
+      }
+    },
+    "manufacturer": {
+      "Description": "Company that produced the probe.",
+      "Levels": {
+        "Blackrock Microsystems": "Neurotechnology company specializing in electrophysiology hardware."
+      }
+    },
+    "device_serial_number": {
+      "Description": "Serial number of the probe.",
+      "Units": "n/a"
+    },
+    "electrode_count": {
+      "Description": "Number of electrodes in the probe.",
+      "Units": "count"
+    },
+    "width": {
+      "Description": "Width of the probe.",
+      "Units": "mm"
+    },
+    "height": {
+      "Description": "Height of the probe.",
+      "Units": "mm"
+    },
+    "depth": {
+      "Description": "Depth of electrode penetration.",
+      "Units": "mm"
+    },
+    "hemisphere": {
+      "Description": "Brain hemisphere where the probe was implanted.",
+      "Levels": {
+        "right": "Right hemisphere"
+      }
+    },
+    "placement_picture": {
+      "Description": "URL linking to an image showing probe placement.",
+      "Units": "URL"
+    },
+    "dimension_units": {
+      "Description": "Units used for probe dimensions.",
+      "Levels": {
+        "mm": "Millimeters"
+      }
+    },
+    "wires_material": {
+      "Description": "Material composition of probe wires.",
+      "Levels": {
+        "Pt/Au": "Platinum/Gold alloy"
+      }
+    },
+    "wires_diameter": {
+      "Description": "Diameter of the probe wires.",
+      "Units": "m"
+    },
+    "wires_length": {
+      "Description": "Length of the probe wires.",
+      "Units": "m"
+    },
+    "wires_units": {
+      "Description": "Units for wire measurements.",
+      "Levels": {
+        "m": "Meters"
+      }
+    },
+    "owner": {
+      "Description": "Institution or individual responsible for the probe.",
+      "Levels": {
+        "RIKEN-BSI, Japan": "RIKEN Brain Science Institute, Japan"
+      }
+    }
+  }
