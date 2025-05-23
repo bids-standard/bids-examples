@@ -27,3 +27,6 @@ TODOs:
 - [ ] > where to save final files in the dataset ?
 - [ ] finish readme & check if missing metadata in the dataset_description
 - [ ] use sidecar JSONs ?
+- [ ] add example in the list > must anat, func, T1w and bold be mentioned ? Where to say that it is a derivative dataset ?
+
+provenance_spm_default Provenance records for a statistical analysis performed with [`SPM`](https://www.fil.ion.ucl.ac.uk/spm/). This example is buid upon [ds000011](cf. https://openfmri.org/dataset/ds000011/) data and the [NIDM Results example `spm_default`](https://github.com/incf-nidash/nidmresults-examples/tree/master/spm_default) code. [@bclenet](https://github.com/bclenet) anat, func T1w(?), bold(?), act, ent, env, soft
