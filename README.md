@@ -362,3 +362,14 @@ DO NOT EDIT DIRECTLY.
 | name                                                                            | description                                                      | datatypes       | suffixes   | link to full data   | maintained by                            |
 |:--------------------------------------------------------------------------------|:-----------------------------------------------------------------|:----------------|:-----------|:--------------------|:-----------------------------------------|
 | [pheno004](https://github.com/bids-standard/bids-examples/tree/master/pheno004) | Minimal dataset with subjects with imaging and/or phenotype data | phenotype, anat | T1w        | n/a                 | [@ericearl](https://github.com/ericearl) |
+
+### Provenance
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                  | description                                                                                                                                   | datatypes   | suffixes                 | link to full data                                                                               | maintained by                          |
+|:------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|:------------|:-------------------------|:------------------------------------------------------------------------------------------------|:---------------------------------------|
+| [provenance_dcm2niix](https://github.com/bids-standard/bids-examples/tree/master/provenance_dcm2niix) | Shows minimal example of provenance records for a DICOM to Nifti conversion, performed by [`dcm2niix`](https://github.com/rordenlab/dcm2niix) | anat        | T1w, act, ent, env, soft | This example is buid upon [hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) data | [@bclenet](https://github.com/bclenet) |
