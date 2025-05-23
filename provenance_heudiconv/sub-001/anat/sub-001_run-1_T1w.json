@@ -1,0 +1,26 @@
+{
+  "AcquisitionNumber": 1,
+  "AcquisitionTime": "13:25:18.000000",
+  "ConversionSoftware": "dcm2niix",
+  "ConversionSoftwareVersion": "v1.0.20220720",
+  "HeudiconvVersion": "1.3.2",
+  "ImageOrientationPatientDICOM": [0.999032, -0.0217884, 0.0382096, 0.0265195, 0.991414, -0.128044],
+  "ImageType": [
+    "DERIVED",
+    "SECONDARY"
+],
+  "ManufacturersModelName": "nifti2dicom",
+  "Modality": "MR",
+  "ProtocolName": "anat-T1w",
+  "RawImage": false,
+  "SeriesDescription": "anat-T1w",
+  "SeriesNumber": 401,
+  "SliceThickness": 0.666667,
+  "SoftwareVersions": "0.4.11",
+  "SpacingBetweenSlices": 0.666667,
+  "GeneratedBy": "bids::prov/#conversion-00f3a18f",
+  "SidecarGeneratedBy": [
+    "bids::prov/#preparation-conversion-1xkhm1ft",
+    "bids::prov/#conversion-00f3a18f"
+  ]
+}
