@@ -1,0 +1,80 @@
+%-----------------------------------------------------------------------
+% Job saved on 15-Mar-2016 14:20:25 by cfg_util (rev $Rev: 6460 $)
+% spm SPM - SPM12 (12.1)
+% cfg_basicio BasicIO - Unknown
+%-----------------------------------------------------------------------
+matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.files = {'data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz'};
+matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'SPM/PREPROCESSING/FUNCTIONAL'};
+matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.files = {'data/sub-01/anat/sub-01_T1w.nii.gz'};
+matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'SPM/PREPROCESSING/ANATOMICAL'};
+matlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));
+matlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));
+matlabbatch{5}.spm.spatial.realign.estwrite.data{1}(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
+matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.quality = 0.9;
+matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.sep = 4;
+matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.fwhm = 5;
+matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.rtm = 1;
+matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.interp = 2;
+matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.wrap = [0 0 0];
+matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.weight = '';
+matlabbatch{5}.spm.spatial.realign.estwrite.roptions.which = [0 1];
+matlabbatch{5}.spm.spatial.realign.estwrite.roptions.interp = 4;
+matlabbatch{5}.spm.spatial.realign.estwrite.roptions.wrap = [0 0 0];
+matlabbatch{5}.spm.spatial.realign.estwrite.roptions.mask = 1;
+matlabbatch{5}.spm.spatial.realign.estwrite.roptions.prefix = 'r';
+matlabbatch{6}.spm.spatial.coreg.estimate.ref(1) = cfg_dep('Realign: Estimate & Reslice: Mean Image', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','rmean'));
+matlabbatch{6}.spm.spatial.coreg.estimate.source(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
+matlabbatch{6}.spm.spatial.coreg.estimate.other = {''};
+matlabbatch{6}.spm.spatial.coreg.estimate.eoptions.cost_fun = 'nmi';
+matlabbatch{6}.spm.spatial.coreg.estimate.eoptions.sep = [4 2];
+matlabbatch{6}.spm.spatial.coreg.estimate.eoptions.tol = [0.02 0.02 0.02 0.001 0.001 0.001 0.01 0.01 0.01 0.001 0.001 0.001];
+matlabbatch{6}.spm.spatial.coreg.estimate.eoptions.fwhm = [7 7];
+matlabbatch{7}.spm.spatial.preproc.channel.vols(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
+matlabbatch{7}.spm.spatial.preproc.channel.biasreg = 0.001;
+matlabbatch{7}.spm.spatial.preproc.channel.biasfwhm = 60;
+matlabbatch{7}.spm.spatial.preproc.channel.write = [0 1];
+matlabbatch{7}.spm.spatial.preproc.tissue(1).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,1'};
+matlabbatch{7}.spm.spatial.preproc.tissue(1).ngaus = 1;
+matlabbatch{7}.spm.spatial.preproc.tissue(1).native = [1 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(1).warped = [0 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(2).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,2'};
+matlabbatch{7}.spm.spatial.preproc.tissue(2).ngaus = 1;
+matlabbatch{7}.spm.spatial.preproc.tissue(2).native = [1 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(2).warped = [0 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(3).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,3'};
+matlabbatch{7}.spm.spatial.preproc.tissue(3).ngaus = 2;
+matlabbatch{7}.spm.spatial.preproc.tissue(3).native = [1 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(3).warped = [0 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(4).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,4'};
+matlabbatch{7}.spm.spatial.preproc.tissue(4).ngaus = 3;
+matlabbatch{7}.spm.spatial.preproc.tissue(4).native = [1 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(4).warped = [0 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(5).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,5'};
+matlabbatch{7}.spm.spatial.preproc.tissue(5).ngaus = 4;
+matlabbatch{7}.spm.spatial.preproc.tissue(5).native = [1 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(5).warped = [0 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(6).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,6'};
+matlabbatch{7}.spm.spatial.preproc.tissue(6).ngaus = 2;
+matlabbatch{7}.spm.spatial.preproc.tissue(6).native = [0 0];
+matlabbatch{7}.spm.spatial.preproc.tissue(6).warped = [0 0];
+matlabbatch{7}.spm.spatial.preproc.warp.mrf = 1;
+matlabbatch{7}.spm.spatial.preproc.warp.cleanup = 1;
+matlabbatch{7}.spm.spatial.preproc.warp.reg = [0 0.001 0.5 0.05 0.2];
+matlabbatch{7}.spm.spatial.preproc.warp.affreg = 'mni';
+matlabbatch{7}.spm.spatial.preproc.warp.fwhm = 0;
+matlabbatch{7}.spm.spatial.preproc.warp.samp = 3;
+matlabbatch{7}.spm.spatial.preproc.warp.write = [0 1];
+matlabbatch{8}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));
+matlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Realigned Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','cfiles'));
+matlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70
+                                                          78 76 85];
+matlabbatch{8}.spm.spatial.normalise.write.woptions.vox = [2 2 2];
+matlabbatch{8}.spm.spatial.normalise.write.woptions.interp = 4;
+matlabbatch{8}.spm.spatial.normalise.write.woptions.prefix = 'w';
+matlabbatch{9}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));
+matlabbatch{9}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Segment: Bias Corrected (1)', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','channel', '()',{1}, '.','biascorr', '()',{':'}));
+matlabbatch{9}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70
+                                                          78 76 85];
+matlabbatch{9}.spm.spatial.normalise.write.woptions.vox = [2 2 2];
+matlabbatch{9}.spm.spatial.normalise.write.woptions.interp = 4;
+matlabbatch{9}.spm.spatial.normalise.write.woptions.prefix = 'w';
