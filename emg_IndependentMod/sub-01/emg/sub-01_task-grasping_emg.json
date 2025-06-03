@@ -1,0 +1,17 @@
+{
+	"EMGChannelCount":6,
+	"EMGPlacementScheme":"Electrodes placed on lower arm and hand muscles; see channels.tsv for details.",
+	"EMGReference":"bipolar",
+	"EMGGround":"n/a",
+    "EMGElectrodeCount":12,
+    "ElectrodeMaterial":"Ag/AgCl",
+	"Manufacturer":"Cometa",
+	"ManufacturersModelName":"MiniX",
+    "AmpifierType":"Wireless",
+	"RecordingDuration":1.00,
+	"SamplingFrequency":2000,
+    "HardwareFilters":"loawpass at 500 Hz",
+	"TaskDescription":"Subject reaches out to grasp an object with different weights for 5 seconds.",
+	"TaskName":"grasping",
+	"TriggerChannelCount":0
+}
