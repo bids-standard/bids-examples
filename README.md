@@ -362,3 +362,13 @@ DO NOT EDIT DIRECTLY.
 | name                                                                            | description                                                      | datatypes       | suffixes   | link to full data   | maintained by                            |
 |:--------------------------------------------------------------------------------|:-----------------------------------------------------------------|:----------------|:-----------|:--------------------|:-----------------------------------------|
 | [pheno004](https://github.com/bids-standard/bids-examples/tree/master/pheno004) | Minimal dataset with subjects with imaging and/or phenotype data | phenotype, anat | T1w        | n/a                 | [@ericearl](https://github.com/ericearl) |
+
+### Provenance
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name   | description   | datatypes   | suffixes   | link to full data   | maintained by   |
+|--------|---------------|-------------|------------|---------------------|-----------------|
