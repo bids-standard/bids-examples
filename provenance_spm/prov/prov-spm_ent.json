@@ -73,6 +73,14 @@
       }
     },
     {
+      "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.nii",
+      "Label": "rsub-01_task-tonecounting_bold.nii",
+      "GeneratedBy": "bids::prov/#realign-acea8093",
+      "digest": {
+        "sha256": "f7f8d90b141c9ef65b390968f1bf2e9a873297fa490eb4edd2723a19dd3e541d"
+      }
+    },
+    {
       "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/sub-01_task-tonecounting_bold.mat",
       "Label": "sub-01_task-tonecounting_bold.mat",
       "GeneratedBy": "bids::prov/#realign-acea8093",

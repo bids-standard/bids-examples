@@ -84,7 +84,7 @@
       "Label": "Normalize",
       "Used": [
         "bids::SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.nii",
-        "urn:Realign-EstimateReslice-RealignedImages-Sess1"
+        "bids::SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.nii"
       ],
       "AssociatedWith": "bids::prov/#spm-fa0baf93",
       "Command": "matlabbatch{8}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Realigned Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','cfiles'));\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.prefix = 'w';",
