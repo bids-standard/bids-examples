@@ -92,6 +92,8 @@ for sidecar_file in sidecar_files:
         base_provenance['Records']['Entities'].append(
           {
             "Id": f"bids::{data_file}",
+            "Label": Path(data_file).name,
+            "AtLocation": data_file,
             "GeneratedBy": activity_data
           }
         )
@@ -110,6 +112,8 @@ for sidecar_file in sidecar_files:
       base_provenance['Records']['Entities'].append(
         {
           "Id": f"bids::{sidecar_filename}",
+          "Label": Path(sidecar_filename).name,
+          "AtLocation": sidecar_filename,
           "GeneratedBy": activity_id
         }
       )

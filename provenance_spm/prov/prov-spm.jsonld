@@ -93,7 +93,7 @@
         "Label": "Normalize",
         "Used": [
           "bids::SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.nii",
-          "urn:Realign-EstimateReslice-RealignedImages-Sess1"
+          "bids::SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.nii"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{8}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Realigned Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','cfiles'));\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.prefix = 'w';",
@@ -182,22 +182,6 @@
         }
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/meansub-01_task-tonecounting_bold.nii",
-        "Label": "meansub-01_task-tonecounting_bold.nii",
-        "GeneratedBy": "bids::prov/#realign-acea8093",
-        "digest": {
-          "sha256": "a4a7dd08d305ada75d3c3643dc5f1b96a6d5d94657f8aea79b6d15431845179a"
-        }
-      },
-      {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/rp_sub-01_task-tonecounting_bold.txt",
-        "Label": "rp_sub-01_task-tonecounting_bold.txt",
-        "GeneratedBy": "bids::prov/#realign-acea8093",
-        "digest": {
-          "sha256": "f2751b0839d4db7408717089ace5c34e713206576218ed57120f2dee7fd12149"
-        }
-      },
-      {
         "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/sub-01_task-tonecounting_bold.mat",
         "Label": "sub-01_task-tonecounting_bold.mat",
         "GeneratedBy": "bids::prov/#realign-acea8093",
@@ -208,90 +192,86 @@
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c1sub-01_T1w.nii",
         "Label": "c1sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "digest": {
-          "sha256": "4ee9cdc19e6d2d15c79d1a0435542b302b31b576c6f40394ec1d55b3cc7351a1"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c1sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c2sub-01_T1w.nii",
         "Label": "c2sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "digest": {
-          "sha256": "d1fa6211974992935cbf9b504e2deac8f75e5bb079765aba08fdb56d3263a539"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c2sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c3sub-01_T1w.nii",
         "Label": "c3sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "digest": {
-          "sha256": "9d3223664bb5610129474cc4d365f1c369f846f8c83a6872ba766227fcf4ba65"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c3sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c4sub-01_T1w.nii",
         "Label": "c4sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "digest": {
-          "sha256": "b59a29a23ad0c543324695ee73e21bf0b979a05727c7cd6198d8fe7eb9b1a5a1"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c4sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c5sub-01_T1w.nii",
         "Label": "c5sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "digest": {
-          "sha256": "ecfb322b8de97d42dd423965b5f5d9d6dea2e8f4299d56a4a0e13b2a923f406b"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c5sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/msub-01_T1w.nii",
         "Label": "msub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "digest": {
-          "sha256": "2e93b52ab94f2de40d681226f790d835f80768b3c93052f1f5326650f6903787"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/msub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w_seg8.mat",
         "Label": "sub-01_T1w_seg8.mat",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "digest": {
-          "sha256": "e0e9110d364e3d9c8ddb6467d49ba9d974252fe7350e959c1f6d52f8a25bf16c"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w_seg8.mat",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.nii",
         "Label": "y_sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "digest": {
-          "sha256": "926c276c324b3b36f1c8288309b0753aeed20e707fddfb6054b4d8ddfca50c6e"
-        }
-      },
-      {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/wsub-01_task-tonecounting_bold.nii",
-        "Label": "wsub-01_task-tonecounting_bold.nii",
-        "GeneratedBy": "bids::prov/#normalize-58f60575",
-        "digest": {
-          "sha256": "bc380e1b74093bedd81d269aecbebfc3b710213d13a17ebe7ac713d0dd32eaa4"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
         "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/wmsub-01_T1w.nii",
         "Label": "wmsub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#normalize-7a89965b",
-        "digest": {
-          "sha256": "eec0a3f558277a6947403a858e922192956cccc9253517e7fe2f8e63aaad935a"
-        }
+        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/wmsub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#normalize-7a89965b"
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/swmsub-01_T1w.nii",
-        "Label": "swmsub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#smooth-36370afe",
-        "digest": {
-          "sha256": "cac58ac5af4daa58e1d1af0a6f01babefbe930e0cafa03eec565fbcaf84684cd"
-        }
+        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/meansub-01_task-tonecounting_bold.nii",
+        "Label": "meansub-01_task-tonecounting_bold.nii",
+        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/meansub-01_task-tonecounting_bold.nii",
+        "GeneratedBy": "bids::prov/#realign-acea8093"
+      },
+      {
+        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/rp_sub-01_task-tonecounting_bold.txt",
+        "Label": "rp_sub-01_task-tonecounting_bold.txt",
+        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/rp_sub-01_task-tonecounting_bold.txt",
+        "GeneratedBy": "bids::prov/#realign-acea8093"
+      },
+      {
+        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.nii",
+        "Label": "rsub-01_task-tonecounting_bold.nii",
+        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.nii",
+        "GeneratedBy": "bids::prov/#realign-acea8093"
+      },
+      {
+        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/swsub-01_task-tonecounting_bold.nii",
+        "Label": "swsub-01_task-tonecounting_bold.nii",
+        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/swsub-01_task-tonecounting_bold.nii",
+        "GeneratedBy": "bids::prov/#smooth-36370afe"
+      },
+      {
+        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/wsub-01_task-tonecounting_bold.nii",
+        "Label": "wsub-01_task-tonecounting_bold.nii",
+        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/wsub-01_task-tonecounting_bold.nii",
+        "GeneratedBy": "bids::prov/#normalize-58f60575"
       }
     ]
   },
