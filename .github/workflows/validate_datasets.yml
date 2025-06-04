@@ -95,7 +95,7 @@ jobs:
         fi
 
     - name: Skip legacy validation for post-legacy datasets
-      run: for DS in mrs_* dwi_deriv pheno004; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in mrs_* dwi_deriv pheno004 fmaps; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator == 'legacy'
 
     - name: Skip stable validation for datasets with unreleased validator features
@@ -107,7 +107,7 @@ jobs:
     - name: Skip main validation for datasets with unreleased spec features
       # Replace ${EMPTY} with dataset patterns, when this is needed
       # Reset to "for DS in ${EMPTY}; ..." after a spec release
-      run: for DS in dwi_deriv pheno004; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in dwi_deriv pheno004 fmaps; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator != 'dev'
 
     - name: Set BIDS_SCHEMA variable for dev version
@@ -116,7 +116,7 @@ jobs:
       # Update this URL to the schema.json from PRs to the spec, when needed.
       # If this variable is unset, dev will generally track the latest development
       # release of https://jsr.io/@bids/schema
-      run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
+      run: echo BIDS_SCHEMA=https://bids-specification--2116.org.readthedocs.build/en/2116/schema.json >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
