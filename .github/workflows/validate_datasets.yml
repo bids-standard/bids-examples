@@ -95,7 +95,7 @@ jobs:
         fi
 
     - name: Skip legacy validation for post-legacy datasets
-      run: for DS in mrs_* dwi_deriv pheno004; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in mrs_* dwi_deriv pheno004 volume_timing; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator == 'legacy'
 
     - name: Skip stable validation for datasets with unreleased validator features
