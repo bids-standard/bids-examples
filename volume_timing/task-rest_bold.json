@@ -1,0 +1,17 @@
+{
+  "TaskName": "rest",
+  "PhaseEncodingDirection": "j",
+  "TotalReadoutTime": 0.05,
+  "NumberOfVolumesDiscardedByScanner": 0,
+  "NumberOfVolumesDiscardedByUser": 0,
+  "InstitutionName": "Example University",
+  "InstitutionalDepartmentName": "Psychology",
+  "InstitutionAddress": "123 University St, City, Country",
+  "MultibandAccelerationFactor": 1,
+  "FlipAngle": 90,
+  "DwellTime": 0,
+  "EchoTime": 0.03,
+  "EffectiveEchoSpacing": 0.00058,
+  "PartialFourier": 1,
+  "PartialFourierDirection": "i"
+}
