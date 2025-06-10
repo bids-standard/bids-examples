@@ -20,20 +20,21 @@ prov_ent_files = [
   'prov/prov-spm_ent.json'
 ]
 sidecar_files = [
-  'SPM/PREPROCESSING/ANATOMICAL/c1sub-01_T1w.json',
-  'SPM/PREPROCESSING/ANATOMICAL/c2sub-01_T1w.json',
-  'SPM/PREPROCESSING/ANATOMICAL/c3sub-01_T1w.json',
-  'SPM/PREPROCESSING/ANATOMICAL/c4sub-01_T1w.json',
-  'SPM/PREPROCESSING/ANATOMICAL/c5sub-01_T1w.json',
-  'SPM/PREPROCESSING/ANATOMICAL/msub-01_T1w.json',
-  'SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w_seg8.json',
-  'SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.json',
-  'SPM/PREPROCESSING/ANATOMICAL/wmsub-01_T1w.json',
-  'SPM/PREPROCESSING/FUNCTIONAL/meansub-01_task-tonecounting_bold.json',
-  'SPM/PREPROCESSING/FUNCTIONAL/rp_sub-01_task-tonecounting_bold.json',
-  'SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.json',
-  'SPM/PREPROCESSING/FUNCTIONAL/swsub-01_task-tonecounting_bold.json',
-  'SPM/PREPROCESSING/FUNCTIONAL/wsub-01_task-tonecounting_bold.json'
+  'sub-01/anat/c1sub-01_T1w.json',
+  'sub-01/anat/c2sub-01_T1w.json',
+  'sub-01/anat/c3sub-01_T1w.json',
+  'sub-01/anat/c4sub-01_T1w.json',
+  'sub-01/anat/c5sub-01_T1w.json',
+  'sub-01/anat/msub-01_T1w.json',
+  'sub-01/anat/sub-01_T1w.json',
+  'sub-01/anat/sub-01_T1w_seg8.json',
+  'sub-01/anat/y_sub-01_T1w.json',
+  'sub-01/anat/wmsub-01_T1w.json',
+  'sub-01/func/meansub-01_task-tonecounting_bold.json',
+  'sub-01/func/rp_sub-01_task-tonecounting_bold.json',
+  'sub-01/func/rsub-01_task-tonecounting_bold.json',
+  'sub-01/func/swrsub-01_task-tonecounting_bold.json',
+  'sub-01/func/wrsub-01_task-tonecounting_bold.json'
 ]
 
 # Base jsonld

@@ -1,15 +1,19 @@
 %-----------------------------------------------------------------------
-% Job saved on 15-Mar-2016 14:20:25 by cfg_util (rev $Rev: 6460 $)
-% spm SPM - SPM12 (12.1)
+% Job saved on 06-Jun-2025 15:40:49 by cfg_util (rev $Rev: 7345 $)
+% spm SPM - SPM12 (7771)
 % cfg_basicio BasicIO - Unknown
 %-----------------------------------------------------------------------
 matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.files = {'data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz'};
-matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'SPM/PREPROCESSING/FUNCTIONAL'};
+matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'sub-01/func'};
 matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.files = {'data/sub-01/anat/sub-01_T1w.nii.gz'};
-matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'SPM/PREPROCESSING/ANATOMICAL'};
+matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'sub-01/anat'};
 matlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));
+matlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.outdir = {''};
+matlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.keep = false;
 matlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));
-matlabbatch{5}.spm.spatial.realign.estwrite.data{1}(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
+matlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.outdir = {''};
+matlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.keep = false;
+matlabbatch{5}.spm.spatial.realign.estwrite.data{1}(1) = cfg_dep('Gunzip Files: Gunzipped Files', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
 matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.quality = 0.9;
 matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.sep = 4;
 matlabbatch{5}.spm.spatial.realign.estwrite.eoptions.fwhm = 5;
@@ -23,13 +27,13 @@ matlabbatch{5}.spm.spatial.realign.estwrite.roptions.wrap = [0 0 0];
 matlabbatch{5}.spm.spatial.realign.estwrite.roptions.mask = 1;
 matlabbatch{5}.spm.spatial.realign.estwrite.roptions.prefix = 'r';
 matlabbatch{6}.spm.spatial.coreg.estimate.ref(1) = cfg_dep('Realign: Estimate & Reslice: Mean Image', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','rmean'));
-matlabbatch{6}.spm.spatial.coreg.estimate.source(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
+matlabbatch{6}.spm.spatial.coreg.estimate.source(1) = cfg_dep('Gunzip Files: Gunzipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
 matlabbatch{6}.spm.spatial.coreg.estimate.other = {''};
 matlabbatch{6}.spm.spatial.coreg.estimate.eoptions.cost_fun = 'nmi';
 matlabbatch{6}.spm.spatial.coreg.estimate.eoptions.sep = [4 2];
 matlabbatch{6}.spm.spatial.coreg.estimate.eoptions.tol = [0.02 0.02 0.02 0.001 0.001 0.001 0.01 0.01 0.01 0.001 0.001 0.001];
 matlabbatch{6}.spm.spatial.coreg.estimate.eoptions.fwhm = [7 7];
-matlabbatch{7}.spm.spatial.preproc.channel.vols(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
+matlabbatch{7}.spm.spatial.preproc.channel.vols(1) = cfg_dep('Gunzip Files: Gunzipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));
 matlabbatch{7}.spm.spatial.preproc.channel.biasreg = 0.001;
 matlabbatch{7}.spm.spatial.preproc.channel.biasfwhm = 60;
 matlabbatch{7}.spm.spatial.preproc.channel.write = [0 1];
@@ -64,17 +68,22 @@ matlabbatch{7}.spm.spatial.preproc.warp.affreg = 'mni';
 matlabbatch{7}.spm.spatial.preproc.warp.fwhm = 0;
 matlabbatch{7}.spm.spatial.preproc.warp.samp = 3;
 matlabbatch{7}.spm.spatial.preproc.warp.write = [0 1];
+matlabbatch{7}.spm.spatial.preproc.warp.vox = NaN;
+matlabbatch{7}.spm.spatial.preproc.warp.bb = [NaN NaN NaN NaN NaN NaN];
 matlabbatch{8}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));
-matlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Realigned Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','cfiles'));
-matlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70
-                                                          78 76 85];
+matlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Resliced Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','rfiles'));
+matlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];
 matlabbatch{8}.spm.spatial.normalise.write.woptions.vox = [2 2 2];
 matlabbatch{8}.spm.spatial.normalise.write.woptions.interp = 4;
 matlabbatch{8}.spm.spatial.normalise.write.woptions.prefix = 'w';
 matlabbatch{9}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));
 matlabbatch{9}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Segment: Bias Corrected (1)', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','channel', '()',{1}, '.','biascorr', '()',{':'}));
-matlabbatch{9}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70
-                                                          78 76 85];
+matlabbatch{9}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];
 matlabbatch{9}.spm.spatial.normalise.write.woptions.vox = [2 2 2];
 matlabbatch{9}.spm.spatial.normalise.write.woptions.interp = 4;
 matlabbatch{9}.spm.spatial.normalise.write.woptions.prefix = 'w';
+matlabbatch{10}.spm.spatial.smooth.data(1) = cfg_dep('Normalise: Write: Normalised Images (Subj 1)', substruct('.','val', '{}',{8}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{1}, '.','files'));
+matlabbatch{10}.spm.spatial.smooth.fwhm = [6 6 6];
+matlabbatch{10}.spm.spatial.smooth.dtype = 0;
+matlabbatch{10}.spm.spatial.smooth.im = 0;
+matlabbatch{10}.spm.spatial.smooth.prefix = 's';

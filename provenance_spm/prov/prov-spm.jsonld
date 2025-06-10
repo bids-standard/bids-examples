@@ -5,7 +5,7 @@
         "Id": "bids::prov/#spm-fa0baf93",
         "RRID": "RRID:SCR_007037",
         "Label": "SPM",
-        "Version": "SPM12r7224"
+        "Version": "SPM12r7771"
       }
     ],
     "Activities": [
@@ -35,7 +35,7 @@
         "Id": "bids::prov/#gunzip-ca36a952",
         "Label": "Gunzip",
         "Used": [
-          "bids::SPM/PREPROCESSING/FUNCTIONAL/sub-01_task-tonecounting_bold.nii.gz"
+          "urn:20953875-19dd-409d-adf1-5ff4404f8ae7"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));",
@@ -46,7 +46,7 @@
         "Id": "bids::prov/#gunzip-e9264918",
         "Label": "Gunzip",
         "Used": [
-          "bids::SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w.nii.gz"
+          "urn:9dff6df8-56be-4d25-a127-b31b20890943"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));",
@@ -57,7 +57,7 @@
         "Id": "bids::prov/#realign-acea8093",
         "Label": "Realign",
         "Used": [
-          "bids::SPM/PREPROCESSING/FUNCTIONAL/sub-01_task-tonecounting_bold.nii"
+          "urn:ee913e65-93fb-474a-8322-487a9894bd82"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{5}.spm.spatial.realign.estwrite.data{1}(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.quality = 0.9;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.sep = 4;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.fwhm = 5;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.rtm = 1;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.interp = 2;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.wrap = [0 0 0];\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.weight = '';\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.which = [0 1];\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.interp = 4;\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.wrap = [0 0 0];\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.mask = 1;\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.prefix = 'r';",
@@ -68,8 +68,9 @@
         "Id": "bids::prov/#coregister-6d38be4a",
         "Label": "Coregister",
         "Used": [
-          "bids::SPM/PREPROCESSING/FUNCTIONAL/meansub-01_task-tonecounting_bold.nii",
-          "bids::SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w.nii"
+          "bids::sub-01/func/meansub-01_task-tonecounting_bold.nii",
+          "urn:5781514a-c7d9-4ce1-be84-328669f4f7d6",
+          "urn:00f98a97-fbfd-49a6-8318-97a89211b9cf"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{6}.spm.spatial.coreg.estimate.ref(1) = cfg_dep('Realign: Estimate & Reslice: Mean Image', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','rmean'));\nmatlabbatch{6}.spm.spatial.coreg.estimate.source(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));\nmatlabbatch{6}.spm.spatial.coreg.estimate.other = {''};\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.cost_fun = 'nmi';\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.sep = [4 2];\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.tol = [0.02 0.02 0.02 0.001 0.001 0.001 0.01 0.01 0.01 0.001 0.001 0.001];\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.fwhm = [7 7];",
@@ -80,8 +81,9 @@
         "Id": "bids::prov/#segment-7d5d4ac5",
         "Label": "Segment",
         "Used": [
-          "urn:f52e6e3df12f-fdfc-4dfa-b192-223988f1",
-          "bids::SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w.nii"
+          "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
+          "urn:c64b509f-f5ec-41e8-97cf-49229cfb0aef",
+          "bids::sub-01/anat/sub-01_T1w.nii"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{7}.spm.spatial.preproc.channel.vols(1) = cfg_dep('GunZip Files: GunZipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));\nmatlabbatch{7}.spm.spatial.preproc.channel.biasreg = 0.001;\nmatlabbatch{7}.spm.spatial.preproc.channel.biasfwhm = 60;\nmatlabbatch{7}.spm.spatial.preproc.channel.write = [0 1];\nmatlabbatch{7}.spm.spatial.preproc.tissue(1).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,1'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(1).ngaus = 1;\nmatlabbatch{7}.spm.spatial.preproc.tissue(1).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(1).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(2).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,2'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(2).ngaus = 1;\nmatlabbatch{7}.spm.spatial.preproc.tissue(2).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(2).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(3).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,3'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(3).ngaus = 2;\nmatlabbatch{7}.spm.spatial.preproc.tissue(3).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(3).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(4).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,4'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(4).ngaus = 3;\nmatlabbatch{7}.spm.spatial.preproc.tissue(4).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(4).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(5).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,5'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(5).ngaus = 4;\nmatlabbatch{7}.spm.spatial.preproc.tissue(5).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(5).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(6).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,6'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(6).ngaus = 2;\nmatlabbatch{7}.spm.spatial.preproc.tissue(6).native = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(6).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.warp.mrf = 1;\nmatlabbatch{7}.spm.spatial.preproc.warp.cleanup = 1;\nmatlabbatch{7}.spm.spatial.preproc.warp.reg = [0 0.001 0.5 0.05 0.2];\nmatlabbatch{7}.spm.spatial.preproc.warp.affreg = 'mni';\nmatlabbatch{7}.spm.spatial.preproc.warp.fwhm = 0;\nmatlabbatch{7}.spm.spatial.preproc.warp.samp = 3;\nmatlabbatch{7}.spm.spatial.preproc.warp.write = [0 1];",
@@ -92,8 +94,10 @@
         "Id": "bids::prov/#normalize-58f60575",
         "Label": "Normalize",
         "Used": [
-          "bids::SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.nii",
-          "bids::SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.nii"
+          "bids::sub-01/anat/y_sub-01_T1w.nii",
+          "bids::sub-01/func/rsub-01_task-tonecounting_bold.nii",
+          "urn:0d23fe0d-f845-47f6-bebc-143b161206a3",
+          "urn:008aab51-96cb-4264-b70a-8a086ed77afe"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{8}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Realigned Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','cfiles'));\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.prefix = 'w';",
@@ -104,8 +108,10 @@
         "Id": "bids::prov/#normalize-7a89965b",
         "Label": "Normalize",
         "Used": [
-          "bids::SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.nii",
-          "bids::SPM/PREPROCESSING/ANATOMICAL/msub-01_T1w.nii"
+          "bids::sub-01/anat/y_sub-01_T1w.nii",
+          "bids::sub-01/anat/msub-01_T1w.nii",
+          "urn:3eb8ed44-de6f-4c0a-a4d9-438e120a747c",
+          "urn:d94f3ee0-024b-4003-b2b4-a9bcf248711a"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{9}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{9}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Segment: Bias Corrected (1)', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','channel', '()',{1}, '.','biascorr', '()',{':'}));\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.prefix = 'w';",
@@ -116,7 +122,9 @@
         "Id": "bids::prov/#smooth-36370afe",
         "Label": "Smooth",
         "Used": [
-          "bids::SPM/PREPROCESSING/FUNCTIONAL/wsub-01_task-tonecounting_bold.nii"
+          "bids::sub-01/func/wrsub-01_task-tonecounting_bold.nii",
+          "urn:231e548d-1e6c-46f3-92bc-bbec8e5eb584",
+          "urn:3d8326f0-ad67-46d9-9213-fe2249e2c5b7"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{10}.spm.spatial.smooth.data(1) = cfg_dep('Normalise: Write: Normalised Images (Subj 1)', substruct('.','val', '{}',{8}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{1}, '.','files'));\nmatlabbatch{10}.spm.spatial.smooth.fwhm = [6 6 6];\nmatlabbatch{10}.spm.spatial.smooth.dtype = 0;\nmatlabbatch{10}.spm.spatial.smooth.im = 0;\nmatlabbatch{10}.spm.spatial.smooth.prefix = 's';",
@@ -128,149 +136,240 @@
       {
         "Id": "bids:ds011:sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
         "Label": "sub-01_task-tonecounting_bold.nii.gz",
-        "AtLocation": "/work/data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
-        "digest": {
+        "AtLocation": "data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
+        "Digest": {
           "sha256": "c02dc3b622a92fdcdaacb1dd198cd45b4004f326dd1f1abbc4be15a5e4cbc57d"
         }
       },
       {
         "Id": "bids:ds011:sub-01/anat/sub-01_T1w.nii.gz",
         "Label": "sub-01_T1w.nii.gz",
-        "AtLocation": "/work/data/sub-01/anat/sub-01_T1w.nii.gz",
-        "digest": {
+        "AtLocation": "data/sub-01/anat/sub-01_T1w.nii.gz",
+        "Digest": {
           "sha256": "66eeafb465559148e0222d4079558a8354eb09b9efabcc47cd5b8af6eed51907"
         }
       },
       {
-        "Id": "urn:f52e6e3df12f-fdfc-4dfa-b192-223988f1",
+        "Id": "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
         "Label": "TPM.nii",
         "AtLocation": "spm12/tpm/TPM.nii",
-        "digest": {
+        "Digest": {
           "sha256": "259527f0d92ca5eb0c21684f854e9d8cd7104f9f6a7ebf17ee98de420d9fc68f"
         }
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/sub-01_task-tonecounting_bold.nii.gz",
+        "Id": "urn:20953875-19dd-409d-adf1-5ff4404f8ae7",
         "Label": "sub-01_task-tonecounting_bold.nii.gz",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
         "GeneratedBy": "bids::prov/#movefile-26803be5",
-        "digest": {
+        "Digest": {
           "sha256": "c02dc3b622a92fdcdaacb1dd198cd45b4004f326dd1f1abbc4be15a5e4cbc57d"
         }
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w.nii.gz",
+        "Id": "urn:9dff6df8-56be-4d25-a127-b31b20890943",
         "Label": "sub-01_T1w.nii.gz",
         "GeneratedBy": "bids::prov/#movefile-bac3f385",
-        "digest": {
+        "Digest": {
           "sha256": "66eeafb465559148e0222d4079558a8354eb09b9efabcc47cd5b8af6eed51907"
         }
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/sub-01_task-tonecounting_bold.nii",
+        "Id": "urn:ee913e65-93fb-474a-8322-487a9894bd82",
         "Label": "sub-01_task-tonecounting_bold.nii",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii",
         "GeneratedBy": "bids::prov/#gunzip-ca36a952",
-        "digest": {
+        "Digest": {
+          "sha256": "672fafcd016b2442fcb7df90a6893a97cb1cd19fb70361dc70fb81d755ff74ea"
+        }
+      },
+      {
+        "Id": "urn:00f98a97-fbfd-49a6-8318-97a89211b9cf",
+        "Label": "sub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#gunzip-e9264918",
+        "Digest": {
+          "sha256": "45485541db5734f565b7cac3e009f8b02907245fc6db435c700e84d1037773b5"
+        }
+      },
+      {
+        "Id": "bids::sub-01/func/sub-01_task-tonecounting_bold.nii",
+        "Label": "sub-01_task-tonecounting_bold.nii",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii",
+        "GeneratedBy": "bids::prov/#realign-acea8093",
+        "Digest": {
           "sha256": "a4e801438b9c36df010309c94fc4ef8b07d95e7d9cb2edb8c212a5e5efc78d90"
         }
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w.nii",
-        "Label": "sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#gunzip-e9264918",
-        "digest": {
-          "sha256": "f29cb68cce4cb3aa2ccbc791aceff3705a23e07dfc40c045a7ce3879ebc1f338"
-        }
-      },
-      {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/sub-01_task-tonecounting_bold.mat",
+        "Id": "urn:5781514a-c7d9-4ce1-be84-328669f4f7d6",
         "Label": "sub-01_task-tonecounting_bold.mat",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
         "GeneratedBy": "bids::prov/#realign-acea8093",
-        "digest": {
+        "Digest": {
           "sha256": "04e7e267a3697ee5680b2c59dd685c61394b75c990fd1c7d5409d1bd8be046bb"
         }
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c1sub-01_T1w.nii",
-        "Label": "c1sub-01_T1w.nii",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c1sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
+        "Id": "urn:c64b509f-f5ec-41e8-97cf-49229cfb0aef",
+        "Label": "sub-01_task-tonecounting_bold.mat",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
+        "GeneratedBy": "bids::prov/#coregister-6d38be4a",
+        "Digest": {
+          "sha256": "2c42a70ef87df9e68ccefee06d9b61a53ddca2f2bd2efab8a7230b476331e0d8"
+        }
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c2sub-01_T1w.nii",
-        "Label": "c2sub-01_T1w.nii",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c2sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
-      },
-      {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c3sub-01_T1w.nii",
-        "Label": "c3sub-01_T1w.nii",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c3sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
-      },
-      {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c4sub-01_T1w.nii",
-        "Label": "c4sub-01_T1w.nii",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c4sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
-      },
-      {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/c5sub-01_T1w.nii",
-        "Label": "c5sub-01_T1w.nii",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/c5sub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
-      },
-      {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/msub-01_T1w.nii",
-        "Label": "msub-01_T1w.nii",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/msub-01_T1w.nii",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
-      },
-      {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w_seg8.mat",
+        "Id": "urn:0d23fe0d-f845-47f6-bebc-143b161206a3",
         "Label": "sub-01_T1w_seg8.mat",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/sub-01_T1w_seg8.mat",
+        "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
+        "Digest": {
+          "sha256": "2631f511158146fd154cc4e14ed185cbe96a8c692d33492df457e7c3768bb41e"
+        }
+      },
+      {
+        "Id": "urn:008aab51-96cb-4264-b70a-8a086ed77afe",
+        "Label": "sub-01_task-tonecounting_bold.mat",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
+        "Digest": {
+          "sha256": "5a1247cbca868ee3765f4bbb8a23a0e787914649a48b8faa69f14875bc817f3f"
+        }
+      },
+      {
+        "Id": "urn:d94f3ee0-024b-4003-b2b4-a9bcf248711a",
+        "Label": "sub-01_T1w_seg8.mat",
+        "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
+        "GeneratedBy": "bids::prov/#normalize-58f60575",
+        "Digest": {
+          "sha256": "03cd0f7692a14e1a84cb495b2490d16220f13fa29abb5d048722ff341ddf84c5"
+        }
+      },
+      {
+        "Id": "urn:3eb8ed44-de6f-4c0a-a4d9-438e120a747c",
+        "Label": "sub-01_task-tonecounting_bold.mat",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
+        "GeneratedBy": "bids::prov/#normalize-58f60575",
+        "Digest": {
+          "sha256": "ccaad7aa2d377948bf280df334a274375e37d6a704f6f7a593e92a0873fee089"
+        }
+      },
+      {
+        "Id": "urn:3d8326f0-ad67-46d9-9213-fe2249e2c5b7",
+        "Label": "sub-01_T1w_seg8.mat",
+        "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
+        "GeneratedBy": "bids::prov/#normalize-7a89965b",
+        "Digest": {
+          "sha256": "83d3e23eeec10d889dcce1ccc3e2a0e4f61e2d3edca938223e9d32553ee212e8"
+        }
+      },
+      {
+        "Id": "urn:231e548d-1e6c-46f3-92bc-bbec8e5eb584",
+        "Label": "sub-01_task-tonecounting_bold.mat",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
+        "GeneratedBy": "bids::prov/#normalize-7a89965b",
+        "Digest": {
+          "sha256": "842416b562f599188c15bf2da3979069797e1abdefe9cdaf041b557c913b8c90"
+        }
+      },
+      {
+        "Id": "bids::sub-01/func/sub-01_task-tonecounting_bold.mat",
+        "Label": "sub-01_task-tonecounting_bold.mat",
+        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
+        "GeneratedBy": "bids::prov/#bids::prov/#smooth-36370afe",
+        "Digest": {
+          "sha256": "4156f7b834cd68e0262428e30ee7e08af01e515aac2fcde16590f790a3d424cf"
+        }
+      },
+      {
+        "Id": "bids::sub-01/anat/c1sub-01_T1w.nii",
+        "Label": "c1sub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/c1sub-01_T1w.nii",
         "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.nii",
+        "Id": "bids::sub-01/anat/c2sub-01_T1w.nii",
+        "Label": "c2sub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/c2sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
+      },
+      {
+        "Id": "bids::sub-01/anat/c3sub-01_T1w.nii",
+        "Label": "c3sub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/c3sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
+      },
+      {
+        "Id": "bids::sub-01/anat/c4sub-01_T1w.nii",
+        "Label": "c4sub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/c4sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
+      },
+      {
+        "Id": "bids::sub-01/anat/c5sub-01_T1w.nii",
+        "Label": "c5sub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/c5sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
+      },
+      {
+        "Id": "bids::sub-01/anat/msub-01_T1w.nii",
+        "Label": "msub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/msub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
+      },
+      {
+        "Id": "bids::sub-01/anat/sub-01_T1w.nii",
+        "Label": "sub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/sub-01_T1w.nii",
+        "GeneratedBy": "bids::prov/#coregister-6d38be4a"
+      },
+      {
+        "Id": "bids::sub-01/anat/sub-01_T1w_seg8.mat",
+        "Label": "sub-01_T1w_seg8.mat",
+        "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
+        "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
+      },
+      {
+        "Id": "bids::sub-01/anat/y_sub-01_T1w.nii",
         "Label": "y_sub-01_T1w.nii",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/y_sub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/y_sub-01_T1w.nii",
         "GeneratedBy": "bids::prov/#segment-7d5d4ac5"
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/ANATOMICAL/wmsub-01_T1w.nii",
+        "Id": "bids::sub-01/anat/wmsub-01_T1w.nii",
         "Label": "wmsub-01_T1w.nii",
-        "AtLocation": "SPM/PREPROCESSING/ANATOMICAL/wmsub-01_T1w.nii",
+        "AtLocation": "sub-01/anat/wmsub-01_T1w.nii",
         "GeneratedBy": "bids::prov/#normalize-7a89965b"
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/meansub-01_task-tonecounting_bold.nii",
+        "Id": "bids::sub-01/func/meansub-01_task-tonecounting_bold.nii",
         "Label": "meansub-01_task-tonecounting_bold.nii",
-        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/meansub-01_task-tonecounting_bold.nii",
+        "AtLocation": "sub-01/func/meansub-01_task-tonecounting_bold.nii",
         "GeneratedBy": "bids::prov/#realign-acea8093"
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/rp_sub-01_task-tonecounting_bold.txt",
+        "Id": "bids::sub-01/func/rp_sub-01_task-tonecounting_bold.txt",
         "Label": "rp_sub-01_task-tonecounting_bold.txt",
-        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/rp_sub-01_task-tonecounting_bold.txt",
+        "AtLocation": "sub-01/func/rp_sub-01_task-tonecounting_bold.txt",
         "GeneratedBy": "bids::prov/#realign-acea8093"
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.nii",
+        "Id": "bids::sub-01/func/rsub-01_task-tonecounting_bold.nii",
         "Label": "rsub-01_task-tonecounting_bold.nii",
-        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/rsub-01_task-tonecounting_bold.nii",
+        "AtLocation": "sub-01/func/rsub-01_task-tonecounting_bold.nii",
         "GeneratedBy": "bids::prov/#realign-acea8093"
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/swsub-01_task-tonecounting_bold.nii",
-        "Label": "swsub-01_task-tonecounting_bold.nii",
-        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/swsub-01_task-tonecounting_bold.nii",
+        "Id": "bids::sub-01/func/swrsub-01_task-tonecounting_bold.nii",
+        "Label": "swrsub-01_task-tonecounting_bold.nii",
+        "AtLocation": "sub-01/func/swrsub-01_task-tonecounting_bold.nii",
         "GeneratedBy": "bids::prov/#smooth-36370afe"
       },
       {
-        "Id": "bids::SPM/PREPROCESSING/FUNCTIONAL/wsub-01_task-tonecounting_bold.nii",
-        "Label": "wsub-01_task-tonecounting_bold.nii",
-        "AtLocation": "SPM/PREPROCESSING/FUNCTIONAL/wsub-01_task-tonecounting_bold.nii",
+        "Id": "bids::sub-01/func/wrsub-01_task-tonecounting_bold.nii",
+        "Label": "wrsub-01_task-tonecounting_bold.nii",
+        "AtLocation": "sub-01/func/wrsub-01_task-tonecounting_bold.nii",
         "GeneratedBy": "bids::prov/#normalize-58f60575"
       }
     ]
