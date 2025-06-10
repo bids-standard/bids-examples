@@ -70,14 +70,19 @@ for prov_file in prov_act_files:
 
 # Parse Sidecar files
 for sidecar_file in sidecar_files:
-  # Identify data file(s) associated with the sidecar
+
+  # Identify data file associated with the sidecar
   sidecar_filename = Path(sidecar_file)
   data_files = Path('').glob(f'{sidecar_filename.with_suffix("")}.*')
   data_files = [str(f) for f in list(data_files) if str(sidecar_filename) not in str(f)]
+  if len(data_files) != 1:
+    continue
+  data_file = data_files[0]
 
   # Write provenance
   with open(sidecar_file, encoding = 'utf-8') as file:
     data = json.load(file)
+
     if 'GeneratedBy' in data:
 
       # Get activity data and id
@@ -88,16 +93,22 @@ for sidecar_file in sidecar_files:
       else:
         activity_id = activity_data
 
-      # Provenance for the data file
-      for data_file in data_files:
-        base_provenance['Records']['Entities'].append(
-          {
-            "Id": f"bids::{data_file}",
-            "Label": Path(data_file).name,
-            "AtLocation": data_file,
-            "GeneratedBy": activity_data
-          }
-        )
+      # Provenance Entity record for the data file
+      entity = {
+        "Id": f"bids::{data_file}",
+        "Label": Path(data_file).name,
+        "AtLocation": data_file,
+        "GeneratedBy": activity_data
+      }
+
+      # Get other provenance-related metadata
+      if 'Digest' in data:
+        entity['Digest'] = data['Digest']
+      if 'Type' in data:
+        entity['Type'] = data['Type']
+
+      # Write provenance record
+      base_provenance['Records']['Entities'].append(entity)
 
     if 'SidecarGeneratedBy' in data:
 
