@@ -1,0 +1,56 @@
+{
+  "Entities": [
+    {
+      "Id": "bids::sourcedata/hirni-demo/code/hirni-toolbox/converters/heudiconv/hirni_heuristic.py",
+      "Label": "heuristic"
+    },
+    {
+      "Id": "bids::sourcedata/hirni-demo/acq1/studyspec.json",
+      "Label": "studyspec"
+    },
+    {
+      "Id": "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms",
+      "Label": "dicoms"
+    },
+    {
+      "Id": "bids::.bidsignore",
+      "Label": ".bidsignore",
+      "GeneratedBy": "bids::prov/#preparation-conversion-1xkhm1ft"
+    },
+    {
+      "Id": "bids::.heudiconv/",
+      "Label": ".heudiconv/",
+      "GeneratedBy": "bids::prov/#preparation-conversion-1xkhm1ft"
+    },
+    {
+      "Id": "bids::CHANGES",
+      "Label": "CHANGES",
+      "GeneratedBy": "bids::prov/#preparation-conversion-1xkhm1ft"
+    },
+    {
+      "Id": "bids::dataset_description.json",
+      "Label": "dataset_description.json",
+      "GeneratedBy": "bids::prov/#preparation-conversion-1xkhm1ft"
+    },
+    {
+      "Id": "bids::participants.json",
+      "Label": "participants.json",
+      "GeneratedBy": "bids::prov/#preparation-conversion-1xkhm1ft"
+    },
+    {
+      "Id": "bids::participants.tsv",
+      "Label": "participants.tsv",
+      "GeneratedBy": "bids::prov/#preparation-conversion-1xkhm1ft"
+    },
+    {
+      "Id": "bids::README",
+      "Label": "README",
+      "GeneratedBy": "bids::prov/#preparation-conversion-1xkhm1ft"
+    },
+    {
+      "Id": "bids::scans.json",
+      "Label": "scans.json",
+      "GeneratedBy": "bids::prov/#preparation-conversion-1xkhm1ft"
+    }
+  ]
+}
