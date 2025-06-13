@@ -13,7 +13,7 @@
         "Id": "bids::prov/#movefile-26803be5",
         "Label": "Move file",
         "Used": [
-          "bids:ds011:sub-01/func/sub-01_task-tonecounting_bold.nii.gz"
+          "bids:ds000011:sub-01/func/sub-01_task-tonecounting_bold.nii.gz"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.files = {'/work/data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz'};\nmatlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'/work/sub-01/func'};",
@@ -24,7 +24,7 @@
         "Id": "bids::prov/#movefile-bac3f385",
         "Label": "Move file",
         "Used": [
-          "bids:ds011:sub-01/anat/sub-01_T1w.nii.gz"
+          "bids:ds000011:sub-01/anat/sub-01_T1w.nii.gz"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.files = {'/work/data/sub-01/anat/sub-01_T1w.nii.gz'};\nmatlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'/work/sub-01/anat'};",
@@ -134,7 +134,7 @@
     ],
     "Entities": [
       {
-        "Id": "bids:ds011:sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
+        "Id": "bids:ds000011:sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
         "Label": "sub-01_task-tonecounting_bold.nii.gz",
         "AtLocation": "data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
         "Digest": {
@@ -142,7 +142,7 @@
         }
       },
       {
-        "Id": "bids:ds011:sub-01/anat/sub-01_T1w.nii.gz",
+        "Id": "bids:ds000011:sub-01/anat/sub-01_T1w.nii.gz",
         "Label": "sub-01_T1w.nii.gz",
         "AtLocation": "data/sub-01/anat/sub-01_T1w.nii.gz",
         "Digest": {
