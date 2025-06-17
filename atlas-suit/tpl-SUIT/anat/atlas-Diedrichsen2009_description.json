@@ -1,0 +1,18 @@
+{
+    "Name": "A probabilistic MR atlas of the human cerebellum",
+    "Authors": [
+        "Jörn Diedrichsen",
+        "Joshua H Balsters",
+        "Jonathan Flavell",
+        "Emma Cussans",
+        "Narender Ramnani"
+    ],
+    "Sample Size": 20,
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152Lin_res-01_T1w.nii.gz",
+    "License": "LICENSE file",
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1016/j.neuroimage.2009.01.045",
+        "https://github.com/jdiedrichsen/suit"
+    ],
+    "Species": "Human"
+}
