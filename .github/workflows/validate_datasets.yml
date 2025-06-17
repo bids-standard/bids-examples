@@ -2,12 +2,10 @@ name: validate_datasets
 
 on:
   push:
-    branches: ['**']
+    branches: [master, main]
+    tags: ['*']
   pull_request:
-    branches: ['**']
-  create:
-    branches: [master]
-    tags: ['**']
+    branches: [master, main, 'bep*']
   schedule:
     - cron: "0 4 * * 1"
 
