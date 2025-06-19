@@ -60,7 +60,6 @@
       "Label": "Coregister",
       "Used": [
         "bids::sub-01/func/meansub-01_task-tonecounting_bold.nii",
-        "urn:5781514a-c7d9-4ce1-be84-328669f4f7d6",
         "urn:00f98a97-fbfd-49a6-8318-97a89211b9cf"
       ],
       "AssociatedWith": "bids::prov/#spm-fa0baf93",
@@ -73,7 +72,6 @@
       "Label": "Segment",
       "Used": [
         "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
-        "urn:c64b509f-f5ec-41e8-97cf-49229cfb0aef",
         "bids::sub-01/anat/sub-01_T1w.nii"
       ],
       "AssociatedWith": "bids::prov/#spm-fa0baf93",
@@ -86,9 +84,7 @@
       "Label": "Normalize",
       "Used": [
         "bids::sub-01/anat/y_sub-01_T1w.nii",
-        "bids::sub-01/func/rsub-01_task-tonecounting_bold.nii",
-        "urn:0d23fe0d-f845-47f6-bebc-143b161206a3",
-        "urn:008aab51-96cb-4264-b70a-8a086ed77afe"
+        "bids::sub-01/func/rsub-01_task-tonecounting_bold.nii"
       ],
       "AssociatedWith": "bids::prov/#spm-fa0baf93",
       "Command": "matlabbatch{8}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Resliced Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','rfiles'));\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.prefix = 'w';",
@@ -100,9 +96,7 @@
       "Label": "Normalize",
       "Used": [
         "bids::sub-01/anat/y_sub-01_T1w.nii",
-        "bids::sub-01/anat/msub-01_T1w.nii",
-        "urn:3eb8ed44-de6f-4c0a-a4d9-438e120a747c",
-        "urn:d94f3ee0-024b-4003-b2b4-a9bcf248711a"
+        "bids::sub-01/anat/msub-01_T1w.nii"
       ],
       "AssociatedWith": "bids::prov/#spm-fa0baf93",
       "Command": "matlabbatch{9}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{9}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Segment: Bias Corrected (1)', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','channel', '()',{1}, '.','biascorr', '()',{':'}));\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.prefix = 'w';",
@@ -113,9 +107,7 @@
       "Id": "bids::prov/#smooth-36370afe",
       "Label": "Smooth",
       "Used": [
-        "bids::sub-01/func/wrsub-01_task-tonecounting_bold.nii",
-        "urn:231e548d-1e6c-46f3-92bc-bbec8e5eb584",
-        "urn:3d8326f0-ad67-46d9-9213-fe2249e2c5b7"
+        "bids::sub-01/func/wrsub-01_task-tonecounting_bold.nii"
       ],
       "AssociatedWith": "bids::prov/#spm-fa0baf93",
       "Command": "matlabbatch{10}.spm.spatial.smooth.data(1) = cfg_dep('Normalise: Write: Normalised Images (Subj 1)', substruct('.','val', '{}',{8}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{1}, '.','files'));\nmatlabbatch{10}.spm.spatial.smooth.fwhm = [6 6 6];\nmatlabbatch{10}.spm.spatial.smooth.dtype = 0;\nmatlabbatch{10}.spm.spatial.smooth.im = 0;\nmatlabbatch{10}.spm.spatial.smooth.prefix = 's';",

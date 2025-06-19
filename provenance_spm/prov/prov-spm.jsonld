@@ -16,7 +16,7 @@
           "bids:ds000011:sub-01/func/sub-01_task-tonecounting_bold.nii.gz"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
-        "Command": "matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.files = {'/work/data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz'};\nmatlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'/work/sub-01/func'};",
+        "Command": "matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.files = {'data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz'};\nmatlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'sub-01/func'};",
         "StartedAtTime": "2025-05-28T14:48:00",
         "EndedAtTime": "2025-05-28T14:48:01"
       },
@@ -27,7 +27,7 @@
           "bids:ds000011:sub-01/anat/sub-01_T1w.nii.gz"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
-        "Command": "matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.files = {'/work/data/sub-01/anat/sub-01_T1w.nii.gz'};\nmatlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'/work/sub-01/anat'};",
+        "Command": "matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.files = {'data/sub-01/anat/sub-01_T1w.nii.gz'};\nmatlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'sub-01/anat'};",
         "StartedAtTime": "2025-05-28T14:48:00",
         "EndedAtTime": "2025-05-28T14:48:01"
       },
@@ -69,7 +69,6 @@
         "Label": "Coregister",
         "Used": [
           "bids::sub-01/func/meansub-01_task-tonecounting_bold.nii",
-          "urn:5781514a-c7d9-4ce1-be84-328669f4f7d6",
           "urn:00f98a97-fbfd-49a6-8318-97a89211b9cf"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
@@ -82,7 +81,6 @@
         "Label": "Segment",
         "Used": [
           "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
-          "urn:c64b509f-f5ec-41e8-97cf-49229cfb0aef",
           "bids::sub-01/anat/sub-01_T1w.nii"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
@@ -95,9 +93,7 @@
         "Label": "Normalize",
         "Used": [
           "bids::sub-01/anat/y_sub-01_T1w.nii",
-          "bids::sub-01/func/rsub-01_task-tonecounting_bold.nii",
-          "urn:0d23fe0d-f845-47f6-bebc-143b161206a3",
-          "urn:008aab51-96cb-4264-b70a-8a086ed77afe"
+          "bids::sub-01/func/rsub-01_task-tonecounting_bold.nii"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{8}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Resliced Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','rfiles'));\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.prefix = 'w';",
@@ -109,9 +105,7 @@
         "Label": "Normalize",
         "Used": [
           "bids::sub-01/anat/y_sub-01_T1w.nii",
-          "bids::sub-01/anat/msub-01_T1w.nii",
-          "urn:3eb8ed44-de6f-4c0a-a4d9-438e120a747c",
-          "urn:d94f3ee0-024b-4003-b2b4-a9bcf248711a"
+          "bids::sub-01/anat/msub-01_T1w.nii"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{9}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{9}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Segment: Bias Corrected (1)', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','channel', '()',{1}, '.','biascorr', '()',{':'}));\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.prefix = 'w';",
@@ -122,9 +116,7 @@
         "Id": "bids::prov/#smooth-36370afe",
         "Label": "Smooth",
         "Used": [
-          "bids::sub-01/func/wrsub-01_task-tonecounting_bold.nii",
-          "urn:231e548d-1e6c-46f3-92bc-bbec8e5eb584",
-          "urn:3d8326f0-ad67-46d9-9213-fe2249e2c5b7"
+          "bids::sub-01/func/wrsub-01_task-tonecounting_bold.nii"
         ],
         "AssociatedWith": "bids::prov/#spm-fa0baf93",
         "Command": "matlabbatch{10}.spm.spatial.smooth.data(1) = cfg_dep('Normalise: Write: Normalised Images (Subj 1)', substruct('.','val', '{}',{8}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{1}, '.','files'));\nmatlabbatch{10}.spm.spatial.smooth.fwhm = [6 6 6];\nmatlabbatch{10}.spm.spatial.smooth.dtype = 0;\nmatlabbatch{10}.spm.spatial.smooth.im = 0;\nmatlabbatch{10}.spm.spatial.smooth.prefix = 's';",
@@ -153,6 +145,7 @@
         "Id": "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
         "Label": "TPM.nii",
         "AtLocation": "spm12/tpm/TPM.nii",
+        "prov:wasAttributedTo": "bids::prov/#spm-fa0baf93",
         "Digest": {
           "sha256": "259527f0d92ca5eb0c21684f854e9d8cd7104f9f6a7ebf17ee98de420d9fc68f"
         }
@@ -202,7 +195,7 @@
         }
       },
       {
-        "Id": "urn:5781514a-c7d9-4ce1-be84-328669f4f7d6",
+        "Id": "bids::sub-01/func/sub-01_task-tonecounting_bold.mat",
         "Label": "sub-01_task-tonecounting_bold.mat",
         "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
         "GeneratedBy": "bids::prov/#realign-acea8093",
@@ -211,75 +204,12 @@
         }
       },
       {
-        "Id": "urn:c64b509f-f5ec-41e8-97cf-49229cfb0aef",
-        "Label": "sub-01_task-tonecounting_bold.mat",
-        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
-        "GeneratedBy": "bids::prov/#coregister-6d38be4a",
-        "Digest": {
-          "sha256": "2c42a70ef87df9e68ccefee06d9b61a53ddca2f2bd2efab8a7230b476331e0d8"
-        }
-      },
-      {
-        "Id": "urn:0d23fe0d-f845-47f6-bebc-143b161206a3",
+        "Id": "bids::sub-01/anat/sub-01_T1w_seg8.mat",
         "Label": "sub-01_T1w_seg8.mat",
         "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
         "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
         "Digest": {
           "sha256": "2631f511158146fd154cc4e14ed185cbe96a8c692d33492df457e7c3768bb41e"
-        }
-      },
-      {
-        "Id": "urn:008aab51-96cb-4264-b70a-8a086ed77afe",
-        "Label": "sub-01_task-tonecounting_bold.mat",
-        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
-        "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
-        "Digest": {
-          "sha256": "5a1247cbca868ee3765f4bbb8a23a0e787914649a48b8faa69f14875bc817f3f"
-        }
-      },
-      {
-        "Id": "urn:d94f3ee0-024b-4003-b2b4-a9bcf248711a",
-        "Label": "sub-01_T1w_seg8.mat",
-        "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
-        "GeneratedBy": "bids::prov/#normalize-58f60575",
-        "Digest": {
-          "sha256": "03cd0f7692a14e1a84cb495b2490d16220f13fa29abb5d048722ff341ddf84c5"
-        }
-      },
-      {
-        "Id": "urn:3eb8ed44-de6f-4c0a-a4d9-438e120a747c",
-        "Label": "sub-01_task-tonecounting_bold.mat",
-        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
-        "GeneratedBy": "bids::prov/#normalize-58f60575",
-        "Digest": {
-          "sha256": "ccaad7aa2d377948bf280df334a274375e37d6a704f6f7a593e92a0873fee089"
-        }
-      },
-      {
-        "Id": "urn:3d8326f0-ad67-46d9-9213-fe2249e2c5b7",
-        "Label": "sub-01_T1w_seg8.mat",
-        "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
-        "GeneratedBy": "bids::prov/#normalize-7a89965b",
-        "Digest": {
-          "sha256": "83d3e23eeec10d889dcce1ccc3e2a0e4f61e2d3edca938223e9d32553ee212e8"
-        }
-      },
-      {
-        "Id": "urn:231e548d-1e6c-46f3-92bc-bbec8e5eb584",
-        "Label": "sub-01_task-tonecounting_bold.mat",
-        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
-        "GeneratedBy": "bids::prov/#normalize-7a89965b",
-        "Digest": {
-          "sha256": "842416b562f599188c15bf2da3979069797e1abdefe9cdaf041b557c913b8c90"
-        }
-      },
-      {
-        "Id": "bids::sub-01/func/sub-01_task-tonecounting_bold.mat",
-        "Label": "sub-01_task-tonecounting_bold.mat",
-        "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
-        "GeneratedBy": "bids::prov/#bids::prov/#smooth-36370afe",
-        "Digest": {
-          "sha256": "4156f7b834cd68e0262428e30ee7e08af01e515aac2fcde16590f790a3d424cf"
         }
       },
       {
