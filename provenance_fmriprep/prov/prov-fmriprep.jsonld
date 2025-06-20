@@ -32,11 +32,11 @@
     "Entities": [
       {
         "Id": "bids:ds001734",
-        "Label": "ds001734"
+        "Label": "NARPS"
       },
       {
         "Id": "bids:current_dataset",
-        "Label": "Provenance records for fMRIPrep preprocessing",
+        "Label": "Outputs from fMRIPrep preprocessing",
         "GeneratedBy": [
           "bids::prov#preprocessing-xMpFqB5q"
         ]
