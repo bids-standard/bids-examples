@@ -1,0 +1,17 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#preprocessing-xMpFqB5q",
+      "Label": "Preprocessing",
+      "Command": "fmriprep-docker --participant-label=001 --fs-license-file=freesurfer_license.txt -w=derivatives/work/ ds001734/ derivatives/ participant",
+      "AssociatedWith": [
+        "bids::prov#fmriprepdocker-BMBz4YmB",
+        "bids::prov#fmriprep-awf6cvk6"
+      ],
+      "Used": [
+        "bids::prov#poldracklab/fmriprep-mHl7Dqa0",
+        "bids:ds001734"
+      ]
+    }    
+  ]
+}

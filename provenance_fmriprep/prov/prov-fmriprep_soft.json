@@ -1,0 +1,16 @@
+{
+  "Software": [
+    {
+      "Id": "bids::prov#fmriprep-awf6cvk6",
+      "Label": "fMRIPrep",
+      "Version": "1.1.4",
+      "AltIdentifier": "RRID:SCR_016216",
+      "prov:actedOnBehalfOf": "bids::prov#fmriprepdocker-BMBz4YmB"
+    },
+    {
+      "Id": "bids::prov#fmriprepdocker-BMBz4YmB",
+      "Label": "fmriprep-docker",
+      "Version": "1.1.4"
+    }    
+  ]
+}
