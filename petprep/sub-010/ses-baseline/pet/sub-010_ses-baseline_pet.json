@@ -1,0 +1,39 @@
+{
+  "Manufacturer": "GE",
+  "ManufacturersModelName": "Advance",
+  "Units": "Bq/mL",
+  "TracerName": "DASB",
+  "TracerRadionuclide": "11C",
+  "InjectedRadioactivity": 758.1300048828125,
+  "InjectedRadioactivityUnits": "MBq",
+  "InjectedMass": "n/a",
+  "InjectedMassUnits": "n/a",
+  "SpecificRadioactivity": "n/a",
+  "SpecificRadioactivityUnits": "n/a",
+  "ModeOfAdministration": "bolus",
+  "TimeZero": "10:14:33",
+  "ScanStart": 0,
+  "InjectionStart": 0,
+  "FrameDuration": [30,30,30,30,30,30,60,60,60,120,120,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300],
+  "FrameTimesStart": [0,30,60,90,120,150,180,240,300,360,480,600,900,1200,1500,1800,2100,2400,2700,3000,3300,3600,3900,4200,4500,4800,5100,5400,5700,6000,6300,6600,6900],
+  "AcquisitionMode": "list-mode",
+  "ImageDecayCorrected": true,
+  "ImageDecayCorrectionTime": 0,
+  "ReconMethodName": "3D Kinahan - Rogers",
+  "ReconMethodParameterLabels": [
+    "acquisition_mode",
+    "FWHM"
+  ],
+  "ReconMethodParameterUnits": [
+    "3D",
+    "mm"
+  ],
+  "ReconMethodParameterValues": [0,6],
+  "ReconFilterType": [
+    "Rad: Hanning",
+    "Ax: Recangle"
+  ],
+  "ReconFilterSize": [4,8.5],
+  "AttenuationCorrection": "measured,, 0.096000 cm-1, attenuation smooth",
+  "InstitutionName": "nimh"
+}
