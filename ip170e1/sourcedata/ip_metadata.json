@@ -1,0 +1,14 @@
+{
+    "sub-01/func/sub-01_task-rest_acq-default_bold.nii.gz": {
+        ".json": {
+            "EchoTime": 0.040,
+            "RepetitionTime": 1.0
+        }
+    },
+    "sub-01/func/sub-01_task-rest_acq-longtr_bold.nii.gz": {
+        ".json": {
+             "EchoTime": 0.040,
+             "RepetitionTime": 3.0
+        }
+    }
+}

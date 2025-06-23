@@ -1,0 +1,13 @@
+{
+    "sub-01/anat/sub-01_part-mag_T2starw.nii.gz": {
+        ".json": {
+            "SharedMetadataKey": "SharedMetadataValue"
+        }
+    },
+    "sub-01/anat/sub-01_part-phase_T2starw.nii.gz": {
+        ".json": {
+            "SharedMetadataKey": "SharedMetadataValue",
+            "Units": "Radians"
+        }
+    }
+}
