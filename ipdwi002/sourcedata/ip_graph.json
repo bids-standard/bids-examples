@@ -1,0 +1,44 @@
+{
+    "dwi.bval": [
+        "sub-01/dwi/sub-01_acq-default_run-1_dwi.nii.gz",
+        "sub-01/dwi/sub-01_acq-default_run-2_dwi.nii.gz",
+        "sub-01/dwi/sub-01_acq-nonstandard_dwi.nii.gz"
+    ],
+    "dwi.bvec": [
+        "sub-01/dwi/sub-01_acq-default_run-1_dwi.nii.gz",
+        "sub-01/dwi/sub-01_acq-default_run-2_dwi.nii.gz",
+        "sub-01/dwi/sub-01_acq-nonstandard_dwi.nii.gz"
+    ],
+    "sub-01/dwi/sub-01_acq-nonstandard_dwi.bval": [
+        "sub-01/dwi/sub-01_acq-nonstandard_dwi.nii.gz"
+    ],
+    "sub-01/dwi/sub-01_acq-nonstandard_dwi.bvec": [
+        "sub-01/dwi/sub-01_acq-nonstandard_dwi.nii.gz"
+    ],
+    "sub-01/dwi/sub-01_acq-default_run-1_dwi.nii.gz": {
+        ".bval": [
+            "dwi.bval"
+        ],
+        ".bvec": [
+            "dwi.bvec"
+        ]
+    },
+    "sub-01/dwi/sub-01_acq-default_run-2_dwi.nii.gz": {
+        ".bval": [
+            "dwi.bval"
+        ],
+        ".bvec": [
+            "dwi.bvec"
+        ]
+    },
+    "sub-01/dwi/sub-01_acq-nonstandard_dwi.nii.gz": {
+        ".bval": [
+            "dwi.bval",
+            "sub-01/dwi/sub-01_acq-nonstandard_dwi.bval"
+        ],
+        ".bvec": [
+            "dwi.bvec",
+            "sub-01/dwi/sub-01_acq-nonstandard_dwi.bvec"
+        ]
+    }
+}
