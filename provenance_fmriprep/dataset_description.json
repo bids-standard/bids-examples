@@ -1,0 +1,24 @@
+{
+  "Name": "Outputs from fMRIPrep preprocessing",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "Authors": [
+    "Boris Clénet"
+  ],
+  "DatasetLinks": {
+    "ds001734": "https://openneuro.org/datasets/ds001734/versions/1.0.5"
+  },
+  "SourceDatasets": [
+    {
+      "URL": "ds001734",
+      "Version": "1.0.5"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "fmriprep",
+      "Id": "bids::prov#preprocessing-xMpFqB5q"
+    }
+  ]
+}
