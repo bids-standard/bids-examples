@@ -1,0 +1,14 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov/#conversion-00f3a18f",
+      "Label": "Conversion",
+      "Command": "dcm2niix -o . -f sub-%i/anat/sub-%i_T1w sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms",
+      "AssociatedWith": "bids::prov/#dcm2niix-khhkm7u1",
+      "Used": [
+        "bids::prov/#fedora-uldfv058",
+        "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms"
+      ]
+    }
+  ]
+}
