@@ -1,6 +1,6 @@
 {
     "sub-01/ses-01/func/sub-01_ses-01_task-ovg_run-1_bold.nii.gz": {
-        ".json": [
+        ".json": {
             "LowestBOLD": "Sub01Ses01TaskOVGBOLD",
             "LowestSub01": "Sub01Ses01TaskOVGBOLD",
             "LowestSes01": "Sub01Ses01TaskOVGBOLD",
@@ -10,10 +10,10 @@
             "Sub01BOLD": true,
             "Sub01Ses01BOLD": true,
             "Sub01Ses01TaskOVGBOLD": true
-        ]
+        }
     },
     "sub-01/ses-01/func/sub-01_ses-01_task-ovg_run-2_bold.nii.gz": {
-        ".json": [
+        ".json": {
             "LowestBOLD": "Sub01Ses01TaskOVGRun2BOLD",
             "LowestSub01": "Sub01Ses01TaskOVGRun2BOLD",
             "LowestSes01": "Sub01Ses01TaskOVGRun2BOLD",
@@ -24,35 +24,35 @@
             "Sub01Ses01BOLD": true,
             "Sub01Ses01TaskOVGBOLD": true,
             "Sub01Ses01TaskOVGRun2BOLD": true
-        ]
+        }
     },
     "sub-01/ses-02/func/sub-01_ses-02_task-ovg_bold.nii.gz": {
-        ".json": [
+        ".json": {
             "LowestBOLD": "Sub01BOLD",
             "LowestSub01": "Sub01BOLD",
             "LowestTaskOVG": "TaskOVGBOLD",
             "BOLD": true,
             "TaskOVGBOLD": true,
             "Sub01BOLD": true
-        ]
+        }
     },
     "sub-01/ses-02/func/sub-01_ses-02_task-rest_bold.nii.gz": {
-        ".json": [
+        ".json": {
             "LowestBOLD": "Sub01BOLD",
             "LowestSub01": "Sub01BOLD",
             "LowestTaskRest": "TaskRestBOLD",
             "BOLD": true,
             "TaskRestBOLD": true,
             "Sub01BOLD": true
-        ]
+        }
     },
     "sub-02/ses-01/func/sub-02_ses-01_task-rest_bold.nii.gz": {
-        ".json": [
+        ".json": {
             "LowestBOLD": "TaskRestBOLD",
             "LowestTaskRest": "TaskRestBOLD",
             "BOLD": true,
             "TaskOVGBOLD": true,
             "Sub01BOLD": true
-        ]
+        }
     }
 }
