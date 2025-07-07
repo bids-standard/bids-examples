@@ -1,0 +1,30 @@
+{
+    "sub-01/func/sub-01_task-ovg_acq-highres_bold.nii.gz": {
+        ".json": [
+            "Sub01BOLD": true,
+            "Sub01TaskOVGBOLD": true,
+            "Sub01AcqHighresBOLD": true
+        ]
+    },
+    "sub-01/func/sub-01_task-ovg_acq-lowres_bold.nii.gz": {
+        ".json": [
+            "Sub01BOLD": true,
+            "Sub01TaskOVGBOLD": true,
+            "Sub01AcqLowresBOLD": true
+        ]
+    },
+    "sub-01/func/sub-01_task-rest_acq-highres_bold.nii.gz": {
+        ".json": [
+            "Sub01BOLD": true,
+            "Sub01TaskRestBOLD": true,
+            "Sub01AcqHighresBOLD": true
+        ]
+    },
+    "sub-01/func/sub-01_task-rest_acq-lowres_bold.nii.gz": {
+        ".json": [
+            "Sub01BOLD": true,
+            "Sub01TaskRestBOLD": true,
+            "Sub01AcqLowresBOLD": true
+        ]
+    }
+}

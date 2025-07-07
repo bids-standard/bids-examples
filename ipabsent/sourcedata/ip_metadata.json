@@ -1,0 +1,83 @@
+{
+    "sub-01/ses-01/anat/sub-01_ses-01_T1w.nii.gz": {
+        ".json": [
+            "Sub01Ses01T1w": true
+        ]
+    },
+    "sub-01/ses-01/anat/sub-01_ses-01_T2w.nii.gz": {
+        ".json": [
+            "Sub01Ses01T2w": true
+        ]
+    },
+    "sub-01/ses-01/func/sub-01_ses-01_task-name_bold.nii.gz": {
+        ".json": [
+            "Sub01Ses01TaskNameBOLD": true
+        ]
+    },
+    "sub-01/ses-01/func/sub-01_ses-01_task-rest_bold.nii.gz": {
+        ".json": [
+            "Sub01Ses01TaskRestBOLD": true
+        ]
+    },
+    "sub-01/ses-02/anat/sub-01_ses-02_T1w.nii.gz": {
+        ".json": [
+            "Sub01Ses02T1w": true
+        ]
+    },
+    "sub-01/ses-02/anat/sub-01_ses-02_T2w.nii.gz": {
+        ".json": [
+            "Sub01Ses02T2w": true
+        ]
+    },
+    "sub-01/ses-02/func/sub-01_ses-02_task-name_bold.nii.gz": {
+        ".json": [
+            "Sub01Ses02TaskNameBOLD": true
+        ]
+    },
+    "sub-01/ses-02/func/sub-01_ses-02_task-rest_bold.nii.gz": {
+        ".json": [
+            "Sub01Ses02TaskRestBOLD": true
+        ]
+    },
+
+    "sub-02/ses-01/anat/sub-02_ses-01_T1w.nii.gz": {
+        ".json": [
+            "Sub02Ses01T1w": true
+        ]
+    },
+    "sub-02/ses-01/anat/sub-02_ses-01_T2w.nii.gz": {
+        ".json": [
+            "Sub02Ses01T2w": true
+        ]
+    },
+    "sub-02/ses-01/func/sub-02_ses-01_task-name_bold.nii.gz": {
+        ".json": [
+            "Sub02Ses01TaskNameBOLD": true
+        ]
+    },
+    "sub-02/ses-01/func/sub-02_ses-01_task-rest_bold.nii.gz": {
+        ".json": [
+            "Sub02Ses01TaskRestBOLD": true
+        ]
+    },
+    "sub-02/ses-02/anat/sub-02_ses-02_T1w.nii.gz": {
+        ".json": [
+            "Sub02Ses02T1w": true
+        ]
+    },
+    "sub-02/ses-02/anat/sub-02_ses-02_T2w.nii.gz": {
+        ".json": [
+            "Sub02Ses02T2w": true
+        ]
+    },
+    "sub-02/ses-02/func/sub-02_ses-02_task-name_bold.nii.gz": {
+        ".json": [
+            "Sub02Ses02TaskNameBOLD": true
+        ]
+    },
+    "sub-02/ses-02/func/sub-02_ses-02_task-rest_bold.nii.gz": {
+        ".json": [
+            "Sub02Ses02TaskRestBOLD": true
+        ]
+    }
+}
