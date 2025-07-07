@@ -11,12 +11,16 @@
     },
     "sub-01/ses-01/func/sub-01_ses-01_task-name_bold.nii.gz": {
         ".json": {
-            "Sub01Ses01TaskNameBOLD": true
+            "RepetitionTime": 1.0,
+            "Sub01Ses01TaskNameBOLD": true,
+            "TaskName": "TaskName"
         }
     },
     "sub-01/ses-01/func/sub-01_ses-01_task-rest_bold.nii.gz": {
         ".json": {
-            "Sub01Ses01TaskRestBOLD": true
+            "RepetitionTime": 1.0,
+            "Sub01Ses01TaskRestBOLD": true,
+            "TaskName": "Resting-state"
         }
     },
     "sub-01/ses-02/anat/sub-01_ses-02_T1w.nii.gz": {
@@ -31,12 +35,16 @@
     },
     "sub-01/ses-02/func/sub-01_ses-02_task-name_bold.nii.gz": {
         ".json": {
-            "Sub01Ses02TaskNameBOLD": true
+            "RepetitionTime": 1.0,
+            "Sub01Ses02TaskNameBOLD": true,
+            "TaskName": "TaskName"
         }
     },
     "sub-01/ses-02/func/sub-01_ses-02_task-rest_bold.nii.gz": {
         ".json": {
-            "Sub01Ses02TaskRestBOLD": true
+            "RepetitionTime": 1.0,
+            "Sub01Ses02TaskRestBOLD": true,
+            "TaskName": "Resting-state"
         }
     },
     "sub-02/ses-01/anat/sub-02_ses-01_T1w.nii.gz": {
@@ -51,12 +59,16 @@
     },
     "sub-02/ses-01/func/sub-02_ses-01_task-name_bold.nii.gz": {
         ".json": {
-            "Sub02Ses01TaskNameBOLD": true
+            "RepetitionTime": 1.0,
+            "Sub02Ses01TaskNameBOLD": true,
+            "TaskName": "TaskName"
         }
     },
     "sub-02/ses-01/func/sub-02_ses-01_task-rest_bold.nii.gz": {
         ".json": {
-            "Sub02Ses01TaskRestBOLD": true
+            "RepetitionTime": 1.0,
+            "Sub02Ses01TaskRestBOLD": true,
+            "TaskName": "Resting-state"
         }
     },
     "sub-02/ses-02/anat/sub-02_ses-02_T1w.nii.gz": {
@@ -71,12 +83,16 @@
     },
     "sub-02/ses-02/func/sub-02_ses-02_task-name_bold.nii.gz": {
         ".json": {
-            "Sub02Ses02TaskNameBOLD": true
+            "RepetitionTime": 1.0,
+            "Sub02Ses02TaskNameBOLD": true,
+            "TaskName": "TaskName"
         }
     },
     "sub-02/ses-02/func/sub-02_ses-02_task-rest_bold.nii.gz": {
         ".json": {
-            "Sub02Ses02TaskRestBOLD": true
+            "RepetitionTime": 1.0,
+            "Sub02Ses02TaskRestBOLD": true,
+            "TaskName": "Resting-state"
         }
     }
 }

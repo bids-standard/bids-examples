@@ -9,7 +9,9 @@
             "TaskOVGBOLD": true,
             "Sub01BOLD": true,
             "Sub01Ses01BOLD": true,
-            "Sub01Ses01TaskOVGBOLD": true
+            "Sub01Ses01TaskOVGBOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "OvertVerbGeneration"
         }
     },
     "sub-01/ses-01/func/sub-01_ses-01_task-ovg_run-2_bold.nii.gz": {
@@ -23,7 +25,24 @@
             "Sub01BOLD": true,
             "Sub01Ses01BOLD": true,
             "Sub01Ses01TaskOVGBOLD": true,
-            "Sub01Ses01TaskOVGRun2BOLD": true
+            "Sub01Ses01TaskOVGRun2BOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "OvertVerbGeneration"
+        }
+    },
+    "sub-01/ses-01/func/sub-01_ses-01_task-rest_bold.nii.gz": {
+        ".json": {
+            "LowestBOLD": "Sub01Ses01TaskRestBOLD",
+            "LowestSub01": "Sub01Ses01TaskRestBOLD",
+            "LowestSes01": "Sub01Ses01TaskRestBOLD",
+            "LowestTaskRest": "Sub01Ses01TaskRestBOLD",
+            "BOLD": true,
+            "TaskRestBOLD": true,
+            "Sub01BOLD": true,
+            "Sub01Ses01BOLD": true,
+            "Sub01Ses01TaskRestBOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "Resting-state"
         }
     },
     "sub-01/ses-02/func/sub-01_ses-02_task-ovg_bold.nii.gz": {
@@ -33,7 +52,9 @@
             "LowestTaskOVG": "TaskOVGBOLD",
             "BOLD": true,
             "TaskOVGBOLD": true,
-            "Sub01BOLD": true
+            "Sub01BOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "OvertVerbGeneration"
         }
     },
     "sub-01/ses-02/func/sub-01_ses-02_task-rest_bold.nii.gz": {
@@ -43,16 +64,20 @@
             "LowestTaskRest": "TaskRestBOLD",
             "BOLD": true,
             "TaskRestBOLD": true,
-            "Sub01BOLD": true
+            "Sub01BOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "Resting-state"
         }
     },
     "sub-02/ses-01/func/sub-02_ses-01_task-rest_bold.nii.gz": {
         ".json": {
-            "LowestBOLD": "TaskRestBOLD",
-            "LowestTaskRest": "TaskRestBOLD",
+            "LowestBOLD": "Sub02Ses01TaskRestBOLD",
+            "LowestTaskRest": "Sub02Ses01TaskRestBOLD",
             "BOLD": true,
-            "TaskOVGBOLD": true,
-            "Sub01BOLD": true
+            "TaskRestBOLD": true,
+            "Sub02Ses01TaskRestBOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "Resting-state"
         }
     }
 }

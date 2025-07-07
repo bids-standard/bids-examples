@@ -56,7 +56,7 @@
             "Sub01BOLD": true
         }
     },
-    "sub-01/ses-01/func/sub-02_ses-01_res-high_task-olr_bold.nii.gz": {
+    "sub-02/ses-01/func/sub-02_ses-01_res-high_task-olr_bold.nii.gz": {
         ".json": {
             "LowestBOLD": null,
             "LowestResHigh": "Sub02Ses01ResHighBOLD",
@@ -64,10 +64,12 @@
             "BOLD": true,
             "TaskOLRBOLD": true,
             "Sub02Ses01ResHighBOLD": true,
-            "Sub02Ses01TaskOLRBOLD": true
+            "Sub02Ses01TaskOLRBOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "OrthographicLexicalRetrieval"
         }
     },
-    "sub-01/ses-01/func/sub-02_ses-01_res-high_task-rest_bold.nii.gz": {
+    "sub-02/ses-01/func/sub-02_ses-01_res-high_task-rest_bold.nii.gz": {
         ".json": {
             "LowestBOLD": null,
             "LowestResHigh": "Sub02Ses01ResHighBOLD",
@@ -75,10 +77,12 @@
             "BOLD": true,
             "TaskRestBOLD": true,
             "Sub02Ses01ResHighBOLD": true,
-            "Sub02Ses01TaskRestBOLD": true
+            "Sub02Ses01TaskRestBOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "Resting-state"
         }
     },
-    "sub-01/ses-01/func/sub-02_ses-01_res-low_task-olr_bold.nii.gz": {
+    "sub-02/ses-01/func/sub-02_ses-01_res-low_task-olr_bold.nii.gz": {
         ".json": {
             "LowestBOLD": null,
             "LowestResLow": "Sub02Ses01ResLowBOLD",
@@ -86,10 +90,12 @@
             "BOLD": true,
             "TaskOLRBOLD": true,
             "Sub02Ses01ResLowBOLD": true,
-            "Sub02Ses01TaskOLRBOLD": true
+            "Sub02Ses01TaskOLRBOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "OrthographicLexicalRetrieval"
         }
     },
-    "sub-01/ses-01/func/sub-02_ses-01_res-low_task-rest_bold.nii.gz": {
+    "sub-02/ses-01/func/sub-02_ses-01_res-low_task-rest_bold.nii.gz": {
         ".json": {
             "LowestBOLD": null,
             "LowestResLow": "Sub02Ses01ResLowBOLD",
@@ -97,7 +103,9 @@
             "BOLD": true,
             "TaskRestBOLD": true,
             "Sub02Ses01ResLowBOLD": true,
-            "Sub02Ses01TaskRestBOLD": true
+            "Sub02Ses01TaskRestBOLD": true,
+            "RepetitionTime": 1.0,
+            "TaskName": "Resting-state"
         }
     }
 }

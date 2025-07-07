@@ -3,7 +3,6 @@
     },
     "sub-01/ses-test/func/sub-01_ses-test_task-overtverbgeneration_run-1_bold.nii.gz": {
         ".json": {
-            "Lowest": "Sub01SesTestTaskOVGBOLD",
             "RepetitionTime": 1.0,
             "Sub01SesTestTaskOVGBOLD": true,
             "TaskName": "OvertVerbGeneration"
@@ -11,7 +10,6 @@
     },
     "sub-01/ses-test/func/sub-01_ses-test_task-overtverbgeneration_run-2_bold.nii.gz": {
         ".json": {
-            "Lowest": "Sub01SesTestTaskOVGRun2BOLD",
             "RepetitionTime": 1.0,
             "Sub01SesTestTaskOVGBOLD": true,
             "Sub01SesTestTaskOVGRun2BOLD": true,
