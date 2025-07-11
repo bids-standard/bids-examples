@@ -20,7 +20,7 @@
       "Id": "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
       "Label": "TPM.nii",
       "AtLocation": "spm12/tpm/TPM.nii",
-      "prov:wasAttributedTo": "bids::prov/#spm-fa0baf93",
+      "prov:wasAttributedTo": "bids::prov#spm-fa0baf93",
       "Digest": {
         "sha256": "259527f0d92ca5eb0c21684f854e9d8cd7104f9f6a7ebf17ee98de420d9fc68f"
       }
@@ -29,7 +29,7 @@
       "Id": "urn:20953875-19dd-409d-adf1-5ff4404f8ae7",
       "Label": "sub-01_task-tonecounting_bold.nii.gz",
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
-      "GeneratedBy": "bids::prov/#movefile-26803be5",
+      "GeneratedBy": "bids::prov#movefile-26803be5",
       "Digest": {
         "sha256": "c02dc3b622a92fdcdaacb1dd198cd45b4004f326dd1f1abbc4be15a5e4cbc57d"
       }
@@ -37,7 +37,7 @@
     {
       "Id": "urn:9dff6df8-56be-4d25-a127-b31b20890943",
       "Label": "sub-01_T1w.nii.gz",
-      "GeneratedBy": "bids::prov/#movefile-bac3f385",
+      "GeneratedBy": "bids::prov#movefile-bac3f385",
       "Digest": {
         "sha256": "66eeafb465559148e0222d4079558a8354eb09b9efabcc47cd5b8af6eed51907"
       }
@@ -46,7 +46,7 @@
       "Id": "urn:ee913e65-93fb-474a-8322-487a9894bd82",
       "Label": "sub-01_task-tonecounting_bold.nii",
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii",
-      "GeneratedBy": "bids::prov/#gunzip-ca36a952",
+      "GeneratedBy": "bids::prov#gunzip-ca36a952",
       "Digest": {
         "sha256": "672fafcd016b2442fcb7df90a6893a97cb1cd19fb70361dc70fb81d755ff74ea"
       }
@@ -55,7 +55,7 @@
       "Id": "urn:00f98a97-fbfd-49a6-8318-97a89211b9cf",
       "Label": "sub-01_T1w.nii",
       "AtLocation": "sub-01/anat/sub-01_T1w.nii",
-      "GeneratedBy": "bids::prov/#gunzip-e9264918",
+      "GeneratedBy": "bids::prov#gunzip-e9264918",
       "Digest": {
         "sha256": "45485541db5734f565b7cac3e009f8b02907245fc6db435c700e84d1037773b5"
       }
@@ -64,7 +64,7 @@
       "Id": "bids::sub-01/func/sub-01_task-tonecounting_bold.nii",
       "Label": "sub-01_task-tonecounting_bold.nii",
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii",
-      "GeneratedBy": "bids::prov/#realign-acea8093",
+      "GeneratedBy": "bids::prov#realign-acea8093",
       "Digest": {
         "sha256": "a4e801438b9c36df010309c94fc4ef8b07d95e7d9cb2edb8c212a5e5efc78d90"
       }
@@ -73,7 +73,7 @@
       "Id": "bids::sub-01/func/sub-01_task-tonecounting_bold.mat",
       "Label": "sub-01_task-tonecounting_bold.mat",
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
-      "GeneratedBy": "bids::prov/#realign-acea8093",
+      "GeneratedBy": "bids::prov#realign-acea8093",
       "Digest": {
         "sha256": "04e7e267a3697ee5680b2c59dd685c61394b75c990fd1c7d5409d1bd8be046bb"
       }
@@ -82,7 +82,7 @@
       "Id": "bids::sub-01/anat/sub-01_T1w_seg8.mat",
       "Label": "sub-01_T1w_seg8.mat",
       "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
-      "GeneratedBy": "bids::prov/#segment-7d5d4ac5",
+      "GeneratedBy": "bids::prov#segment-7d5d4ac5",
       "Digest": {
         "sha256": "2631f511158146fd154cc4e14ed185cbe96a8c692d33492df457e7c3768bb41e"
       }
