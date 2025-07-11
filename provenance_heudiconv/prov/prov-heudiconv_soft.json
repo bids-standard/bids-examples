@@ -1,15 +1,15 @@
 {
   "Software": [
     {
-      "Id": "bids::prov/#heudiconv-a9x5yd3j",
+      "Id": "bids::prov#heudiconv-a9x5yd3j",
       "Label": "heudiconv",
       "Version": "v1.3.2"
     },
     {
-      "Id": "bids::prov/#dcm2niix-r4a7zxc0",
+      "Id": "bids::prov#dcm2niix-r4a7zxc0",
       "Label": "dcm2niix",
       "Version": "v1.3.2",
-      "prov:actedOnBehalfOf": "bids::prov/#heudiconv-a9x5yd3j"
+      "prov:actedOnBehalfOf": "bids::prov#heudiconv-a9x5yd3j"
     }
   ]
 }
