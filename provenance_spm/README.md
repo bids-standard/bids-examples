@@ -51,7 +51,3 @@ The directory tree is as follows:
             └── wsub-01_task-tonecounting_bold.nii
 
 ```
-
-TODOs:
-- [ ] finish readme & check if missing metadata in the dataset_description
-- [ ] use sidecar JSONs ?
