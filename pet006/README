@@ -1,0 +1,2 @@
+This dataset consists of a single calibration scan done on a Phantom, it's primary use is to ensure the behavior defined by the BIDS Speficication with respect to
+If ReconMethodParameters = ['none']; then ReconFilterSize is optional and ReconMethodParameterLabels = ['none'] are valid. 
