@@ -1,0 +1,11 @@
+{
+	"name": {
+		"Description": "REQUIRED. Label of the channel."
+	},
+	"type": {
+		"Description": "REQUIRED. Type of channel; MUST use the channel types listed in bids-specification."
+	},
+	"units": {
+		"Description": "REQUIRED. Physical unit of the value represented in this channel."
+	}
+}

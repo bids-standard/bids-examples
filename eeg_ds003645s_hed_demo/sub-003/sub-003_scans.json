@@ -1,0 +1,18 @@
+{
+  "condition": {
+    "LongName": "Event category",
+    "Description": "The experimental condition",
+    "Levels": {
+      "left_sym": "Setup for experiment where pressing key with left index finger means a face with above average symmetry.",
+      "right_sym": "Setup for experiment where pressing key with right index finger means a face with above average symmetry."
+    },
+    "HED": {
+      "left_sym": "Experiment-structure, Condition-variable/Left-key-for-sym-face, Description/Left index finger key press indicates a face with above average symmetry.",
+      "right_sym": "Experiment-structure, Condition-variable/Right-key-for-sym-face, Description/Right index finger key press indicates a face with above average symmetry."
+    }
+  }, 
+  "acq_time": {
+    "Description": "Time when first data point was acquired.",
+    "HED": "Creation-date/#"
+  }
+}

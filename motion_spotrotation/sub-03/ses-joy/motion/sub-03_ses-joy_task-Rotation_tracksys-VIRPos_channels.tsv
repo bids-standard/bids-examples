@@ -1,0 +1,9 @@
+name	component	type	tracked_point	units	sampling_frequency	placement	reference_frame
+headRigid_quat_w	quat_w	ORNT	headRigid	n/a	60.0019085133106	headRigid	global
+headRigid_quat_x	quat_x	ORNT	headRigid	n/a	60.0019085133106	headRigid	global
+headRigid_quat_y	quat_y	ORNT	headRigid	n/a	60.0019085133106	headRigid	global
+headRigid_quat_z	quat_z	ORNT	headRigid	n/a	60.0019085133106	headRigid	global
+headRigid_cart_x	x	POS	headRigid	vm	60.0019085133106	headRigid	global
+headRigid_cart_y	y	POS	headRigid	vm	60.0019085133106	headRigid	global
+headRigid_cart_z	z	POS	headRigid	vm	60.0019085133106	headRigid	global
+VIRPos_latency	n/a	LATENCY	n/a	seconds	60.0019085133106	n/a	n/a

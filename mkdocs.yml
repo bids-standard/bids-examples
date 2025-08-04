@@ -1,0 +1,36 @@
+site_name: bids-examples
+
+nav:
+    - The BIDS examples:
+      - Examples: https://bids.neuroimaging.io/datasets/examples.html
+      - Contributing: CONTRIBUTING.md
+
+theme:
+    name: material
+    favicon: images/favicon.png
+    logo: images/logo.png
+
+
+copyright: Copyright &copy; BIDS Contributors - <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+
+extra:
+    generator: false
+    social:
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/BIDSstandard/
+      - icon: fontawesome/brands/github
+        link: https://github.com/bids-standard/bids-specification/
+      - icon: fontawesome/brands/google
+        link: https://groups.google.com/g/bids-discussion
+
+markdown_extensions:
+    - toc:
+        anchorlink: true
+    - pymdownx.superfences
+
+plugins:
+    - search
+
+docs_dir: 'docs'
+
+use_directory_urls: false

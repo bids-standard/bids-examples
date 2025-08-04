@@ -1,9 +1,5 @@
 {
-  "MagneticFieldStrength": "3",
-  "Manufacturer": "Siemens",
-  "ManufacturerModelName": "TrioTim",
-  "PulseSequenceType": "SPGR",
-  "RepetitionTime": "0.028",
-  "FlipAngle": "6",
-  "MTState": true
+  "FlipAngle": 6,
+  "MTState": true,
+  "RepetitionTimeExcitation": 0.028
 }

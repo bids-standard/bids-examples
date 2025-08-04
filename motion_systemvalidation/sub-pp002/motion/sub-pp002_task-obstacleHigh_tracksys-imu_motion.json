@@ -1,0 +1,23 @@
+{
+	"ACCELChannelCount":48,
+	"ANGACCELChannelCount":0,
+	"GYROChannelCount":48,
+	"InstitutionName":"Kiel University",
+	"InstitutionalDepartmentName":"Department of Neurology",
+	"JNTANGChannelCount":0,
+	"LATENCYChannelCount":0,
+	"MAGNChannelCount":48,
+	"Manufacturer":"Noraxon Inc.",
+	"ManufacturersModelName":"myoMOTION",
+	"MotionChannelCount":144,
+	"ORNTChannelCount":0,
+	"POSChannelCount":0,
+	"RecordingDuration":9.125002742731761,
+	"SamplingFrequency":199.890350877193,
+	"SamplingFrequencyEffective":199.890350877193,
+	"TaskDescription":"walking over high obstacles",
+	"TaskName":"obstacleHigh",
+	"TrackedPointsCount":16,
+	"TrackingSystemName":"imu",
+	"VELChannelCount":0
+}

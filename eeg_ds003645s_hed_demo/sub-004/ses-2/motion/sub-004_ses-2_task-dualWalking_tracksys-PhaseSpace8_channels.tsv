@@ -1,0 +1,9 @@
+name	component	type	tracked_point	units	sampling_frequency	placement	reference_frame
+Rigid8_eul_x	x	ORNT	Rigid8	rad	480.118858458168	Rigid8	global
+Rigid8_eul_y	y	ORNT	Rigid8	rad	480.118858458168	Rigid8	global
+Rigid8_eul_z	z	ORNT	Rigid8	rad	480.118858458168	Rigid8	global
+Rigid8_cart_x	x	POS	Rigid8	m	480.118858458168	Rigid8	global
+Rigid8_cart_y	y	POS	Rigid8	m	480.118858458168	Rigid8	global
+Rigid8_cart_z	z	POS	Rigid8	m	480.118858458168	Rigid8	global
+Rigid8_Conf	n/a	MISC	Rigid8	n/a	480.118858458168	Rigid8	global
+PhaseSpace8_latency	n/a	LATENCY	n/a	seconds	480.118858458168	n/a	n/a

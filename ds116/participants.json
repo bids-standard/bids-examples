@@ -1,0 +1,65 @@
+{
+  "sex": {
+    "LongName": "sex",
+    "Description": "String value indicating phenotypical sex.",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0001894",
+    "Levels": {
+      "F": {
+        "Description": "Female",
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000383"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000384"
+      }
+    }
+  },
+  "age": {
+    "LongName": "age",
+    "Units": "year",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0000011"
+  },
+  "handedness": {
+    "LongName": "handedness",
+    "Description": "String value indicating handedness",
+    "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/57427004",
+    "Levels": {
+      "L": {
+        "Description": "Left",
+        "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/87683000"
+      },
+      "R": {
+        "Description": "Right",
+        "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/46669005"
+      }
+    }
+  },
+  "ethnicity": {
+    "LongName": "ethnicity",
+    "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0004",
+    "Levels": {
+      "Asian": {
+        "Description": "Asian",
+        "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0008"
+      },
+      "Asian/Caucasian": {
+        "Description": "Asian Caucasian"
+      },
+      "Caucasian": {
+        "Description": "Caucasian",
+        "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0005"
+      },
+      "Caucasian/African/NativeSouthAmerican": {
+        "Description": "Caucasian African NativeSouthAmerican"
+      },
+      "Hispanic": {
+        "Description": "Hispanic",
+        "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0014"
+      },
+      "MiddleEastern": {
+        "Description": "MiddleEastern",
+        "TermURL": "http://purl.obolibrary.org/obo/HANCESTRO_0015"
+      }
+    }
+  }
+}

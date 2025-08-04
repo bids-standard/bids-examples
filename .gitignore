@@ -1,6 +1,17 @@
 .DS_Store
-.ipynb_checkpoints
-desktop.ini
+*.DS_Store
 
 .idea/
+
+.ipynb_checkpoints
+
+desktop.ini
+
 venv/
+env/
+
+*.asv
+
+site/
+
+.vscode

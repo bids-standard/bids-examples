@@ -1,0 +1,23 @@
+{
+	"ACCELChannelCount":48,
+	"ANGACCELChannelCount":0,
+	"GYROChannelCount":48,
+	"InstitutionName":"Kiel University",
+	"InstitutionalDepartmentName":"Department of Neurology",
+	"JNTANGChannelCount":0,
+	"LATENCYChannelCount":0,
+	"MAGNChannelCount":48,
+	"Manufacturer":"Noraxon Inc.",
+	"ManufacturersModelName":"myoMOTION",
+	"MotionChannelCount":144,
+	"ORNTChannelCount":0,
+	"POSChannelCount":0,
+	"RecordingDuration":11.18000223813787,
+	"SamplingFrequency":199.910514541387,
+	"SamplingFrequencyEffective":199.910514541387,
+	"TaskDescription":"walking backwards",
+	"TaskName":"backwards",
+	"TrackedPointsCount":16,
+	"TrackingSystemName":"imu",
+	"VELChannelCount":0
+}

@@ -1,0 +1,21 @@
+{
+  "Age": {
+    "LongName": "Age",
+    "Units": "years",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0000011"
+  },
+  "Gender": {
+    "LongName": "Gender",
+    "TermURL": "https://schema.org/gender",
+    "Levels": {
+      "F": {
+        "Description": "Female",
+        "TermURL": "https://schema.org/Female"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "https://schema.org/Male"
+      }
+    }
+  }
+}

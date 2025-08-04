@@ -1,0 +1,9 @@
+name	component	type	tracked_point	units	sampling_frequency	placement	reference_frame
+Rigid5_eul_x	x	ORNT	Rigid5	rad	480.118858499001	Rigid5	global
+Rigid5_eul_y	y	ORNT	Rigid5	rad	480.118858499001	Rigid5	global
+Rigid5_eul_z	z	ORNT	Rigid5	rad	480.118858499001	Rigid5	global
+Rigid5_cart_x	x	POS	Rigid5	m	480.118858499001	Rigid5	global
+Rigid5_cart_y	y	POS	Rigid5	m	480.118858499001	Rigid5	global
+Rigid5_cart_z	z	POS	Rigid5	m	480.118858499001	Rigid5	global
+Rigid5_Conf	n/a	MISC	Rigid5	n/a	480.118858499001	Rigid5	global
+PhaseSpace5_latency	n/a	LATENCY	n/a	seconds	480.118858499001	n/a	n/a

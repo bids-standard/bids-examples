@@ -1,0 +1,20 @@
+{
+    "Name": "Brainstorm epileptogenicity tutorial",
+    "BIDSVersion": "1.7.0",
+    "License": "This tutorial dataset (EEG and MRI data) remains property of the Grenoble University Hospital, France. Its use and transfer outside the ImaGIN tutorial, e.g. for research purposes, is prohibited without written consent. For questions, please contact Olivier David, PhD (olivier.david@inserm.fr).",
+	 "Authors": [
+	  "Olivier David", 
+	  "Thomas Blauwblomme", 
+	  "Anne-Sophie Job", 
+	  "Stephan Chabardès", 
+	  "Dominique Hoffmann",
+	  "Lorella Minotti", 
+	  "Philippe Kahane"
+	 ],
+    "ReferencesAndLinks": [
+        "David O, Blauwblomme T, Job AS, Chabardès S, Hoffmann D, Minotti L, Kahane P, Imaging the seizure onset zone with stereo-electroencephalography, Brain. 2011 Oct;134(10):2898-911",
+        "Lamarche F, Job AS, Deman P, Bhattacharjee M, Hoffmann D, Gallazzini-Crépin C, Bouvard S, Minotti L, Kahane P, David O, Correlation of FDG-PET hypometabolism and SEEG epileptogenicity mapping in patients with drug-resistant focal epilepsy, Epilepsia. 2016 Dec; 57(12):2045–2055",
+        "https://neuroimage.usc.edu/brainstorm/Tutorials/Epileptogenicity", 
+        "https://f-tract.eu/tutorials/"
+    ]
+}
