@@ -17,5 +17,9 @@
   "age_at_first_scan_years": {
     "LongName": "age_at_first_scan_years",
     "Units": "years"
+  },
+  "handedness": {
+    "LongName": "Edinburgh Handedness Inventory",
+    "Units": "arbitrary"
   }
 }

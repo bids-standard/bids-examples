@@ -1,0 +1,14 @@
+{
+    "sample_id": {
+        "Description": "Sample ID",
+        "HED": "((ID/#, Label/Sample-id), {participant_id}, {sample_type})"
+    },
+    "participant_id": {
+        "Description": "Participant ID from whom tissue samples have been acquired",
+        "HED": "(ID/#, Experiment-participant)"
+    },
+    "sample_type": {
+        "Description": "Type of sample from ENCODE Biosample Type (https://www.encodeproject.org/profiles/biosample_type)",
+        "HED": "Label/#"
+    }
+}

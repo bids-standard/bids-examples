@@ -1,0 +1,41 @@
+# https://citation-file-format.github.io/
+# https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
+cff-version: 1.2.0
+
+title: Balloon Analog Risk-taking Task
+
+version: 1.0.1
+
+message: If you use this software, please cite it as below.
+
+license: CC0-1.0
+
+authors:
+  - family-names: Schonberg
+    given-names: Tom
+  - family-names: Trepel
+    given-names: Christopher
+  - family-names: Fox
+    given-names: Craig      
+  - family-names: Poldrack
+    given-names: Russell A.           
+
+preferred-citation:
+  authors:
+    - family-names: Schonberg
+      given-names: Tom
+    - family-names: Fox
+      given-names: Craig
+    - family-names: Mumford
+      given-names: Jeanette A            
+    - family-names: Congdon
+      given-names: Eliza      
+    - family-names: Trepel
+      given-names: Christopher
+    - family-names: Poldrack
+      given-names: Russell A.        
+  title: "Decreasing ventromedial prefrontal cortex activity during sequential risk-taking: An fMRI investigation of the Balloon Analogue Risk Task."
+  year: 2012
+  journal: Frontiers in Decision Neuroscience
+  url: https://doi.org/10.3389/fnins.2012.00080
+  type: article

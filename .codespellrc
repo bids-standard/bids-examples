@@ -1,0 +1,4 @@
+[codespell]
+skip = .git,env,venv,ds*,asl*,qmr*,genetics*,fnirs*,eeg*,meg*,pet*,ieeg*,motion*,synthetic*
+builtin = clear,rare
+ignore-words-list = nd,te

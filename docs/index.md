@@ -1,0 +1,1 @@
+The website listing BIDS examples can now be found on the [main BIDS website](https://bids.neuroimaging.io/datasets/examples.html).

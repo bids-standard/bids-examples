@@ -1,0 +1,9 @@
+name	component	type	tracked_point	units	sampling_frequency	placement	reference_frame
+Rigid9_eul_x	x	ORNT	Rigid9	rad	480.11885885134	Rigid9	global
+Rigid9_eul_y	y	ORNT	Rigid9	rad	480.11885885134	Rigid9	global
+Rigid9_eul_z	z	ORNT	Rigid9	rad	480.11885885134	Rigid9	global
+Rigid9_cart_x	x	POS	Rigid9	m	480.11885885134	Rigid9	global
+Rigid9_cart_y	y	POS	Rigid9	m	480.11885885134	Rigid9	global
+Rigid9_cart_z	z	POS	Rigid9	m	480.11885885134	Rigid9	global
+Rigid9_Conf	n/a	MISC	Rigid9	n/a	480.11885885134	Rigid9	global
+PhaseSpace9_latency	n/a	LATENCY	n/a	seconds	480.11885885134	n/a	n/a

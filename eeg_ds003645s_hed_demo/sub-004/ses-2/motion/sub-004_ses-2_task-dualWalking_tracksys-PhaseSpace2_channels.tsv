@@ -1,0 +1,9 @@
+name	component	type	tracked_point	units	sampling_frequency	placement	reference_frame
+Rigid2_eul_x	x	ORNT	Rigid2	rad	480.118858398107	Rigid2	global
+Rigid2_eul_y	y	ORNT	Rigid2	rad	480.118858398107	Rigid2	global
+Rigid2_eul_z	z	ORNT	Rigid2	rad	480.118858398107	Rigid2	global
+Rigid2_cart_x	x	POS	Rigid2	m	480.118858398107	Rigid2	global
+Rigid2_cart_y	y	POS	Rigid2	m	480.118858398107	Rigid2	global
+Rigid2_cart_z	z	POS	Rigid2	m	480.118858398107	Rigid2	global
+Rigid2_Conf	n/a	MISC	Rigid2	n/a	480.118858398107	Rigid2	global
+PhaseSpace2_latency	n/a	LATENCY	n/a	seconds	480.118858398107	n/a	n/a

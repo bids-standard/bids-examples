@@ -4,7 +4,7 @@
 "EEGCoordinateSystem":"CTF",
 "EEGCoordinateUnits":"cm",
 "EEGCoordinateSystemDescription":"The origin is exactly between LPA and RPA; the X-axis goes towards NAS; the Y-axis goes approximately towards LPA, orthogonal to X and in the plane spanned by the fiducials; the Z-axis goes approximately towards the vertex, orthogonal to X and Y",
-"IntendedFor":"ds000246_R1.0.0/sub-0001/anat/sub-0001_T1w.nii.gz",
+"IntendedFor":"anat/sub-0001_T1w.nii.gz",
 "HeadCoilCoordinates":{
 "coil1":[10.61095674,-0.01532629,-0.00407281],
 "coil2":[0.2701708,6.81335558,0.0013436],
