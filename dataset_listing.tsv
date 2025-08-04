@@ -84,3 +84,4 @@ mrs_fmrs	Functional MRS data involving a pain stimulus task from 15 subjects	[li
 xeeg_hed_score	EEG and iEEG data with annotations of artifacts, seizures and modulators using HED-SCORE 		[@dorahermes](https://github.com/dorahermes)	anat, eeg, ieeg	T1w, channels, coordsystem, eeg, electrodes, events, ieeg
 dwi_deriv	exemplifies the storage of diffusion MRI derivates that may be generated on the Siemens XA platform.			dwi	dwi
 pheno004	Minimal dataset with subjects with imaging and/or phenotype data		[@ericearl](https://github.com/ericearl)	phenotype, anat	T1w
+mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject, two chunks.		[@valosekj](https://github.com/valosekj)	anat	T1w
