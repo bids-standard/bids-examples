@@ -1,0 +1,40 @@
+{
+  "Name": "OpenNeuroPET NeuroMark Florbetaben Atlas",
+  "BIDSVersion": "1.10.1",
+  "DatasetType": "derivative", 
+  "Description": "Atlas consisting of 17 amyloid-beta networks and 2 cerebellar independent component networks, derived from 18F-florbetapir PET imaging using four 5-minute frames per subject, having been SUVR normalized, using the whole cerebellum as reference. The altas follows the publication titled Building Multivariate Molecular Imaging Brain Atlases Using the NeuroMark PET Independent Component Analysis Framework. Authors for publication are the same as in the Authors tag in this json file. ICA processing used model order 40 and 296 florbetapir subjects (mean=76.1 years, SD=8.0 years)",
+  "Authors": [
+    "Cyrus Eierud",
+    "Martin Norgaard",
+    "Murat Bilgel",
+    "Helen Petropoulos",
+    "Zening Fu",
+    "Armin Iraji",
+    "Granville J. Matheson",
+    "Melanie Ganz",
+    "Cyril Pernet",
+    "Vince D. Calhoun",
+    "The Alzheimer’s Disease Neuroimaging Initiative"
+  ],
+  "Funding": [
+	"National Institutes of Health (NIH), Grant U01AG024904",
+    "U.S. Department of Defense, Grant W81XWH-12-2-0012",
+    "National Science Foundation (NSI), Grant 2112455",
+    "National Institutes of Health (NIH), Grant RF1AG063153",
+    "Vetenskapsrådet, Grant 2020-06356",
+    "National Institute on Aging (NIA), Intramural Research Program Grant",
+    "Novo Nordisk Fonden, Grant NN20OC0063277",
+    "BRAIN Initiative, Grant 1R24MH120004-01A1"
+  ],
+  "SourceDatasets": [
+    {
+        "URL": "http://adni.loni.usc.edu",
+        "Name": "Alzheimer’s Disease Neuroimaging Initiative (ADNI)",
+        "Version": "ADNI GO/2/3"
+    }
+  ],
+  "HowToAcknowledge": "Please acknowledge this dataset by citing the publication: Eierud C, et al. 'Building Multivariate Molecular Imaging Brain Atlases Using the NeuroMark PET Independent Component Analysis Framework.' Aperture Neuro, 2025. doi:10.52294/001c.142578",
+  "Species": "Human",
+  "License": "CC-BY-4.0",
+  "ReferencesAndLinks": ["https://doi.org/10.52294/001c.142578"]
+}
