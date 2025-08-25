@@ -40,7 +40,8 @@ jobs:
       if: matrix.bids-validator == 'legacy'
       uses: actions/setup-node@v4
       with:
-        node-version: 18
+        node-version: 22
+        cache: 'npm'
 
     - uses: denoland/setup-deno@v2
       if: matrix.bids-validator != 'legacy'
