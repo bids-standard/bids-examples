@@ -1,0 +1,215 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "Q1, bc1, bd_001, bdi01_r03, bdi1_u, bdi_001, beck01, bp1, sadness": {
+        "LongName": "BDI_SADNESS (question ID 31363)",
+        "Description": "1. Sadness",
+        "Levels": {
+            "0": "0 - I do not feel sad",
+            "1": "1 - I feel sad much of the time",
+            "2": "2 - I am sad all the time",
+            "3": "3 - I am so sad or unhappy that I cant stand it"
+        }
+    },
+    "Q2, bc2, bd_002, bdi02_r03, bdi2_u, bdi_002, beck02, bp2, pessimsm": {
+        "LongName": "BDI_PESSIMISM (question ID 31364)",
+        "Description": "2. Pessimism",
+        "Levels": {
+            "0": "0 - I am not discouraged about my future",
+            "1": "1 - I feel more discouraged about my future than I used to be",
+            "2": "2 - I do not expect things to work out for me",
+            "3": "3 - I feel my future is hopeless and will only get worse"
+        }
+    },
+    "Q3, bc3, bd_003, bdi03_r03, bdi3_u, bdi_003, beck03, bp3, pastfail": {
+        "LongName": "BDI_PAST_FAIL (question ID 31365)",
+        "Description": "3. Past Failure",
+        "Levels": {
+            "0": "0 - I do not feel like a failure",
+            "1": "1 - I have failed more than I should have",
+            "2": "2 - As I look back, I see a lot of failures",
+            "3": "3 - I feel I am a total failure as a person"
+        }
+    },
+    "Q4, bc4, bdi04_r03, bdi4_u, bdi_004, beck04, bp4, nopleas": {
+        "LongName": "BDI_LOSS_PLEASURE (question ID 31366)",
+        "Description": "4. Loss of Pleasure",
+        "Levels": {
+            "0": "0 - I get as much pleasure as I ever did from the things I enjoy",
+            "1": "1 - I dont enjoy things as much as I used to",
+            "2": "2 - I get very little pleasure from the things I used to enjoy",
+            "3": "3 - I cant get any pleasure from the things I used to enjoy"
+        }
+    },
+    "Q5, bc5, bd_005, bdi05_r03, bdi5_u, bdi_005, beck05, bp5, guilt": {
+        "LongName": "BDI_FEEL_GUILT (question ID 31367)",
+        "Description": "5. Guilty Feelings",
+        "Levels": {
+            "0": "0 - I dont feel particularly guilty",
+            "1": "1 - I feel guilty over many things I have done or should have done",
+            "2": "2 - I feel quite guilty most of the time",
+            "3": "3 - I feel guilty all of the time"
+        }
+    },
+    "Q6, bc6, bd_006, bdi06_r03, bdi6_u, bdi_006, beck06, bp6, punish": {
+        "LongName": "BDI_PUNISH_FEEL (question ID 31368)",
+        "Description": "6. Punishment Feelings",
+        "Levels": {
+            "0": "0 - I dont feel I am being punished",
+            "1": "1 - I feel I may be punished",
+            "2": "2 - I expect to be punished",
+            "3": "3 - I feel I am being punished"
+        }
+    },
+    "Q7, bc7, bdi07_r03, bdi7_u, bdi_007, bp7, idislike": {
+        "LongName": "BDI_DISLIKE_SELF (question ID 31369)",
+        "Description": "7. Self-Dislike",
+        "Levels": {
+            "0": "0 - I feel the same about myself as ever",
+            "1": "1 - I have lost confidence in myself",
+            "2": "2 - I am disappointed in myself",
+            "3": "3 - I dislike myself"
+        }
+    },
+    "Q8, bc8, bdi08_r03, bdi8_u, bdi_008, bp8, icritic": {
+        "LongName": "BDI_CRITICAL_SELF (question ID 31370)",
+        "Description": "8. Self-Criticalness",
+        "Levels": {
+            "0": "0 - I dont criticize or blame myself more than usual",
+            "1": "1- I am more critical of myself than I used to be",
+            "2": "2 - I criticize myself for all of my faults",
+            "3": "3 - I blame myself for everything bad that happens"
+        }
+    },
+    "Q9, bc9, bdi09_r03, bdi9_u, bdi_009, beck09, bp9, suicide": {
+        "LongName": "BDI_SUICIDE_THOUGHT (question ID 31371)",
+        "Description": "9. Suicidal Thoughts or Wishes",
+        "Levels": {
+            "0": "0 - I dont have any thoughts of killing myself",
+            "1": "1 - I have thoughts of killing myself, but I would not carry them out",
+            "2": "2 - I would like to kill myself",
+            "3": "3 - I would kill myself if I had the chance"
+        }
+    },
+    "Q10, bc10, bd_009, bdi10_r03, bdi10_u, bdi_010, bdi_cry, beck10, bp10, crying": {
+        "LongName": "BDI_CRYING (question ID 31372)",
+        "Description": "10. Crying",
+        "Levels": {
+            "0": "0 - I dont cry anymore that I used to",
+            "1": "1 - I cry more than I used to",
+            "2": "2 - I cry over every little thing",
+            "3": "3 - I feel like crying, but I cant"
+        }
+    },
+    "Q11, agitate, bdi11_r03, bdi11_u, bdi_011": {
+        "LongName": "BDI_AGITATION (question ID 31373)",
+        "Description": "11. Agitation",
+        "Levels": {
+            "0": "0 - I am no more restless or wound up than usual",
+            "1": "1 - I feel more restless or wound up than usual",
+            "2": "2 - I am so restless or agitated that its hard to stay still",
+            "3": "3 - I am so restless or agitated that I have to keep moving or doing something"
+        }
+    },
+    "Q12, bc12, bd_011, bdi12_r03, bdi12_u, bdi_012, beck12, bp12, nointrst": {
+        "LongName": "BDI_LOSS_INTEREST (question ID 31374)",
+        "Description": "12. Loss of Interest",
+        "Levels": {
+            "0": "0 - I have not lost interest in other people or activities",
+            "1": "1 - I am less interested in other people or things than before",
+            "2": "2 - I have lost most of my interest in other people or things",
+            "3": "3 - Its hard to get interested in anything"
+        }
+    },
+    "Q13, bc13, bd_012, bdi13_r03, bdi13_u, bdi_013, beck13, bp13, indecisv": {
+        "LongName": "BDI_INDECISIVE (question ID 31375)",
+        "Description": "13. Indecisiveness",
+        "Levels": {
+            "0": "0 -I make decisions about as well as ever",
+            "1": "1- I find it more difficult to make decisions than usual",
+            "2": "2 - I have much greater difficulty in making decisions than I used to",
+            "3": "3 - I have trouble making any decisions"
+        }
+    },
+    "Q14, bdi14_r03, bdi14_u, bdi_014, noworth": {
+        "LongName": "BDI_WORTHLESS (question ID 31376)",
+        "Description": "14. Worthlessness",
+        "Levels": {
+            "0": "0 - I do not feel I am worthless",
+            "1": "1 - I dont consider myself as worthwhile and useful as I used to",
+            "2": "2 - I feel more worthless as compared to other people",
+            "3": "3 - I feel utterly worthless"
+        }
+    },
+    "Q15, bdi15_r03, bdi15_u, bdi_015, noenergy": {
+        "LongName": "BDI_LOSS_ENERGY (question ID 31377)",
+        "Description": "15. Loss of Energy",
+        "Levels": {
+            "0": "0 - I have as much energy as ever",
+            "1": "1 - I have less energy than I used to have",
+            "2": "2 - I dont have enough energy to do very much",
+            "3": "3 - I dont have enough energy to do anything"
+        }
+    },
+    "Q16, bdi16_r03, bdi16_u, bdi_016, chsleep": {
+        "LongName": "BDI_CHANGE_SLEEP (question ID 31378)",
+        "Description": "16. Changes in Sleeping Pattern",
+        "Levels": {
+            "0": "0 - I have not experience any change in my sleeping pattern",
+            "1": "1b - I sleep somewhat less than usual",
+            "2": "2b - I sleep a lot less than usual",
+            "3": "3b - I wake up 1-2 hours early and cant get back to sleep"
+        }
+    },
+    "Q17, bc11, bd_010, bdi17_r03, bdi17_u, beck11, bp11, irritabl": {
+        "LongName": "BDI_IRRITABLE (question ID 31379)",
+        "Description": "17. Irritability",
+        "Levels": {
+            "0": "0 - I am no more irritable than usual",
+            "1": "1 - I am more irritable than usual",
+            "2": "2 - I am much more irritable than usual",
+            "3": "3 - I am irritable all the time"
+        }
+    },
+    "Q18, bdi18_r03, bdi18_u, bdi_018, chappet": {
+        "LongName": "BDI_CHANGE_APPETITE (question ID 31380)",
+        "Description": "18. Changes in Appetite",
+        "Levels": {
+            "0": "0 - I have not experienced any change in my appetite",
+            "1": "1b - My appetite is somewhat greater than usual",
+            "2": "2b - My appetite is much greater than usual",
+            "3": "3b - I crave food all the time"
+        }
+    },
+    "Q19, bdi19_r03, bdi19_u, dcntrate": {
+        "LongName": "BDI_CONCENTRATION (question ID 31381)",
+        "Description": "19. Concentration Difficulty",
+        "Levels": {
+            "0": "0 - I can concentrate as well as ever",
+            "1": "1 - I cant concentrate as well as usual",
+            "2": "2 - Its hard to keep my mind on anything for very long",
+            "3": "3 - I find I cant concentrate on anything"
+        }
+    },
+    "Q20, bc17, bdi20_r03, bdi20_u, bdi_017, bp17, tired": {
+        "LongName": "BDI_FATIGUE (question ID 31382)",
+        "Description": "20. Tiredness or Fatigue",
+        "Levels": {
+            "0": "0 - I am no more tired or fatigued than usual",
+            "1": "1 - I get more tired or fatigued more easily than usual",
+            "2": "2 - I am too tired or fatigued to do a lot of the things I used to do",
+            "3": "3 - I am too tired or fatigued to do most of the things I used to do"
+        }
+    },
+    "Q21, bc21, bdi21_r03, bdi21_u, bdi_021, bp21, losssex": {
+        "LongName": "BDI_LOSS_SEX_INTEREST (question ID 31383)",
+        "Description": "21. Loss of Interest in Sex",
+        "Levels": {
+            "0": "0 - I have not noticed any recent change in my interest in sex",
+            "1": "1 - I am less interested in sex than I used to be",
+            "2": "2 - I am much less interested in sex now",
+            "3": "3 - I have lost interest in sex completely"
+        }
+    }
+}

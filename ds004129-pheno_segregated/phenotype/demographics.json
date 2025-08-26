@@ -1,0 +1,381 @@
+{
+    "AGE": {
+        "LongName": "AGE (question ID 208)",
+        "Description": "1. What is your current age?"
+    },
+    "GENDER": {
+        "LongName": "GENDER (question ID 117530)",
+        "Description": "2. What sex were you assigned at birth, on your original birth certificate?",
+        "Levels": {
+            "1": "Male",
+            "2": "Female"
+        }
+    },
+    "CURRENT_GENDER": {
+        "LongName": "CURRENT_GENDER (question ID 209499), first endorsement",
+        "Description": "3. What is your current gender identity? (Check all that apply)",
+        "Levels": {
+            "0": "Male",
+            "1": "Female",
+            "2": "Trans male/Trans Man",
+            "3": "Trans female/Trans woman",
+            "4": "Genderqueer/Gender non-conforming",
+            "5": "Different identity"
+        }
+    },
+    "CURRENT_GENDER_2": {
+        "LongName": "CURRENT_GENDER (question ID 209499), second endorsement",
+        "Description": "3. What is your current gender identity? (Check all that apply)",
+        "Levels": {
+            "0": "Male",
+            "1": "Female",
+            "2": "Trans male/Trans Man",
+            "3": "Trans female/Trans woman",
+            "4": "Genderqueer/Gender non-conforming",
+            "5": "Different identity"
+        }
+    },
+    "CURRENT_GENDER_SPFY": {
+        "LongName": "CURRENT_GENDER_SPFY (question ID 209500)",
+        "Description": "If Different identity, please state: "
+    },
+    "LGBT_IDENTITY": {
+        "LongName": "LGBT_IDENTITY (question ID 209501), first endorsement",
+        "Description": "4. LGBT identity - Do you think of yourself as: (Check all that apply)",
+        "Levels": {
+            "0": "Straight",
+            "1": "Gay or lesbian",
+            "2": "Bisexual",
+            "3": "Other"
+        }
+    },
+    "LGBT_IDENTITY_2": {
+        "LongName": "LGBT_IDENTITY (question ID 209501), second endorsement",
+        "Description": "4. LGBT identity - Do you think of yourself as: (Check all that apply)",
+        "Levels": {
+            "0": "Straight",
+            "1": "Gay or lesbian",
+            "2": "Bisexual",
+            "3": "Other"
+        }
+    },
+    "LGBT_IDENTITY_SPFY": {
+        "LongName": "LGBT_IDENTITY_SPFY (question ID 209502)",
+        "Description": "If Other, please specify:"
+    },
+    "RACE_1": {
+        "LongName": "RACE_1 (question ID 140031), first endorsement",
+        "Description": "5. Race: (Check all that apply)",
+        "Levels": {
+            "1": "American Indian/Alaska Native",
+            "2": "Asian",
+            "3": "Hawaiian/Pacific Islander",
+            "4": "Black/African American",
+            "5": "White/Caucasian",
+            "6": "Multiple race",
+            "7": "Unknown"
+        }
+    },
+    "RACE_1_2": {
+        "LongName": "RACE_1 (question ID 140031), second endorsement",
+        "Description": "5. Race: (Check all that apply)",
+        "Levels": {
+            "1": "American Indian/Alaska Native",
+            "2": "Asian",
+            "3": "Hawaiian/Pacific Islander",
+            "4": "Black/African American",
+            "5": "White/Caucasian",
+            "6": "Multiple race",
+            "7": "Unknown"
+        }
+    },
+    "RACE_1_3": {
+        "LongName": "RACE_1 (question ID 140031), third endorsement",
+        "Description": "5. Race: (Check all that apply)",
+        "Levels": {
+            "1": "American Indian/Alaska Native",
+            "2": "Asian",
+            "3": "Hawaiian/Pacific Islander",
+            "4": "Black/African American",
+            "5": "White/Caucasian",
+            "6": "Multiple race",
+            "7": "Unknown"
+        }
+    },
+    "RACE_1_4": {
+        "LongName": "RACE_1 (question ID 140031), fourth endorsement",
+        "Description": "5. Race: (Check all that apply)",
+        "Levels": {
+            "1": "American Indian/Alaska Native",
+            "2": "Asian",
+            "3": "Hawaiian/Pacific Islander",
+            "4": "Black/African American",
+            "5": "White/Caucasian",
+            "6": "Multiple race",
+            "7": "Unknown"
+        }
+    },
+    "RACE_1_SPFY": {
+        "LongName": "RACE_1_SPFY (question ID 237952)",
+        "Description": "If multiple race, please specify.  (-777 appears in some entries of these combined data collected from the older version of the demographics survey.  At that time this RACE_1_SPFY field was not yet created.)"
+    },
+    "ETHNICITY_1": {
+        "LongName": "ETHNICITY_1 (question ID 140032)",
+        "Description": "6. Ethnicity:",
+        "Levels": {
+            "0": "Not Hispanic or Latino",
+            "1": "Hispanic or Latino",
+            "2": "Unknown"
+        }
+    },
+    "ZIP_CODE": {
+        "LongName": "ZIP_CODE (question ID 109727)",
+        "Description": "7. First three digits of Zip code:"
+    },
+    "SETTING": {
+        "LongName": "SETTING (question ID 209503)",
+        "Description": "8. Which setting do you live in?",
+        "Levels": {
+            "1": "City",
+            "2": "Rural",
+            "3": "Suburban",
+            "4": "Small town"
+        }
+    },
+    "TRANSPORTATION": {
+        "LongName": "TRANSPORTATION (question ID 209504)",
+        "Description": "9. What is your primary form of transportation?",
+        "Levels": {
+            "0": "Car",
+            "1": "Metrorail",
+            "2": "Bus",
+            "3": "Bikes",
+            "4": "Walking",
+            "5": "Other"
+        }
+    },
+    "TRANSPORTATION_SPFY": {
+        "LongName": "TRANSPORTATION_SPFY (question ID 209505)",
+        "Description": "If Other, please specify: "
+    },
+    "EDUCATION": {
+        "LongName": "EDUCATION (question ID 58226)",
+        "Description": "10. Education level:",
+        "Levels": {
+            "0": "High school graduate or above",
+            "1": "Some college or above",
+            "2": "Associates degree or above",
+            "3": "Bachelors degree or above",
+            "4": "Advanced/professional degree"
+        }
+    },
+    "MARITAL_STATUS": {
+        "LongName": "MARITAL_STATUS (question ID 7171)",
+        "Description": "11. Marital Status:",
+        "Levels": {
+            "1": "Single/Never married",
+            "2": "Married or living with someone as if married",
+            "3": "Divorced or annulled",
+            "4": "Separated",
+            "5": "Widowed",
+            "6": "Other"
+        }
+    },
+    "MARITAL_STATUS_SPFY": {
+        "LongName": "MARITAL_STATUS_SPFY (question ID 54567)",
+        "Description": "If Other, please specify:"
+    },
+    "INCOME": {
+        "LongName": "INCOME (question ID 15416)",
+        "Description": "12. Household income:",
+        "Levels": {
+            "1": "Less than $10,000",
+            "2": "$10,001 to $15,000",
+            "3": "$15,001 to $25,000",
+            "4": "$25,001 to $35,000",
+            "5": "$35,001 to $50,000",
+            "6": "$50,001 to $75,000",
+            "7": "$75,001 to $100,000",
+            "8": "$100,001 to $150,000",
+            "9": "$150,000 to $199,999",
+            "10": "$200,000 or more"
+        }
+    },
+    "EMPLOYMENT": {
+        "LongName": "EMPLOYMENT (question ID 58227)",
+        "Description": "13. Employment:",
+        "Levels": {
+            "0": "Full time",
+            "1": "Part time",
+            "2": "Student",
+            "3": "Retired",
+            "4": "Unemployed"
+        }
+    },
+    "WORK_NIH_CAMPUS": {
+        "LongName": "WORK_NIH_CAMPUS (question ID 230200)",
+        "Description": "14. Do you work on the NIH Bethesda campus?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "LANGUAGE": {
+        "LongName": "LANGUAGE (question ID 49916)",
+        "Description": "14. What is your primary language?"
+    },
+    "OTHER_LANGUAGE": {
+        "LongName": "OTHER_LANGUAGE (question ID 39071)",
+        "Description": "15. Other languages spoken: "
+    },
+    "PARTICIPATE_NIH_STUDY": {
+        "LongName": "PARTICIPATE_NIH_STUDY (question ID 230201)",
+        "Description": "17. Have you participated in a research study at the NIH before?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "REFERRAL_TYPE": {
+        "LongName": "REFERRAL_TYPE (question ID 13953)",
+        "Description": "16. How did you hear about this study?",
+        "Levels": {
+            "0": "Flyer",
+            "1": "Newspaper ad",
+            "2": "Radio ad",
+            "3": "TV ad",
+            "4": "Direct mail",
+            "5": "Website",
+            "6": "Doctor",
+            "7": "Friend/family",
+            "8": "Brochure",
+            "9": "Health fair",
+            "10": "Social media",
+            "11": "Other"
+        }
+    },
+    "REFERRAL_TYPE_OTHER": {
+        "LongName": "REFERRAL_TYPE_OTHER (question ID 209511)",
+        "Description": "If Other, please specify:"
+    },
+    "REFERRAL_TYPE_SECONDARY": {
+        "LongName": "REFERRAL_TYPE_SECONDARY (question ID 209513), first endorsement",
+        "Description": "Any other place you heard about this study? (Check all that apply)",
+        "Levels": {
+            "0": "Flyer",
+            "1": "Newspaper ad",
+            "2": "Radio ad",
+            "3": "TV ad",
+            "4": "Direct mail",
+            "5": "Website",
+            "6": "Doctor",
+            "7": "Friend/family",
+            "8": "Brochure",
+            "9": "Health fair",
+            "10": "Social media",
+            "11": "Other"
+        }
+    },
+    "REFERRAL_TYPE_SECONDARY_2": {
+        "LongName": "REFERRAL_TYPE_SECONDARY (question ID 209513), second endorsement",
+        "Description": "Any other place you heard about this study? (Check all that apply)",
+        "Levels": {
+            "0": "Flyer",
+            "1": "Newspaper ad",
+            "2": "Radio ad",
+            "3": "TV ad",
+            "4": "Direct mail",
+            "5": "Website",
+            "6": "Doctor",
+            "7": "Friend/family",
+            "8": "Brochure",
+            "9": "Health fair",
+            "10": "Social media",
+            "11": "Other"
+        }
+    },
+    "REFERRAL_TYPE_SECONDARY_3": {
+        "LongName": "REFERRAL_TYPE_SECONDARY (question ID 209513), third endorsement",
+        "Description": "Any other place you heard about this study? (Check all that apply)",
+        "Levels": {
+            "0": "Flyer",
+            "1": "Newspaper ad",
+            "2": "Radio ad",
+            "3": "TV ad",
+            "4": "Direct mail",
+            "5": "Website",
+            "6": "Doctor",
+            "7": "Friend/family",
+            "8": "Brochure",
+            "9": "Health fair",
+            "10": "Social media",
+            "11": "Other"
+        }
+    },
+    "REFERRAL_TYPE_SECONDARY_4": {
+        "LongName": "REFERRAL_TYPE_SECONDARY (question ID 209513), fourth endorsement",
+        "Description": "Any other place you heard about this study? (Check all that apply)",
+        "Levels": {
+            "0": "Flyer",
+            "1": "Newspaper ad",
+            "2": "Radio ad",
+            "3": "TV ad",
+            "4": "Direct mail",
+            "5": "Website",
+            "6": "Doctor",
+            "7": "Friend/family",
+            "8": "Brochure",
+            "9": "Health fair",
+            "10": "Social media",
+            "11": "Other"
+        }
+    },
+    "REFERRAL_TYPE_SECONDARY_OTHER": {
+        "LongName": "REFERRAL_TYPE_SECONDARY_OTHER (question ID 209515)",
+        "Description": "If Other, please specify:"
+    },
+    "PARTICIPATE_STUDY": {
+        "LongName": "PARTICIPATE_STUDY (question ID 50829), first endorsement",
+        "Description": "17. I decided to participate in this study because:",
+        "Levels": {
+            "0": "I want to help advance science",
+            "1": "I am curious about research participation",
+            "2": "I am interested in the compensation",
+            "3": "Other"
+        }
+    },
+    "PARTICIPATE_STUDY_2": {
+        "LongName": "PARTICIPATE_STUDY (question ID 50829), second endorsement",
+        "Description": "17. I decided to participate in this study because:",
+        "Levels": {
+            "0": "I want to help advance science",
+            "1": "I am curious about research participation",
+            "2": "I am interested in the compensation",
+            "3": "Other"
+        }
+    },
+    "PARTICIPATE_STUDY_3": {
+        "LongName": "PARTICIPATE_STUDY (question ID 50829), third endorsement",
+        "Description": "17. I decided to participate in this study because:",
+        "Levels": {
+            "0": "I want to help advance science",
+            "1": "I am curious about research participation",
+            "2": "I am interested in the compensation",
+            "3": "Other"
+        }
+    },
+    "PARTICIPATE_STUDY_4": {
+        "LongName": "PARTICIPATE_STUDY (question ID 50829), fourth endorsement",
+        "Description": "17. I decided to participate in this study because:",
+        "Levels": {
+            "0": "I want to help advance science",
+            "1": "I am curious about research participation",
+            "2": "I am interested in the compensation",
+            "3": "Other"
+        }
+    },
+    "PARTICIPATE_STUDY_STUDY": {
+        "LongName": "PARTICIPATE_STUDY_STUDY (question ID 209526)",
+        "Description": "If Other, please specify:"
+    }
+}
