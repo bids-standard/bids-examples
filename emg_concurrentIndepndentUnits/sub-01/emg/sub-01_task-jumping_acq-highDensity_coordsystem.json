@@ -1,0 +1,28 @@
+{
+    "lower-leg-coordsystem": {
+        "EMGCoordinateSystem": "Other",
+        "EMGCoordinateUnits": "percent",
+        "EMGCoordinateSystemDescription": "x: Lateral Malleolus (LM) → Medial Malleolus (MM); y: Popliteal Fossa → Patellar Anterior Surface; z: midpoint MM-LM → Patellar Anterior Surface"
+    },
+    "thigh-coordsystem": {
+        "EMGCoordinateSystem": "Other",
+        "EMGCoordinateUnits": "percent",
+        "EMGCoordinateSystemDescription": "x: Femur Medial Epicondyle (FME) → Femur Lateral Epicondyle (FLE); y: Popliteal Fossa → Patellar Anterior Surface; z: midpoint FME-FLE → Greater Trochanter"
+    },
+    "grid1-coordsystem": {
+        "EMGCoordinateSystem": "Other",
+        "EMGCoordinateUnits": "mm",
+        "EMGCoordinateSystemDescription": "The location of the electrodes with respect to electrode one (1) is given in millimeters. The x-axis is left to right, the y-axis is bottom to top. Note: the z-axis is not used.",
+        "ParentCoordinateSystem": "thigh-coordsystem",
+        "AnchorElectrode": "E6",
+        "AnchorCoordinates": [20, 100, 50]
+    },
+    "grid2-coordsystem": {
+        "EMGCoordinateSystem": "Other",
+        "EMGCoordinateUnits": "mm",
+        "EMGCoordinateSystemDescription": "The location of the electrodes with respect to electrode sixty-five (65) is given in millimeters. The x-axis is left to right, the y-axis is bottom to top. Note: the z-axis is not used.",
+        "ParentCoordinateSystem": "thigh-coordsystem",
+        "AnchorElectrode": "E70",
+        "AnchorCoordinates": [80, 100, 50]
+    }
+}

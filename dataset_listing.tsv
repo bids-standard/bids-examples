@@ -84,4 +84,11 @@ mrs_fmrs	Functional MRS data involving a pain stimulus task from 15 subjects	[li
 xeeg_hed_score	EEG and iEEG data with annotations of artifacts, seizures and modulators using HED-SCORE 		[@dorahermes](https://github.com/dorahermes)	anat, eeg, ieeg	T1w, channels, coordsystem, eeg, electrodes, events, ieeg
 dwi_deriv	exemplifies the storage of diffusion MRI derivates that may be generated on the Siemens XA platform.			dwi	dwi
 pheno004	Minimal dataset with subjects with imaging and/or phenotype data		[@ericearl](https://github.com/ericearl)	phenotype, anat	T1w
+emg_CustomBipolar	Custom-made bipolar EMG recording setup with electrodes on flexors of the lower arm	emg	channels, emg	n/a	@neuromechanist
+emg_CustomBipolarFace	EMG recording from facial muscles with many-to-many mapping between sensors and muscles	emg	channels, electrodes, emg	n/a	@neuromechanist
+emg_IndependentMod	Commercial bipolar EMG modules recording multiple muscles with wireless sensors	emg	channels, emg	n/a	@neuromechanist
+emg_MutliBodyParts	EMG recording from multiple body parts with different electrode types	emg	channels, emg	n/a	@neuromechanist
+emg_TwoHDsEMG	High-density EMG grid recordings from two body parts demonstrating grid placement documentation	emg	channels, electrodes, emg	n/a	@neuromechanist
+emg_TwoWristbands	EMG recordings using two wristbands with dry electrodes to capture forearm muscle activity	emg	channels, coordsystem, electrodes, emg	n/a	@neuromechanist
+emg_concurrentIndepndentUnits	Concurrent EMG recording with multiple independent recording units at different sampling rates	emg	channels, electrodes, emg, events	n/a	@neuromechanist
 mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject, two chunks.		[@valosekj](https://github.com/valosekj)	anat	T1w
