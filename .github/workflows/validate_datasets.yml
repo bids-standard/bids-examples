@@ -40,7 +40,19 @@ jobs:
       if: matrix.bids-validator == 'legacy'
       uses: actions/setup-node@v4
       with:
-        node-version: 18
+        node-version: 22
+
+    - name: Set cache name
+      if: matrix.bids-validator == 'legacy'
+      run:
+        echo "MONTH=$( date +%Y%m )" >> $GITHUB_ENV
+
+    - name: Load npm cache
+      if: matrix.bids-validator == 'legacy'
+      uses: actions/cache@v4
+      with:
+        path: ~/.npm
+        key: npm-${{ runner.os }}-${{ env.MONTH }}
 
     - uses: denoland/setup-deno@v2
       if: matrix.bids-validator != 'legacy'
@@ -95,7 +107,7 @@ jobs:
         fi
 
     - name: Skip legacy validation for post-legacy datasets
-      run: for DS in mrs_* dwi_deriv pheno004; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in mrs_* dwi_deriv pet006 pheno004 volume_timing; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator == 'legacy'
 
     - name: Skip stable validation for datasets with unreleased validator features
