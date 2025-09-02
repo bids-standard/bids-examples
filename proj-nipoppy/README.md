@@ -1,4 +1,4 @@
-This is an example of an entire project/study level BIDS dataset.
+This is an example of an entire study level BIDS dataset.
 Built taking a hierarchy depicted on
 https://github.com/neurodatascience/nipoppy?tab=readme-ov-file#nipoppy
 and turning it into a valid BIDS layout.
