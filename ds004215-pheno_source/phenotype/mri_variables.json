@@ -1,0 +1,140 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "PREGNANCY_TEST": {
+        "LongName": "PREGNANCY_TEST (question ID 10082)",
+        "Description": "Pregnancy Test Results ",
+        "Levels": {
+            "2": "N/A",
+            "0": "Negative",
+            "1": "Positive"
+        }
+    },
+    "DATE_LAST_MENST_PERIOD": {
+        "LongName": "DATE_LAST_MENST_PERIOD (question ID 17464)",
+        "Description": "Date of last menstrual period: (mm/dd/yyyy):"
+    },
+    "MENSTRUAL_CYCLES_LENGTH": {
+        "LongName": "MENSTRUAL_CYCLES_LENGTH (question ID 248694)",
+        "Description": "b. Length between cycles",
+        "Levels": {
+            "1": "Less than 21 days",
+            "2": "21-45 days",
+            "3": "More than 45 days"
+        }
+    },
+    "CAFFEINE": {
+        "LongName": "CAFFEINE (question ID 13705)",
+        "Description": "Caffeine intake today?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "CAFFEINE_RECENT": {
+        "LongName": "CAFFEINE_RECENT (question ID 248695)",
+        "Description": "a. If yes, how long ago",
+        "Levels": {
+            "0": "0 hours",
+            "1": "1 hours",
+            "2": "2 hours",
+            "3": "3 hours",
+            "4": "4 hours",
+            "5": "5 hours",
+            "6": "6 hours",
+            "7": "7 hours",
+            "8": "8 hours",
+            "9": "9 hours",
+            "10": "10 hours",
+            "11": "11 hours",
+            "12": "12 hours",
+            "13": "13 hours",
+            "14": "14 hours",
+            "15": "15 hours",
+            "16": "16 hours",
+            "17": "17 hours",
+            "18": "18 hours",
+            "19": "19 hours",
+            "20": "20 hours",
+            "21": "21 hours",
+            "22": "22 hours",
+            "23": "23 hours",
+            "24": "24 hours"
+        }
+    },
+    "NICOTINE": {
+        "LongName": "NICOTINE (question ID 165325)",
+        "Description": "3. Nicotine intake today?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "NICOTINE_RECENT": {
+        "LongName": "NICOTINE_RECENT (question ID 248696)",
+        "Description": "a. If yes, how long ago",
+        "Levels": {
+            "0": "0 hours",
+            "1": "1 hours",
+            "2": "2 hours",
+            "3": "3 hours",
+            "4": "4 hours",
+            "5": "5 hours",
+            "6": "6 hours",
+            "7": "7 hours",
+            "8": "8 hours",
+            "9": "9 hours",
+            "10": "10 hours",
+            "11": "11 hours",
+            "12": "12 hours",
+            "13": "13 hours",
+            "14": "14 hours",
+            "15": "15 hours",
+            "16": "16 hours",
+            "17": "17 hours",
+            "18": "18 hours",
+            "19": "19 hours",
+            "20": "20 hours",
+            "21": "21 hours",
+            "22": "22 hours",
+            "23": "23 hours",
+            "24": "24 hours"
+        }
+    },
+    "SLEEP_HOURS": {
+        "LongName": "SLEEP_HOURS (question ID 38449)",
+        "Description": "Last night's sleep?",
+        "Levels": {
+            "0": "0 hours",
+            "1": "1 hours",
+            "2": "2 hours",
+            "3": "3 hours",
+            "4": "4 hours",
+            "5": "5 hours",
+            "6": "6 hours",
+            "7": "7 hours",
+            "8": "8 hours",
+            "9": "9 hours",
+            "10": "10 hours",
+            "11": "11 hours",
+            "12": "12 hours",
+            "13": "13 hours",
+            "14": "14 hours",
+            "15": "15 hours",
+            "16": "16 hours",
+            "17": "17 hours",
+            "18": "18 hours",
+            "19": "19 hours",
+            "20": "20 hours",
+            "21": "21 hours",
+            "22": "22 hours",
+            "23": "23 hours",
+            "24": "24 hours"
+        }
+    },
+    "WAKE_TIME": {
+        "LongName": "WAKE_TIME (question ID 127029)",
+        "Description": "Time of waking up: (hh:mm)"
+    }
+}
