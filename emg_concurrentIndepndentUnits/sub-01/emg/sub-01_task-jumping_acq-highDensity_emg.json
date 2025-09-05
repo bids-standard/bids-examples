@@ -1,0 +1,15 @@
+{
+	"EMGChannelCount":128,
+	"EMGPlacementScheme":"Other",
+	"EMGPlacementSchemeDescription":"Grids placed on the vastus medialis and lateralis muscles. See channels.tsv and electrodes.tsv for details.",
+	"EMGReference":"placed on the skin over the ankle.",
+	"EMGGround":"n/a",
+	"Manufacturer":"OTBioelettronica",
+	"ManufacturersModelName":"Sessantaquattro",
+	"RecordingDuration":1.00,
+	"RecordingType":"continuous",
+	"SamplingFrequency":2000,
+	"HardwareFilters":"n/a",
+	"TaskDescription":"Subject performs single-leg jumping for 30 seconds.",
+	"TaskName":"jumping"
+}
