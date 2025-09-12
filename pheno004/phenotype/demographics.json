@@ -1,0 +1,64 @@
+{
+  "participant_id": {
+    "Description": "OpenNeuro ID of the subject."
+  },
+  "session_id": {
+    "Description": "ID assigned to participant's visit.",
+    "Levels": {
+      "onlineScreening": "First online screening visit.",
+      "onlineFollowup": "Online follow-up visit after 1 year of first in-person visit."
+    }
+  },
+  "gender": {
+    "Description": "2. What sex were you assigned at birth, on your original birth certificate?",
+    "Levels": {
+      "m": "Male",
+      "f": "Female"
+    }
+  },
+  "race": {
+    "LongName": "RACE_1, first endorsement",
+    "Description": "5. Race: (Check all that apply)",
+    "Levels": {
+      "1": "American Indian/Alaska Native",
+      "2": "Asian",
+      "3": "Hawaiian/Pacific Islander",
+      "4": "Black/African American",
+      "5": "White/Caucasian",
+      "6": "Multiple race",
+      "7": "Unknown"
+    }
+  },
+  "ethnicity": {
+    "LongName": "ETHNICITY_1 (question ID 140032)",
+    "Description": "6. Ethnicity:",
+    "Levels": {
+      "0": "Not Hispanic or Latino",
+      "1": "Hispanic or Latino",
+      "2": "Unknown"
+    }
+  },
+  "education": {
+    "LongName": "EDUCATION (question ID 58226)",
+    "Description": "10. Education level:",
+    "Levels": {
+      "0": "High school graduate or above",
+      "1": "Some college or above",
+      "2": "Associates degree or above",
+      "3": "Bachelors degree or above",
+      "4": "Advanced/professional degree"
+    }
+  },
+  "marital_status": {
+    "LongName": "MARITAL_STATUS (question ID 7171)",
+    "Description": "11. Marital Status:",
+    "Levels": {
+      "1": "Single/Never married",
+      "2": "Married or living with someone as if married",
+      "3": "Divorced or annulled",
+      "4": "Separated",
+      "5": "Widowed",
+      "6": "Other"
+    }
+  }
+}

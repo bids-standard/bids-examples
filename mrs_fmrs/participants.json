@@ -1,6 +1,6 @@
 {
   "participant_id": {
-      "Description": "Unique participant identifier"
+    "Description": "Unique participant identifier"
   },
   "sex": {
     "Description": "Sex of the participant",
@@ -10,7 +10,13 @@
     }
   },
   "age": {
-    "Description": "Age of the participant",
-    "Units": "years"
+    "Description": "Age of the participant, in 5-year intervals",
+    "Format": "string",
+    "Levels": {
+      "20-25": "20 to 25 years",
+      "25-30": "25 to 30 years",
+      "30-35": "30 to 35 years",
+      "35-40": "35 to 40 years"
+    }
   }
 }
