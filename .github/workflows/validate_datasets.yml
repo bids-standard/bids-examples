@@ -128,7 +128,7 @@ jobs:
       # Update this URL to the schema.json from PRs to the spec, when needed.
       # If this variable is unset, dev will generally track the latest development
       # release of https://jsr.io/@bids/schema
-      run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
+      run: echo BIDS_SCHEMA=https://bids-specification--1998.org.readthedocs.build/en/1998/schema.json >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
