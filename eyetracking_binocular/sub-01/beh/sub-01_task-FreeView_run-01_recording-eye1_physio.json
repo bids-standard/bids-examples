@@ -1,17 +1,9 @@
 {
-    "StartTime": 1648407,
-    "StopTime": 1993390,
-    "CalibrationCount": 1,
-    "CalibrationType": "HV13",
-    "RecordedEye": "Left",
-    "AverageCalibrationError": [
-        [
-            0.29
-        ]
-    ],
-    "MaximalCalibrationError": [
-        [
-            0.61
-        ]
-    ]
+  "StartTime": 1648407,
+  "StopTime": 1993390,
+  "CalibrationCount": 1,
+  "CalibrationType": "HV13",
+  "RecordedEye": "left",
+  "AverageCalibrationError": 0.29,
+  "MaximalCalibrationError": 0.61
 }
