@@ -1,0 +1,27 @@
+---
+# manual_metadata
+# Please find the BIDS specification here:
+# https://bids-specification--1128.org.readthedocs.build/en/1128/modality-specific-files/eye-tracking.html
+# Please go through the specification
+# and fill the fields below according to the data types given in the specification.
+
+# REQUIRED, fill according to BIDS specification (!the converter will not run successfully if you leave this empty!):
+Units: pixel
+SampleCoordinateSystem: gaze-on-screen
+EnvironmentCoordinates: top-left
+
+# Recommended (leave empty if not available but put information you want to share with your dataset here!):
+SoftwareVersion: 
+ScreenAOIDefinition: 
+EyeCameraSettings:
+EyeTrackerDistance: 
+FeatureDetectionSettings:
+GazeMappingSettings:
+RawDataFilters:
+InstitutionName: Institut de Neurosciences de la Timone
+InstitutionAddress: 27 Bd Jean Moulin, 13005 Marseille, France
+ScreenDistance: 60
+ScreenRefreshRate: 120
+ScreenSize: [0.696, 0.391]
+
+
