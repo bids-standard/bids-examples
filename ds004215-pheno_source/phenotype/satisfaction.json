@@ -1,0 +1,71 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "SURVEY_ENROLLMENT": {
+        "LongName": "SURVEY_ENROLLMENT (question ID 209911)",
+        "Description": "1. Did you have difficulty enrolling in the online part of the study?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "SURVEY_ENROLLMENT_SPFY": {
+        "LongName": "SURVEY_ENROLLMENT_SPFY (question ID 209912)",
+        "Description": "Describe:"
+    },
+    "SURVEY_PROFESSIONALISM": {
+        "LongName": "SURVEY_PROFESSIONALISM (question ID 209913)",
+        "Description": "2. How would you rate the professionalism of the research staff?",
+        "Levels": {
+            "0": "Poor",
+            "1": "Fair",
+            "2": "Good",
+            "3": "Very Good",
+            "4": "Excellent"
+        }
+    },
+    "SURVEY_PARTCIPATION": {
+        "LongName": "SURVEY_PARTCIPATION (question ID 209914)",
+        "Description": "3. Do you intend to participate in other NIH studies?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "SURVEY_PARTICIPATION_SPFY": {
+        "LongName": "SURVEY_PARTICIPATION_SPFY (question ID 209915)",
+        "Description": "Describe:"
+    },
+    "SURVEY_RECOMMENDATION": {
+        "LongName": "SURVEY_RECOMMENDATION (question ID 209916)",
+        "Description": "4. Would you recommend this study to others?",
+        "Levels": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "SURVEY_RECOMMENDATION_SPFY": {
+        "LongName": "SURVEY_RECOMMENDATION_SPFY (question ID 209917)",
+        "Description": "Describe:"
+    },
+    "SURVEY_SATISFACTION": {
+        "LongName": "SURVEY_SATISFACTION (question ID 209918)",
+        "Description": "5. Overall, how satisfied were you with your research participation? ",
+        "Levels": {
+            "4": "Very Satisfied",
+            "3": "Satisfied",
+            "2": "Neutral",
+            "1": "Dissatisfied",
+            "0": "Very Dissatisfied"
+        }
+    },
+    "SURVEY_EXPERIENCE": {
+        "LongName": "SURVEY_EXPERIENCE (question ID 209919)",
+        "Description": "6. How can we improve your experience as a study participant?"
+    },
+    "SURVEY_RECOMMEND_STUDY": {
+        "LongName": "SURVEY_RECOMMEND_STUDY (question ID 209920)",
+        "Description": "7. Do you have any recommendations that would help us attract more people to the study?"
+    }
+}

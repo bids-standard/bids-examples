@@ -1,0 +1,26 @@
+{
+    "InstitutionName": "NIMH MEG Core Facility",
+    "InstitutionAddress": "Bethesda, Maryland, USA",
+    "Manufacturer": "CTF",
+    "ManufacturersModelName": "DSQ-3000",
+    "SoftwareVersions": "Acq 6.1.14-beta-el6_8.x86_64-20180116-3847",
+    "DeviceSerialNumber": "M015_1609",
+    "TaskDescription": "Experiment name",
+    "TaskName": "EmptyRoom",
+    "SamplingFrequency": 4800.0,
+    "PowerLineFrequency": 60.0,
+    "DewarPosition": "Unknown",
+    "SoftwareFilters": {
+        "SpatialCompensation": {
+            "GradientOrder": 3
+        }
+    },
+    "DigitizedLandmarks": false,
+    "DigitizedHeadPoints": false,
+    "MEGChannelCount": 272,
+    "MEGREFChannelCount": 28,
+    "EEGChannelCount": 0,
+    "RecordingDuration": 100.0,
+    "EpochLength": 100.0,
+    "ContinuousHeadLocalization": false
+}
