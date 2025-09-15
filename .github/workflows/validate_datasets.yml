@@ -74,7 +74,7 @@ jobs:
     - name: Install BIDS validator (dev)
       if: matrix.bids-validator == 'dev'
       run: |
-        git clone -b dev https://github.com/bids-standard/bids-validator/ ../bids-validator
+        git clone -b bep020 https://github.com/bids-standard/bids-validator/ ../bids-validator
         cd ../bids-validator
         deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
 
