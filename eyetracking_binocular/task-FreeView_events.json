@@ -33,6 +33,7 @@
     "InstitutionName": "Institut de Neurosciences de la Timone",
     "StimulusPresentation": {
         "ScreenDistance": 60,
+        "ScreenOrigin": ["top", "left"],
         "ScreenRefreshRate": 120,
         "ScreenSize": [
             0.696,

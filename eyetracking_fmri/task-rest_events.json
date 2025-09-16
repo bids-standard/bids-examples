@@ -4,6 +4,7 @@
     "EnvironmentCoordinates": "top-left",
     "StimulusPresentation": {
         "ScreenDistance": 120,
+        "ScreenOrigin": ["top", "left"],
         "ScreenRefreshRate": 120,
         "ScreenSize": [
             0.773,
