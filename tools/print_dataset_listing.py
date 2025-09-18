@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "pandas",
+#     "pybids",
+#     "rich",
+#     "tabulate",
+# ]
+# ///
+
 """Take the listing of examples datasets
 and turns it into a markdown document with a series of markdown tables.
 
@@ -45,6 +56,8 @@ tables_order = {
     "NIRS": "nirs",
     "PET": "pet",
     "qMRI": "",
+    "Phenotype": "phenotype",
+    "Provenance": "",
 }
 
 DELIMITER = "<!-- ADD EXAMPLE LISTING HERE -->"
@@ -164,6 +177,8 @@ def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
             mask = names.str.contains("qmri_")
         elif table_name == "HED":
             mask = names.str.contains("_hed_")
+        elif table_name == "Provenance":
+            mask = names.str.contains("provenance_")
         else:
             mask = df["datatypes"].str.contains(table_datatypes, regex=True)
 

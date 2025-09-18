@@ -1,12 +1,12 @@
 {
-    "Name": "Phenotype guidelines example dataset 4",
-    "BIDSVersion": "1.10.0",
-    "DatasetType": "raw",
+    "Name": "Mixed Phenotype+Participants",
+    "BIDSVersion": "1.11.0",
     "License": "CC0",
     "Authors": [
-        "Arshitha Basavaraj",
         "Eric Earl",
-        "Sebastian Urchs",
-        "Samuel Guay"
-    ]
+        "Arshitha Basavaraj",
+        "Samuel Guay",
+        "Sebastian Urchs"
+    ],
+    "Acknowledgements": "Acknowledgements"
 }

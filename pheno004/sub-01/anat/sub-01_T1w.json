@@ -1,44 +1,48 @@
 {
     "Modality": "MR",
     "MagneticFieldStrength": 3,
-    "ImagingFrequency": 127.697,
+    "ImagingFrequency": 127.695727,
     "Manufacturer": "GE",
     "ManufacturersModelName": "DISCOVERY MR750",
-    "InstitutionName": "NIH FMRIF",
-    "DeviceSerialNumber": "000301496MR3T6MR",
-    "StationName": "fmrif3tb",
     "BodyPartExamined": "BRAIN",
     "PatientPosition": "HFS",
     "ProcedureStepDescription": "MRI Brain",
-    "SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R01_1725.a",
+    "SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R03_1831.b",
     "MRAcquisitionType": "3D",
-    "SeriesDescription": "Accelerated Sagittal IR-FSPGR",
-    "ProtocolName": "ADNI3 FMRIF Enhanced Pro",
-    "ScanningSequence": "GR",
-    "SequenceVariant": "SS\\SP\\SK",
-    "ScanOptions": "FAST_GEMS\\EDR_GEMS\\FILTERED_GEMS\\ACC_GEMS\\IR_GEMS",
+    "SeriesDescription": "ORIG Anat T1w MP-RAGE 1mm (ABCD)",
+    "ProtocolName": "[XT-ID:17-M-0181] ADNI3",
+    "ScanningSequence": "RM",
+    "SequenceVariant": "NONE",
+    "ScanOptions": "EDR_GEMS\\PROMO_GEMS\\ACC_GEMS\\IR_GEMS",
+    "PulseSequenceName": "mprage",
     "ImageType": [
         "ORIGINAL",
         "PRIMARY",
         "OTHER"
     ],
-    "SeriesNumber": 3,
-    "AcquisitionTime": "14:20:39.000000",
+    "SeriesNumber": 40003,
+    "AcquisitionTime": "12:43:16.000000",
     "AcquisitionNumber": 1,
-    "SliceThickness": 1.2,
-    "SpacingBetweenSlices": 1.2,
-    "SAR": 0.159922,
-    "EchoTime": 0.003036,
-    "RepetitionTime": 0.007348,
-    "SpoilingState": true,
-    "InversionTime": 0.4,
-    "FlipAngle": 11,
+    "SliceThickness": 1,
+    "SpacingBetweenSlices": 1,
+    "SAR": 0.115406,
+    "EchoTime": 0.00292,
+    "RepetitionTime": 0.006952,
+    "InversionTime": 1.06,
+    "FlipAngle": 8,
+    "ShimSetting": [
+        3,
+        -2,
+        -13
+    ],
+    "PrescanReuseString": "TG/s2,RN/s1",
     "CoilString": "32Ch Head",
     "PercentPhaseFOV": 100,
     "PercentSampling": 100,
     "AcquisitionMatrixPE": 256,
     "ReconMatrixPE": 256,
-    "ParallelReductionFactorInPlane": 1.72974,
+    "ParallelReductionFactorInPlane": 2,
+    "ParallelReductionFactorOutOfPlane": 2,
     "PixelBandwidth": 244.141,
     "ImageOrientationPatientDICOM": [
         0,
@@ -49,24 +53,11 @@
         -1
     ],
     "InPlanePhaseEncodingDirectionDICOM": "ROW",
+    "BidsGuess": [
+        "anat",
+        "_acq-EFGRE3Dp2_run-40003_T1w"
+    ],
     "ConversionSoftware": "dcm2niix",
-    "ConversionSoftwareVersion": "v1.0.20211006",
-    "Dcm2bidsVersion": "2.1.6",
-    "AnatomicalLandmarkCoordinates": {
-        "NAS": [
-            96.99963391304016,
-            217.00000713174342,
-            132.00000993690617
-        ],
-        "LPA": [
-            38.99985516548157,
-            134.00001106030345,
-            109.00000818113267
-        ],
-        "RPA": [
-            151.99943243799208,
-            132.00001115496755,
-            109.00000818113267
-        ]
-    }
+    "ConversionSoftwareVersion": "v1.0.20240202",
+    "Dcm2bidsVersion": "3.1.1"
 }
