@@ -38,8 +38,8 @@ jobs:
       run: |
         # Also check PR description if this is a PR
         if [ "${{ github.event_name }}" == "pull_request" ]; then
-          PR_NUM=$(echo "${{ github.event.pull_request.body }}" | grep -oP 'bids-specification-pr:s*(https://github\.com/bids-standard/bids-specification/pulls/)*K[0-9]+/*' || true)
-          [ -n "$PR_BODY_NUM" ] && echo "pr_number=$PR_NUM" >> $GITHUB_OUTPUT
+          PR_NUM=$(echo "${{ github.event.pull_request.body }}" | grep -oP 'bids-specification-pr:\s*(https://github\.com/bids-standard/bids-specification/pulls?/)*\K[0-9]+' | head -1 || true)
+          [ -n "$PR_NUM" ] && echo "pr_number=$PR_NUM" >> $GITHUB_OUTPUT
         fi
 
     - name: Set matrix
@@ -49,7 +49,7 @@ jobs:
         if [ -n "${{ steps.find-pr.outputs.pr_number }}" ]; then
           EXTRA_ITEM=', "bids-pr"'
         fi
-        echo 'matrix=["stable", "main", "dev", "legacy"${EXTRA_ITEM}' >> $GITHUB_OUTPUT
+        echo "matrix=[\"stable\", \"main\", \"dev\", \"legacy\"${EXTRA_ITEM}]" >> $GITHUB_OUTPUT
 
   build:
     needs: prepare-matrix
@@ -98,7 +98,7 @@ jobs:
           deno install -Agf -n bids-validator jsr:@bids/validator
 
     - name: Install BIDS validator (main)
-      if: matrix.bids-validator == 'main' or matrix.bids-validator == 'bids-pr'
+      if: matrix.bids-validator == 'main' || matrix.bids-validator == 'bids-pr'
       run: |
         # If unmerged validator PRs are needed for testing, you can use
         # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
