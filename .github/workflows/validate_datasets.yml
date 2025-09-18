@@ -36,9 +36,12 @@ jobs:
     - name: Check for bids-specification PR reference
       id: find-pr
       run: |
-        # Also check PR description if this is a PR
+        # Check PR description if this is a PR
         if [ "${{ github.event_name }}" == "pull_request" ]; then
-          PR_NUM=$(echo "${{ github.event.pull_request.body }}" | grep -oP 'bids-specification-pr:\s*(https://github\.com/bids-standard/bids-specification/pulls?/)*\K[0-9]+' | head -1 || true)
+          cat << 'EOF' > /tmp/pr_body.txt
+        ${{ github.event.pull_request.body }}
+        EOF
+          PR_NUM=$(grep -oP 'bids-specification-pr:\s*(https://github\.com/bids-standard/bids-specification/pulls?/)*\K[0-9]+' /tmp/pr_body.txt | head -1 || true)
           [ -n "$PR_NUM" ] && echo "pr_number=$PR_NUM" >> $GITHUB_OUTPUT
         fi
 
