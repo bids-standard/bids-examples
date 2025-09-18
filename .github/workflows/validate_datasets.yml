@@ -42,7 +42,7 @@ jobs:
         ${{ github.event.pull_request.body }}
         EOF
           PR_NUM=$(grep -oP 'bids-specification-pr:\s*(https://github\.com/bids-standard/bids-specification/pulls?/)*\K[0-9]+' /tmp/pr_body.txt | head -1 || true)
-          [ -n "$PR_NUM" ] && echo "pr_number=$PR_NUM" >> $GITHUB_OUTPUT
+          [ -n "$PR_NUM" ] && echo "pr_number=$PR_NUM" >> $GITHUB_OUTPUT || :
         fi
 
     - name: Set matrix
