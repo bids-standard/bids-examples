@@ -21,16 +21,47 @@ defaults:
     shell: bash
 
 jobs:
+  # Prepare the matrix dynamically based on whether a bids-specification PR is referenced
+  prepare-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+      bids_pr: ${{ steps.find-pr.outputs.pr_number }}
+    steps:
+    - uses: actions/checkout@v5
+      with:
+        fetch-depth: 0  # Get full history for commit message scanning
+
+    - name: Check for bids-specification PR reference
+      id: find-pr
+      run: |
+        # Also check PR description if this is a PR
+        if [ "${{ github.event_name }}" == "pull_request" ]; then
+          PR_NUM=$(echo "${{ github.event.pull_request.body }}" | grep -oP 'bids-specification-pr:s*(https://github\.com/bids-standard/bids-specification/pulls/)*K[0-9]+/*' || true)
+          [ -n "$PR_BODY_NUM" ] && echo "pr_number=$PR_NUM" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Set matrix
+      id: set-matrix
+      run: |
+        EXTRA_ITEM=''
+        if [ -n "${{ steps.find-pr.outputs.pr_number }}" ]; then
+          EXTRA_ITEM=', "bids-pr"'
+        fi
+        echo 'matrix=["stable", "main", "dev", "legacy"${EXTRA_ITEM}' >> $GITHUB_OUTPUT
+
   build:
+    needs: prepare-matrix
     strategy:
       fail-fast: false
       matrix:
         platform: [ubuntu-latest, macos-latest, windows-latest]
-        bids-validator: [stable, main, dev, legacy]
+        bids-validator: ${{ fromJson(needs.prepare-matrix.outputs.matrix) }}
 
     runs-on: ${{ matrix.platform }}
 
     env:
+      BIDS_PR: ${{ needs.prepare-matrix.outputs.bids_pr }}
       TZ: Europe/Berlin
       FORCE_COLOR: 1
 
@@ -66,7 +97,7 @@ jobs:
           deno install -Agf -n bids-validator jsr:@bids/validator
 
     - name: Install BIDS validator (main)
-      if: matrix.bids-validator == 'main'
+      if: matrix.bids-validator == 'main' or matrix.bids-validator == 'bids-pr'
       run: |
         # If unmerged validator PRs are needed for testing, you can use
         # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
@@ -130,6 +161,13 @@ jobs:
       # If this variable is unset, dev will generally track the latest development
       # release of https://jsr.io/@bids/schema
       run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
+
+    - name: Set BIDS_SCHEMA variable for bids-pr version
+      if: matrix.bids-validator == 'bids-pr'
+      # Use the readthedocs PR preview build for the schema
+      run: |
+        echo "Using schema from bids-specification PR #${{ env.BIDS_PR }}"
+        echo BIDS_SCHEMA=https://bids-specification--${{ env.BIDS_PR }}.org.readthedocs.build/en/${{ env.BIDS_PR }}/schema.json >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
