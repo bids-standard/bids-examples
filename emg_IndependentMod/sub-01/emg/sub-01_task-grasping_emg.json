@@ -1,7 +1,6 @@
 {
 	"EMGChannelCount":6,
-	"EMGPlacementScheme":"Other",
-	"EMGPlacementSchemeDescription":"Electrodes placed on lower arm and hand muscles; see channels.tsv for details.",
+	"EMGPlacementScheme":"ChannelSpecific",
 	"EMGReference":"bipolar",
 	"EMGGround":"n/a",
 	"Manufacturer":"Cometa",

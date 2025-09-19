@@ -1,33 +1,33 @@
-name	type	units	target_muscle	placement	group
-EMG0	EMG	V	forearm muscles	[0,50,10]	left-wristband
-EMG1	EMG	V	forearm muscles	[5,30,10]	left-wristband
-EMG2	EMG	V	forearm muscles	[20,10,10]	left-wristband
-EMG3	EMG	V	forearm muscles	[30,0,10]	left-wristband
-EMG4	EMG	V	forearm muscles	[40,5,10]	left-wristband
-EMG5	EMG	V	forearm muscles	[50,10,10]	left-wristband
-EMG6	EMG	V	forearm muscles	[70,20,10]	left-wristband
-EMG7	EMG	V	forearm muscles	[90,30,10]	left-wristband
-EMG8	EMG	V	forearm muscles	[100,40,10]	left-wristband
-EMG9	EMG	V	forearm muscles	[90,60,10]	left-wristband
-EMG10	EMG	V	forearm muscles	[80,80,10]	left-wristband
-EMG11	EMG	V	forearm muscles	[70,100,10]	left-wristband
-EMG12	EMG	V	forearm muscles	[60,100,10]	left-wristband
-EMG13	EMG	V	forearm muscles	[50,100,10]	left-wristband
-EMG14	EMG	V	forearm muscles	[40,100,10]	left-wristband
-EMG15	EMG	V	forearm muscles	[20,90,10]	left-wristband
-EMG16	EMG	V	forearm muscles	[100,50,10]	right-wristband
-EMG17	EMG	V	forearm muscles	[95,30,10]	right-wristband
-EMG18	EMG	V	forearm muscles	[80,10,10]	right-wristband
-EMG19	EMG	V	forearm muscles	[70,0,10]	right-wristband
-EMG20	EMG	V	forearm muscles	[60,5,10]	right-wristband
-EMG21	EMG	V	forearm muscles	[50,10,10]	right-wristband
-EMG22	EMG	V	forearm muscles	[30,20,10]	right-wristband
-EMG23	EMG	V	forearm muscles	[10,30,10]	right-wristband
-EMG24	EMG	V	forearm muscles	[0,40,10]	right-wristband
-EMG25	EMG	V	forearm muscles	[10,60,10]	right-wristband
-EMG26	EMG	V	forearm muscles	[20,80,10]	right-wristband
-EMG27	EMG	V	forearm muscles	[30,100,10]	right-wristband
-EMG28	EMG	V	forearm muscles	[50,100,10]	right-wristband
-EMG29	EMG	V	forearm muscles	[70,100,10]	right-wristband
-EMG30	EMG	V	forearm muscles	[80,100,10]	right-wristband
-EMG31	EMG	V	forearm muscles	[80,90,10]	right-wristband
+name	type	units	target_muscle	signal_electrode	reference	group
+EMG0	EMG	V	forearm muscles	EMG0	bipolar	left
+EMG1	EMG	V	forearm muscles	EMG1	bipolar	left
+EMG2	EMG	V	forearm muscles	EMG2	bipolar	left
+EMG3	EMG	V	forearm muscles	EMG3	bipolar	left
+EMG4	EMG	V	forearm muscles	EMG4	bipolar	left
+EMG5	EMG	V	forearm muscles	EMG5	bipolar	left
+EMG6	EMG	V	forearm muscles	EMG6	bipolar	left
+EMG7	EMG	V	forearm muscles	EMG7	bipolar	left
+EMG8	EMG	V	forearm muscles	EMG8	bipolar	left
+EMG9	EMG	V	forearm muscles	EMG9	bipolar	left
+EMG10	EMG	V	forearm muscles	EMG10	bipolar	left
+EMG11	EMG	V	forearm muscles	EMG11	bipolar	left
+EMG12	EMG	V	forearm muscles	EMG12	bipolar	left
+EMG13	EMG	V	forearm muscles	EMG13	bipolar	left
+EMG14	EMG	V	forearm muscles	EMG14	bipolar	left
+EMG15	EMG	V	forearm muscles	EMG15	bipolar	left
+EMG16	EMG	V	forearm muscles	EMG0	bipolar	right
+EMG17	EMG	V	forearm muscles	EMG1	bipolar	right
+EMG18	EMG	V	forearm muscles	EMG2	bipolar	right
+EMG19	EMG	V	forearm muscles	EMG3	bipolar	right
+EMG20	EMG	V	forearm muscles	EMG4	bipolar	right
+EMG21	EMG	V	forearm muscles	EMG5	bipolar	right
+EMG22	EMG	V	forearm muscles	EMG6	bipolar	right
+EMG23	EMG	V	forearm muscles	EMG7	bipolar	right
+EMG24	EMG	V	forearm muscles	EMG8	bipolar	right
+EMG25	EMG	V	forearm muscles	EMG9	bipolar	right
+EMG26	EMG	V	forearm muscles	EMG10	bipolar	right
+EMG27	EMG	V	forearm muscles	EMG11	bipolar	right
+EMG28	EMG	V	forearm muscles	EMG12	bipolar	right
+EMG29	EMG	V	forearm muscles	EMG13	bipolar	right
+EMG30	EMG	V	forearm muscles	EMG14	bipolar	right
+EMG31	EMG	V	forearm muscles	EMG15	bipolar	right

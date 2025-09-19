@@ -4,6 +4,8 @@
 	"EMGPlacementSchemeDescription":"Grids placed on dorsal and volar aspects of the forearm, approximately 3 cm from elbow and 2 cm from ulna. See channels.tsv and electrodes.tsv for details.",
 	"EMGReference":"placed on the skin over the ulnar styloid process (wrist)",
 	"EMGGround":"n/a",
+    "PowerLineFrequency": 60,
+    "SoftwareFilters": "n/a",
 	"Manufacturer":"OTBioelettronica",
 	"ManufacturersModelName":"Sessantaquattro",
 	"RecordingDuration":1.00,
