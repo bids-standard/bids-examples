@@ -10,8 +10,6 @@ pheno003
 |-- phenotype
 |   |-- ace.json
 |   `-- ace.tsv
-|-- sessions.json
-|-- sessions.tsv
 |-- sub-01
 |   `-- ses-baseline
 |       `-- anat
@@ -23,6 +21,6 @@ pheno003
             |-- sub-02_ses-baseline_T1w.json
             `-- sub-02_ses-baseline_T1w.nii.gz
 
-8 directories, 11 files
+8 directories, 9 files
 
 ```

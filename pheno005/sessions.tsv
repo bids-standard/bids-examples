@@ -1,6 +1,6 @@
-participant_id	session_id	run	age	acq_time
-sub-01	ses-baseline	run-01	22	2001-01-05 10:05:23
-sub-01	ses-baseline	run-02	22	2001-01-05 14:15:59
-sub-01	ses-followup	run-01	24	2003-02-06 09:45:00
-sub-02	ses-baseline	run-01	63	2001-01-13 12:04:08
-sub-02	ses-baseline	run-02	63	2001-01-13 16:20:17
+participant_id	session_id	run	acq_time
+sub-01	ses-baseline	run-01	2001-01-05 10:05:23
+sub-01	ses-baseline	run-02	2001-01-05 14:15:59
+sub-01	ses-followup	run-01	2003-02-06 09:45:00
+sub-02	ses-baseline	run-01	2001-01-13 12:04:08
+sub-02	ses-baseline	run-02	2001-01-13 16:20:17

@@ -1,5 +1,5 @@
-participant_id	session_id	age	acq_time
-sub-01	01	22	1975-02-08 11:37:09
-sub-01	02	24	1977-04-01 09:00:57
-sub-02	01	63	1975-02-09 13:50:30
-sub-02	02	65	1977-03-29 10:25:04
+participant_id	session_id	acq_time
+sub-01	ses-01	1975-02-08 11:37:09
+sub-01	ses-02	1977-04-01 09:00:57
+sub-02	ses-01	1975-02-09 13:50:30
+sub-02	ses-02	1977-03-29 10:25:04

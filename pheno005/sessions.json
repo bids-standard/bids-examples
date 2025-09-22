@@ -16,10 +16,6 @@
 			"run-02": "Second run of the session."
 		}
 	},
-	"age": {
-		"Description": "Age of the participant at the time of the visit.",
-		"Units": "years"
-	},
 	"acq_time": {
 		"Description": "Date and time of data acquisition in YYYY-MM-DD HH:MM:SS format."
 	}
