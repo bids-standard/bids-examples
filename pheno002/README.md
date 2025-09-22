@@ -1,4 +1,4 @@
-# BEP036 example dataset 02: two sessions, one imaging-only session
+# Pheno002 example dataset: two sessions, one imaging-only session
 
 This dataset has two sessions but only the first session includes both phenotype and imaging data. The second session only contains imaging data. The file tree is as follows:
 
@@ -9,9 +9,7 @@ pheno002
 |-- participants.tsv
 |-- phenotype
 |   |-- ace.json
-|   |-- ace.tsv
-|   |-- demographics.json
-|   `-- demographics.tsv
+|   `-- ace.tsv
 |-- sessions.json
 |-- sessions.tsv
 |-- sub-01
@@ -33,6 +31,6 @@ pheno002
             |-- sub-02_ses-02_T1w.json
             `-- sub-02_ses-02_T1w.nii.gz
 
-12 directories, 17 files
+12 directories, 15 files
 
 ```

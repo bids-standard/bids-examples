@@ -1,19 +1,19 @@
 {
-  "participant_id": {
-    "Description": "OpenNeuro ID of the subject."
-  },
-  "session_id": {
-    "Description": "ID assigned to participant's visit.",
-    "Levels": {
-      "01": "First phenotype assessment and imaging visit.",
-      "02": "Second imaging only visit."
-    }
-  },
-  "age": {
-    "Description": "Age of the participant at the time of the visit.",
-    "Units": "years"
-  },
-  "acq_time": {
-    "Description": "Date and/or time of acquisition."
-  }
+	"participant_id": {
+		"Description": "Unique participant identifier."
+	},
+	"session_id": {
+		"Description": "ID assigned to participant's visit.",
+		"Levels": {
+			"01": "First phenotype assessment and imaging visit.",
+			"02": "Second imaging only visit."
+		}
+	},
+	"age": {
+		"Description": "Age of the participant at the time of the visit.",
+		"Units": "years"
+	},
+	"acq_time": {
+		"Description": "Date and/or time of acquisition."
+	}
 }
