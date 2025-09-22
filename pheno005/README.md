@@ -1,4 +1,4 @@
-# BEP036 example dataset 05: Two multi-run sessions with one imaging-only session
+# Pheno005 example dataset: Two multi-run sessions with one imaging-only session
 
 This dataset contains imaging and phenotypic data with multiple runs from the baseline session and phenotypic data from followup sessions. The file tree is as follows:
 
@@ -9,9 +9,7 @@ pheno003
 |-- participants.tsv
 |-- phenotype
 |   |-- ace.json
-|   |-- ace.tsv
-|   |-- demographics.json
-|   `-- demographics.tsv
+|   `-- ace.tsv
 |-- sessions.json
 |-- sessions.tsv
 |-- sub-01
@@ -25,6 +23,6 @@ pheno003
             |-- sub-02_ses-baseline_T1w.json
             `-- sub-02_ses-baseline_T1w.nii.gz
 
-8 directories, 13 files
+8 directories, 11 files
 
 ```
