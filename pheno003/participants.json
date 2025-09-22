@@ -1,37 +1,16 @@
 {
-  "participant_id": {
-    "Description": "OpenNeuro ID of the subject."
-  },
-  "sex": {
-    "Description": "Sex assigned at birth.",
-    "Levels": {
-      "m": "Male",
-      "f": "Female"
-    }
-  },
-  "age": {
-    "Description": "Age of the participant.",
-    "Units": "years"
-  },
-  "MRI": {
-    "Description": "Does the participant have an MRI?",
-    "Levels": {
-      "1": "Yes",
-      "0": "No"
-    }
-  },
-  "ace": {
-    "Description": "Does the participant have Adverse Childhood Experience (ACE) survey data?",
-    "Levels": {
-      "1": "Yes",
-      "0": "No"
-    }
-  },
-  "demographics": {
-    "Description": "Does the participant have demographics survey data?",
-    "Levels": {
-      "1": "Yes",
-      "0": "No"
-    }
-  }
+	"participant_id": {
+		"Description": "Unique participant identifier."
+	},
+	"sex": {
+		"Description": "Sex assigned at birth.",
+		"Levels": {
+			"m": "Male",
+			"f": "Female"
+		}
+	},
+	"age": {
+		"Description": "Age of the participant.",
+		"Units": "years"
+	}
 }

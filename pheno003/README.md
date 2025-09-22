@@ -1,4 +1,4 @@
-# BEP036 example dataset 03: Two sessions with one phenotype-only session
+# Pheno003 example dataset: Two sessions with one phenotype-only session
 
 This dataset contains imaging data from the baseline session and phenotypic data from baseline and followup sessions. The file tree is as follows:
 
@@ -9,9 +9,7 @@ pheno003
 |-- participants.tsv
 |-- phenotype
 |   |-- ace.json
-|   |-- ace.tsv
-|   |-- demographics.json
-|   `-- demographics.tsv
+|   `-- ace.tsv
 |-- sessions.json
 |-- sessions.tsv
 |-- sub-01
@@ -25,8 +23,6 @@ pheno003
             |-- sub-02_ses-baseline_T1w.json
             `-- sub-02_ses-baseline_T1w.nii.gz
 
-8 directories, 13 files
+8 directories, 11 files
 
 ```
-
-
