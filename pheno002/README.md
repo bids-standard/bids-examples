@@ -32,5 +32,4 @@ pheno002
             `-- sub-02_ses-02_T1w.nii.gz
 
 12 directories, 15 files
-
 ```

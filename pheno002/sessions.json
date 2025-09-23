@@ -5,8 +5,8 @@
 	"session_id": {
 		"Description": "ID assigned to participant's visit.",
 		"Levels": {
-			"01": "First phenotype assessment and imaging visit.",
-			"02": "Second imaging only visit."
+			"ses-01": "First phenotype assessment and imaging visit.",
+			"ses-02": "Second imaging only visit."
 		}
 	},
 	"age": {
