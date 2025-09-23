@@ -9,7 +9,7 @@
 			"ses-followup": "Second phenotype data collection visit."
 		}
 	},
-	"run": {
+	"run_id": {
 		"Description": "Run index assigned to a given session.",
 		"Levels": {
 			"run-01": "First run of the session.",
