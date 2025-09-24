@@ -1,0 +1,17 @@
+{
+	"EMGChannelCount":32,
+	"EMGPlacementScheme":"Other",
+	"EMGPlacementSchemeDescription":"The wristbands were placed on the left and right wrists of the subject. See the channels.tsv file for details.",
+	"EMGReference":"bipolar",
+	"EMGGround":"n/a",
+	"Manufacturer":"CTRL-Labs at Meta Reality Labs",
+	"ManufacturersModelName":"SEMG Research Device (SEMG-RD)",
+	"RecordingDuration":1.00,
+	"RecordingType":"continuous",
+	"SamplingFrequency":2000,
+	"HardwareFilters":{"Lowpass": {"Half amplitude cutoff (Hz)": 850}, "Highpass": {"Half amplitude cutoff (Hz)": 20}},
+	"TaskDescription":"Subjects were typing on a keyboard while their EMG data was recorded.",
+	"TaskName":"typing",
+	"PowerLineFrequency":60,
+	"SoftwareFilters":"n/a"
+}
