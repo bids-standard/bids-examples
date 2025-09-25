@@ -7,7 +7,7 @@
         "message"
     ],
     "Description": "Messages logged by the measurement device",
-    "ForeignIndexColumn": "timestamp",
+    "OnsetSource": "timestamp",
     "blink": {
       "Description": "Gives status of the eye.",
       "Levels": {
