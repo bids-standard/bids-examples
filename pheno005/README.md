@@ -3,7 +3,7 @@
 This dataset contains imaging and phenotypic data with multiple runs from the baseline session and phenotypic data from followup sessions. The file tree is as follows:
 
 ```bash
-pheno003
+pheno005
 |-- README.md
 |-- participants.json
 |-- participants.tsv
