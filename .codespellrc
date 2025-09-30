@@ -1,4 +1,4 @@
 [codespell]
-skip = .git,env,venv,ds*,asl*,qmr*,genetics*,fnirs*,eeg*,meg*,pet*,ieeg*,motion*,synthetic*
+skip = .git,env,venv,ds*,asl*,qmr*,genetics*,fnirs*,eeg*,meg*,pet*,ieeg*,motion*,synthetic*,emg*
 builtin = clear,rare
 ignore-words-list = nd,te,FLE
