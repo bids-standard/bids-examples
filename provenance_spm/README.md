@@ -23,31 +23,29 @@ The directory tree is as follows:
 ├── prov
 │   ├── prov-spm_act.json
 │   ├── prov-spm_ent.json
+│   ├── prov-spm_soft.json
 │   ├── prov-spm.jsonld
-│   ├── prov-spm.png
-│   └── prov-spm_soft.json
+│   └── prov-spm.png
 ├── README.md
-└── SPM
-    └── PREPROCESSING
-        ├── ANATOMICAL
-        │   ├── c1sub-01_T1w.nii
-        │   ├── c2sub-01_T1w.nii
-        │   ├── c3sub-01_T1w.nii
-        │   ├── c4sub-01_T1w.nii
-        │   ├── c5sub-01_T1w.nii
-        │   ├── msub-01_T1w.nii
-        │   ├── sub-01_T1w.nii
-        │   ├── sub-01_T1w.nii.gz
-        │   ├── sub-01_T1w_seg8.mat
-        │   ├── wmsub-01_T1w.nii
-        │   └── y_sub-01_T1w.nii
-        └── FUNCTIONAL
-            ├── meansub-01_task-tonecounting_bold.nii
-            ├── rp_sub-01_task-tonecounting_bold.txt
-            ├── sub-01_task-tonecounting_bold.mat
-            ├── sub-01_task-tonecounting_bold.nii
-            ├── sub-01_task-tonecounting_bold.nii.gz
-            ├── swsub-01_task-tonecounting_bold.nii
-            └── wsub-01_task-tonecounting_bold.nii
-
+└── sub-01
+    ├── anat
+    │   ├── c1sub-01_T1w.nii
+    │   ├── c2sub-01_T1w.nii
+    │   ├── c3sub-01_T1w.nii
+    │   ├── c4sub-01_T1w.nii
+    │   ├── c5sub-01_T1w.nii
+    │   ├── msub-01_T1w.nii
+    │   ├── sub-01_T1w.nii
+    │   ├── sub-01_T1w.nii.gz
+    │   ├── sub-01_T1w_seg8.mat
+    │   ├── wmsub-01_T1w.nii
+    │   └── y_sub-01_T1w.nii
+    └── func
+        ├── meansub-01_task-tonecounting_bold.nii
+        ├── rp_sub-01_task-tonecounting_bold.txt
+        ├── sub-01_task-tonecounting_bold.mat
+        ├── sub-01_task-tonecounting_bold.nii
+        ├── sub-01_task-tonecounting_bold.nii.gz
+        ├── swsub-01_task-tonecounting_bold.nii
+        └── wsub-01_task-tonecounting_bold.nii
 ```
