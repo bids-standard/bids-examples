@@ -33,6 +33,7 @@ ds116	multiple tasks, multiple runs	[link](https://openneuro.org/datasets/ds0001
 ds210	multiple tasks, multiple runs	[link](https://openneuro.org/datasets/ds000210/versions/00002)		func	bold, physio
 hcp_example_bids		[link](https://bit.ly/2H0Z6Qt)	[@robertoostenveld](https://github.com/robertoostenveld)	anat, fmap	T1w, T2w, magnitude1, magnitude2, phasediff
 synthetic	A synthetic dataset		[@effigies](https://github.com/effigies)	anat, beh, func	T1w, beh, bold, events, physio, scans, sessions, stim
+volume_timing	Sparse BOLD acquisitions		[@effigies](https://github.com/effigies)	func	bold
 ds000001-fmriprep	Common derivatives example	[link](https://openneuro.org/datasets/ds000001/versions/1.0.0)	[@effigies](https://github.com/effigies)	n/a	n/a
 ds004332	Anat dataset with task entity	[link](https://openneuro.org/datasets/ds004332/versions/1.0.2)	[@Remi-Gau](https://github.com/Remi-Gau)	anat	FLAIR, T1w, T2starw, T2w
 asl001	T1w, asl (GE, PCASL, 3D_SPIRAL), m0scan within timeseries	[link](https://osf.io/yru2q/)	[@patsycle](https://github.com/patsycle)	anat, perf	T1w, asl, aslcontext, asllabeling
@@ -56,6 +57,7 @@ pet002	T1w, PET	[link](https://openneuro.org/datasets/ds001420/)	[@mnoergaard](h
 pet003	T1w, PET, blood		[@mnoergaard](https://github.com/mnoergaard)	anat, pet	T1w, blood, pet
 pet004	PET, blood		[@mnoergaard](https://github.com/mnoergaard)	pet	blood, pet
 pet005	T1w, PET		[@mnoergaard](https://github.com/mnoergaard)	anat, pet	T1w, events, pet
+pet006	PET		[@bendhouseart](https://github.com/bendhouseart)	pet	pet
 micr_SEM	Example SEM dataset in PNG format with 1 sample imaged over 2 sessions	[link](https://doi.org/10.5281/zenodo.5498378)	[@jcohenadad](https://github.com/jcohenadad)	micr	SEM, photo, samples, sessions
 micr_SEMzarr	Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions		[@TheChymera](https://github.com/TheChymera)	micr	SEM, SPIM, samples, sessions
 micr_SPIM	Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each	[link](https://doi.org/10.5281/zenodo.5517223)	[@jcohenadad](https://github.com/jcohenadad)	micr	SPIM, photo, samples
@@ -83,4 +85,5 @@ mrs_fmrs	Functional MRS data involving a pain stimulus task from 15 subjects	[li
 xeeg_hed_score	EEG and iEEG data with annotations of artifacts, seizures and modulators using HED-SCORE 		[@dorahermes](https://github.com/dorahermes)	anat, eeg, ieeg	T1w, channels, coordsystem, eeg, electrodes, events, ieeg
 dwi_deriv	exemplifies the storage of diffusion MRI derivates that may be generated on the Siemens XA platform.			dwi	dwi
 pheno004	Minimal dataset with subjects with imaging and/or phenotype data		[@ericearl](https://github.com/ericearl)	phenotype, anat	T1w
+mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject, two chunks.		[@valosekj](https://github.com/valosekj)	anat	T1w
 provenance_heudiconv Shows minimal example of provenance records for a DICOM to Nifti conversion, performed by [`heudiconv`](https://heudiconv.readthedocs.io/en/latest/) This example is build upon [hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) data [@bclenet](https://github.com/bclenet) anat T1w, act, ent, env, soft

@@ -95,22 +95,22 @@
   "value": {
     "Description": "Numerical event marker",
     "Levels": {
-      "x0": "Disappearance of face image and display of the inter-stimulus circle simultaneously",
-      "x1": "Disappearance of face image and display of the inter-stimulus circle simultaneously",
-      "x2": "Initial setup with left finger key press indicating above average symmetry",
-      "x3": "Initial setup with right finger key press indicating above average symmetry",
-      "x5": "Initial presentation of famous face",
-      "x6": "Immediate repeated  presentation of famous face",
-      "x7": "Delayed repeated  presentation of famous face",
-      "x13": "Initial presentation of unfamiliar face",
-      "x14": "Immediate repeated  presentation of unfamiliar face",
-      "x15": "Delayed repeated  presentation of unfamiliar face",
-      "x17": "Initial presentation of scrambled face",
-      "x18": "Immediate repeated  presentation of scrambled face",
-      "x19": "Delayed repeated  presentation of scrambled face",
-      "x256": "Left finger key press",
-      "x4096": "Right finger key press",
-	  "x4352": "Left and right finger key presses"
+      "0": "Disappearance of face image and display of the inter-stimulus circle simultaneously",
+      "1": "Disappearance of face image and display of the inter-stimulus circle simultaneously",
+      "2": "Initial setup with left finger key press indicating above average symmetry",
+      "3": "Initial setup with right finger key press indicating above average symmetry",
+      "5": "Initial presentation of famous face",
+      "6": "Immediate repeated  presentation of famous face",
+      "7": "Delayed repeated  presentation of famous face",
+      "13": "Initial presentation of unfamiliar face",
+      "14": "Immediate repeated  presentation of unfamiliar face",
+      "15": "Delayed repeated  presentation of unfamiliar face",
+      "17": "Initial presentation of scrambled face",
+      "18": "Immediate repeated  presentation of scrambled face",
+      "19": "Delayed repeated  presentation of scrambled face",
+      "256": "Left finger key press",
+      "4096": "Right finger key press",
+      "4352": "Left and right finger key presses"
     }
   }
 }
