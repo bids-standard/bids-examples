@@ -11,7 +11,8 @@
     "Description": "Type of event (different from EEGLAB convention)",
     "Levels": {
       "stimulus": "Onset of first question",
-      "response": "Response to question 1, 2 or 3"
+      "response": "Response to question 1, 2 or 3",
+      "STATUS": "Status event"
     }
   },
   "response_time": {
@@ -27,7 +28,8 @@
       "4": "Response 2 (this may be a response to question 1, 2 or 3)",
       "8": "Response 3 (this may be a response to question 1, 2 or 3)",
       "16": "Indicate involuntary response",
-      "128": "First question onset (most important marker)"
+      "128": "First question onset (most important marker)",
+      "254": "Status event"
     }
   }
 }
