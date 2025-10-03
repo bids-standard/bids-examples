@@ -31,11 +31,7 @@
   },
   "shown_stimulus": {
     "Description": "visual stimulus shown on the presentation screen",
-    "Levels": {
-      "white X": "small white fixation cross on the middle of the screen, indicating that the participant should relax and focus on the cross. At the beginning of a trial, a metronome sound of 1.5 Hz was played during the first 8 seconds of the white fixation cross.",
-      "red X": "small red fixation cross in the middle of the screen, indicating that the participant should start tapping/stepping the sequence (once) during the single-task conditions",
-      "QGCQOGCG": "random sequence of 8 letters (C, G, Q, or O) shown at random intervals (0.5-1.5 s) on the middle of the screen during the dual-task conditions. Participants needed to tap/step the sequence once, while simultaneously counting the letter G."
-    }
+    "Format": "string"
   },
   "reported_gs": {
     "Description": "Reported number of G's, as counted by the particpant during the dual-task conditions."
