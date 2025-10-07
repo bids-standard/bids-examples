@@ -8,7 +8,7 @@
         "image_blank_num"
     ],
     "Description": "Timing and other properties of events recorded during a run.",
-    "ForeignIndexColumn": "timestamp",
+    "OnsetSource": "timestamp",
     "onset": {
         "Description": "Onset (in seconds) of the event, measured from the beginning of the acquisition of the first data point stored in the corresponding task data file."
     },
