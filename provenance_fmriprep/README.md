@@ -4,6 +4,9 @@
 
 This example aims at showing provenance metadata for a preprocessing with [`fMRIPrep`](https://fmriprep.org/en/23.1.3/index.html). Provenance metadata was generated manually ; this acts as a guideline for minimal provenance description at dataset level.
 
+!!! warning
+    The contents of the `sub-001` directory are excluded from validation through a `.bidsignore` file.
+
 ## Original dataset
 
 This dataset is a subset of the [ds001734](https://openneuro.org/datasets/ds001734/versions/1.0.5) dataset, which contains raw and preprocessed fMRI data of two versions of the mixed gambles task, from the Neuroimaging Analysis Replication and Prediction Study (NARPS). **Only preprocessed data for subject `sub-001` is kept in this example.** All `.nii.gz` files were replaced by empty files.
