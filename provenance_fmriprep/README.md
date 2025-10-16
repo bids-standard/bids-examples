@@ -54,7 +54,7 @@ After preprocessing, and adding provenance traces, the directory tree is as foll
         └── ⭐ sub-001_task-MGT_run-04_bold_space-T1w_label-aseg_roi.nii.gz
 ```
 
-## Provenance as RDF graph
+## Provenance as a RDF graph
 
 Provenance metadata can be aggregated as a JSON-LD RDF graph, which is available in [`docs/prov-fmriprep.jsonld`](docs/prov-fmriprep.jsonld). This is a rendered version of the graph, also available in [`docs/prov-fmriprep.png`](docs/prov-fmriprep.png).
 
