@@ -2,9 +2,9 @@
 
 This example aims at showing provenance records for a functional MRI preprocessing performed with [`SPM`](https://www.fil.ion.ucl.ac.uk/spm/). Provenance records were created manually ; they act as a guideline for further machine-generated records by `SPM`. 
 
-## Source dataset
+## Original dataset
 
-This is a derivative dataset, based upon `sub-01` data from OpenfMRI DS000011 classification learning and tone counting experiment (cf. https://openfmri.org/dataset/ds000011/)
+This is a derivative dataset, based upon `sub-01` data from OpenfMRI DS000011 classification learning and tone counting experiment (cf. https://openfmri.org/dataset/ds000011/).
 
 ## Code
 
@@ -12,20 +12,18 @@ The Matlab batch file `code/spm_preprocessing.m` allows to perform the preproces
 
 ## Directory tree
 
-The directory tree is as follows:
+The directory tree is as follows. Files marked with a ✍️ were generated manually.
 
 ```
 .
-├── code
-│   ├── merge_prov.py
-│   └── spm_preprocessing.m
-├── dataset_description.json
-├── prov
-│   ├── prov-spm_act.json
-│   ├── prov-spm_ent.json
-│   ├── prov-spm_soft.json
-│   ├── prov-spm.jsonld
-│   └── prov-spm.png
+├── ✍️ code
+│   ├── ✍️ merge_prov.py
+│   └── ✍️ spm_preprocessing.m
+├── ✍️ dataset_description.json
+├── ✍️ prov
+│   ├── ✍️ prov-spm_act.json
+│   ├── ✍️ prov-spm_ent.json
+│   └── ✍️ prov-spm_soft.json
 ├── README.md
 └── sub-01
     ├── anat
@@ -49,3 +47,9 @@ The directory tree is as follows:
         ├── swsub-01_task-tonecounting_bold.nii
         └── wsub-01_task-tonecounting_bold.nii
 ```
+
+## Provenance as a RDF graph
+
+Provenance metadata can be aggregated as a JSON-LD RDF graph, which is available in [`docs/prov-spm.jsonld`](docs/prov-spm.jsonld). This is a rendered version of the graph, also available in docs/prov-spm.png.
+
+![Rendered version of the RDF graph](docs/prov-spm.png)
