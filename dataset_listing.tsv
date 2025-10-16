@@ -86,4 +86,4 @@ xeeg_hed_score	EEG and iEEG data with annotations of artifacts, seizures and mod
 dwi_deriv	exemplifies the storage of diffusion MRI derivates that may be generated on the Siemens XA platform.			dwi	dwi
 pheno004	Minimal dataset with subjects with imaging and/or phenotype data		[@ericearl](https://github.com/ericearl)	phenotype, anat	T1w
 mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject, two chunks.		[@valosekj](https://github.com/valosekj)	anat	T1w
-provenance_heudiconv Shows minimal example of provenance records for a DICOM to Nifti conversion, performed by [`heudiconv`](https://heudiconv.readthedocs.io/en/latest/) This example is build upon [hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) data [@bclenet](https://github.com/bclenet) anat T1w, act, ent, env, soft
+provenance_heudiconv Shows minimal example of provenance metadata for a DICOM to Nifti conversion with [`heudiconv`](https://heudiconv.readthedocs.io/en/latest/) This example is based upon [hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) data [@bclenet](https://github.com/bclenet) anat T1w, act, ent, env, soft
