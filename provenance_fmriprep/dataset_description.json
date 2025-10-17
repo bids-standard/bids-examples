@@ -1,7 +1,7 @@
 {
-  "Name": "Outputs from fMRIPrep preprocessing",
+  "Name": "Outputs from fMRIPrep preprocessing of the NARPS data",
   "BIDSVersion": "1.10.0",
-  "DatasetType": "raw",
+  "DatasetType": "derivative",
   "License": "CC0",
   "Authors": [
     "Boris Clénet"
