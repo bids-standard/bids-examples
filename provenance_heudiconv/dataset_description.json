@@ -1,0 +1,25 @@
+{
+  "Acknowledgements": "TODO: whom you want to acknowledge",
+  "Authors": [
+    "Boris Clénet"
+  ],
+  "BIDSVersion": "1.8.0",
+  "DatasetDOI": "TODO: eventually a DOI for the dataset",
+  "Funding": [
+    "TODO",
+    "GRANT #1",
+    "GRANT #2"
+  ],
+  "HowToAcknowledge": "TODO: describe how to acknowledge -- either cite a corresponding paper, or just in acknowledgement section",
+  "License": "TODO: choose a license, e.g. PDDL (http://opendatacommons.org/licenses/pddl/)",
+  "Name": "Provenance records for heudiconv",
+  "ReferencesAndLinks": [
+    "TODO",
+    "List of papers or websites"
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://github.com/psychoinformatics-de/hirni-demo"
+    }
+  ]
+}
