@@ -1,0 +1,1001 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "BIPOLAR_I_DISORDER_PAST": {
+        "LongName": "BIPOLAR_I_DISORDER_PAST (question ID 174814)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BIPOLAR_I_DISORDER_CURR": {
+        "LongName": "BIPOLAR_I_DISORDER_CURR (question ID 174815)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BIPOLAR_II_DISORDER_PAST": {
+        "LongName": "BIPOLAR_II_DISORDER_PAST (question ID 174817)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BIPOLAR_II_DISORDER_CURR": {
+        "LongName": "BIPOLAR_II_DISORDER_CURR (question ID 174830)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "CYCLOTHYMIC_DISORDER_CURR": {
+        "LongName": "CYCLOTHYMIC_DISORDER_CURR (question ID 174851)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_BIPOLAR_II_DISORDER_PAST": {
+        "LongName": "OTHER_BIPOLAR_II_DISORDER_PAST (question ID 178123)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_BIPOLAR_II_DISORDER_CURR": {
+        "LongName": "OTHER_BIPOLAR_II_DISORDER_CURR (question ID 178129)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_MOOD_DISORDR_MED_CONDTN_PAST": {
+        "LongName": "SCID_MOOD_DISORDR_MED_CONDTN_PAST (question ID 174735)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_MOOD_DISORDR_MED_CONDTN_CURR": {
+        "LongName": "SCID_MOOD_DISORDR_MED_CONDTN_CURR (question ID 174736)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_SUBSTANCE_INDUCED_DISORDER_PAST": {
+        "LongName": "SCID_SUBSTANCE_INDUCED_DISORDER_PAST (question ID 178144)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_SUBSTANCE_INDUCED_DISORDER_CURR": {
+        "LongName": "SCID_SUBSTANCE_INDUCED_DISORDER_CURR (question ID 178145)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "MAJOR_DEPRESSION_PAST": {
+        "LongName": "MAJOR_DEPRESSION_PAST (question ID 216306)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "MAJOR_DEPRESSION_CURRENT": {
+        "LongName": "MAJOR_DEPRESSION_CURRENT (question ID 216308)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PRESISTENT_DEPRESSIVE_PAST": {
+        "LongName": "PRESISTENT_DEPRESSIVE_PAST (question ID 216311)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PRESISTENT_DEPRESSIVE_CURRENT": {
+        "LongName": "PRESISTENT_DEPRESSIVE_CURRENT (question ID 216312)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PREMENSTRUAL_DYSPHORIC_CURRENT": {
+        "LongName": "PREMENSTRUAL_DYSPHORIC_CURRENT (question ID 216314)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_DEPRESSIVE_PAST": {
+        "LongName": "OTHER_DEPRESSIVE_PAST (question ID 216315)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_DEPRESSIVE_CURRENT": {
+        "LongName": "OTHER_DEPRESSIVE_CURRENT (question ID 216316)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "DEPRESSIVE_MED_COND_PAST": {
+        "LongName": "DEPRESSIVE_MED_COND_PAST (question ID 216317)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "DEPRESSIVE_MED_COND_CURRENT": {
+        "LongName": "DEPRESSIVE_MED_COND_CURRENT (question ID 216318)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "DEPRESSIVE_SUBSTANCE_INDUCED_PAST": {
+        "LongName": "DEPRESSIVE_SUBSTANCE_INDUCED_PAST (question ID 216319)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "DEPRESSIVE_SUBSTANCE_INDUCED_CURR": {
+        "LongName": "DEPRESSIVE_SUBSTANCE_INDUCED_CURR (question ID 216320)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCHIZOPHRENIA_PAST": {
+        "LongName": "SCHIZOPHRENIA_PAST (question ID 216274)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCHIZOPHRENIA_CURRENT": {
+        "LongName": "SCHIZOPHRENIA_CURRENT (question ID 216275)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCHIZOPHRENIFORM_PAST": {
+        "LongName": "SCHIZOPHRENIFORM_PAST (question ID 216276)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCHIZOPHRENIFORM_CURRENT": {
+        "LongName": "SCHIZOPHRENIFORM_CURRENT (question ID 216277)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCHIZOAFFECTIVE_PAST": {
+        "LongName": "SCHIZOAFFECTIVE_PAST (question ID 216278)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCHIZOAFFECTIVE_CURRENT": {
+        "LongName": "SCHIZOAFFECTIVE_CURRENT (question ID 216279)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "DELUSIONAL_PAST": {
+        "LongName": "DELUSIONAL_PAST (question ID 216280)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "DELUSIONAL_CURRENT": {
+        "LongName": "DELUSIONAL_CURRENT (question ID 216281)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BRIEF_PSYCHOTIC_PAST": {
+        "LongName": "BRIEF_PSYCHOTIC_PAST (question ID 216282)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BRIEF_PSYCHOTIC_CURRENT": {
+        "LongName": "BRIEF_PSYCHOTIC_CURRENT (question ID 216283)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PSYCHOTIC_MED_COND_PAST": {
+        "LongName": "PSYCHOTIC_MED_COND_PAST (question ID 216284)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PSYCHOTIC_MED_COND_CURRENT": {
+        "LongName": "PSYCHOTIC_MED_COND_CURRENT (question ID 216285)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PSYCHOTIC_SUB_INDUCED_PAST": {
+        "LongName": "PSYCHOTIC_SUB_INDUCED_PAST (question ID 216300)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PSYCHOTIC_SUB_INDUCED_CURRENT": {
+        "LongName": "PSYCHOTIC_SUB_INDUCED_CURRENT (question ID 216301)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_PSYCHOTIC_PAST": {
+        "LongName": "OTHER_PSYCHOTIC_PAST (question ID 216304)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_PSYCHOTIC_CURRENT": {
+        "LongName": "OTHER_PSYCHOTIC_CURRENT (question ID 216305)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_ALCOHOL_ABUSE_PAST": {
+        "LongName": "SCID_ALCOHOL_ABUSE_PAST (question ID 174882)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_ALCOHOL_ABUSE_CURR": {
+        "LongName": "SCID_ALCOHOL_ABUSE_CURR (question ID 141534)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ANXIOLYTIC_ABUSE_PAST": {
+        "LongName": "ANXIOLYTIC_ABUSE_PAST (question ID 174915)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ANXIOLYTIC_ABUSE_CURR": {
+        "LongName": "ANXIOLYTIC_ABUSE_CURR (question ID 174916)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "CANNABIS_ABUSE_PAST": {
+        "LongName": "CANNABIS_ABUSE_PAST (question ID 175096)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "CANNABIS_ABUSE_CURR": {
+        "LongName": "CANNABIS_ABUSE_CURR (question ID 175097)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_STIMULANTS_ABUSE_PAST": {
+        "LongName": "SCID_STIMULANTS_ABUSE_PAST (question ID 178157)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_STIMULANTS_ABUSE_CURR": {
+        "LongName": "SCID_STIMULANTS_ABUSE_CURR (question ID 178159)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OPIOID_ABUSE_PAST": {
+        "LongName": "OPIOID_ABUSE_PAST (question ID 174927)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OPIOID_ABUSE_CURR": {
+        "LongName": "OPIOID_ABUSE_CURR (question ID 174934)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PHENCYCLIDINE_ABUSE_PAST": {
+        "LongName": "PHENCYCLIDINE_ABUSE_PAST (question ID 174978)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PHENCYCLIDINE_ABUSE_CURR": {
+        "LongName": "PHENCYCLIDINE_ABUSE_CURR (question ID 174979)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "HALLUCINOGEN_ABUSE_PAST": {
+        "LongName": "HALLUCINOGEN_ABUSE_PAST (question ID 174950)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "HALLUCINOGEN_ABUSE_CURR": {
+        "LongName": "HALLUCINOGEN_ABUSE_CURR (question ID 174951)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "INHALANTS_PAST": {
+        "LongName": "INHALANTS_PAST (question ID 216272)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "INHALANTS_CURR": {
+        "LongName": "INHALANTS_CURR (question ID 216273)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SUBSTANCE_OTHER_ABUSE_PAST": {
+        "LongName": "SUBSTANCE_OTHER_ABUSE_PAST (question ID 175296)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SUBSTANCE_OTHER_ABUSE_CURR": {
+        "LongName": "SUBSTANCE_OTHER_ABUSE_CURR (question ID 175297)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PANIC_WITHOUT_AGORAPHOBIA_PAST": {
+        "LongName": "PANIC_WITHOUT_AGORAPHOBIA_PAST (question ID 175325)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PANIC_WITHOUT_AGORAPHOBIA_CURR": {
+        "LongName": "PANIC_WITHOUT_AGORAPHOBIA_CURR (question ID 175326)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PANIC_WITH_AGORAPHOBIA_PAST": {
+        "LongName": "PANIC_WITH_AGORAPHOBIA_PAST (question ID 175323)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "PANIC_WITH_AGORAPHOBIA_CURR": {
+        "LongName": "PANIC_WITH_AGORAPHOBIA_CURR (question ID 175324)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SOCIAL_ANXIETY_PAST": {
+        "LongName": "SOCIAL_ANXIETY_PAST (question ID 216327)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SOCIAL_ANXIETY_CURR": {
+        "LongName": "SOCIAL_ANXIETY_CURR (question ID 216328)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SPECIFIC_PHOBIA_PAST": {
+        "LongName": "SPECIFIC_PHOBIA_PAST (question ID 175332)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SPECIFIC_PHOBIA_CURR": {
+        "LongName": "SPECIFIC_PHOBIA_CURR (question ID 175333)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "GENERAL_ANXIETY_DISORDER_PAST": {
+        "LongName": "GENERAL_ANXIETY_DISORDER_PAST (question ID 175335)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "GENERAL_ANXIETY_DISORDER_CURR": {
+        "LongName": "GENERAL_ANXIETY_DISORDER_CURR (question ID 175336)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ANXIETY_DISORDER_NOS_PAST": {
+        "LongName": "ANXIETY_DISORDER_NOS_PAST (question ID 175376)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ANXIETY_DISORDER_NOS_CURR": {
+        "LongName": "ANXIETY_DISORDER_NOS_CURR (question ID 175377)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ANXIETY_GENERAL_MED_CONDN_PAST": {
+        "LongName": "ANXIETY_GENERAL_MED_CONDN_PAST (question ID 175337)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ANXIETY_GENERAL_MED_CONDN_CURR": {
+        "LongName": "ANXIETY_GENERAL_MED_CONDN_CURR (question ID 175338)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_SUBSTANCE_INDUCED_ANXIETY_PAST": {
+        "LongName": "SCID_SUBSTANCE_INDUCED_ANXIETY_PAST (question ID 178180)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_SUBSTANCE_INDUCED_ANXIETY_CURR": {
+        "LongName": "SCID_SUBSTANCE_INDUCED_ANXIETY_CURR (question ID 178181)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_OCD_PAST": {
+        "LongName": "SCID_OCD_PAST (question ID 50111)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_OCD_CURR": {
+        "LongName": "SCID_OCD_CURR (question ID 50110)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_OCD_PAST": {
+        "LongName": "OTHER_OCD_PAST (question ID 216254)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_OCD_CURR": {
+        "LongName": "OTHER_OCD_CURR (question ID 216255)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OCD_MED_COND_PAST": {
+        "LongName": "OCD_MED_COND_PAST (question ID 216263)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OCD_MED_COND_CURR": {
+        "LongName": "OCD_MED_COND_CURR (question ID 216264)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SUB_MED_INDUCED_OCD_PAST": {
+        "LongName": "SUB_MED_INDUCED_OCD_PAST (question ID 216265)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SUB_MED_INDUCED_OCD_CURR": {
+        "LongName": "SUB_MED_INDUCED_OCD_CURR (question ID 216266)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_FEED_EAT_DISORDER_PAST": {
+        "LongName": "OTHER_FEED_EAT_DISORDER_PAST (question ID 216246)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_FEED_EAT_DISORDER_CURR": {
+        "LongName": "OTHER_FEED_EAT_DISORDER_CURR (question ID 216247)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BINGE_EAT_DISORDER_PAST": {
+        "LongName": "BINGE_EAT_DISORDER_PAST (question ID 216248)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BINGE_EAT_DISORDER_CURR": {
+        "LongName": "BINGE_EAT_DISORDER_CURR (question ID 216249)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BULIMIA_NERVOSA_PAST": {
+        "LongName": "BULIMIA_NERVOSA_PAST (question ID 216250)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "BULIMIA_NERVOSA_CURR": {
+        "LongName": "BULIMIA_NERVOSA_CURR (question ID 216251)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ANOREXIA_NERVOSA_PAST": {
+        "LongName": "ANOREXIA_NERVOSA_PAST (question ID 216252)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ANOREXIA_NERVOSA_CURR": {
+        "LongName": "ANOREXIA_NERVOSA_CURR (question ID 216253)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ADULT_ADHD_PAST": {
+        "LongName": "ADULT_ADHD_PAST (question ID 216244)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ADULT_ADHD_CURR": {
+        "LongName": "ADULT_ADHD_CURR (question ID 216245)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ACUTE_STRESS_DISORDER_CURRENT": {
+        "LongName": "ACUTE_STRESS_DISORDER_CURRENT (question ID 216413)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_PTSD_PAST": {
+        "LongName": "SCID_PTSD_PAST (question ID 50121)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "SCID_PTSD_CURR": {
+        "LongName": "SCID_PTSD_CURR (question ID 50120)",
+        "Description": "Current\u00a0",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "ADJUSTMENT_DISORDER_CURR": {
+        "LongName": "ADJUSTMENT_DISORDER_CURR (question ID 216242)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_SPECIFIC_TRAUM_STRESS_PAST": {
+        "LongName": "OTHER_SPECIFIC_TRAUM_STRESS_PAST (question ID 216240)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_SPECIFIC_TRAUM_STRESS_CURR": {
+        "LongName": "OTHER_SPECIFIC_TRAUM_STRESS_CURR (question ID 216241)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_DSM_DISORDER_PAST": {
+        "LongName": "OTHER_DSM_DISORDER_PAST (question ID 216237)",
+        "Description": "Past",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_DSM_DISORDER_CURR": {
+        "LongName": "OTHER_DSM_DISORDER_CURR (question ID 216238)",
+        "Description": "Current",
+        "Levels": {
+            "0": "No",
+            "1": "Sub",
+            "2": "Yes",
+            "3": "N/A"
+        }
+    },
+    "OTHER_DSM_DISORDER_SPFY": {
+        "LongName": "OTHER_DSM_DISORDER_SPFY (question ID 216239)",
+        "Description": "Specify Other DSM-5 Disorder"
+    },
+    "SCID_DX_PRINCIPAL": {
+        "LongName": "SCID_DX_PRINCIPAL (question ID 194500)",
+        "Description": "Principal Diagnosis"
+    },
+    "SCID_SOFAS": {
+        "LongName": "SCID_SOFAS (question ID 194503)",
+        "Description": "Social and Occupational Functioning Assessment Scale (SOFAS)"
+    },
+    "SCID_COMMENTS": {
+        "LongName": "SCID_COMMENTS (question ID 178185)",
+        "Description": "Comments:"
+    }
+}
