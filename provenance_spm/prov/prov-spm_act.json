@@ -1,0 +1,118 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#movefile-26803be5",
+      "Label": "Move file",
+      "Used": [
+        "bids:ds000011:sub-01/func/sub-01_task-tonecounting_bold.nii.gz"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.files = {'data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz'};\nmatlabbatch{1}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'sub-01/func'};",
+      "StartedAtTime": "2025-05-28T14:48:00",
+      "EndedAtTime": "2025-05-28T14:48:01"
+    },
+    {
+      "Id": "bids::prov#movefile-bac3f385",
+      "Label": "Move file",
+      "Used": [
+        "bids:ds000011:sub-01/anat/sub-01_T1w.nii.gz"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.files = {'data/sub-01/anat/sub-01_T1w.nii.gz'};\nmatlabbatch{2}.cfg_basicio.file_dir.file_ops.file_move.action.copyto = {'sub-01/anat'};",
+      "StartedAtTime": "2025-05-28T14:48:00",
+      "EndedAtTime": "2025-05-28T14:48:01"
+    },
+    {
+      "Id": "bids::prov#gunzip-ca36a952",
+      "Label": "Gunzip",
+      "Used": [
+        "urn:20953875-19dd-409d-adf1-5ff4404f8ae7"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));\nmatlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.outdir = {''};\nmatlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.keep = false;",
+      "StartedAtTime": "2025-05-28T14:48:01",
+      "EndedAtTime": "2025-05-28T14:48:02"
+    },
+    {
+      "Id": "bids::prov#gunzip-e9264918",
+      "Label": "Gunzip",
+      "Used": [
+        "urn:9dff6df8-56be-4d25-a127-b31b20890943"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));\nmatlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.outdir = {''};\nmatlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.keep = false;",
+      "StartedAtTime": "2025-05-28T14:48:01",
+      "EndedAtTime": "2025-05-28T14:48:02"
+    },
+    {
+      "Id": "bids::prov#realign-acea8093",
+      "Label": "Realign",
+      "Used": [
+        "urn:ee913e65-93fb-474a-8322-487a9894bd82"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{5}.spm.spatial.realign.estwrite.data{1}(1) = cfg_dep('Gunzip Files: Gunzipped Files', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.quality = 0.9;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.sep = 4;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.fwhm = 5;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.rtm = 1;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.interp = 2;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.wrap = [0 0 0];\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.weight = '';\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.which = [2 1];\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.interp = 4;\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.wrap = [0 0 0];\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.mask = 1;\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.prefix = 'r';",
+      "StartedAtTime": "2025-05-28T14:48:03",
+      "EndedAtTime": "2025-05-28T14:48:12"
+    },
+    {
+      "Id": "bids::prov#coregister-6d38be4a",
+      "Label": "Coregister",
+      "Used": [
+        "bids::sub-01/func/meansub-01_task-tonecounting_bold.nii",
+        "urn:00f98a97-fbfd-49a6-8318-97a89211b9cf"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{6}.spm.spatial.coreg.estimate.ref(1) = cfg_dep('Realign: Estimate & Reslice: Mean Image', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','rmean'));\nmatlabbatch{6}.spm.spatial.coreg.estimate.source(1) = cfg_dep('Gunzip Files: Gunzipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));\nmatlabbatch{6}.spm.spatial.coreg.estimate.other = {''};\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.cost_fun = 'nmi';\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.sep = [4 2];\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.tol = [0.02 0.02 0.02 0.001 0.001 0.001 0.01 0.01 0.01 0.001 0.001 0.001];\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.fwhm = [7 7];",
+      "StartedAtTime": "2025-05-28T14:48:12",
+      "EndedAtTime": "2025-05-28T14:48:17"
+    },
+    {
+      "Id": "bids::prov#segment-7d5d4ac5",
+      "Label": "Segment",
+      "Used": [
+        "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
+        "bids::sub-01/anat/sub-01_T1w.nii"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{7}.spm.spatial.preproc.channel.vols(1) = cfg_dep('Gunzip Files: Gunzipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));\nmatlabbatch{7}.spm.spatial.preproc.channel.biasreg = 0.001;\nmatlabbatch{7}.spm.spatial.preproc.channel.biasfwhm = 60;\nmatlabbatch{7}.spm.spatial.preproc.channel.write = [0 1];\nmatlabbatch{7}.spm.spatial.preproc.tissue(1).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,1'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(1).ngaus = 1;\nmatlabbatch{7}.spm.spatial.preproc.tissue(1).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(1).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(2).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,2'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(2).ngaus = 1;\nmatlabbatch{7}.spm.spatial.preproc.tissue(2).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(2).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(3).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,3'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(3).ngaus = 2;\nmatlabbatch{7}.spm.spatial.preproc.tissue(3).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(3).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(4).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,4'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(4).ngaus = 3;\nmatlabbatch{7}.spm.spatial.preproc.tissue(4).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(4).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(5).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,5'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(5).ngaus = 4;\nmatlabbatch{7}.spm.spatial.preproc.tissue(5).native = [1 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(5).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(6).tpm = {'/opt/spm12-r7219/spm12_mcr/spm12/tpm/TPM.nii,6'};\nmatlabbatch{7}.spm.spatial.preproc.tissue(6).ngaus = 2;\nmatlabbatch{7}.spm.spatial.preproc.tissue(6).native = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.tissue(6).warped = [0 0];\nmatlabbatch{7}.spm.spatial.preproc.warp.mrf = 1;\nmatlabbatch{7}.spm.spatial.preproc.warp.cleanup = 1;\nmatlabbatch{7}.spm.spatial.preproc.warp.reg = [0 0.001 0.5 0.05 0.2];\nmatlabbatch{7}.spm.spatial.preproc.warp.affreg = 'mni';\nmatlabbatch{7}.spm.spatial.preproc.warp.fwhm = 0;\nmatlabbatch{7}.spm.spatial.preproc.warp.samp = 3;\nmatlabbatch{7}.spm.spatial.preproc.warp.write = [0 1];\nmatlabbatch{7}.spm.spatial.preproc.warp.vox = NaN;\nmatlabbatch{7}.spm.spatial.preproc.warp.bb = [NaN NaN NaN NaN NaN NaN];",
+      "StartedAtTime": "2025-05-28T14:48:17",
+      "EndedAtTime": "2025-05-28T14:50:10"
+    },
+    {
+      "Id": "bids::prov#normalize-58f60575",
+      "Label": "Normalize",
+      "Used": [
+        "bids::sub-01/anat/y_sub-01_T1w.nii",
+        "bids::sub-01/func/rsub-01_task-tonecounting_bold.nii"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{8}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{8}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Realign: Estimate & Reslice: Resliced Images (Sess 1)', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','sess', '()',{1}, '.','rfiles'));\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{8}.spm.spatial.normalise.write.woptions.prefix = 'w';",
+      "StartedAtTime": "2025-05-28T14:50:10",
+      "EndedAtTime": "2025-05-28T14:50:11"
+    },
+    {
+      "Id": "bids::prov#normalize-7a89965b",
+      "Label": "Normalize",
+      "Used": [
+        "bids::sub-01/anat/y_sub-01_T1w.nii",
+        "bids::sub-01/anat/msub-01_T1w.nii"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{9}.spm.spatial.normalise.write.subj.def(1) = cfg_dep('Segment: Forward Deformations', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','fordef', '()',{':'}));\nmatlabbatch{9}.spm.spatial.normalise.write.subj.resample(1) = cfg_dep('Segment: Bias Corrected (1)', substruct('.','val', '{}',{7}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','channel', '()',{1}, '.','biascorr', '()',{':'}));\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.bb = [-78 -112 -70 78 76 85];\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.vox = [2 2 2];\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.interp = 4;\nmatlabbatch{9}.spm.spatial.normalise.write.woptions.prefix = 'w';",
+      "StartedAtTime": "2025-05-28T14:50:10",
+      "EndedAtTime": "2025-05-28T14:50:11"
+    },
+    {
+      "Id": "bids::prov#smooth-36370afe",
+      "Label": "Smooth",
+      "Used": [
+        "bids::sub-01/func/wrsub-01_task-tonecounting_bold.nii"
+      ],
+      "AssociatedWith": "bids::prov#spm-fa0baf93",
+      "Command": "matlabbatch{10}.spm.spatial.smooth.data(1) = cfg_dep('Normalise: Write: Normalised Images (Subj 1)', substruct('.','val', '{}',{8}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{1}, '.','files'));\nmatlabbatch{10}.spm.spatial.smooth.fwhm = [6 6 6];\nmatlabbatch{10}.spm.spatial.smooth.dtype = 0;\nmatlabbatch{10}.spm.spatial.smooth.im = 0;\nmatlabbatch{10}.spm.spatial.smooth.prefix = 's';",
+      "StartedAtTime": "2025-05-28T14:50:11",
+      "EndedAtTime": "2025-05-28T14:50:12"
+    }
+  ]
+}
