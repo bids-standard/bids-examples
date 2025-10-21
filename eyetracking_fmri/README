@@ -1,0 +1,21 @@
+Eye-tracking example for BEP020 from OpenNeuro's ds004158 REST_EYE
+
+Sourcedata by : Martin Szinte, Anna Montagnini & Guillaume Masson<br/>
+Sourcedata: https://openneuro.org/datasets/ds004158 
+
+Curated-by: Julia-Katharina Pfarr, Oscar Esteban
+
+## Methods (BIDS Conversion)
+
+Sourcedata was converted to raw data according to the BIDS Physio-EyeTracking specification using the [eye2bids](https://github.com/bids-standard/eye2bids) converter tool. 
+
+Please refer to the source dataset to learn more about the original
+experiment, or to access the full dataset.
+
+## Experiment description
+
+Participants where told to let their mind wonder while keeping fixation to a fixation dot at the screen 
+center.<br/>
+Participants where told to let their mind wonder while keeping fixation to a fixation dot at the screen 
+These data are here use to provide an example of BIDS eyetracking data together with fMRI.<br/>
+
