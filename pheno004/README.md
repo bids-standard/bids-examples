@@ -1,4 +1,4 @@
-# BEP036 example dataset 04: One imaging-only, one phenotypic-only, and one with both imaging and phenotypic data
+# Pheno004 example dataset: One imaging-only, one phenotypic-only, and one with both imaging and phenotypic data
 
 This dataset contains imaging data and phenotypic data from one subject, only imaging data for another subject, and only phenotypic data for a third subject. Phenotype and imaging data were collected at the same session. The file tree is as follows:
 
