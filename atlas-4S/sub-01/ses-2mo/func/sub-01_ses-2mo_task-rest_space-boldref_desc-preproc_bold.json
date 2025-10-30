@@ -1,0 +1,10 @@
+{
+    "EchoTime": 0.03,
+    "RepetitionTime": 2,
+    "SkullStripped": false,
+    "SliceTimingCorrected": true,
+    "Sources": [
+        "bids:raw:sub-01/ses-2mo/func/sub-01_ses-2mo_task-rest_bold.nii.gz"
+    ],
+    "TaskName": "rest eyes open"
+}

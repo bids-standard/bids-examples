@@ -1,0 +1,11 @@
+{
+    "EchoTime": 0.03,
+    "RepetitionTime": 2,
+    "SkullStripped": false,
+    "SliceTimingCorrected": true,
+    "Sources": [
+        "bids::sub-01/ses-2mo/func/sub-01_ses-2mo_task-rest_space-boldref_desc-preproc_bold.nii.gz"
+    ],
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNIInfant_cohort-1_res-1_T1w.nii.gz",
+    "TaskName": "rest eyes open"
+}

@@ -1,0 +1,24 @@
+{
+    "Manual": "false",
+    "Sources": [
+        "bids::tpl-MNIInfant/cohort-1/anat/tpl-MNIInfant_cohort-1_atlas-4S_scale-256_res-01_dseg.nii.gz",
+        "bids::sub-01/ses-2mo/anat/sub-01_ses-2mo_space-MNIInfant+1_desc-preproc_T1w.nii.gz"
+    ],
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNIInfant_cohort-1_res-1_T1w.nii.gz",
+    "index_17network": {
+        "Description": "The corresponding integer value of this node in the 17-network Schaefer atlas imaging file.",
+        "LongName": "Node index from Schaefer 17-network atlas"
+    },
+    "name_17network": {
+        "Description": "The label of the node as it appears in the canonical Schaefer 17-network atlas.",
+        "LongName": "Node label from Schaefer 17-network atlas"
+    },
+    "name_7network": {
+        "Description": "The label of the node as it appears in the canonical Schaefer 7-network atlas.",
+        "LongName": "Node label from Schaefer 7-network atlas"
+    },
+    "network_label_17network": {
+        "Description": "The name of the network this node is assigned to in the Schaefer 17-network atlas.",
+        "LongName": "Network label from Schaefer 17-network atlas"
+    }
+}
