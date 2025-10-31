@@ -31,6 +31,6 @@
     ],
     "Species": "Human",
     "DerivedFrom": "MNI single-subject T1-weighted high-resolution volume (Collins brain)",
-    "SampleSize": "1",
-    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNIColin27_res-01_T1w.nii.gz"
+    "SampleSize": 1,
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNIColin27_res-1_T1w.nii.gz"
 }

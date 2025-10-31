@@ -1,13 +1,17 @@
 {
     "Authors": [
-        "N. Tzourio-Mazoyer",
-        "B. Landeau",
-        "D. Papathanassiou",
-        "F. Crivello",
-        "O. Etard",
-        "N. Delcroix",
-        "B. Mazoyer",
-        "M. Joliot"
+        "Edmund T. Rolls",
+        "Chu-Chung Huang",
+        "Ching-Po Lin",
+        "Jianfeng Feng",
+        "Marc Joliot",
+        "Nathalie Tzourio-Mazoyer",
+        "Bernard Landeau",
+        "Dimitri Papathanassiou",
+        "Fabrice Crivello",
+        "Olivier Etard",
+        "Nicolas Delcroix",
+        "Bernard Mazoyer"
     ],
     "BIDSVersion": "1.11.0",
     "DatasetType": "derivative",
@@ -22,11 +26,14 @@
             "CodeURL": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_aal.html"
         }
     ],
-    "License": "CC BY-SA 4.0",
-    "Name": "Automated Anatomical Labeling Atlas",
+    "License": "GNU General Public License",
+    "Name": "Automated Anatomical Labeling Atlas 3 - SPM12, version 3v2",
     "SourceDatasets": [
         {
-            "URL": "https://www.gin.cnrs.fr/en/tools/aal/"
+            "URL": "http://www.gin.cnrs.fr/en/tools/aal/"
+        },
+        {
+            "URL": "https://www.oxcns.org/aal3.html"
         }
     ]
 }
