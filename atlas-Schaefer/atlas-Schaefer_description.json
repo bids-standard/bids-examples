@@ -1,0 +1,40 @@
+{
+    "Name": "Schaefer 2018 Atlas",
+    "Description": "Resting state fMRI data from 1489 subjects were registered using surface-based alignment. A gradient weighted markov random field approach was employed to identify cortical parcels ranging from 100 to 1000 parcels. More details can be found in Schaefer et al. 2018.",
+    "BIDSVersion": "1.11.0",
+    "Authors": [
+        "Alexander Schaefer",
+        "Ru Kong",
+        "Evan M. Gordon",
+        "Timothy O. Laumann",
+        "Xi-Nian Zuo",
+        "Avram J. Holmes",
+        "Simon B. Eickhoff",
+        "B. T. Thomas Yeo"
+    ],
+    "Curators": [
+        "Alexander Schaefer",
+        "Ru Kong",
+        "Evan M. Gordon",
+        "Timothy O. Laumann",
+        "Xi-Nian Zuo",
+        "Avram J. Holmes",
+        "Simon B. Eickhoff",
+        "B. T. Thomas Yeo"
+    ],
+    "HowToAcknowledge": "Please cite: Schaefer A, Kong R, Gordon EM, Laumann TO, Zuo XN, Holmes AJ, Eickhoff SB, Yeo BTT. Local-Global parcellation of the human cerebral cortex from intrinsic functional connectivity MRI, Cerebral Cortex, 29:3095-3114, 2018",
+    "SourceDatasetsURLs": [
+        "https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal"
+    ],
+    "License": "MIT",
+    "Funding": "NIH grants and institutional support from National University of Singapore, Washington University, and collaborating institutions (detailed grant numbers available in original publication)",
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1093/cercor/bhx179",
+        "Schaefer A, Kong R, Gordon EM, Laumann TO, Zuo XN, Holmes AJ, Eickhoff SB, Yeo BTT. Local-Global parcellation of the human cerebral cortex from intrinsic functional connectivity MRI, Cerebral Cortex, 29:3095-3114, 2018",
+        "Yeo BT, Krienen FM, Sepulcre J, Sabuncu MR, Lashkari D, Hollinshead M, Roffman JL, Smoller JW, Zollei L, Polimeni JR, Fischl B, Liu H, Buckner RL. The organization of the human cerebral cortex estimated by intrinsic functional connectivity. J Neurophysiol 106(3):1125-65, 2011"
+    ],
+    "Species": "Human",
+    "DerivedFrom": "Genomics Superstruct Project (GSP) resting-state fMRI data (N=1489 young adults, ages 18-35). Validated using Human Connectome Project (HCP, N=820) and Nathan Kline Institute Rockland Sample (NKI, N=205, ages 6-85)",
+    "SampleSize": "1489 participants (primary dataset from GSP)",
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-02_T1w.nii.gz"
+}

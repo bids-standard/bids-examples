@@ -1,0 +1,25 @@
+{
+    "Name": "Harvard-Oxford parcellations from FSL - deterministic version",
+    "Description": "Probabilistic atlases covering 48 cortical and 21 subcortical structural areas, derived from structural data and segmentations provided by the Harvard Center for Morphometric Analysis. The deterministic version uses maximum probability labels at each voxel. T1-weighted images were individually segmented using semi-automated tools and affine-registered to MNI152 space using FLIRT (FSL).",
+    "BIDSVersion": "1.11.0",
+    "Curators": [
+        "Harvard Center for Morphometric Analysis",
+        "FMRIB Centre, University of Oxford"
+    ],
+    "HowToAcknowledge": "Please cite: Makris et al. (2006) Schizophr Res 83(2-3):155-71; Desikan et al. (2006) NeuroImage 31(3):968-80; Frazier et al. (2005) Am J Psychiatry 162(7):1256-65; Goldstein et al. (2007) Cereb Cortex 17(6):1394-1413. Structural data kindly provided by the Harvard Center for Morphometric Analysis.",
+    "SourceDatasetsURLs": [
+        "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets"
+    ],
+    "License": "FSL License - Non-commercial use only. Commercial use requires permission from University of Oxford. Contact: steve@fmrib.ox.ac.uk for Harvard-Oxford atlas inquiries.",
+    "Funding": "Harvard Center for Morphometric Analysis",
+    "ReferencesAndLinks": [
+        "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets",
+        "https://doi.org/10.1016/j.schres.2006.01.008",
+        "https://doi.org/10.1016/j.neuroimage.2006.01.021",
+        "https://doi.org/10.1176/appi.ajp.162.7.1256",
+        "https://doi.org/10.1093/cercor/bhl051"
+    ],
+    "Species": "Human",
+    "DerivedFrom": "T1-weighted structural MRI scans from 37 subjects (21 male, 16 female, ages 18-50) manually segmented by Harvard Center for Morphometric Analysis",
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-02_T1w.nii.gz"
+}

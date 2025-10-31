@@ -1,0 +1,32 @@
+{
+    "Authors": [
+        "N. Tzourio-Mazoyer",
+        "B. Landeau",
+        "D. Papathanassiou",
+        "F. Crivello",
+        "O. Etard",
+        "N. Delcroix",
+        "B. Mazoyer",
+        "M. Joliot"
+    ],
+    "BIDSVersion": "1.11.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "bids-atlas",
+            "Version": "0.3.1",
+            "CodeURL": "https://github.com/PeerHerholz/bids_atlas"
+        },
+        {
+            "Name": "nilearn",
+            "CodeURL": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_aal.html"
+        }
+    ],
+    "License": "CC BY-SA 4.0",
+    "Name": "Automated Anatomical Labeling Atlas",
+    "SourceDatasets": [
+        {
+            "URL": "https://www.gin.cnrs.fr/en/tools/aal/"
+        }
+    ]
+}
