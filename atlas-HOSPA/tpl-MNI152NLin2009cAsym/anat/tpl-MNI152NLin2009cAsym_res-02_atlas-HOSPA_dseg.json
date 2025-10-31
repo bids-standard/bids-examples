@@ -1,6 +1,6 @@
 {
     "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz",
-    "Manual": "true",
+    "Manual": true,
     "CoordinateReportStrategy": "center_of_mass",
     "Resolution": "2.0 x 2.0 x 2.0 mm",
     "xyz": {

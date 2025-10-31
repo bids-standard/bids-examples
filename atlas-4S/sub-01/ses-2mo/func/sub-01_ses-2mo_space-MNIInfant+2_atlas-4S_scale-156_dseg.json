@@ -1,10 +1,22 @@
 {
-    "Manual": "false",
+    "Description": "The 4S atlas with 156 regions, warped to the MNI Infant cohort 2 template space, at the resolution of the subject's bold reference image.",
+    "Manual": false,
     "Sources": [
         "bids::tpl-MNIInfant/cohort-2/anat/tpl-MNIInfant_cohort-2_atlas-4S_scale-156_res-01_dseg.nii.gz",
         "bids::sub-01/ses-2mo/func/sub-01_ses-2mo_task-rest_space-MNIInfant+2_desc-preproc_bold.nii.gz"
     ],
     "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNIInfant_cohort-2_res-01_T1w.nii.gz",
+    "atlas_name": {
+        "Description": "The name of the source atlas for this node.",
+        "LongName": "Atlas name",
+        "Levels": {
+            "Schaefer100": "The Schaefer 100-node atlas.",
+            "CIT168Subcortical": "The CIT168 subcortical atlas.",
+            "ThalamusHCP": "The HCP thalamic atlas.",
+            "SubcorticalHCP": "The HCP subcortical atlas.",
+            "Cerebellum": "The Diedrichsen cerebellum atlas."
+        }
+    },
     "index_17network": {
         "Description": "The corresponding integer value of this node in the 17-network Schaefer atlas imaging file.",
         "LongName": "Node index from Schaefer 17-network atlas"
@@ -16,6 +28,10 @@
     "name_7network": {
         "Description": "The label of the node as it appears in the canonical Schaefer 7-network atlas.",
         "LongName": "Node label from Schaefer 7-network atlas"
+    },
+    "network_label": {
+        "Description": "The name of the network this node is assigned to in the Schaefer 7-network atlas.",
+        "LongName": "Network label from Schaefer 7-network atlas"
     },
     "network_label_17network": {
         "Description": "The name of the network this node is assigned to in the Schaefer 17-network atlas.",

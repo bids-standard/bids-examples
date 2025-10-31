@@ -11,14 +11,18 @@
         "E. Feczko",
         "T.D. Satterthwaite"
     ],
+    "DerivedFrom": "resting-state, task, diffusion-weighted imaging, structural imaging",
     "Description": "A set of non-cortical atlases and the Schaefer cortical atlas, that have been merged together in template space.",
+    "Funding": [
+        "n/a"
+    ],
     "LevelType": "atlas",
     "License": "CC BY-ND",
     "Name": "4S: Schaefer Supplemented with Subcortical Structures",
     "ReferencesAndLinks": [
         "https://github.com/PennLINC/AtlasPack"
     ],
-    "SampleSize": "n/a",
+    "SampleSize": 0,
     "SourceAtlases": {
         "CIT168Subcortical": {
             "Authors": [

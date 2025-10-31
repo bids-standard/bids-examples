@@ -1,7 +1,18 @@
 {
-    "Manual": "false",
+    "Manual": false,
     "Resolution": "1.0 x 1.0 x 1.0 mm",
     "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNIInfant_cohort-1_res-1_T1w.nii.gz",
+    "atlas_name": {
+        "Description": "The name of the source atlas for this node.",
+        "LongName": "Atlas name",
+        "Levels": {
+            "Schaefer100": "The Schaefer 100-node atlas.",
+            "CIT168Subcortical": "The CIT168 subcortical atlas.",
+            "ThalamusHCP": "The HCP thalamic atlas.",
+            "SubcorticalHCP": "The HCP subcortical atlas.",
+            "Cerebellum": "The Diedrichsen cerebellum atlas."
+        }
+    },
     "index_17network": {
         "Description": "The corresponding integer value of this node in the 17-network Schaefer atlas imaging file.",
         "LongName": "Node index from Schaefer 17-network atlas"
@@ -13,6 +24,10 @@
     "name_7network": {
         "Description": "The label of the node as it appears in the canonical Schaefer 7-network atlas.",
         "LongName": "Node label from Schaefer 7-network atlas"
+    },
+    "network_label": {
+        "Description": "The name of the network this node is assigned to in the Schaefer 7-network atlas.",
+        "LongName": "Network label from Schaefer 7-network atlas"
     },
     "network_label_17network": {
         "Description": "The name of the network this node is assigned to in the Schaefer 17-network atlas.",

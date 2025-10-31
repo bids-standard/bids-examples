@@ -1,5 +1,35 @@
 {
-    "BIDSVersion": "1.11.0",
+    "Authors": [
+        "M. Cieslak",
+        "T. Salo",
+        "E. Feczko",
+        "T.D. Satterthwaite"
+    ],
+    "BIDSVersion": "1.10.1",
     "DatasetType": "derivative",
-    "Name": "4S: Schaefer Supplemented with Subcortical Structures"
+    "GeneratedBy": [
+        {
+            "Name": "AtlasPack",
+            "CodeURL": "https://github.com/PennLINC/AtlasPack"
+        }
+    ],
+    "License": "CC BY-ND",
+    "Name": "4S: Schaefer Supplemented with Subcortical Structures",
+    "SourceDatasets": [
+        {
+            "URL": "https://github.com/jmtyszka/CIT168-SubCorticalAtlas"
+        },
+        {
+            "URL": "https://github.com/DiedrichsenLab/cerebellar_atlases"
+        },
+        {
+            "URL": "https://github.com/Washington-University/HCPpipelines/blob/21c0867c7f3a59554b9e28f5fe5cddd41e159170/global/templates/170494_Greyordinates/Atlas_ROIs.1.60.nii.gz"
+        },
+        {
+            "URL": "https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal"
+        },
+        {
+            "URL": "https://zenodo.org/record/1405484/files/Thalamus_Nuclei-HCP-MaxProb.nii.gz"
+        }
+    ]
 }
