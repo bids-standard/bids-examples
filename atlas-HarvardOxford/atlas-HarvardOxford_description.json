@@ -11,7 +11,9 @@
         "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets"
     ],
     "License": "FSL License - Non-commercial use only. Commercial use requires permission from University of Oxford. Contact: steve@fmrib.ox.ac.uk for Harvard-Oxford atlas inquiries.",
-    "Funding": "Harvard Center for Morphometric Analysis",
+    "Funding": [
+        "Harvard Center for Morphometric Analysis"
+    ],
     "ReferencesAndLinks": [
         "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets",
         "https://doi.org/10.1016/j.schres.2006.01.008",

@@ -18,7 +18,11 @@
         "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets"
     ],
     "License": "FSL License - Non-commercial use only. Commercial use requires permission from Forschungszentrum J\u00fclich GmbH. Contact: S.Eickhoff@fz-juelich.de",
-    "Funding": "Helmholtz Association Portfolio Theme 'Supercomputing and Modeling for the Human Brain', European Union Seventh Framework Programme (FP7/2007-2013, Human Brain Project), European Union's Horizon 2020 Research and Innovation Programme (grant agreements 604102, 785907, 945539)",
+    "Funding": [
+        "Helmholtz Association Portfolio Theme 'Supercomputing and Modeling for the Human Brain'",
+        "European Union Seventh Framework Programme (FP7/2007-2013, Human Brain Project)",
+        "European Union's Horizon 2020 Research and Innovation Programme (grant agreements 604102, 785907, 945539)"
+    ],
     "ReferencesAndLinks": [
         "https://doi.org/10.1016/j.neuroimage.2004.12.034",
         "https://doi.org/10.1126/science.abb4588",

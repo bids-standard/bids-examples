@@ -1,257 +1,257 @@
-index	name	hemisphere	yeo_networks7	yeo_networks17	gm	wm	csf
-1	Middle frontal gyrus anterior LH	n/a	SalVentAttnA	SalVentAttnB	0.586695983486764	0.368756961303868	0.043084972984381
-2	Middle frontal gyrus anterior RH	n/a	ContA	SalVentAttnB	0.669211638091079	0.254778712999749	0.06971050882056
-3	Cerebrospinal fluid (between superior parietal lobule and skull)	n/a	DorsAttnB	DorsAttnB	0.362251970608158	0.062204248082339	0.148603287738793
-4	Inferior frontal sulcus posterior RH	n/a	ContA	ContA	0.629230791189012	0.290432238090537	0.070572678551846
-5	Superior longitudinal fasciculus II middle	n/a	No network found	No network found	0.227904058238554	0.688151064336859	0.083951217965771
-6	Cuneus anterior	n/a	VisCent	VisPeri	0.560710360527329	0.362666624247051	0.076636879352143
-7	Lateral ventricles anterior horns	n/a	No network found	No network found	0.176022732212294	0.441793813103266	0.382178761715735
-8	Lateral occipital cortex LH	n/a	VisCent	VisCent	0.478562545681529	0.479800407148161	0.041461559084432
-9	Retrocalcarine cortex	n/a	VisCent	VisCent	0.588652584971199	0.241950343156201	0.128262543787152
-10	Collateral sulcus anterior	n/a	LimbicA	LimbicA	0.361100893940286	0.613706828413284	0.025036355540568
-11	Cerebrospinal fluid (between intraparietal sulcus and skull)	n/a	DorsAttnB	DorsAttnA	0.404411975591982	0.049937080833487	0.192959236412745
-12	Superior frontal gyrus anterior	n/a	DefaultB	DefaultB	0.625039503267192	0.311663276918441	0.058102199068735
-13	Cingulate cortex mid-anterior	n/a	SalVentAttnA	SalVentAttnA	0.766173768507757	0.051065778410752	0.182758158397844
-14	Cingulate cortex mid-posterior	n/a	SalVentAttnA	ContC	0.767428009095346	0.050424227712159	0.182165513285554
-15	Posterior cingulate cortex posterior	n/a	DefaultB	DefaultA	0.732390281923068	0.164972894085726	0.102639824481629
-16	Pars opercularis pars triangularis LH	n/a	DefaultB	DefaultB	0.661844210287319	0.182545180805273	0.110937891685381
-17	Medial frontal cortex posterior	n/a	SalVentAttnA	SalVentAttnA	0.66588811854228	0.091999471359919	0.241631159799894
-18	Cerebrospinal fluid (between precuneus and skull)	n/a	DorsAttnB	DorsAttnA	0.547714491515286	0.07645816114371	0.194467315211736
-19	Dorsal visual stream superior	n/a	DorsAttnB	DorsAttnB	0.211692752037163	0.776995009838408	0.01131454028821
-20	Frontal operculum LH	n/a	SalVentAttnA	SalVentAttnA	0.768348585282896	0.104441964013001	0.119608871414397
-21	Amygdala	n/a	No network found	No network found	0.899192524042909	0.034347317533481	0.066322079350958
-22	Supramarginal gyrus LH	n/a	SalVentAttnA	SalVentAttnB	0.632681973753604	0.184674182473862	0.101556174931432
-23	Postcentral gyrus LH	n/a	SomMotA	SomMotA	0.422909446900552	0.495237525267072	0.078541005950324
-24	Parieto-occipital sulcus middle	n/a	ContA	ContC	0.627128126634064	0.260946272926274	0.111855210166825
-25	Occipital pole inferior	n/a	VisCent	VisCent	0.582794072304041	0.350574534648094	0.058785683416785
-26	Superior temporal gyrus LH	n/a	SomMotA	SomMotB	0.610322177238097	0.310950019622802	0.074369088438938
-27	Intraparietal sulcus anterior	n/a	DorsAttnB	ContA	0.567642388970224	0.244854281471568	0.156329745067564
-28	Inferior occipital gyrus	n/a	VisCent	VisCent	0.772916764257577	0.126685757122274	0.094589720421785
-29	Angular gyrus superior RH	n/a	ContA	ContB	0.629624308488307	0.143599874535309	0.116946956878528
-30	Postcentral sulcus superior LH	n/a	DorsAttnB	DorsAttnB	0.636665208013452	0.180229414000553	0.171857982298678
-31	Superior occipital sulcus RH	n/a	VisCent	VisCent	0.517955607120466	0.440812116481068	0.041244089336143
-32	Anterior cingulate cortex middle	n/a	DefaultB	DefaultA	0.689895204107896	0.200175734028049	0.109914303798128
-33	Cerebellum IX	n/a	No network found	No network found	0.598871794015433	0.319253682994434	0.079536020553968
-34	Corpus callosum forceps minor LH	n/a	No network found	No network found	0.054806297471592	0.92892826967455	0.016258130591914
-35	Occipitotemporal sulcus posterior RH	n/a	VisCent	DorsAttnA	0.674516806587821	0.288296582087981	0.037039212458069
-36	Cerebellum VIIb	n/a	No network found	No network found	0.679318135974042	0.265957048738716	0.054729014843957
-37	Caudate inferior	n/a	No network found	No network found	0.766814468202368	0.17891581521415	0.054266890609407
-38	Supramarginal gyrus RH	n/a	SalVentAttnA	SalVentAttnB	0.659073035857524	0.160441366288975	0.098881916727737
-39	Paracingulate gyrus anterior	n/a	DefaultB	DefaultA	0.640275140402581	0.203222769369537	0.155671936729199
-40	Paracingulate gyrus posterior	n/a	SalVentAttnA	SalVentAttnA	0.691879968922727	0.174066642943359	0.133460387976793
-41	Thalamus middle	n/a	No network found	No network found	0.435740455570928	0.562797714050158	0.001468787309629
-42	Postcentral sulcus inferior	n/a	DorsAttnB	DorsAttnB	0.531237586589255	0.408590735624012	0.059702418367053
-43	Ventromedial prefrontal cortex	n/a	LimbicA	LimbicB	0.658586839848114	0.239372784766206	0.101917589534091
-44	Precentral sulcus medial	n/a	SomMotA	SomMotA	0.526712076811698	0.398671975128082	0.071296021458651
-45	Superior frontal sulcus LH	n/a	DefaultB	DefaultA	0.622227336648666	0.299217246093551	0.077877926030686
-46	Postcentral sulcus superior RH	n/a	DorsAttnB	DorsAttnB	0.527734759906982	0.303184623637492	0.153405855677669
-47	Supramarginal gyrus anterior RH	n/a	DorsAttnB	DorsAttnB	0.612310968505656	0.2758791088902	0.096328394914574
-48	Frontal operculum RH	n/a	SomMotA	SomMotB	0.714946276768216	0.092966497961924	0.143414384731241
-49	Lingual gyrus mid-anterior	n/a	VisCent	VisPeri	0.741103894237934	0.175494341201283	0.083418133313783
-50	Cerebellum VIIIb posterior	n/a	No network found	No network found	0.647818801372583	0.295413852614505	0.056095238721852
-51	Central sulcus superior RH	n/a	SomMotA	SomMotA	0.52345792393755	0.345513049355743	0.128194346240288
-52	Cerebrospinal fluid (between parietal lobe and skull)	n/a	DorsAttnB	DorsAttnB	0.483184799904617	0.036199228746556	0.281192912211645
-53	Caudate anterior	n/a	No network found	No network found	0.52693231505039	0.471582314290776	0.001489908232107
-54	Superior frontal sulcus anterior RH	n/a	SalVentAttnA	SalVentAttnB	0.605220224767345	0.34222328992595	0.049548848626651
-55	Corona radiata anterior	n/a	No network found	No network found	0.011697179636983	0.988253577700998	4.10435086401427e-05
-56	Suborbital cortex	n/a	LimbicA	LimbicB	0.790215467558508	0.14305466819447	0.060273465197489
-57	Inferior frontal gyrus LH	n/a	ContA	ContA	0.568217839555785	0.084796418277649	0.151506963217965
-58	Caudate superior	n/a	No network found	No network found	0.666313422721733	0.216778549602422	0.116904065362186
-59	Fusiform gyrus posterior LH	n/a	VisCent	VisCent	0.755879481687826	0.13825293554139	0.104077454462361
-60	Genu of callosal body	n/a	No network found	No network found	0.197005860382987	0.526720216367796	0.276268707851677
-61	Frontal pole superior	n/a	DefaultB	DefaultA	0.493099195149981	0.049969360117181	0.129275989604931
-62	Lingual gyrus middle	n/a	VisCent	VisPeri	0.595589429941959	0.376042065166999	0.028365702809376
-63	Intraparietal sulcus superior RH	n/a	DorsAttnB	DorsAttnA	0.53346554612654	0.343062409420624	0.120990157046226
-64	Angular gyrus inferior LH	n/a	SalVentAttnA	TempPar	0.70827413256655	0.198545703860371	0.08038876346706
-65	Precuneus anterior	n/a	SalVentAttnA	ContC	0.639685269345865	0.079026401856734	0.281247743353719
-66	Anterior commissure	n/a	LimbicA	LimbicB	0.648666522946371	0.296667686659267	0.05444811370446
-67	Middle frontal gyrus middle RH	n/a	ContA	ContB	0.487820905417043	0.471278736141331	0.037671784444971
-68	Superior frontal gyrus posterior LH	n/a	DorsAttnB	ContA	0.630844123868083	0.208962978894046	0.139423759330531
-69	Cerebellum VIIIb anterior	n/a	No network found	No network found	0.790755541065677	0.167909206606615	0.040040073871071
-70	Parietal operculum	n/a	SalVentAttnA	SalVentAttnA	0.74306585729705	0.075766899592035	0.170850087775717
-71	Isthmus of corpus callosum	n/a	No network found	No network found	0.195152480972213	0.424066155225683	0.380774967325694
-72	Putamen inferior	n/a	No network found	No network found	0.669476548891826	0.323078350632879	0.007451394520473
-73	Supramarginal gyrus	n/a	SalVentAttnA	SalVentAttnA	0.584293834671848	0.341334992013015	0.064475063621779
-74	Insula	n/a	SalVentAttnA	SalVentAttnA	0.850333346805827	0.122771293772698	0.026907242515048
-75	Inferior frontal sulcus posterior LH	n/a	ContA	ContA	0.589769766477173	0.34819503381966	0.061284448157793
-76	Superior frontal gyrus posterior	n/a	DefaultB	DefaultB	0.606452130618174	0.329391236128736	0.060432298391525
-77	Cuneus posterior	n/a	VisCent	VisPeri	0.557996684022527	0.332266948149249	0.10297586950208
-78	Lingual gyrus mid-posterior	n/a	VisCent	VisCent	0.595658836427605	0.357424584921989	0.046656559832856
-79	Frontal pole lateral RH	n/a	ContA	ContB	0.62493440644711	0.163056277032883	0.099160053305647
-80	Inferior temporal gyrus posterior LH	n/a	DorsAttnB	DorsAttnA	0.763900323935637	0.178522701503603	0.057314472852769
-81	Cerebellum Crus I RH	n/a	No network found	No network found	0.836282074242765	0.116039056436148	0.047062310978317
-82	Cerebrospinal fluid (between superior frontal gyrus anterior and skull)	n/a	DefaultB	DefaultB	0.441068898945004	0.012341407955618	0.136691213272287
-83	Central sulcus inferior	n/a	SomMotA	SomMotB	0.599340015900896	0.301290812122108	0.087247701396523
-84	Superior occipital sulcus inferior	n/a	VisCent	VisCent	0.568524363263758	0.32191246447745	0.104737075670675
-85	Ventral visual stream	n/a	No network found	No network found	0.168933466910725	0.797302623035396	0.033773017908564
-86	Heschl’s gyrus	n/a	SomMotA	SomMotB	0.7583072664565	0.033383462908717	0.208307254251809
-87	Central and postcentral sulci mid-superior	n/a	SomMotA	SomMotA	0.480032814463751	0.375537233943874	0.143784725348818
-88	Cuneus inferior	n/a	VisCent	VisPeri	0.69290629522807	0.185494454383921	0.121603108247937
-89	Transverse occipital sulcus	n/a	VisCent	VisCent	0.513682443919779	0.452143235457976	0.034056909297847
-90	Posterior cingulate cortex middle	n/a	DefaultB	ContC	0.579611342039716	0.346572094770274	0.073822897911566
-91	Cerebellum Crus I superior	n/a	No network found	No network found	0.820752249596874	0.025245506240088	0.150824093916482
-92	Frontomarginal gyrus	n/a	ContA	ContB	0.097778009499998	0.90086111423436	0.001367777827372
-93	Optic radiation LH	n/a	No network found	TempPar	0.073411386836045	0.926014197924729	0.000575668484544
-94	Inferior frontal sulcus anterior LH	n/a	ContA	ContA	0.62266777231009	0.307075039811263	0.059178623293639
-95	Hippocampus posterior	n/a	No network found	No network found	0.639461728969426	0.306454399474125	0.054089442379007
-96	Cerebellum IV	n/a	No network found	No network found	0.744154191590433	0.01362738682347	0.242219508857429
-97	Superior occipital gyrus RH	n/a	DorsAttnB	DorsAttnA	0.612323093882038	0.332162150818694	0.053527847591266
-98	Forceps minor RH	n/a	No network found	No network found	0.05510027567851	0.944519729395435	0.000386283302965
-99	Precentral sulcus superior	n/a	DorsAttnB	DorsAttnB	0.554395961731409	0.352937900477154	0.088294794208619
-100	Central sulcus middle	n/a	SomMotA	SomMotB	0.541768977621463	0.364904874649918	0.092777364161951
-101	Internal capsule anterior horn RH	n/a	No network found	No network found	0.032688431985418	0.966556559661842	0.000769976120509
-102	Posterior cingulate cortex inferior	n/a	DefaultB	DefaultC	0.700728145319077	0.197051376048932	0.102229998815347
-103	Lateral ventricles middle	n/a	No network found	No network found	0.485782320812663	0.193202337457066	0.321020134983128
-104	Frontal pole inferior	n/a	LimbicA	LimbicB	0.571690896061937	0.356916415201885	0.054520138781035
-105	Putamen anterior	n/a	No network found	No network found	0.711617539647449	0.287911234934608	0.000483143452554
-106	Intraparietal sulcus posterior LH	n/a	DorsAttnB	DorsAttnA	0.524794425715208	0.352870785219583	0.116786984612358
-107	Occipital pole middle	n/a	VisCent	VisCent	0.516630744060451	0.381403019963147	0.084076470618905
-108	Middle temporal gyrus posterior	n/a	DorsAttnB	DorsAttnB	0.68553988060536	0.222363025079961	0.070156705039122
-109	Angular gyrus RH	n/a	DefaultB	DefaultA	0.539358964937213	0.418938046272747	0.03512776153403
-110	Insula anterior	n/a	SalVentAttnA	SalVentAttnB	0.784613875313347	0.135535742501661	0.079858985305216
-111	Retrosplenial cortex	n/a	No network found	DefaultC	0.264943688255323	0.049992454311066	0.685060973568863
-112	Inferior occipital gyrus posterior	n/a	VisCent	VisCent	0.668981416851851	0.166282343911629	0.147731851873445
-113	Lateral occipital cortex anterior	n/a	VisCent	DorsAttnA	0.636368117299536	0.30728721091886	0.053806684259737
-114	Corona radiata	n/a	No network found	No network found	0.04993817001491	0.949841721131388	0.00022082812138
-115	Superior parts of central and postcentral sulci LH	n/a	SomMotA	SomMotA	0.488780010010902	0.367434047463772	0.138183541947051
-116	Superior frontal gyrus medial mid-posterior	n/a	ContA	SalVentAttnB	0.661999800558491	0.103403939849411	0.234370113668387
-117	Collateral sulcus middle	n/a	VisCent	DefaultC	0.781438990545438	0.146458136715358	0.072100768038266
-118	Intraparietal sulcus inferior RH	n/a	ContA	ContA	0.578503417866564	0.318282472470159	0.101742352599232
-119	Calcarine sulcus posterior	n/a	VisCent	VisPeri	0.608513129718308	0.299770836262235	0.091573113374441
-120	Lateral occipital cortex superior	n/a	DorsAttnB	DefaultC	0.619998418304071	0.208273910070137	0.116726979034939
-121	Dorsomedial prefrontal cortex	n/a	ContA	SalVentAttnB	0.703876735754562	0.163660024299851	0.132440702120069
-122	Occipital pole superior	n/a	VisCent	VisCent	0.493224588839819	0.418821865504574	0.066901870333454
-123	Callosomarginal sulcus	n/a	SomMotA	SomMotA	0.616994322267034	0.272845898155019	0.110163547655558
-124	Intraparietal sulcus posterior RH	n/a	DorsAttnB	DorsAttnA	0.557667136349944	0.329224512351254	0.109249559921808
-125	Hippocampal fissure	n/a	No network found	DefaultC	0.540011264672696	0.145942973654611	0.313680179264754
-126	Angular gyrus posterior RH	n/a	DefaultB	DefaultC	0.70057086905772	0.221818498184785	0.075441508294865
-127	Angular gyrus posterior LH	n/a	DefaultB	DefaultB	0.672122410450836	0.241687536556842	0.075785321097023
-128	Parieto-occipital sulcus mid-anterior	n/a	VisCent	DefaultC	0.586277607719322	0.365207797713436	0.04851599648293
-129	Precentral sulcus RH	n/a	ContA	ContA	0.637581808964015	0.227179759183926	0.106566965182185
-130	Pons superior	n/a	No network found	No network found	0.600962448574869	0.301544415136554	0.097372110787343
-131	Suborbital cortex medial	n/a	No network found	LimbicB	0.191820147963245	0.801524098617758	0.00655940721342
-132	Insula antero-inferior	n/a	SalVentAttnA	SalVentAttnA	0.719729098291999	0.238735543888159	0.041543223306689
-133	Thalamus medial	n/a	No network found	No network found	0.646896868652877	0.10923383828675	0.243808357450554
-134	Middle temporal gyrus anterior RH	n/a	DefaultB	DefaultA	0.751658509878766	0.158639627734314	0.085229506579472
-135	Superior corona radiata RH	n/a	No network found	No network found	0.056019841209414	0.934088237055077	0.009888616225442
-136	Cerebrospinal fluid (between middle frontal gyrus posterior and skull)	n/a	DefaultB	DefaultB	0.574337831908425	0.04405368358215	0.141055709806909
-137	Paracentral lobule posterior	n/a	SomMotA	SomMotA	0.492892626020704	0.332044061317865	0.168136359127727
-138	Pons inferior	n/a	No network found	No network found	0.520726995256638	0.472597065083009	0.006594020189262
-139	Calcarine sulcus middle	n/a	VisCent	VisPeri	0.490747043772947	0.433342906564007	0.075904568041249
-140	Lateral ventricles posterior horns	n/a	No network found	No network found	0.273207016395866	0.29921267768622	0.427589325016551
-141	Inferior frontal gyrus anterior LH	n/a	ContA	ContB	0.6537560769519	0.15779418438177	0.091078005158121
-142	Central and postcentral sulci superior	n/a	SomMotA	SomMotA	0.458685867653571	0.337634012351362	0.183190132561811
-143	Cerebellum Crus I posterior	n/a	No network found	No network found	0.730466926821974	0.039552955012512	0.182935614890419
-144	Inferior frontal sulcus anterior RH	n/a	ContA	SalVentAttnB	0.647140943916303	0.273745117743104	0.062385911313792
-145	Angular gyrus superior LH	n/a	ContA	ContB	0.567046060277592	0.195630896173723	0.13565957666685
-146	Intermediate primus of Jensen RH	n/a	ContA	ContB	0.524114976980031	0.416937485987801	0.052041562313969
-147	Cerebellum Crus I lateral RH	n/a	No network found	No network found	0.605133638324762	0.378971200685124	0.015224889043272
-148	Lateral fissure anterior	n/a	SalVentAttnA	SalVentAttnB	0.634444931537019	0.009264349990728	0.325107097390983
-149	Anterior cingulate cortex inferior	n/a	DefaultB	DefaultA	0.690893539349052	0.229783073091972	0.079333396324729
-150	Cerebrospinal fluid (between precentral gyrus and skull)	n/a	SomMotA	SomMotA	0.464845025332853	0.099363120951871	0.162358036292345
-151	Parieto-occipital sulcus anterior	n/a	VisCent	DefaultC	0.78016258552144	0.088131851183971	0.131710702154923
-152	Precentral gyrus superior	n/a	SomMotA	SomMotA	0.494828506486314	0.352770157677579	0.133052623237717
-153	Cerebrospinal fluid (between parieto-occipital sulcus and skull)	n/a	VisCent	VisPeri	0.555047765395875	0.16439061768993	0.169481855762048
-154	Cerebellum V	n/a	No network found	No network found	0.80097542968444	0.024536474183205	0.174415891531996
-155	Fusiform gyrus LH	n/a	VisCent	VisCent	0.644366493317523	0.316769716691753	0.038862443711854
-156	Cerebellum Crus II	n/a	No network found	No network found	0.776484290318392	0.193651052930327	0.028976329889035
-157	Corona radiata anterior RH	n/a	No network found	No network found	0.016813570094421	0.983175987295484	1.49652642788637e-05
-158	Thalamus lateral	n/a	No network found	No network found	0.253065463261409	0.746701620415467	0.000255070965009
-159	Inferior occipital sulcus	n/a	VisCent	VisCent	0.479870384326461	0.501819091369633	0.018297294200597
-160	Superior temporal sulcus posterior LH	n/a	DefaultB	TempPar	0.728409900174318	0.208080599899686	0.061746988103984
-161	Cerebellum VI superior LH	n/a	No network found	No network found	0.902961880005246	0.05504820788072	0.041930623001571
-162	Angular gyrus inferior RH	n/a	DorsAttnB	DorsAttnA	0.695466632816744	0.233674195044369	0.067668269047268
-163	Superior temporal gyrus medial	n/a	SomMotA	SomMotB	0.626596032851992	0.059027706560513	0.314374009355
-164	Middle temporal gyrus anterior LH	n/a	DefaultB	DefaultB	0.69737460245287	0.236601771367017	0.065204912877664
-165	Fluid between cerebellum and pons	n/a	No network found	No network found	0.503635569470929	0.395930809257549	0.099407272082421
-166	Angular gyrus superior	n/a	DefaultB	DefaultA	0.617073539920386	0.194868211596267	0.115205598228285
-167	Planum temporale LH	n/a	SomMotA	SomMotB	0.641476282376569	0.250698925833061	0.107832968594392
-168	Hippocampus anterior	n/a	No network found	DefaultC	0.640856122186119	0.312740592789774	0.046404786206346
-169	Fornix anterior	n/a	No network found	No network found	0.427381637562216	0.034405164802114	0.538224938183501
-170	Temporal pole	n/a	LimbicA	LimbicA	0.734771611703108	0.20386545045404	0.052690018489653
-171	Precentral sulcus inferior LH	n/a	DorsAttnB	ContA	0.643751593117219	0.279910116444128	0.074618526824079
-172	Cerebellum Crus I anterior LH	n/a	No network found	No network found	0.702478774822322	0.279123756585921	0.017997872522206
-173	Cerebellum VI anterior	n/a	No network found	No network found	0.569181346299411	0.423561876044948	0.007254241681863
-174	Middle frontal gyrus posterior LH	n/a	DefaultB	DefaultB	0.580329655205163	0.331889698240513	0.075652399306426
-175	Cerebrospinal fluid (between middle frontal gyrus anterior and skull)	n/a	SalVentAttnA	SalVentAttnB	0.525816185204163	0.029971259291538	0.129310194972851
-176	Anterior cingulate cortex superior	n/a	DefaultB	SalVentAttnB	0.729205723523194	0.174143095885031	0.09665258676528
-177	Angular gyrus anterior LH	n/a	DefaultB	DefaultB	0.592802675636631	0.259989105686715	0.084597476255357
-178	Posterior cingulate	n/a	DefaultB	DefaultA	0.701628561099083	0.180672277105975	0.11769360029856
-179	Cerebellum Crus II	n/a	No network found	No network found	0.833123187365927	0.098924268951602	0.061193450349691
-180	Cerebrospinal fluid (between precentral gyrus superior and skull)	n/a	SalVentAttnA	SalVentAttnA	0.52131511772997	0.072981263453494	0.138224291669222
-181	Cerebellum VI	n/a	No network found	No network found	0.844777783509313	0.113348564525985	0.04131995166559
-182	Cerebrospinal fluid (between superior frontal gyrus posterior and skull)	n/a	DefaultB	DefaultB	0.51365328625525	0.022859935590876	0.152857027001979
-183	Intraparietal sulcus LH	n/a	ContA	ContA	0.52045484692951	0.428487475393908	0.051055311715073
-184	Cuneus superior	n/a	VisCent	VisPeri	0.557272088110155	0.322880044703105	0.111867384817735
-185	Frontal pole lateral LH	n/a	ContA	ContB	0.620379663800185	0.265838951192535	0.073975236940139
-186	Superior temporal sulcus RH	n/a	SomMotA	TempPar	0.731942310477759	0.197711080188527	0.068422569529291
-187	Cerebellum VIIb	n/a	No network found	No network found	0.863549562865604	0.121428965853098	0.013947548369885
-188	Posterior cingulate cortex superior	n/a	DefaultB	ContC	0.743124123689961	0.151601390670541	0.105272955889425
-189	Superior parietal lobule anterior	n/a	DorsAttnB	DorsAttnB	0.520075194156799	0.349387286045353	0.122975254582333
-190	Insula posterior inferior	n/a	SalVentAttnA	SalVentAttnA	0.618390533610003	0.331577763895775	0.050022628725855
-191	Central opercular cortex	n/a	SomMotA	SomMotB	0.662950959388873	0.295950039706527	0.041032614042235
-192	Middle frontal gyrus posterior RH	n/a	ContA	ContB	0.612427986051398	0.270074955412462	0.084255897708506
-193	Lingual gyrus lateral	n/a	VisCent	VisCent	0.78689199843239	0.092300671223753	0.120515174833449
-194	Lateral occipital cortex	n/a	VisCent	DorsAttnA	0.680745370750709	0.153595671634236	0.121783813964406
-195	Lingual gyrus medial	n/a	VisCent	VisPeri	0.657421364631442	0.069434574533086	0.271804365880744
-196	Superior frontal gyrus posterior RH	n/a	DorsAttnB	DorsAttnB	0.668678041241247	0.199889264018651	0.122314001572725
-197	Parieto-occipital sulcus mid-posterior	n/a	VisCent	VisPeri	0.505478285299336	0.392679153231726	0.101040690560535
-198	Cerebrospinal fluid (between paracentral lobule and skull)	n/a	SomMotA	SomMotA	0.338708024608378	0.102395820792712	0.117564138681243
-199	Putamen and globus pallidus	n/a	No network found	No network found	0.215346434013544	0.784624745460056	4.20196867630272e-05
-200	Cerebellum V	n/a	No network found	No network found	0.803974070802521	0.15178134917162	0.044254993199951
-201	Cingulate sulcus posterior	n/a	SomMotA	SomMotA	0.704381555313804	0.134669977262928	0.160966877869441
-202	Cerebrospinal fluid (between middle frontal gyrus and skull RH)	n/a	ContA	SalVentAttnB	0.369557952087657	0.011697137140654	0.143712681656049
-203	Fusiform gyrus RH	n/a	VisCent	VisCent	0.551675484815593	0.425334585163343	0.022999040214877
-204	Planum temporale RH	n/a	SomMotA	SomMotB	0.688278485814431	0.201850083412437	0.101710414022118
-205	Pericallosal sulcus middle	n/a	ContA	ContC	0.590686899329812	0.327344908901845	0.081967874998718
-206	Thalamus inferior	n/a	No network found	No network found	0.478761053475394	0.476952576773406	0.044295963957601
-207	Middle frontal gyrus posterior	n/a	SalVentAttnA	SalVentAttnA	0.316709174624855	0.67925080585988	0.004037234341495
-208	Superior parietal lobule middle	n/a	DorsAttnB	DorsAttnA	0.537951745828485	0.286255368468573	0.136047055279084
-209	Cerebellum Crus I posterior LH	n/a	No network found	No network found	0.797584786748431	0.166039645262694	0.03453364901926
-210	Precentral sulcus inferior RH	n/a	DorsAttnB	ContA	0.688836208373127	0.208005666753793	0.096563718690188
-211	Cerebellum VI RH	n/a	VisCent	VisCent	0.881468684101292	0.023654614928864	0.094876063865284
-212	Inferior temporal sulcus posterior LH	n/a	DorsAttnB	DorsAttnA	0.679719088107874	0.283015883442299	0.036141048225724
-213	Lingual gyrus anterior	n/a	VisCent	VisPeri	0.635091000403524	0.046382395621297	0.318526355356548
-214	Middle frontal gyrus anterior	n/a	ContA	SalVentAttnB	0.583835586832918	0.356635713922253	0.056595268210323
-215	Superior parietal lobule posterior	n/a	DorsAttnB	DorsAttnA	0.487716323197338	0.39994763401133	0.105843704578475
-216	Parieto-occipital sulcus posterior	n/a	VisCent	ContC	0.562004350937508	0.242457590728685	0.174210110383774
-217	Superior temporal gyrus anterior	n/a	LimbicA	LimbicA	0.644915748875604	0.039540071188273	0.312407561967817
-218	Precuneus inferior	n/a	DefaultB	DefaultA	0.694214997783843	0.196355516917226	0.10941674001906
-219	Paracentral lobule	n/a	SomMotA	SomMotA	0.562939386063967	0.189077793370779	0.247940140497136
-220	Thalamic radiation mid-posterior	n/a	No network found	No network found	0.272935527478252	0.292197042832403	0.434858196037903
-221	Precentral sulcus superior LH	n/a	DorsAttnB	DorsAttnB	0.575593606207016	0.278491008717134	0.10193632678988
-222	Calcarine sulcus mid-anterior	n/a	VisCent	VisPeri	0.670738867717157	0.262245174119643	0.067004810578924
-223	Cerebellum VI superior	n/a	VisCent	VisPeri	0.626715176812618	0.010140320974074	0.359094173967824
-224	Putamen superior	n/a	No network found	No network found	0.501574275752397	0.498392000122279	2.21078138361109e-05
-225	Middle temporal gyrus middle RH	n/a	DefaultB	TempPar	0.698924618878966	0.246479874686046	0.051368364681794
-226	Insula antero-superior	n/a	SalVentAttnA	SalVentAttnA	0.698267580856065	0.2538424046385	0.047888565990348
-227	Parietal operculum LH	n/a	SalVentAttnA	TempPar	0.618911831173016	0.289205160997382	0.084596078302122
-228	Thalamus superior	n/a	No network found	No network found	0.692527740823771	0.30635849860782	0.001116464577069
-229	Dorsomedial prefrontal cortex posterior	n/a	DefaultB	ContB	0.644885892035178	0.110950603768659	0.240616887141926
-230	Angular sulcus inferior RH	n/a	SalVentAttnA	TempPar	0.597094519745073	0.347140824074651	0.054026455303935
-231	Corona radiata posterior LH	n/a	No network found	No network found	0.020001346950037	0.979960318741374	4.17297238608173e-05
-232	Pars opercularis	n/a	SalVentAttnA	ContA	0.699421174614534	0.179732970547989	0.111662358172861
-233	Cerebellum VI anterior	n/a	No network found	No network found	0.851625420198556	0.042262486529909	0.104091236323641
-234	Superior occipital sulcus LH	n/a	DorsAttnB	DorsAttnA	0.587032824913645	0.329824749905086	0.082457388623758
-235	Dorsomedial prefrontal cortex anterior	n/a	DefaultB	DefaultB	0.657345879085805	0.148934717291835	0.189106962301904
-236	Pars orbitalis RH	n/a	DefaultB	DefaultB	0.662955946835592	0.235011026522603	0.077977673655883
-237	Occipitotemporal gyrus anterior	n/a	VisCent	DefaultC	0.74876491003107	0.197650620915654	0.053558801918437
-238	Calcarine sulcus anterior	n/a	VisCent	VisPeri	0.691812848575128	0.231597861884639	0.076597047555048
-239	Precentral gyrus middle	n/a	SomMotA	SomMotB	0.579646587061167	0.325786324065403	0.082423302339302
-240	Lateral occipital cortex inferior	n/a	VisCent	VisCent	0.62893435858562	0.30078450057864	0.05933211699861
-241	Precuneus posterior	n/a	ContA	ContC	0.649585869841757	0.186162873152985	0.16003743022676
-242	Anterior horizontal ramus lateral fissure RH	n/a	SalVentAttnA	SalVentAttnB	0.685443827946379	0.200930886617759	0.098443625493971
-243	Postcentral sulcus middle RH	n/a	SomMotA	SomMotA	0.425278993680079	0.510508233815042	0.05970546866895
-244	Ventromedial prefrontal cortex anterior	n/a	DefaultB	DefaultA	0.645865881229974	0.143011743711767	0.20798099427187
-245	Cerebrospinal fluid (between middle frontal gyrus RH and skull)	n/a	ContA	ContB	0.535013209226941	0.047018182789832	0.142723238810099
-246	Cerebrospinal fluid (between precentral and postcentral gyri LH and skull)	n/a	SomMotA	SomMotA	0.387691081979811	0.086320102018506	0.162711064634183
-247	Superior longitudinal fasciculus I posterior RH	n/a	No network found	No network found	0.04242710232289	0.9574390020863	0.00012674538281
-248	Superior frontal sulcus RH	n/a	ContA	ContB	0.646785609695388	0.249180041739158	0.100899404556012
-249	Forceps major RH	n/a	No network found	No network found	0.052368795870457	0.944989598630394	0.002652075427261
-250	Superior longitudinal fasciculus II LH	n/a	No network found	No network found	0.02272155605417	0.97718958928372	7.52290033099759e-05
-251	Supramarginal gyrus anterior LH	n/a	SalVentAttnA	SalVentAttnA	0.648288917342557	0.199641480813723	0.092991544625713
-252	Callosomarginal sulcus inferior	n/a	SalVentAttnA	SalVentAttnA	0.654039671934955	0.293443072479565	0.052525275571929
-253	Superior temporal sulcus posterior RH	n/a	SomMotA	TempPar	0.347766365756991	0.63757055734787	0.014674363184773
-254	Superior longitudinal fasciculus I LH	n/a	No network found	No network found	0.027388489126096	0.972509119255379	9.88735149101011e-05
-255	Parietal operculum RH	n/a	SomMotA	SomMotB	0.618787312521481	0.341555878124496	0.039658703924301
-256	Precuneus superior	n/a	DorsAttnB	ContC	0.661955368319301	0.17021968092017	0.167270928955738
+index	name	hemisphere
+1	Middle frontal gyrus anterior LH	n/a
+2	Middle frontal gyrus anterior RH	n/a
+3	Cerebrospinal fluid (between superior parietal lobule and skull)	n/a
+4	Inferior frontal sulcus posterior RH	n/a
+5	Superior longitudinal fasciculus II middle	n/a
+6	Cuneus anterior	n/a
+7	Lateral ventricles anterior horns	n/a
+8	Lateral occipital cortex LH	n/a
+9	Retrocalcarine cortex	n/a
+10	Collateral sulcus anterior	n/a
+11	Cerebrospinal fluid (between intraparietal sulcus and skull)	n/a
+12	Superior frontal gyrus anterior	n/a
+13	Cingulate cortex mid-anterior	n/a
+14	Cingulate cortex mid-posterior	n/a
+15	Posterior cingulate cortex posterior	n/a
+16	Pars opercularis pars triangularis LH	n/a
+17	Medial frontal cortex posterior	n/a
+18	Cerebrospinal fluid (between precuneus and skull)	n/a
+19	Dorsal visual stream superior	n/a
+20	Frontal operculum LH	n/a
+21	Amygdala	n/a
+22	Supramarginal gyrus LH	n/a
+23	Postcentral gyrus LH	n/a
+24	Parieto-occipital sulcus middle	n/a
+25	Occipital pole inferior	n/a
+26	Superior temporal gyrus LH	n/a
+27	Intraparietal sulcus anterior	n/a
+28	Inferior occipital gyrus	n/a
+29	Angular gyrus superior RH	n/a
+30	Postcentral sulcus superior LH	n/a
+31	Superior occipital sulcus RH	n/a
+32	Anterior cingulate cortex middle	n/a
+33	Cerebellum IX	n/a
+34	Corpus callosum forceps minor LH	n/a
+35	Occipitotemporal sulcus posterior RH	n/a
+36	Cerebellum VIIb	n/a
+37	Caudate inferior	n/a
+38	Supramarginal gyrus RH	n/a
+39	Paracingulate gyrus anterior	n/a
+40	Paracingulate gyrus posterior	n/a
+41	Thalamus middle	n/a
+42	Postcentral sulcus inferior	n/a
+43	Ventromedial prefrontal cortex	n/a
+44	Precentral sulcus medial	n/a
+45	Superior frontal sulcus LH	n/a
+46	Postcentral sulcus superior RH	n/a
+47	Supramarginal gyrus anterior RH	n/a
+48	Frontal operculum RH	n/a
+49	Lingual gyrus mid-anterior	n/a
+50	Cerebellum VIIIb posterior	n/a
+51	Central sulcus superior RH	n/a
+52	Cerebrospinal fluid (between parietal lobe and skull)	n/a
+53	Caudate anterior	n/a
+54	Superior frontal sulcus anterior RH	n/a
+55	Corona radiata anterior	n/a
+56	Suborbital cortex	n/a
+57	Inferior frontal gyrus LH	n/a
+58	Caudate superior	n/a
+59	Fusiform gyrus posterior LH	n/a
+60	Genu of callosal body	n/a
+61	Frontal pole superior	n/a
+62	Lingual gyrus middle	n/a
+63	Intraparietal sulcus superior RH	n/a
+64	Angular gyrus inferior LH	n/a
+65	Precuneus anterior	n/a
+66	Anterior commissure	n/a
+67	Middle frontal gyrus middle RH	n/a
+68	Superior frontal gyrus posterior LH	n/a
+69	Cerebellum VIIIb anterior	n/a
+70	Parietal operculum	n/a
+71	Isthmus of corpus callosum	n/a
+72	Putamen inferior	n/a
+73	Supramarginal gyrus	n/a
+74	Insula	n/a
+75	Inferior frontal sulcus posterior LH	n/a
+76	Superior frontal gyrus posterior	n/a
+77	Cuneus posterior	n/a
+78	Lingual gyrus mid-posterior	n/a
+79	Frontal pole lateral RH	n/a
+80	Inferior temporal gyrus posterior LH	n/a
+81	Cerebellum Crus I RH	n/a
+82	Cerebrospinal fluid (between superior frontal gyrus anterior and skull)	n/a
+83	Central sulcus inferior	n/a
+84	Superior occipital sulcus inferior	n/a
+85	Ventral visual stream	n/a
+86	Heschl’s gyrus	n/a
+87	Central and postcentral sulci mid-superior	n/a
+88	Cuneus inferior	n/a
+89	Transverse occipital sulcus	n/a
+90	Posterior cingulate cortex middle	n/a
+91	Cerebellum Crus I superior	n/a
+92	Frontomarginal gyrus	n/a
+93	Optic radiation LH	n/a
+94	Inferior frontal sulcus anterior LH	n/a
+95	Hippocampus posterior	n/a
+96	Cerebellum IV	n/a
+97	Superior occipital gyrus RH	n/a
+98	Forceps minor RH	n/a
+99	Precentral sulcus superior	n/a
+100	Central sulcus middle	n/a
+101	Internal capsule anterior horn RH	n/a
+102	Posterior cingulate cortex inferior	n/a
+103	Lateral ventricles middle	n/a
+104	Frontal pole inferior	n/a
+105	Putamen anterior	n/a
+106	Intraparietal sulcus posterior LH	n/a
+107	Occipital pole middle	n/a
+108	Middle temporal gyrus posterior	n/a
+109	Angular gyrus RH	n/a
+110	Insula anterior	n/a
+111	Retrosplenial cortex	n/a
+112	Inferior occipital gyrus posterior	n/a
+113	Lateral occipital cortex anterior	n/a
+114	Corona radiata	n/a
+115	Superior parts of central and postcentral sulci LH	n/a
+116	Superior frontal gyrus medial mid-posterior	n/a
+117	Collateral sulcus middle	n/a
+118	Intraparietal sulcus inferior RH	n/a
+119	Calcarine sulcus posterior	n/a
+120	Lateral occipital cortex superior	n/a
+121	Dorsomedial prefrontal cortex	n/a
+122	Occipital pole superior	n/a
+123	Callosomarginal sulcus	n/a
+124	Intraparietal sulcus posterior RH	n/a
+125	Hippocampal fissure	n/a
+126	Angular gyrus posterior RH	n/a
+127	Angular gyrus posterior LH	n/a
+128	Parieto-occipital sulcus mid-anterior	n/a
+129	Precentral sulcus RH	n/a
+130	Pons superior	n/a
+131	Suborbital cortex medial	n/a
+132	Insula antero-inferior	n/a
+133	Thalamus medial	n/a
+134	Middle temporal gyrus anterior RH	n/a
+135	Superior corona radiata RH	n/a
+136	Cerebrospinal fluid (between middle frontal gyrus posterior and skull)	n/a
+137	Paracentral lobule posterior	n/a
+138	Pons inferior	n/a
+139	Calcarine sulcus middle	n/a
+140	Lateral ventricles posterior horns	n/a
+141	Inferior frontal gyrus anterior LH	n/a
+142	Central and postcentral sulci superior	n/a
+143	Cerebellum Crus I posterior	n/a
+144	Inferior frontal sulcus anterior RH	n/a
+145	Angular gyrus superior LH	n/a
+146	Intermediate primus of Jensen RH	n/a
+147	Cerebellum Crus I lateral RH	n/a
+148	Lateral fissure anterior	n/a
+149	Anterior cingulate cortex inferior	n/a
+150	Cerebrospinal fluid (between precentral gyrus and skull)	n/a
+151	Parieto-occipital sulcus anterior	n/a
+152	Precentral gyrus superior	n/a
+153	Cerebrospinal fluid (between parieto-occipital sulcus and skull)	n/a
+154	Cerebellum V	n/a
+155	Fusiform gyrus LH	n/a
+156	Cerebellum Crus II	n/a
+157	Corona radiata anterior RH	n/a
+158	Thalamus lateral	n/a
+159	Inferior occipital sulcus	n/a
+160	Superior temporal sulcus posterior LH	n/a
+161	Cerebellum VI superior LH	n/a
+162	Angular gyrus inferior RH	n/a
+163	Superior temporal gyrus medial	n/a
+164	Middle temporal gyrus anterior LH	n/a
+165	Fluid between cerebellum and pons	n/a
+166	Angular gyrus superior	n/a
+167	Planum temporale LH	n/a
+168	Hippocampus anterior	n/a
+169	Fornix anterior	n/a
+170	Temporal pole	n/a
+171	Precentral sulcus inferior LH	n/a
+172	Cerebellum Crus I anterior LH	n/a
+173	Cerebellum VI anterior	n/a
+174	Middle frontal gyrus posterior LH	n/a
+175	Cerebrospinal fluid (between middle frontal gyrus anterior and skull)	n/a
+176	Anterior cingulate cortex superior	n/a
+177	Angular gyrus anterior LH	n/a
+178	Posterior cingulate	n/a
+179	Cerebellum Crus II	n/a
+180	Cerebrospinal fluid (between precentral gyrus superior and skull)	n/a
+181	Cerebellum VI	n/a
+182	Cerebrospinal fluid (between superior frontal gyrus posterior and skull)	n/a
+183	Intraparietal sulcus LH	n/a
+184	Cuneus superior	n/a
+185	Frontal pole lateral LH	n/a
+186	Superior temporal sulcus RH	n/a
+187	Cerebellum VIIb	n/a
+188	Posterior cingulate cortex superior	n/a
+189	Superior parietal lobule anterior	n/a
+190	Insula posterior inferior	n/a
+191	Central opercular cortex	n/a
+192	Middle frontal gyrus posterior RH	n/a
+193	Lingual gyrus lateral	n/a
+194	Lateral occipital cortex	n/a
+195	Lingual gyrus medial	n/a
+196	Superior frontal gyrus posterior RH	n/a
+197	Parieto-occipital sulcus mid-posterior	n/a
+198	Cerebrospinal fluid (between paracentral lobule and skull)	n/a
+199	Putamen and globus pallidus	n/a
+200	Cerebellum V	n/a
+201	Cingulate sulcus posterior	n/a
+202	Cerebrospinal fluid (between middle frontal gyrus and skull RH)	n/a
+203	Fusiform gyrus RH	n/a
+204	Planum temporale RH	n/a
+205	Pericallosal sulcus middle	n/a
+206	Thalamus inferior	n/a
+207	Middle frontal gyrus posterior	n/a
+208	Superior parietal lobule middle	n/a
+209	Cerebellum Crus I posterior LH	n/a
+210	Precentral sulcus inferior RH	n/a
+211	Cerebellum VI RH	n/a
+212	Inferior temporal sulcus posterior LH	n/a
+213	Lingual gyrus anterior	n/a
+214	Middle frontal gyrus anterior	n/a
+215	Superior parietal lobule posterior	n/a
+216	Parieto-occipital sulcus posterior	n/a
+217	Superior temporal gyrus anterior	n/a
+218	Precuneus inferior	n/a
+219	Paracentral lobule	n/a
+220	Thalamic radiation mid-posterior	n/a
+221	Precentral sulcus superior LH	n/a
+222	Calcarine sulcus mid-anterior	n/a
+223	Cerebellum VI superior	n/a
+224	Putamen superior	n/a
+225	Middle temporal gyrus middle RH	n/a
+226	Insula antero-superior	n/a
+227	Parietal operculum LH	n/a
+228	Thalamus superior	n/a
+229	Dorsomedial prefrontal cortex posterior	n/a
+230	Angular sulcus inferior RH	n/a
+231	Corona radiata posterior LH	n/a
+232	Pars opercularis	n/a
+233	Cerebellum VI anterior	n/a
+234	Superior occipital sulcus LH	n/a
+235	Dorsomedial prefrontal cortex anterior	n/a
+236	Pars orbitalis RH	n/a
+237	Occipitotemporal gyrus anterior	n/a
+238	Calcarine sulcus anterior	n/a
+239	Precentral gyrus middle	n/a
+240	Lateral occipital cortex inferior	n/a
+241	Precuneus posterior	n/a
+242	Anterior horizontal ramus lateral fissure RH	n/a
+243	Postcentral sulcus middle RH	n/a
+244	Ventromedial prefrontal cortex anterior	n/a
+245	Cerebrospinal fluid (between middle frontal gyrus RH and skull)	n/a
+246	Cerebrospinal fluid (between precentral and postcentral gyri LH and skull)	n/a
+247	Superior longitudinal fasciculus I posterior RH	n/a
+248	Superior frontal sulcus RH	n/a
+249	Forceps major RH	n/a
+250	Superior longitudinal fasciculus II LH	n/a
+251	Supramarginal gyrus anterior LH	n/a
+252	Callosomarginal sulcus inferior	n/a
+253	Superior temporal sulcus posterior RH	n/a
+254	Superior longitudinal fasciculus I LH	n/a
+255	Parietal operculum RH	n/a
+256	Precuneus superior	n/a

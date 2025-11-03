@@ -27,7 +27,11 @@
         "https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal"
     ],
     "License": "MIT",
-    "Funding": "NIH grants and institutional support from National University of Singapore, Washington University, and collaborating institutions (detailed grant numbers available in original publication)",
+    "Funding": [
+        "NIH grants and institutional support from National University of Singapore",
+        "Washington University",
+        "Collaborating institutions (detailed grant numbers available in original publication)"
+    ],
     "ReferencesAndLinks": [
         "https://doi.org/10.1093/cercor/bhx179",
         "Schaefer A, Kong R, Gordon EM, Laumann TO, Zuo XN, Holmes AJ, Eickhoff SB, Yeo BTT. Local-Global parcellation of the human cerebral cortex from intrinsic functional connectivity MRI, Cerebral Cortex, 29:3095-3114, 2018",

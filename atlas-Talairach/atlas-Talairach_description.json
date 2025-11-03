@@ -25,7 +25,11 @@
         "https://www.talairach.org/daemon.html"
     ],
     "License": "Unknown",
-    "Funding": "NIH Human Brain Project (NIMH grant 5 P01 MH52176-07, NLM grant), EJLB Foundation, International Consortium for Brain Mapping (ICBM)",
+    "Funding": [
+        "NIH Human Brain Project (NIMH grant 5 P01 MH52176-07, NLM grant)",
+        "EJLB Foundation",
+        "International Consortium for Brain Mapping (ICBM)"
+    ],
     "ReferencesAndLinks": [
         "https://doi.org/10.1002/1097-0193(200007)10:3<120::AID-HBM30>3.0.CO;2-8",
         "https://doi.org/10.1002/(SICI)1097-0193(1997)5:4<238::AID-HBM6>3.0.CO;2-4",
