@@ -8,16 +8,16 @@
         "Simon B. Eickhoff",
         "Hartmut Mohlberg",
         "Sebastian Bludau",
-        "Research Centre J\u00fclich",
+        "Research Centre Jülich",
         "C. and O. Vogt Institute for Brain Research"
     ],
-    "HowToAcknowledge": "Please cite: Eickhoff et al. (2005) NeuroImage 25(4):1325-35; Amunts et al. (2020) Science 369(6506):988-992. For individual structures, cite the relevant mapping publications. Data kindly provided by the Research Centre J\u00fclich and Simon Eickhoff.",
+    "HowToAcknowledge": "Please cite: Eickhoff et al. (2005) NeuroImage 25(4):1325-35; Amunts et al. (2020) Science 369(6506):988-992. For individual structures, cite the relevant mapping publications. Data kindly provided by the Research Centre Jülich and Simon Eickhoff.",
     "SourceDatasetsURLs": [
         "https://julich-brain-atlas.de",
         "https://ebrains.eu",
         "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets"
     ],
-    "License": "FSL License - Non-commercial use only. Commercial use requires permission from Forschungszentrum J\u00fclich GmbH. Contact: S.Eickhoff@fz-juelich.de",
+    "License": "FSL License - Non-commercial use only. Commercial use requires permission from Forschungszentrum Jülich GmbH. Contact: S.Eickhoff@fz-juelich.de",
     "Funding": [
         "Helmholtz Association Portfolio Theme 'Supercomputing and Modeling for the Human Brain'",
         "European Union Seventh Framework Programme (FP7/2007-2013, Human Brain Project)",
@@ -31,7 +31,7 @@
         "https://ebrains.eu"
     ],
     "Species": "Human",
+    "SampleSize": 10,
     "DerivedFrom": "Histological examination of 10 post-mortem human brains (5 male, 5 female) with cyto- and myelo-architectonic segmentations",
-    "LevelType": "Cytoarchitectonic/microstructural parcellation",
-    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz"
+    "SpatialReference": "https://templateflow.org/browse"
 }

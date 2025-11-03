@@ -11,9 +11,7 @@
         "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets"
     ],
     "License": "FSL License - Non-commercial use only. Commercial use requires permission from University of Oxford. Contact: steve@fmrib.ox.ac.uk for Harvard-Oxford atlas inquiries.",
-    "Funding": [
-        "Harvard Center for Morphometric Analysis"
-    ],
+    "Funding": ["Harvard Center for Morphometric Analysis"],
     "ReferencesAndLinks": [
         "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets",
         "https://doi.org/10.1016/j.schres.2006.01.008",
@@ -23,5 +21,6 @@
     ],
     "Species": "Human",
     "DerivedFrom": "T1-weighted structural MRI scans from 37 subjects (21 male, 16 female, ages 18-50) manually segmented by Harvard Center for Morphometric Analysis",
-    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz"
+    "SpatialReference": "https://templateflow.org/browse/",
+    "SampleSize": 37
 }
