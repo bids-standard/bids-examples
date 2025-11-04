@@ -57,6 +57,7 @@ pet002	T1w, PET	[link](https://openneuro.org/datasets/ds001420/)	[@mnoergaard](h
 pet003	T1w, PET, blood		[@mnoergaard](https://github.com/mnoergaard)	anat, pet	T1w, blood, pet
 pet004	PET, blood		[@mnoergaard](https://github.com/mnoergaard)	pet	blood, pet
 pet005	T1w, PET		[@mnoergaard](https://github.com/mnoergaard)	anat, pet	T1w, events, pet
+pet006	PET		[@bendhouseart](https://github.com/bendhouseart)	pet	pet
 micr_SEM	Example SEM dataset in PNG format with 1 sample imaged over 2 sessions	[link](https://doi.org/10.5281/zenodo.5498378)	[@jcohenadad](https://github.com/jcohenadad)	micr	SEM, photo, samples, sessions
 micr_SEMzarr	Example SEM dataset in PNG and OME-ZARR format with 1 sample imaged over 2 sessions		[@TheChymera](https://github.com/TheChymera)	micr	SEM, SPIM, samples, sessions
 micr_SPIM	Example SPIM dataset in OME-TIFF format with 2 samples from the same subject with 4 chunks each	[link](https://doi.org/10.5281/zenodo.5517223)	[@jcohenadad](https://github.com/jcohenadad)	micr	SPIM, photo, samples

@@ -1,10 +1,28 @@
 {
-    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz",
+    "LabelMap": [
+        "Left Cerebral White Matter",
+        "Left Cerebral Cortex",
+        "Left Lateral Ventrical",
+        "Left Thalamus",
+        "Left Caudate",
+        "Left Putamen",
+        "Left Pallidum",
+        "Brainstem",
+        "Left Hippocampus",
+        "Left Amygdala",
+        "Left Accumbens",
+        "Right Cerebral White Matter",
+        "Right Cerebral Cortex",
+        "Right Lateral Ventricle",
+        "Right Thalamus",
+        "Right Caudate",
+        "Right Putamen",
+        "Right Pallidum",
+        "Right Hippocampus",
+        "Right Amygdala",
+        "Right Accumbens"
+    ],
     "Manual": true,
-    "CoordinateReportStrategy": "center_of_mass",
     "Resolution": "2.0 x 2.0 x 2.0 mm",
-    "xyz": {
-        "Description": "XYZ coordinates of the centroid of the parcel",
-        "Delimiter": ", "
-    }
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz"
 }
