@@ -75,6 +75,7 @@ jobs:
       run: |
         git clone -b dev https://github.com/bids-standard/bids-validator/ ../bids-validator
         cd ../bids-validator
+        git checkout bep038
         deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
 
     - name: Install BIDS validator (legacy)
