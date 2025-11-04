@@ -324,13 +324,14 @@ TABLE BELOW IS GENERATED AUTOMATICALLY.
 DO NOT EDIT DIRECTLY.
 -->
 
-| name                                                                        | description     | datatypes   | suffixes         | link to full data                                | maintained by                                |
-|:----------------------------------------------------------------------------|:----------------|:------------|:-----------------|:-------------------------------------------------|:---------------------------------------------|
-| [pet001](https://github.com/bids-standard/bids-examples/tree/master/pet001) | T1w, PET, blood | anat, pet   | T1w, blood, pet  | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
-| [pet002](https://github.com/bids-standard/bids-examples/tree/master/pet002) | T1w, PET        | anat, pet   | T1w, pet         | [link](https://openneuro.org/datasets/ds001420/) | [@mnoergaard](https://github.com/mnoergaard) |
-| [pet003](https://github.com/bids-standard/bids-examples/tree/master/pet003) | T1w, PET, blood | anat, pet   | T1w, blood, pet  | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
-| [pet004](https://github.com/bids-standard/bids-examples/tree/master/pet004) | PET, blood      | pet         | blood, pet       | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
-| [pet005](https://github.com/bids-standard/bids-examples/tree/master/pet005) | T1w, PET        | anat, pet   | T1w, events, pet | n/a                                              | [@mnoergaard](https://github.com/mnoergaard) |
+| name                                                                        | description     | datatypes   | suffixes         | link to full data                                | maintained by                                    |
+|:----------------------------------------------------------------------------|:----------------|:------------|:-----------------|:-------------------------------------------------|:-------------------------------------------------|
+| [pet001](https://github.com/bids-standard/bids-examples/tree/master/pet001) | T1w, PET, blood | anat, pet   | T1w, blood, pet  | n/a                                              | [@mnoergaard](https://github.com/mnoergaard)     |
+| [pet002](https://github.com/bids-standard/bids-examples/tree/master/pet002) | T1w, PET        | anat, pet   | T1w, pet         | [link](https://openneuro.org/datasets/ds001420/) | [@mnoergaard](https://github.com/mnoergaard)     |
+| [pet003](https://github.com/bids-standard/bids-examples/tree/master/pet003) | T1w, PET, blood | anat, pet   | T1w, blood, pet  | n/a                                              | [@mnoergaard](https://github.com/mnoergaard)     |
+| [pet004](https://github.com/bids-standard/bids-examples/tree/master/pet004) | PET, blood      | pet         | blood, pet       | n/a                                              | [@mnoergaard](https://github.com/mnoergaard)     |
+| [pet005](https://github.com/bids-standard/bids-examples/tree/master/pet005) | T1w, PET        | anat, pet   | T1w, events, pet | n/a                                              | [@mnoergaard](https://github.com/mnoergaard)     |
+| [pet006](https://github.com/bids-standard/bids-examples/tree/master/pet006) | PET             | pet         | pet              | n/a                                              | [@bendhouseart](https://github.com/bendhouseart) |
 
 ### qMRI
 
