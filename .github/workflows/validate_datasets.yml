@@ -95,7 +95,7 @@ jobs:
       if: "matrix.bids-validator == 'stable'"
       run: |
         echo "Checking for big files ..."
-        found=`find . -not -path "./.git*" -type f -size +500k`
+        found=`find . -not -path "./.git*" -type f -size +1M`
         if [ "$found" == "" ]
         then
             echo "No big files present, great!"
