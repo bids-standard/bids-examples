@@ -1,0 +1,20 @@
+{
+  "Name": "Outputs from fMRIPrep preprocessing of the NARPS data",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "study",
+  "License": "CC0",
+  "Authors": [
+    "Boris Clénet"
+  ],
+  "DatasetLinks": {
+    "raw": "sourcedata/raw/",
+    "fmriprep": "derivatives/fmriprep/",
+    "ds001734": "https://openneuro.org/datasets/ds001734/versions/1.0.5"
+  },
+  "SourceDatasets": [
+    {
+      "URL": "ds001734",
+      "Version": "1.0.5"
+    }
+  ],
+}
