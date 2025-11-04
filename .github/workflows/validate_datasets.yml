@@ -10,6 +10,7 @@ on:
     tags: ['**']
   schedule:
     - cron: "0 4 * * 1"
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.ref }}
