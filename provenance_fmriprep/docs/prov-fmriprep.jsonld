@@ -20,13 +20,13 @@
         ],
         "Used": [
           "bids::prov#poldracklab/fmriprep-mHl7Dqa0",
-          "bids:ds001734"
+          "bids:ds001734:."
         ]
       }
     ],
     "ProvEntities": [
       {
-        "Id": "bids:ds001734",
+        "Id": "bids:ds001734:.",
         "Label": "NARPS"
       },
       {
