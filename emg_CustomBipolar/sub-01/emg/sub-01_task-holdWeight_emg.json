@@ -1,0 +1,16 @@
+{
+	"EMGChannelCount":1,
+	"EMGPlacementScheme":"Other",
+	"EMGPlacementSchemeDescription":"Center of electrode pair placed at 50% on the line between the posterior crista of the acromion and the olecranon, 2 finger widths lateral.",
+	"EMGReference":"bipolar",
+	"EMGGround":"Medial bony landmark of the elbow",
+	"Manufacturer":"Custom",
+	"ManufacturersModelName":"Raspberry Pi",
+	"RecordingDuration":1.00,
+	"RecordingType":"continuous",
+	"SamplingFrequency":2000,
+	"TaskDescription":"The subject was holding an object with different weights for 5 seconds.",
+	"TaskName":"holdWeight",
+	"PowerLineFrequency":60,
+	"SoftwareFilters":"n/a"
+}
