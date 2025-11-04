@@ -8,7 +8,7 @@
   ],
   "DatasetLinks": {
     "raw": "sourcedata/raw/",
-    "fmriprep": "derivatives/fmriprep/",
+    "segmentations": "derivatives/segmentations/",
     "ds001734": "https://openneuro.org/datasets/ds001734/versions/1.0.5"
   },
   "SourceDatasets": [
