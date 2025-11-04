@@ -1,0 +1,37 @@
+{
+    "Name": "Juelich atlas",
+    "Description": "Probabilistic cytoarchitectonic atlas based on microscopic and quantitative histological examination of ten human post-mortem brains. The atlas contains 52 grey matter structures and 10 white matter structures defined by cyto- and myelo-architectonic segmentations. Maps were 3D reconstructed and spatially normalized into MNI space. The atlas is part of the Julich-Brain project, a continuously expanding ('living') atlas with over 200 brain regions.",
+    "BIDSVersion": "1.11.0",
+    "Curators": [
+        "Katrin Amunts",
+        "Karl Zilles",
+        "Simon B. Eickhoff",
+        "Hartmut Mohlberg",
+        "Sebastian Bludau",
+        "Research Centre Jülich",
+        "C. and O. Vogt Institute for Brain Research"
+    ],
+    "HowToAcknowledge": "Please cite: Eickhoff et al. (2005) NeuroImage 25(4):1325-35; Amunts et al. (2020) Science 369(6506):988-992. For individual structures, cite the relevant mapping publications. Data kindly provided by the Research Centre Jülich and Simon Eickhoff.",
+    "SourceDatasetsURLs": [
+        "https://julich-brain-atlas.de",
+        "https://ebrains.eu",
+        "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets"
+    ],
+    "License": "FSL License - Non-commercial use only. Commercial use requires permission from Forschungszentrum Jülich GmbH. Contact: S.Eickhoff@fz-juelich.de",
+    "Funding": [
+        "Helmholtz Association Portfolio Theme 'Supercomputing and Modeling for the Human Brain'",
+        "European Union Seventh Framework Programme (FP7/2007-2013, Human Brain Project)",
+        "European Union's Horizon 2020 Research and Innovation Programme (grant agreements 604102, 785907, 945539)"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1016/j.neuroimage.2004.12.034",
+        "https://doi.org/10.1126/science.abb4588",
+        "https://doi.org/10.1016/j.neuroimage.2007.01.021",
+        "https://julich-brain-atlas.de",
+        "https://ebrains.eu"
+    ],
+    "Species": "Human",
+    "SampleSize": 10,
+    "DerivedFrom": "Histological examination of 10 post-mortem human brains (5 male, 5 female) with cyto- and myelo-architectonic segmentations",
+    "SpatialReference": "https://templateflow.org/browse"
+}

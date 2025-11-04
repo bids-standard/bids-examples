@@ -1,0 +1,34 @@
+{
+    "Name": "Destrieux cortical deterministic atlas - 2009 version",
+    "Description": "Destrieux cortical atlas is based on a parcellation scheme that first divided the cortex into gyral and sulcal regions, the limit between both being given by the curvature value of the surface. A gyrus only includes the cortex visible on the pial view, the hidden cortex (banks of sulci) are marked sulcus. The result is a complete labeling of cortical sulci and gyri with 74 anatomical parcellations per hemisphere based on standard internationally-accepted nomenclature.",
+    "BIDSVersion": "1.11.0",
+    "Curators": [
+        "Christophe Destrieux",
+        "Bruce Fischl",
+        "Anders Dale",
+        "Eric Halgren"
+    ],
+    "HowToAcknowledge": "Please cite: Destrieux C, Fischl B, Dale A, Halgren E. Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature. NeuroImage. 2010;53(1):1-15. doi:10.1016/j.neuroimage.2010.06.010. Also cite: Fischl B, van der Kouwe A, Destrieux C, et al. Automatically Parcellating the Human Cerebral Cortex. Cereb Cortex. 2004;14(1):11-22. doi:10.1093/cercor/bhg087",
+    "SourceDatasetsURLs": [
+        "https://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation"
+    ],
+    "License": "FreeSurfer Software License (MGH - royalty-free, non-exclusive, requires registration)",
+    "Funding": [
+        "National Institute for Neurological Disorders and Stroke (R01 NS18741, R01 NS052585)",
+        "National Center for Research Resources (P41-RR14075, NCRR BIRN002, U24 RR021382)",
+        "National Institute for Biomedical Imaging and Bioengineering (R01 EB001550, R01 EB006758, R01 EB009282)",
+        "National Institute on Aging (R01 AG02238)",
+        "Mental Illness and Neuroscience Discovery (MIND) Institute",
+        "National Alliance for Medical Image Computing (NAMIC, U54 EB005149)",
+        "The Autism & Dyslexia Project funded by the Ellison Medical Foundation",
+        "Centre Hospitalier R\u00e9gional et Universitaire de Tours, Tours, France"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1093/cercor/bhg087",
+        "https://doi.org/10.1016/j.neuroimage.2010.06.010"
+    ],
+    "Species": "Human",
+    "DerivedFrom": "Training set of 12 healthy subjects (24 hemispheres) with high-resolution T1-weighted MPRAGE scans (1.5T Siemens Sonata)",
+    "SampleSize": 12,
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-fsaverage_res-1_T1w.nii.gz"
+}

@@ -1,0 +1,31 @@
+{
+    "Name": "DiFuMo",
+    "Description": "Dictionaries of Functional Modes (DiFuMo) - multi-resolution probabilistic atlases for extracting functional signals from fMRI data with different dimensionalities (64, 128, 256, 512, and 1024 networks). These modes are optimized to represent BOLD timeseries over a wide range of experimental conditions.",
+    "BIDSVersion": "1.11.0",
+    "Authors": [
+        "Kamalaker Dadi",
+        "Ga\u00ebl Varoquaux",
+        "Antonia Machlouzarides-Shalit",
+        "Krzysztof J. Gorgolewski",
+        "Demian Wassermann",
+        "Bertrand Thirion",
+        "Arthur Mensch"
+    ],
+    "HowToAcknowledge": "Please cite: Dadi, K., Varoquaux, G., Machlouzarides-Shalit, A., Gorgolewski, K.J., Wassermann, D., Thirion, B., & Mensch, A. (2020). Fine-grain atlases of functional modes for fMRI analysis. NeuroImage, 221, 117126.",
+    "License": "BSD",
+    "Funding": [
+        "European Research Council (ERC Grant Noria)",
+        "ANR NeuroRef",
+        "ERC-StG NeuroLang",
+        "Canada First Research Excellence Fund (McGill University)"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1016/j.neuroimage.2020.117126",
+        "https://parietal-inria.github.io/DiFuMo/",
+        "https://inria.hal.science/hal-02904869"
+    ],
+    "Species": "Human",
+    "DerivedFrom": "27 fMRI studies from OpenNeuro (2.4TB total, millions of functional brain volumes)",
+    "SampleSize": 27,
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz"
+}

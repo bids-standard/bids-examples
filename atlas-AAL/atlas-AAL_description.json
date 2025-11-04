@@ -1,0 +1,38 @@
+{
+    "Name": "Automated Anatomical Labeling Atlas 3 - SPM12, version 3v2",
+    "Description": "AAL3v2 atlas for SPM 12. Notes: This atlas is the result of an automated anatomical parcellation of the spatially normalized single-subject high-resolution T1 volume provided by the Montreal Neurological Institute (MNI) (D. L. Collins et al., 1998, Trans. Med. Imag. 17, 463-468, PubMed). Using this parcellation method, three procedures to perform the automated anatomical labeling of functional studies are proposed: (1) labeling of an extremum defined by a set of coordinates, (2) percentage of voxels belonging to each of the AVOI intersected by a sphere centered by a set of coordinates, and (3) percentage of voxels belonging to each of the AVOI intersected by an activated cluster.",
+    "BIDSVersion": "1.11.0",
+    "Authors": [
+        "Edmund T. Rolls",
+        "Chu-Chung Huang",
+        "Ching-Po Lin",
+        "Jianfeng Feng",
+        "Marc Joliot",
+        "Nathalie Tzourio-Mazoyer",
+        "Bernard Landeau",
+        "Dimitri Papathanassiou",
+        "Fabrice Crivello",
+        "Olivier Etard",
+        "Nicolas Delcroix",
+        "Bernard Mazoyer"
+    ],
+    "HowToAcknowledge": "Please cite: (1) Rolls ET, Huang CC, Lin CP, Feng J, Joliot M. Automated anatomical labelling atlas 3. Neuroimage. 2020 Feb 1;206:116189. (2) Tzourio-Mazoyer N, Landeau B, Papathanassiou D, Crivello F, Etard O, Delcroix N, Mazoyer B, Joliot M. Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain. NeuroImage. 2002;15(1):273-89.",
+    "SourceDatasetsURLs": [
+        "http://www.gin.cnrs.fr/en/tools/aal/",
+        "https://www.oxcns.org/aal3.html"
+    ],
+    "License": "GNU General Public License",
+    "Funding": [
+        "Science and Technology Innovation Plan (No. 15JC1400101 and No. 16JC1420402)"
+    ],
+    "ReferencesAndLinks": [
+        "http://www.gin.cnrs.fr/AAL-217?lang",
+        "https://doi.org/10.1016/j.neuroimage.2019.116189",
+        "https://doi.org/10.1006/nimg.2001.0978",
+        "https://doi.org/10.1016/j.neuroimage.2015.07.075"
+    ],
+    "Species": "Human",
+    "DerivedFrom": "MNI single-subject T1-weighted high-resolution volume (Collins brain)",
+    "SampleSize": 1,
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNIColin27_res-1_T1w.nii.gz"
+}
