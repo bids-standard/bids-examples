@@ -1,0 +1,13 @@
+{
+	"Name": "BEP036 example dataset 06: Two sessions with one imaging-only session. (No sessions file example)",
+	"BIDSVersion": "1.10.0",
+	"DatasetType": "raw",
+	"License": "CC0",
+	"Authors": [
+		"Arshitha Basavaraj",
+		"Eric Earl",
+		"Sebastian Urchs",
+		"Samuel Guay"
+	],
+	"AdditionalValidation": ["Phenotype"]
+}
