@@ -1,0 +1,63 @@
+{
+  "BIDSProvVersion": "0.0.1",
+  "@context": "https://raw.githubusercontent.com/bclenet/bids-specification/refs/heads/BEP028_spec/src/provenance-context.json",
+  "Records": {
+    "Software": [
+      {
+        "Id": "bids::prov#itksnap-Lfs6FRMn",
+        "Label": "ITK-SNAP",
+        "Version": "4.4.0",
+        "AltIdentifier": "RRID:SCR_002010"
+      },
+      {
+        "Id": "bids::prov#itksnap-cJ4KRErk",
+        "Label": "ITK-SNAP",
+        "Version": "4.4.0",
+        "AltIdentifier": "RRID:SCR_002010"
+      },
+      {
+        "Id": "bids::prov#itksnap-zz55eds6",
+        "Label": "ITK-SNAP",
+        "Version": "4.4.0",
+        "AltIdentifier": "RRID:SCR_002010"
+      }
+    ],
+    "Activities": [
+      {
+        "Id": "bids::prov#segmentation-nO5RGsrb",
+        "Label": "Semi-automatic brain segmentation",
+        "Command": "itk-snap sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz",
+        "AssociatedWith": [
+          "bids::prov#itksnap-Lfs6FRMn"
+        ],
+        "Used": [
+          "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+        ]
+      },
+      {
+        "Id": "bids::prov#segmentation-mOOypIYB",
+        "Label": "Semi-automatic brain segmentation",
+        "Command": "itk-snap sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz",
+        "AssociatedWith": [
+          "bids::prov#itksnap-cJ4KRErk"
+        ],
+        "Used": [
+          "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+        ]
+      },
+      {
+        "Id": "bids::prov#segmentation-af6s5v2d",
+        "Label": "Semi-automatic brain segmentation",
+        "Command": "itk-snap sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz",
+        "AssociatedWith": [
+          "bids::prov#itksnap-zz55eds6"
+        ],
+        "Used": [
+          "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+        ]
+      }
+    ],
+    "ProvEntities": [],
+    "Environments": []
+  }
+}

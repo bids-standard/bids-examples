@@ -1,3 +1,4 @@
 provenance_label	description
-prov-fmriprep	Provenance of preprocessing performed with fMRIPrep.
-prov-edit	Manual editing of .
+prov-seg1	Manual brain segmentation performed by expert #1
+prov-seg2	Manual brain segmentation performed by expert #2
+prov-seg3	Manual brain segmentation performed by expert #3

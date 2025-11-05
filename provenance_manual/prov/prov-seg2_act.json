@@ -1,0 +1,15 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#segmentation-mOOypIYB",
+      "Label": "Semi-automatic brain segmentation",
+      "Command": "itk-snap sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz",
+      "AssociatedWith": [
+        "bids::prov#itksnap-cJ4KRErk"
+      ],
+      "Used": [
+        "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+      ]
+    }
+  ]
+}
