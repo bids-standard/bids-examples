@@ -1,5 +1,5 @@
 {
-  "Name": "Outputs from fMRIPrep preprocessing of the NARPS data",
+  "Name": "Brain segmentations from 3 experts",
   "BIDSVersion": "1.10.0",
   "DatasetType": "study",
   "License": "CC0",
@@ -9,12 +9,5 @@
   "DatasetLinks": {
     "raw": "sourcedata/raw/",
     "segmentations": "derivatives/segmentations/",
-    "ds001734": "https://openneuro.org/datasets/ds001734/versions/1.0.5"
-  },
-  "SourceDatasets": [
-    {
-      "URL": "ds001734",
-      "Version": "1.0.5"
-    }
-  ]
+  }
 }
