@@ -1,0 +1,149 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "who_b1": {
+        "LongName": "WHODAS_S1 (question ID 209478)",
+        "Description": "S1. Standing for long periods such as 30 minutes?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_e1": {
+        "LongName": "WHODAS_S2 (question ID 209479)",
+        "Description": "S2. Taking care of your household responsibilities?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_a4": {
+        "LongName": "WHODAS_S3 (question ID 209480)",
+        "Description": "S3. Learning a new task, for example, learning how to get to a new place?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_g1": {
+        "LongName": "WHODAS_S4 (question ID 209481)",
+        "Description": "S4. How much of a problem did you have joining in community activities (for example, festivities, religious, or other activities) in the same way as anyone else can?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_g5": {
+        "LongName": "WHODAS_S5 (question ID 209482)",
+        "Description": "S5. How much have you been emotionally affected by your health problems?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_a1": {
+        "LongName": "WHODAS_S6 (question ID 209483)",
+        "Description": "S6. Concentrating on doing something for ten minutes?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_b5": {
+        "LongName": "WHODAS_S7 (question ID 209484)",
+        "Description": "S7. Walking a long distance such as a kilometre [or equivalent]?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_c1": {
+        "LongName": "WHODAS_S8 (question ID 209485)",
+        "Description": "S8. Washing your whole body?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_c2": {
+        "LongName": "WHODAS_S9 (question ID 209486)",
+        "Description": "S9. Getting dressed?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_d1": {
+        "LongName": "WHODAS_S10 (question ID 209487)",
+        "Description": "S10. Dealing with people you do not know?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_d2": {
+        "LongName": "WHODAS_S11 (question ID 209488)",
+        "Description": "S11. Maintaining a friendship?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_f1": {
+        "LongName": "WHODAS_S12 (question ID 209489)",
+        "Description": "S12. Your day-to-day work?",
+        "Levels": {
+            "0": "None",
+            "1": "Mild",
+            "2": "Moderate",
+            "3": "Severe",
+            "4": "Extreme or cannot do"
+        }
+    },
+    "who_h1": {
+        "LongName": "WHODAS_H1 (question ID 209475)",
+        "Description": "H1. Overall, in the past 30 days, how many days were these difficulties present?"
+    },
+    "who_h2": {
+        "LongName": "WHODAS_H2 (question ID 209476)",
+        "Description": "H2. In the past 30 days, for how many days were you totally unable to carry out your usual activities or work because of any health condition?"
+    },
+    "who_h3": {
+        "LongName": "WHODAS_H3 (question ID 209477)",
+        "Description": "H3. In the past 30 days, not counting the days that you were totally unable, for how many days did you cut back or reduce your usual activities or work because of any health condition?"
+    }
+}

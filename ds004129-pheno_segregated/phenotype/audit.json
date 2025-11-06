@@ -1,0 +1,112 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "audit_02_1, audit_1_1month, audit_1_bl, audit_1_fu": {
+        "LongName": "AUDIT_ALCOHOL_FREQ (question ID 53334)",
+        "Description": "1. How often do you have a drink containing alcohol?",
+        "Levels": {
+            "0": "Never",
+            "1": "Monthly or less",
+            "2": "2-4 times a month",
+            "3": "2-3 times a week",
+            "4": "4 or more times a week"
+        }
+    },
+    "audit_02_2, audit_2_1month, audit_2_bl, audit_2_fu": {
+        "LongName": "AUDIT_ALCOHOL_PER_DAY (question ID 53344)",
+        "Description": "2. How many drinks containing alcohol do you have on a typical day when you are drinking?",
+        "Levels": {
+            "0": "1 or 2",
+            "1": "3 or 4",
+            "2": "5 or 6",
+            "3": "7 to 9",
+            "4": "10 or more",
+            "5": "N/A"
+        }
+    },
+    "audit_02_3, audit_3_1month, audit_3_bl, audit_3_fu": {
+        "LongName": "AUDIT_ALCOHOL_FREQ_PER_OCCASION (question ID 53345)",
+        "Description": "3. How often do you have six or more drinks on one occasion?",
+        "Levels": {
+            "0": "Never",
+            "1": "Less than monthly",
+            "2": "Monthly",
+            "3": "Weekly",
+            "4": "Daily or almost daily"
+        }
+    },
+    "audit12_04a, audit_02_4": {
+        "LongName": "AUDIT_FREQ_ADDIC_REALIZE (question ID 53346)",
+        "Description": "4. How often during the last year have you found that you were not able to stop drinking once you had started?",
+        "Levels": {
+            "0": "Never",
+            "1": "Less than monthly",
+            "2": "Monthly",
+            "3": "Weekly",
+            "4": "Daily or almost daily"
+        }
+    },
+    "audit12_05a, audit_02_5": {
+        "LongName": "AUDIT_FREQ_FAILED_TASK (question ID 53347)",
+        "Description": "5. How often during the last year have you failed to do what was normally expected of you because of drinking?",
+        "Levels": {
+            "0": "Never",
+            "1": "Less than monthly",
+            "2": "Monthly",
+            "3": "Weekly",
+            "4": "Daily or almost daily"
+        }
+    },
+    "audit12_06a, audit_02_6": {
+        "LongName": "AUDIT_FREQ_DRINK_MORNING (question ID 53348)",
+        "Description": "6.  How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?",
+        "Levels": {
+            "0": "Never",
+            "1": "Less than monthly",
+            "2": "Monthly",
+            "3": "Weekly",
+            "4": "Daily or almost daily"
+        }
+    },
+    "audit12_07a, audit_02_7": {
+        "LongName": "AUDIT_DRINK_REMORSE_FREQ (question ID 53349)",
+        "Description": "7. How often during the last year have you had a feeling of guilt or remorse after drinking?",
+        "Levels": {
+            "0": "Never",
+            "1": "Less than monthly",
+            "2": "Monthly",
+            "3": "Weekly",
+            "4": "Daily or almost daily"
+        }
+    },
+    "audit12_08a, audit_02_8": {
+        "LongName": "AUDIT_REMEMBR_NIGHT_PRIOR_FREQ (question ID 53350)",
+        "Description": "8. How often during the last year have you been unable to remember what happened the night before because of your drinking?",
+        "Levels": {
+            "0": "Never",
+            "1": "Less than monthly",
+            "2": "Monthly",
+            "3": "Weekly",
+            "4": "Daily or almost daily"
+        }
+    },
+    "audit_02_9, audit_9_1month, audit_9_bl, audit_9_fu": {
+        "LongName": "AUDIT_PERSON_INJURE_DRINK (question ID 53351)",
+        "Description": "9. Have you or someone else been injured because of your drinking?",
+        "Levels": {
+            "0": "No",
+            "2": "Yes, but not in the last year",
+            "4": "Yes during the last year"
+        }
+    },
+    "audit_10, audit_10_1month, audit_10_bl, audit_10_fu": {
+        "LongName": "AUDIT_PPL_CONCERN_DRINK (question ID 53352)",
+        "Description": "10. Has a relative, friend, doctor, or other health care worker been concerned about your drinking or suggested you cut down?",
+        "Levels": {
+            "0": "No",
+            "2": "Yes, but not in the last year",
+            "4": "Yes during the last year"
+        }
+    }
+}

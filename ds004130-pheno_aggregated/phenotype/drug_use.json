@@ -1,0 +1,115 @@
+{
+    "participant_id": {
+        "Description": "OpenNeuro ID of the subject."
+    },
+    "dsm_subs_use_01": {
+        "LongName": "DSM5_SUBSTANCE_1 (question ID 209928)",
+        "Description": "a. Painkillers (like Vicodin)",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_02": {
+        "LongName": "DSM5_SUBSTANCE_2 (question ID 209929)",
+        "Description": "b. Stimulants (like Ritalin, Adderall)",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_03": {
+        "LongName": "DSM5_SUBSTANCE_3 (question ID 209930)",
+        "Description": "c. Sedatives or tranquilizers (like sleeping pills or Valium)",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_04": {
+        "LongName": "DSM5_SUBSTANCE_4 (question ID 209931)",
+        "Description": "d. Marijuana",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_05": {
+        "LongName": "DSM5_SUBSTANCE_5 (question ID 209932)",
+        "Description": "e. Cocaine or crack",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_06": {
+        "LongName": "DSM5_SUBSTANCE_6 (question ID 209933)",
+        "Description": "f. Club drugs (like ecstasy)",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_07": {
+        "LongName": "DSM5_SUBSTANCE_7 (question ID 209934)",
+        "Description": "g. Hallucinogens (like LSD)",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_08": {
+        "LongName": "DSM5_SUBSTANCE_8 (question ID 209935)",
+        "Description": "h. Heroin",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_09": {
+        "LongName": "DSM5_SUBSTANCE_9 (question ID 209936)",
+        "Description": "i. Inhalants or solvents (like glue)",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    },
+    "dsm_subs_use_10": {
+        "LongName": "DSM5_SUBSTANCE_10 (question ID 209937)",
+        "Description": "j. Methamphetamine (like speed)",
+        "Levels": {
+            "0": "0- Not at all",
+            "1": "1- One or two days",
+            "2": "2- Several days",
+            "3": "3- More than half the days",
+            "4": "4- Nearly every day"
+        }
+    }
+}
