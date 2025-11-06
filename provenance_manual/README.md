@@ -17,13 +17,15 @@ This example aims at showing provenance metadata for a study dataset in which se
 │       ├── dataset_description.json
 │       ├── descriptions.tsv
 │       ├── docs
-│       │   └── prov.jsonld
+│       │   ├── prov-seg.jsonld
+│       │   └── prov-seg.png
 │       ├── prov
 │       │   ├── provenance.tsv
 │       │   ├── prov-seg_desc-exp1_act.json
 │       │   ├── prov-seg_desc-exp1_soft.json
 │       │   ├── prov-seg_desc-exp2_act.json
-│       │   └── prov-seg_desc-exp2_soft.json
+│       │   ├── prov-seg_desc-exp2_soft.json
+│       │   └── prov-seg_ent.json
 │       └── sub-001
 │           └── anat
 │               ├── sub-001_space-orig_desc-exp1_dseg.json
@@ -34,7 +36,6 @@ This example aims at showing provenance metadata for a study dataset in which se
 └── sourcedata
     └── raw
         ├── dataset_description.json
-        ├── participants.tsv
         └── sub-001
             └── anat
                 ├── sub-001_T1w.json
@@ -43,6 +44,6 @@ This example aims at showing provenance metadata for a study dataset in which se
 
 ## Provenance as a RDF graph
 
-Provenance metadata can be aggregated as a JSON-LD RDF graph, which is available in [`docs/prov-seg.jsonld`](docs/prov-seg.jsonld). This is a rendered version of the graph, also available in [`docs/prov-seg.png`](docs/prov-seg.png).
+Provenance metadata can be aggregated as a JSON-LD RDF graph, which is available in [`dderivatives/seg/ocs/prov-seg.jsonld`](derivatives/seg/docs/prov-seg.jsonld). This is a rendered version of the graph, also available in [`derivatives/seg/docs/prov-seg.png`](derivatives/seg/docs/prov-seg.png).
 
-![Rendered version of the RDF graph](docs/prov-seg.png)
+![Rendered version of the RDF graph](derivatives/seg/docs/prov-seg.png)
