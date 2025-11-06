@@ -14,12 +14,6 @@
         "Label": "ITK-SNAP",
         "Version": "4.4.0",
         "AltIdentifier": "RRID:SCR_002010"
-      },
-      {
-        "Id": "bids::prov#itksnap-zz55eds6",
-        "Label": "ITK-SNAP",
-        "Version": "4.4.0",
-        "AltIdentifier": "RRID:SCR_002010"
       }
     ],
     "Activities": [
@@ -44,20 +38,27 @@
         "Used": [
           "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
         ]
-      },
-      {
-        "Id": "bids::prov#segmentation-af6s5v2d",
-        "Label": "Semi-automatic brain segmentation",
-        "Command": "itk-snap sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz",
-        "AssociatedWith": [
-          "bids::prov#itksnap-zz55eds6"
-        ],
-        "Used": [
-          "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
-        ]
       }
     ],
-    "ProvEntities": [],
+    "ProvEntities": [
+      {
+        "Id": "bids:raw:sub-001/anat/sub-001_T1w.nii.gz",
+        "Label": "sub-001/anat/sub-001_T1w.nii.gz",
+        "AtLocation": "../../sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz"
+      },
+      {
+        "Id": "bids::sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
+        "Label": "sub-001_space-orig_desc-exp1_dseg.nii.gz",
+        "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
+        "GeneratedBy": "bids::prov#segmentation-nO5RGsrb"
+      },
+      {
+        "Id": "bids::sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
+        "Label": "sub-001_space-orig_desc-exp2_dseg.nii.gz",
+        "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
+        "GeneratedBy": "bids::prov#segmentation-mOOypIYB"
+      }
+    ],
     "Environments": []
   }
 }
