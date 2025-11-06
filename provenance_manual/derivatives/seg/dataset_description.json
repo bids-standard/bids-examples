@@ -1,5 +1,5 @@
 {
-  "Name": "Brain segmentations",
+  "Name": "Manual brain segmentations",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC0",
@@ -7,6 +7,6 @@
     "Boris Clénet"
   ],
   "DatasetLinks": {
-    "study": "../../.",
+    "raw": "../../sourcedata/raw",
   }
 }

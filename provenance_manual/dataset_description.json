@@ -1,13 +1,9 @@
 {
-  "Name": "Brain segmentations from 3 experts",
+  "Name": "Brain segmentations from 2 experts",
   "BIDSVersion": "1.10.0",
   "DatasetType": "study",
   "License": "CC0",
   "Authors": [
     "Boris Clénet"
-  ],
-  "DatasetLinks": {
-    "raw": "sourcedata/raw/",
-    "segmentations": "derivatives/segmentations/"
-  }
+  ]
 }
