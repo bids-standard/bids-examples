@@ -26,6 +26,5 @@
     ],
     "Species": "Human",
     "DerivedFrom": "27 fMRI studies from OpenNeuro (2.4TB total, millions of functional brain volumes)",
-    "SampleSize": 27,
-    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz"
+    "SampleSize": 27
 }

@@ -29,6 +29,5 @@
     ],
     "Species": "Human",
     "DerivedFrom": "Training set of 12 healthy subjects (24 hemispheres) with high-resolution T1-weighted MPRAGE scans (1.5T Siemens Sonata)",
-    "SampleSize": 12,
-    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-fsaverage_res-1_T1w.nii.gz"
+    "SampleSize": 12
 }

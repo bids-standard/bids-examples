@@ -39,6 +39,5 @@
     ],
     "Species": "Human",
     "DerivedFrom": "Genomics Superstruct Project (GSP) resting-state fMRI data (N=1489 young adults, ages 18-35). Validated using Human Connectome Project (HCP, N=820) and Nathan Kline Institute Rockland Sample (NKI, N=205, ages 6-85)",
-    "SampleSize": 1489,
-    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz"
+    "SampleSize": 1489
 }
