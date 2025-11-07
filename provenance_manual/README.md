@@ -44,6 +44,6 @@ This example aims at showing provenance metadata for a study dataset in which se
 
 ## Provenance as a RDF graph
 
-Provenance metadata can be aggregated as a JSON-LD RDF graph, which is available in [`derivatives/seg/ocs/prov-seg.jsonld`](derivatives/seg/docs/prov-seg.jsonld). This is a rendered version of the graph, also available in [`derivatives/seg/docs/prov-seg.png`](derivatives/seg/docs/prov-seg.png).
+Provenance metadata can be aggregated as a JSON-LD RDF graph, which is available in [`derivatives/seg/docs/prov-seg.jsonld`](derivatives/seg/docs/prov-seg.jsonld). This is a rendered version of the graph, also available in [`derivatives/seg/docs/prov-seg.png`](derivatives/seg/docs/prov-seg.png).
 
 ![Rendered version of the RDF graph](derivatives/seg/docs/prov-seg.png)
