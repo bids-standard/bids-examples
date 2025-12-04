@@ -1,0 +1,123 @@
+{
+  "BIDSProvVersion": "0.0.1",
+  "@context": "https://raw.githubusercontent.com/bclenet/bids-specification/refs/heads/BEP028_spec/src/provenance-context.json",
+  "Records": {
+    "Software": [
+      {
+        "Id": "bids::prov#heudiconv-a9x5yd3j",
+        "Label": "heudiconv",
+        "Version": "v1.3.2"
+      },
+      {
+        "Id": "bids::prov#dcm2niix-r4a7zxc0",
+        "Label": "dcm2niix",
+        "Version": "v1.3.2",
+        "prov:actedOnBehalfOf": "bids::prov#heudiconv-a9x5yd3j"
+      }
+    ],
+    "Activities": [
+      {
+        "Id": "bids::prov#preparation-conversion-1xkhm1ft",
+        "Label": "Preparation to conversion",
+        "Command": "heudiconv --files sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms/*.dcm -o . -f sourcedata/hirni-demo/code/hirni-toolbox/converters/heudiconv/hirni_heuristic.py -s 001 -ss acq1 -c dcm2niix -b --minmeta --overwrite",
+        "AssociatedWith": "bids::prov#heudiconv-a9x5yd3j",
+        "Used": [
+          "bids::prov#fedora-1cu6r6ou",
+          "bids::sourcedata/hirni-demo/acq1/studyspec.json",
+          "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms",
+          "bids::sourcedata/hirni-demo/code/hirni-toolbox/converters/heudiconv/hirni_heuristic.py"
+        ]
+      },
+      {
+        "Id": "bids::prov#conversion-00f3a18f",
+        "Label": "Conversion",
+        "Command": "dcm2niix",
+        "AssociatedWith": "bids::prov#dcm2niix-r4a7zxc0",
+        "Used": [
+          "bids::prov#fedora-1cu6r6ou",
+          "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms"
+        ]
+      }
+    ],
+    "ProvEntities": [
+      {
+        "Id": "bids::sourcedata/hirni-demo/code/hirni-toolbox/converters/heudiconv/hirni_heuristic.py",
+        "Label": "heuristic"
+      },
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq1/studyspec.json",
+        "Label": "studyspec"
+      },
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms",
+        "Label": "dicoms"
+      },
+      {
+        "Id": "bids::.bidsignore",
+        "Label": ".bidsignore",
+        "GeneratedBy": "bids::prov#preparation-conversion-1xkhm1ft"
+      },
+      {
+        "Id": "bids::.heudiconv/",
+        "Label": ".heudiconv/",
+        "GeneratedBy": "bids::prov#preparation-conversion-1xkhm1ft"
+      },
+      {
+        "Id": "bids::CHANGES",
+        "Label": "CHANGES",
+        "GeneratedBy": "bids::prov#preparation-conversion-1xkhm1ft"
+      },
+      {
+        "Id": "bids::dataset_description.json",
+        "Label": "dataset_description.json",
+        "GeneratedBy": "bids::prov#preparation-conversion-1xkhm1ft"
+      },
+      {
+        "Id": "bids::participants.json",
+        "Label": "participants.json",
+        "GeneratedBy": "bids::prov#preparation-conversion-1xkhm1ft"
+      },
+      {
+        "Id": "bids::participants.tsv",
+        "Label": "participants.tsv",
+        "GeneratedBy": "bids::prov#preparation-conversion-1xkhm1ft"
+      },
+      {
+        "Id": "bids::README",
+        "Label": "README",
+        "GeneratedBy": "bids::prov#preparation-conversion-1xkhm1ft"
+      },
+      {
+        "Id": "bids::scans.json",
+        "Label": "scans.json",
+        "GeneratedBy": "bids::prov#preparation-conversion-1xkhm1ft"
+      },
+      {
+        "Id": "bids::sub-001/anat/sub-001_run-1_T1w.nii.gz",
+        "Label": "sub-001_run-1_T1w.nii.gz",
+        "AtLocation": "sub-001/anat/sub-001_run-1_T1w.nii.gz",
+        "GeneratedBy": "bids::prov#conversion-00f3a18f"
+      },
+      {
+        "Id": "bids::sub-001/anat/sub-001_run-1_T1w.json",
+        "Label": "sub-001_run-1_T1w.json",
+        "AtLocation": "sub-001/anat/sub-001_run-1_T1w.json",
+        "GeneratedBy": [
+          "bids::prov#preparation-conversion-1xkhm1ft",
+          "bids::prov#conversion-00f3a18f"
+        ]
+      }
+    ],
+    "Environments": [
+      {
+        "Id": "bids::prov#fedora-1cu6r6ou",
+        "Label": "Fedora release 36 (Thirty Six)",
+        "OperatingSystem": "GNU/Linux 6.2.15-100.fc36.x86_64",
+        "EnvVars": {
+          "HIRNI_STUDY_SPEC": "sourcedata/hirni-demo/acq1/studyspec.json",
+          "HIRNI_SPEC2BIDS_SUBJECT": "001"
+        }
+      }
+    ]
+  }
+}
