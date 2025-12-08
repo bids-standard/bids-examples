@@ -94,6 +94,7 @@ validator, docker, or from the command line.
 | name              | why skipped                                            |
 | ----------------- | ------------------------------------------------------ |
 | ds000001-fmriprep | lack of coverage for "derivatives" in `bids-validator` |
+| ds000001-spm | lack of coverage for "derivatives" in `bids-validator` |
 
 ## Contributing
 
