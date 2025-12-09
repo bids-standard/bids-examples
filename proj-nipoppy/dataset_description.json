@@ -1,0 +1,16 @@
+{
+    "Name": "Example how nipoppy dataset could be presented as 'study'-type BIDS dataset",
+    "Description": "Demonstration for the https://github.com/bids-standard/bids-specification/pull/1972",
+    "BIDSVersion": "1.11.0",
+    "DatasetType": "study",
+    "Authors": [
+        "Yaroslav O. Halchenko", "Samuel Nastase"
+    ],
+    "GeneratedBy": [
+       {
+         "Name": "Script to produce this dataset",
+         "CodeURL": "file://./recreate-hierarchy"
+       }
+    ],
+    "License": "PDDL"
+}
