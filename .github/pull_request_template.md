@@ -1,6 +1,7 @@
-<!-- Fill out or delete as appropriate -->
+<!-- New examples often relate to in-progress changes to the specification or validator. Link to the relevant PRs, if any. -->
 
-- Needs testing against a bids-specification-pr: NUMBER-or-URL
+- BIDS Specification PR: NONE
+- BIDS Validator PR: NONE
 - TODOs:
   - [ ] ...
 
