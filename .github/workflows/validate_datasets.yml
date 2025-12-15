@@ -41,16 +41,16 @@ jobs:
           cat << 'EOF' > /tmp/pr_body.txt
         ${{ github.event.pull_request.body }}
         EOF
-          PR_NUM=$(grep -oP 'bids-specification-pr:\s*(https://github\.com/bids-standard/bids-specification/pulls?/)*\K[0-9]+' /tmp/pr_body.txt | head -1 || true)
-          [ -n "$PR_NUM" ] && echo "pr_number=$PR_NUM" >> $GITHUB_OUTPUT || :
+          SPEC_PR_NUM=$(grep -oP 'BIDS Specification PR:\s*(https://github\.com/bids-standard/bids-specification/pulls?/|bids-standard/bids-specification#)*\K[0-9]+' /tmp/pr_body.txt | head -1 || true)
+          [ -n "$SPEC_PR_NUM" ] && echo "spec_pr_number=$SPEC_PR_NUM" >> $GITHUB_OUTPUT || :
         fi
 
     - name: Set matrix
       id: set-matrix
       run: |
         EXTRA_ITEM=''
-        if [ -n "${{ steps.find-pr.outputs.pr_number }}" ]; then
-          EXTRA_ITEM=', "bids-pr"'
+        if [ -n "${{ steps.find-pr.outputs.spec_pr_number }}" ]; then
+          EXTRA_ITEM=', "bids-prs"'
         fi
         echo "matrix=[\"stable\", \"main\", \"dev\", \"legacy\"${EXTRA_ITEM}]" >> $GITHUB_OUTPUT
 
@@ -101,7 +101,7 @@ jobs:
           deno install -Agf -n bids-validator jsr:@bids/validator
 
     - name: Install BIDS validator (main)
-      if: matrix.bids-validator == 'main' || matrix.bids-validator == 'bids-pr'
+      if: matrix.bids-validator == 'main' || matrix.bids-validator == 'bids-prs'
       run: |
         # If unmerged validator PRs are needed for testing, you can use
         # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
@@ -166,8 +166,8 @@ jobs:
       # release of https://jsr.io/@bids/schema
       run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
 
-    - name: Set BIDS_SCHEMA variable for bids-pr version
-      if: matrix.bids-validator == 'bids-pr'
+    - name: Set BIDS_SCHEMA variable for bids-prs version
+      if: matrix.bids-validator == 'bids-prs'
       # Use the readthedocs PR preview build for the schema
       run: |
         echo "Using schema from bids-specification PR #${{ env.BIDS_PR }}"
