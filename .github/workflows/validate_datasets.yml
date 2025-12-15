@@ -27,7 +27,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
-      bids_pr: ${{ steps.find-pr.outputs.pr_number }}
+      spec_pr: ${{ steps.find-pr.outputs.spec_pr }}
+      val_pr: ${{ steps.find-pr.outputs.val_pr }}
     steps:
     - uses: actions/checkout@v5
       with:
@@ -41,16 +42,18 @@ jobs:
           cat << 'EOF' > /tmp/pr_body.txt
         ${{ github.event.pull_request.body }}
         EOF
-          SPEC_PR_NUM=$(grep -oP 'BIDS Specification PR:\s*(https://github\.com/bids-standard/bids-specification/pulls?/|bids-standard/bids-specification#)*\K[0-9]+' /tmp/pr_body.txt | head -1 || true)
-          [ -n "$SPEC_PR_NUM" ] && echo "spec_pr_number=$SPEC_PR_NUM" >> $GITHUB_OUTPUT || :
+          SPEC_PR=$(grep -oP 'BIDS Specification PR:\s*(https://github\.com/bids-standard/bids-specification/pulls?/|bids-standard/bids-specification#)*\K[0-9]+' /tmp/pr_body.txt | head -1 || true)
+          [ -n "$SPEC_PR" ] && echo "spec_pr=$SPEC_PR" >> $GITHUB_OUTPUT || :
+          VAL_PR=$(grep -oP 'BIDS Validator PR:\s*(https://github\.com/bids-standard/bids-validator/pulls?/|bids-standard/bids-validator#)*\K[0-9]+' /tmp/pr_body.txt | head -1 || true)
+          [ -n "$VAL_PR" ] && echo "val_pr=$VAL_PR" >> $GITHUB_OUTPUT || :
         fi
 
     - name: Set matrix
       id: set-matrix
       run: |
         EXTRA_ITEM=''
-        if [ -n "${{ steps.find-pr.outputs.spec_pr_number }}" ]; then
-          EXTRA_ITEM=', "bids-prs"'
+        if [ -n "${{ steps.find-pr.outputs.spec_pr }}${{ steps.find-pr.outputs.val_pr }}" ]; then
+          EXTRA_ITEM=', "dev-prs"'
         fi
         echo "matrix=[\"stable\", \"main\", \"dev\", \"legacy\"${EXTRA_ITEM}]" >> $GITHUB_OUTPUT
 
@@ -65,7 +68,8 @@ jobs:
     runs-on: ${{ matrix.platform }}
 
     env:
-      BIDS_PR: ${{ needs.prepare-matrix.outputs.bids_pr }}
+      SPEC_PR: ${{ needs.prepare-matrix.outputs.spec_pr }}
+      VAL_PR: ${{ needs.prepare-matrix.outputs.val_pr }}
       TZ: Europe/Berlin
       FORCE_COLOR: 1
 
@@ -101,14 +105,14 @@ jobs:
           deno install -Agf -n bids-validator jsr:@bids/validator
 
     - name: Install BIDS validator (main)
-      if: matrix.bids-validator == 'main' || matrix.bids-validator == 'bids-prs'
+      if: matrix.bids-validator == 'main'
       run: |
         # If unmerged validator PRs are needed for testing, you can use
         # https://github.com/<FORK>/bids-validator/raw/<BRANCH>/bids-validator/src/bids-validator.ts
         deno install -Agf https://github.com/bids-standard/bids-validator/raw/deno-build/bids-validator.js
 
     - name: Install BIDS validator (dev)
-      if: matrix.bids-validator == 'dev'
+      if: ( matrix.bids-validator == 'dev' ) || ( matrix.bids-validator == 'dev-prs' && env.VAL_PR == '' )
       run: |
         git clone -b dev https://github.com/bids-standard/bids-validator/ ../bids-validator
         cd ../bids-validator
@@ -118,6 +122,20 @@ jobs:
       if: "matrix.bids-validator == 'legacy'"
       run: |
         npm install -g bids-validator
+
+    - name: Install BIDS validator (dev-prs with VAL_PR)
+      if: matrix.bids-validator == 'dev-prs' && env.VAL_PR != ''
+      shell: bash
+      run: |
+        # Fetch PR info (fork URL and branch) - avoid mapfile for macOS compatibility
+        pr_json=$(curl -s https://api.github.com/repos/bids-standard/bids-validator/pulls/${{ env.VAL_PR }})
+        fork_url=$(echo "$pr_json" | jq -r '.head.repo.html_url')
+        branch=$(echo "$pr_json" | jq -r '.head.ref')
+        echo "I: Received fork_url=$fork_url branch=$branch"
+        # Perform the same installation as in "dev"
+        git clone -b "$branch" "$fork_url" ../bids-validator
+        cd ../bids-validator
+        deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
 
     - name: Display versions and environment information
       run: |
@@ -166,12 +184,12 @@ jobs:
       # release of https://jsr.io/@bids/schema
       run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
 
-    - name: Set BIDS_SCHEMA variable for bids-prs version
-      if: matrix.bids-validator == 'bids-prs'
+    - name: Set BIDS_SCHEMA variable for dev-prs version
+      if: matrix.bids-validator == 'dev-prs' && env.SPEC_PR != ''
       # Use the readthedocs PR preview build for the schema
       run: |
-        echo "Using schema from bids-specification PR #${{ env.BIDS_PR }}"
-        echo BIDS_SCHEMA=https://bids-specification--${{ env.BIDS_PR }}.org.readthedocs.build/en/${{ env.BIDS_PR }}/schema.json >> $GITHUB_ENV
+        echo "Using schema from bids-specification PR #${{ env.SPEC_PR }}"
+        echo BIDS_SCHEMA=https://bids-specification--${{ env.SPEC_PR }}.org.readthedocs.build/en/${{ env.SPEC_PR }}/schema.json >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
