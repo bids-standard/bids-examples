@@ -1,0 +1,11 @@
+name	type	units	target_muscle
+L_neck_emg	EMG	microV	Neck muscles (left)
+R_neck_emg	EMG	microV	Neck muscles (right)
+L_leg_emg_tibialis_anterior	EMG	microV	Tibialis anterior
+L_leg_emg_soleus	EMG	microV	Soleus
+L_leg_emg_medial_gastrocnemius	EMG	microV	Medial gastrocnemius
+L_leg_emg_peroneus_longus	EMG	microV	Peroneus longus
+R_leg_emg_tibialis_anterior	EMG	microV	Tibialis anterior
+R_leg_emg_soleus	EMG	microV	Soleus
+R_leg_emg_medial_gastrocnemius	EMG	microV	Medial gastrocnemius
+R_leg_emg_peroneus_longus	EMG	microV	Peroneus longus

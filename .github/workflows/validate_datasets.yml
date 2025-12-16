@@ -10,6 +10,7 @@ on:
     tags: ['**']
   schedule:
     - cron: "0 4 * * 1"
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.ref }}
@@ -34,11 +35,11 @@ jobs:
       FORCE_COLOR: 1
 
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Set up Node.js
       if: matrix.bids-validator == 'legacy'
-      uses: actions/setup-node@v5
+      uses: actions/setup-node@v6
       with:
         node-version: 22
 
@@ -49,7 +50,7 @@ jobs:
 
     - name: Load npm cache
       if: matrix.bids-validator == 'legacy'
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: ~/.npm
         key: npm-${{ runner.os }}-${{ env.MONTH }}
