@@ -77,3 +77,23 @@ The directory tree is as follows. Files marked with a ✍️ were generated manu
 Provenance metadata can be aggregated as a JSON-LD RDF graph, which is available in [`docs/prov-spm.jsonld`](docs/prov-spm.jsonld). This is a rendered version of the graph, also available in docs/prov-spm.png.
 
 ![Rendered version of the RDF graph](docs/prov-spm.png)
+
+## Description of processes or pipelines
+
+Provenance can also be described by providing `GeneratedBy` with an array of objects representing pipelines or processes that generated the dataset.
+
+In this case, the `GeneratedBy` field of the `dataset_description.json` file would have contain:
+
+```JSON
+{
+    ...
+    "GeneratedBy": [
+        {
+          "Name": "SPM preprocessing",
+          "Version": "SPM12r7771",
+          "Description": "Preprocessing of anatomical and functional MRI data with SPM",
+          "CodeURL": "bids::code/spm_preprocessing.m"
+        }
+    ]
+}
+```
