@@ -126,12 +126,17 @@ jobs:
     - name: Install BIDS validator (dev-prs with VAL_PR)
       if: matrix.bids-validator == 'dev-prs' && env.VAL_PR != ''
       shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
       run: |
-        # Fetch PR info (fork URL and branch) - avoid mapfile for macOS compatibility
-        pr_json=$(curl -s https://api.github.com/repos/bids-standard/bids-validator/pulls/${{ env.VAL_PR }})
-        fork_url=$(echo "$pr_json" | jq -r '.head.repo.html_url')
-        branch=$(echo "$pr_json" | jq -r '.head.ref')
+        # Fetch PR info using gh cli (handles auth automatically)
+        fork_url=$(gh api repos/bids-standard/bids-validator/pulls/${{ env.VAL_PR }} --jq '.head.repo.html_url')
+        branch=$(gh api repos/bids-standard/bids-validator/pulls/${{ env.VAL_PR }} --jq '.head.ref')
         echo "I: Received fork_url=$fork_url branch=$branch"
+        if [ "$fork_url" = "null" ] || [ -z "$fork_url" ]; then
+          echo "E: Failed to get PR info for VAL_PR=${{ env.VAL_PR }}"
+          exit 1
+        fi
         # Perform the same installation as in "dev"
         git clone -b "$branch" "$fork_url" ../bids-validator
         cd ../bids-validator
