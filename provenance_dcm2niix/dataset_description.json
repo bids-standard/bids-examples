@@ -1,0 +1,14 @@
+{
+    "Name": "Provenance records for dcm2niix",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Boris Clénet"
+    ],
+    "SourceDatasets": [
+        {
+            "URL": "https://github.com/psychoinformatics-de/hirni-demo"
+        }
+    ]
+}
