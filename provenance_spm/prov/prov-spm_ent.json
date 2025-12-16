@@ -5,7 +5,7 @@
       "Label": "sub-01_task-tonecounting_bold.nii.gz",
       "AtLocation": "data/sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
       "Digest": {
-        "sha256": "c02dc3b622a92fdcdaacb1dd198cd45b4004f326dd1f1abbc4be15a5e4cbc57d"
+        "SHA-256": "c02dc3b622a92fdcdaacb1dd198cd45b4004f326dd1f1abbc4be15a5e4cbc57d"
       }
     },
     {
@@ -13,7 +13,7 @@
       "Label": "sub-01_T1w.nii.gz",
       "AtLocation": "data/sub-01/anat/sub-01_T1w.nii.gz",
       "Digest": {
-        "sha256": "66eeafb465559148e0222d4079558a8354eb09b9efabcc47cd5b8af6eed51907"
+        "SHA-256": "66eeafb465559148e0222d4079558a8354eb09b9efabcc47cd5b8af6eed51907"
       }
     },
     {
@@ -21,7 +21,7 @@
       "Label": "TPM.nii",
       "AtLocation": "spm12/tpm/TPM.nii",
       "Digest": {
-        "sha256": "259527f0d92ca5eb0c21684f854e9d8cd7104f9f6a7ebf17ee98de420d9fc68f"
+        "SHA-256": "259527f0d92ca5eb0c21684f854e9d8cd7104f9f6a7ebf17ee98de420d9fc68f"
       }
     },
     {
@@ -30,7 +30,7 @@
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
       "GeneratedBy": "bids::prov#movefile-26803be5",
       "Digest": {
-        "sha256": "c02dc3b622a92fdcdaacb1dd198cd45b4004f326dd1f1abbc4be15a5e4cbc57d"
+        "SHA-256": "c02dc3b622a92fdcdaacb1dd198cd45b4004f326dd1f1abbc4be15a5e4cbc57d"
       }
     },
     {
@@ -38,7 +38,7 @@
       "Label": "sub-01_T1w.nii.gz",
       "GeneratedBy": "bids::prov#movefile-bac3f385",
       "Digest": {
-        "sha256": "66eeafb465559148e0222d4079558a8354eb09b9efabcc47cd5b8af6eed51907"
+        "SHA-256": "66eeafb465559148e0222d4079558a8354eb09b9efabcc47cd5b8af6eed51907"
       }
     },
     {
@@ -47,7 +47,7 @@
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii",
       "GeneratedBy": "bids::prov#gunzip-ca36a952",
       "Digest": {
-        "sha256": "672fafcd016b2442fcb7df90a6893a97cb1cd19fb70361dc70fb81d755ff74ea"
+        "SHA-256": "672fafcd016b2442fcb7df90a6893a97cb1cd19fb70361dc70fb81d755ff74ea"
       }
     },
     {
@@ -56,7 +56,7 @@
       "AtLocation": "sub-01/anat/sub-01_T1w.nii",
       "GeneratedBy": "bids::prov#gunzip-e9264918",
       "Digest": {
-        "sha256": "45485541db5734f565b7cac3e009f8b02907245fc6db435c700e84d1037773b5"
+        "SHA-256": "45485541db5734f565b7cac3e009f8b02907245fc6db435c700e84d1037773b5"
       }
     },
     {
@@ -65,7 +65,7 @@
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii",
       "GeneratedBy": "bids::prov#realign-acea8093",
       "Digest": {
-        "sha256": "a4e801438b9c36df010309c94fc4ef8b07d95e7d9cb2edb8c212a5e5efc78d90"
+        "SHA-256": "a4e801438b9c36df010309c94fc4ef8b07d95e7d9cb2edb8c212a5e5efc78d90"
       }
     },
     {
@@ -74,7 +74,7 @@
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.mat",
       "GeneratedBy": "bids::prov#realign-acea8093",
       "Digest": {
-        "sha256": "04e7e267a3697ee5680b2c59dd685c61394b75c990fd1c7d5409d1bd8be046bb"
+        "SHA-256": "04e7e267a3697ee5680b2c59dd685c61394b75c990fd1c7d5409d1bd8be046bb"
       }
     },
     {
@@ -83,7 +83,7 @@
       "AtLocation": "sub-01/anat/sub-01_T1w_seg8.mat",
       "GeneratedBy": "bids::prov#segment-7d5d4ac5",
       "Digest": {
-        "sha256": "2631f511158146fd154cc4e14ed185cbe96a8c692d33492df457e7c3768bb41e"
+        "SHA-256": "2631f511158146fd154cc4e14ed185cbe96a8c692d33492df457e7c3768bb41e"
       }
     }
   ]
