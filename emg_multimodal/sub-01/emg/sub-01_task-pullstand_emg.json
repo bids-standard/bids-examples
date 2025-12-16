@@ -1,0 +1,25 @@
+{
+	"TaskName": "pullstand",
+	"TaskDescription": "Participant stood on a treadmill-mounted balance beam and was exposed to sensorimotor perturbations consisting of side-to-side waist pulls",
+	"InstitutionName": "University of Michigan",
+	"InstitutionAddress": "Ann Arbor, Michigan 48109, USA",
+	"InstitutionalDepartmentName": "Department of Biomedical Engineering",
+	"Manufacturer": "Biosemi",
+	"ManufacturersModelName": "Biosemi Active II",
+	"SamplingFrequency": 256,
+	"PowerLineFrequency": 60,
+	"SoftwareFilters": {
+		"HighPassFilter": {
+			"cutoff": "1 (Hz)"
+		},
+		"Cleanline": {
+			"linefreqs": "60, 120, 180, 240 (Hz)"
+		}
+	},
+	"RecordingDuration": 620.453125,
+	"RecordingType": "continuous",
+	"EMGChannelCount": 10,
+	"EMGPlacementScheme": "Measured",
+	"EMGReference": "ChannelSpecific",
+	"EMGGround": "n/a"
+}
