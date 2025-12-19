@@ -93,3 +93,4 @@ emg_MultiBodyParts	EMG recording from multiple body parts with different electro
 emg_TwoHDsEMG	High-density EMG grid recordings from two body parts demonstrating grid placement documentation	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
 emg_TwoWristbands	EMG recordings using two wristbands with dry electrodes to capture forearm muscle activity	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
 mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject, two chunks.		[@valosekj](https://github.com/valosekj)	anat	T1w
+provenance_script	Provenance metadata for the GLM Analysis of an fMRI dataset with Nilearn.		[@bclenet](https://github.com/bclenet)	anat, func	T1w, bold, act, ent, env, soft
