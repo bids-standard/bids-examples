@@ -164,6 +164,24 @@ DO NOT EDIT DIRECTLY.
 | [eeg_matchingpennies](https://github.com/bids-standard/bids-examples/tree/master/eeg_matchingpennies)             | Offline data of BCI experiment decoding left vs. right hand movement. BrainVision data format (.eeg, .vhdr, .vmrk) | eeg         | channels, eeg, events                          | [link](https://doi.org/10.17605/OSF.IO/CJ2DR)   | [@sappelhoff](https://github.com/sappelhoff)   |
 | [eeg_rishikesh](https://github.com/bids-standard/bids-examples/tree/master/eeg_rishikesh)                         | Mind wandering experiment. EEG data in Biosemi (.bdf) format                                                       | eeg         | channels, eeg, events                          | [link](https://openneuro.org/datasets/ds001787) | [@arnodelorme](https://github.com/arnodelorme) |
 
+### EMG
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                                        | description                                                                                     | datatypes        | suffixes                                                           | link to full data   | maintained by                                        |
+|:----------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|:-----------------|:-------------------------------------------------------------------|:--------------------|:-----------------------------------------------------|
+| [emg_ConcurrentIndependentUnits](https://github.com/bids-standard/bids-examples/tree/master/emg_ConcurrentIndependentUnits) | Concurrent EMG recording with multiple independent recording units at different sampling rates  | emg              | channels, electrodes, coordsystem, emg, events                     | n/a                 | [@neuromechanist](https://github.com/neuromechanist) |
+| [emg_CustomBipolarFace](https://github.com/bids-standard/bids-examples/tree/master/emg_CustomBipolarFace)                   | EMG recording from facial muscles with many-to-many mapping between sensors and muscles         | emg              | channels, electrodes, coordsystem, emg                             | n/a                 | [@neuromechanist](https://github.com/neuromechanist) |
+| [emg_CustomBipolar](https://github.com/bids-standard/bids-examples/tree/master/emg_CustomBipolar)                           | Custom-made bipolar EMG recording setup with electrodes on flexors of the lower arm             | emg              | channels, emg                                                      | n/a                 | [@neuromechanist](https://github.com/neuromechanist) |
+| [emg_IndependentMod](https://github.com/bids-standard/bids-examples/tree/master/emg_IndependentMod)                         | Commercial bipolar EMG modules recording multiple muscles with wireless sensors                 | emg              | channels, electrodes, coordsystem, emg                             | n/a                 | [@neuromechanist](https://github.com/neuromechanist) |
+| [emg_MultiBodyParts](https://github.com/bids-standard/bids-examples/tree/master/emg_MultiBodyParts)                         | EMG recording from multiple body parts with different electrode types                           | emg              | channels, electrodes, coordsystem, emg                             | n/a                 | [@neuromechanist](https://github.com/neuromechanist) |
+| [emg_Multimodal](https://github.com/bids-standard/bids-examples/tree/master/emg_Multimodal)                                 | Integration of EEG, EMG, and motion capture data                                                | eeg, emg, motion | channels, electrodes, coordsystem, eeg, emg, motion, scans, events | n/a                 | [@neuromechanist](https://github.com/neuromechanist) |
+| [emg_TwoHDsEMG](https://github.com/bids-standard/bids-examples/tree/master/emg_TwoHDsEMG)                                   | High-density EMG grid recordings from two body parts demonstrating grid placement documentation | emg              | channels, electrodes, coordsystem, emg                             | n/a                 | [@neuromechanist](https://github.com/neuromechanist) |
+| [emg_TwoWristbands](https://github.com/bids-standard/bids-examples/tree/master/emg_TwoWristbands)                           | EMG recordings using two wristbands with dry electrodes to capture forearm muscle activity      | emg              | channels, electrodes, coordsystem, emg                             | n/a                 | [@neuromechanist](https://github.com/neuromechanist) |
+
 ### DWI
 
 <!--
