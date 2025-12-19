@@ -77,6 +77,7 @@ jobs:
       run: |
         git clone -b dev https://github.com/bids-standard/bids-validator/ ../bids-validator
         cd ../bids-validator
+        git checkout bep028
         deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
 
     - name: Install BIDS validator (legacy)
@@ -108,7 +109,7 @@ jobs:
         fi
 
     - name: Skip legacy validation for post-legacy datasets
-      run: for DS in mrs_* dwi_deriv pet006 pheno004 volume_timing; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in mrs_* dwi_deriv pet006 pheno004 volume_timing provenance_*; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator == 'legacy'
 
     - name: Skip stable validation for datasets with unreleased validator features
@@ -129,7 +130,7 @@ jobs:
       # Update this URL to the schema.json from PRs to the spec, when needed.
       # If this variable is unset, dev will generally track the latest development
       # release of https://jsr.io/@bids/schema
-      run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
+      run: echo BIDS_SCHEMA=https://bids-specification--2099.org.readthedocs.build/en/2099/schema.json >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
