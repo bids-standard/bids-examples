@@ -1,0 +1,20 @@
+{
+    "Authors": [
+        "Janke AL"
+    ],
+    "BIDSVersion": "1.1.0",
+    "Curators": [
+        "Esteban O",
+        "Goncalves M"
+    ],
+    "License": "FSL License - Non-commercial use only. Commercial use requires permission from University of Oxford. Contact: steve@fmrib.ox.ac.uk for Harvard-Oxford atlas inquiries.",
+    "Name": "FSL's MNI ICBM 152 non-linear 6th Generation Asymmetric Average Brain Stereotaxic Registration Model",
+    "RRID": "SCR_002823",
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1016/j.neuroimage.2012.01.024",
+        "https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases"
+    ],
+    "Species": "Human",
+    "Resolution": "2mm isotropic",
+    "SkullStripped": false
+}
