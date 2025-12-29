@@ -1,0 +1,5 @@
+name	reference	type	units	sampling_frequency	recording_mode	gain	ground	status
+patch01_vm	n/a	VM	mV	20000	current-clamp	10	AgCl	good
+patch01_im	n/a	IM	pA	20000	current-clamp	5	AgCl	good
+patch02_vm	n/a	VM	mV	20000	voltage-clamp	10	AgCl	good
+patch02_im	n/a	IM	pA	20000	voltage-clamp	5	AgCl	good

@@ -1,0 +1,41 @@
+Example Microelectrode Electrophysiology Dataset
+=================================================
+
+This example dataset demonstrates the BIDS microelectrode electrophysiology 
+(microephys) specification for both extracellular (ecephys) and intracellular 
+(icephys) recordings.
+
+Dataset Structure
+-----------------
+
+The dataset contains two subjects:
+
+- sub-mouse01: Extracellular electrophysiology (ecephys) recordings
+  - Session 1: Two recording sessions with different tasks
+  - Uses a silicon probe (Neuropixels-like) with 32 electrodes
+  
+- sub-mouse02: Intracellular electrophysiology (icephys) recordings
+  - Patch-clamp recordings from identified neurons
+  - Current-clamp and voltage-clamp recordings
+
+Data Format
+-----------
+
+All electrophysiology data is stored in NWB format (.nwb files). 
+Note: In this example, placeholder .nwb files are used to demonstrate 
+the file structure. In a real dataset, these would contain actual 
+neural recording data.
+
+Metadata Files
+--------------
+
+Each recording includes:
+- *_probes.tsv: Information about recording probes/pipettes
+- *_electrodes.tsv: Electrode positions and properties
+- *_channels.tsv: Recording channel configurations
+- *_ecephys.json or *_icephys.json: Recording parameters and metadata
+- *_events.tsv: Event timing for task-related recordings
+
+For more information about the BIDS microelectrode electrophysiology 
+specification, see:
+https://bids-specification.readthedocs.io/en/latest/modality-specific-files/microelectrode-electrophysiology.html
