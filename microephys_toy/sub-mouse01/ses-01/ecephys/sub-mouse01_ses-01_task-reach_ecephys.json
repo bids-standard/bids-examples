@@ -1,6 +1,7 @@
 {
     "TaskName": "Reach to Grasp",
     "TaskDescription": "Subject reaches and grasps objects of different shapes and sizes while neural activity is recorded from motor cortex",
+    "CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c89926767870/",
     "InstitutionName": "Example University",
     "InstitutionAddress": "123 Main St, City, State 12345, USA",
     "InstitutionalDepartmentName": "Neuroscience Department",
@@ -24,10 +25,10 @@
     },
     "RecordingType": "continuous",
     "RecordingDuration": 1800,
-    "PharmaceuticalName": ["isoflurane"],
+    "PharmaceuticalName": "isoflurane",
     "PharmaceuticalDoseAmount": [1.5],
-    "PharmaceuticalDoseUnits": ["percent"],
+    "PharmaceuticalDoseUnits": "percent",
     "BodyPart": "BRAIN",
     "BodyPartDetails": "Primary Motor Cortex",
-    "SampleEnvironment": "in-vivo"
+    "SampleEnvironment": "in vivo"
 }

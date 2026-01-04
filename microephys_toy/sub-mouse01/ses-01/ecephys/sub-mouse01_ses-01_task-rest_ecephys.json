@@ -1,6 +1,7 @@
 {
     "TaskName": "Resting State",
     "TaskDescription": "Spontaneous neural activity recording during quiet wakefulness",
+    "CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
     "InstitutionName": "Example University",
     "InstitutionAddress": "123 Main St, City, State 12345, USA",
     "InstitutionalDepartmentName": "Neuroscience Department",
@@ -24,10 +25,10 @@
     },
     "RecordingType": "continuous",
     "RecordingDuration": 600,
-    "PharmaceuticalName": ["isoflurane"],
+    "PharmaceuticalName": "isoflurane",
     "PharmaceuticalDoseAmount": [1.5],
-    "PharmaceuticalDoseUnits": ["percent"],
+    "PharmaceuticalDoseUnits": "percent",
     "BodyPart": "BRAIN",
     "BodyPartDetails": "Primary Motor Cortex",
-    "SampleEnvironment": "in-vivo"
+    "SampleEnvironment": "in vivo"
 }
