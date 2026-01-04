@@ -1,0 +1,33 @@
+{
+    "TaskName": "Reach to Grasp",
+    "TaskDescription": "Subject reaches and grasps objects of different shapes and sizes while neural activity is recorded from motor cortex",
+    "InstitutionName": "Example University",
+    "InstitutionAddress": "123 Main St, City, State 12345, USA",
+    "InstitutionalDepartmentName": "Neuroscience Department",
+    "PowerLineFrequency": 60,
+    "Manufacturer": "IMEC",
+    "ManufacturersModelName": "Neuropixels 1.0",
+    "SamplingFrequency": 30000,
+    "SoftwareName": "Open Ephys",
+    "SoftwareVersions": "0.6.0",
+    "SoftwareFilters": {
+        "LowpassFilter": {
+            "Half-amplitude cutoff (Hz)": 300,
+            "Roll-off": "6dB/Octave"
+        }
+    },
+    "HardwareFilters": {
+        "HighpassFilter": {
+            "Half-amplitude cutoff (Hz)": 0.1,
+            "Roll-off": "6dB/Octave"
+        }
+    },
+    "RecordingType": "continuous",
+    "RecordingDuration": 1800,
+    "PharmaceuticalName": ["isoflurane"],
+    "PharmaceuticalDoseAmount": [1.5],
+    "PharmaceuticalDoseUnits": ["percent"],
+    "BodyPart": "BRAIN",
+    "BodyPartDetails": "Primary Motor Cortex",
+    "SampleEnvironment": "in-vivo"
+}
