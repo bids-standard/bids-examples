@@ -5,6 +5,25 @@ This example dataset demonstrates the BIDS microelectrode electrophysiology
 (microephys) specification for both extracellular (ecephys) and intracellular 
 (icephys) recordings.
 
+Features Demonstrated
+---------------------
+
+This dataset demonstrates the following key features:
+
+* **Registration to Allen CCF v3 space**: Electrode positions are provided in 
+  Allen Common Coordinate Framework v3 (see space-AllenCCFv3 files)
+  
+* **Multiple probes in a single subject**: sub-mouse01 uses two probes 
+  simultaneously (probe01 and probe02) targeting different brain regions
+  
+* **Probe defined in ProbeInterface Library**: probe01 uses the 
+  A1x32-Poly3-10mm-50-177 model from the ProbeInterface library, referenced 
+  via TermURL in the probes.json sidecar
+  
+* **Probe defined using a custom ProbeInterface definition**: probe02 uses a 
+  custom probe definition stored in the probes/ directory, referenced via 
+  BIDS URI (bids::probes/customprobe1.json)
+
 Dataset Structure
 -----------------
 
@@ -12,7 +31,9 @@ The dataset contains two subjects:
 
 - sub-mouse01: Extracellular electrophysiology (ecephys) recordings
   - Session 1: Two recording sessions with different tasks
-  - Uses a silicon probe (Neuropixels-like) with 32 electrodes
+  - Uses two silicon probes:
+    - probe01: NeuroNexus A1x32 (32 electrodes) in left motor cortex
+    - probe02: Custom 16-channel probe in right hippocampus CA1
   
 - sub-mouse02: Intracellular electrophysiology (icephys) recordings
   - Patch-clamp recordings from identified neurons
@@ -31,10 +52,13 @@ Metadata Files
 
 Each recording includes:
 - *_probes.tsv: Information about recording probes/pipettes
+- *_probes.json: Probe model definitions with ProbeInterface references
 - *_electrodes.tsv: Electrode positions and properties
 - *_channels.tsv: Recording channel configurations
 - *_ecephys.json or *_icephys.json: Recording parameters and metadata
 - *_events.tsv: Event timing for task-related recordings
+- *_coordsystem.json: Coordinate system information (Allen CCF v3)
+
 
 For more information about the BIDS microelectrode electrophysiology 
 specification, see:
