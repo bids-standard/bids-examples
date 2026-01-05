@@ -1,3 +1,3 @@
 name	reference	type	units	sampling_frequency	contact_id	gain	patch_type	hardware_filters	recording_mode
 chan-01	n/a	VM	mV	30000	con-01	20	WCP	LP_filter_1	current clamp
-chan-02	n/a	VM	mV	30000	con-02	50	WCP	LP_filter_2	current clamp
+chan-02	n/a	VM	mV	30000	con-02	15	WCP	LP_filter_2	current clamp
