@@ -1,0 +1,17 @@
+{
+    "channel_id": {
+        "description": "Identifier of the channel on which the event occurred. Links to name column in channels.tsv."
+    },
+    "sample_id": {
+        "description": "Identifier of the sample (cell) associated with this event."
+    },
+    "stim_type": {
+        "description": "Type of the stimulation (square pulse, sinusoid, etc.)."
+    },
+    "stim_unit": {
+        "description": "Physical unit of the stimulation amplitude."
+    },
+    "stim_amplitude": {
+        "description": "Amplitude of the stimulation in the specified unit."
+    }
+}

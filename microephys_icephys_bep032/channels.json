@@ -1,0 +1,16 @@
+{
+  "contact_id": {
+    "description": "Identifier of the electrode contact associated with this channel. Links to name column in electrodes.tsv."
+  },
+  "patch_type": {
+    "description": "Type of patch clamp recording technique.",
+    "levels": {
+      "CAT": "Cell-attached patch: Pipette attached to cell membrane without breaking through",
+      "PP": "Perforated patch: Membrane perforated using antibiotic to gain electrical access",
+      "WCP": "Whole-cell patch: Membrane ruptured for direct intracellular access"
+    }
+  },
+  "hardware_filters": {
+    "description": "Name/identifier of hardware filter applied to this channel."
+  }
+}

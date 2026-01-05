@@ -1,0 +1,12 @@
+{
+    "sample_type": {
+        "description": "Type of sample from ENCODE Biosample Type (https://www.encodeproject.org/profiles/biosample_type).",
+        "levels": {
+            "tissue": "Brain tissue slice from which cells are derived",
+            "in vitro differentiated cells": "Individual cells patched for intracellular recording"
+        }
+    },
+    "derived_from": {
+        "description": "The sample_id from which this sample is derived. For cells, this is the parent tissue sample."
+    }
+}
