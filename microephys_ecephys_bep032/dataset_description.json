@@ -16,7 +16,7 @@
   "Acknowledgements": "We thank Emiliano Torre and Vahid Rostami for detecting and handling the hyper-synchronous event artifacts, and Florent Jaillet for developing the Event-Detection Toolbox in Matlab. Special thanks to Moshe Abeles who was a tough teacher for Sonja Grün and taught her the knowledge required for projects like this.",
   "HowToAcknowledge": "Brochier T, Zehl L, Hao Y, Duret M, Sprenger J, Denker M, Grün S, Riehle A (2017) Massively parallel multi-electrode recordings of macaque motor cortex during an instructed delayed reach-to-grasp task. G-Node. https://doi.org/10.12751/g-node.f83565",
   "Funding": [
-    "Helmholtz Portfolio “Supercomputing and Modeling for the Human Brain” (SMHB)",
+    "Helmholtz Portfolio 'Supercomputing and Modeling for the Human Brain' (SMHB)",
     "EU Grants 604102 and 720270 (Human Brain Project, HBP)",
     "Priority Program SPP 1665 of the DFG (GR 1753/4-2 and DE 2175/2-1)",
     "Collaborative Research Agreement RIKEN-CNRS",
@@ -27,5 +27,17 @@
   ],
   "ReferencesAndLinks": [
     "https://doi.org/10.1038/sdata.2018.55"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Manual BIDS conversion",
+      "Description": "Converted from original Blackrock data format to BIDS"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://gin.g-node.org/INT/multielectrode_grasp",
+      "DOI": "doi:10.12751/g-node.f83565"
+    }
   ]
 }

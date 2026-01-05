@@ -17,18 +17,6 @@
   "device_serial_number": {
     "description": "Serial number of the specific probe device."
   },
-  "electrode_count": {
-    "description": "Total number of electrodes on the probe."
-  },
-  "width": {
-    "description": "Width of the probe in specified units."
-  },
-  "height": {
-    "description": "Height of the probe in specified units."
-  },
-  "depth": {
-    "description": "Depth of the probe in specified units."
-  },
   "hemisphere": {
     "description": "Hemisphere in which the probe was implanted.",
     "levels": {
@@ -67,5 +55,9 @@
     "levels": {
       "RIKEN-BSI, Japan": "RIKEN Brain Science Institute, Japan"
     }
+  },
+  "array_rotation": {
+    "description": "Rotation of the array in the counter-clockwise direction in degrees, where 0 degrees is defined by projecting the array onto a sagittal view of the brain with the wire bundle extruding to the anterior direction.",
+    "units": "deg"
   }
 }

@@ -5,25 +5,14 @@
   "probe_id": {
     "description": "Identifier for the probe to which the electrode belongs.",
     "levels": {
-      "Prob-1025-0503": "Probe model 1025-0503"
+      "UtahArray-1025-0503": "Utah Array with serial number 1025-0503"
     }
-  },
-  "x": {
-    "description": "X-coordinate of the electrode position in millimeters, relative to a defined origin (e.g., probe tip or a common anatomical landmark)."
-  },
-  "y": {
-    "description": "Y-coordinate of the electrode position in millimeters, relative to a defined origin (e.g., probe tip or a common anatomical landmark)."
-  },
-  "z": {
-    "description": "Z-coordinate of the electrode position in millimeters, relative to a defined origin (e.g., probe tip or a common anatomical landmark)."
-  },
-  "impedance": {
-    "description": "Measured impedance of the electrode."
   },
   "material": {
     "description": "Material of the electrode contact.",
     "levels": {
-      "iridium oxide": "Iridium oxide"
+      "iridium oxide": "Iridium oxide (recording electrodes)",
+      "Pt/Au": "Platinum/Gold (reference wires)"
     }
   },
   "location": {

@@ -5,18 +5,6 @@
   "contact_id": {
     "description": "Identifier for the contact. 'n/a' indicates not applicable or not specified."
   },
-  "sampling_frequency": {
-    "description": "Sampling frequency of the channel in Hz."
-  },
-  "units": {
-    "description": "Units of the recorded signal.",
-    "levels": {
-      "uV": "Microvolts"
-    }
-  },
-  "channel_name": {
-    "description": "Descriptive name of the channel."
-  },
   "file_origin": {
     "description": "Path to the source data file from which this channel's data originates."
   },
@@ -32,14 +20,32 @@
   "nb_sorted_units": {
     "description": "Number of sorted units for this channel. 0 indicates no sorted units."
   },
+  "nev_hi_freq_order": {
+    "description": "Order of the high-pass frequency filter for NEV spike data."
+  },
+  "nev_hi_freq_type": {
+    "description": "Type of the high-pass frequency filter for NEV spike data."
+  },
+  "nev_lo_freq_order": {
+    "description": "Order of the low-pass frequency filter for NEV spike data."
+  },
+  "nev_lo_freq_type": {
+    "description": "Type of the low-pass frequency filter for NEV spike data."
+  },
+  "nsx_hi_freq_order": {
+    "description": "Order of the high-pass frequency filter for NSx continuous data."
+  },
+  "nsx_lo_freq_order": {
+    "description": "Order of the low-pass frequency filter for NSx continuous data."
+  },
+  "nsx_hi_freq_type": {
+    "description": "Type of the high-pass frequency filter for NSx continuous data."
+  },
+  "nsx_lo_freq_type": {
+    "description": "Type of the low-pass frequency filter for NSx continuous data."
+  },
   "nsx": {
     "description": "Neuralynx NSx file version or type. E.g., 2 for NS2, 5 for NS5."
-  },
-  "hi_pass_freq": {
-    "description": "High-pass filter frequency in Hz. 'n/a' indicates no high-pass filter applied or not specified."
-  },
-  "lo_pass_freq": {
-    "description": "Low-pass filter frequency in Hz. 'n/a' indicates no low-pass filter applied or not specified."
   },
   "hi_pass_order": {
     "description": "Order of the high-pass filter. 'n/a' indicates no high-pass filter applied or not specified."
@@ -78,20 +84,13 @@
       "n/a": "Not applicable or not specified."
     }
   },
-  "connector_aligned_ids": {
-    "description": "Identifier for aligned connectors. 'n/a' indicates not applicable or not specified."
+  "connector_aligned_id": {
+    "description": "Channel ID in a spatially organized grid. 'n/a' indicates not applicable or not specified."
   },
   "coordinates_x": {
     "description": "X-coordinate of the channel/electrode position. 'n/a' indicates not applicable or not specified."
   },
   "coordinates_y": {
-    "description": "Y-coordinate of the channel/electrode position. 'n/a' indicates not applicable or not specified."
-  },
-  "channel_type": {
-    "description": "Type of channel.",
-    "levels": {
-      "BEH": "Behavioral channel",
-      "EXT": "External channel"
-    }
+    "description": "Y-coordinate of the channel/electrode position. 'n/a' indicates not applicable or not specified. Note: This duplicates information from electrodes.tsv and is retained for source data fidelity."
   }
 }

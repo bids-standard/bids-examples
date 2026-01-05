@@ -1,6 +1,7 @@
 {
   "InstitutionName": "Institut de Neuroscience de la Timone, Marseille, France",
   "InstitutionAddress": "Faculté de Médecine,  27, boulevard Jean Moulin, 13005 Marseille, France",
+  "InstitutionalDepartmentName": "UMR 7289, CNRS - Aix Marseille Université",
   "Collaborators": [
     "Institute of Neuroscience and Medicine (INM-6), 52425 Jülich, Germany",
     "Institute for Advanced Simulation (IAS-6), 52425 Jülich, Germany",
@@ -9,14 +10,32 @@
 "TaskName": "r2g",
 "TaskDescription": "Reach to grasp: A task that involves the reaching of an object and holding it for a specific time",
 "TaskType": "Two Cue Task",
+"SampleEnvironment": "in vivo",
+"BodyPart": "brain",
+"BodyPartDetails": "Primary Motor Cortex (M1)",
 "PowerLineFrequency": 60.0,
-"Manufacturer": "NI, National Instruments Corporation, Austin, Texas, USA",
+"Manufacturer": "Blackrock Microsystems",
+"ManufacturersModelName": "Cerebus",
+"ManufacturersModelVersion": "NSP",
+"RecordingSetupName": "Cerebus Data Acquisition System",
+"DeviceSerialNumber": "1025-0503",
+"SoftwareName": "CentralSuite",
+"SoftwareVersions": "n/a",
 "Location": "Inst. de Neurosciences de la Timone (INT), UMR 7289, CNRS - Aix Marseille Univ., Marseille, France",
 "SamplingFrequency": 30000.0,
-"SerialNumber": "8596-001139",
+"RecordingDuration": 709.248,
+"RecordingType": "continuous",
+"HardwareFilters": "n/a",
 "Creator": "Thomas Brochier",
 "Maintainer": "Thomas Brochier",
-"SoftwareFilters": "butterwoth",
+"SoftwareFilters": {
+    "Butterworth": {
+      "HighPassFrequency": 0.3,
+      "LowPassFrequency": 7500,
+      "HighPassOrder": 1,
+      "LowPassOrder": 3
+    }
+  },
 "PowerLineFrequencyUnit": "Hz",
 "ChannelId": {
   "Description": "Unique identifier of the channel"
