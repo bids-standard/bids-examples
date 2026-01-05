@@ -1,16 +1,26 @@
 {
-    "BIDSVersion": "1.9.0",
+    "Name": "PETPrep Test Data Collection",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
     "License": "CC0",
-    "Name": "NIMH DASB-PET database",
     "Authors": [
-        "Adam G. Thomas",
-        "Martin Noergaard",
-	"Dara Cannon"
+        "datalad",
+        "python",
+        "make",
+        "openneuro"
     ],
-    "Acknowledgements": "",
-    "HowToAcknowledge": "This data was obtained from the national institute of mental health",
+    "HowToAcknowledge": "Please cite the original datasets and PETPrep software.",
     "Funding": [
-        "NIMH"
+        "This test data collection was created for PETPrep development and testing purposes"
     ],
-    "DatasetDOI": ""
+    "EthicsApprovals": [
+        "This is a test dataset compiled from publicly available BIDS datasets for software",
+        "testing purposes"
+    ],
+    "ReferencesAndLinks": [
+        "https://github.com/nipreps/petprep",
+        "https://openneuro.org"
+    ],
+    "DatasetDOI": "10.18112/openneuro.ds000000.v1.0.0",
+    "HEDVersion": "8.0.0"
 }
