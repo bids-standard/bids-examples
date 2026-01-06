@@ -1,0 +1,86 @@
+{
+  "BIDSProvVersion": "0.0.1",
+  "@context": "https://raw.githubusercontent.com/bclenet/bids-specification/refs/heads/BEP028_spec/src/provenance-context.json",
+  "Records": {
+    "Software": [
+      {
+        "Id": "bids::prov#python-RcggGffB",
+        "Label": "Python",
+        "Version": "3.10.11"
+      }
+    ],
+    "Activities": [
+      {
+        "Id": "bids::prov#glm-TzAuB7k8",
+        "Label": "A Nilearn First Level GLM.",
+        "Command": "python plot_bids_features.py",
+        "AssociatedWith": "bids::prov#python-RcggGffB",
+        "Used": [
+          "bids::prov#entity-A6CltiO4",
+          "bids:ds000030",
+          "bids::prov#virtualenv-Mjn5ZRoX"
+        ]
+      }
+    ],
+    "Files": [
+      {
+        "Id": "bids::prov#entity-A6CltiO4",
+        "Label": "plot_bids_features.py",
+        "AtLocation": "https://github.com/nilearn/nilearn/blob/0.12.0/examples/04_glm_first_level/plot_bids_features.py"
+      }
+    ],
+    "Datasets": [
+      {
+        "Id": "bids:ds000030",
+        "Label": "UCLA Consortium for Neuropsychiatric Phenomics LA5c Study"
+      },
+      {
+        "Id": "bids:current_dataset",
+        "Label": "Provenance metadata for Nilearn-based fMRI statistical analysis",
+        "GeneratedBy": [
+          "bids::prov#glm-TzAuB7k8"
+        ]
+      }
+    ],
+    "prov:Entity": [],
+    "Environments": [
+      {
+        "Id": "bids::prov#virtualenv-Mjn5ZRoX",
+        "Label": "Python virtual environment",
+        "OperatingSystem": "Fedora Linux 36",
+        "Dependencies": {
+          "certifi": "2025.11.12",
+          "charset-normalizer": "3.4.4",
+          "contourpy": "1.3.2",
+          "cycler": "0.12.1",
+          "fonttools": "4.61.1",
+          "idna": "3.11",
+          "importlib_resources": "6.5.2",
+          "Jinja2": "3.1.6",
+          "joblib": "1.5.3",
+          "kiwisolver": "1.4.9",
+          "lxml": "6.0.2",
+          "MarkupSafe": "3.0.3",
+          "matplotlib": "3.10.8",
+          "nibabel": "5.3.3",
+          "nilearn": "0.12.0",
+          "numpy": "2.2.6",
+          "packaging": "25.0",
+          "pandas": "2.3.3",
+          "pillow": "12.0.0",
+          "pyparsing": "3.2.5",
+          "python-dateutil": "2.9.0.post0",
+          "pytz": "2025.2",
+          "requests": "2.32.5",
+          "scikit-learn": "1.7.2",
+          "scipy": "1.15.3",
+          "six": "1.17.0",
+          "threadpoolctl": "3.6.0",
+          "typing_extensions": "4.15.0",
+          "tzdata": "2025.3",
+          "urllib3": "2.6.2"
+        }
+      }
+    ]
+  }
+}

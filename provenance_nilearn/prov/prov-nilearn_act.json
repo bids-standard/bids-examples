@@ -6,8 +6,9 @@
       "Command": "python plot_bids_features.py",
       "AssociatedWith": "bids::prov#python-RcggGffB",
       "Used": [
-        "https://github.com/nilearn/nilearn/blob/0.12.0/examples/04_glm_first_level/plot_bids_features.py",
-        "bids:ds000030:."
+        "bids::prov#entity-A6CltiO4",
+        "bids:ds000030:.",
+        "bids::prov#virtualenv-Mjn5ZRoX"
       ]
     }
   ]
