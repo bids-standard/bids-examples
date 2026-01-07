@@ -26,7 +26,7 @@
       "Id": "bids::prov#gunzip-ca36a952",
       "Label": "Gunzip",
       "Used": [
-        "urn:20953875-19dd-409d-adf1-5ff4404f8ae7"
+        "bids::sub-01/func/sub-01_task-tonecounting_bold.nii.gz#5ff4404f"
       ],
       "AssociatedWith": "bids::prov#spm-fa0baf93",
       "Command": "matlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));\nmatlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.outdir = {''};\nmatlabbatch{3}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.keep = false;",
@@ -37,7 +37,7 @@
       "Id": "bids::prov#gunzip-e9264918",
       "Label": "Gunzip",
       "Used": [
-        "urn:9dff6df8-56be-4d25-a127-b31b20890943"
+        "bids::sub-01/anat/sub-01_T1w.nii.gz#b31b2089"
       ],
       "AssociatedWith": "bids::prov#spm-fa0baf93",
       "Command": "matlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.files(1) = cfg_dep('Move/Delete Files: Moved/Copied Files', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files'));\nmatlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.outdir = {''};\nmatlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_gunzip_files.keep = false;",
@@ -48,7 +48,7 @@
       "Id": "bids::prov#realign-acea8093",
       "Label": "Realign",
       "Used": [
-        "urn:ee913e65-93fb-474a-8322-487a9894bd82"
+        "bids::sub-01/func/sub-01_task-tonecounting_bold.nii#487a9894"
       ],
       "AssociatedWith": "bids::prov#spm-fa0baf93",
       "Command": "matlabbatch{5}.spm.spatial.realign.estwrite.data{1}(1) = cfg_dep('Gunzip Files: Gunzipped Files', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.quality = 0.9;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.sep = 4;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.fwhm = 5;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.rtm = 1;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.interp = 2;\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.wrap = [0 0 0];\nmatlabbatch{5}.spm.spatial.realign.estwrite.eoptions.weight = '';\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.which = [2 1];\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.interp = 4;\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.wrap = [0 0 0];\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.mask = 1;\nmatlabbatch{5}.spm.spatial.realign.estwrite.roptions.prefix = 'r';",
@@ -60,7 +60,7 @@
       "Label": "Coregister",
       "Used": [
         "bids::sub-01/func/meansub-01_task-tonecounting_bold.nii",
-        "urn:00f98a97-fbfd-49a6-8318-97a89211b9cf"
+        "bids::sub-01/anat/sub-01_T1w.nii#97a89211"
       ],
       "AssociatedWith": "bids::prov#spm-fa0baf93",
       "Command": "matlabbatch{6}.spm.spatial.coreg.estimate.ref(1) = cfg_dep('Realign: Estimate & Reslice: Mean Image', substruct('.','val', '{}',{5}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','rmean'));\nmatlabbatch{6}.spm.spatial.coreg.estimate.source(1) = cfg_dep('Gunzip Files: Gunzipped Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('()',{':'}));\nmatlabbatch{6}.spm.spatial.coreg.estimate.other = {''};\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.cost_fun = 'nmi';\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.sep = [4 2];\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.tol = [0.02 0.02 0.02 0.001 0.001 0.001 0.01 0.01 0.01 0.001 0.001 0.001];\nmatlabbatch{6}.spm.spatial.coreg.estimate.eoptions.fwhm = [7 7];",
@@ -71,7 +71,7 @@
       "Id": "bids::prov#segment-7d5d4ac5",
       "Label": "Segment",
       "Used": [
-        "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
+        "bids::prov#entity-28c0ba28",
         "bids::sub-01/anat/sub-01_T1w.nii"
       ],
       "AssociatedWith": "bids::prov#spm-fa0baf93",

@@ -17,7 +17,7 @@
       }
     },
     {
-      "Id": "urn:c1d082a5-34ee-4282-99df-28c0ba289210",
+      "Id": "bids::prov#entity-28c0ba28",
       "Label": "TPM.nii",
       "AtLocation": "spm12/tpm/TPM.nii",
       "Digest": {
@@ -25,7 +25,7 @@
       }
     },
     {
-      "Id": "urn:20953875-19dd-409d-adf1-5ff4404f8ae7",
+      "Id": "bids::sub-01/func/sub-01_task-tonecounting_bold.nii.gz#5ff4404f",
       "Label": "sub-01_task-tonecounting_bold.nii.gz",
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
       "GeneratedBy": "bids::prov#movefile-26803be5",
@@ -34,15 +34,16 @@
       }
     },
     {
-      "Id": "urn:9dff6df8-56be-4d25-a127-b31b20890943",
+      "Id": "bids::sub-01/anat/sub-01_T1w.nii.gz#b31b2089",
       "Label": "sub-01_T1w.nii.gz",
+      "AtLocation": "sub-01/anat/sub-01_T1w.nii.gz",
       "GeneratedBy": "bids::prov#movefile-bac3f385",
       "Digest": {
         "SHA-256": "66eeafb465559148e0222d4079558a8354eb09b9efabcc47cd5b8af6eed51907"
       }
     },
     {
-      "Id": "urn:ee913e65-93fb-474a-8322-487a9894bd82",
+      "Id": "bids::sub-01/func/sub-01_task-tonecounting_bold.nii#487a9894",
       "Label": "sub-01_task-tonecounting_bold.nii",
       "AtLocation": "sub-01/func/sub-01_task-tonecounting_bold.nii",
       "GeneratedBy": "bids::prov#gunzip-ca36a952",
@@ -51,7 +52,7 @@
       }
     },
     {
-      "Id": "urn:00f98a97-fbfd-49a6-8318-97a89211b9cf",
+      "Id": "bids::sub-01/anat/sub-01_T1w.nii#97a89211",
       "Label": "sub-01_T1w.nii",
       "AtLocation": "sub-01/anat/sub-01_T1w.nii",
       "GeneratedBy": "bids::prov#gunzip-e9264918",
