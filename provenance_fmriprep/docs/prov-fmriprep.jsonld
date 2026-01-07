@@ -24,7 +24,8 @@
         ]
       }
     ],
-    "ProvEntities": [
+    "Files": [],
+    "Datasets": [
       {
         "Id": "bids:ds001734:.",
         "Label": "NARPS"
@@ -37,6 +38,7 @@
         ]
       }
     ],
+    "prov:Entity": [],
     "Environments": [
       {
         "Id": "bids::prov#poldracklab/fmriprep-mHl7Dqa0",
