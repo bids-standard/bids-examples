@@ -22,7 +22,7 @@
         ]
       }
     ],
-    "ProvEntities": [
+    "Files": [
       {
         "Id": "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms",
         "Type": "Entity",
@@ -41,6 +41,8 @@
         "GeneratedBy": "bids::prov#conversion-00f3a18f"
       }
     ],
+    "Datasets": [],
+    "prov:Entity": [],
     "Environments": [
       {
         "Id": "bids::prov#fedora-uldfv058",
