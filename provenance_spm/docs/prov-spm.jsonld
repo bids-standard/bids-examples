@@ -126,7 +126,7 @@
         "EndedAtTime": "2025-05-28T14:50:12"
       }
     ],
-    "ProvEntities": [
+    "Files": [
       {
         "Id": "bids:ds000011:sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
         "Label": "sub-01_task-tonecounting_bold.nii.gz",
@@ -348,6 +348,8 @@
           "SHA-256": "5ed83909bc333eefede28b971461d95a0d20783985ca0447b1e73cb2b6124fba"
         }
       }
-    ]
+    ],
+    "Datasets": [],
+    "prov:Entity": []
   }
 }
