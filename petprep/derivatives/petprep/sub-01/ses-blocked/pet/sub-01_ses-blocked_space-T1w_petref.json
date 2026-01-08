@@ -1,0 +1,7 @@
+{
+  "Sources": [
+    "bids:raw:sub-01/ses-blocked/pet/sub-01_ses-blocked_pet.nii.gz",
+    "bids::sub-01/ses-blocked/pet/sub-01_ses-blocked_from-orig_to-petref_mode-image_xfm.txt",
+    "bids::sub-01/ses-blocked/pet/sub-01_ses-blocked_from-petref_to-T1w_mode-image_xfm.txt"
+  ]
+}
