@@ -1,0 +1,9 @@
+{
+  "Sources": [
+    "bids:raw:sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_pet.nii.gz",
+    "bids::sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_from-orig_to-petref_mode-image_xfm.txt",
+    "bids::sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_from-petref_to-T1w_mode-image_xfm.txt",
+    "bids::sub-PSBB01/ses-baseline/anat/sub-PSBB01_ses-baseline_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5",
+    "bids:templateflow:tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz"
+  ]
+}
