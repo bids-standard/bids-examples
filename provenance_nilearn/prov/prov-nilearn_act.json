@@ -1,0 +1,15 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#glm-TzAuB7k8",
+      "Label": "A Nilearn First Level GLM.",
+      "Command": "python plot_bids_features.py",
+      "AssociatedWith": "bids::prov#python-RcggGffB",
+      "Used": [
+        "bids::prov#entity-A6CltiO4",
+        "bids:ds000030:.",
+        "bids::prov#virtualenv-Mjn5ZRoX"
+      ]
+    }
+  ]
+}
