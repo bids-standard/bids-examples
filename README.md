@@ -391,5 +391,6 @@ TABLE BELOW IS GENERATED AUTOMATICALLY.
 DO NOT EDIT DIRECTLY.
 -->
 
-| name   | description   | datatypes   | suffixes   | link to full data   | maintained by   |
-|--------|---------------|-------------|------------|---------------------|-----------------|
+| name                                                                                                  | description                                                                                                                           | datatypes   | suffixes                 | link to full data                                                                                | maintained by                          |
+|:------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|:------------|:-------------------------|:-------------------------------------------------------------------------------------------------|:---------------------------------------|
+| [provenance_dcm2niix](https://github.com/bids-standard/bids-examples/tree/master/provenance_dcm2niix) | Shows minimal example of provenance metadata for a DICOM to Nifti conversion with [`dcm2niix`](https://github.com/rordenlab/dcm2niix) | anat        | T1w, act, ent, env, soft | This example is based upon [hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) data | [@bclenet](https://github.com/bclenet) |
