@@ -1,6 +1,6 @@
 {
   "BIDSProvVersion": "0.0.1",
-  "@context": "https://raw.githubusercontent.com/bclenet/bids-specification/refs/heads/BEP028_spec/src/provenance-context.json",
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
   "Records": {
     "Software": [
       {
@@ -25,7 +25,6 @@
     "Files": [
       {
         "Id": "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms",
-        "Type": "Entity",
         "Label": "dicoms"
       },
       {
