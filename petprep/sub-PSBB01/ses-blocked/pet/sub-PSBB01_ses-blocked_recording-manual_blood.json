@@ -1,0 +1,24 @@
+{
+    "PlasmaAvail": true,
+    "WholeBloodAvail": true,
+    "MetaboliteAvail": true,
+    "MetaboliteMethod": "HPLC",
+    "MetaboliteRecoveryCorrectionApplied": false,
+    "DispersionCorrected": false,
+    "time": {
+        "Description": "Time in relation to time zero defined in _pet.json",
+        "Units": "s"
+    },
+    "plasma_radioactivity": {
+        "Description": "Radioactivity in plasma samples.",
+        "Units": "Bq/mL"
+    },
+    "metabolite_parent_fraction": {
+        "Description": "Parent fraction of Radio tracer",
+        "Units": "arbitrary"
+    },
+    "whole_blood_radioactivity": {
+        "Description": "Radioactivity in whole blood samples.",
+        "Units": "Bq/mL"
+    }
+}
