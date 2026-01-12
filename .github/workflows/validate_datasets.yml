@@ -135,7 +135,7 @@ jobs:
     - name: Debug Schema via Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: branch-${{ github.ref_name }}_validatorversion-${{ matrix.bids-validator }}_platform-${{ matrix.platform }}-schema.json
+        name: branch-${{ github.base_ref }}_validatorversion-${{ matrix.bids-validator }}_platform-${{ matrix.platform }}-schema.json
         path: schema.json
 
     - name: Validate all BIDS datasets using bids-validator
