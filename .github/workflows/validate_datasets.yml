@@ -122,7 +122,7 @@ jobs:
       run: |
         git clone -b bep023 https://github.com/bids-standard/bids-specification/ ../bids-specification
         pushd ../bids-specification
-        uvx run bst export > ../bids-examples/schema.json
+        uv run bst export > ../bids-examples/schema.json
         popd
         echo BIDS_SCHEMA=file://${PWD}/schema.json >> $GITHUB_ENV
 
