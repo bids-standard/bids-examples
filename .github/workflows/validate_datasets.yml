@@ -127,7 +127,7 @@ jobs:
         uv run bst export > ../bids-examples/schema.json
         popd
         echo BIDS_SCHEMA=file://${PWD}/schema.json >> $GITHUB_ENV
-        echo VALIDATOR_ARGS="--schema file://${PWD}/schema.json" >> $GITHUB_ENV
+        echo VALIDATOR_ARGS="--schema file://${PWD}/schema.json -r" >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
