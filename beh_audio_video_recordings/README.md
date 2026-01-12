@@ -1,6 +1,6 @@
 # Behavioral audio/video recordings
 
-This dataset provides a minimal example of behavioral **audio** and **video** recordings stored in the `beh/` directory.
+This dataset provides a minimal example of behavioral **audio**, **video**, **audiovideo**, and **image** recordings stored in the `beh/` directory.
 
 It is intended to accompany the proposal to add audio/video recordings to behavioral experiments (see [bids-specification PR #2231](https://github.com/bids-standard/bids-specification/pull/2231)).
 
@@ -12,23 +12,26 @@ This dataset contains behavioral audio and video recordings from 2 participants 
 
 ### Subject 01
 
-- **Speech task**: audio recording of participant describing a picture (WAV format) with accompanying events/annotations
+- **Speech task**: audio recording of participant describing a picture (WAV format) with accompanying events/annotations, plus a reference photo of the stimulus image
 - **Resting state**: video recording of participant sitting comfortably (MP4 format)
+- **Interview task**: combined audiovideo recording of participant being interviewed (MP4 format)
 
 ### Subject 02
 
-- **Stroop task**: multiple simultaneous video recordings from different angles (face close-up and room view)
+- **Stroop task**: multiple simultaneous video recordings from different angles (face close-up and room view), plus a combined audiovideo recording with verbal responses, and a setup verification photo
 - **Vocalization task**: two runs of audio recordings (FLAC format) with accompanying events/annotations
 
 ## Key features demonstrated
 
 1. **Audio file formats**: WAV and FLAC
 2. **Video file formats**: MP4
-3. **Multiple recording angles**: using the `recording` entity to distinguish simultaneous recordings
-4. **Multiple runs**: using the `run` entity for repeated tasks
-5. **Metadata**: JSON sidecar files with device information and audio/video technical specifications
-6. **Events files**: annotations for the speech/vocalization tasks with timing information
-7. **Timing alignment**: `scans.tsv` files for synchronization across recordings
+3. **Audiovideo format**: MP4 with combined audio and video streams
+4. **Photo format**: JPG still images
+5. **Multiple recording angles**: using the `recording` entity to distinguish simultaneous recordings
+6. **Multiple runs**: using the `run` entity for repeated tasks
+7. **Metadata**: JSON sidecar files with device information and audio/video/image technical specifications
+8. **Events files**: annotations for the speech/vocalization tasks with timing information
+9. **Timing alignment**: `scans.tsv` files for synchronization across recordings
 
 ## Validation
 
