@@ -1,103 +1,103 @@
-name	reference	type	units	sampling_frequency	channel_id	contact_id	file_origin	connector_id	connector_pin_id	nev_dig_factor	nb_sorted_units	nsx	low_cutoff	high_cutoff	hi_pass_order	lo_pass_order	filter_type	electrode_reject_HFC	electrode_reject_LFC	electrode_reject_IFC	connector_aligned_id	coordinates_x	coordinates_y	gain
-ainp9	n/a	BEH	uV	1000	137	n/a	../../../sourcedata/l101210-001.ns2	5	9	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	5000
-ainp10	n/a	BEH	uV	1000	138	n/a	../../../sourcedata/l101210-001.ns2	5	10	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	5000
-ainp11	n/a	BEH	uV	1000	139	n/a	../../../sourcedata/l101210-001.ns2	5	11	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	5000
-ainp12	n/a	BEH	uV	1000	140	n/a	../../../sourcedata/l101210-001.ns2	5	12	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	5000
-ainp13	n/a	BEH	uV	1000	141	n/a	../../../sourcedata/l101210-001.ns2	5	13	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	5000
-ainp15	n/a	BEH	uV	1000	143	n/a	../../../sourcedata/l101210-001.ns2	5	15	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	5000
-chan1	ref1	HP	uV	30000	1	1	../../../sourcedata/l101210-001.ns5	1	1	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	91	0	3.6	5000
-chan2	ref1	HP	uV	30000	2	2	../../../sourcedata/l101210-001.ns5	1	2	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	TRUE	92	0.4	3.6	5000
-chan3	ref1	HP	uV	30000	3	3	../../../sourcedata/l101210-001.ns5	1	3	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	94	1.2	3.6	5000
-chan4	ref1	HP	uV	30000	4	4	../../../sourcedata/l101210-001.ns5	1	4	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	TRUE	1	0	0	5000
-chan5	ref1	HP	uV	30000	5	5	../../../sourcedata/l101210-001.ns5	1	5	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	75	1.6	2.8	5000
-chan6	ref1	HP	uV	30000	6	6	../../../sourcedata/l101210-001.ns5	1	6	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	96	2	3.6	5000
-chan7	ref1	HP	uV	30000	7	7	../../../sourcedata/l101210-001.ns5	1	7	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	85	1.6	3.2	5000
-chan8	ref1	HP	uV	30000	8	8	../../../sourcedata/l101210-001.ns5	1	8	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	97	2.4	3.6	5000
-chan9	ref1	HP	uV	30000	9	9	../../../sourcedata/l101210-001.ns5	1	9	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	86	2	3.2	5000
-chan10	ref1	HP	uV	30000	10	10	../../../sourcedata/l101210-001.ns5	1	10	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	98	2.8	3.6	5000
-chan11	ref1	HP	uV	30000	11	11	../../../sourcedata/l101210-001.ns5	1	11	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	87	2.4	3.2	5000
-chan12	ref1	HP	uV	30000	12	12	../../../sourcedata/l101210-001.ns5	1	12	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	88	2.8	3.2	5000
-chan13	ref1	HP	uV	30000	13	13	../../../sourcedata/l101210-001.ns5	1	13	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	77	2.4	2.8	5000
-chan14	ref1	HP	uV	30000	14	14	../../../sourcedata/l101210-001.ns5	1	14	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	99	3.2	3.6	5000
-chan15	ref1	HP	uV	30000	15	15	../../../sourcedata/l101210-001.ns5	1	15	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	66	2	2.4	5000
-chan16	ref1	HP	uV	30000	16	16	../../../sourcedata/l101210-001.ns5	1	16	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	89	3.2	3.2	5000
-chan17	ref1	HP	uV	30000	17	17	../../../sourcedata/l101210-001.ns5	1	17	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	76	2	2.8	5000
-chan18	ref1	HP	uV	30000	18	18	../../../sourcedata/l101210-001.ns5	1	18	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	100	3.6	3.6	5000
-chan19	ref1	HP	uV	30000	19	19	../../../sourcedata/l101210-001.ns5	1	19	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	67	2.4	2.4	5000
-chan20	ref1	HP	uV	30000	20	20	../../../sourcedata/l101210-001.ns5	1	20	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	79	3.2	2.8	5000
-chan21	ref1	HP	uV	30000	21	21	../../../sourcedata/l101210-001.ns5	1	21	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	58	2.8	2	5000
-chan22	ref1	HP	uV	30000	22	22	../../../sourcedata/l101210-001.ns5	1	22	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	10	3.6	0	5000
-chan23	ref1	HP	uV	30000	23	23	../../../sourcedata/l101210-001.ns5	1	23	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	78	2.8	2.8	5000
-chan24	ref1	HP	uV	30000	24	24	../../../sourcedata/l101210-001.ns5	1	24	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	70	3.6	2.4	5000
-chan25	ref1	HP	uV	30000	25	25	../../../sourcedata/l101210-001.ns5	1	25	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	68	2.8	2.4	5000
-chan26	ref1	HP	uV	30000	26	26	../../../sourcedata/l101210-001.ns5	1	26	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	60	3.6	2	5000
-chan27	ref1	HP	uV	30000	27	27	../../../sourcedata/l101210-001.ns5	1	27	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	69	3.2	2.4	5000
-chan28	ref1	HP	uV	30000	28	28	../../../sourcedata/l101210-001.ns5	1	28	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	50	3.6	1.6	5000
-chan29	ref1	HP	uV	30000	29	29	../../../sourcedata/l101210-001.ns5	1	29	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	TRUE	59	3.2	2	5000
-chan30	ref1	HP	uV	30000	30	30	../../../sourcedata/l101210-001.ns5	1	30	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	40	3.6	1.2	5000
-chan31	ref1	HP	uV	30000	31	31	../../../sourcedata/l101210-001.ns5	1	31	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	49	3.2	1.6	5000
-chan32	ref1	HP	uV	30000	32	32	../../../sourcedata/l101210-001.ns5	1	32	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	30	3.6	0.8	5000
-chan33	ref1	HP	uV	30000	33	33	../../../sourcedata/l101210-001.ns5	2	1	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	83	0.8	3.2	5000
-chan34	ref1	HP	uV	30000	34	34	../../../sourcedata/l101210-001.ns5	2	2	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	84	1.2	3.2	5000
-chan35	ref1	HP	uV	30000	35	35	../../../sourcedata/l101210-001.ns5	2	3	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	73	0.8	2.8	5000
-chan36	ref1	HP	uV	30000	36	36	../../../sourcedata/l101210-001.ns5	2	4	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	74	1.2	2.8	5000
-chan37	ref1	HP	uV	30000	37	37	../../../sourcedata/l101210-001.ns5	2	5	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	63	0.8	2.4	5000
-chan38	ref1	HP	uV	30000	38	38	../../../sourcedata/l101210-001.ns5	2	6	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	64	1.2	2.4	5000
-chan39	ref1	HP	uV	30000	39	39	../../../sourcedata/l101210-001.ns5	2	7	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	53	0.8	2	5000
-chan40	ref1	HP	uV	30000	40	40	../../../sourcedata/l101210-001.ns5	2	8	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	54	1.2	2	5000
-chan41	ref1	HP	uV	30000	41	41	../../../sourcedata/l101210-001.ns5	2	9	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	43	0.8	1.6	5000
-chan42	ref1	HP	uV	30000	42	42	../../../sourcedata/l101210-001.ns5	2	10	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	55	1.6	2	5000
-chan43	ref1	HP	uV	30000	43	43	../../../sourcedata/l101210-001.ns5	2	11	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	44	1.2	1.6	5000
-chan44	ref1	HP	uV	30000	44	44	../../../sourcedata/l101210-001.ns5	2	12	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	45	1.6	1.6	5000
-chan45	ref1	HP	uV	30000	45	45	../../../sourcedata/l101210-001.ns5	2	13	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	33	0.8	1.2	5000
-chan46	ref1	HP	uV	30000	46	46	../../../sourcedata/l101210-001.ns5	2	14	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	46	2	1.6	5000
-chan47	ref1	HP	uV	30000	47	47	../../../sourcedata/l101210-001.ns5	2	15	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	34	1.2	1.2	5000
-chan48	ref1	HP	uV	30000	48	48	../../../sourcedata/l101210-001.ns5	2	16	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	65	1.6	2.4	5000
-chan49	ref1	HP	uV	30000	49	49	../../../sourcedata/l101210-001.ns5	2	17	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	24	1.2	0.8	5000
-chan50	ref1	HP	uV	30000	50	50	../../../sourcedata/l101210-001.ns5	2	18	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	56	2	2	5000
-chan51	ref1	HP	uV	30000	51	51	../../../sourcedata/l101210-001.ns5	2	19	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	35	1.6	1.2	5000
-chan52	ref1	HP	uV	30000	52	52	../../../sourcedata/l101210-001.ns5	2	20	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	47	2.4	1.6	5000
-chan53	ref1	HP	uV	30000	53	53	../../../sourcedata/l101210-001.ns5	2	21	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	25	1.6	0.8	5000
-chan54	ref1	HP	uV	30000	54	54	../../../sourcedata/l101210-001.ns5	2	22	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	57	2.4	2	5000
-chan55	ref1	HP	uV	30000	55	55	../../../sourcedata/l101210-001.ns5	2	23	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	26	2	0.8	5000
-chan56	ref1	HP	uV	30000	56	56	../../../sourcedata/l101210-001.ns5	2	24	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	36	2	1.2	5000
-chan57	ref1	HP	uV	30000	57	57	../../../sourcedata/l101210-001.ns5	2	25	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	27	2.4	0.8	5000
-chan58	ref1	HP	uV	30000	58	58	../../../sourcedata/l101210-001.ns5	2	26	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	37	2.4	1.2	5000
-chan59	ref1	HP	uV	30000	59	59	../../../sourcedata/l101210-001.ns5	2	27	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	28	2.8	0.8	5000
-chan60	ref1	HP	uV	30000	60	60	../../../sourcedata/l101210-001.ns5	2	28	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	38	2.8	1.2	5000
-chan61	ref1	HP	uV	30000	61	61	../../../sourcedata/l101210-001.ns5	2	29	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	29	3.2	0.8	5000
-chan62	ref1	HP	uV	30000	62	62	../../../sourcedata/l101210-001.ns5	2	30	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	48	2.8	1.6	5000
-chan63	ref1	HP	uV	30000	63	63	../../../sourcedata/l101210-001.ns5	2	31	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	19	3.2	0.4	5000
-chan64	ref1	HP	uV	30000	64	64	../../../sourcedata/l101210-001.ns5	2	32	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	39	3.2	1.2	5000
-chan65	ref1	HP	uV	30000	65	65	../../../sourcedata/l101210-001.ns5	3	1	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	81	0	3.2	5000
-chan66	ref1	HP	uV	30000	66	66	../../../sourcedata/l101210-001.ns5	3	2	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	82	0.4	3.2	5000
-chan67	ref1	HP	uV	30000	67	67	../../../sourcedata/l101210-001.ns5	3	3	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	71	0	2.8	5000
-chan68	ref1	HP	uV	30000	68	68	../../../sourcedata/l101210-001.ns5	3	4	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	72	0.4	2.8	5000
-chan69	ref1	HP	uV	30000	69	69	../../../sourcedata/l101210-001.ns5	3	5	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	61	0	2.4	5000
-chan70	ref1	HP	uV	30000	70	70	../../../sourcedata/l101210-001.ns5	3	6	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	62	0.4	2.4	5000
-chan71	ref1	HP	uV	30000	71	71	../../../sourcedata/l101210-001.ns5	3	7	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	51	0	2	5000
-chan72	ref1	HP	uV	30000	72	72	../../../sourcedata/l101210-001.ns5	3	8	1000	0	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	52	0.4	2	5000
-chan73	ref1	HP	uV	30000	73	73	../../../sourcedata/l101210-001.ns5	3	9	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	41	0	1.6	5000
-chan74	ref1	HP	uV	30000	74	74	../../../sourcedata/l101210-001.ns5	3	10	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	42	0.4	1.6	5000
-chan75	ref1	HP	uV	30000	75	75	../../../sourcedata/l101210-001.ns5	3	11	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	31	0	1.2	5000
-chan76	ref1	HP	uV	30000	76	76	../../../sourcedata/l101210-001.ns5	3	12	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	32	0.4	1.2	5000
-chan77	ref1	HP	uV	30000	77	77	../../../sourcedata/l101210-001.ns5	3	13	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	21	0	0.8	5000
-chan78	ref1	HP	uV	30000	78	78	../../../sourcedata/l101210-001.ns5	3	14	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	22	0.4	0.8	5000
-chan79	ref1	HP	uV	30000	79	79	../../../sourcedata/l101210-001.ns5	3	15	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	11	0	0.4	5000
-chan80	ref1	HP	uV	30000	80	80	../../../sourcedata/l101210-001.ns5	3	16	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	12	0.4	0.4	5000
-chan81	ref1	HP	uV	30000	81	81	../../../sourcedata/l101210-001.ns5	3	17	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	2	0.4	0	5000
-chan82	ref1	HP	uV	30000	82	82	../../../sourcedata/l101210-001.ns5	3	18	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	23	0.8	0.8	5000
-chan83	ref1	HP	uV	30000	83	83	../../../sourcedata/l101210-001.ns5	3	19	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	3	0.8	0	5000
-chan84	ref1	HP	uV	30000	84	84	../../../sourcedata/l101210-001.ns5	3	20	1000	3	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	13	0.8	0.4	5000
-chan85	ref1	HP	uV	30000	85	85	../../../sourcedata/l101210-001.ns5	3	21	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	4	1.2	0	5000
-chan86	ref1	HP	uV	30000	86	86	../../../sourcedata/l101210-001.ns5	3	22	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	14	1.2	0.4	5000
-chan87	ref1	HP	uV	30000	87	87	../../../sourcedata/l101210-001.ns5	3	23	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	15	1.6	0.4	5000
-chan88	ref1	HP	uV	30000	88	88	../../../sourcedata/l101210-001.ns5	3	24	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	5	1.6	0	5000
-chan89	ref1	HP	uV	30000	89	89	../../../sourcedata/l101210-001.ns5	3	25	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	16	2	0.4	5000
-chan90	ref1	HP	uV	30000	90	90	../../../sourcedata/l101210-001.ns5	3	26	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	6	2	0	5000
-chan91	ref1	HP	uV	30000	91	91	../../../sourcedata/l101210-001.ns5	3	27	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	17	2.4	0.4	5000
-chan92	ref1	HP	uV	30000	92	92	../../../sourcedata/l101210-001.ns5	3	28	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	7	2.4	0	5000
-chan93	ref1	HP	uV	30000	93	93	../../../sourcedata/l101210-001.ns5	3	29	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	8	2.8	0	5000
-chan94	ref1	HP	uV	30000	94	94	../../../sourcedata/l101210-001.ns5	3	30	1000	1	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	18	2.8	0.4	5000
-chan95	ref1	HP	uV	30000	95	95	../../../sourcedata/l101210-001.ns5	3	31	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	20	3.6	0.4	5000
-chan96	ref1	HP	uV	30000	96	96	../../../sourcedata/l101210-001.ns5	3	32	1000	2	5	0.3	7500	1	3	butterworth	FALSE	FALSE	FALSE	9	3.2	0	5000
+name	electrode_name	type	units	sampling_frequency	reference	channel_id	contact_id	file_origin	connector_id	connector_pin_id	nev_dig_factor	nb_sorted_units	nsx	low_cutoff	high_cutoff	hi_pass_order	lo_pass_order	filter_type	electrode_reject_HFC	electrode_reject_LFC	electrode_reject_IFC	connector_aligned_id	coordinates_x	coordinates_y	gain
+ainp9	n/a	BEH	uV	1000		137		../../../sourcedata/l101210-001.ns2	5	9	21516	0	2	n/a	n/a										5000
+ainp10	n/a	BEH	uV	1000		138		../../../sourcedata/l101210-001.ns2	5	10	21516	0	2	n/a	n/a										5000
+ainp11	n/a	BEH	uV	1000		139		../../../sourcedata/l101210-001.ns2	5	11	21516	0	2	n/a	n/a										5000
+ainp12	n/a	BEH	uV	1000		140		../../../sourcedata/l101210-001.ns2	5	12	21516	0	2	n/a	n/a										5000
+ainp13	n/a	BEH	uV	1000		141		../../../sourcedata/l101210-001.ns2	5	13	21516	0	2	n/a	n/a										5000
+ainp15	n/a	BEH	uV	1000		143		../../../sourcedata/l101210-001.ns2	5	15	21516	0	2	n/a	n/a										5000
+chan1	1	HP	uV	30000	ref1	1	1.0	../../../sourcedata/l101210-001.ns5	1	1	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	91.0	0.0	3.6	5000
+chan2	2	HP	uV	30000	ref1	2	2.0	../../../sourcedata/l101210-001.ns5	1	2	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	True	92.0	0.4	3.6	5000
+chan3	3	HP	uV	30000	ref1	3	3.0	../../../sourcedata/l101210-001.ns5	1	3	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	94.0	1.2	3.6	5000
+chan4	4	HP	uV	30000	ref1	4	4.0	../../../sourcedata/l101210-001.ns5	1	4	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	True	1.0	0.0	0.0	5000
+chan5	5	HP	uV	30000	ref1	5	5.0	../../../sourcedata/l101210-001.ns5	1	5	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	75.0	1.6	2.8	5000
+chan6	6	HP	uV	30000	ref1	6	6.0	../../../sourcedata/l101210-001.ns5	1	6	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	96.0	2.0	3.6	5000
+chan7	7	HP	uV	30000	ref1	7	7.0	../../../sourcedata/l101210-001.ns5	1	7	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	85.0	1.6	3.2	5000
+chan8	8	HP	uV	30000	ref1	8	8.0	../../../sourcedata/l101210-001.ns5	1	8	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	97.0	2.4	3.6	5000
+chan9	9	HP	uV	30000	ref1	9	9.0	../../../sourcedata/l101210-001.ns5	1	9	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	86.0	2.0	3.2	5000
+chan10	10	HP	uV	30000	ref1	10	10.0	../../../sourcedata/l101210-001.ns5	1	10	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	98.0	2.8	3.6	5000
+chan11	11	HP	uV	30000	ref1	11	11.0	../../../sourcedata/l101210-001.ns5	1	11	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	87.0	2.4	3.2	5000
+chan12	12	HP	uV	30000	ref1	12	12.0	../../../sourcedata/l101210-001.ns5	1	12	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	88.0	2.8	3.2	5000
+chan13	13	HP	uV	30000	ref1	13	13.0	../../../sourcedata/l101210-001.ns5	1	13	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	77.0	2.4	2.8	5000
+chan14	14	HP	uV	30000	ref1	14	14.0	../../../sourcedata/l101210-001.ns5	1	14	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	99.0	3.2	3.6	5000
+chan15	15	HP	uV	30000	ref1	15	15.0	../../../sourcedata/l101210-001.ns5	1	15	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	66.0	2.0	2.4	5000
+chan16	16	HP	uV	30000	ref1	16	16.0	../../../sourcedata/l101210-001.ns5	1	16	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	89.0	3.2	3.2	5000
+chan17	17	HP	uV	30000	ref1	17	17.0	../../../sourcedata/l101210-001.ns5	1	17	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	76.0	2.0	2.8	5000
+chan18	18	HP	uV	30000	ref1	18	18.0	../../../sourcedata/l101210-001.ns5	1	18	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	100.0	3.6	3.6	5000
+chan19	19	HP	uV	30000	ref1	19	19.0	../../../sourcedata/l101210-001.ns5	1	19	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	67.0	2.4	2.4	5000
+chan20	20	HP	uV	30000	ref1	20	20.0	../../../sourcedata/l101210-001.ns5	1	20	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	79.0	3.2	2.8	5000
+chan21	21	HP	uV	30000	ref1	21	21.0	../../../sourcedata/l101210-001.ns5	1	21	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	58.0	2.8	2.0	5000
+chan22	22	HP	uV	30000	ref1	22	22.0	../../../sourcedata/l101210-001.ns5	1	22	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	10.0	3.6	0.0	5000
+chan23	23	HP	uV	30000	ref1	23	23.0	../../../sourcedata/l101210-001.ns5	1	23	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	78.0	2.8	2.8	5000
+chan24	24	HP	uV	30000	ref1	24	24.0	../../../sourcedata/l101210-001.ns5	1	24	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	70.0	3.6	2.4	5000
+chan25	25	HP	uV	30000	ref1	25	25.0	../../../sourcedata/l101210-001.ns5	1	25	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	68.0	2.8	2.4	5000
+chan26	26	HP	uV	30000	ref1	26	26.0	../../../sourcedata/l101210-001.ns5	1	26	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	60.0	3.6	2.0	5000
+chan27	27	HP	uV	30000	ref1	27	27.0	../../../sourcedata/l101210-001.ns5	1	27	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	69.0	3.2	2.4	5000
+chan28	28	HP	uV	30000	ref1	28	28.0	../../../sourcedata/l101210-001.ns5	1	28	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	50.0	3.6	1.6	5000
+chan29	29	HP	uV	30000	ref1	29	29.0	../../../sourcedata/l101210-001.ns5	1	29	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	True	59.0	3.2	2.0	5000
+chan30	30	HP	uV	30000	ref1	30	30.0	../../../sourcedata/l101210-001.ns5	1	30	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	40.0	3.6	1.2	5000
+chan31	31	HP	uV	30000	ref1	31	31.0	../../../sourcedata/l101210-001.ns5	1	31	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	49.0	3.2	1.6	5000
+chan32	32	HP	uV	30000	ref1	32	32.0	../../../sourcedata/l101210-001.ns5	1	32	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	30.0	3.6	0.8	5000
+chan33	33	HP	uV	30000	ref1	33	33.0	../../../sourcedata/l101210-001.ns5	2	1	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	83.0	0.8	3.2	5000
+chan34	34	HP	uV	30000	ref1	34	34.0	../../../sourcedata/l101210-001.ns5	2	2	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	84.0	1.2	3.2	5000
+chan35	35	HP	uV	30000	ref1	35	35.0	../../../sourcedata/l101210-001.ns5	2	3	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	73.0	0.8	2.8	5000
+chan36	36	HP	uV	30000	ref1	36	36.0	../../../sourcedata/l101210-001.ns5	2	4	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	74.0	1.2	2.8	5000
+chan37	37	HP	uV	30000	ref1	37	37.0	../../../sourcedata/l101210-001.ns5	2	5	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	63.0	0.8	2.4	5000
+chan38	38	HP	uV	30000	ref1	38	38.0	../../../sourcedata/l101210-001.ns5	2	6	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	64.0	1.2	2.4	5000
+chan39	39	HP	uV	30000	ref1	39	39.0	../../../sourcedata/l101210-001.ns5	2	7	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	53.0	0.8	2.0	5000
+chan40	40	HP	uV	30000	ref1	40	40.0	../../../sourcedata/l101210-001.ns5	2	8	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	54.0	1.2	2.0	5000
+chan41	41	HP	uV	30000	ref1	41	41.0	../../../sourcedata/l101210-001.ns5	2	9	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	43.0	0.8	1.6	5000
+chan42	42	HP	uV	30000	ref1	42	42.0	../../../sourcedata/l101210-001.ns5	2	10	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	55.0	1.6	2.0	5000
+chan43	43	HP	uV	30000	ref1	43	43.0	../../../sourcedata/l101210-001.ns5	2	11	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	44.0	1.2	1.6	5000
+chan44	44	HP	uV	30000	ref1	44	44.0	../../../sourcedata/l101210-001.ns5	2	12	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	45.0	1.6	1.6	5000
+chan45	45	HP	uV	30000	ref1	45	45.0	../../../sourcedata/l101210-001.ns5	2	13	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	33.0	0.8	1.2	5000
+chan46	46	HP	uV	30000	ref1	46	46.0	../../../sourcedata/l101210-001.ns5	2	14	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	46.0	2.0	1.6	5000
+chan47	47	HP	uV	30000	ref1	47	47.0	../../../sourcedata/l101210-001.ns5	2	15	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	34.0	1.2	1.2	5000
+chan48	48	HP	uV	30000	ref1	48	48.0	../../../sourcedata/l101210-001.ns5	2	16	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	65.0	1.6	2.4	5000
+chan49	49	HP	uV	30000	ref1	49	49.0	../../../sourcedata/l101210-001.ns5	2	17	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	24.0	1.2	0.8	5000
+chan50	50	HP	uV	30000	ref1	50	50.0	../../../sourcedata/l101210-001.ns5	2	18	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	56.0	2.0	2.0	5000
+chan51	51	HP	uV	30000	ref1	51	51.0	../../../sourcedata/l101210-001.ns5	2	19	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	35.0	1.6	1.2	5000
+chan52	52	HP	uV	30000	ref1	52	52.0	../../../sourcedata/l101210-001.ns5	2	20	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	47.0	2.4	1.6	5000
+chan53	53	HP	uV	30000	ref1	53	53.0	../../../sourcedata/l101210-001.ns5	2	21	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	25.0	1.6	0.8	5000
+chan54	54	HP	uV	30000	ref1	54	54.0	../../../sourcedata/l101210-001.ns5	2	22	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	57.0	2.4	2.0	5000
+chan55	55	HP	uV	30000	ref1	55	55.0	../../../sourcedata/l101210-001.ns5	2	23	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	26.0	2.0	0.8	5000
+chan56	56	HP	uV	30000	ref1	56	56.0	../../../sourcedata/l101210-001.ns5	2	24	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	36.0	2.0	1.2	5000
+chan57	57	HP	uV	30000	ref1	57	57.0	../../../sourcedata/l101210-001.ns5	2	25	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	27.0	2.4	0.8	5000
+chan58	58	HP	uV	30000	ref1	58	58.0	../../../sourcedata/l101210-001.ns5	2	26	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	37.0	2.4	1.2	5000
+chan59	59	HP	uV	30000	ref1	59	59.0	../../../sourcedata/l101210-001.ns5	2	27	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	28.0	2.8	0.8	5000
+chan60	60	HP	uV	30000	ref1	60	60.0	../../../sourcedata/l101210-001.ns5	2	28	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	38.0	2.8	1.2	5000
+chan61	61	HP	uV	30000	ref1	61	61.0	../../../sourcedata/l101210-001.ns5	2	29	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	29.0	3.2	0.8	5000
+chan62	62	HP	uV	30000	ref1	62	62.0	../../../sourcedata/l101210-001.ns5	2	30	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	48.0	2.8	1.6	5000
+chan63	63	HP	uV	30000	ref1	63	63.0	../../../sourcedata/l101210-001.ns5	2	31	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	19.0	3.2	0.4	5000
+chan64	64	HP	uV	30000	ref1	64	64.0	../../../sourcedata/l101210-001.ns5	2	32	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	39.0	3.2	1.2	5000
+chan65	65	HP	uV	30000	ref1	65	65.0	../../../sourcedata/l101210-001.ns5	3	1	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	81.0	0.0	3.2	5000
+chan66	66	HP	uV	30000	ref1	66	66.0	../../../sourcedata/l101210-001.ns5	3	2	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	82.0	0.4	3.2	5000
+chan67	67	HP	uV	30000	ref1	67	67.0	../../../sourcedata/l101210-001.ns5	3	3	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	71.0	0.0	2.8	5000
+chan68	68	HP	uV	30000	ref1	68	68.0	../../../sourcedata/l101210-001.ns5	3	4	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	72.0	0.4	2.8	5000
+chan69	69	HP	uV	30000	ref1	69	69.0	../../../sourcedata/l101210-001.ns5	3	5	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	61.0	0.0	2.4	5000
+chan70	70	HP	uV	30000	ref1	70	70.0	../../../sourcedata/l101210-001.ns5	3	6	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	62.0	0.4	2.4	5000
+chan71	71	HP	uV	30000	ref1	71	71.0	../../../sourcedata/l101210-001.ns5	3	7	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	51.0	0.0	2.0	5000
+chan72	72	HP	uV	30000	ref1	72	72.0	../../../sourcedata/l101210-001.ns5	3	8	1000	0	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	52.0	0.4	2.0	5000
+chan73	73	HP	uV	30000	ref1	73	73.0	../../../sourcedata/l101210-001.ns5	3	9	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	41.0	0.0	1.6	5000
+chan74	74	HP	uV	30000	ref1	74	74.0	../../../sourcedata/l101210-001.ns5	3	10	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	42.0	0.4	1.6	5000
+chan75	75	HP	uV	30000	ref1	75	75.0	../../../sourcedata/l101210-001.ns5	3	11	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	31.0	0.0	1.2	5000
+chan76	76	HP	uV	30000	ref1	76	76.0	../../../sourcedata/l101210-001.ns5	3	12	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	32.0	0.4	1.2	5000
+chan77	77	HP	uV	30000	ref1	77	77.0	../../../sourcedata/l101210-001.ns5	3	13	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	21.0	0.0	0.8	5000
+chan78	78	HP	uV	30000	ref1	78	78.0	../../../sourcedata/l101210-001.ns5	3	14	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	22.0	0.4	0.8	5000
+chan79	79	HP	uV	30000	ref1	79	79.0	../../../sourcedata/l101210-001.ns5	3	15	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	11.0	0.0	0.4	5000
+chan80	80	HP	uV	30000	ref1	80	80.0	../../../sourcedata/l101210-001.ns5	3	16	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	12.0	0.4	0.4	5000
+chan81	81	HP	uV	30000	ref1	81	81.0	../../../sourcedata/l101210-001.ns5	3	17	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	2.0	0.4	0.0	5000
+chan82	82	HP	uV	30000	ref1	82	82.0	../../../sourcedata/l101210-001.ns5	3	18	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	23.0	0.8	0.8	5000
+chan83	83	HP	uV	30000	ref1	83	83.0	../../../sourcedata/l101210-001.ns5	3	19	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	3.0	0.8	0.0	5000
+chan84	84	HP	uV	30000	ref1	84	84.0	../../../sourcedata/l101210-001.ns5	3	20	1000	3	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	13.0	0.8	0.4	5000
+chan85	85	HP	uV	30000	ref1	85	85.0	../../../sourcedata/l101210-001.ns5	3	21	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	4.0	1.2	0.0	5000
+chan86	86	HP	uV	30000	ref1	86	86.0	../../../sourcedata/l101210-001.ns5	3	22	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	14.0	1.2	0.4	5000
+chan87	87	HP	uV	30000	ref1	87	87.0	../../../sourcedata/l101210-001.ns5	3	23	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	15.0	1.6	0.4	5000
+chan88	88	HP	uV	30000	ref1	88	88.0	../../../sourcedata/l101210-001.ns5	3	24	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	5.0	1.6	0.0	5000
+chan89	89	HP	uV	30000	ref1	89	89.0	../../../sourcedata/l101210-001.ns5	3	25	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	16.0	2.0	0.4	5000
+chan90	90	HP	uV	30000	ref1	90	90.0	../../../sourcedata/l101210-001.ns5	3	26	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	6.0	2.0	0.0	5000
+chan91	91	HP	uV	30000	ref1	91	91.0	../../../sourcedata/l101210-001.ns5	3	27	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	17.0	2.4	0.4	5000
+chan92	92	HP	uV	30000	ref1	92	92.0	../../../sourcedata/l101210-001.ns5	3	28	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	7.0	2.4	0.0	5000
+chan93	93	HP	uV	30000	ref1	93	93.0	../../../sourcedata/l101210-001.ns5	3	29	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	8.0	2.8	0.0	5000
+chan94	94	HP	uV	30000	ref1	94	94.0	../../../sourcedata/l101210-001.ns5	3	30	1000	1	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	18.0	2.8	0.4	5000
+chan95	95	HP	uV	30000	ref1	95	95.0	../../../sourcedata/l101210-001.ns5	3	31	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	20.0	3.6	0.4	5000
+chan96	96	HP	uV	30000	ref1	96	96.0	../../../sourcedata/l101210-001.ns5	3	32	1000	2	5	0.3	7500.0	1.0	3.0	butterworth	False	False	False	9.0	3.2	0.0	5000
