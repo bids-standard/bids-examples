@@ -25,7 +25,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [ubuntu-latest, macos-latest, windows-latest]
+        # I don't care about windows during the testing this schema
+        # platform: [ubuntu-latest, macos-latest, windows-latest]
+        platform: [ubuntu-latest, macos-latest]
         bids-validator: [stable, main, dev, legacy]
 
     runs-on: ${{ matrix.platform }}
@@ -84,6 +86,9 @@ jobs:
       run: |
         npm install -g bids-validator
 
+    - name: Install Astral UV
+      uses: astral-sh/setup-uv@v7
+
     - name: Display versions and environment information
       run: |
         echo $TZ
@@ -123,13 +128,19 @@ jobs:
       run: for DS in emg_*; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator != 'dev'
 
-    - name: Set BIDS_SCHEMA variable for dev version
-      if: matrix.bids-validator == 'dev'
+    - name: Set BIDS_SCHEMA variable #for dev version
+      # if: matrix.bids-validator == 'dev'
       # When proposing new features, schema changes may be necessary.
       # Update this URL to the schema.json from PRs to the spec, when needed.
       # If this variable is unset, dev will generally track the latest development
       # release of https://jsr.io/@bids/schema
-      run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
+      run: |
+        git clone -b bep023 https://github.com/bids-standard/bids-specification/ ../bids-specification
+        pushd ../bids-specification
+        uv run bst export > ../bids-examples/schema.json
+        popd
+        echo BIDS_SCHEMA=file://${PWD}/schema.json >> $GITHUB_ENV
+        echo VALIDATOR_ARGS="--schema file://${PWD}/schema.json -r" >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
