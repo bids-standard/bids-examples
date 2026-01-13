@@ -76,7 +76,7 @@ Provenance metadata can be aggregated as a JSON-LD RDF graph, which is available
 
 Provenance can also be described by providing `GeneratedBy` with an array of objects representing pipelines or processes that generated the dataset.
 
-In this case, the `GeneratedBy` field of the `dataset_description.json` file would have contain:
+In this case, the `GeneratedBy` field of the `dataset_description.json` file could have contain an object representing the fMRIPrep pipeline.
 
 ```JSON
 {
@@ -86,6 +86,7 @@ In this case, the `GeneratedBy` field of the `dataset_description.json` file wou
           "Name": "fMRIPrep",
           "Version": "1.1.4",
           "Description": "Preprocessing with fMRIPrep",
+          "CodeURL": "https://github.com/nipreps/fmriprep/releases/tag/1.1.4",
           "Container": {
             "Type": "docker",
             "Tag": "poldracklab/fmriprep:1.1.4",
