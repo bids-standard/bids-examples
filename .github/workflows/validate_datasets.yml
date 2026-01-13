@@ -70,7 +70,7 @@ jobs:
         
     - name: Clean Deno cache
       if: matrix.bids-validator != 'legacy'
-      run:
+      run: |
         rm -f $HOME/.deno/bin/bids-validator
         deno cache --reload jsr:@bids/validator
 
