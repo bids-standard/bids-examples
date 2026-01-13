@@ -121,16 +121,18 @@ jobs:
       run: for DS in  emg_*; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator != 'dev'
 
-    - name: Set BIDS_SCHEMA variable for dev version
-      if: matrix.bids-validator == 'dev'
+    - name: Set BIDS_SCHEMA variable for dev and main version
+      if: matrix.bids-validator == 'dev' || matrix.bids-validator == 'main'
       # When proposing new features, schema changes may be necessary.
       # Update this URL to the schema.json from PRs to the spec, when needed.
       # If this variable is unset, dev will generally track the latest development
       # release of https://jsr.io/@bids/schema
-      run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/bep023/schema.json>> $GITHUB_ENV
+      run: |
+        echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/bep023/schema.json >> $GITHUB_ENV
+        echo VALIDATOR_ARGS="-r --schema $BIDS_SCHEMA" >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
-        echo VALIDATOR_ARGS="-r --schema $BIDS_SCHEMA" >> $GITHUB_ENV
+        echo "VALIDATOR_ARGS: $VALIDATOR_ARGS"
         cat ./run_tests.sh
         ./run_tests.sh
