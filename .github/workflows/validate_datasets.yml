@@ -67,11 +67,17 @@ jobs:
       if: matrix.bids-validator != 'legacy'
       with:
         deno-version: v2.x
+        
+    - name: Clean Deno cache
+      if: matrix.bids-validator != 'legacy'
+      run:
+        rm -f $HOME/.deno/bin/bids-validator
+        deno cache --reload jsr:@bids/validator
 
     - name: Install BIDS validator (stable)
       if: matrix.bids-validator == 'stable'
       run: |
-          deno install -Agf -n bids-validator jsr:@bids/validator
+        deno install -Agf -n bids-validator jsr:@bids/validator
 
     - name: Install BIDS validator (main)
       if: matrix.bids-validator == 'main'
@@ -156,10 +162,12 @@ jobs:
       with:
         name: branch-${{ github.base_ref }}_validatorversion-${{ matrix.bids-validator }}_platform-${{ matrix.platform }}-schema.json
         path: schema.json
-    
+
+
     - name: Debug with Tmate
       uses: mxschmitt/action-tmate@v3
       if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
+
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
