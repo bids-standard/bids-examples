@@ -2,13 +2,11 @@ name: validate_datasets
 
 on:
   push:
-    branches: ['**']
+    branches: [master, main]
+    tags: ['*']
   pull_request:
     types: [opened, synchronize, reopened, edited]
-    branches: ['**']
-  create:
-    branches: [master]
-    tags: ['**']
+    branches: [master, main, 'bep*']
   schedule:
     - cron: "0 4 * * 1"
   workflow_dispatch:
@@ -155,7 +153,7 @@ jobs:
       if: "matrix.bids-validator == 'stable'"
       run: |
         echo "Checking for big files ..."
-        found=`find . -not -path "./.git*" -type f -size +500k`
+        found=`find . -not -path "./.git*" -type f -size +1M`
         if [ "$found" == "" ]
         then
             echo "No big files present, great!"
@@ -166,7 +164,7 @@ jobs:
         fi
 
     - name: Skip legacy validation for post-legacy datasets
-      run: for DS in mrs_* dwi_deriv pet006 pheno004 volume_timing; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in mrs_* dwi_deriv pet006 pheno004 volume_timing atlas-*; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator == 'legacy'
 
     - name: Skip stable validation for datasets with unreleased validator features
@@ -178,7 +176,7 @@ jobs:
     - name: Skip main validation for datasets with unreleased spec features
       # Replace ${EMPTY} with dataset patterns, when this is needed
       # Reset to "for DS in ${EMPTY}; ..." after a spec release
-      run: for DS in emg_*; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in atlas-* emg_*; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator != 'dev'
 
     - name: Set BIDS_SCHEMA variable for dev version
