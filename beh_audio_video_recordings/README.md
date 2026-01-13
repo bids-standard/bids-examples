@@ -37,6 +37,44 @@ This dataset contains behavioral audio and video recordings from 2 participants 
 
 When validated with a schema that includes the PR #2231 rules, this dataset should produce no errors (warnings for recommended metadata keys may remain).
 
+To test:
+
+1. Clone the BIDS specification repository:
+
+    ```bash
+    git clone https://github.com/bids-standard/bids-specification.git
+    cd bids-specification
+    ```
+
+2. Check out the branch that includes the audio/video recording proposal (until merged):
+
+    ```bash
+    git checkout audio-video-clean
+    ```
+
+3. Install the BIDS Validator (if not already installed):
+
+    ```bash
+    npm install -g bids-validator
+    ```
+
+4. Build the updated schema:
+
+    ```bash
+    bst -v export --schema src/schema --output src/schema.json
+    ```
+
+5. Install bids-validator-deno:
+
+    ```bash
+    pip install bids-validator-deno
+    ```
+
+5. Run the validator on this dataset with the updated schema:
+    ```bash
+    bids-validator-deno -s file:///path/to//bids-specification/src/schema.json /path/to/bids-examples/beh_audio_video_recordings
+    ```
+
 ## Privacy considerations
 
 When working with real audio and video recordings of human subjects, ensure compliance with applicable privacy regulations (HIPAA, GDPR, etc.) as these files often contain personally identifiable information.
