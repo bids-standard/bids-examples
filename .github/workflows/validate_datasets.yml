@@ -94,8 +94,9 @@ jobs:
         cd ../bids-validator
         echo "Cloned branch: $(git branch --show-current)"
         echo "Latest commit: $(git log --oneline -1)"
-        deno cache --reload src/bids-validator.ts
-        deno compile --reload -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
+        chmod +x local-run
+        # Create symlink to local-run
+        ln -sf $(pwd)/local-run $HOME/.deno/bin/bids-validator
         echo "bids-validator version:"
         bids-validator --version
 
@@ -106,8 +107,9 @@ jobs:
         cd ../bids-validator
         echo "Cloned branch: $(git branch --show-current)"
         echo "Latest commit: $(git log --oneline -1)"
-        deno cache --reload src/bids-validator.ts
-        deno compile --reload -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
+        chmod +x local-run
+        # Create symlink to local-run
+        ln -sf $(pwd)/local-run $HOME/.deno/bin/bids-validator
         echo "bids-validator version:"
         bids-validator --version
 
