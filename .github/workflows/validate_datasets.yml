@@ -68,11 +68,16 @@ jobs:
       with:
         deno-version: v2.x
         
-    - name: Clean Deno cache
+    - name: Clean Deno Artifacts
       if: matrix.bids-validator != 'legacy'
       run: |
         rm -f $HOME/.deno/bin/bids-validator
-        deno cache --reload jsr:@bids/validator
+        if [ "${{ matrix.bids-validator }}" == "dev" || "${{ matrix.bids-validator }}" == "main" ]; then
+          rm -rf ../bids-validator
+        fi
+        if [ "${{ matrix.bids-validator }}" == "stable" ]; then
+          deno cache --reload jsr:@bids/validator
+        fi
 
     - name: Install BIDS validator (stable)
       if: matrix.bids-validator == 'stable'
@@ -87,14 +92,24 @@ jobs:
         #deno install -Agf https://github.com/bids-standard/bids-validator/raw/deno-build/bids-validator.js
         git clone -b main https://github.com/bids-standard/bids-validator/ ../bids-validator
         cd ../bids-validator
-        deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
+        echo "Cloned branch: $(git branch --show-current)"
+        echo "Latest commit: $(git log --oneline -1)"
+        deno cache --reload src/bids-validator.ts
+        deno compile --reload -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
+        echo "bids-validator version:"
+        bids-validator --version
 
     - name: Install BIDS validator (dev)
       if: matrix.bids-validator == 'dev'
       run: |
         git clone -b dev https://github.com/bids-standard/bids-validator/ ../bids-validator
         cd ../bids-validator
-        deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
+        echo "Cloned branch: $(git branch --show-current)"
+        echo "Latest commit: $(git log --oneline -1)"
+        deno cache --reload src/bids-validator.ts
+        deno compile --reload -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
+        echo "bids-validator version:"
+        bids-validator --version
 
     - name: Install BIDS validator (legacy)
       if: "matrix.bids-validator == 'legacy'"
