@@ -11,6 +11,12 @@ on:
   schedule:
     - cron: "0 4 * * 1"
   workflow_dispatch:
+    inputs:
+      debug_enabled:
+        type: boolean
+        description: "Run the build with tmate using mxschmit/action-tmate"
+        required: false
+        default: false
 
 concurrency:
   group: ${{ github.ref }}
@@ -150,6 +156,10 @@ jobs:
       with:
         name: branch-${{ github.base_ref }}_validatorversion-${{ matrix.bids-validator }}_platform-${{ matrix.platform }}-schema.json
         path: schema.json
+    
+    - name: Debug with Tmate
+      uses: mxschmitt/action-tmate@v3
+      if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
