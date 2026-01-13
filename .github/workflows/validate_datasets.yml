@@ -129,7 +129,7 @@ jobs:
       # release of https://jsr.io/@bids/schema
       run: |
         echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/bep023/schema.json >> $GITHUB_ENV
-        echo VALIDATOR_ARGS="-r --schema $BIDS_SCHEMA" >> $GITHUB_ENV
+        echo VALIDATOR_ARGS="-r --schema https://bids-specification.readthedocs.io/en/bep023/schema.json" >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
       run: |
