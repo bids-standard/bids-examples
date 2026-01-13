@@ -2,9 +2,16 @@
 
 failed=
 
-which bids-validator
+# Use local-run if BIDS_VALIDATOR_DIR is set, otherwise use bids-validator command
+if [ -n "$BIDS_VALIDATOR_DIR" ] && [ -f "$BIDS_VALIDATOR_DIR/local-run" ]; then
+    BIDS_VALIDATOR_CMD="cd '$BIDS_VALIDATOR_DIR' && ./local-run"
+    echo "Using local-run from $BIDS_VALIDATOR_DIR"
+else
+    BIDS_VALIDATOR_CMD="bids-validator"
+    which bids-validator
+fi
 
-if bids-validator --help | grep -q Description; then
+if eval "$BIDS_VALIDATOR_CMD --help" | grep -q Description; then
     VARIANT="schema"
 else
     VARIANT="legacy"
@@ -27,7 +34,7 @@ for i in "${datasets[@]}"; do
 
     # Set the VALIDATOR_ARGS environment variable to pass additional arguments to the 
     # validator.
-    CMD="bids-validator ${i%%/} $VALIDATOR_ARGS"
+    CMD="$BIDS_VALIDATOR_CMD ${i%%/} $VALIDATOR_ARGS"
 
     # Use default configuration unless overridden
     if [[ ! ( -f "${i%%/}/.bids-validator-config.json" || $CMD =~ /--config/ ) ]]; then
