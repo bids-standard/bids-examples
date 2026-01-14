@@ -142,10 +142,11 @@ jobs:
         echo VALIDATOR_ARGS="-r --schema https://bids-specification.readthedocs.io/en/bep023/schema.json" >> $GITHUB_ENV
 
     - name: Validate all BIDS datasets using bids-validator
+      continue-on-error: ${{ github.event_name == 'workflow_dispatch' && inputs.debug == 'true' }}
       run: |
         echo "VALIDATOR_ARGS: $VALIDATOR_ARGS"
         cat ./run_tests.sh
-        ./run_tests.sh || exit 1
+        ./run_tests.sh || exit 1 
 
     - name: Setup tmate session for debugging
       if: github.event_name == 'workflow_dispatch' && inputs.debug == true
