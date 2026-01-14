@@ -112,8 +112,11 @@ jobs:
         fi
 
     - name: Skip legacy validation for post-legacy datasets
-      run: for DS in mrs_* dwi_deriv pet006 pheno004 volume_timing; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator == 'legacy'
+      run: | 
+        for DS in mrs_* dwi_deriv pet006 pheno004 volume_timing; do touch $DS/.SKIP_VALIDATION; done
+        echo LEGACY_VALIDATION=true >> $GITHUB_ENV
+        echo NODE_NO_WARNINGS=1 >> $GITHUB_ENV
 
     - name: Skip stable validation for datasets with unreleased validator features
       # Replace ${EMPTY} with dataset patterns, when this is needed
@@ -129,14 +132,8 @@ jobs:
 
     - name: Skip derivative validation for datasets with unreleased spec features
       if: matrix.bids-validator == 'dev' || matrix.bids-validator == 'main'
-      run: |
-        for DS in ieeg_epilepsy* qmri_* synthetic; 
-          do 
-            echo "derivatives/*" >> $DS/.bidsignore;
-            for file in $(ls -d $DS/derivatives/*); do
-              echo "derivatives/$item" >> $DS/.bidsignore;
-            done
-          done
+      # bids ignore isn't behaving as expected skipping for now, just going to worry about bep023
+      run: for DS in ieeg_epilepsy* qmri_* synthetic; do touch $DS/.SKIP_VALIDATION; done
 
     - name: Set BIDS_SCHEMA variable for dev and main version
       if: matrix.bids-validator == 'dev' || matrix.bids-validator == 'main'

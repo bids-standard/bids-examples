@@ -56,16 +56,23 @@ for i in "${datasets[@]}"; do
         # Count errors grouped by path (root '/' or '/derivatives/<name>')
         # Handle empty or missing derivativesSummary
         # Should probably switch this script over to a Python or JS one at some point.
-        ERROR_COUNTS=$(echo "$JSON_OUTPUT" | jq -c '
-        {
-          "/": ([.issues.issues[] | select(.severity == "error")] | length)
-        } + (
-          (.derivativesSummary // {}) | to_entries | map({
-            key: ("/derivatives/" + (.key | ltrimstr("/derivatives/") | ltrimstr("derivatives/"))),
-            value: ([.value.issues.issues[] | select(.severity == "error")] | length)
-          }) | from_entries
-        ) | to_entries | map({path: .key, error_count: .value}) | map(select(.error_count > 0))')
-
+        if [ "${VARIANT}" == "schema" ]; then
+            ERROR_COUNTS=$(echo "$JSON_OUTPUT" | jq -c '
+            {
+            "/": ([.issues.issues[] | select(.severity == "error")] | length)
+            } + (
+            (.derivativesSummary // {}) | to_entries | map({
+                key: ("/derivatives/" + (.key | ltrimstr("/derivatives/") | ltrimstr("derivatives/"))),
+                value: ([.value.issues.issues[] | select(.severity == "error")] | length)
+            }) | from_entries
+            ) | to_entries | map({path: .key, error_count: .value}) | map(select(.error_count > 0))')
+        elif [ "${VARIANT}" == "legacy" ]; then
+            ERROR_COUNTS=$(echo "$JSON_OUTPUT" | jq -c '
+            {
+            "/": (.issues.errors | length)
+            } | to_entries | map({path: .key, error_count: .value}) | map(select(.error_count > 0))')
+        fi
+        
         # Display error counts
         if [ -n "$ERROR_COUNTS" ] && [ "$ERROR_COUNTS" != "[]" ]; then
             echo "Error counts by path:"
@@ -79,7 +86,7 @@ for i in "${datasets[@]}"; do
             :
         fi
     else
-        echo "Validator output is not valid JSON or validator failed"
+        echo "Validation failed for $i"
         if [ $VALIDATOR_EXIT -ne 0 ]; then
             echo "Validator exit code: $VALIDATOR_EXIT"
         fi
