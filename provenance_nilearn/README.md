@@ -17,6 +17,7 @@ In version 0.12.0, Nilearn provides the following provenance metadata inside the
     "Name": "nilearn",
     "Version": "0.12.0"
   }
+]
 ```
 
 ## Original data
