@@ -1,6 +1,6 @@
 {
   "BIDSProvVersion": "0.0.1",
-  "@context": "https://purl.org/nidash/bidsprov/context.json",
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
   "Records": {
     "Software": [
       {
@@ -20,19 +20,15 @@
         ],
         "Used": [
           "bids::prov#poldracklab/fmriprep-mHl7Dqa0",
-          "bids:ds001734:."
+          "bids:ds001734"
         ]
       }
     ],
     "Files": [],
     "Datasets": [
       {
-        "Id": "bids:ds001734:.",
-        "Label": "NARPS"
-      },
-      {
-        "Id": "bids:current_dataset",
-        "Label": "Outputs from fMRIPrep preprocessing",
+        "Id": "bids:aa",
+        "Label": "Outputs from fMRIPrep preprocessing of the NARPS data",
         "GeneratedBy": [
           "bids::prov#preprocessing-xMpFqB5q"
         ]
