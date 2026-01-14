@@ -1,0 +1,46 @@
+{
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
+  "Records": {
+    "Software": [],
+    "Activities": [
+      {
+        "Id": "bids::prov#segmentation-q9FNOUjZ",
+        "Label": "Manual lesion segmentation",
+        "Command": null,
+        "Used": [
+          "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+        ]
+      },
+      {
+        "Id": "bids::prov#segmentation-i4MyEr34",
+        "Label": "Manual lesion segmentation",
+        "Command": null,
+        "Used": [
+          "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+        ]
+      }
+    ],
+    "Files": [
+      {
+        "Id": "bids:raw:sub-001/anat/sub-001_T1w.nii.gz",
+        "Label": "sub-001/anat/sub-001_T1w.nii.gz",
+        "AtLocation": "../../sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz"
+      },
+      {
+        "Id": "bids::sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
+        "Label": "sub-001_space-orig_desc-exp1_dseg.nii.gz",
+        "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
+        "GeneratedBy": "bids::prov#segmentation-q9FNOUjZ"
+      },
+      {
+        "Id": "bids::sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
+        "Label": "sub-001_space-orig_desc-exp2_dseg.nii.gz",
+        "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
+        "GeneratedBy": "bids::prov#segmentation-i4MyEr34"
+      }
+    ],
+    "Datasets": [],
+    "prov:Entity": [],
+    "Environments": []
+  }
+}

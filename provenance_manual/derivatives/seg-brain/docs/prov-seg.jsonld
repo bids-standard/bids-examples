@@ -1,6 +1,5 @@
 {
-  "BIDSProvVersion": "0.0.1",
-  "@context": "https://raw.githubusercontent.com/bclenet/bids-specification/refs/heads/BEP028_spec/src/provenance-context.json",
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
   "Records": {
     "Software": [],
     "Activities": [
@@ -23,21 +22,18 @@
     ],
     "Files": [
       {
-        "Id": "bids:raw:sub-001/anat/sub-001_T1w.nii.gz",
-        "Label": "sub-001/anat/sub-001_T1w.nii.gz",
-        "AtLocation": "../../sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz"
-      },
-      {
         "Id": "bids::sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
         "Label": "sub-001_space-orig_desc-exp1_dseg.nii.gz",
         "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
-        "GeneratedBy": "bids::prov#segmentation-nO5RGsrb"
+        "GeneratedBy": "bids::prov#segmentation-nO5RGsrb",
+        "Type": "http://uri.interlex.org/base/ilx_0744009"
       },
       {
         "Id": "bids::sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
         "Label": "sub-001_space-orig_desc-exp2_dseg.nii.gz",
         "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
-        "GeneratedBy": "bids::prov#segmentation-mOOypIYB"
+        "GeneratedBy": "bids::prov#segmentation-mOOypIYB",
+        "Type": "http://uri.interlex.org/base/ilx_0744009"
       }
     ],
     "Datasets": [],
