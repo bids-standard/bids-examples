@@ -1,8 +1,8 @@
-# Provenance of DICOM to Nifti conversion with `heudiconv`
+# Provenance of DICOM to NIfTI conversion with `heudiconv`
 
 ## Goal
 
-This example aims at showing provenance metadata for a DICOM to Nifti conversion, performed by [`heudiconv`](https://heudiconv.readthedocs.io/en/latest/). Provenance metadata was created manually ; it acts as a guideline for further machine-generated provenance by `heudiconv`. 
+This example aims at showing provenance metadata for a DICOM to NIfTI conversion, performed by [`heudiconv`](https://heudiconv.readthedocs.io/en/latest/). Provenance metadata was created manually ; it acts as a guideline for further machine-generated provenance by `heudiconv`. 
 
 ## Source data
 
