@@ -129,7 +129,14 @@ jobs:
 
     - name: Skip derivative validation for datasets with unreleased spec features
       if: matrix.bids-validator == 'dev' || matrix.bids-validator == 'main'
-      run: for DS in ieeg_epilepsy* qmri_* synthetic; do echo "derivatives/*" >> $DS/.bidsignore; done
+      run: |
+        for DS in ieeg_epilepsy* qmri_* synthetic; 
+          do 
+            echo "derivatives/*" >> $DS/.bidsignore;
+            for file in $(ls -d $DS/derivatives/*); do
+              echo "derivatives/$item" >> $DS/.bidsignore;
+            done
+          done
 
     - name: Set BIDS_SCHEMA variable for dev and main version
       if: matrix.bids-validator == 'dev' || matrix.bids-validator == 'main'
@@ -141,14 +148,14 @@ jobs:
         echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/bep023/schema.json >> $GITHUB_ENV
         echo VALIDATOR_ARGS="-r --schema https://bids-specification.readthedocs.io/en/bep023/schema.json" >> $GITHUB_ENV
 
+    - name: Setup tmate session for debugging
+      if: github.event_name == 'workflow_dispatch' && inputs.debug == true
+      uses: mxschmitt/action-tmate@v3
+      timeout-minutes: 60
+    
     - name: Validate all BIDS datasets using bids-validator
-      continue-on-error: ${{ github.event_name == 'workflow_dispatch' && inputs.debug == 'true' }}
       run: |
         echo "VALIDATOR_ARGS: $VALIDATOR_ARGS"
         cat ./run_tests.sh
         ./run_tests.sh || exit 1 
 
-    - name: Setup tmate session for debugging
-      if: github.event_name == 'workflow_dispatch' && inputs.debug == true
-      uses: mxschmitt/action-tmate@v3
-      timeout-minutes: 60
