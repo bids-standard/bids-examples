@@ -1,8 +1,8 @@
-# Provenance of DICOM to Nifti conversion with `dcm2niix`
+# Provenance of DICOM to NIfTI conversion with `dcm2niix`
 
 ## Goal
 
-This example aims at showing provenance metadata for a DICOM to Nifti conversion with [`dcm2niix`](https://github.com/rordenlab/dcm2niix
+This example aims at showing provenance metadata for a DICOM to NIfTI conversion with [`dcm2niix`](https://github.com/rordenlab/dcm2niix
 ). Provenance metadata was created manually ; its acts as a guideline for further machine-generated provenance by `dcm2niix`. 
 
 ## Source data
