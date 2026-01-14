@@ -9,6 +9,12 @@ on:
   schedule:
     - cron: "0 4 * * 1"
   workflow_dispatch:
+    inputs:
+      debug:
+        description: Debug mode
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: ${{ github.ref }}
@@ -140,3 +146,8 @@ jobs:
         echo "VALIDATOR_ARGS: $VALIDATOR_ARGS"
         cat ./run_tests.sh
         ./run_tests.sh || exit 1
+
+    - name: Setup tmate session for debugging
+      if: github.event_name == 'workflow_dispatch' && inputs.debug == true
+      uses: mxschmitt/action-tmate@v3
+      timeout-minutes: 60

@@ -61,7 +61,7 @@ for i in "${datasets[@]}"; do
           "/": ([.issues.issues[] | select(.severity == "error")] | length)
         } + (
           (.derivativesSummary // {}) | to_entries | map({
-            key: "/derivatives/\(.key)",
+            key: ("/derivatives/" + (.key | ltrimstr("/derivatives/") | ltrimstr("derivatives/"))),
             value: ([.value.issues.issues[] | select(.severity == "error")] | length)
           }) | from_entries
         ) | to_entries | map({path: .key, error_count: .value}) | map(select(.error_count > 0))')
