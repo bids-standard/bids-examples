@@ -4,7 +4,10 @@
       "Id": "bids::prov#glm-TzAuB7k8",
       "Label": "A Nilearn First Level GLM.",
       "Command": "python plot_bids_features.py",
-      "AssociatedWith": "bids::prov#python-RcggGffB",
+      "AssociatedWith": [
+        "bids::prov#python-RcggGffB",
+        "bids::prov#nilearn-JAk1fM3q"
+      ],
       "Used": [
         "bids::prov#entity-A6CltiO4",
         "bids:ds000030:.",
