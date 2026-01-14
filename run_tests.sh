@@ -72,8 +72,9 @@ for i in "${datasets[@]}"; do
             echo "$ERROR_COUNTS" | jq -r '.[] | "  \(.path): \(.error_count) error(s)"'
             failed+=" $i"
             # rerun the command but send the ouput to console for users see on github
-            errors_only="$CMD --ignoreWarnings | jq"
+            #errors_only="$CMD --ignoreWarnings | jq"
             eval "$errors_only"
+            VALIDATOR_EXIT=1
         else
             :
         fi
