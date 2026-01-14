@@ -121,6 +121,10 @@ jobs:
       run: for DS in  emg_*; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator != 'dev'
 
+    - name: Skip derivative validation for datasets with unreleased spec features
+      if: matrix.bids-validator == 'dev' || matrix.bids-validator == 'main'
+      run: for DS in ieeg_epilepsy* qmri_* synthetic; do echo "derivatives/" >> $DS/.bidsignore; done
+
     - name: Set BIDS_SCHEMA variable for dev and main version
       if: matrix.bids-validator == 'dev' || matrix.bids-validator == 'main'
       # When proposing new features, schema changes may be necessary.
@@ -135,4 +139,4 @@ jobs:
       run: |
         echo "VALIDATOR_ARGS: $VALIDATOR_ARGS"
         cat ./run_tests.sh
-        ./run_tests.sh
+        ./run_tests.sh || exit 1
