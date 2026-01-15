@@ -5,5 +5,9 @@
   "License": "CC0",
   "Authors": [
     "Boris Clénet"
-  ]
+  ],
+  "DatasetLinks": {
+    "seg-brain": "derivatives/seg-brain",
+    "seg-lesions": "derivatives/seg-lesions"
+  }
 }
