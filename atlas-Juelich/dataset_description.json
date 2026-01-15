@@ -1,0 +1,31 @@
+{
+    "Authors": [
+        "Unknown"
+    ],
+    "BIDSVersion": "1.11.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "bids-atlas",
+            "Version": "0.3.1",
+            "CodeURL": "https://github.com/PeerHerholz/bids_atlas"
+        },
+        {
+            "Name": "nilearn",
+            "CodeURL": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_juelich.html"
+        }
+    ],
+    "License": "FSL License - Non-commercial use only. Commercial use requires permission from Forschungszentrum J\u00fclich GmbH. Contact: S.Eickhoff@fz-juelich.de",
+    "Name": "Juelich atlas",
+    "SourceDatasets": [
+        {
+            "URL": "https://julich-brain-atlas.de"
+        },
+        {
+            "URL": "https://ebrains.eu"
+        },
+        {
+            "URL": "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets"
+        }
+    ]
+}

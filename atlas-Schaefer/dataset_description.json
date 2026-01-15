@@ -1,0 +1,32 @@
+{
+    "Authors": [
+        "Alexander Schaefer",
+        "Ru Kong",
+        "Evan M. Gordon",
+        "Timothy O. Laumann",
+        "Xi-Nian Zuo",
+        "Avram J. Holmes",
+        "Simon B. Eickhoff",
+        "B. T. Thomas Yeo"
+    ],
+    "BIDSVersion": "1.11.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "bids-atlas",
+            "Version": "0.3.1",
+            "CodeURL": "https://github.com/PeerHerholz/bids_atlas"
+        },
+        {
+            "Name": "nilearn",
+            "CodeURL": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_schaefer_2018.html"
+        }
+    ],
+    "License": "MIT",
+    "Name": "Schaefer 2018 Atlas",
+    "SourceDatasets": [
+        {
+            "URL": "https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal"
+        }
+    ]
+}

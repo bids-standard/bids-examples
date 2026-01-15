@@ -1,0 +1,21 @@
+{
+	"age": {
+		"Description": "Age of the participant",
+		"Units": "years"
+	},
+	"sex": {
+		"Description": "Biological sex of the participant",
+		"Levels": {
+			"M": "male",
+			"F": "female"
+		}
+	},
+	"handedness": {
+		"Description": "Handedness of the participant",
+		"Levels": {
+			"left": "left-handed",
+			"right": "right-handed",
+			"ambidextrous": "ambidextrous"
+		}
+	}
+}
