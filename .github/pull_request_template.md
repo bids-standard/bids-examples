@@ -1,4 +1,5 @@
 <!-- New examples often relate to in-progress changes to the specification or validator. Link to the relevant PRs, if any. -->
+<!-- Accepted formats: PR number (e.g., 123), GitHub shorthand (e.g., bids-standard/bids-specification#123), or full URL -->
 
 - BIDS Specification PR: NONE
 - BIDS Validator PR: NONE
