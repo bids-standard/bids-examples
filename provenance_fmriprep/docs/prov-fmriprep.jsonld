@@ -18,15 +18,19 @@
           "bids::prov#fmriprep-awf6cvk6"
         ],
         "Used": [
-          "https://hub.docker.com/layers/poldracklab/fmriprep/1.1.4",
-          "bids:ds001734"
+          "bids::prov#poldracklab/fmriprep-mHl7Dqa0",
+          "bids:ds001734:."
         ]
       }
     ],
     "Files": [],
     "Datasets": [
       {
-        "Id": "bids:aa",
+        "Id": "bids:ds001734:.",
+        "Label": "NARPS"
+      },
+      {
+        "Id": "bids::.",
         "Label": "Outputs from fMRIPrep preprocessing of the NARPS data",
         "GeneratedBy": [
           "bids::prov#preprocessing-xMpFqB5q"
