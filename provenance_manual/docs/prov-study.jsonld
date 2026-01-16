@@ -54,7 +54,10 @@
       {
         "Id": "bids:raw:sub-001/anat/sub-001_T1w.nii.gz",
         "Label": "sub-001/anat/sub-001_T1w.nii.gz",
-        "AtLocation": "sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz"
+        "AtLocation": "sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz",
+        "Digest": {
+          "SHA-256": "545d4c7e7c9e73275f4b3cbffbecc93b522afa97da2325b73737f3777c5395bf"
+        }
       },
       {
         "Id": "bids:seg-lesions:sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
