@@ -1,0 +1,3 @@
+probe_name	type	AP	ML	DV	AP_angle	ML_angle	rotation_angle	hemisphere	manufacturer	model	device_serial_number	electrode_count	width	height	depth	dimension_unit	coordinate_reference_point	anatomical_reference_point	associated_brain_region	associated_brain_region_id	reference_atlas	material
+probe01	silicon-probe	-2.5	1.5	-4.0	15	0	0	L	NeuroNexus	A1x32-Poly3-10mm-50-177	NP1100-2205	32	70	20	3840	um	tip	Bregma	Primary Motor Cortex	MOp	Allen-CCF-2017	silicon
+probe02	silicon-probe	-1.8	2.0	-3.5	10	5	0	R	Custom Lab	customprobe1	CUSTOM-001	16	50	15	2000	um	tip	Bregma	Hippocampus CA1	CA1	Allen-CCF-2017	silicon

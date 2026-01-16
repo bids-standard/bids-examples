@@ -1,0 +1,21 @@
+{
+    "trial_type": {
+        "Description": "Type of event",
+        "Levels": {
+            "cue_onset": "Visual cue presented to initiate reaching movement",
+            "reach": "Subject performs reaching movement"
+        }
+    },
+    "success": {
+        "Description": "Whether the reach was successful",
+        "Levels": {
+            "true": "Successful grasp",
+            "false": "Failed or incomplete reach"
+        }
+    },
+    "StimulusPresentation": {
+        "OperatingSystem": "Linux Ubuntu 20.04",
+        "SoftwareName": "Custom MATLAB scripts",
+        "SoftwareVersion": "R2021a"
+    }
+}
