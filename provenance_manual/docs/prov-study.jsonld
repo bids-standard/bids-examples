@@ -40,32 +40,32 @@
       {
         "Id": "bids:seg-brain:sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
         "Label": "sub-001_space-orig_desc-exp1_dseg.nii.gz",
-        "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
+        "AtLocation": "seg-brain/sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
         "GeneratedBy": "bids:seg-brain:prov#segmentation-nO5RGsrb",
         "Type": "http://uri.interlex.org/base/ilx_0744009"
       },
       {
         "Id": "bids:seg-brain:sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
         "Label": "sub-001_space-orig_desc-exp2_dseg.nii.gz",
-        "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
+        "AtLocation": "seg-brain/sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
         "GeneratedBy": "bids:seg-brain:prov#segmentation-mOOypIYB",
         "Type": "http://uri.interlex.org/base/ilx_0744009"
       },
       {
         "Id": "bids:raw:sub-001/anat/sub-001_T1w.nii.gz",
         "Label": "sub-001/anat/sub-001_T1w.nii.gz",
-        "AtLocation": "../../sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz"
+        "AtLocation": "sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz"
       },
       {
         "Id": "bids:seg-lesions:sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
         "Label": "sub-001_space-orig_desc-exp1_dseg.nii.gz",
-        "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
+        "AtLocation": "seg-lesions/sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
         "GeneratedBy": "bids:seg-lesions:prov#segmentation-q9FNOUjZ"
       },
       {
         "Id": "bids:seg-lesions:sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
         "Label": "sub-001_space-orig_desc-exp2_dseg.nii.gz",
-        "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
+        "AtLocation": "seg-lesions/sub-001/anat/sub-001_space-orig_desc-exp2_dseg.nii.gz",
         "GeneratedBy": "bids:seg-lesions:prov#segmentation-i4MyEr34"
       }
     ],

@@ -22,11 +22,6 @@
     ],
     "Files": [
       {
-        "Id": "bids:raw:sub-001/anat/sub-001_T1w.nii.gz",
-        "Label": "sub-001/anat/sub-001_T1w.nii.gz",
-        "AtLocation": "../../sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz"
-      },
-      {
         "Id": "bids::sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
         "Label": "sub-001_space-orig_desc-exp1_dseg.nii.gz",
         "AtLocation": "sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
