@@ -29,7 +29,7 @@
     }
   },
   "connector_aligned_id": {
-    "description": "Identifier for the aligned connector pin associated with this electrode."
+    "description": "Spatially ordered electrode ID (1-100, bottom-left to top-right). Reference wires have n/a as they are not part of the electrode grid."
   },
   "impedance_unit": {
     "description": "Unit of impedance measurement.",

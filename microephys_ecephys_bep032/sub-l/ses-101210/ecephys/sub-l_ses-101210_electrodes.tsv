@@ -95,5 +95,5 @@ name	probe_name	x	y	z	impedance	material	location	hemisphere	connector_aligned_i
 94	UtahArray-1025-0503	0.4	2.8	1.5	53	iridium oxide	M1	R	18	kOhm	Parylene-c
 95	UtahArray-1025-0503	0.4	3.6	1.5	53	iridium oxide	M1	R	20	kOhm	Parylene-c
 96	UtahArray-1025-0503	0.0	3.2	1.5	54	iridium oxide	M1	R	9	kOhm	Parylene-c
-ref1	UtahArray-1025-0503	0.0	0.0	1.5	n/a	Pt/Au	M1	R	1	n/a	n/a
-ref2	UtahArray-1025-0503	3.6	3.6	1.5	n/a	Pt/Au	M1	R	100	n/a	n/a
+ref1	UtahArray-1025-0503	n/a	n/a	n/a	n/a	Pt/Au	M1	R	n/a	n/a	n/a
+ref2	UtahArray-1025-0503	n/a	n/a	n/a	n/a	Pt/Au	M1	R	n/a	n/a	n/a

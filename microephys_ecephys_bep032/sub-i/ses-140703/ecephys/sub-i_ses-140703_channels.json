@@ -1,4 +1,7 @@
 {
+  "name": {
+    "Description": "Channel identifier. Neural channels: chanN_sM where N=electrode number (1-96), M=stream (1=LFP at 1kHz, 2=HP at 30kHz). Behavioral channels: GF=Grip Force (pr=precision grip, side=side grip, 1/2=sensor number), LF=Load Force, Displ=Displacement."
+  },
   "channel_id": {
     "description": "Identifier for the channel. Corresponds to the channel number in the source data file."
   },

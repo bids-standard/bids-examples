@@ -1,5 +1,23 @@
-# Massively parallel multi-electrode recordings of macaque motor cortex during an instructed delayed reach-to-grasp task
+# Reach-to-Grasp Multi-electrode Array Recordings (BEP032 Example)
 
-## Summary
-We provide two electrophysiological datasets recorded via a 10-by-10 multi-electrode array chronically implanted in the motor cortex of two macaque monkeys during an instructed delayed reach-to-grasp task ([Brochier et al., 2018](http://doi.org/10.1038/sdata.2018.55)). The datasets contain the continuous measure of extracellular potentials at each electrode sampled at 30 kHz, the local field potentials sampled at 1 kHz and the timing of the online and offline extracted spike times. It also includes the timing of several task-related and behavioral events recorded along with the electrophysiological data. Finally, the datasets provide a complete set of metadata structured in a standardized format. These metadata allow easy access to detailed information about the datasets such as the settings of the recording hardware, the array specifications, the location of the implant in the motor cortex, information about the monkeys, or the offline spike sorting.
-The two datasets can be exploited to address crucial issues in neurophysiology such as: What are the principles of neural interactions in a local cortical network and how are these interactions modulated during a well-described behavioral task?  How different neuronal signals such as single-unit activity, multi-unit activity or LFPs relate to each other? Which spike sorting methods provide the best estimate of single unit activity?  
+Example dataset demonstrating the **BIDS Extension Proposal for Microelectrode Electrophysiology (BEP032)** format for multi-electrode array recordings from non-human primates.
+
+## Source
+
+Converted from the Reach-to-Grasp dataset: https://gin.g-node.org/INT/multielectrode_grasp
+DOI: [10.12751/g-node.f83565](https://doi.org/10.12751/g-node.f83565)
+
+## Electrode Configuration Notes
+
+The Utah arrays have two Pt/Au reference wires physically separate from the 96 recording electrodes, placed under the dura rather than at grid positions.
+
+- **sub-i:** Standard configuration with corners (1, 10, 91, 100) unconnected. Reference wires assigned to corners 1 and 100.
+- **sub-l:** Custom configuration with all corners connected. Unconnected positions at 80, 90, 93, 95. Reference wire coordinates set to n/a (no available grid positions).
+
+## Reference
+
+Brochier et al. (2018). Massively parallel recordings in macaque motor cortex during an instructed delayed reach-to-grasp task. *Scientific Data*, 5, 180055. https://doi.org/10.1038/sdata.2018.55
+
+## License
+
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)

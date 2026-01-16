@@ -2,6 +2,7 @@
   "InstitutionName": "Institut de Neuroscience de la Timone, Marseille, France",
   "InstitutionAddress": "Faculté de Médecine,  27, boulevard Jean Moulin, 13005 Marseille, France",
   "InstitutionalDepartmentName": "UMR 7289, CNRS - Aix Marseille Université",
+  "EthicsApprovals": ["C2EA 71 (local ethical committee)", "A1/10/12 (authorization)"],
   "Collaborators": [
     "Institute of Neuroscience and Medicine (INM-6), 52425 Jülich, Germany",
     "Institute for Advanced Simulation (IAS-6), 52425 Jülich, Germany",
@@ -13,7 +14,7 @@
 "SampleEnvironment": "in vivo",
 "BodyPart": "brain",
 "BodyPartDetails": "Primary Motor Cortex (M1)",
-"PowerLineFrequency": 60.0,
+"PowerLineFrequency": 50.0,
 "Manufacturer": "Blackrock Microsystems",
 "ManufacturersModelName": "Cerebus",
 "ManufacturersModelVersion": "NSP",

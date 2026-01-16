@@ -1,4 +1,7 @@
 {
+  "name": {
+    "Description": "Channel identifier. Neural channels: chanN where N=electrode number (1-96). Behavioral channels: ainpN where N=analog input number. Naming conventions: GF=Grip Force, LF=Load Force, Displ=Displacement (see source documentation)."
+  },
   "channel_id": {
     "description": "Identifier for the channel. Corresponds to the channel number in the source data file."
   },
