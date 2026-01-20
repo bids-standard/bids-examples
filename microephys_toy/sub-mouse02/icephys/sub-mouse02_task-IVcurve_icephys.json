@@ -1,0 +1,29 @@
+{
+    "TaskName": "IV Curve Characterization",
+    "TaskDescription": "Current injection protocol to characterize intrinsic membrane properties and generate current-voltage curves",
+    "InstitutionName": "Example University",
+    "InstitutionAddress": "123 Main St, City, State 12345, USA",
+    "InstitutionalDepartmentName": "Neuroscience Department",
+    "PowerLineFrequency": 60,
+    "Manufacturer": "Molecular Devices",
+    "ManufacturersModelName": "MultiClamp 700B",
+    "SamplingFrequency": 20000,
+    "SoftwareName": "pClamp",
+    "SoftwareVersions": "11.0",
+    "HardwareFilters": {
+        "BesselFilter": {
+            "Half-amplitude cutoff (Hz)": 10000,
+            "Roll-off": "12dB/Octave"
+        }
+    },
+    "SoftwareFilters": "n/a",
+    "RecordingType": "epoched",
+    "RecordingDuration": 300,
+    "BodyPart": "BRAIN",
+    "BodyPartDetails": "Visual Cortex",
+    "SampleEnvironment": "ex vivo",
+    "SliceThickness": 300,
+    "SliceThicknessUnits": "um",
+    "TissueOrigin": "Primary Visual Cortex",
+    "CellType": "pyramidal"
+}

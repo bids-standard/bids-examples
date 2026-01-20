@@ -1,0 +1,24 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "species": {
+        "Description": "Species of the subject"
+    },
+    "strain": {
+        "Description": "Strain of the subject"
+    },
+    "sex": {
+        "Description": "Sex of the subject",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "age": {
+        "Description": "Age of the subject in postnatal days (P)"
+    },
+    "weight": {
+        "Description": "Weight of the subject"
+    }
+}
