@@ -1,4 +1,4 @@
-# BEP028 example dataset - Provenance metadata for `fMRIPrep`
+# Provenance of fMRI preprocessing with `fMRIPrep`
 
 ## Goal
 
