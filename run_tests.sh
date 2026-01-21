@@ -38,60 +38,12 @@ for i in "${datasets[@]}"; do
     if [ "$i" != "synthetic/" ]; then
         CMD="$CMD --ignoreNiftiHeaders"
     else
-        echo "validating NIfTI headers."
+        echo "validating NIfTI headers. "
     fi
-
-    # We want json to better parse errors/issues
-    CMD="$CMD --json"
 
     echo "Running $CMD"
 
-    # Capture JSON output and count errors by path
-    # Capture both stdout and stderr, but JSON should be on stdout
-    JSON_OUTPUT=$(eval "$CMD" 2>&1)
-    VALIDATOR_EXIT=$?
-
-    # Check if we got valid JSON
-    if echo "$JSON_OUTPUT" | jq empty >/dev/null 2>&1; then
-        # Count errors grouped by path (root '/' or '/derivatives/<name>')
-        # Handle empty or missing derivativesSummary
-        # Should probably switch this script over to a Python or JS one at some point.
-        if [ "${VARIANT}" == "schema" ]; then
-            ERROR_COUNTS=$(echo "$JSON_OUTPUT" | jq -c '
-            {
-            "/": ([.issues.issues[] | select(.severity == "error")] | length)
-            } + (
-            (.derivativesSummary // {}) | to_entries | map({
-                key: ("/derivatives/" + (.key | ltrimstr("/derivatives/") | ltrimstr("derivatives/"))),
-                value: ([.value.issues.issues[] | select(.severity == "error")] | length)
-            }) | from_entries
-            ) | to_entries | map({path: .key, error_count: .value}) | map(select(.error_count > 0))')
-        elif [ "${VARIANT}" == "legacy" ]; then
-            ERROR_COUNTS=$(echo "$JSON_OUTPUT" | jq -c '
-            {
-            "/": (.issues.errors | length)
-            } | to_entries | map({path: .key, error_count: .value}) | map(select(.error_count > 0))')
-        fi
-        
-        # Display error counts
-        if [ -n "$ERROR_COUNTS" ] && [ "$ERROR_COUNTS" != "[]" ]; then
-            echo "Error counts by path:"
-            echo "$ERROR_COUNTS" | jq -r '.[] | "  \(.path): \(.error_count) error(s)"'
-            failed+=" $i"
-            # rerun the command but send the ouput to console for users see on github
-            #errors_only="$CMD --ignoreWarnings | jq"
-            eval "$errors_only"
-            VALIDATOR_EXIT=1
-        else
-            :
-        fi
-    else
-        echo "Validation failed for $i"
-        if [ $VALIDATOR_EXIT -ne 0 ]; then
-            echo "Validator exit code: $VALIDATOR_EXIT"
-        fi
-        failed+=" $i"
-    fi
+    $CMD || failed+=" $i"
 done
 if [ -n "$failed" ]; then
     echo "Datasets failed validation: $failed"
