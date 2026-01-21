@@ -1,5 +1,6 @@
 {
-  "Sources": [
-    "bids:raw:sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_pet.nii.gz"
-  ]
+    "Sources": [
+        "bids:raw:sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_pet.nii.gz"
+    ],
+    "SkullStripped": false
 }
