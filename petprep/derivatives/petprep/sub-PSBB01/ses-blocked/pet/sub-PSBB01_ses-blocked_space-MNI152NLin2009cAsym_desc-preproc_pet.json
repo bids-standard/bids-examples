@@ -202,5 +202,6 @@
     "bids:templateflow:tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz"
   ],
   "TaskName": null,
-  "Units": "BQML"
+  "Units": "BQML",
+  "SkullStripped": false
 }

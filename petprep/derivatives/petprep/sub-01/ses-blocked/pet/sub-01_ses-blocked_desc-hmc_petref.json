@@ -2,5 +2,6 @@
     "Sources": [
         "bids:raw:sub-01/ses-blocked/pet/sub-01_ses-blocked_pet.nii.gz"
     ],
-    "SkullStripped": false
+    "SkullStripped": false,
+    "SpatialReference": "PET"
 }

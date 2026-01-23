@@ -4,5 +4,6 @@
         "bids::sub-sf02/ses-baseline/pet/sub-sf02_ses-baseline_trc-sf51_from-orig_to-petref_mode-image_xfm.txt",
         "bids::sub-sf02/ses-baseline/pet/sub-sf02_ses-baseline_trc-sf51_from-petref_to-T1w_mode-image_xfm.txt"
     ],
-    "SkullStripped": false
+    "SkullStripped": false,
+    "SpatialReference": "T1w"
 }

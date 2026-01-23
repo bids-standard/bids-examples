@@ -1,4 +1,5 @@
 {
+    "SpatialReference": "T1w",
     "Sources": [
         "bids:raw:sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_pet.nii.gz",
         "bids::sub-PSBB01/ses-blocked/pet/sub-PSBB01_ses-blocked_from-orig_to-petref_mode-image_xfm.txt",

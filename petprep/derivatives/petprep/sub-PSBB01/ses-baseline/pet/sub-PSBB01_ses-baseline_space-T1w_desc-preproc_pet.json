@@ -200,5 +200,7 @@
     "bids::sub-PSBB01/ses-baseline/pet/sub-PSBB01_ses-baseline_from-petref_to-T1w_mode-image_xfm.txt"
   ],
   "TaskName": null,
-  "Units": "BQML"
+  "Units": "BQML",
+  "SkullStripped": false,
+  "SpatialReference": "T1w"
 }

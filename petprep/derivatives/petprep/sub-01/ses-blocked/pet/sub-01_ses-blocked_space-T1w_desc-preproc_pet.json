@@ -225,5 +225,7 @@
     "bids::sub-01/ses-blocked/pet/sub-01_ses-blocked_from-petref_to-T1w_mode-image_xfm.txt"
   ],
   "TaskName": null,
-  "Units": "Bq/mL"
+  "Units": "Bq/mL",
+  "SkullStripped": false,
+  "SpatialReference": "T1w"
 }
