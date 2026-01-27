@@ -7,6 +7,8 @@ pheno003
 |-- README.md
 |-- participants.json
 |-- participants.tsv
+|-- sessions.json
+|-- sessions.tsv
 |-- phenotype
 |   |-- ace.json
 |   `-- ace.tsv

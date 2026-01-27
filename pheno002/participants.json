@@ -13,15 +13,6 @@
 		"Description": "Age of the participant.",
 		"Units": "years"
 	},
-	"ethnicity": {
-		"LongName": "ETHNICITY_1",
-		"Description": "Ethnicity:",
-		"Levels": {
-			"0": "Not Hispanic or Latino",
-			"1": "Hispanic or Latino",
-			"2": "Unknown"
-		}
-	},
 	"race": {
 		"LongName": "RACE_1",
 		"Description": "Race:",
@@ -33,6 +24,15 @@
 			"5": "White/Caucasian",
 			"6": "Multiple race",
 			"7": "Unknown"
+		}
+	},
+	"ethnicity": {
+		"LongName": "ETHNICITY_1",
+		"Description": "Ethnicity:",
+		"Levels": {
+			"0": "Not Hispanic or Latino",
+			"1": "Hispanic or Latino",
+			"2": "Unknown"
 		}
 	},
 	"education": {

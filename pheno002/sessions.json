@@ -9,10 +9,6 @@
 			"ses-02": "Second imaging only visit."
 		}
 	},
-	"age": {
-		"Description": "Age of the participant at the time of the visit.",
-		"Units": "years"
-	},
 	"acq_time": {
 		"Description": "Date and/or time of acquisition."
 	}

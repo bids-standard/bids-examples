@@ -6,9 +6,7 @@ This dataset contains imaging data and phenotypic data from one subject, only im
 📦pheno004
  ┣ 📂phenotype
  ┃ ┣ 📜ace.json
- ┃ ┣ 📜ace.tsv
- ┃ ┣ 📜demographics.json
- ┃ ┗ 📜demographics.tsv
+ ┃ ┗ 📜ace.tsv
  ┣ 📂sub-01
  ┃ ┗ 📂anat
  ┃ ┃ ┣ 📜sub-01_T1w.json
