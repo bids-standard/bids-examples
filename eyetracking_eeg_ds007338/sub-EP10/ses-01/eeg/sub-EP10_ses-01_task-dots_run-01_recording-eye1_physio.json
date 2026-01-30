@@ -1,0 +1,29 @@
+{
+    "SamplingFrequency": 10.0,
+    "StartTime": 0.0,
+    "Columns": [
+        "time",
+        "L-GAZE-X",
+        "L-GAZE-Y",
+        "L-AREA"
+    ],
+    "PhysioType": "eyetrack",
+    "RecordedEye": "left",
+    "SampleCoordinateSystem": "gaze-on-screen",
+    "L-GAZE-X": {
+        "Description": "The x-coordinate of the gaze on the screen in pixels.",
+        "Units": "a.u"
+    },
+    "L-GAZE-Y": {
+        "Description": "The y-coordinate of the gaze on the screen in pixels.",
+        "Units": "a.u"
+    },
+    "L-AREA": {
+        "Description": "Pupil area of the recorded eye as calculated by the eye-tracker in arbitrary units",
+        "Units": "a.u"
+    },
+    "time": {
+        "Description": "The timestamp of the data, in seconds.",
+        "Units": "s"
+    }
+}
