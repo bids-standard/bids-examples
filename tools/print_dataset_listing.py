@@ -15,7 +15,7 @@ and turns it into a markdown document with a series of markdown tables.
 You can pass an argument to insert the content in another file.
 Otherwise the content will be added to the README of this repository.
 """
-
+import warnings
 import sys
 from pathlib import Path
 import pandas as pd
@@ -43,6 +43,7 @@ input_file = root / "dataset_listing.tsv"
 
 tables_order = {
     "ASL": "perf",
+    "Atlas": "",
     "Behavioral": "beh",
     "EEG": "^eeg$",
     "EMG": "emg",
@@ -56,9 +57,9 @@ tables_order = {
     "MRS": "mrs",
     "NIRS": "nirs",
     "PET": "pet",
-    "qMRI": "",
     "Phenotype": "phenotype",
     "Provenance": "",
+    "qMRI": "",
 }
 
 DELIMITER = "<!-- ADD EXAMPLE LISTING HERE -->"
@@ -76,12 +77,12 @@ def main(output_file=None):
 
     names = df["name"].copy()
 
-    check_missing_folders(df, root)
-
     if update_content:
         df = update_datatypes_and_suffixes(df, root)
         df.to_csv(input_file, sep="\t", index=False)
         df = pd.read_csv(input_file, sep="\t")
+
+    check_missing_folders(df, root)
 
     df = add_links(df)
 
@@ -180,6 +181,8 @@ def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
             mask = names.str.contains("_hed_")
         elif table_name == "Provenance":
             mask = names.str.contains("provenance_")
+        elif table_name == "Atlas":
+            mask = names.str.contains("atlas-")
         else:
             mask = df["datatypes"].str.contains(table_datatypes, regex=True)
 
@@ -188,9 +191,12 @@ def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
 
         print(sub_df)
 
-        sub_df.to_markdown(output_file, index=False, mode="a")
-        with output_file.open("a") as f:
-            f.write("\n")
+        if len(sub_df) > 0:
+            sub_df.to_markdown(output_file, index=False, mode="a")
+            with output_file.open("a") as f:
+                f.write("\n")
+        else:
+            warnings.warn(f"No dataset for '{table_name}'", stacklevel=2)
 
 
 def stringify_list(l):
