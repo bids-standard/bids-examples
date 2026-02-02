@@ -58,6 +58,7 @@ tables_order = {
     "NIRS": "nirs",
     "PET": "pet",
     "Phenotype": "phenotype",
+    "Physio": "",
     "Provenance": "",
     "qMRI": "",
 }
@@ -136,11 +137,12 @@ def add_links(df):
             if not isinstance(row[1][col], str):
                 continue
             if col == "name":
-                row[1][col] = f"[{row[1][col]}]({UPSTREAM_REPO}{row[1][col]})"
+                tmp = row[1][col]
+                df.loc[row[0], col]= f"[{tmp}]({UPSTREAM_REPO}{tmp})"
             if col == "link to full data" and row[1][col].startswith("http"):
-                row[1][col] = f"[link]({row[1][col]})"
+                df.loc[row[0], col] = f"[link]({row[1][col]})"
             if col == "maintained by" and row[1][col].startswith("@"):
-                row[1][col] = f"[{row[1][col]}](https://github.com/{row[1][col][1:]})"
+                df.loc[row[0], col] = f"[{row[1][col]}](https://github.com/{row[1][col][1:]})"
     return df
 
 
@@ -171,14 +173,13 @@ def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
     print("Writing markdown tables...")
     df.fillna("n/a", inplace=True)
     for table_name, table_datatypes in tables_order.items():
-        with output_file.open("a") as f:
-            f.write(f"\n### {table_name}\n\n")
-            add_warning(f)
 
         if table_name == "qMRI":
             mask = names.str.contains("qmri_")
         elif table_name == "HED":
             mask = names.str.contains("_hed_")
+        elif table_name == "Physio":
+            mask = df["suffixes"].str.contains("physio", regex=True)
         elif table_name == "Provenance":
             mask = names.str.contains("provenance_")
         elif table_name == "Atlas":
@@ -192,8 +193,11 @@ def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
         print(sub_df)
 
         if len(sub_df) > 0:
-            sub_df.to_markdown(output_file, index=False, mode="a")
             with output_file.open("a") as f:
+                f.write(f"\n### {table_name}\n\n")
+                add_warning(f)
+            with output_file.open("a") as f:
+                sub_df.to_markdown(output_file, index=False, mode="a")
                 f.write("\n")
         else:
             warnings.warn(f"No dataset for '{table_name}'", stacklevel=2)
