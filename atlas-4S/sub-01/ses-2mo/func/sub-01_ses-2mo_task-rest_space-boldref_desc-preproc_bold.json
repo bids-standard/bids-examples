@@ -1,0 +1,17 @@
+{
+    "Description": "The subject's resting state fMRI data, preprocessed using fMRIPrep, in bold reference space and resolution.",
+    "EchoTime": 0.03,
+    "InstitutionName": "University of Pennsylvania",
+    "MagneticFieldStrength": 3,
+    "Manufacturer": "Siemens",
+    "ManufacturersModelName": "Prisma",
+    "MRAcquisitionType": "2D",
+    "RepetitionTime": 1.761,
+    "SkullStripped": false,
+    "SliceTimingCorrected": true,
+    "Sources": [
+        "bids:raw:sub-01/ses-2mo/func/sub-01_ses-2mo_task-rest_bold.nii.gz"
+    ],
+    "SpatialReference": "bids::sub-01/ses-2mo/func/sub-01_ses-2mo_task-rest_space-boldref_desc-preproc_bold.nii.gz",
+    "TaskName": "rest eyes open"
+}
