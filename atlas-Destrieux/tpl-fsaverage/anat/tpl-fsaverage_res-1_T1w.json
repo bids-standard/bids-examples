@@ -1,0 +1,15 @@
+{
+    "Authors": [],
+    "BIDSVersion": "1.1.0",
+    "Curators": [
+        "Esteban O"
+    ],
+    "License": "FreeSurfer Software License (MGH - royalty-free, non-exclusive, requires registration)",
+    "Name": "FreeSurfer's fsaverage template",
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1002/(sici)1097-0193(1999)8:4%3C272::aid-hbm10%3E3.0.co;2-4"
+    ],
+    "Species": "Human",
+    "Resolution": "1mm isotropic",
+    "SkullStripped": false
+}

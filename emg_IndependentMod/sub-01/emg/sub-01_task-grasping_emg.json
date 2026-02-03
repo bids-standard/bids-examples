@@ -1,0 +1,16 @@
+{
+	"EMGChannelCount":6,
+	"EMGPlacementScheme":"ChannelSpecific",
+	"EMGReference":"bipolar",
+	"EMGGround":"n/a",
+	"Manufacturer":"Cometa",
+	"ManufacturersModelName":"MiniX",
+	"RecordingDuration":1.00,
+	"RecordingType":"continuous",
+	"SamplingFrequency":2000,
+	"HardwareFilters":{"Lowpass": {"Half amplitude cutoff (Hz)": 500}},
+	"TaskDescription":"Subject reaches out to grasp an object with different weights for 5 seconds.",
+	"TaskName":"grasping",
+	"PowerLineFrequency":60,
+	"SoftwareFilters":"n/a"
+}

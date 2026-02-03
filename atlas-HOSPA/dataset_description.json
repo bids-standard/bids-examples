@@ -1,0 +1,35 @@
+{
+    "Authors": [
+        "R. Jarrett Rushmore",
+        "Kyle Sutherland",
+        "Holly Carrington",
+        "Justine Chen",
+        "Michael Halle",
+        "Andras Lasso",
+        "George Papadimitriou",
+        "Nick Prunier",
+        "Elizabeth Rizzoni",
+        "Brynn Vessey",
+        "Peter Wilson-Braun",
+        "Yogesh Rathi",
+        "Marek Kubicki",
+        "Sylvain Bouix",
+        "Edward Yeterian",
+        "Nikos Makris"
+    ],
+    "BIDSVersion": "1.10.1",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "HOA-2",
+            "CodeURL": "https://github.com/HOA-2/SubcorticalParcellations"
+        }
+    ],
+    "License": "https://raw.githubusercontent.com/Slicer/Slicer/main/License.txt",
+    "Name": "Harvard-Oxford Subcortical Probabilistic Atlas",
+    "SourceDatasets": [
+        {
+            "URL": "https://github.com/HOA-2/SubcorticalParcellations/tree/16c24e6bd049a2a3151da5c59c33ecae5d0e11b9/dseg"
+        }
+    ]
+}

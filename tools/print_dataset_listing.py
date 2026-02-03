@@ -45,6 +45,7 @@ tables_order = {
     "ASL": "perf",
     "Behavioral": "beh",
     "EEG": "^eeg$",
+    "EMG": "emg",
     "DWI": "dwi",
     "iEEG": "ieeg",
     "HED": "",

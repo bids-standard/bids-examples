@@ -1,0 +1,19 @@
+{
+	"EMGChannelCount":128,
+	"EMGPlacementScheme":"Other",
+	"EMGPlacementSchemeDescription":"Grids placed on dorsal and volar aspects of the forearm, approximately 3 cm from elbow and 2 cm from ulna. See channels.tsv and electrodes.tsv for details.",
+	"EMGReference":"placed on the skin over the ulnar styloid process (wrist)",
+	"EMGGround":"n/a",
+    "PowerLineFrequency": 60,
+    "SoftwareFilters": "n/a",
+	"Manufacturer":"OTBioelettronica",
+	"ManufacturersModelName":"Sessantaquattro",
+	"RecordingType":"continuous",
+	"SamplingFrequency":2000,
+	"HardwareFilters":"n/a",
+	"TaskDescription":"Subject performed isometric finger press tasks with multiple combinations of fingers.",
+	"TaskName":"isometric",
+	"PowerLineFrequency":60,
+	"SoftwareFilters":"n/a",
+	"Instructions":"Maintain a steady force on the transducer to match the target force level shown on the screen."
+}

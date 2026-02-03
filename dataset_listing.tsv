@@ -85,4 +85,12 @@ mrs_fmrs	Functional MRS data involving a pain stimulus task from 15 subjects	[li
 xeeg_hed_score	EEG and iEEG data with annotations of artifacts, seizures and modulators using HED-SCORE 		[@dorahermes](https://github.com/dorahermes)	anat, eeg, ieeg	T1w, channels, coordsystem, eeg, electrodes, events, ieeg
 dwi_deriv	exemplifies the storage of diffusion MRI derivates that may be generated on the Siemens XA platform.			dwi	dwi
 pheno004	Minimal dataset with subjects with imaging and/or phenotype data		[@ericearl](https://github.com/ericearl)	phenotype, anat	T1w
+emg_ConcurrentIndependentUnits	Concurrent EMG recording with multiple independent recording units at different sampling rates	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg, events
+emg_CustomBipolar	Custom-made bipolar EMG recording setup with electrodes on flexors of the lower arm	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, emg
+emg_CustomBipolarFace	EMG recording from facial muscles with many-to-many mapping between sensors and muscles	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
+emg_IndependentMod	Commercial bipolar EMG modules recording multiple muscles with wireless sensors	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
+emg_Multimodal	Integration of EEG, EMG, and motion capture data	n/a	[@neuromechanist](https://github.com/neuromechanist)	eeg, emg, motion	channels, electrodes, coordsystem, eeg, emg, motion, scans, events
+emg_MultiBodyParts	EMG recording from multiple body parts with different electrode types	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
+emg_TwoHDsEMG	High-density EMG grid recordings from two body parts demonstrating grid placement documentation	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
+emg_TwoWristbands	EMG recordings using two wristbands with dry electrodes to capture forearm muscle activity	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
 mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject, two chunks.		[@valosekj](https://github.com/valosekj)	anat	T1w
