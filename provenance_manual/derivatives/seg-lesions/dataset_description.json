@@ -1,0 +1,12 @@
+{
+  "Name": "Manual lesions segmentations",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "Authors": [
+    "Boris Clénet"
+  ],
+  "DatasetLinks": {
+    "raw": "../../sourcedata/raw"
+  }
+}

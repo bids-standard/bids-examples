@@ -1,0 +1,20 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#segmentation-nO5RGsrb",
+      "Label": "Manual brain segmentation",
+      "Command": null,
+      "Used": [
+        "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+      ]
+    },
+    {
+      "Id": "bids::prov#segmentation-mOOypIYB",
+      "Label": "Manual brain segmentation",
+      "Command": null,
+      "Used": [
+        "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+      ]
+    }
+  ]
+}

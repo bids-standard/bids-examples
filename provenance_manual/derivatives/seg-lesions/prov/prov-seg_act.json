@@ -1,0 +1,20 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#segmentation-q9FNOUjZ",
+      "Label": "Manual lesion segmentation",
+      "Command": null,
+      "Used": [
+        "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+      ]
+    },
+    {
+      "Id": "bids::prov#segmentation-i4MyEr34",
+      "Label": "Manual lesion segmentation",
+      "Command": null,
+      "Used": [
+        "bids:raw:sub-001/anat/sub-001_T1w.nii.gz"
+      ]
+    }
+  ]
+}
