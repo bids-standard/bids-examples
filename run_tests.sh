@@ -4,12 +4,6 @@ failed=
 
 which bids-validator
 
-if bids-validator --help | grep -q Description; then
-    VARIANT="schema"
-else
-    VARIANT="legacy"
-fi
-
 if [ "$#" -gt 0 ]; then
     datasets=( "$@" )
 else
@@ -31,7 +25,7 @@ for i in "${datasets[@]}"; do
 
     # Use default configuration unless overridden
     if [[ ! ( -f "${i%%/}/.bids-validator-config.json" || $CMD =~ /--config/ ) ]]; then
-        CMD="$CMD --config $PWD/${VARIANT}config.json"
+        CMD="$CMD --config $PWD/default-config.json"
     fi
 
     # Ignore NIfTI headers except for synthetic dataset
