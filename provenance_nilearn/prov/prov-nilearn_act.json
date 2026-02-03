@@ -1,0 +1,19 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#glm-TzAuB7k8",
+      "Label": "first level analysis",
+      "Description": "A Nilearn First Level Model-level GLM.",
+      "Command": "python plot_bids_features.py",
+      "AssociatedWith": [
+        "bids::prov#python-RcggGffB",
+        "bids::prov#nilearn-JAk1fM3q"
+      ],
+      "Used": [
+        "bids::prov#entity-A6CltiO4",
+        "bids:ds000030:.",
+        "bids::prov#virtualenv-Mjn5ZRoX"
+      ]
+    }
+  ]
+}

@@ -139,6 +139,10 @@ jobs:
             exit 1;
         fi
 
+    - name: Skip legacy validation for post-legacy datasets
+      run: for DS in mrs_* dwi_deriv pet006 pheno004 volume_timing provenance_*; do touch $DS/.SKIP_VALIDATION; done
+      if: matrix.bids-validator == 'legacy'
+
     - name: Skip stable validation for datasets with unreleased validator features
       # Replace ${EMPTY} with dataset patterns, when this is needed
       # Reset to "for DS in ${EMPTY}; ..." after a validator release
@@ -148,7 +152,7 @@ jobs:
     - name: Skip main validation for datasets with unreleased spec features
       # Replace ${EMPTY} with dataset patterns, when this is needed
       # Reset to "for DS in ${EMPTY}; ..." after a spec release
-      run: for DS in eyetracking_* atlas-* emg_*; do touch $DS/.SKIP_VALIDATION; done
+      run: for DS in emg_* provenance_* eyetracking_* atlas-* emg_*; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator != 'dev'
 
     - name: Set BIDS_SCHEMA variable for dev version
@@ -157,7 +161,7 @@ jobs:
       # Update this URL to the schema.json from PRs to the spec, when needed.
       # If this variable is unset, dev will generally track the latest development
       # release of https://jsr.io/@bids/schema
-      run: echo BIDS_SCHEMA=https://bids-specification.readthedocs.io/en/latest/schema.json >> $GITHUB_ENV
+      run: echo BIDS_SCHEMA=https://bids-specification--2099.org.readthedocs.build/en/2099/schema.json >> $GITHUB_ENV
 
     - name: Set BIDS_SCHEMA variable for dev-prs version
       if: matrix.bids-validator == 'dev-prs' && env.SPEC_PR != ''
