@@ -117,7 +117,9 @@
         "Id": "bids::sub-001/anat/sub-001_run-1_T1w.nii.gz",
         "Label": "sub-001_run-1_T1w.nii.gz",
         "AtLocation": "sub-001/anat/sub-001_run-1_T1w.nii.gz",
-        "GeneratedBy": "bids::prov#conversion-00f3a18f"
+        "GeneratedBy": [
+          "bids::prov#conversion-00f3a18f"
+        ]
       },
       {
         "Id": "bids::sub-001/anat/sub-001_run-1_T1w.json",
