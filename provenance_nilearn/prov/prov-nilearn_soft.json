@@ -9,8 +9,12 @@
       "Id": "bids::prov#nilearn-JAk1fM3q",
       "Label": "Nilearn",
       "Version": "0.12.0",
-      "AltIdentifier": "https://github.com/nilearn/nilearn/releases/tag/0.12.0",
-      "ActedOnBehalfOf": "bids::prov#python-RcggGffB"
+      "AlternativeIdentifier": [
+        "https://github.com/nilearn/nilearn/releases/tag/0.12.0"
+      ],
+      "ActedOnBehalfOf": [
+        "bids::prov#python-RcggGffB"
+      ]
     }
   ]
 }
