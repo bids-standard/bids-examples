@@ -1,0 +1,60 @@
+{
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
+  "Records": {
+    "Software": [
+      {
+        "Id": "bids::prov#dcm2niix-khhkm7u1",
+        "Label": "dcm2niix",
+        "AlternativeIdentifier": [
+          "RRID:SCR_023517"
+        ],
+        "Version": "v1.0.20220720"
+      }
+    ],
+    "Activities": [
+      {
+        "Id": "bids::prov#conversion-00f3a18f",
+        "Label": "Conversion",
+        "Command": "dcm2niix -o . -f sub-%i/anat/sub-%i_T1w sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms",
+        "AssociatedWith": [
+          "bids::prov#dcm2niix-khhkm7u1"
+        ],
+        "Used": [
+          "bids::prov#fedora-uldfv058",
+          "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms"
+        ]
+      }
+    ],
+    "Files": [
+      {
+        "Id": "bids::sourcedata/hirni-demo/acq1/dicoms/example-dicom-structural-master/dicoms",
+        "Label": "dicoms"
+      },
+      {
+        "Id": "bids::sub-02/anat/sub-02_T1w.nii",
+        "Label": "sub-02_T1w.nii",
+        "AtLocation": "sub-02/anat/sub-02_T1w.nii",
+        "GeneratedBy": [
+          "bids::prov#conversion-00f3a18f"
+        ]
+      },
+      {
+        "Id": "bids::sub-02/anat/sub-02_T1w.json",
+        "Label": "sub-02_T1w.json",
+        "AtLocation": "sub-02/anat/sub-02_T1w.json",
+        "GeneratedBy": [
+          "bids::prov#conversion-00f3a18f"
+        ]
+      }
+    ],
+    "Datasets": [],
+    "prov:Entity": [],
+    "Environments": [
+      {
+        "Id": "bids::prov#fedora-uldfv058",
+        "Label": "Fedora release 36 (Thirty Six)",
+        "OperatingSystem": "GNU/Linux 6.2.15-100.fc36.x86_64"
+      }
+    ]
+  }
+}

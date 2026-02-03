@@ -94,3 +94,4 @@ emg_MultiBodyParts	EMG recording from multiple body parts with different electro
 emg_TwoHDsEMG	High-density EMG grid recordings from two body parts demonstrating grid placement documentation	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
 emg_TwoWristbands	EMG recordings using two wristbands with dry electrodes to capture forearm muscle activity	n/a	[@neuromechanist](https://github.com/neuromechanist)	emg	channels, electrodes, coordsystem, emg
 mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject, two chunks.		[@valosekj](https://github.com/valosekj)	anat	T1w
+provenance_dcm2niix	Shows minimal example of provenance metadata for a DICOM to Nifti conversion with [`dcm2niix`](https://github.com/rordenlab/dcm2niix)	This example is based upon [hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) data	[@bclenet](https://github.com/bclenet)	anat	T1w, act, ent, env, soft
