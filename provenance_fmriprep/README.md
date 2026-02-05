@@ -80,7 +80,6 @@ In this case, the `GeneratedBy` field of the `dataset_description.json` file cou
 
 ```JSON
 {
-    ...
     "GeneratedBy": [
         {
           "Name": "fMRIPrep",
