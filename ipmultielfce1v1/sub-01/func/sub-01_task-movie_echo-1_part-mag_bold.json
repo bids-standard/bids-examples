@@ -1,0 +1,20 @@
+{
+    "Modality": "MR",
+    "ScanningSequence": "EP",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "MB",
+        "TE1",
+        "ND",
+        "NORM",
+        "MOSAIC"
+    ],
+    "SeriesNumber": 53,
+    "ImageComments": "Unaliased MB4/PE4/LB SENSE1+",
+    "EchoNumber": 1,
+    "EchoTime": 0.015,
+    "RepetitionTime": 1.0,
+    "TaskName": "Movie-watching"
+}
