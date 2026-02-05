@@ -1,0 +1,15 @@
+0.0.3 2024-10-28
+
+  -  Changed to use "study" instead of "project".
+  -  Refer to https://github.com/bids-standard/bids-specification/pull/1972 .
+
+0.0.2 2024-10-28
+
+  -  Updated to reflect addressed in bids-validator issues and
+     to merge "master" branch of the bids-examples project.
+     Added GeneratedBy and License.
+
+0.0.1 2024-06-20
+
+  -  Started to work on this support of the DatasetType project
+
