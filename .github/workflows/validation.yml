@@ -18,3 +18,18 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: codespell-project/actions-codespell@master
+
+  build:
+      name: validata dataset listing
+      runs-on: ubuntu-latest
+      steps:
+      -   name: Checkout
+          uses: actions/checkout@v6
+
+      -   name: Set up Python
+          uses: astral-sh/setup-uv@v7
+          with:
+              python-version: 3.12
+
+      -   name: check listing datasets
+          run: uv run tools/print_dataset_listing.py

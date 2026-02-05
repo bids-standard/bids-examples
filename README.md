@@ -136,6 +136,26 @@ DO NOT EDIT DIRECTLY.
 | [asl004](https://github.com/bids-standard/bids-examples/tree/master/asl004)           | T1w, asl (Siemens, PCASL, multiPLD with pepolar), m0scan separate scans with pepolar approach | anat, fmap, perf | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 | [asl005](https://github.com/bids-standard/bids-examples/tree/master/asl005)           | T1w, asl (Siemens, PCASL, singleTI, 3D_GRASE), m0scan as separate scan                        | anat, perf       | T1w, asl, aslcontext, asllabeling, m0scan | [link](https://osf.io/yru2q/) | [@patsycle](https://github.com/patsycle) |
 
+### Atlas
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                  | description   | datatypes   | suffixes   | link to full data   | maintained by   |
+|:------------------------------------------------------------------------------------------------------|:--------------|:------------|:-----------|:--------------------|:----------------|
+| [atlas-4S](https://github.com/bids-standard/bids-examples/tree/master/atlas-4S)                       | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-AAL](https://github.com/bids-standard/bids-examples/tree/master/atlas-AAL)                     | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-Destrieux](https://github.com/bids-standard/bids-examples/tree/master/atlas-Destrieux)         | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-DiFuMo](https://github.com/bids-standard/bids-examples/tree/master/atlas-DiFuMo)               | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-HOSPA](https://github.com/bids-standard/bids-examples/tree/master/atlas-HOSPA)                 | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-HarvardOxford](https://github.com/bids-standard/bids-examples/tree/master/atlas-HarvardOxford) | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-Juelich](https://github.com/bids-standard/bids-examples/tree/master/atlas-Juelich)             | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-Schaefer](https://github.com/bids-standard/bids-examples/tree/master/atlas-Schaefer)           | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-Talairach](https://github.com/bids-standard/bids-examples/tree/master/atlas-Talairach)         | n/a           | n/a         | n/a        | n/a                 | n/a             |
+| [atlas-suit](https://github.com/bids-standard/bids-examples/tree/master/atlas-suit)                   | n/a           | n/a         | T1w        | n/a                 | n/a             |
+
 ### Behavioral
 
 <!--
@@ -147,6 +167,7 @@ DO NOT EDIT DIRECTLY.
 |:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|:--------------------------------|:---------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|:-------------------------------------------|
 | [ds000117](https://github.com/bids-standard/bids-examples/tree/master/ds000117)                             | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task | anat, beh, dwi, fmap, func, meg | FLASH, T1w, bold, channels, coordsystem, dwi, events, headshape, magnitude1, magnitude2, meg, phasediff, scans | [link](https://openneuro.org/datasets/ds000117/) | [@RikHenson](https://github.com/RikHenson) |
 | [eeg_ds003645s_hed_demo](https://github.com/bids-standard/bids-examples/tree/master/eeg_ds003645s_hed_demo) | Shows usage of Hierarchical Event Descriptor (HED) in .tsv files                            | anat, beh, eeg, micr, motion    | KSSSleep, SPIM, beh, channels, coordsystem, defacemask, eeg, electrodes, events, motion, photo, samples, scans | [link](https://openneuro.org/datasets/ds003645)  | [@VisLab](https://github.com/VisLab)       |
+| [eyetracking_binocular](https://github.com/bids-standard/bids-examples/tree/master/eyetracking_binocular)   | n/a                                                                                         | beh                             | events, physio                                                                                                 | n/a                                              | n/a                                        |
 | [synthetic](https://github.com/bids-standard/bids-examples/tree/master/synthetic)                           | A synthetic dataset                                                                         | anat, beh, func                 | T1w, beh, bold, events, physio, scans, sessions, stim                                                          | n/a                                              | [@effigies](https://github.com/effigies)   |
 
 ### EEG
@@ -193,7 +214,7 @@ DO NOT EDIT DIRECTLY.
 |:------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:--------------------------------|:---------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
 | [ds000117](https://github.com/bids-standard/bids-examples/tree/master/ds000117)           | A multi-subject, multi-modal human neuroimaging dataset of 19 subjects on a MEG visual task          | anat, beh, dwi, fmap, func, meg | FLASH, T1w, bold, channels, coordsystem, dwi, events, headshape, magnitude1, magnitude2, meg, phasediff, scans | [link](https://openneuro.org/datasets/ds000117/)               | [@RikHenson](https://github.com/RikHenson) |
 | [ds114](https://github.com/bids-standard/bids-examples/tree/master/ds114)                 | multiple tasks, multiple runs                                                                        | anat, dwi, func                 | T1w, bold, dwi, events                                                                                         | [link](https://openneuro.org/datasets/ds000114/versions/1.0.1) | n/a                                        |
-| [dwi_deriv](https://github.com/bids-standard/bids-examples/tree/master/dwi_deriv)         | exemplifies the storage of diffusion MRI derivates that may be generated on the Siemens XA platform. | dwi                             | dwi                                                                                                            | n/a                                                            | n/a                                        |
+| [dwi_deriv](https://github.com/bids-standard/bids-examples/tree/master/dwi_deriv)         | exemplifies the storage of diffusion MRI derivates that may be generated on the Siemens XA platform. | dwi                             | ADC, FA, S0map, colFA, dwi, expADC, trace                                                                      | n/a                                                            | n/a                                        |
 | [eeg_rest_fmri](https://github.com/bids-standard/bids-examples/tree/master/eeg_rest_fmri) | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)                   | anat, dwi, eeg, func            | T1w, bold, dwi, eeg                                                                                            | n/a                                                            | [@cpernet](https://github.com/cpernet)     |
 | [genetics_ukbb](https://github.com/bids-standard/bids-examples/tree/master/genetics_ukbb) | multiple tasks, T1w, DTI, BOLD, genetic info                                                         | anat, dwi, func                 | FLAIR, T1w, bold, dwi, events, info                                                                            | n/a                                                            | [@cpernet](https://github.com/cpernet)     |
 
@@ -306,6 +327,7 @@ DO NOT EDIT DIRECTLY.
 | [ds116](https://github.com/bids-standard/bids-examples/tree/master/ds116)                                   | multiple tasks, multiple runs                                                               | anat, func                      | T1w, bold, events, inplaneT2                                                                                   | [link](https://openneuro.org/datasets/ds000116/versions/00003) | n/a                                        |
 | [ds210](https://github.com/bids-standard/bids-examples/tree/master/ds210)                                   | multiple tasks, multiple runs                                                               | func                            | bold, physio                                                                                                   | [link](https://openneuro.org/datasets/ds000210/versions/00002) | n/a                                        |
 | [eeg_rest_fmri](https://github.com/bids-standard/bids-examples/tree/master/eeg_rest_fmri)                   | Resting state with simultaneous fMRI. BrainVision data format (.eeg, .vhdr, .vmrk)          | anat, dwi, eeg, func            | T1w, bold, dwi, eeg                                                                                            | n/a                                                            | [@cpernet](https://github.com/cpernet)     |
+| [eyetracking_fmri](https://github.com/bids-standard/bids-examples/tree/master/eyetracking_fmri)             | n/a                                                                                         | anat, fmap, func                | T1w, T2w, bold, epi, events, fieldmap, magnitude, physio                                                       | n/a                                                            | n/a                                        |
 | [genetics_ukbb](https://github.com/bids-standard/bids-examples/tree/master/genetics_ukbb)                   | multiple tasks, T1w, DTI, BOLD, genetic info                                                | anat, dwi, func                 | FLAIR, T1w, bold, dwi, events, info                                                                            | n/a                                                            | [@cpernet](https://github.com/cpernet)     |
 | [ieeg_visual_multimodal](https://github.com/bids-standard/bids-examples/tree/master/ieeg_visual_multimodal) | n/a                                                                                         | anat, fmap, func, ieeg          | T1w, bold, channels, coordsystem, electrodes, epi, events, ieeg, sbref                                         | n/a                                                            | [@irisgroen](https://github.com/irisgroen) |
 | [synthetic](https://github.com/bids-standard/bids-examples/tree/master/synthetic)                           | A synthetic dataset                                                                         | anat, beh, func                 | T1w, beh, bold, events, physio, scans, sessions, stim                                                          | n/a                                                            | [@effigies](https://github.com/effigies)   |
@@ -352,6 +374,32 @@ DO NOT EDIT DIRECTLY.
 | [pet005](https://github.com/bids-standard/bids-examples/tree/master/pet005) | T1w, PET        | anat, pet   | T1w, events, pet | n/a                                              | [@mnoergaard](https://github.com/mnoergaard)     |
 | [pet006](https://github.com/bids-standard/bids-examples/tree/master/pet006) | PET             | pet         | pet              | n/a                                              | [@bendhouseart](https://github.com/bendhouseart) |
 
+### Phenotype
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                            | description                                                      | datatypes       | suffixes   | link to full data   | maintained by                            |
+|:--------------------------------------------------------------------------------|:-----------------------------------------------------------------|:----------------|:-----------|:--------------------|:-----------------------------------------|
+| [pheno004](https://github.com/bids-standard/bids-examples/tree/master/pheno004) | Minimal dataset with subjects with imaging and/or phenotype data | phenotype, anat | T1w        | n/a                 | [@ericearl](https://github.com/ericearl) |
+
+### Physio
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                      | description                   | datatypes        | suffixes                                                                     | link to full data                                              | maintained by                            |
+|:----------------------------------------------------------------------------------------------------------|:------------------------------|:-----------------|:-----------------------------------------------------------------------------|:---------------------------------------------------------------|:-----------------------------------------|
+| [7t_trt](https://github.com/bids-standard/bids-examples/tree/master/7t_trt)                               | n/a                           | anat, fmap, func | T1map, T1w, bold, magnitude1, magnitude2, phasediff, physio, scans, sessions | [link](https://bit.ly/2H0Z6Qt)                                 | n/a                                      |
+| [ds210](https://github.com/bids-standard/bids-examples/tree/master/ds210)                                 | multiple tasks, multiple runs | func             | bold, physio                                                                 | [link](https://openneuro.org/datasets/ds000210/versions/00002) | n/a                                      |
+| [eyetracking_binocular](https://github.com/bids-standard/bids-examples/tree/master/eyetracking_binocular) | n/a                           | beh              | events, physio                                                               | n/a                                                            | n/a                                      |
+| [eyetracking_fmri](https://github.com/bids-standard/bids-examples/tree/master/eyetracking_fmri)           | n/a                           | anat, fmap, func | T1w, T2w, bold, epi, events, fieldmap, magnitude, physio                     | n/a                                                            | n/a                                      |
+| [synthetic](https://github.com/bids-standard/bids-examples/tree/master/synthetic)                         | A synthetic dataset           | anat, beh, func  | T1w, beh, bold, events, physio, scans, sessions, stim                        | n/a                                                            | [@effigies](https://github.com/effigies) |
+
 ### qMRI
 
 <!--
@@ -372,24 +420,3 @@ DO NOT EDIT DIRECTLY.
 | [qmri_sa2rage](https://github.com/bids-standard/bids-examples/tree/master/qmri_sa2rage)     | Fast B1+ mapping using SA2RAGE                                                           | fmap        | TB1SRGE                                                | `not publicly available`      | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
 | [qmri_tb1tfl](https://github.com/bids-standard/bids-examples/tree/master/qmri_tb1tfl)       | B1+ mapping with TurboFLASH readout.                                                     | fmap        | TB1TFL                                                 | `not publicly available`      | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
 | [qmri_vfa](https://github.com/bids-standard/bids-examples/tree/master/qmri_vfa)             | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | anat, fmap  | TB1AFI, VFA                                            | [link](https://osf.io/k4bs5/) | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
-
-### Phenotype
-
-<!--
-TABLE BELOW IS GENERATED AUTOMATICALLY.
-DO NOT EDIT DIRECTLY.
--->
-
-| name                                                                            | description                                                      | datatypes       | suffixes   | link to full data   | maintained by                            |
-|:--------------------------------------------------------------------------------|:-----------------------------------------------------------------|:----------------|:-----------|:--------------------|:-----------------------------------------|
-| [pheno004](https://github.com/bids-standard/bids-examples/tree/master/pheno004) | Minimal dataset with subjects with imaging and/or phenotype data | phenotype, anat | T1w        | n/a                 | [@ericearl](https://github.com/ericearl) |
-
-### Provenance
-
-<!--
-TABLE BELOW IS GENERATED AUTOMATICALLY.
-DO NOT EDIT DIRECTLY.
--->
-
-| name   | description   | datatypes   | suffixes   | link to full data   | maintained by   |
-|--------|---------------|-------------|------------|---------------------|-----------------|
