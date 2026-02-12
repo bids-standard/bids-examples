@@ -1,0 +1,6 @@
+Example SWI dataset
+
+This dataset demonstrates the organization of susceptibility weighted imaging
+(SWI) data in BIDS. It includes multi-echo gradient-echo (MEGRE) raw data with
+magnitude and phase components, and derived SWI, minimum intensity projection
+(minIP), and quantitative susceptibility map (Chimap) outputs.
