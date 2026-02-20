@@ -1,0 +1,12 @@
+{
+    "participant_id": {
+        "Description": "ID of the subject."
+    },
+    "session_id": {
+        "Description": "ID of the subject visit for the type of assessment."
+    },
+    "UPDRS3_TOTAL": {
+        "LongName": "MDS-Unified Parkinson's Disease Rating Scale (Part 3).",
+        "Description": " Total points earned on UPDRS III measuring motor function."
+    }
+}

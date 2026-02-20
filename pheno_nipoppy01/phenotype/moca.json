@@ -1,0 +1,12 @@
+{
+    "participant_id": {
+        "Description": "ID of the subject."
+    },
+    "session_id": {
+        "Description": "ID of the subject visit for the type of assessment."
+    },
+    "MOCA_TOTAL": {
+        "LongName": "Montreal Cognitive Assessment total score value.",
+        "Description": " Total points earned on Montreal Cognitive Assessment (MOCA) "
+    }
+}
