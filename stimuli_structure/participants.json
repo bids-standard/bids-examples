@@ -1,0 +1,17 @@
+{
+    "participant_id": {
+        "Description": "The prticipant ID set in the HBN dataset"
+    },
+    "sex": {
+        "LongName": "Gender",
+        "Description": "Gender",
+        "Levels": {
+            "F": "Female",
+            "M": "Male"
+            }
+    },
+    "age": {
+        "LongName": "Age",
+        "Description": "Age in years"
+    }
+}

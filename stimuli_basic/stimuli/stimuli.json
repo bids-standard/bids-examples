@@ -1,0 +1,14 @@
+{
+    "stimulus_id": {
+        "Description": "Unique identifier for the stimulus"
+    },
+    "type": {
+        "Description": "Type of stimulus file"
+    },
+    "Description": {
+        "Description": "Free-form description of the stimulus"
+    },
+    "present": {
+        "Description": "Whether the stimulus file is present in the dataset"
+    }
+}
