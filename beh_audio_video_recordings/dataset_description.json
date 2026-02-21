@@ -1,0 +1,12 @@
+{
+  "Name": "Audio and Video Behavioral Recordings Example",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC0",
+  "Authors": ["BIDS Example Team", "BIDS Community Contributors"],
+  "Acknowledgements": "This is an example dataset for demonstrating audio and video recordings in BIDS",
+  "ReferencesAndLinks": [
+    "https://github.com/bids-standard/bids-specification/pull/2231"
+  ],
+  "DatasetDOI": "10.0000/example.audio-video"
+}

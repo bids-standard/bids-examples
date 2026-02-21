@@ -1,0 +1,8 @@
+{
+  "filename": {
+    "Description": "Path to the data file relative to the subject directory"
+  },
+  "acq_time": {
+    "Description": "Acquisition time of the scan in ISO 8601 format"
+  }
+}
