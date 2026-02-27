@@ -15,7 +15,7 @@ and turns it into a markdown document with a series of markdown tables.
 You can pass an argument to insert the content in another file.
 Otherwise the content will be added to the README of this repository.
 """
-
+import warnings
 import sys
 from pathlib import Path
 import pandas as pd
@@ -43,6 +43,7 @@ input_file = root / "dataset_listing.tsv"
 
 tables_order = {
     "ASL": "perf",
+    "Atlas": "",
     "Behavioral": "beh",
     "EEG": "^eeg$",
     "EMG": "emg",
@@ -56,9 +57,10 @@ tables_order = {
     "MRS": "mrs",
     "NIRS": "nirs",
     "PET": "pet",
-    "qMRI": "",
     "Phenotype": "phenotype",
+    "Physio": "",
     "Provenance": "",
+    "qMRI": "",
 }
 
 DELIMITER = "<!-- ADD EXAMPLE LISTING HERE -->"
@@ -76,12 +78,12 @@ def main(output_file=None):
 
     names = df["name"].copy()
 
-    check_missing_folders(df, root)
-
     if update_content:
         df = update_datatypes_and_suffixes(df, root)
         df.to_csv(input_file, sep="\t", index=False)
         df = pd.read_csv(input_file, sep="\t")
+
+    check_missing_folders(df, root)
 
     df = add_links(df)
 
@@ -135,11 +137,12 @@ def add_links(df):
             if not isinstance(row[1][col], str):
                 continue
             if col == "name":
-                row[1][col] = f"[{row[1][col]}]({UPSTREAM_REPO}{row[1][col]})"
+                tmp = row[1][col]
+                df.loc[row[0], col]= f"[{tmp}]({UPSTREAM_REPO}{tmp})"
             if col == "link to full data" and row[1][col].startswith("http"):
-                row[1][col] = f"[link]({row[1][col]})"
+                df.loc[row[0], col] = f"[link]({row[1][col]})"
             if col == "maintained by" and row[1][col].startswith("@"):
-                row[1][col] = f"[{row[1][col]}](https://github.com/{row[1][col][1:]})"
+                df.loc[row[0], col] = f"[{row[1][col]}](https://github.com/{row[1][col][1:]})"
     return df
 
 
@@ -170,16 +173,17 @@ def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
     print("Writing markdown tables...")
     df.fillna("n/a", inplace=True)
     for table_name, table_datatypes in tables_order.items():
-        with output_file.open("a") as f:
-            f.write(f"\n### {table_name}\n\n")
-            add_warning(f)
 
         if table_name == "qMRI":
             mask = names.str.contains("qmri_")
         elif table_name == "HED":
             mask = names.str.contains("_hed_")
+        elif table_name == "Physio":
+            mask = df["suffixes"].str.contains("physio", regex=True)
         elif table_name == "Provenance":
             mask = names.str.contains("provenance_")
+        elif table_name == "Atlas":
+            mask = names.str.contains("atlas-")
         else:
             mask = df["datatypes"].str.contains(table_datatypes, regex=True)
 
@@ -188,9 +192,15 @@ def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
 
         print(sub_df)
 
-        sub_df.to_markdown(output_file, index=False, mode="a")
-        with output_file.open("a") as f:
-            f.write("\n")
+        if len(sub_df) > 0:
+            with output_file.open("a") as f:
+                f.write(f"\n### {table_name}\n\n")
+                add_warning(f)
+            with output_file.open("a") as f:
+                sub_df.to_markdown(output_file, index=False, mode="a")
+                f.write("\n")
+        else:
+            warnings.warn(f"No dataset for '{table_name}'", stacklevel=2)
 
 
 def stringify_list(l):
