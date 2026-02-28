@@ -1,0 +1,22 @@
+{
+    "sub-01/sub-01_task-xyz_acq-test1_bold.json": [
+        "sub-01/func/sub-01_task-xyz_acq-test1_run-1_bold.nii.gz",
+        "sub-01/func/sub-01_task-xyz_acq-test1_rec-recon1_bold.nii.gz",
+        "sub-01/func/sub-01_task-xyz_acq-test1_rec-recon2_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-xyz_acq-test1_run-1_bold.nii.gz": {
+        ".json": [
+            "sub-01/sub-01_task-xyz_acq-test1_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-xyz_acq-test1_rec-recon1_bold.nii.gz": {
+        ".json": [
+            "sub-01/sub-01_task-xyz_acq-test1_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-xyz_acq-test1_rec-recon2_bold.nii.gz": {
+        ".json": [
+            "sub-01/sub-01_task-xyz_acq-test1_bold.json"
+        ]
+    }
+}
