@@ -1,0 +1,10 @@
+This dataset demonstrates basic stimuli organization according to the BIDS specification.
+
+It includes:
+- stimuli.tsv: Catalog of stimuli with basic metadata
+- stimuli.json: Column definitions for the stimuli catalog  
+- stim-*_*.json: Individual stimulus metadata files
+
+This example validates successfully with the BIDS validator when using a custom schema that supports stimuli validation.
+
+See: https://bids-specification.readthedocs.io/en/latest/modality-agnostic-files/stimuli.html
