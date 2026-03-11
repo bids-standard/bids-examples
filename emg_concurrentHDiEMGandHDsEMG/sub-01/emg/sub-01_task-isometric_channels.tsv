@@ -1,107 +1,107 @@
-name	type	units	description	sampling_frequency	signal_electrode	reference	target_muscle	low_cutoff	high_cutoff	group
-1	EMG	V	Monopolar surface EMG	10240	sEMG1	R1	Right tibialis anterior	500	20	Grid1
-2	EMG	V	Monopolar surface EMG	10240	sEMG2	R1	Right tibialis anterior	500	20	Grid1
-3	EMG	V	Monopolar surface EMG	10240	sEMG3	R1	Right tibialis anterior	500	20	Grid1
-4	EMG	V	Monopolar surface EMG	10240	sEMG4	R1	Right tibialis anterior	500	20	Grid1
-5	EMG	V	Monopolar surface EMG	10240	sEMG5	R1	Right tibialis anterior	500	20	Grid1
-6	EMG	V	Monopolar surface EMG	10240	sEMG6	R1	Right tibialis anterior	500	20	Grid1
-7	EMG	V	Monopolar surface EMG	10240	sEMG7	R1	Right tibialis anterior	500	20	Grid1
-8	EMG	V	Monopolar surface EMG	10240	sEMG8	R1	Right tibialis anterior	500	20	Grid1
-9	EMG	V	Monopolar surface EMG	10240	sEMG9	R1	Right tibialis anterior	500	20	Grid1
-10	EMG	V	Monopolar surface EMG	10240	sEMG10	R1	Right tibialis anterior	500	20	Grid1
-11	EMG	V	Monopolar surface EMG	10240	sEMG11	R1	Right tibialis anterior	500	20	Grid1
-12	EMG	V	Monopolar surface EMG	10240	sEMG12	R1	Right tibialis anterior	500	20	Grid1
-13	EMG	V	Monopolar surface EMG	10240	sEMG13	R1	Right tibialis anterior	500	20	Grid1
-14	EMG	V	Monopolar surface EMG	10240	sEMG14	R1	Right tibialis anterior	500	20	Grid1
-15	EMG	V	Monopolar surface EMG	10240	sEMG15	R1	Right tibialis anterior	500	20	Grid1
-16	EMG	V	Monopolar surface EMG	10240	sEMG16	R1	Right tibialis anterior	500	20	Grid1
-17	EMG	V	Monopolar surface EMG	10240	sEMG17	R1	Right tibialis anterior	500	20	Grid1
-18	EMG	V	Monopolar surface EMG	10240	sEMG18	R1	Right tibialis anterior	500	20	Grid1
-19	EMG	V	Monopolar surface EMG	10240	sEMG19	R1	Right tibialis anterior	500	20	Grid1
-20	EMG	V	Monopolar surface EMG	10240	sEMG20	R1	Right tibialis anterior	500	20	Grid1
-21	EMG	V	Monopolar surface EMG	10240	sEMG21	R1	Right tibialis anterior	500	20	Grid1
-22	EMG	V	Monopolar surface EMG	10240	sEMG22	R1	Right tibialis anterior	500	20	Grid1
-23	EMG	V	Monopolar surface EMG	10240	sEMG23	R1	Right tibialis anterior	500	20	Grid1
-24	EMG	V	Monopolar surface EMG	10240	sEMG24	R1	Right tibialis anterior	500	20	Grid1
-25	EMG	V	Monopolar surface EMG	10240	sEMG25	R1	Right tibialis anterior	500	20	Grid1
-26	EMG	V	Monopolar surface EMG	10240	sEMG26	R1	Right tibialis anterior	500	20	Grid1
-27	EMG	V	Monopolar surface EMG	10240	sEMG27	R1	Right tibialis anterior	500	20	Grid1
-28	EMG	V	Monopolar surface EMG	10240	sEMG28	R1	Right tibialis anterior	500	20	Grid1
-29	EMG	V	Monopolar surface EMG	10240	sEMG29	R1	Right tibialis anterior	500	20	Grid1
-30	EMG	V	Monopolar surface EMG	10240	sEMG30	R1	Right tibialis anterior	500	20	Grid1
-31	EMG	V	Monopolar surface EMG	10240	sEMG31	R1	Right tibialis anterior	500	20	Grid1
-32	EMG	V	Monopolar surface EMG	10240	sEMG32	R1	Right tibialis anterior	500	20	Grid1
-33	EMG	V	Monopolar surface EMG	10240	sEMG33	R1	Right tibialis anterior	500	20	Grid1
-34	EMG	V	Monopolar surface EMG	10240	sEMG34	R1	Right tibialis anterior	500	20	Grid1
-35	EMG	V	Monopolar surface EMG	10240	sEMG35	R1	Right tibialis anterior	500	20	Grid1
-36	EMG	V	Monopolar surface EMG	10240	sEMG36	R1	Right tibialis anterior	500	20	Grid1
-37	EMG	V	Monopolar surface EMG	10240	sEMG37	R1	Right tibialis anterior	500	20	Grid1
-38	EMG	V	Monopolar surface EMG	10240	sEMG38	R1	Right tibialis anterior	500	20	Grid1
-39	EMG	V	Monopolar surface EMG	10240	sEMG39	R1	Right tibialis anterior	500	20	Grid1
-40	EMG	V	Monopolar surface EMG	10240	sEMG40	R1	Right tibialis anterior	500	20	Grid1
-41	EMG	V	Monopolar surface EMG	10240	sEMG41	R1	Right tibialis anterior	500	20	Grid1
-42	EMG	V	Monopolar surface EMG	10240	sEMG42	R1	Right tibialis anterior	500	20	Grid1
-43	EMG	V	Monopolar surface EMG	10240	sEMG43	R1	Right tibialis anterior	500	20	Grid1
-44	EMG	V	Monopolar surface EMG	10240	sEMG44	R1	Right tibialis anterior	500	20	Grid1
-45	EMG	V	Monopolar surface EMG	10240	sEMG45	R1	Right tibialis anterior	500	20	Grid1
-46	EMG	V	Monopolar surface EMG	10240	sEMG46	R1	Right tibialis anterior	500	20	Grid1
-47	EMG	V	Monopolar surface EMG	10240	sEMG47	R1	Right tibialis anterior	500	20	Grid1
-48	EMG	V	Monopolar surface EMG	10240	sEMG48	R1	Right tibialis anterior	500	20	Grid1
-49	EMG	V	Monopolar surface EMG	10240	sEMG49	R1	Right tibialis anterior	500	20	Grid1
-50	EMG	V	Monopolar surface EMG	10240	sEMG50	R1	Right tibialis anterior	500	20	Grid1
-51	EMG	V	Monopolar surface EMG	10240	sEMG51	R1	Right tibialis anterior	500	20	Grid1
-52	EMG	V	Monopolar surface EMG	10240	sEMG52	R1	Right tibialis anterior	500	20	Grid1
-53	EMG	V	Monopolar surface EMG	10240	sEMG53	R1	Right tibialis anterior	500	20	Grid1
-54	EMG	V	Monopolar surface EMG	10240	sEMG54	R1	Right tibialis anterior	500	20	Grid1
-55	EMG	V	Monopolar surface EMG	10240	sEMG55	R1	Right tibialis anterior	500	20	Grid1
-56	EMG	V	Monopolar surface EMG	10240	sEMG56	R1	Right tibialis anterior	500	20	Grid1
-57	EMG	V	Monopolar surface EMG	10240	sEMG57	R1	Right tibialis anterior	500	20	Grid1
-58	EMG	V	Monopolar surface EMG	10240	sEMG58	R1	Right tibialis anterior	500	20	Grid1
-59	EMG	V	Monopolar surface EMG	10240	sEMG59	R1	Right tibialis anterior	500	20	Grid1
-60	EMG	V	Monopolar surface EMG	10240	sEMG60	R1	Right tibialis anterior	500	20	Grid1
-61	EMG	V	Monopolar surface EMG	10240	sEMG61	R1	Right tibialis anterior	500	20	Grid1
-62	EMG	V	Monopolar surface EMG	10240	sEMG62	R1	Right tibialis anterior	500	20	Grid1
-63	EMG	V	Monopolar surface EMG	10240	sEMG63	R1	Right tibialis anterior	500	20	Grid1
-64	EMG	V	Monopolar surface EMG	10240	sEMG64	R1	Right tibialis anterior	500	20	Grid1
-65	EMG	V	Monopolar intramuscular EMG	10240	iEMG01	R1	Right tibialis anterior	4400	100	Grid2
-66	EMG	V	Monopolar intramuscular EMG	10240	iEMG02	R1	Right tibialis anterior	4400	100	Grid2
-67	EMG	V	Monopolar intramuscular EMG	10240	iEMG03	R1	Right tibialis anterior	4400	100	Grid2
-68	EMG	V	Monopolar intramuscular EMG	10240	iEMG04	R1	Right tibialis anterior	4400	100	Grid2
-69	EMG	V	Monopolar intramuscular EMG	10240	iEMG05	R1	Right tibialis anterior	4400	100	Grid2
-70	EMG	V	Monopolar intramuscular EMG	10240	iEMG06	R1	Right tibialis anterior	4400	100	Grid2
-71	EMG	V	Monopolar intramuscular EMG	10240	iEMG07	R1	Right tibialis anterior	4400	100	Grid2
-72	EMG	V	Monopolar intramuscular EMG	10240	iEMG08	R1	Right tibialis anterior	4400	100	Grid2
-73	EMG	V	Monopolar intramuscular EMG	10240	iEMG09	R1	Right tibialis anterior	4400	100	Grid2
-74	EMG	V	Monopolar intramuscular EMG	10240	iEMG10	R1	Right tibialis anterior	4400	100	Grid2
-75	EMG	V	Monopolar intramuscular EMG	10240	iEMG11	R1	Right tibialis anterior	4400	100	Grid2
-76	EMG	V	Monopolar intramuscular EMG	10240	iEMG12	R1	Right tibialis anterior	4400	100	Grid2
-77	EMG	V	Monopolar intramuscular EMG	10240	iEMG13	R1	Right tibialis anterior	4400	100	Grid2
-78	EMG	V	Monopolar intramuscular EMG	10240	iEMG14	R1	Right tibialis anterior	4400	100	Grid2
-79	EMG	V	Monopolar intramuscular EMG	10240	iEMG15	R1	Right tibialis anterior	4400	100	Grid2
-80	EMG	V	Monopolar intramuscular EMG	10240	iEMG16	R1	Right tibialis anterior	4400	100	Grid2
-81	EMG	V	Monopolar intramuscular EMG	10240	iEMG17	R1	Right tibialis anterior	4400	100	Grid2
-82	EMG	V	Monopolar intramuscular EMG	10240	iEMG18	R1	Right tibialis anterior	4400	100	Grid2
-83	EMG	V	Monopolar intramuscular EMG	10240	iEMG19	R1	Right tibialis anterior	4400	100	Grid2
-84	EMG	V	Monopolar intramuscular EMG	10240	iEMG20	R1	Right tibialis anterior	4400	100	Grid2
-85	EMG	V	Monopolar intramuscular EMG	10240	iEMG21	R1	Right tibialis anterior	4400	100	Grid2
-86	EMG	V	Monopolar intramuscular EMG	10240	iEMG22	R1	Right tibialis anterior	4400	100	Grid2
-87	EMG	V	Monopolar intramuscular EMG	10240	iEMG23	R1	Right tibialis anterior	4400	100	Grid2
-88	EMG	V	Monopolar intramuscular EMG	10240	iEMG24	R1	Right tibialis anterior	4400	100	Grid2
-89	EMG	V	Monopolar intramuscular EMG	10240	iEMG25	R1	Right tibialis anterior	4400	100	Grid2
-90	EMG	V	Monopolar intramuscular EMG	10240	iEMG26	R1	Right tibialis anterior	4400	100	Grid2
-91	EMG	V	Monopolar intramuscular EMG	10240	iEMG27	R1	Right tibialis anterior	4400	100	Grid2
-92	EMG	V	Monopolar intramuscular EMG	10240	iEMG28	R1	Right tibialis anterior	4400	100	Grid2
-93	EMG	V	Monopolar intramuscular EMG	10240	iEMG29	R1	Right tibialis anterior	4400	100	Grid2
-94	EMG	V	Monopolar intramuscular EMG	10240	iEMG30	R1	Right tibialis anterior	4400	100	Grid2
-95	EMG	V	Monopolar intramuscular EMG	10240	iEMG31	R1	Right tibialis anterior	4400	100	Grid2
-96	EMG	V	Monopolar intramuscular EMG	10240	iEMG32	R1	Right tibialis anterior	4400	100	Grid2
-97	EMG	V	Monopolar intramuscular EMG	10240	iEMG33	R1	Right tibialis anterior	4400	100	Grid2
-98	EMG	V	Monopolar intramuscular EMG	10240	iEMG34	R1	Right tibialis anterior	4400	100	Grid2
-99	EMG	V	Monopolar intramuscular EMG	10240	iEMG35	R1	Right tibialis anterior	4400	100	Grid2
-100	EMG	V	Monopolar intramuscular EMG	10240	iEMG36	R1	Right tibialis anterior	4400	100	Grid2
-101	EMG	V	Monopolar intramuscular EMG	10240	iEMG37	R1	Right tibialis anterior	4400	100	Grid2
-102	EMG	V	Monopolar intramuscular EMG	10240	iEMG38	R1	Right tibialis anterior	4400	100	Grid2
-103	EMG	V	Monopolar intramuscular EMG	10240	iEMG39	R1	Right tibialis anterior	4400	100	Grid2
-104	EMG	V	Monopolar intramuscular EMG	10240	iEMG40	R1	Right tibialis anterior	4400	100	Grid2
-105	MISC	% MVC	Performed ankle torque	10240	n/a	n/a	Right tibialis anterior	n/a	n/a	n/a
-106	MISC	% MVC	Requested ankle torque	10240	n/a	n/a	Right tibialis anterior	n/a	n/a	n/a
+name	type	units	description	sampling_frequency	signal_electrode	reference	interelectrode_distance	target_muscle	low_cutoff	high_cutoff	group
+1	EMG	V	Monopolar surface EMG	10240	sEMG1	R1	4	Right tibialis anterior	500	20	Grid1
+2	EMG	V	Monopolar surface EMG	10240	sEMG2	R1	4	Right tibialis anterior	500	20	Grid1
+3	EMG	V	Monopolar surface EMG	10240	sEMG3	R1	4	Right tibialis anterior	500	20	Grid1
+4	EMG	V	Monopolar surface EMG	10240	sEMG4	R1	4	Right tibialis anterior	500	20	Grid1
+5	EMG	V	Monopolar surface EMG	10240	sEMG5	R1	4	Right tibialis anterior	500	20	Grid1
+6	EMG	V	Monopolar surface EMG	10240	sEMG6	R1	4	Right tibialis anterior	500	20	Grid1
+7	EMG	V	Monopolar surface EMG	10240	sEMG7	R1	4	Right tibialis anterior	500	20	Grid1
+8	EMG	V	Monopolar surface EMG	10240	sEMG8	R1	4	Right tibialis anterior	500	20	Grid1
+9	EMG	V	Monopolar surface EMG	10240	sEMG9	R1	4	Right tibialis anterior	500	20	Grid1
+10	EMG	V	Monopolar surface EMG	10240	sEMG10	R1	4	Right tibialis anterior	500	20	Grid1
+11	EMG	V	Monopolar surface EMG	10240	sEMG11	R1	4	Right tibialis anterior	500	20	Grid1
+12	EMG	V	Monopolar surface EMG	10240	sEMG12	R1	4	Right tibialis anterior	500	20	Grid1
+13	EMG	V	Monopolar surface EMG	10240	sEMG13	R1	4	Right tibialis anterior	500	20	Grid1
+14	EMG	V	Monopolar surface EMG	10240	sEMG14	R1	4	Right tibialis anterior	500	20	Grid1
+15	EMG	V	Monopolar surface EMG	10240	sEMG15	R1	4	Right tibialis anterior	500	20	Grid1
+16	EMG	V	Monopolar surface EMG	10240	sEMG16	R1	4	Right tibialis anterior	500	20	Grid1
+17	EMG	V	Monopolar surface EMG	10240	sEMG17	R1	4	Right tibialis anterior	500	20	Grid1
+18	EMG	V	Monopolar surface EMG	10240	sEMG18	R1	4	Right tibialis anterior	500	20	Grid1
+19	EMG	V	Monopolar surface EMG	10240	sEMG19	R1	4	Right tibialis anterior	500	20	Grid1
+20	EMG	V	Monopolar surface EMG	10240	sEMG20	R1	4	Right tibialis anterior	500	20	Grid1
+21	EMG	V	Monopolar surface EMG	10240	sEMG21	R1	4	Right tibialis anterior	500	20	Grid1
+22	EMG	V	Monopolar surface EMG	10240	sEMG22	R1	4	Right tibialis anterior	500	20	Grid1
+23	EMG	V	Monopolar surface EMG	10240	sEMG23	R1	4	Right tibialis anterior	500	20	Grid1
+24	EMG	V	Monopolar surface EMG	10240	sEMG24	R1	4	Right tibialis anterior	500	20	Grid1
+25	EMG	V	Monopolar surface EMG	10240	sEMG25	R1	4	Right tibialis anterior	500	20	Grid1
+26	EMG	V	Monopolar surface EMG	10240	sEMG26	R1	4	Right tibialis anterior	500	20	Grid1
+27	EMG	V	Monopolar surface EMG	10240	sEMG27	R1	4	Right tibialis anterior	500	20	Grid1
+28	EMG	V	Monopolar surface EMG	10240	sEMG28	R1	4	Right tibialis anterior	500	20	Grid1
+29	EMG	V	Monopolar surface EMG	10240	sEMG29	R1	4	Right tibialis anterior	500	20	Grid1
+30	EMG	V	Monopolar surface EMG	10240	sEMG30	R1	4	Right tibialis anterior	500	20	Grid1
+31	EMG	V	Monopolar surface EMG	10240	sEMG31	R1	4	Right tibialis anterior	500	20	Grid1
+32	EMG	V	Monopolar surface EMG	10240	sEMG32	R1	4	Right tibialis anterior	500	20	Grid1
+33	EMG	V	Monopolar surface EMG	10240	sEMG33	R1	4	Right tibialis anterior	500	20	Grid1
+34	EMG	V	Monopolar surface EMG	10240	sEMG34	R1	4	Right tibialis anterior	500	20	Grid1
+35	EMG	V	Monopolar surface EMG	10240	sEMG35	R1	4	Right tibialis anterior	500	20	Grid1
+36	EMG	V	Monopolar surface EMG	10240	sEMG36	R1	4	Right tibialis anterior	500	20	Grid1
+37	EMG	V	Monopolar surface EMG	10240	sEMG37	R1	4	Right tibialis anterior	500	20	Grid1
+38	EMG	V	Monopolar surface EMG	10240	sEMG38	R1	4	Right tibialis anterior	500	20	Grid1
+39	EMG	V	Monopolar surface EMG	10240	sEMG39	R1	4	Right tibialis anterior	500	20	Grid1
+40	EMG	V	Monopolar surface EMG	10240	sEMG40	R1	4	Right tibialis anterior	500	20	Grid1
+41	EMG	V	Monopolar surface EMG	10240	sEMG41	R1	4	Right tibialis anterior	500	20	Grid1
+42	EMG	V	Monopolar surface EMG	10240	sEMG42	R1	4	Right tibialis anterior	500	20	Grid1
+43	EMG	V	Monopolar surface EMG	10240	sEMG43	R1	4	Right tibialis anterior	500	20	Grid1
+44	EMG	V	Monopolar surface EMG	10240	sEMG44	R1	4	Right tibialis anterior	500	20	Grid1
+45	EMG	V	Monopolar surface EMG	10240	sEMG45	R1	4	Right tibialis anterior	500	20	Grid1
+46	EMG	V	Monopolar surface EMG	10240	sEMG46	R1	4	Right tibialis anterior	500	20	Grid1
+47	EMG	V	Monopolar surface EMG	10240	sEMG47	R1	4	Right tibialis anterior	500	20	Grid1
+48	EMG	V	Monopolar surface EMG	10240	sEMG48	R1	4	Right tibialis anterior	500	20	Grid1
+49	EMG	V	Monopolar surface EMG	10240	sEMG49	R1	4	Right tibialis anterior	500	20	Grid1
+50	EMG	V	Monopolar surface EMG	10240	sEMG50	R1	4	Right tibialis anterior	500	20	Grid1
+51	EMG	V	Monopolar surface EMG	10240	sEMG51	R1	4	Right tibialis anterior	500	20	Grid1
+52	EMG	V	Monopolar surface EMG	10240	sEMG52	R1	4	Right tibialis anterior	500	20	Grid1
+53	EMG	V	Monopolar surface EMG	10240	sEMG53	R1	4	Right tibialis anterior	500	20	Grid1
+54	EMG	V	Monopolar surface EMG	10240	sEMG54	R1	4	Right tibialis anterior	500	20	Grid1
+55	EMG	V	Monopolar surface EMG	10240	sEMG55	R1	4	Right tibialis anterior	500	20	Grid1
+56	EMG	V	Monopolar surface EMG	10240	sEMG56	R1	4	Right tibialis anterior	500	20	Grid1
+57	EMG	V	Monopolar surface EMG	10240	sEMG57	R1	4	Right tibialis anterior	500	20	Grid1
+58	EMG	V	Monopolar surface EMG	10240	sEMG58	R1	4	Right tibialis anterior	500	20	Grid1
+59	EMG	V	Monopolar surface EMG	10240	sEMG59	R1	4	Right tibialis anterior	500	20	Grid1
+60	EMG	V	Monopolar surface EMG	10240	sEMG60	R1	4	Right tibialis anterior	500	20	Grid1
+61	EMG	V	Monopolar surface EMG	10240	sEMG61	R1	4	Right tibialis anterior	500	20	Grid1
+62	EMG	V	Monopolar surface EMG	10240	sEMG62	R1	4	Right tibialis anterior	500	20	Grid1
+63	EMG	V	Monopolar surface EMG	10240	sEMG63	R1	4	Right tibialis anterior	500	20	Grid1
+64	EMG	V	Monopolar surface EMG	10240	sEMG64	R1	4	Right tibialis anterior	500	20	Grid1
+65	EMG	V	Monopolar intramuscular EMG	10240	iEMG01	R1	0.5	Right tibialis anterior	4400	100	Grid2
+66	EMG	V	Monopolar intramuscular EMG	10240	iEMG02	R1	0.5	Right tibialis anterior	4400	100	Grid2
+67	EMG	V	Monopolar intramuscular EMG	10240	iEMG03	R1	0.5	Right tibialis anterior	4400	100	Grid2
+68	EMG	V	Monopolar intramuscular EMG	10240	iEMG04	R1	0.5	Right tibialis anterior	4400	100	Grid2
+69	EMG	V	Monopolar intramuscular EMG	10240	iEMG05	R1	0.5	Right tibialis anterior	4400	100	Grid2
+70	EMG	V	Monopolar intramuscular EMG	10240	iEMG06	R1	0.5	Right tibialis anterior	4400	100	Grid2
+71	EMG	V	Monopolar intramuscular EMG	10240	iEMG07	R1	0.5	Right tibialis anterior	4400	100	Grid2
+72	EMG	V	Monopolar intramuscular EMG	10240	iEMG08	R1	0.5	Right tibialis anterior	4400	100	Grid2
+73	EMG	V	Monopolar intramuscular EMG	10240	iEMG09	R1	0.5	Right tibialis anterior	4400	100	Grid2
+74	EMG	V	Monopolar intramuscular EMG	10240	iEMG10	R1	0.5	Right tibialis anterior	4400	100	Grid2
+75	EMG	V	Monopolar intramuscular EMG	10240	iEMG11	R1	0.5	Right tibialis anterior	4400	100	Grid2
+76	EMG	V	Monopolar intramuscular EMG	10240	iEMG12	R1	0.5	Right tibialis anterior	4400	100	Grid2
+77	EMG	V	Monopolar intramuscular EMG	10240	iEMG13	R1	0.5	Right tibialis anterior	4400	100	Grid2
+78	EMG	V	Monopolar intramuscular EMG	10240	iEMG14	R1	0.5	Right tibialis anterior	4400	100	Grid2
+79	EMG	V	Monopolar intramuscular EMG	10240	iEMG15	R1	0.5	Right tibialis anterior	4400	100	Grid2
+80	EMG	V	Monopolar intramuscular EMG	10240	iEMG16	R1	0.5	Right tibialis anterior	4400	100	Grid2
+81	EMG	V	Monopolar intramuscular EMG	10240	iEMG17	R1	0.5	Right tibialis anterior	4400	100	Grid2
+82	EMG	V	Monopolar intramuscular EMG	10240	iEMG18	R1	0.5	Right tibialis anterior	4400	100	Grid2
+83	EMG	V	Monopolar intramuscular EMG	10240	iEMG19	R1	0.5	Right tibialis anterior	4400	100	Grid2
+84	EMG	V	Monopolar intramuscular EMG	10240	iEMG20	R1	0.5	Right tibialis anterior	4400	100	Grid2
+85	EMG	V	Monopolar intramuscular EMG	10240	iEMG21	R1	0.5	Right tibialis anterior	4400	100	Grid2
+86	EMG	V	Monopolar intramuscular EMG	10240	iEMG22	R1	0.5	Right tibialis anterior	4400	100	Grid2
+87	EMG	V	Monopolar intramuscular EMG	10240	iEMG23	R1	0.5	Right tibialis anterior	4400	100	Grid2
+88	EMG	V	Monopolar intramuscular EMG	10240	iEMG24	R1	0.5	Right tibialis anterior	4400	100	Grid2
+89	EMG	V	Monopolar intramuscular EMG	10240	iEMG25	R1	0.5	Right tibialis anterior	4400	100	Grid2
+90	EMG	V	Monopolar intramuscular EMG	10240	iEMG26	R1	0.5	Right tibialis anterior	4400	100	Grid2
+91	EMG	V	Monopolar intramuscular EMG	10240	iEMG27	R1	0.5	Right tibialis anterior	4400	100	Grid2
+92	EMG	V	Monopolar intramuscular EMG	10240	iEMG28	R1	0.5	Right tibialis anterior	4400	100	Grid2
+93	EMG	V	Monopolar intramuscular EMG	10240	iEMG29	R1	0.5	Right tibialis anterior	4400	100	Grid2
+94	EMG	V	Monopolar intramuscular EMG	10240	iEMG30	R1	0.5	Right tibialis anterior	4400	100	Grid2
+95	EMG	V	Monopolar intramuscular EMG	10240	iEMG31	R1	0.5	Right tibialis anterior	4400	100	Grid2
+96	EMG	V	Monopolar intramuscular EMG	10240	iEMG32	R1	0.5	Right tibialis anterior	4400	100	Grid2
+97	EMG	V	Monopolar intramuscular EMG	10240	iEMG33	R1	0.5	Right tibialis anterior	4400	100	Grid2
+98	EMG	V	Monopolar intramuscular EMG	10240	iEMG34	R1	0.5	Right tibialis anterior	4400	100	Grid2
+99	EMG	V	Monopolar intramuscular EMG	10240	iEMG35	R1	0.5	Right tibialis anterior	4400	100	Grid2
+100	EMG	V	Monopolar intramuscular EMG	10240	iEMG36	R1	0.5	Right tibialis anterior	4400	100	Grid2
+101	EMG	V	Monopolar intramuscular EMG	10240	iEMG37	R1	0.5	Right tibialis anterior	4400	100	Grid2
+102	EMG	V	Monopolar intramuscular EMG	10240	iEMG38	R1	0.5	Right tibialis anterior	4400	100	Grid2
+103	EMG	V	Monopolar intramuscular EMG	10240	iEMG39	R1	0.5	Right tibialis anterior	4400	100	Grid2
+104	EMG	V	Monopolar intramuscular EMG	10240	iEMG40	R1	0.5	Right tibialis anterior	4400	100	Grid2
+105	MISC	% MVC	Performed ankle torque	10240	n/a	n/a	n/a	Right tibialis anterior	n/a	n/a	n/a
+106	MISC	% MVC	Requested ankle torque	10240	n/a	n/a	n/a	Right tibialis anterior	n/a	n/a	n/a

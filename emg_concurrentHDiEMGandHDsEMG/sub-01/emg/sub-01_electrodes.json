@@ -1,8 +1,4 @@
 {
-    "InterelectrodeDistance": {
-        "Description": "Center-to-center distance between two electrodes", 
-        "Unit": "mm"
-    }, 
     "SurfaceArea": {
         "Description": "Surface area of an electrode contact (float or n/a).", 
         "Unit": "mm^2"
