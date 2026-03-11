@@ -1,4 +1,4 @@
-name	type	units	description	sampling_frequency	signal_electrode	reference_electrode	target_muscle	low_cutoff	high_cutoff	Group
+name	type	units	description	sampling_frequency	signal_electrode	reference	target_muscle	low_cutoff	high_cutoff	group
 1	EMG	V	Monopolar surface EMG	10240	sEMG1	R1	Right tibialis anterior	500	20	Grid1
 2	EMG	V	Monopolar surface EMG	10240	sEMG2	R1	Right tibialis anterior	500	20	Grid1
 3	EMG	V	Monopolar surface EMG	10240	sEMG3	R1	Right tibialis anterior	500	20	Grid1
@@ -103,5 +103,5 @@ name	type	units	description	sampling_frequency	signal_electrode	reference_electr
 102	EMG	V	Monopolar intramuscular EMG	10240	iEMG38	R1	Right tibialis anterior	4400	100	Grid2
 103	EMG	V	Monopolar intramuscular EMG	10240	iEMG39	R1	Right tibialis anterior	4400	100	Grid2
 104	EMG	V	Monopolar intramuscular EMG	10240	iEMG40	R1	Right tibialis anterior	4400	100	Grid2
-105	MISC	% MVC	Performed ankle torque	10240	N/A	N/A	Right tibialis anterior	N/A	N/A	N/A
-106	MISC	% MVC	Requested ankle torque	10240	N/A	N/A	Right tibialis anterior	N/A	N/A	N/A
+105	MISC	% MVC	Performed ankle torque	10240	n/a	n/a	Right tibialis anterior	n/a	n/a	n/a
+106	MISC	% MVC	Requested ankle torque	10240	n/a	n/a	Right tibialis anterior	n/a	n/a	n/a

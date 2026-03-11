@@ -15,8 +15,15 @@
 	"Gain": 150,
 	"Manufacturer": "OTBioelettronica",
 	"ManufacturersModelName":"QUATTROCENTO",
-	"RecordingDuration": 60.00,
+	"RecordingType": "continuous",
+	"RecordingDuration": 70.00,
 	"SamplingFrequency": 10240,
 	"TaskDescription":"The participant performed a trapezoidal contractions at 20 percent MVC (10 seconds ramp up; 60 seconds hold; 10 seconds ramp down). ",
-	"TaskName":"isometric"
+	"TaskName":"isometric",
+	"SoftwareFilters":{
+		"Bandpass": {
+			"high_pass": "ChannelSpecific (see *_channels.tsv)",
+			"low_pass": "ChannelSpecific (see *_channels.tsv)"
+		}
+	}
 }

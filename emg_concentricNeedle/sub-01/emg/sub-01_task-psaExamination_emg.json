@@ -10,7 +10,7 @@
 	"CannulaLength": 30,
 	"SeterilizationMethod": "E-beam",
 	"ElectrodeManufacturer": "Electrode Manufacturer",
-	"ElectrodeManufacturerModelName": "Model Name",
+	"ElectrodeManufacturersModelName": "Model Name",
 	"EMGReference":"bipolar",
 	"EMGGround":"n/a",
 	"EMGChannelCount": 1,
@@ -18,8 +18,9 @@
 	"PowerLineFrequency": 50,
 	"Manufacturer":"Amplifier manufacurer",
 	"ManufacturersModelName":"Amplifier model",
+	"RecordingType": "continuous",
 	"RecordingDuration": 60.00,
-	"SamplingFrequency": 20000,
+	"SamplingFrequency": 30000,
 	"SoftwareFilters":{
 		"Bandpass": {
 			"high_pass": 100,
