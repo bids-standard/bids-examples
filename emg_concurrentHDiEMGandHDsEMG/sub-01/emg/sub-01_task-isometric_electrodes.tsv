@@ -1,107 +1,107 @@
-	name	x	y	z	coordinate_system	Group	ElectrodeMaterial	InterelectrodeDistance	ElectrodeManufacturer	ElectrodeManufacturerModelName	ElectrodeType
-1	sEMG1	0.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-2	sEMG2	4.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-3	sEMG3	8.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-4	sEMG4	12.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-5	sEMG5	16.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-6	sEMG6	20.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-7	sEMG7	24.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-8	sEMG8	28.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-9	sEMG9	32.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-10	sEMG10	36.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-11	sEMG11	40.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-12	sEMG12	44.00	0.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-13	sEMG13	44.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-14	sEMG14	40.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-15	sEMG15	36.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-16	sEMG16	32.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-17	sEMG17	28.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-18	sEMG18	24.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-19	sEMG19	20.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-20	sEMG20	16.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-21	sEMG21	12.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-22	sEMG22	8.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-23	sEMG23	4.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-24	sEMG24	0.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-25	sEMG25	-4.00	4.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-26	sEMG26	-4.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-27	sEMG27	0.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-28	sEMG28	4.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-29	sEMG29	8.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-30	sEMG30	12.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-31	sEMG31	16.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-32	sEMG32	20.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-33	sEMG33	24.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-34	sEMG34	28.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-35	sEMG35	32.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-36	sEMG36	36.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-37	sEMG37	40.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-38	sEMG38	44.00	8.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-39	sEMG39	44.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-40	sEMG40	40.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-41	sEMG41	36.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-42	sEMG42	32.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-43	sEMG43	28.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-44	sEMG44	24.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-45	sEMG45	20.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-46	sEMG46	16.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-47	sEMG47	12.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-48	sEMG48	8.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-49	sEMG49	4.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-50	sEMG50	0.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-51	sEMG51	-4.00	12.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-52	sEMG52	-4.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-53	sEMG53	0.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-54	sEMG54	4.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-55	sEMG55	8.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-56	sEMG56	12.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-57	sEMG57	16.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-58	sEMG58	20.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-59	sEMG59	24.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-60	sEMG60	28.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-61	sEMG61	32.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-62	sEMG62	36.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-63	sEMG63	40.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-64	sEMG64	44.00	16.00		grid1	Grid1	gold	4	OTBioeletrttonica	GR04MM1305	HDsEMG
-65	iEMG01	0.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-66	iEMG02	0.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-67	iEMG03	1.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-68	iEMG04	1.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-69	iEMG05	2.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-70	iEMG06	2.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-71	iEMG07	3.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-72	iEMG08	3.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-73	iEMG09	4.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-74	iEMG10	4.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-75	iEMG11	5.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-76	iEMG12	5.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-77	iEMG13	6.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-78	iEMG14	6.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-79	iEMG15	7.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-80	iEMG16	7.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-81	iEMG17	8.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-82	iEMG18	8.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-83	iEMG19	9.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-84	iEMG20	9.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-85	iEMG21	10.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-86	iEMG22	10.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-87	iEMG23	11.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-88	iEMG24	11.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-89	iEMG25	12.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-90	iEMG26	12.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-91	iEMG27	13.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-92	iEMG28	13.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-93	iEMG29	14.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-94	iEMG30	14.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-95	iEMG31	15.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-96	iEMG32	15.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-97	iEMG33	16.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-98	iEMG34	16.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-99	iEMG35	17.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-100	iEMG36	17.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-101	iEMG37	18.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-102	iEMG38	18.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-103	iEMG39	19.00	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-104	iEMG40	19.50	0.00		grid2	Grid2	platinum	0.5	Custom	Custom	thin-film HDiEMG
-105	R1	100.00	0.00		lowerleg	Reference	textile	n/a	OTBioeletrttonica	WS2.1	ring
-106	R2	100.00	0.00		lowerleg	Ground	textile	n/a	OTBioeletrttonica	WS2.1	ring
+	name	x	y	z	coordinate_system	Group	ElectrodeMaterial	InterelectrodeDistance	ElectrodeSurfaceArea	ElectrodeManufacturer	ElectrodeManufacturerModelName	ElectrodeType
+1	sEMG1	0.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+2	sEMG2	4.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+3	sEMG3	8.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+4	sEMG4	12.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+5	sEMG5	16.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+6	sEMG6	20.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+7	sEMG7	24.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+8	sEMG8	28.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+9	sEMG9	32.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+10	sEMG10	36.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+11	sEMG11	40.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+12	sEMG12	44.00	0.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+13	sEMG13	44.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+14	sEMG14	40.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+15	sEMG15	36.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+16	sEMG16	32.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+17	sEMG17	28.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+18	sEMG18	24.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+19	sEMG19	20.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+20	sEMG20	16.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+21	sEMG21	12.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+22	sEMG22	8.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+23	sEMG23	4.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+24	sEMG24	0.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+25	sEMG25	-4.00	4.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+26	sEMG26	-4.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+27	sEMG27	0.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+28	sEMG28	4.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+29	sEMG29	8.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+30	sEMG30	12.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+31	sEMG31	16.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+32	sEMG32	20.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+33	sEMG33	24.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+34	sEMG34	28.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+35	sEMG35	32.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+36	sEMG36	36.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+37	sEMG37	40.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+38	sEMG38	44.00	8.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+39	sEMG39	44.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+40	sEMG40	40.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+41	sEMG41	36.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+42	sEMG42	32.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+43	sEMG43	28.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+44	sEMG44	24.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+45	sEMG45	20.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+46	sEMG46	16.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+47	sEMG47	12.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+48	sEMG48	8.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+49	sEMG49	4.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+50	sEMG50	0.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+51	sEMG51	-4.00	12.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+52	sEMG52	-4.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+53	sEMG53	0.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+54	sEMG54	4.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+55	sEMG55	8.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+56	sEMG56	12.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+57	sEMG57	16.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+58	sEMG58	20.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+59	sEMG59	24.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+60	sEMG60	28.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+61	sEMG61	32.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+62	sEMG62	36.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+63	sEMG63	40.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+64	sEMG64	44.00	16.00	n/a	grid1	Grid1	gold	4	n/a	OTBioeletrttonica	GR04MM1305	HDsEMG
+65	iEMG01	0.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+66	iEMG02	0.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+67	iEMG03	1.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+68	iEMG04	1.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+69	iEMG05	2.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+70	iEMG06	2.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+71	iEMG07	3.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+72	iEMG08	3.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+73	iEMG09	4.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+74	iEMG10	4.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+75	iEMG11	5.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+76	iEMG12	5.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+77	iEMG13	6.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+78	iEMG14	6.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+79	iEMG15	7.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+80	iEMG16	7.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+81	iEMG17	8.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+82	iEMG18	8.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+83	iEMG19	9.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+84	iEMG20	9.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+85	iEMG21	10.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+86	iEMG22	10.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+87	iEMG23	11.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+88	iEMG24	11.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+89	iEMG25	12.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+90	iEMG26	12.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+91	iEMG27	13.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+92	iEMG28	13.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+93	iEMG29	14.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+94	iEMG30	14.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+95	iEMG31	15.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+96	iEMG32	15.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+97	iEMG33	16.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+98	iEMG34	16.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+99	iEMG35	17.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+100	iEMG36	17.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+101	iEMG37	18.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+102	iEMG38	18.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+103	iEMG39	19.00	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+104	iEMG40	19.50	0.00	n/a	grid2	Grid2	platinum	0.5	0.0056	Custom	Custom	thin-film HDiEMG
+105	R1	100.00	0.00	n/a	lowerleg	Reference	textile	n/a	n/a	OTBioeletrttonica	WS2.1	ring
+106	R2	100.00	0.00	n/a	lowerleg	Ground	textile	n/a	n/a	OTBioeletrttonica	WS2.1	ring
