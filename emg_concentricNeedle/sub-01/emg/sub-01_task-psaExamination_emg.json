@@ -1,19 +1,18 @@
 {
-	"EMGPlacementScheme":"The needle was inserted (perpendicular to the skin) into the proximal part of the ADM targeting an depth of 1 cm. ",
+	"EMGPlacementScheme": "Other",
+	"EMGPlacementSchemeDescription":"The needle was inserted (perpendicular to the skin) into the proximal part of the ADM targeting an depth of 1 cm. ",
 	"ElectrodeType": "Concentric needle",
 	"ElectrodeSurfaceArea": "0.07 mm^2",
-	"ElectrodeMaterial": {
-		"ElectrodeContact": "Silver",
-		"Insulation": "Epoxy",
-		"Cannula": "Stainless steel"
-	},
+	"ElectrodeMaterial": "Silver",
+	"InsulatorMaterial": "Epoxy",
+	"CannulaMaterial": "Stainless steel",
+	"CannulaDiameter": "26G",
+	"CannulaLength": 30,
 	"SeterilizationMethod": "E-beam",
-	"NeedleDiameter": "26G",
-	"NeedleLength": "30 mm",
 	"ElectrodeManufacturer": "Electrode Manufacturer",
 	"ElectrodeManufacturerModelName": "Model Name",
 	"EMGReference":"bipolar",
-	"EMGGround":"Cannula shaft",
+	"EMGGround":"n/a",
 	"EMGChannelCount": 1,
     "EMGElectrodeCount": 2,
 	"PowerLineFrequency": 50,
@@ -27,7 +26,7 @@
 			"low_pass": 3000
 		}
 	},
-	"TaskDescription":"Patients were instructed to relax for 5 minutes before each recording and during the recording itself. Each recording lasted 1 minute and every 6 seconds the examiner slightly moved the needle to trigger myotonic activity. ",
+	"TaskDescription":"Patients were instructed to relax for 5 minutes before each recording and during the recording itself. Each recording lasted 1 minute and every 8 seconds the examiner slightly moved the needle to trigger myotonic activity. ",
 	"TaskName":"psaExamination",
 	"TriggerChannelCount":0
 }
