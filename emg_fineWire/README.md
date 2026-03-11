@@ -25,5 +25,5 @@ emg_fineWire/
 
 - **Electrode Setup**: Invasive fine wire electrode
 - **Task**: Isometric contraction
-- **Electrode Placement**: The fine-wires were inserted as pairs using a cannulae to a target depth of 2 cm. After the insertion, the bipolar EMG was visually inspected and if needed the electrode positions were adjusted through light needle moovements. Afterwards, the cannula was removed leaving only the fine wires within the muscle.
+- **Electrode Placement**: The fine-wires were inserted (perpendicular to the skin) into the right tibialis anterior as pairs using a cannulae to a target depth of 2 cm. After the insertion, the bipolar EMG was visually inspected and if needed the electrode positions were adjusted through light needle moovements. Afterwards, the cannula was removed leaving only the fine wires within the muscle.
 - **Inter-electrode Distance**: Approximately 0.5 mm
