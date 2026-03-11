@@ -1,0 +1,4 @@
+onset   duration    sample  event_description
+10  10   102400   ramp-up torque (rate: 2 % MVC per second)
+20  30   204800   steady torque (level: 20 % MVC)
+50  60   512000   ramp-down torque (rate: -2 % MVC per second)
