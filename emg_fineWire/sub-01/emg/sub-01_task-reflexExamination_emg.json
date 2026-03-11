@@ -28,7 +28,7 @@
 			"low_pass": 4400
 		}
 	},
-	"TaskDescription":"Patients were instructed to relax for 5 minutes before each recording and during the recording itself. Each recording lasted 1 minute and every 6 seconds the examiner slightly moved the needle to trigger myotonic activity. ",
-	"TaskName":"psaExamination",
+	"TaskDescription":"Subjects performed sustained (300 seconds) isometric contraction at 10 % MVC with superimposed electrically-evoked H-reflexes (every 2 seconds).",
+	"TaskName":"reflexExamination",
 	"TriggerChannelCount":0
 }
