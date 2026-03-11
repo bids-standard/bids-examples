@@ -1,0 +1,47 @@
+{
+    "Columns": [
+        "onset",
+        "duration",
+        "run_number",
+        "trial_number",
+        "image_blank_size",
+        "image_blank_num"
+    ],
+    "Description": "Timing and other properties of events recorded during a run.",
+    "OnsetSource": "timestamp",
+    "onset": {
+        "Description": "Onset (in seconds) of the event, measured from the beginning of the acquisition of the first data point stored in the corresponding task data file."
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset) in seconds."
+    },
+    "run_number": {
+        "Description": "Number of run according to run-<index> specification."
+    },
+    "trial_number": {
+        "Description": "Number of trial within one session."
+    },
+    "image_blank_size": {
+        "Description": "Size of the image displayed, where 1 = 583.7x465.83 pixel and 2 = 1204.87 x 950.44 pixel"
+    },
+    "image_blank_num": {
+        "Description": "Index number of the image displayed from https://github.com/mszinte/natImSac/tree/main/stim."
+    },
+    "TaskName": "FreeView",
+    "InstitutionAddress": "27 Bd Jean Moulin, 13005 Marseille, France",
+    "InstitutionName": "Institut de Neurosciences de la Timone",
+    "StimulusPresentation": {
+        "ScreenDistance": 0.6,
+        "ScreenOrigin": ["top", "left"],
+        "ScreenRefreshRate": 120,
+        "ScreenSize": [
+            0.696,
+            0.391
+        ],
+        "ScreenResolution": [
+            1919,
+            1079
+        ],
+        "Code": "https://github.com/mszinte/natImSac/tree/main/trials"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "Authors": [
+        "Unknown"
+    ],
+    "BIDSVersion": "1.11.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "bids-atlas",
+            "Version": "0.3.1",
+            "CodeURL": "https://github.com/PeerHerholz/bids_atlas"
+        },
+        {
+            "Name": "nilearn",
+            "CodeURL": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_harvard_oxford.html"
+        }
+    ],
+    "License": "FSL License - Non-commercial use only. Commercial use requires permission from University of Oxford. Contact: steve@fmrib.ox.ac.uk for Harvard-Oxford atlas inquiries.",
+    "Name": "Harvard-Oxford parcellations from FSL - deterministic version",
+    "SourceDatasets": [
+        {
+            "URL": "https://fsl.fmrib.ox.ac.uk/fsl/docs/#/other/datasets"
+        }
+    ]
+}

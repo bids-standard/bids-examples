@@ -1,0 +1,17 @@
+{
+    "Description": "The subject's resting state fMRI data, preprocessed using fMRIPrep, in MNI Infant cohort 1 template space, at the resolution of the subject's bold reference image.",
+    "EchoTime": 0.03,
+    "InstitutionName": "University of Pennsylvania",
+    "MagneticFieldStrength": 3,
+    "Manufacturer": "Siemens",
+    "ManufacturersModelName": "Prisma",
+    "MRAcquisitionType": "2D",
+    "RepetitionTime": 1.761,
+    "SkullStripped": false,
+    "SliceTimingCorrected": true,
+    "Sources": [
+        "bids::sub-01/ses-2mo/func/sub-01_ses-2mo_task-rest_space-boldref_desc-preproc_bold.nii.gz"
+    ],
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNIInfant_cohort-1_res-1_T1w.nii.gz",
+    "TaskName": "rest eyes open"
+}

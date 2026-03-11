@@ -1,0 +1,23 @@
+{
+	"Name": "EMG multimodal",
+	"BIDSVersion": "1.10.0",
+	"DatasetType": "raw",
+	"License": "CC0",
+	"Authors": [
+		"Steven Peterson",
+		"Daniel Ferris"
+	],
+	"Acknowledgements": "This is a simplified example dataset derived from OpenNeuro ds003739 to demonstrate BIDS formatting for multimodal EEG-EMG-Motion data.",
+	"HowToAcknowledge": "Please cite the original study: Peterson SM & Ferris DP (2018). Differentiation in theta and beta electrocortical activity between visual and physical perturbations to walking and standing balance. eNeuro, 5(4): ENEURO.0207-18.2018.",
+	"ReferencesAndLinks": [
+		"https://doi.org/10.1523/ENEURO.0207-18.2018",
+		"https://doi.org/10.1016/j.neuroimage.2019.05.038"
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.18112/openneuro.ds003739.v1.0.2",
+			"URL": "https://openneuro.org/datasets/ds003739",
+			"Version": "1.0.2"
+		}
+	]
+}
