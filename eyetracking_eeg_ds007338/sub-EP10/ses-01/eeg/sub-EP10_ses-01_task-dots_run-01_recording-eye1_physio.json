@@ -2,7 +2,7 @@
     "SamplingFrequency": 10.0,
     "StartTime": 0.0,
     "Columns": [
-        "time",
+        "timestamp",
         "x_coordinate",
         "y_coordinate",
         "pupil_size"
@@ -10,7 +10,7 @@
     "PhysioType": "eyetrack",
     "RecordedEye": "left",
     "SampleCoordinateSystem": "gaze-on-screen",
-    "time": {
+    "timestamp": {
         "Description": "The timestamp of the data, in seconds.",
         "Units": "s"
     },
