@@ -46,10 +46,7 @@ Just run the validator as follows (using the `eeg_matchingpennies` dataset as an
 example, and assuming you are in a command line at the root of the
 `bids-examples` repository):
 
-`bids-validator eeg_matchingpennies --config.ignore=99`
-
-The `--config.ignore=99` "flag" tells the bids-validator to ignore empty data
-files rather than to report the "empty file" error .
+`bids-validator eeg_matchingpennies`
 
 For datasets that contain NIfTI `.nii` files, you also need to add the
 `ignoreNiftiHeaders` flag to the `bids-validator` call, to suppress the issue
@@ -57,7 +54,7 @@ that NIfTI headers are not found.
 
 For example:
 
-`bids-validator ds003 --config.ignore=99 --ignoreNiftiHeaders`
+`bids-validator ds003 --ignoreNiftiHeaders`
 
 ### Validating all examples
 
