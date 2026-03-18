@@ -95,6 +95,7 @@ jobs:
       run: |
         git clone -b dev https://github.com/bids-standard/bids-validator/ ../bids-validator
         cd ../bids-validator
+        git checkout bep028
         deno compile -A -o $HOME/.deno/bin/bids-validator src/bids-validator.ts
 
     - name: Install BIDS validator (dev-prs with VAL_PR)
@@ -162,6 +163,7 @@ jobs:
       # If this variable is unset, dev will generally track the latest development
       # release of https://jsr.io/@bids/schema
       run: echo BIDS_SCHEMA=https://bids-specification--2099.org.readthedocs.build/en/2099/schema.json >> $GITHUB_ENV
+
     - name: Set BIDS_SCHEMA variable for dev-prs version
       if: matrix.bids-validator == 'dev-prs' && env.SPEC_PR != ''
       # Use the readthedocs PR preview build for the schema
