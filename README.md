@@ -418,3 +418,26 @@ DO NOT EDIT DIRECTLY.
 | [qmri_sa2rage](https://github.com/bids-standard/bids-examples/tree/master/qmri_sa2rage)     | Fast B1+ mapping using SA2RAGE                                                           | fmap        | TB1SRGE                                                | `not publicly available`      | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
 | [qmri_tb1tfl](https://github.com/bids-standard/bids-examples/tree/master/qmri_tb1tfl)       | B1+ mapping with TurboFLASH readout.                                                     | fmap        | TB1TFL                                                 | `not publicly available`      | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
 | [qmri_vfa](https://github.com/bids-standard/bids-examples/tree/master/qmri_vfa)             | Variable Flip Angle T1 mapping. Includes an Actual Flip Angle (AFI) B1+ mapping example. | anat, fmap  | TB1AFI, VFA                                            | [link](https://osf.io/k4bs5/) | [@agahkarakuzu](https://github.com/agahkarakuzu)             |
+=======
+
+### Phenotype
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                            | description                                                      | datatypes       | suffixes   | link to full data   | maintained by                            |
+|:--------------------------------------------------------------------------------|:-----------------------------------------------------------------|:----------------|:-----------|:--------------------|:-----------------------------------------|
+| [pheno004](https://github.com/bids-standard/bids-examples/tree/master/pheno004) | Minimal dataset with subjects with imaging and/or phenotype data | phenotype, anat | T1w        | n/a                 | [@ericearl](https://github.com/ericearl) |
+
+### Provenance
+
+<!--
+TABLE BELOW IS GENERATED AUTOMATICALLY.
+DO NOT EDIT DIRECTLY.
+-->
+
+| name                                                                                                  | description                                                                                                                           | datatypes   | suffixes                 | link to full data                                                                                | maintained by                          |
+|:------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|:------------|:-------------------------|:-------------------------------------------------------------------------------------------------|:---------------------------------------|
+| [provenance_dcm2niix](https://github.com/bids-standard/bids-examples/tree/master/provenance_dcm2niix) | Shows minimal example of provenance metadata for a DICOM to Nifti conversion with [`dcm2niix`](https://github.com/rordenlab/dcm2niix) | anat        | T1w, act, ent, env, soft | This example is based upon [hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) data | [@bclenet](https://github.com/bclenet) |
