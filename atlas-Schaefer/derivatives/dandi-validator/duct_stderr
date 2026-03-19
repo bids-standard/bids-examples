@@ -1,0 +1,14 @@
+2026-03-19 18:05:26,028 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:05:26,028 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/atlas-Schaefer2018_description.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Schaefer2018_seg-17Networks_scale-400_res-2_probseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Schaefer2018_seg-17Networks_scale-400_res-2_probseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Schaefer2018_seg-7Networks_scale-100_res-2_probseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Schaefer2018_seg-7Networks_scale-100_res-2_probseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Schaefer2018_seg-7Networks_scale-200_res-2_probseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Schaefer2018_seg-7Networks_scale-200_res-2_probseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_res-2_T1w.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Schaefer/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:26,165 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:26,855 [    INFO] Validation output written to atlas-Schaefer/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:05:26,855 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.05.25Z-921185.log

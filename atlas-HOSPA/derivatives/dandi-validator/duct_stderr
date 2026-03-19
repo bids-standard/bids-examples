@@ -1,0 +1,30 @@
+2026-03-19 18:05:18,471 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:05:18,471 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/atlas-HOSPA_description.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_res-01_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_res-02_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_res-02_probseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_res-02_probseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_seg-th0_res-01_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_seg-th0_res-02_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_seg-th25_res-01_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_seg-th25_res-02_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_seg-th50_res-01_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin2009cAsym/anat/tpl-MNI152NLin2009cAsym_atlas-HOSPA_seg-th50_res-02_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_res-01_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_res-01_probseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_res-01_probseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_res-02_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_res-02_probseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_res-02_probseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_seg-th0_res-01_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_seg-th0_res-02_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_seg-th25_res-01_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_seg-th25_res-02_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_seg-th50_res-01_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-HOSPA/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-HOSPA_seg-th50_res-02_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:18,619 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:19,311 [    INFO] Validation output written to atlas-HOSPA/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:05:19,311 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.05.17Z-920443.log

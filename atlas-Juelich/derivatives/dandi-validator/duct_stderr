@@ -1,0 +1,13 @@
+2026-03-19 18:05:23,555 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:05:23,555 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:23,692 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Juelich/atlas-Juelich_description.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:23,692 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Juelich/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Juelich_res-2_probseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:23,692 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Juelich/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Juelich_res-2_probseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:23,692 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Juelich/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Juelich_seg-threshold25_res-2_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:23,692 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Juelich/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Juelich_seg-threshold25_res-2_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:23,692 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Juelich/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Juelich_seg-threshold25_res-2_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:23,692 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Juelich/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_res-2_T1w.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:23,692 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Juelich/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:23,692 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:24,368 [    INFO] Validation output written to atlas-Juelich/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:05:24,368 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.05.22Z-920969.log

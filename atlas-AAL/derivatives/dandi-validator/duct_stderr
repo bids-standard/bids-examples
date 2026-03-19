@@ -1,0 +1,11 @@
+2026-03-19 18:05:11,026 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:05:11,026 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:11,159 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-AAL/atlas-AAL_description.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:11,159 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-AAL/tpl-MNIColin27/anat/tpl-MNIColin27_atlas-AAL_res-1_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:11,159 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-AAL/tpl-MNIColin27/anat/tpl-MNIColin27_atlas-AAL_res-1_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:11,159 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-AAL/tpl-MNIColin27/anat/tpl-MNIColin27_atlas-AAL_res-1_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:11,159 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-AAL/tpl-MNIColin27/anat/tpl-MNIColin27_res-1_T1w.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:11,159 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-AAL/tpl-MNIColin27/anat/tpl-MNIColin27_res-1_T1w.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:11,159 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:11,818 [    INFO] Validation output written to atlas-AAL/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:05:11,818 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.05.10Z-919844.log

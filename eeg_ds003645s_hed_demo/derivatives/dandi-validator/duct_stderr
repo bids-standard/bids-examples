@@ -1,0 +1,6 @@
+2026-03-19 18:07:13,880 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:07:13,880 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:07:14,151 [ WARNING] The `/home/yoh/proj/bids/bids-examples/eeg_ds003645s_hed_demo/sub-004/ses-1/sub-004_ses-1_headshape.pos` file was not matched by any regex schema entry.
+2026-03-19 18:07:14,151 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:07:15,894 [    INFO] Validation output written to eeg_ds003645s_hed_demo/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:07:15,894 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.07.13Z-927059.log

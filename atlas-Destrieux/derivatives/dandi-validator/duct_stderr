@@ -1,0 +1,11 @@
+2026-03-19 18:05:13,435 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:05:13,435 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:13,565 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Destrieux/atlas-Destrieux_description.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:13,565 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Destrieux/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:13,565 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Destrieux/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:13,565 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Destrieux/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:13,565 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Destrieux/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:13,565 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Destrieux/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:13,565 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:14,229 [    INFO] Validation output written to atlas-Destrieux/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:05:14,229 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.05.12Z-920024.log

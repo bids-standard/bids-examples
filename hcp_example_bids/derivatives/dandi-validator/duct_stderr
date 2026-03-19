@@ -1,0 +1,6 @@
+2026-03-19 18:08:04,809 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:08:04,810 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:08:04,893 [    INFO] SUCCESS: All files are BIDS valid and no BIDS-required files are missing.
+2026-03-19 18:08:04,893 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:08:04,909 [    INFO] Validation output written to hcp_example_bids/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:08:04,909 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.08.03Z-929939.log

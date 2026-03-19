@@ -1,0 +1,23 @@
+2026-03-19 18:05:29,001 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:05:29,002 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:29,164 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/atlas-Talairach_description.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,164 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-ba_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,164 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-ba_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,164 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-ba_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-gyrus_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-gyrus_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-gyrus_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-hemisphere_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-hemisphere_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-hemisphere_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-lobe_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-lobe_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-lobe_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-tissue_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-tissue_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-Talairach_res-2_desc-tissue_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_res-2_T1w.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-Talairach/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:29,165 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:29,909 [    INFO] Validation output written to atlas-Talairach/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:05:29,910 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.05.28Z-921447.log

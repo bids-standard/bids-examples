@@ -1,0 +1,23 @@
+2026-03-19 18:05:16,049 [ WARNING] No BIDS reference root provided.
+2026-03-19 18:05:16,049 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/atlas-DiFuMo_description.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-1024_res-2_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-1024_res-2_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-1024_res-2_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-128_res-2_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-128_res-2_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-128_res-2_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-256_res-2_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-256_res-2_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-256_res-2_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-512_res-2_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-512_res-2_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-512_res-2_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-64_res-2_dseg.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-64_res-2_dseg.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_atlas-DiFuMo_scale-64_res-2_dseg.tsv` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_res-2_T1w.json` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,214 [ WARNING] The `/home/yoh/proj/bids/bids-examples/atlas-DiFuMo/tpl-MNI152NLin6Asym/anat/tpl-MNI152NLin6Asym_res-2_T1w.nii.gz` file was not matched by any regex schema entry.
+2026-03-19 18:05:16,215 [    INFO] No schema path specified, defaulting to the bundled schema, `/home/yoh/proj/dandi/dandi-cli-enh-validators/.venv/lib/python3.13/site-packages/bidsschematools/data/schema.json`.
+2026-03-19 18:05:16,917 [    INFO] Validation output written to atlas-DiFuMo/derivatives/dandi-validator//output.jsonl
+2026-03-19 18:05:16,917 [    INFO] Logs saved in /home/yoh/.local/state/dandi-cli/log/2026.03.19-22.05.15Z-920158.log
