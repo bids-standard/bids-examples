@@ -1,0 +1,547 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "TOO_FEW_AUTHORS",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.TooFewAuthors"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/dwi/sub-01_ADC.nii"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_ADC.nii",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_ADC.nii",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_ADC.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_ADC.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_ADC.nii",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_ADC.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_ADC.nii",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_ADC.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/dwi/sub-01_FA.nii"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_FA.nii",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_FA.nii",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_FA.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_FA.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_FA.nii",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_FA.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_FA.nii",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_FA.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/dwi/sub-01_S0map.nii"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_S0map.nii",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_S0map.nii",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_S0map.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_S0map.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_S0map.nii",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_S0map.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_S0map.nii",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_S0map.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/dwi/sub-01_colFA.nii"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_colFA.nii",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_colFA.nii",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_colFA.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_colFA.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_colFA.nii",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_colFA.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_colFA.nii",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_colFA.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/dwi/sub-01_dwi.nii"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_dwi.nii",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_dwi.nii",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_dwi.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_dwi.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_dwi.nii",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_dwi.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_dwi.nii",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_dwi.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/dwi/sub-01_expADC.nii"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_expADC.nii",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_expADC.nii",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_expADC.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_expADC.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_expADC.nii",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_expADC.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_expADC.nii",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_expADC.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/dwi/sub-01_trace.nii"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_trace.nii",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_trace.nii",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_trace.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_trace.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_trace.nii",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_trace.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_trace.nii",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/dwi/sub-01_trace.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      }
+    ],
+    "codeMessages": {
+      "TOO_FEW_AUTHORS": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "EMPTY_FILE": "Empty files not allowed.",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "01"
+    ],
+    "subjectMetadata": [],
+    "tasks": [],
+    "modalities": [
+      "MRI"
+    ],
+    "secondaryModalities": [
+      "MRI_Diffusion"
+    ],
+    "totalFiles": 18,
+    "size": 21322,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "dwi"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}
