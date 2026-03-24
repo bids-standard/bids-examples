@@ -1,0 +1,40 @@
+{
+    "Density": "91282 vertices. 29696 surface vertices in left hemisphere. 29716 surface vertices in right hemisphere. 31870 subcortical voxels, at 2 mm isotropic resolution.",
+    "Manual": false,
+    "SpatialReference": {
+        "CIFTI_STRUCTURE_CORTEX_LEFT": "https://github.com/mgxd/brainplot/raw/master/brainplot/Conte69_Atlas/Conte69.L.midthickness.32k_fs_LR.surf.gii",
+        "CIFTI_STRUCTURE_CORTEX_RIGHT": "https://github.com/mgxd/brainplot/raw/master/brainplot/Conte69_Atlas/Conte69.R.midthickness.32k_fs_LR.surf.gii",
+        "VolumeReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-01_T1w.nii.gz"
+    },
+    "atlas_name": {
+        "Description": "The name of the source atlas for this node.",
+        "LongName": "Atlas name",
+        "Levels": {
+            "Schaefer100": "The Schaefer 100-node atlas.",
+            "CIT168Subcortical": "The CIT168 subcortical atlas.",
+            "ThalamusHCP": "The HCP thalamic atlas.",
+            "SubcorticalHCP": "The HCP subcortical atlas.",
+            "Cerebellum": "The Diedrichsen cerebellum atlas."
+        }
+    },
+    "index_17network": {
+        "Description": "The corresponding integer value of this node in the 17-network Schaefer atlas imaging file.",
+        "LongName": "Node index from Schaefer 17-network atlas"
+    },
+    "name_17network": {
+        "Description": "The label of the node as it appears in the canonical Schaefer 17-network atlas.",
+        "LongName": "Node label from Schaefer 17-network atlas"
+    },
+    "name_7network": {
+        "Description": "The label of the node as it appears in the canonical Schaefer 7-network atlas.",
+        "LongName": "Node label from Schaefer 7-network atlas"
+    },
+    "network_label": {
+        "Description": "The name of the network this node is assigned to in the Schaefer 7-network atlas.",
+        "LongName": "Network label from Schaefer 7-network atlas"
+    },
+    "network_label_17network": {
+        "Description": "The name of the network this node is assigned to in the Schaefer 17-network atlas.",
+        "LongName": "Network label from Schaefer 17-network atlas"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "trial_type": {
+        "LongName": "Event category",
+        "Description": "Type of stimulus",
+        "Levels": {
+            "foo": "Foo stimulus was present",
+            "bar": "Bar stimulus was present"
+        }
+    },
+    "StimulusPresentation": {
+        "Code": "https://github.com/LABSN/expyfun/tree/58634c159404ea64e1d89c0b4e70bd13c2b77723"
+    }
+}

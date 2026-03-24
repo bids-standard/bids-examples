@@ -1,0 +1,21 @@
+{
+  "onset": {
+    "Description": "Event onset",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Type of event",
+    "Levels": {
+      "stimulus": "Sensorimotor perturbation stimulus"
+    }
+  },
+  "value": {
+    "Description": "Value of event",
+    "Levels": {
+      "pull_left": "Onset of pull perturbation on participant's left side",
+      "pull_right": "Onset of pull perturbation on participant's right side",
+      "rotate_ccw": "Onset of counterclockwise visual field rotation",
+      "rotate_cw": "Onset of clockwise visual field rotation"
+    }
+  }
+}
