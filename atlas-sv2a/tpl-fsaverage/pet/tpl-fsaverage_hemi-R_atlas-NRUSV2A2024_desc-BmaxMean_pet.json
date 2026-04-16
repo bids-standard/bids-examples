@@ -2,5 +2,6 @@
   "Atlas": "NRUSV2A2024",
   "Units": "pmol/mL",
   "Source": "NRU SV2A atlas",
-  "SpatialReference": "fsaverage"
+  "SpatialReference": "fsaverage",
+  "SkullStripped": true
 }
