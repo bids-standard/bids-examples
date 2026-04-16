@@ -1,24 +1,15 @@
 {
-    "participant_id": {
-        "Description": "Unique participant identifier"
-    },
-    "species": {
-        "Description": "Species of the subject"
-    },
-    "strain": {
-        "Description": "Strain of the subject"
-    },
-    "sex": {
-        "Description": "Sex of the subject",
-        "Levels": {
-            "M": "male",
-            "F": "female"
-        }
-    },
     "age": {
-        "Description": "Age of the subject in postnatal days (P)"
+        "LongName": "Subject age",
+        "Description": "Subject postnatal age (in days)",
+        "Format": "number",
+        "Units": "days",
+        "Maximum": 365
     },
     "weight": {
-        "Description": "Weight of the subject"
+        "Description": "Weight of the subject",
+        "Format": "number",
+        "Units": "g",
+        "Maximum": 1000
     }
 }
