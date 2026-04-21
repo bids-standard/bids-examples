@@ -1,0 +1,15 @@
+{
+  "Name": "Example SWI derivatives",
+  "BIDSVersion": "1.10.1",
+  "DatasetType": "derivative",
+  "SourceDatasets": [
+    "../../"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Manual",
+      "Description": "Manually created example SWI derivative dataset"
+    }
+  ],
+  "Description": "Susceptibility weighted images (SWI), minimum intensity projections (minIP), and quantitative susceptibility maps (Chimap) derived from multi-echo gradient-echo (MEGRE) data."
+}

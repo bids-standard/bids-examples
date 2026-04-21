@@ -105,4 +105,5 @@ atlas-AAL				n/a	n/a
 atlas-DiFuMo				n/a	n/a
 eyetracking_fmri				anat, fmap, func	T1w, T2w, bold, epi, events, fieldmap, magnitude, physio
 atlas-suit				n/a	T1w
+swi	Example SWI dataset with MEGRE raw data and SWI, minIP and Chimap derivatives	`not publicly available`		anat	MEGRE, swi, minIP, Chimap
 atlas-Juelich				n/a	n/a
