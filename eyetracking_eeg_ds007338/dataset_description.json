@@ -1,0 +1,48 @@
+{
+    "Name": "EEGEyeNet Dataset",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "License": "Please see the file named license.txt at https://osf.io/ktv7m/",
+    "Authors": [
+        "Martyna Beata Płomecka",
+        "Ard Kastrati",
+        "Nicolas Langer"
+    ],
+    "Acknowledgements": "We thank the authors of the original EEGEyeNet paper for Making this dataset available.",
+    "HowToAcknowledge": "Kastrati, A., Płomecka, M. B., Pascual, D., Wolf, L., Gillioz, V., Wattenhofer, R., & Langer, N. (2021). EEGEyeNet: A Simultaneous Electroencephalography and Eye-tracking Dataset and Benchmark for Eye Movement Prediction (Version 2). arXiv. https://doi.org/10.48550/ARXIV.2111.05100",
+    "Funding": [
+        "Velux Stiftung Project No. 1126",
+        "Schweizerischer Nationalfonds zur Förderungder Wissenschaftlichen Forschung (SNF) Grant 100014175875"
+    ],
+    "EthicsApprovals": [
+        "The study was approved by the Institutional Review Board of Canton Zurich(BASEC-Nr. 2017-00226)"
+    ],
+    "ReferencesAndLinks": [
+        "Kastrati",
+        "A.",
+        "Płomecka",
+        "M. B.",
+        "Pascual",
+        "D.",
+        "Wolf",
+        "L.",
+        "Gillioz",
+        "V.",
+        "Wattenhofer",
+        "R.",
+        "& Langer",
+        "N. (2021). EEGEyeNet: A Simultaneous Electroencephalography and Eye-tracking Dataset and Benchmark for Eye Movement Prediction (Version 2). arXiv. https://doi.org/10.48550/ARXIV.2111.05100"
+    ],
+    "DatasetDOI": "10.17605/OSF.IO/KTV7M",
+    "GeneratedBy": [
+        {
+            "Name": "https://github.com/scott-huberty/example-bids-dataset-eegeyenet.git"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "URL": "https://osf.io/ktv7m/",
+            "DOI": "10.17605/OSF.IO/KTV7M"
+        }
+    ]
+}
