@@ -1,0 +1,15 @@
+{
+    "age": {
+        "LongName": "Subject age",
+        "Description": "Subject postnatal age (in days)",
+        "Format": "number",
+        "Units": "day",
+        "Maximum": 365
+    },
+    "weight": {
+        "Description": "Weight of the subject",
+        "Format": "number",
+        "Units": "g",
+        "Maximum": 1000
+    }
+}
