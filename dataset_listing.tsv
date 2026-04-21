@@ -106,3 +106,4 @@ atlas-DiFuMo				n/a	n/a
 eyetracking_fmri				anat, fmap, func	T1w, T2w, bold, epi, events, fieldmap, magnitude, physio
 atlas-suit				n/a	T1w
 atlas-Juelich				n/a	n/a
+proj-nipoppy	BIDS study dataset, to fit nipoppy use case	n/a	[@yarikoptic](https://github.com/yarikoptic)	n/a	n/a
