@@ -1,0 +1,52 @@
+{
+    "sub-01/func/sub-01_bold.json": [
+        "sub-01/func/sub-01_task-ovg_acq-highres_bold.nii.gz",
+        "sub-01/func/sub-01_task-ovg_acq-lowres_bold.nii.gz",
+        "sub-01/func/sub-01_task-rest_acq-highres_bold.nii.gz",
+        "sub-01/func/sub-01_task-rest_acq-lowres_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_acq-highres_bold.json": [
+        "sub-01/func/sub-01_task-ovg_acq-highres_bold.nii.gz",
+        "sub-01/func/sub-01_task-rest_acq-highres_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_acq-lowres_bold.json": [
+        "sub-01/func/sub-01_task-ovg_acq-lowres_bold.nii.gz",
+        "sub-01/func/sub-01_task-rest_acq-lowres_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-ovg_bold.json": [
+        "sub-01/func/sub-01_task-ovg_acq-highres_bold.nii.gz",
+        "sub-01/func/sub-01_task-ovg_acq-lowres_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-rest_bold.json": [
+        "sub-01/func/sub-01_task-rest_acq-highres_bold.nii.gz",
+        "sub-01/func/sub-01_task-rest_acq-lowres_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-ovg_acq-highres_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_bold.json",
+            "sub-01/func/sub-01_acq-highres_bold.json",
+            "sub-01/func/sub-01_task-ovg_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-ovg_acq-lowres_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_bold.json",
+            "sub-01/func/sub-01_acq-lowres_bold.json",
+            "sub-01/func/sub-01_task-ovg_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-rest_acq-highres_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_bold.json",
+            "sub-01/func/sub-01_acq-highres_bold.json",
+            "sub-01/func/sub-01_task-rest_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-rest_acq-lowres_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_bold.json",
+            "sub-01/func/sub-01_acq-lowres_bold.json",
+            "sub-01/func/sub-01_task-rest_bold.json"
+        ]
+    }
+}
