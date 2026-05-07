@@ -1,0 +1,16 @@
+{
+  "filename": {
+    "Description": "Name of the nifti file"
+  },
+  "acq_time": {
+    "LongName": "Acquisition time",
+    "Description": "Acquisition time of the particular scan"
+  },
+  "operator": {
+    "Description": "Name of the operator"
+  },
+  "randstr": {
+    "LongName": "Random string",
+    "Description": "md5 hash of UIDs"
+  }
+}
