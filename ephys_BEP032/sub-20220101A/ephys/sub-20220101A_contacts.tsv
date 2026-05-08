@@ -1,0 +1,3 @@
+contact_id	probe_id	x	y	z	physical_unit	impedance	impedance_unit	contact_size	contact_shape	material	location	pipette_solution	internal_pipette_diameter	external_pipette_diameter
+con-01	probe-0234	0	0	0	um	5	GOhm	3	circular	glass	cortical layer 3	5% NaCl	2	4
+con-02	probe-0235	0	0	0	um	6.9	GOhm	4	circular	glass	cortical layer 3	5% NaCl	2	4
