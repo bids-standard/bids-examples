@@ -1,0 +1,33 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "hand": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    },
+    "site": {
+        "Description": "Site of the testing"
+    },
+    "subproject": {
+        "Description": "Subproject of the participant"
+    },
+    "project": {
+        "Description": "Project of the participant"
+    }
+}
