@@ -1,0 +1,12 @@
+{
+    "SurfaceArea": {
+        "Description": "Surface area of an electrode contact (float or n/a).", 
+        "Unit": "mm^2"
+    }, 
+    "Manufacturer": {
+        "Description": "Manufacturer of an EMG electrode."
+    },
+    "ManufacturersModelName": {
+        "Description": "Model name of an EMG electrode."
+    }
+}

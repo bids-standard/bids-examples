@@ -1,0 +1,34 @@
+{	
+	"EMGType": "invasive",
+	"EMGPlacementScheme": "Other",
+	"EMGPlacementSchemeDescription":"The needle was inserted (perpendicular to the skin) into the proximal part of the left abductor digiti minimi targeting an depth of 1 cm. ",
+	"ElectrodeType": "Concentric needle",
+	"ElectrodeSurfaceArea": 0.07,
+	"ElectrodeMaterial": "Silver",
+	"InsulatorMaterial": "Epoxy",
+	"CannulaMaterial": "Stainless steel",
+	"CannulaDiameter": "26G",
+	"CannulaLength": 30,
+	"SeterilizationMethod": "E-beam",
+	"ElectrodeManufacturer": "Electrode Manufacturer",
+	"ElectrodeManufacturersModelName": "Model Name",
+	"EMGReference":"bipolar",
+	"EMGGround":"n/a",
+	"EMGChannelCount": 1,
+    "EMGElectrodeCount": 2,
+	"PowerLineFrequency": 50,
+	"Manufacturer":"Amplifier manufacurer",
+	"ManufacturersModelName":"Amplifier model",
+	"RecordingType": "continuous",
+	"RecordingDuration": 60.00,
+	"SamplingFrequency": 30000,
+	"SoftwareFilters":{
+		"Bandpass": {
+			"high_pass": 100,
+			"low_pass": 3000
+		}
+	},
+	"TaskDescription":"Patients were instructed to relax for 5 minutes before each recording and during the recording itself. Each recording lasted 1 minute and every 8 seconds the examiner slightly moved the needle to trigger myotonic activity. ",
+	"TaskName":"psaExamination",
+	"TriggerChannelCount":0
+}

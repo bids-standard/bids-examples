@@ -1,0 +1,12 @@
+{
+    "left-forearm": {
+        "EMGCoordinateSystem": "Other",
+        "EMGCoordinateSystemDescription": "X: USP → RSP; Y: Right-hand rule (limits: Olecranon Process → Cubital Fossa); Z: midpoint RSP-USP → LHE; Radial Styloid Process (RSP); Ulnar Styloid Process (USP), Lateral Humerus Epicondyle (LHE), Posterior Elbow (Olecranon Process)",
+        "EMGCoordinateSystemUnits": "percent"
+    },
+    "right-forearm": {
+        "EMGCoordinateSystem": "Other",
+        "EMGCoordinateSystemDescription": "X: RSP → USP; Y: Right-hand rule (limits: Olecranon Process → Cubital Fossa); Z: midpoint RSP-USP → LHE; Radial Styloid Process (RSP); Ulnar Styloid Process (USP), Lateral Humerus Epicondyle (LHE), Posterior Elbow (Olecranon Process)",
+        "EMGCoordinateSystemUnits": "percent"
+    }
+}

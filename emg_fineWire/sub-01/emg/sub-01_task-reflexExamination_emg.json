@@ -1,0 +1,36 @@
+{
+	"EMGType": "invasive",
+	"EMGPlacementScheme": "Other",
+	"EMGPlacementSchemeDescription":"The fine-wires were inserted (perpendicular to the skin) into the right tibialis anterior as pairs using a cannulae to a target depth of 2 cm. After the insertion, the bipolar EMG was visually inspected and if needed the electrode position was adjusted through light needle moovement. Afterwards, the cannula was removed leaving only the fine wires within the muscle.",
+	"ElectrodeType": "Fine wire",
+	"ElectrodeSurfaceArea": 1.0367,
+	"ElectrodeDiameter": 0.11,
+	"ElectrodeTipLength": 3,
+	"InterelectrodeDistance": 0.5,
+	"ElectrodeMaterial": "Stainless steel / Silver",
+	"InsulatorMaterial": "Polytetrafluoroethylene",
+	"CannulaDiameter": "25G",
+	"CannulaLength": 30,
+	"CannulaMaterial": "Stainless steel",
+	"SeterilizationMethod": "Ethylene oxide",
+	"ElectrodeManufacturer": "Electrode Manufacturer",
+	"ElectrodeManufacturersModelName": "Model Name",
+	"EMGReference":"bipolar",
+	"EMGChannelCount": 1,
+    "EMGElectrodeCount": 2,
+	"PowerLineFrequency": 50,
+	"Manufacturer":"Amplifier manufacurer",
+	"ManufacturersModelName":"Amplifier model",
+	"RecordingType": "continuous",
+	"RecordingDuration": 60.00,
+	"SamplingFrequency": 10240,
+	"SoftwareFilters":{
+		"Bandpass": {
+			"high_pass": 10,
+			"low_pass": 4400
+		}
+	},
+	"TaskDescription":"Subjects performed sustained (300 seconds) isometric contraction at 10 % MVC with superimposed electrically-evoked H-reflexes (every 2 seconds).",
+	"TaskName":"reflexExamination",
+	"TriggerChannelCount":0
+}

@@ -1,0 +1,8 @@
+{
+    "EMGCoordinateSystem": "Other",
+    "EMGCoordinateUnits": "mm",
+    "EMGCoordinateSystemDescription": "The location of the electrodes with respect to electrode sixty-five (65) is given in millimeters. The x-axis is left to right, the y-axis is bottom to top. Note: the z-axis is not used.",
+    "ParentCoordinateSystem": "thigh",
+    "AnchorElectrode": "E70",
+    "AnchorCoordinates": [80, 100, 50]
+}

@@ -1,0 +1,17 @@
+{
+  "Name": "EMG Concurrent Independent Units Example",
+  "License": "BSD 3-Clause",
+  "Authors": ["BEP042", "Contributors"],
+  "ReferencesAndLinks": ["https://github.com/bids-standard/bids-specification/issues/1371",
+                          "https://github.com/bids-standard/bids-specification/pull/1998"],
+  "EthicsApprovals": ["Datasets are de-identified hypotheticals and do not require ethics approval."],
+  "BIDSVersion": "1.10.1",
+  "HEDVersion": "8.3.0",
+  "DatasetType": "raw",
+  "SourceDatasets": [{"URL": "n/a"}],
+  "Acknowledgements": "We thank the participants and their families for their time and effort. We also thank the NeuroScience Gateway team for providing computational resources.",
+  "GeneratedBy":[ {
+    "Name": "bids-matlab-tools",
+    "Version": "9.1"
+  }]
+}
