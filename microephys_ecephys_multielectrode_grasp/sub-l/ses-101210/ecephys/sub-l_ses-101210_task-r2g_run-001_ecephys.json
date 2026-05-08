@@ -1,0 +1,128 @@
+{
+  "InstitutionName": "Institut de Neuroscience de la Timone, Marseille, France",
+  "InstitutionAddress": "Faculté de Médecine,  27, boulevard Jean Moulin, 13005 Marseille, France",
+  "InstitutionalDepartmentName": "UMR 7289, CNRS - Aix Marseille Université",
+  "EthicsApprovals": ["C2EA 71 (local ethical committee)", "A1/10/12 (authorization)"],
+  "Collaborators": [
+    "Institute of Neuroscience and Medicine (INM-6), 52425 Jülich, Germany",
+    "Institute for Advanced Simulation (IAS-6), 52425 Jülich, Germany",
+    "JARA Institute Brain Structure-Function Relationships (INM-10), 52425 Jülich, Germany"
+  ],
+"TaskName": "r2g",
+"TaskDescription": "Reach to grasp: A task that involves the reaching of an object and holding it for a specific time",
+"TaskType": "Two Cue Task",
+"SampleEnvironment": "in vivo",
+"BodyPart": "brain",
+"BodyPartDetails": "Primary Motor Cortex (M1)",
+"PowerLineFrequency": 50.0,
+"Manufacturer": "Blackrock Microsystems",
+"ManufacturersModelName": "Cerebus",
+"ManufacturersModelVersion": "NSP",
+"RecordingSetupName": "Cerebus Data Acquisition System",
+"DeviceSerialNumber": "1025-0503",
+"SoftwareName": "CentralSuite",
+"SoftwareVersions": "n/a",
+"Location": "Inst. de Neurosciences de la Timone (INT), UMR 7289, CNRS - Aix Marseille Univ., Marseille, France",
+"SamplingFrequency": 30000.0,
+"RecordingDuration": 709.248,
+"RecordingType": "continuous",
+"HardwareFilters": "n/a",
+"Creator": "Thomas Brochier",
+"Maintainer": "Thomas Brochier",
+"SoftwareFilters": {
+    "Butterworth": {
+      "HighPassFrequency": 0.3,
+      "LowPassFrequency": 7500,
+      "HighPassOrder": 1,
+      "LowPassOrder": 3
+    }
+  },
+"PowerLineFrequencyUnit": "Hz",
+"ChannelId": {
+  "Description": "Unique identifier of the channel"
+},
+"ContactId": {
+  "Description": "Unique identifier of the contact"
+},
+"Units": {
+  "Description": "Units of the recording signal"
+},
+"ChannelName": {
+  "Description": "Custom name of the recording channel"
+},
+"FileOrigin": {
+  "Description": "Source file of the signal"
+},
+"ConnectorId": {
+  "Description": "Id of the connector used for recording the signal"
+},
+"ConnectorPinId": {
+  "Description": "Pin used for recording the signal"
+},
+"NevDigFactor": {
+  "Description": "Digitization factor of the nev file"
+},
+"NbSortedUnits": {
+  "Description": "Number of sorted units on this channel"
+},
+"NevHiFreqOrder": {
+  "Description": "High pass order of the frequency filter"
+},
+"NevHiFreqType": {
+  "Description": "Type of the high pass frequency filter"
+},
+"NevLoFreqOrder": {
+  "Description": "Low pass order of the frequency filter"
+},
+"NevLoFreqType": {
+  "Description": "Type of the high pass frequency filter"
+},
+"NsxHiFreqOrder": {
+  "Description": "Order of the high pass frequency filter"
+},
+"NsxLoFreqOrder": {
+  "Description": "Order of the low pass frequency filter"
+},
+"NsxHiFreqType": {
+  "Description": "Type of the high pass frequency filter"
+},
+"NsxLoFreqType": {
+  "Description": "Type of the low pass frequency filter"
+},
+"Nsx": {
+  "Description": "NsX value used for storing of the signal"
+},
+"HiPassFreq": {
+  "Description": "Cutoff frequency of the high pass filter"
+},
+"LoPassFreq": {
+  "Description": "Cutoff frequency of the low pass filter"
+},
+"HiPassOrder": {
+  "Description": "Order of the high pass filter"
+},
+"LoPassOrder": {
+  "Description": "Order of the low pass filter"
+},
+"FilterType": {
+  "Description": "Type of filter used"
+},
+"ElectrodeRejectLfc": {
+  "Description": "Rejection of the signal in low frequency components (TRUE/FALSE)"
+},
+"ElectrodeRejectIfc": {
+  "Description": "Rejection of the signal in intermediate frequency components (TRUE/FALSE)"
+},
+"ElectrodeRejectHfc": {
+  "Description": "Rejection of the signal in high frequency components (TRUE/FALSE)"
+},
+"ConnectorAlignedId": {
+  "Description": "channelId in a spatially organized grid"
+},
+"CoordinatesX": {
+  "Description": "X-coordinate of the channel"
+},
+"CoordinatesY": {
+  "Description": "Y-coordinate of the channel"
+}
+}

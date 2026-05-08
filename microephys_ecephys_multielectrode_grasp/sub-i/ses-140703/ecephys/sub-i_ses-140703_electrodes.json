@@ -1,0 +1,46 @@
+{
+  "electrode_id": {
+    "description": "Identifier for the electrode. Corresponds to the electrode number on the probe."
+  },
+  "probe_id": {
+    "description": "Identifier for the probe to which the electrode belongs.",
+    "levels": {
+      "UtahArray-8596-001139": "Utah Array with serial number 8596-001139"
+    }
+  },
+  "material": {
+    "description": "Material of the electrode contact.",
+    "levels": {
+      "iridium oxide": "Iridium oxide (recording electrodes)",
+      "Pt/Au": "Platinum/Gold (reference wires)"
+    }
+  },
+  "location": {
+    "description": "Anatomical location of the electrode, often referring to a specific brain area.",
+    "levels": {
+      "M1": "Primary Motor Cortex"
+    }
+  },
+  "hemisphere": {
+    "description": "Hemisphere in which the electrode is located.",
+    "levels": {
+      "right": "Right hemisphere",
+      "left": "Left hemisphere"
+    }
+  },
+  "connector_aligned_id": {
+    "description": "Identifier for the aligned connector pin associated with this electrode."
+  },
+  "impedance_unit": {
+    "description": "Unit of impedance measurement.",
+    "levels": {
+      "kOhm": "Kiloohm"
+    }
+  },
+  "insulation": {
+    "description": "Type of insulation material used for the electrode.",
+    "levels": {
+      "Parylene-c": "Parylene-c"
+    }
+  }
+}
