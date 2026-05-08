@@ -1,0 +1,9 @@
+{
+  "Sources": [
+    "bids:raw:sub-01/anat/sub-01_echo-01_part-mag_MEGRE.nii.gz",
+    "bids:raw:sub-01/anat/sub-01_echo-01_part-phase_MEGRE.nii.gz",
+    "bids:raw:sub-01/anat/sub-01_echo-02_part-mag_MEGRE.nii.gz",
+    "bids:raw:sub-01/anat/sub-01_echo-02_part-phase_MEGRE.nii.gz"
+  ],
+  "MagneticFieldStrength": 3
+}
