@@ -1,0 +1,109 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "EVENTS_TSV_MISSING",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "rule": "rules.checks.events.EventsMissing"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.emg.EMGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.emg.EMGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ElectrodeManufacturer",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "issueMessage": "Field description: Can be used if all electrodes are of the same manufacturer\n(for example, `\"AD-TECH\"`, `\"DIXI\"`).\nIf electrodes of different manufacturers are used,\nplease use the corresponding table in the `_electrodes.tsv` file.\n",
+        "rule": "rules.sidecars.emg.EMGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ElectrodeManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "issueMessage": "Field description: If different electrode types are used,\nplease use the corresponding table in the `_electrodes.tsv` file.\n",
+        "rule": "rules.sidecars.emg.EMGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.emg.EMGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.emg.EMGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.emg.EMGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-grasping_emg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.emg.EMGInstitutionInformation"
+      }
+    ],
+    "codeMessages": {
+      "EVENTS_TSV_MISSING": "Task scans should have a corresponding 'events.tsv' file.\nIf this is a resting state scan you can ignore this warning or rename the task to include the word \"rest\".\n",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "01"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "01",
+        "age": 32,
+        "sex": "M",
+        "group": "control"
+      }
+    ],
+    "tasks": [
+      "grasping"
+    ],
+    "modalities": [
+      "emg"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 7,
+    "size": 29209,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "emg"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

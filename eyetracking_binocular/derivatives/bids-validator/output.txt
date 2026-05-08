@@ -1,0 +1,84 @@
+	[33m[WARNING] UNKNOWN_BIDS_VERSION The BIDSVersion field of 'dataset_description.json' does not match a known release.
+The BIDS Schema used for validation may be out of date.[39m
+		/dataset_description.json
+
+[36m	Please visit https://neurostars.org/search?q=UNKNOWN_BIDS_VERSION for existing conversations about this issue.[39m
+
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] TSV_ADDITIONAL_COLUMNS_UNDEFINED A TSV file has extra columns which are not defined in its associated JSON sidecar[39m
+		/participants.tsv
+
+[36m	Please visit https://neurostars.org/search?q=TSV_ADDITIONAL_COLUMNS_UNDEFINED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mInstructions[39m
+		/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv - Field description: Text of the instructions given to participants before the recording.
+		/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv - Field description: Text of the instructions given to participants before the recording.
+
+		[33mTaskDescription[39m
+		/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv - Field description: Longer description of the task.
+		/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv - Field description: Longer description of the task.
+
+		[33mCogAtlasID[39m
+		/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+		/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+
+		[33mCogPOID[39m
+		/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+		/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		[33mTaskName[39m
+		/sub-01/beh/sub-01_task-FreeView_run-01_recording-eye1_physio.tsv.gz - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this [36m"TaskName"[39m field
+by removing all non-alphanumeric or [36m+[39m characters (that is, all except those matching [36m[0-9a-zA-Z+][39m),
+and potentially replacing spaces with [36m+[39m to ease readability.
+For example [36m"TaskName"[39m [36m"faces n-back"[39m or [36m"head nodding"[39m could correspond to task labels
+[36mfaces+n+back[39m or [36mfacesnback[39m and [36mhead+nodding[39m or [36mheadnodding[39m, respectively.
+		/sub-01/beh/sub-01_task-FreeView_run-01_recording-eye1_physioevents.tsv.gz - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this [36m"TaskName"[39m field
+by removing all non-alphanumeric or [36m+[39m characters (that is, all except those matching [36m[0-9a-zA-Z+][39m),
+and potentially replacing spaces with [36m+[39m to ease readability.
+For example [36m"TaskName"[39m [36m"faces n-back"[39m or [36m"head nodding"[39m could correspond to task labels
+[36mfaces+n+back[39m or [36mfacesnback[39m and [36mhead+nodding[39m or [36mheadnodding[39m, respectively.
+
+		6 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.[39m
+		[33monset[39m
+		/task-FreeView_events.json - Format "string" must be number
+		/task-FreeView_events.json - Format "string" must be number
+
+		[33mduration[39m
+		/task-FreeView_events.json - Format "string" must be number
+		/task-FreeView_events.json - Format "string" must be number
+
+[36m	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          21 Files, 7.56 kB                FreeView                beh                  
+          1 - Subjects 1 - Sessions                                                     
+

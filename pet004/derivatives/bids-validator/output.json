@@ -1,0 +1,330 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerRadLex",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the RadLex Ontology.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerSNOMED",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the SNOMED Ontology\n(subclass of Radioactive isotope).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeight",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Injected mass per kilogram bodyweight.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeightUnits",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Unit format of the injected mass per kilogram bodyweight\n(for example, `\"ug/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SpecificRadioactivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Time to which specific radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Purity",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Purity of the radiolabeled compound (between 0 and 100%).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseUnits",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectionEnd",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Time of end of injection with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETTime"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReconMethodImplementationVersion",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Identification for the software used, such as name and version.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "AttenuationCorrectionMethodReference",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Reference paper for the attenuation correction method used.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ScaleFactor",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Scale factor for each frame. This field MUST be defined if the imaging data (`.nii[.gz]`) are scaled.\nIf this field is not defined, then it is assumed that the scaling factor is 1. Defining this field\nwhen the scaling factor is 1 is RECOMMENDED, for the sake of clarity.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ScatterFraction",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Scatter fraction for each frame (Units: 0-100%).\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DecayCorrectionFactor",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Decay correction factor for each frame.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DoseCalibrationFactor",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Multiplication factor used to transform raw data (in counts/sec) to meaningful unit (Bq/ml).\nCorresponds to [DICOM Tag 0054, 1322](http://www.dicomlookup.com/dicomtags/(0054,1322))\n`Dose Calibration Factor`.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PromptRate",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Prompt rate for each frame (same units as `Units`, for example, `\"Bq/mL\"`).\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SinglesRate",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Singles rate for each frame (same units as `Units`, for example, `\"Bq/mL\"`).\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RandomRate",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_pet.nii.gz",
+        "issueMessage": "Field description: Random rate for each frame (same units as `\"Units\"`, for example, `\"Bq/mL\"`).\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "WithdrawalRate",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-autosampler_blood.tsv",
+        "issueMessage": "Field description: The rate at which the blood was withdrawn from the subject.\nThe unit of the specified withdrawal rate should be in `\"mL/s\"`.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TubingType",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-autosampler_blood.tsv",
+        "issueMessage": "Field description: Description of the type of tubing used, ideally including the material and\n(internal) diameter.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TubingLength",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-autosampler_blood.tsv",
+        "issueMessage": "Field description: The length of the blood tubing, from the subject to the detector in meters.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DispersionConstant",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-autosampler_blood.tsv",
+        "issueMessage": "Field description: External dispersion time constant resulting from tubing in default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Haematocrit",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-autosampler_blood.tsv",
+        "issueMessage": "Field description: Measured haematocrit, meaning the volume of erythrocytes divided by the\nvolume of whole blood.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "BloodDensity",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-autosampler_blood.tsv",
+        "issueMessage": "Field description: Measured blood density. Unit of blood density should be in `\"g/mL\"`.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "WithdrawalRate",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-manual_blood.tsv",
+        "issueMessage": "Field description: The rate at which the blood was withdrawn from the subject.\nThe unit of the specified withdrawal rate should be in `\"mL/s\"`.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TubingType",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-manual_blood.tsv",
+        "issueMessage": "Field description: Description of the type of tubing used, ideally including the material and\n(internal) diameter.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TubingLength",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-manual_blood.tsv",
+        "issueMessage": "Field description: The length of the blood tubing, from the subject to the detector in meters.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DispersionConstant",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-manual_blood.tsv",
+        "issueMessage": "Field description: External dispersion time constant resulting from tubing in default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Haematocrit",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-manual_blood.tsv",
+        "issueMessage": "Field description: Measured haematocrit, meaning the volume of erythrocytes divided by the\nvolume of whole blood.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "BloodDensity",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-manual_blood.tsv",
+        "issueMessage": "Field description: Measured blood density. Unit of blood density should be in `\"g/mL\"`.\n",
+        "rule": "rules.sidecars.pet.BloodRecording"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PlasmaFreeFraction",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-manual_blood.tsv",
+        "issueMessage": "Field description: Measured free fraction in plasma, meaning the concentration of free compound\nin plasma divided by total concentration of compound in plasma\n(Units: 0-100%).\n",
+        "rule": "rules.sidecars.pet.BloodPlasmaFreeFraction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PlasmaFreeFractionMethod",
+        "severity": "warning",
+        "location": "/sub-01/pet/sub-01_recording-manual_blood.tsv",
+        "issueMessage": "Field description: Method used to estimate free fraction.\n",
+        "rule": "rules.sidecars.pet.BloodPlasmaFreeFraction"
+      }
+    ],
+    "codeMessages": {
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "01"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "01"
+      }
+    ],
+    "tasks": [],
+    "modalities": [
+      "PET"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 10,
+    "size": 33799,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "pet"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

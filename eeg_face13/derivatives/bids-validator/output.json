@@ -1,0 +1,1844 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-001/eeg/sub-001_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-004/eeg/sub-004_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-005/eeg/sub-005_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-006/eeg/sub-006_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-007/eeg/sub-007_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-008/eeg/sub-008_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-009/eeg/sub-009_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinates",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized position of anatomical\nlandmarks, interpreted following the `\"FiducialsCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`).\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the fiducials.\nPreferably the same as the `\"EEGCoordinateSystem\"`.\nSee the\n[Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"FiducialsCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_coordsystem.json",
+        "issueMessage": "Field description: Units in which the coordinates that are  listed in the field\n`\"FiducialsCoordinateSystem\"` are represented.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "FiducialsCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemFiducials"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinates",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_coordsystem.json",
+        "issueMessage": "Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,\ninterpreted following the `\"AnatomicalLandmarkCoordinateSystem\"`\n(for example, `{\"NAS\": [12.7,21.3,13.9], \"LPA\": [5.2,11.3,9.6],\n\"RPA\": [20.2,11.3,9.1]}`.\nEach array MUST contain three numeric values corresponding to x, y, and z\naxis of the coordinate system in that exact order.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystem",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_coordsystem.json",
+        "issueMessage": "Field description: Defines the coordinate system for the anatomical landmarks.\nSee the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)\nfor a list of restricted keywords for coordinate systems.\nIf `\"Other\"`, provide definition of the coordinate system in\n`\"AnatomicalLandmarkCoordinateSystemDescription\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateUnits",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_coordsystem.json",
+        "issueMessage": "Field description: Units of the coordinates of `\"AnatomicalLandmarkCoordinateSystem\"`.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmark"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "AnatomicalLandmarkCoordinateSystemDescription",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_coordsystem.json",
+        "issueMessage": "Field description: Free-form text description of the coordinate system.\nMay also include a link to a documentation page or paper describing the\nsystem in greater detail.\n",
+        "rule": "rules.json.eeg.EEGCoordsystemLandmarkDescriptionRec"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-010/eeg/sub-010_task-faceFO_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      }
+    ],
+    "codeMessages": {
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "EMPTY_FILE": "Empty files not allowed.",
+      "EOG_CHANNEL_COUNT_MISMATCH": "The EOGChannelCount metadata does not match the number of channels\nwith type EOG in the associated channels.tsv file.\n",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended.",
+      "TSV_ADDITIONAL_COLUMNS_UNDEFINED": "A TSV file has extra columns which are not defined in its associated JSON sidecar",
+      "MISC_CHANNEL_COUNT_MISMATCH": "The MiscChannelCount metadata does not match the number of channels\nwith type MISC in the associated channels.tsv file.\n"
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "001"
+      },
+      {
+        "participantId": "002"
+      },
+      {
+        "participantId": "003"
+      },
+      {
+        "participantId": "004"
+      },
+      {
+        "participantId": "005"
+      },
+      {
+        "participantId": "006"
+      },
+      {
+        "participantId": "007"
+      },
+      {
+        "participantId": "008"
+      },
+      {
+        "participantId": "009"
+      },
+      {
+        "participantId": "010"
+      }
+    ],
+    "tasks": [
+      "faceFO"
+    ],
+    "modalities": [
+      "EEG"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 63,
+    "size": 280429,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "eeg"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}
