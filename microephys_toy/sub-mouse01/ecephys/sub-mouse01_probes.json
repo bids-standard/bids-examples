@@ -1,0 +1,14 @@
+{
+  "model": {
+    "Levels": {
+      "A1x32-Poly3-10mm-50-177": {
+        "Description": "NeuroNexus A1x32-Poly3-10mm-50-177, a 1-shank 32-channel polytrode probe with contacts arranged in a Poly3 configuration",
+        "TermURL": "https://raw.githubusercontent.com/SpikeInterface/probeinterface_library/refs/heads/main/neuronexus/A1x32-Poly3-10mm-50-177/A1x32-Poly3-10mm-50-177.json"
+      },
+      "customprobe1": {
+        "Description": "Custom experimental 16-channel linear silicon probe designed for hippocampal recordings",
+        "TermURL": "bids::probes/customprobe1.json"
+      }
+    }
+  }
+}
