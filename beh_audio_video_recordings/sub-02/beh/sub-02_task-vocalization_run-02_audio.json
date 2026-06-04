@@ -3,9 +3,9 @@
   "TaskDescription": "Participant producing various vocalizations including vowels, consonants, and humming",
   "Device": "Blue Yeti Microphone",
   "DeviceSerialNumber": "YETI-987654",
-  "AudioChannelCount": 2,
+  "RecordingDuration": 180.0,
+  "AudioCodec": "flac",
   "AudioSampleRate": 48000,
-  "AudioBitDepth": 24,
-  "Duration": 180.0,
-  "RunDescription": "Second run of vocalization task"
+  "AudioChannelCount": 2,
+  "AudioBitDepth": 24
 }

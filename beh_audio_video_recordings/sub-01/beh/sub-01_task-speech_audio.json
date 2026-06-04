@@ -3,8 +3,9 @@
   "TaskDescription": "Participant was asked to describe a picture for 2 minutes",
   "Device": "Zoom H6 Handy Recorder",
   "DeviceSerialNumber": "H6-123456",
-  "AudioChannelCount": 2,
+  "RecordingDuration": 120.5,
+  "AudioCodec": "pcm_s16le",
   "AudioSampleRate": 44100,
-  "AudioBitDepth": 16,
-  "Duration": 120.5
+  "AudioChannelCount": 2,
+  "AudioBitDepth": 16
 }

@@ -1,7 +1,8 @@
 {
   "Device": "Canon EOS R5",
   "DeviceSerialNumber": "EOSR5-234567",
-  "Height": 3000,
-  "Width": 4000,
+  "ImageWidth": 4000,
+  "ImageHeight": 3000,
+  "ImageBitDepth": 8,
   "PhotoDescription": "Stimulus image shown to participant during speech task"
 }

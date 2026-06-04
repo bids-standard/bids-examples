@@ -1,7 +1,8 @@
 {
   "Device": "Canon EOS R5",
   "DeviceSerialNumber": "EOSR5-345678",
-  "Height": 3000,
-  "Width": 4000,
-  "Description": "Setup verification photo showing participant position and display arrangement"
+  "ImageWidth": 4000,
+  "ImageHeight": 3000,
+  "ImageBitDepth": 8,
+  "PhotoDescription": "Setup verification photo showing participant position and display arrangement"
 }

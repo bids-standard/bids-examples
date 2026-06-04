@@ -2,7 +2,12 @@
 
 This dataset provides a minimal example of behavioral **audio**, **video**, **audiovideo**, and **image** recordings stored in the `beh/` directory.
 
-It is intended to accompany the proposal to add audio/video recordings to behavioral experiments (see [bids-specification PR #2231](https://github.com/bids-standard/bids-specification/pull/2231)).
+It is intended to accompany the proposal to add audio/video recordings to behavioral experiments, and uses the common media file definitions shared across BEPs:
+
+- [bids-specification PR #2367](https://github.com/bids-standard/bids-specification/pull/2367) — common media file definitions for BEP044/BEP047 (canonical metadata such as `RecordingDuration`, `AudioCodec`, `VideoCodec`, `VideoFrameRate`, `VideoFrameCount`, `ImageWidth`, `ImageHeight`).
+- [bids-specification PR #2231](https://github.com/bids-standard/bids-specification/pull/2231) — BEP047 audio/video recordings in behavioral experiments (`beh/` file rules and entities).
+
+This dataset targets the merged combination of these two PRs. Following the common media definitions, the `video` suffix denotes **video-only** recordings (no audio); recordings carrying both streams use the `audiovideo` suffix.
 
 Note: media files are small placeholder files for example purposes. In a real dataset, these would be actual media files containing the recorded data.
 
@@ -29,13 +34,13 @@ This dataset contains behavioral audio and video recordings from 2 participants 
 4. **Photo format**: JPG still images
 5. **Multiple recording angles**: using the `recording` entity to distinguish simultaneous recordings
 6. **Multiple runs**: using the `run` entity for repeated tasks
-7. **Metadata**: JSON sidecar files with device information and audio/video/image technical specifications
+7. **Metadata**: JSON sidecar files using the common media definitions (`RecordingDuration`, `AudioCodec`/`AudioSampleRate`/`AudioChannelCount`, `VideoCodec`/`VideoFrameRate`/`VideoFrameCount`, `ImageWidth`/`ImageHeight`/`ImagePixelFormat`) alongside behavioral fields (`Device`, `CameraPosition`)
 8. **Events files**: annotations for the speech/vocalization tasks with timing information
 9. **Timing alignment**: `scans.tsv` files for synchronization across recordings
 
 ## Validation
 
-When validated with a schema that includes the PR #2231 rules, this dataset should produce no errors (warnings for recommended metadata keys may remain).
+When validated with a schema that includes the merged PR #2367 + PR #2231 rules, this dataset should produce no errors (warnings for recommended metadata keys may remain).
 
 To test:
 
@@ -46,10 +51,12 @@ To test:
     cd bids-specification
     ```
 
-2. Check out the branch that includes the audio/video recording proposal (until merged):
+2. Check out the branch that includes the merged audio/video recording proposal (until merged upstream):
 
     ```bash
-    git checkout audio-video-clean
+    git remote add bendichter https://github.com/bendichter/bids-specification.git
+    git fetch bendichter mediafiles-bep047
+    git checkout mediafiles-bep047
     ```
 
 3. Install the BIDS Validator (if not already installed):
