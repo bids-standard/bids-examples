@@ -1,0 +1,7 @@
+{
+    "MicroephysCoordinateSystem": "AllenCCFv3",
+    "MicroephysCoordinateUnits": "um",
+    "MicroephysCoordinateSystemDescription": "Allen Mouse Brain Common Coordinate Framework version 3. The origin is at the anterior commissure. X is anterior-posterior (anterior positive), Y is inferior-superior (superior positive), Z is left-right (right positive). Coordinates are in micrometers.",
+    "MicroephysCoordinateProcessingDescription": "Electrode positions were registered to the Allen CCF using anatomical landmarks and histological verification.",
+    "MicroephysCoordinateProcessingReference": "https://doi.org/10.1016/j.cell.2020.04.007"
+}
