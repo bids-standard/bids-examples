@@ -28,7 +28,7 @@ jobs:
       spec_pr: ${{ steps.find-pr.outputs.spec_pr }}
       val_pr: ${{ steps.find-pr.outputs.val_pr }}
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
       with:
         fetch-depth: 0  # Get full history for commit message scanning
 
@@ -72,7 +72,7 @@ jobs:
       FORCE_COLOR: 1
 
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
 
     - uses: denoland/setup-deno@v2
       with:
