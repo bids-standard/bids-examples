@@ -5,8 +5,8 @@ This dataset contains imaging data and phenotypic data from one subject, only im
 ```ascii
 📦pheno004
  ┣ 📂phenotype
- ┃ ┣ 📜ace.json
- ┃ ┗ 📜ace.tsv
+ ┃ ┣ 📜tool-ACE_phenotype.json
+ ┃ ┗ 📜tool-ACE_phenotype.tsv
  ┣ 📂sub-01
  ┃ ┗ 📂anat
  ┃ ┃ ┣ 📜sub-01_T1w.json

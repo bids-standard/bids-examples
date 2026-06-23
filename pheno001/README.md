@@ -8,8 +8,8 @@ pheno001
 |-- participants.json
 |-- participants.tsv
 |-- phenotype
-|   |-- ace.json
-|   `-- ace.tsv
+|   |-- tool-ACE_phenotype.json
+|   `-- tool-ACE_phenotype.tsv
 |-- sub-01
 |   `-- anat
 |       |-- sub-01_T1w.json
@@ -21,5 +21,3 @@ pheno001
 
 6 directories, 9 files
 ```
-
-**NOTE**: There is no sessions file in this dataset since both phenotype and imaging data were collected at the same single session.
