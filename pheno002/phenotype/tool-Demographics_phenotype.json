@@ -1,4 +1,8 @@
 {
+	"IndexColumns": [
+		"participant_id",
+		"session_id"
+	],
 	"participant_id": {
 		"Description": "Unique participant identifier."
 	},

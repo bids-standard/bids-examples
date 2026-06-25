@@ -7,11 +7,11 @@ pheno003
 |-- README.md
 |-- participants.json
 |-- participants.tsv
-|-- sessions.json
-|-- sessions.tsv
 |-- phenotype
-|   |-- ace.json
-|   `-- ace.tsv
+|   |-- tool-ACE_phenotype.json
+|   |-- tool-ACE_phenotype.tsv
+|   |-- tool-Demographics_phenotype.json
+|   `-- tool-Demographics_phenotype.tsv
 |-- sub-01
 |   `-- ses-baseline
 |       `-- anat
@@ -23,6 +23,6 @@ pheno003
             |-- sub-02_ses-baseline_T1w.json
             `-- sub-02_ses-baseline_T1w.nii.gz
 
-8 directories, 9 files
+8 directories, 11 files
 
 ```

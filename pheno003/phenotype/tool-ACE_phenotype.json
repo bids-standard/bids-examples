@@ -1,4 +1,8 @@
 {
+	"IndexColumns": [
+		"participant_id",
+		"session_id"
+	],
   "MeasurementToolMetadata": {
     "Description": "Adverse Childhood Experience Questionnaire for Adults"
   },

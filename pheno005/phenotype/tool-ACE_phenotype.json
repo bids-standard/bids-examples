@@ -1,7 +1,12 @@
 {
-  "MeasurementToolMetadata": {
-    "Description": "Adverse Childhood Experience Questionnaire for Adults"
-  },
+	"IndexColumns": [
+		"participant_id",
+		"session_id",
+		"run_id"
+	],
+	"MeasurementToolMetadata": {
+		"Description": "Adverse Childhood Experience Questionnaire for Adults"
+	},
 	"participant_id": {
 		"Description": "OpenNeuro ID of the subject."
 	},
@@ -18,6 +23,9 @@
 			"run-01": "First run of the session.",
 			"run-02": "Second run of the session."
 		}
+	},
+	"acq_time": {
+		"Description": "Date and time of data acquisition in YYYY-MM-DD HH:MM:SS format."
 	},
 	"b_ace_q1": {
 		"LongName": "ACE_HUMILIATE_HURT (question ID 176435)",

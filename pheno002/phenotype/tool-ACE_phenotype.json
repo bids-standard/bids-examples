@@ -1,12 +1,19 @@
 {
+	"IndexColumns": [
+		"participant_id",
+		"session_id"
+	],
+  "MeasurementToolMetadata": {
+    "Description": "Adverse Childhood Experience Questionnaire for Adults"
+  },
   "participant_id": {
     "Description": "OpenNeuro ID of the subject."
   },
   "session_id": {
     "Description": "ID assigned to participant's visit.",
     "Levels": {
-      "baseline": "First in-person visit.",
-      "followup": "Second in-person visit."
+      "ses-01": "First phenotype assessment and imaging visit.",
+      "ses-02": "Second imaging only visit."
     }
   },
   "b_ace_q1": {

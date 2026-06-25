@@ -8,10 +8,10 @@ pheno005
 |-- participants.json
 |-- participants.tsv
 |-- phenotype
-|   |-- ace.json
-|   `-- ace.tsv
-|-- sessions.json
-|-- sessions.tsv
+|   |-- tool-ACE_phenotype.json
+|   |-- tool-ACE_phenotype.tsv
+|   |-- tool-Demographics_phenotype.json
+|   `-- tool-Demographics_phenotype.tsv
 |-- sub-01
 |   `-- ses-baseline
 |       `-- anat
