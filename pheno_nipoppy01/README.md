@@ -1,0 +1,3 @@
+## Sample BIDS dataset with async visits and sessions
+
+This is sample BIDS dataset create for BIDS pheno BEP testing. This includes two subjects with imaging (`anat`) and phenotypical tabular data. The data collection for imaging and phenotypic assessments is NOT in sync. Therefore the session dates (for a given subject) do not coincide for MRI and muttiple phenotypic assessments (i.e. MoCA and UPDRS3). 
