@@ -34,7 +34,7 @@ This dataset contains behavioral audio and video recordings from 2 participants 
 4. **Photo format**: JPG still images
 5. **Multiple recording angles**: using the `recording` entity to distinguish simultaneous recordings
 6. **Multiple runs**: using the `run` entity for repeated tasks
-7. **Metadata**: JSON sidecar files using the common media definitions (`RecordingDuration`, `AudioCodec`/`AudioSampleRate`/`AudioChannelCount`, `VideoCodec`/`VideoFrameRate`/`VideoFrameCount`, `ImageWidth`/`ImageHeight`/`ImagePixelFormat`) alongside behavioral fields (`Device`, `CameraPosition`)
+7. **Metadata**: JSON sidecar files using the common media definitions (`RecordingDuration`, `AudioCodec`/`AudioSampleRate`/`AudioChannelCount`, `VideoCodec`/`VideoFrameRate`/`VideoFrameCount`, `ImageWidth`/`ImageHeight`/`ImagePixelFormat`) alongside behavioral fields (`Device`, `DevicePosition`)
 8. **Events files**: annotations for the speech/vocalization tasks with timing information
 9. **Timing alignment**: `scans.tsv` files for synchronization across recordings
 
