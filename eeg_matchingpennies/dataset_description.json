@@ -1,6 +1,6 @@
 {
     "Name": "Matching Pennies",
-    "BIDSVersion": "1.8.0",
+    "BIDSVersion": "1.11.1",
     "License": "PDDL (https://opendatacommons.org/licenses/pddl/1-0/)",
     "Authors": [
         "Stefan Appelhoff",
@@ -14,5 +14,5 @@
     ],
     "DatasetDOI": "10.17605/OSF.IO/CJ2DR",
     "DatasetType": "raw",
-    "HEDVersion": ["8.3.0"]
+    "HEDVersion": ["8.4.0"]
 }

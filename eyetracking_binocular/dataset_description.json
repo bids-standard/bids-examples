@@ -1,0 +1,28 @@
+{
+    "Name": "natImSac",
+    "BIDSVersion": "1.10.0-dev",
+    "DatasetType": "raw",
+    "License": "CCBY4",
+    "Authors": [
+      "Martin Szinte",
+      "Guillaume Masson",
+      "Jason Samonds",
+      "Nicholas Priebe"
+    ],
+    "HowToAcknowledge": "Please cite this paper: https://doi.org/10.1523/ENEURO.0287-23.2023",
+    "Funding": [
+        "This research was funded by Agence Nationale de la Recherche ANR-20NEUC-0002 (G.S.M.) and National Institutes of Health NIH-R01NS120562 (N.J.P.), NIH-R01EY025102 (N.J.P.), and NIH-R01EY034092 (J.M.S.)."
+    ],
+    "GeneratedBy": [
+    {
+      "Name": "eye2bids",
+      "CodeURL": "https://github.com/bids-standard/eye2bids"
+    }
+  ],
+    "SourceDatasets": [
+      {
+        "URL": "https://github.com/mszinte/natImSac",
+        "Version": "October 2020"
+      }
+    ]
+  }

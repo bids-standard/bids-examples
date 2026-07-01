@@ -1,0 +1,24 @@
+{
+	"participant_id": {
+		"LongName": "patient idnetification",
+		"Description": "anonymized, BIDS compatible identification"
+			  },
+	"sex": {
+		"Levels": { 
+			"M" : "Male",
+			"F" : "Female"
+			  }
+		},
+	"age": {
+		"Description" : "Age of the subject at time of scan with 3 digits"
+		},
+    "GUID": {
+        "Description" : "Unique participant ID as set in the INT"
+    },
+    "eTIV": {
+    	"LongName": "EstimatedTotalIntraCranialVol",
+        "Description" : "Estimated total intracranial volume as measured with 'mri_segstats' function of Freesurfer (mri_segstats --subject subjid --etiv-only)",
+        "Units": "mm3"
+    }
+    
+}

@@ -1,0 +1,25 @@
+{
+    "Authors": [
+        "Unknown"
+    ],
+    "BIDSVersion": "1.11.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "bids-atlas",
+            "Version": "0.3.1",
+            "CodeURL": "https://github.com/PeerHerholz/bids_atlas"
+        },
+        {
+            "Name": "nilearn",
+            "CodeURL": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_destrieux_2009.html"
+        }
+    ],
+    "License": "FreeSurfer Software License (MGH - royalty-free, non-exclusive, requires registration)",
+    "Name": "Destrieux cortical deterministic atlas - 2009 version",
+    "SourceDatasets": [
+        {
+            "URL": "https://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation"
+        }
+    ]
+}

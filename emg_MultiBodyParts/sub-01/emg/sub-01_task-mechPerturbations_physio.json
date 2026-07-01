@@ -1,0 +1,13 @@
+{
+    "Columns": ["resp", "cardio"],
+    "StartTime": 0,
+    "SamplingFrequency": 50,
+    "resp": {
+        "Description": "Respiratory signal",
+        "Unit": "mV"
+    },
+    "cardio": {
+        "Description": "Cardiac signal",
+        "Unit": "mV"
+    }
+}
