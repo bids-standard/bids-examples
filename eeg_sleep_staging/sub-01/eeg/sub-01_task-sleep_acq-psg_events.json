@@ -1,5 +1,7 @@
 {
   "duration": {
+    "Description": "Duration of the annotation interval.",
+    "Units": "s",
     "HED": "Duration/# second"
   },
   "annotation_type": {
@@ -11,9 +13,9 @@
       "unscored": "The interval was intentionally left without a sleep-stage label."
     },
     "HED": {
-      "sleep_stage": "({duration}, (Data-feature, {sleep_stage}, {annotation_method}, {annotator_id}, {channel}, {confidence}))",
-      "movement_artifact": "({duration}, (Data-feature, sc:Movement-artifact, {annotation_method}, {annotator_id}, {channel}))",
-      "unscored": "({duration}, (Data-feature, sc:Property-not-possible-to-determine, {annotation_method}, {annotator_id}, {channel}))"
+      "sleep_stage": "({duration}, (Data-feature, {sleep_stage}, ({annotation_method}, {annotator_id}), (Parameter-label/channels, {channel}), {confidence}))",
+      "movement_artifact": "({duration}, (Data-feature, sc:Movement-artifact, ({annotation_method}, {annotator_id}), (Parameter-label/channels, {channel})))",
+      "unscored": "({duration}, (Data-feature, sc:Property-not-possible-to-determine, ({annotation_method}, {annotator_id}), (Parameter-label/channels, {channel})))"
     }
   },
   "sleep_stage": {
