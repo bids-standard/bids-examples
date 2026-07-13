@@ -1,0 +1,13 @@
+{
+  "TaskName": "sleep",
+  "TaskDescription": "Synthetic overnight polysomnography excerpt for sleep staging annotations.",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "EEGReference": "linked mastoids",
+  "EEGChannelCount": 2,
+  "EOGChannelCount": 2,
+  "EMGChannelCount": 1,
+  "RecordingDuration": 300,
+  "RecordingType": "continuous"
+}

@@ -4,6 +4,7 @@ eeg_rishikesh	Mind wandering experiment. EEG data in Biosemi (.bdf) format	[link
 eeg_face13	Deconstructing the early visual electrocortical response to face and house stimuli. EDF format		[@andesha](https://github.com/andesha)	eeg	channels, coordsystem, eeg, electrodes, events
 eeg_ds003645s_hed_demo	Shows usage of Hierarchical Event Descriptor (HED) in .tsv files	[link](https://openneuro.org/datasets/ds003645)	[@VisLab](https://github.com/VisLab)	anat, beh, eeg, micr, motion	KSSSleep, SPIM, beh, channels, coordsystem, defacemask, eeg, electrodes, events, motion, photo, samples, scans
 eeg_ds003645s_hed_library	HED annotation using HED library vocabularies (schema).	[link](https://openneuro.org/datasets/ds003645)	[@VisLab](https://github.com/VisLab)	eeg	channels, eeg, events
+eeg_sleep_staging	Parallel manual and automated sleep staging annotations with HED-SCORE		@viranovskaya	eeg	channels, eeg, events
 eeg_cbm	Rest EEG. European Data Format (.edf)		[@cpernet](https://github.com/cpernet)	eeg	channels, eeg, events, scans
 ieeg_filtered_speech	recordings of three seizures		[@choldgraf](https://github.com/choldgraf)	ieeg	channels, coordsystem, electrodes, events, ieeg, photo
 ieeg_motorMiller2007	Cue-based hand & tongue movement data		[@dorahermes](https://github.com/dorahermes)	ieeg	channels, coordsystem, electrodes, events, ieeg

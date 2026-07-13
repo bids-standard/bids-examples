@@ -1,0 +1,78 @@
+{
+  "duration": {
+    "HED": "Duration/# second"
+  },
+  "annotation_type": {
+    "LongName": "Type of annotation",
+    "Description": "Distinguishes sleep-stage labels from intervals that could not be staged.",
+    "Levels": {
+      "sleep_stage": "A sleep stage was assigned to this interval.",
+      "movement_artifact": "Movement prevented a manual sleep-stage label.",
+      "unscored": "The interval was intentionally left without a sleep-stage label."
+    },
+    "HED": {
+      "sleep_stage": "({duration}, (Data-feature, {sleep_stage}, {annotation_method}, {annotator_id}, {channel}, {confidence}))",
+      "movement_artifact": "({duration}, (Data-feature, sc:Movement-artifact, {annotation_method}, {annotator_id}, {channel}))",
+      "unscored": "({duration}, (Data-feature, sc:Property-not-possible-to-determine, {annotation_method}, {annotator_id}, {channel}))"
+    }
+  },
+  "sleep_stage": {
+    "LongName": "Normalized sleep stage",
+    "Description": "Five-stage label used for comparison across scoring systems. R&K stages S3 and S4 are both represented as n3.",
+    "Levels": {
+      "wake": "Wake",
+      "n1": "Non-REM stage N1",
+      "n2": "Non-REM stage N2",
+      "n3": "Non-REM stage N3",
+      "rem": "Rapid eye movement sleep"
+    },
+    "HED": {
+      "wake": "(Experiment-participant, Awake)",
+      "n1": "sc:Sleep-stage-N1",
+      "n2": "sc:Sleep-stage-N2",
+      "n3": "sc:Sleep-stage-N3",
+      "rem": "sc:Sleep-stage-REM"
+    }
+  },
+  "original_label": {
+    "LongName": "Original stage label",
+    "Description": "Label before normalization. It preserves distinctions such as R&K S3 versus S4."
+  },
+  "scoring_standard": {
+    "LongName": "Scoring standard or label set",
+    "Description": "Rules used to produce the original label.",
+    "Levels": {
+      "rk_1968": "Rechtschaffen and Kales staging with separate S3 and S4 labels.",
+      "aasm_5stage": "Five-stage Wake, N1, N2, N3 and REM label set used by the automated scorer."
+    }
+  },
+  "annotation_method": {
+    "LongName": "Annotation method",
+    "Description": "Whether the label came from manual consensus scoring or an automated method.",
+    "Levels": {
+      "manual_consensus": "Consensus label from human sleep scorers.",
+      "automated": "Label produced by software."
+    },
+    "HED": {
+      "manual_consensus": "Human-agent",
+      "automated": "Software-agent"
+    }
+  },
+  "annotator_id": {
+    "LongName": "Annotator identifier",
+    "Description": "Dataset-local identifier for the scorer, consensus procedure or software version.",
+    "HED": "Label/#"
+  },
+  "channel": {
+    "LongName": "Channels used for scoring",
+    "Description": "Pipe-separated channel names matching the accompanying channels.tsv file.",
+    "Delimiter": "|",
+    "HED": "Parameter-value/#"
+  },
+  "confidence": {
+    "LongName": "Stage confidence",
+    "Description": "Confidence assigned to the reported stage, from 0 to 1. n/a means that the source did not provide confidence.",
+    "Units": "proportion",
+    "HED": "Probability/#"
+  }
+}
