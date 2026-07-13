@@ -14,8 +14,8 @@
     },
     "HED": {
       "sleep_stage": "({duration}, (Data-feature, {sleep_stage}, ({annotation_method}, {annotator_id}), (Parameter-label/channels, {channel}), {confidence}))",
-      "movement_artifact": "({duration}, (Data-feature, sc:Movement-artifact, ({annotation_method}, {annotator_id}), (Parameter-label/channels, {channel})))",
-      "unscored": "({duration}, (Data-feature, sc:Property-not-possible-to-determine, ({annotation_method}, {annotator_id}), (Parameter-label/channels, {channel})))"
+      "movement_artifact": "({duration}, (Data-feature, Movement-artifact, ({annotation_method}, {annotator_id}), (Parameter-label/channels, {channel})))",
+      "unscored": "({duration}, (Data-feature, Property-not-possible-to-determine, ({annotation_method}, {annotator_id}), (Parameter-label/channels, {channel})))"
     }
   },
   "sleep_stage": {
@@ -30,10 +30,10 @@
     },
     "HED": {
       "wake": "(Experiment-participant, Awake)",
-      "n1": "sc:Sleep-stage-N1",
-      "n2": "sc:Sleep-stage-N2",
-      "n3": "sc:Sleep-stage-N3",
-      "rem": "sc:Sleep-stage-REM"
+      "n1": "Sleep-stage-N1",
+      "n2": "Sleep-stage-N2",
+      "n3": "Sleep-stage-N3",
+      "rem": "Sleep-stage-REM"
     }
   },
   "original_label": {
