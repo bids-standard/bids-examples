@@ -63,7 +63,7 @@
   "annotator_id": {
     "LongName": "Annotator identifier",
     "Description": "Dataset-local identifier for the scorer, consensus procedure or software version.",
-    "HED": "Label/#"
+    "HED": "ID/#"
   },
   "channel": {
     "LongName": "Channels used for scoring",
