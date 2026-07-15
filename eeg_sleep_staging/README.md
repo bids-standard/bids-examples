@@ -7,8 +7,9 @@ Each annotation is stored as a separate row. Rows may therefore overlap when
 two scorers or methods label the same interval. This avoids forcing annotations
 with different coverage or time resolution into one wide table.
 
-The HED sidecar keeps overlapping annotations in separate groups. In other
-words, two labels with the same onset are still treated as two annotations.
+The HED sidecar keeps overlapping annotations in separate groups. Rows with
+the same onset are assembled into one event-level annotation, while the manual
+and automated labels remain distinguishable as separate groups.
 
 The example includes:
 
