@@ -1,0 +1,201 @@
+	[33m[WARNING] README_FILE_SMALL The recommended file '/README' is very small.
+Please consider expanding it with additional information about the dataset.[39m
+		/README
+
+[36m	Please visit https://neurostars.org/search?q=README_FILE_SMALL for existing conversations about this issue.[39m
+
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mManufacturer[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Manufacturer of the equipment that produced the measurements.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Manufacturer of the equipment that produced the measurements.
+
+		18 more files with the same issue
+
+		[33mManufacturersModelName[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Manufacturer's model name of the equipment that produced the measurements.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+		18 more files with the same issue
+
+		[33mSoftwareVersions[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		18 more files with the same issue
+
+		[33mDeviceSerialNumber[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		18 more files with the same issue
+
+		[33mInstructions[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Text of the instructions given to participants before the recording.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Text of the instructions given to participants before the recording.
+
+		18 more files with the same issue
+
+		[33mCogAtlasID[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+
+		18 more files with the same issue
+
+		[33mCogPOID[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+
+		18 more files with the same issue
+
+		[33mInstitutionName[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		18 more files with the same issue
+
+		[33mInstitutionAddress[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		18 more files with the same issue
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		18 more files with the same issue
+
+		[33mCapManufacturer[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Name of the cap manufacturer (for example, [36m"EasyCap"[39m).
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Name of the cap manufacturer (for example, [36m"EasyCap"[39m).
+
+		18 more files with the same issue
+
+		[33mCapManufacturersModelName[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Manufacturer's designation of the cap model
+(for example, [36m"actiCAP 64 Ch Standard-2"[39m).
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Manufacturer's designation of the cap model
+(for example, [36m"actiCAP 64 Ch Standard-2"[39m).
+
+		18 more files with the same issue
+
+		[33mMISCChannelCount[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Number of miscellaneous channels not covered otherwise.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Number of miscellaneous channels not covered otherwise.
+
+		18 more files with the same issue
+
+		[33mEEGGround[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Description of the location of the ground electrode
+(for example, [36m"placed on right mastoid (M2)"[39m).
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Description of the location of the ground electrode
+(for example, [36m"placed on right mastoid (M2)"[39m).
+
+		18 more files with the same issue
+
+		[33mHeadCircumference[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Circumference of the participant's head, expressed in cm (for example, [36m58[39m).
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Circumference of the participant's head, expressed in cm (for example, [36m58[39m).
+
+		18 more files with the same issue
+
+		[33mHardwareFilters[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Object of temporal hardware filters applied, or [36m"n/a"[39m if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, [36m{"Highpass RC filter": {"Half amplitude cutoff (Hz)": 0.0159, "Roll-off": "6dB/Octave"}}[39m.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Object of temporal hardware filters applied, or [36m"n/a"[39m if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, [36m{"Highpass RC filter": {"Half amplitude cutoff (Hz)": 0.0159, "Roll-off": "6dB/Octave"}}[39m.
+
+		18 more files with the same issue
+
+		[33mSubjectArtefactDescription[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf - Field description: Freeform description of the observed subject artifact and its possible cause
+(for example, [36m"Vagus Nerve Stimulator"[39m, [36m"non-removable implant"[39m).
+If this field is set to [36m"n/a"[39m, it will be interpreted as absence of major
+source of artifacts except cardiac and blinks.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf - Field description: Freeform description of the observed subject artifact and its possible cause
+(for example, [36m"Vagus Nerve Stimulator"[39m, [36m"non-removable implant"[39m).
+If this field is set to [36m"n/a"[39m, it will be interpreted as absence of major
+source of artifacts except cardiac and blinks.
+
+		18 more files with the same issue
+
+		[33mStimulusPresentation[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		18 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] TSV_ADDITIONAL_COLUMNS_UNDEFINED A TSV file has extra columns which are not defined in its associated JSON sidecar[39m
+		[33mvalue[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_events.tsv
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_events.tsv
+
+		18 more files with the same issue
+
+		[33msample[39m
+		/sub-cbm001/eeg/sub-cbm001_task-protmap_events.tsv
+		/sub-cbm002/eeg/sub-cbm002_task-protmap_events.tsv
+
+		18 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=TSV_ADDITIONAL_COLUMNS_UNDEFINED for existing conversations about this issue.[39m
+
+	[33m[WARNING] EEG_CHANNEL_COUNT_MISMATCH The EEGChannelCount metadata does not match the number of channels
+with type EEG in the associated channels.tsv file.[39m
+		/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf
+		/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf
+
+		4 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=EEG_CHANNEL_COUNT_MISMATCH for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                          [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          104 Files, 74.7 kB                prot map                EEG                  
+          20 - Subjects 1 - Sessions                                                     
+

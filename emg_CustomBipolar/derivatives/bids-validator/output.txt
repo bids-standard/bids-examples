@@ -1,0 +1,54 @@
+	[33m[WARNING] EVENTS_TSV_MISSING Task scans should have a corresponding 'events.tsv' file.
+If this is a resting state scan you can ignore this warning or rename the task to include the word "rest".[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf
+
+[36m	Please visit https://neurostars.org/search?q=EVENTS_TSV_MISSING for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mSoftwareVersions[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		[33mDeviceSerialNumber[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		[33mElectrodeManufacturer[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: Can be used if all electrodes are of the same manufacturer
+(for example, [36m"AD-TECH"[39m, [36m"DIXI"[39m).
+If electrodes of different manufacturers are used,
+please use the corresponding table in the [36m_electrodes.tsv[39m file.
+
+		[33mElectrodeManufacturersModelName[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: If different electrode types are used,
+please use the corresponding table in the [36m_electrodes.tsv[39m file.
+
+		[33mInstructions[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: Text of the instructions given to participants before the recording.
+
+		[33mInstitutionName[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		[33mInstitutionAddress[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		[33mHardwareFilters[39m
+		/sub-01/emg/sub-01_task-holdWeight_emg.edf - Field description: Object of temporal hardware filters applied, or [36m"n/a"[39m if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, [36m{"Highpass RC filter": {"Half amplitude cutoff (Hz)": 0.0159, "Roll-off": "6dB/Octave"}}[39m.
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          7 Files, 7.52 kB                 holdWeight              emg                  
+          1 - Subjects 1 - Sessions                                                     
+

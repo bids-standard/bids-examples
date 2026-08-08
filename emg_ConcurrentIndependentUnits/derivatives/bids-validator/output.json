@@ -1,0 +1,46 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-01/emg/sub-01_task-jumping_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      }
+    ],
+    "codeMessages": {
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "01"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "01",
+        "age": 33,
+        "sex": "F",
+        "group": "control"
+      }
+    ],
+    "tasks": [
+      "jumping"
+    ],
+    "modalities": [
+      "emg"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 18,
+    "size": 421628,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "emg"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

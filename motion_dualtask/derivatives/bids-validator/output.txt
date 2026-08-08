@@ -1,0 +1,196 @@
+	[33m[WARNING] UNKNOWN_BIDS_VERSION The BIDSVersion field of 'dataset_description.json' does not match a known release.
+The BIDS Schema used for validation may be out of date.[39m
+		/dataset_description.json
+
+[36m	Please visit https://neurostars.org/search?q=UNKNOWN_BIDS_VERSION for existing conversations about this issue.[39m
+
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mManufacturer[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Manufacturer of the equipment that produced the measurements.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Manufacturer of the equipment that produced the measurements.
+
+		43 more files with the same issue
+
+		[33mManufacturersModelName[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Manufacturer's model name of the equipment that produced the measurements.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+		43 more files with the same issue
+
+		[33mSoftwareVersions[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		178 more files with the same issue
+
+		[33mDeviceSerialNumber[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		178 more files with the same issue
+
+		[33mInstructions[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Text of the instructions given to participants before the recording.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Text of the instructions given to participants before the recording.
+
+		178 more files with the same issue
+
+		[33mCogAtlasID[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+
+		43 more files with the same issue
+
+		[33mCogPOID[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+
+		43 more files with the same issue
+
+		[33mCapManufacturer[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Name of the cap manufacturer (for example, [36m"EasyCap"[39m).
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Name of the cap manufacturer (for example, [36m"EasyCap"[39m).
+
+		43 more files with the same issue
+
+		[33mCapManufacturersModelName[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Manufacturer's designation of the cap model
+(for example, [36m"actiCAP 64 Ch Standard-2"[39m).
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Manufacturer's designation of the cap model
+(for example, [36m"actiCAP 64 Ch Standard-2"[39m).
+
+		43 more files with the same issue
+
+		[33mMISCChannelCount[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Number of miscellaneous channels not covered otherwise.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Number of miscellaneous channels not covered otherwise.
+
+		178 more files with the same issue
+
+		[33mRecordingType[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Defines whether the recording is [36m"continuous"[39m, [36m"discontinuous"[39m, or
+[36m"epoched"[39m, where [36m"epoched"[39m is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Defines whether the recording is [36m"continuous"[39m, [36m"discontinuous"[39m, or
+[36m"epoched"[39m, where [36m"epoched"[39m is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		43 more files with the same issue
+
+		[33mEEGGround[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Description of the location of the ground electrode
+(for example, [36m"placed on right mastoid (M2)"[39m).
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Description of the location of the ground electrode
+(for example, [36m"placed on right mastoid (M2)"[39m).
+
+		43 more files with the same issue
+
+		[33mHeadCircumference[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Circumference of the participant's head, expressed in cm (for example, [36m58[39m).
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Circumference of the participant's head, expressed in cm (for example, [36m58[39m).
+
+		43 more files with the same issue
+
+		[33mEEGPlacementScheme[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Placement scheme of EEG electrodes.
+Either the name of a standardized placement system (for example, [36m"10-20"[39m)
+or a list of standardized electrode names (for example, [36m["Cz", "Pz"][39m).
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Placement scheme of EEG electrodes.
+Either the name of a standardized placement system (for example, [36m"10-20"[39m)
+or a list of standardized electrode names (for example, [36m["Cz", "Pz"][39m).
+
+		43 more files with the same issue
+
+		[33mHardwareFilters[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Object of temporal hardware filters applied, or [36m"n/a"[39m if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, [36m{"Highpass RC filter": {"Half amplitude cutoff (Hz)": 0.0159, "Roll-off": "6dB/Octave"}}[39m.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Object of temporal hardware filters applied, or [36m"n/a"[39m if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, [36m{"Highpass RC filter": {"Half amplitude cutoff (Hz)": 0.0159, "Roll-off": "6dB/Octave"}}[39m.
+
+		43 more files with the same issue
+
+		[33mSubjectArtefactDescription[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.eeg - Field description: Freeform description of the observed subject artifact and its possible cause
+(for example, [36m"Vagus Nerve Stimulator"[39m, [36m"non-removable implant"[39m).
+If this field is set to [36m"n/a"[39m, it will be interpreted as absence of major
+source of artifacts except cardiac and blinks.
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_eeg.vhdr - Field description: Freeform description of the observed subject artifact and its possible cause
+(for example, [36m"Vagus Nerve Stimulator"[39m, [36m"non-removable implant"[39m).
+If this field is set to [36m"n/a"[39m, it will be interpreted as absence of major
+source of artifacts except cardiac and blinks.
+
+		178 more files with the same issue
+
+		[33mStimulusPresentation[39m
+		/sub-07/ses-stand/eeg/sub-07_ses-stand_task-dualWalking_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+		/sub-07/ses-walk/eeg/sub-07_ses-walk_task-dualWalking_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		13 more files with the same issue
+
+		[33mLATENCYChannelCount[39m
+		/sub-07/ses-stand/motion/sub-07_ses-stand_task-dualWalking_tracksys-PhaseSpace1_motion.tsv - Field description: Number of Latency channels.
+		/sub-07/ses-stand/motion/sub-07_ses-stand_task-dualWalking_tracksys-PhaseSpace2_motion.tsv - Field description: Number of Latency channels.
+
+		133 more files with the same issue
+
+		[33mMissingValues[39m
+		/sub-07/ses-stand/motion/sub-07_ses-stand_task-dualWalking_tracksys-PhaseSpace1_motion.tsv - Field description: Describes how missing values are represented in the given recording system
+(for example a tracking system in motion), can take values such as, "NaN", "0".
+		/sub-07/ses-stand/motion/sub-07_ses-stand_task-dualWalking_tracksys-PhaseSpace2_motion.tsv - Field description: Describes how missing values are represented in the given recording system
+(for example a tracking system in motion), can take values such as, "NaN", "0".
+
+		133 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] EVENTS_TSV_MISSING Task scans should have a corresponding 'events.tsv' file.
+If this is a resting state scan you can ignore this warning or rename the task to include the word "rest".[39m
+		/sub-07/ses-stand/motion/sub-07_ses-stand_task-dualWalking_tracksys-PhaseSpace1_motion.tsv
+		/sub-07/ses-stand/motion/sub-07_ses-stand_task-dualWalking_tracksys-PhaseSpace2_motion.tsv
+
+		133 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=EVENTS_TSV_MISSING for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          645 Files, 2.95 MB               dualWalking             EEG                  
+          5 - Subjects 2 - Sessions                                motion               
+

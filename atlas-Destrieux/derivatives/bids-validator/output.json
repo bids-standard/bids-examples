@@ -1,0 +1,486 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "Authors",
+        "severity": "warning",
+        "location": "/atlas-Destrieux_description.json",
+        "issueMessage": "Field description: List of individuals who contributed to the creation/curation of the dataset.\n",
+        "rule": "rules.dataset_metadata.atlas_description"
+      },
+      {
+        "code": "SUBJECT_FOLDERS",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.dataset.SubjectFolders"
+      },
+      {
+        "code": "README_FILE_MISSING",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.ReadmeFileMissing"
+      },
+      {
+        "code": "TOO_FEW_AUTHORS",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.TooFewAuthors"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Description",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Free-form natural language description.\n",
+        "rule": "rules.sidecars.derivatives.common_derivatives.CommonDerivativeFields"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SpatialReference",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: String or object describing the reference image to which the current image is aligned.\nFor images with a single reference, the value MUST be a single string.\nFor images with multiple references, such as surface and volume references,\na JSON object MUST be used.\n",
+        "rule": "rules.sidecars.derivatives.common_derivatives.SegmentationCommon"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MagneticFieldStrength",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Nominal field strength of MR magnet in Tesla.\nCorresponds to [DICOM Tag 0018, 0087](http://www.dicomlookup.com/dicomtags/(0018,0087))\n`Magnetic Field Strength`.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Information describing the receiver coil.\nCorresponds to [DICOM Tag 0018, 1250](http://www.dicomlookup.com/dicomtags/(0018,1250))\n`Receive Coil Name`,\nalthough not all vendors populate that DICOM Tag,\nin which case this field can be derived from an appropriate\nprivate DICOM field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilActiveElements",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Information describing the active/selected elements of the receiver coil.\nThis does not correspond to a tag in the DICOM ontology.\nThe vendor-defined terminology for active coil elements can go in this field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CoilCombinationMethod",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares\n(rSOS) combination, but other methods exist.\nThe image reconstruction is changed by the coil combination method\n(as for the matrix coil mode above),\nso anything non-standard should be reported.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ScanningSequence",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Description of the type of data acquired.\nCorresponds to [DICOM Tag 0018, 0020](http://www.dicomlookup.com/dicomtags/(0018,0020))\n`Scanning Sequence`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceVariant",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Variant of the ScanningSequence.\nCorresponds to [DICOM Tag 0018, 0021](http://www.dicomlookup.com/dicomtags/(0018,0021))\n`Sequence Variant`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceDetails",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Information beyond pulse sequence type that identifies the specific pulse\nsequence used (for example,\n`\"Standard Siemens Sequence distributed with the VB17 software\"`,\n`\"Siemens WIP ### version #.##,\"` or\n`\"Sequence written by X using a version compiled on MM/DD/YYYY\"`).\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "NonlinearGradientCorrection",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Boolean stating if the image saved has been corrected for gradient\nnonlinearities by the scanner sequence.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MRAcquisitionType",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Type of sequence readout.\nCorresponds to [DICOM Tag 0018, 0023](http://www.dicomlookup.com/dicomtags/(0018,0023))\n`MR Acquisition Type`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EchoTime",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: The echo time (TE) for the acquisition, specified in seconds.\nCorresponds to [DICOM Tag 0018, 0081](http://www.dicomlookup.com/dicomtags/(0018,0081))\n`Echo Time`\n(please note that the DICOM term is in milliseconds not seconds).\nThe data type number may apply to files from any MRI modality concerned with\na single value for this field, or to the files in a\n[file collection](SPEC_ROOT/appendices/file-collections.md)\nwhere the value of this field is iterated using the\n[`echo` entity](SPEC_ROOT/appendices/entities.md#echo).\n",
+        "rule": "rules.sidecars.mri.MRITimingParameters"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DwellTime",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Actual dwell time (in seconds) of the receiver per point in the readout\ndirection, including any oversampling.\nFor Siemens, this corresponds to DICOM field 0019, 1018 (in ns).\nThis value is necessary for the optional readout distortion correction of\nanatomicals in the HCP Pipelines.\nIt also usefully provides a handle on the readout bandwidth,\nwhich isn't captured in the other metadata tags.\nNot to be confused with `\"EffectiveEchoSpacing\"`, and the frequent mislabeling\nof echo spacing (which is spacing in the phase encoding direction) as\n\"dwell time\" (which is spacing in the readout direction).\n",
+        "rule": "rules.sidecars.mri.MRITimingParameters"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "FlipAngle",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: Flip angle (FA) for the acquisition, specified in degrees.\nCorresponds to: [DICOM Tag 0018, 1314](http://www.dicomlookup.com/dicomtags/(0018,1314))\n`Flip Angle`.\nThe data type number may apply to files from any MRI modality concerned with\na single value for this field, or to the files in a\n[file collection](SPEC_ROOT/appendices/file-collections.md)\nwhere the value of this field is iterated using the\n[`flip` entity](SPEC_ROOT/appendices/entities.md#flip).\n",
+        "rule": "rules.sidecars.mri.MRIFlipAngleLookLockerFalse"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.nii.gz",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Description",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.tsv",
+        "issueMessage": "Field description: Free-form natural language description.\n",
+        "rule": "rules.sidecars.derivatives.common_derivatives.CommonDerivativeFields"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SpatialReference",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_atlas-Destrieux_res-1_dseg.tsv",
+        "issueMessage": "Field description: String or object describing the reference image to which the current image is aligned.\nFor images with a single reference, the value MUST be a single string.\nFor images with multiple references, such as surface and volume references,\na JSON object MUST be used.\n",
+        "rule": "rules.sidecars.derivatives.common_derivatives.SegmentationCommon"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Description",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Free-form natural language description.\n",
+        "rule": "rules.sidecars.derivatives.common_derivatives.CommonDerivativeFields"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StationName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Institution defined name of the machine that produced the measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MagneticFieldStrength",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Nominal field strength of MR magnet in Tesla.\nCorresponds to [DICOM Tag 0018, 0087](http://www.dicomlookup.com/dicomtags/(0018,0087))\n`Magnetic Field Strength`.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Information describing the receiver coil.\nCorresponds to [DICOM Tag 0018, 1250](http://www.dicomlookup.com/dicomtags/(0018,1250))\n`Receive Coil Name`,\nalthough not all vendors populate that DICOM Tag,\nin which case this field can be derived from an appropriate\nprivate DICOM field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilActiveElements",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Information describing the active/selected elements of the receiver coil.\nThis does not correspond to a tag in the DICOM ontology.\nThe vendor-defined terminology for active coil elements can go in this field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CoilCombinationMethod",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares\n(rSOS) combination, but other methods exist.\nThe image reconstruction is changed by the coil combination method\n(as for the matrix coil mode above),\nso anything non-standard should be reported.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ScanningSequence",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Description of the type of data acquired.\nCorresponds to [DICOM Tag 0018, 0020](http://www.dicomlookup.com/dicomtags/(0018,0020))\n`Scanning Sequence`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceVariant",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Variant of the ScanningSequence.\nCorresponds to [DICOM Tag 0018, 0021](http://www.dicomlookup.com/dicomtags/(0018,0021))\n`Sequence Variant`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SequenceName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Manufacturer's designation of the sequence name.\nCorresponds to [DICOM Tag 0018, 0024](http://www.dicomlookup.com/dicomtags/(0018,0024))\n`Sequence Name`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceDetails",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Information beyond pulse sequence type that identifies the specific pulse\nsequence used (for example,\n`\"Standard Siemens Sequence distributed with the VB17 software\"`,\n`\"Siemens WIP ### version #.##,\"` or\n`\"Sequence written by X using a version compiled on MM/DD/YYYY\"`).\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "NonlinearGradientCorrection",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Boolean stating if the image saved has been corrected for gradient\nnonlinearities by the scanner sequence.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MRAcquisitionType",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Type of sequence readout.\nCorresponds to [DICOM Tag 0018, 0023](http://www.dicomlookup.com/dicomtags/(0018,0023))\n`MR Acquisition Type`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EchoTime",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: The echo time (TE) for the acquisition, specified in seconds.\nCorresponds to [DICOM Tag 0018, 0081](http://www.dicomlookup.com/dicomtags/(0018,0081))\n`Echo Time`\n(please note that the DICOM term is in milliseconds not seconds).\nThe data type number may apply to files from any MRI modality concerned with\na single value for this field, or to the files in a\n[file collection](SPEC_ROOT/appendices/file-collections.md)\nwhere the value of this field is iterated using the\n[`echo` entity](SPEC_ROOT/appendices/entities.md#echo).\n",
+        "rule": "rules.sidecars.mri.MRITimingParameters"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DwellTime",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Actual dwell time (in seconds) of the receiver per point in the readout\ndirection, including any oversampling.\nFor Siemens, this corresponds to DICOM field 0019, 1018 (in ns).\nThis value is necessary for the optional readout distortion correction of\nanatomicals in the HCP Pipelines.\nIt also usefully provides a handle on the readout bandwidth,\nwhich isn't captured in the other metadata tags.\nNot to be confused with `\"EffectiveEchoSpacing\"`, and the frequent mislabeling\nof echo spacing (which is spacing in the phase encoding direction) as\n\"dwell time\" (which is spacing in the readout direction).\n",
+        "rule": "rules.sidecars.mri.MRITimingParameters"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "FlipAngle",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: Flip angle (FA) for the acquisition, specified in degrees.\nCorresponds to: [DICOM Tag 0018, 1314](http://www.dicomlookup.com/dicomtags/(0018,1314))\n`Flip Angle`.\nThe data type number may apply to files from any MRI modality concerned with\na single value for this field, or to the files in a\n[file collection](SPEC_ROOT/appendices/file-collections.md)\nwhere the value of this field is iterated using the\n[`flip` entity](SPEC_ROOT/appendices/entities.md#flip).\n",
+        "rule": "rules.sidecars.mri.MRIFlipAngleLookLockerFalse"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/tpl-fsaverage/anat/tpl-fsaverage_res-1_T1w.nii.gz",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      }
+    ],
+    "codeMessages": {
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "SUBJECT_FOLDERS": "There are no subject directories (labeled \"sub-*\") in the root of this BIDS dataset.\n",
+      "README_FILE_MISSING": "The recommended file /README is missing.\nSee Section 03 (Modality agnostic files) of the BIDS specification.\n",
+      "TOO_FEW_AUTHORS": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+      "EMPTY_FILE": "Empty files not allowed.",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [],
+    "subjectMetadata": [],
+    "tasks": [],
+    "modalities": [
+      "MRI"
+    ],
+    "secondaryModalities": [
+      "MRI_Structural"
+    ],
+    "totalFiles": 7,
+    "size": 5806,
+    "dataProcessed": true,
+    "pet": {},
+    "dataTypes": [
+      "anat"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}
