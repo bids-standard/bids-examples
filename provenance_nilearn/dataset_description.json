@@ -1,0 +1,21 @@
+{
+  "Name": "Provenance metadata for Nilearn-based fMRI statistical analysis",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0",
+  "Authors": [
+    "Boris Clénet"
+  ],
+  "DatasetLinks": {
+    "ds000030": "https://openneuro.org/datasets/ds000030/versions/00004"
+  },
+  "SourceDatasets": [
+    {
+      "URL": "shttps://openneuro.org/datasets/ds000030",
+      "Version": "0004"
+    }
+  ],
+  "GeneratedBy": [
+    "bids::prov#glm-TzAuB7k8"
+  ]
+}
