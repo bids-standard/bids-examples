@@ -1,0 +1,30 @@
+{
+	"EMGType": "combined",
+	"SkinPreparation": "The skin was shaved, abrased and cleansed with 70 percent ethyl alcohol",
+	"EMGPlacementScheme": "Other",
+	"EMGPlacementSchemeDescription": "(i) Surface electrodes: One grid was carefully positioned on the muscle belly of the right tibialis anterior (identified through palpation). (ii) Invasive EMG: A guiding filament inserted into a 25-gauge needle was used to place the thin-film structure in the muscle. Afterwards, the needle is withdrawn, leaving only the thin-film array within the muscle. Two bands damped with water were placed around the ankle as ground (R2) and reference (R1) electrodes.",
+	"EMGReference": "R1",
+	"EMGGround":"R2",
+	"CannulaDiameter": "25G",
+	"CannulaLength": 40,
+	"CannulaMaterial": "Stainless steel",
+	"SterilizationMethod": "Ethylene oxide (EO) sterilization",
+	"EMGChannelCount": 104,
+    "EMGElectrodeCount": 106,
+	"MISCChannelCount": 2,
+	"PowerLineFrequency": 50,
+	"Gain": 150,
+	"Manufacturer": "OTBioelettronica",
+	"ManufacturersModelName":"QUATTROCENTO",
+	"RecordingType": "continuous",
+	"RecordingDuration": 70.00,
+	"SamplingFrequency": 10240,
+	"TaskDescription":"The participant performed a trapezoidal contractions at 20 percent MVC (10 seconds ramp up; 60 seconds hold; 10 seconds ramp down). ",
+	"TaskName":"isometric",
+	"SoftwareFilters":{
+		"Bandpass": {
+			"high_pass": "ChannelSpecific (see *_channels.tsv)",
+			"low_pass": "ChannelSpecific (see *_channels.tsv)"
+		}
+	}
+}

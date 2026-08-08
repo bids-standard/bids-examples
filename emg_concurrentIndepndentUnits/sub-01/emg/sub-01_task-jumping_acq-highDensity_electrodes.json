@@ -1,0 +1,30 @@
+{
+    "Coordsystem": {
+        "lower-leg-coordsystem":{ 
+            "EMGCoordinateUnits": "percent",
+            "EMGCoordinateSystemDescription": "X: LM → MM; Y: Popliteal Fossa → Patellar Anterior Surface; Z: midpoint MM-LM → Patellar Anterior Surface; Lateral Malleolus (LM); Medial Malleolus (MM); Patellar Anterior Surface Back of the knee (Popliteal Fossa)"
+        },
+        "thigh-coordsystem":{ 
+            "EMGCoordinateUnits": "percent",
+            "EMGCoordinateSystemDescription": "X: FME → FLE; Y: Popliteal Fossa → Patellar Anterior Surface; Z: midpoint FME-FLE → Greater Trochanter; Femur Medial Epicondyle (FME); Femur Lateral Epicondyle (FLE); Patellar Anterior Surface; Back of the knee (Popliteal Fossa)"
+        },
+        "grid1-coordsystem":{ 
+            "EMGCoordinateUnits": "mm",
+            "EMGCoordinateSystemDescription": "The location of the electgrodes with respect to electrode one (1) is given in millimeters. The x-axis is left to right, the y-axis is bottom to top. note: the z-axis is not used.",
+            "EMGCoordSysAnchor":{
+                "System": "forearm-coordsystem",
+                "AnchorElectrode": "E6",
+                "AnchorCoordinate": [20,100,50]
+            }
+        },
+        "grid2-coordsystem":{ 
+            "EMGCoordinateUnits": "mm",
+            "EMGCoordinateSystemDescription": "The location of the electgrodes with respect to electrode one (1) is given in millimeters. The x-axis is left to right, the y-axis is bottom to top. note: the z-axis is not used.",
+            "EMGCoordSysAnchor":{
+                "System": "forearm-coordsystem",
+                "AnchorElectrode": "E70",
+                "AnchorCoordinate": [80,100,50]
+            }
+        }
+    }
+}

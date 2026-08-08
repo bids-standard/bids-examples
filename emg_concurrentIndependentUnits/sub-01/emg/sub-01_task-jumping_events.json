@@ -1,0 +1,22 @@
+{
+    "onset": {
+        "Description": "Onset time of the event in seconds",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event in seconds", 
+        "Units": "s"
+    },
+    "trial_type": {
+        "Description": "Type of trial or event",
+        "Levels": {
+            "jump_start": "Beginning of jumping motion",
+            "jump_peak": "Peak of jumping motion", 
+            "jump_land": "Landing phase of jump"
+        }
+    },
+    "response_time": {
+        "Description": "Response time in seconds",
+        "Units": "s"
+    }
+}

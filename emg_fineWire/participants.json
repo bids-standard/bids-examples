@@ -1,0 +1,21 @@
+{
+    "age": {
+        "Description": "Age in years",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "self-reported sex, one of M, F, or O",
+        "Levels": {
+            "M": "male",
+            "F": "female",
+            "O": "other"
+        }
+    },
+    "group": {
+        "Description": "Experimental group the participant belonged to",
+        "Levels": {
+            "control": "Control group",
+            "patient": "Patient group"
+        }
+    }
+} 
