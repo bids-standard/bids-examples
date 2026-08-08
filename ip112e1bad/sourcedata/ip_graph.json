@@ -1,0 +1,22 @@
+{
+    "sub-01/ses-test/sub-01_ses-test_task-overtverbgeneration_bold.json": [
+        "sub-01/ses-test/func/sub-01_ses-test_task-overtverbgeneration_run-1_bold.nii.gz",
+        "sub-01/ses-test/func/sub-01_ses-test_task-overtverbgeneration_run-2_bold.nii.gz"
+    ],
+    "sub-01/ses-test/sub-01_ses-test_task-overtverbgeneration_run-2_bold.json": [
+        "sub-01/ses-test/func/sub-01_ses-test_task-overtverbgeneration_run-2_bold.nii.gz"
+    ],
+    "sub-01/ses-test/anat/sub-01_ses-test_T1w.nii.gz": {
+    },
+    "sub-01/ses-test/func/sub-01_ses-test_task-overtverbgeneration_run-1_bold.nii.gz": {
+        ".json": [
+            "sub-01/ses-test/sub-01_ses-test_task-overtverbgeneration_bold.json"
+        ]
+    },
+    "sub-01/ses-test/func/sub-01_ses-test_task-overtverbgeneration_run-2_bold.nii.gz": {
+        ".json": [
+            "sub-01/ses-test/sub-01_ses-test_task-overtverbgeneration_bold.json",
+            "sub-01/ses-test/sub-01_ses-test_task-overtverbgeneration_run-2_bold.json"
+        ]
+    }
+}

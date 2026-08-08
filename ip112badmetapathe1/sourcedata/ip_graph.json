@@ -1,0 +1,18 @@
+{
+    "sub-01_T1w.json": [
+        "sub-01/anat/sub-01_run-1_T1w.nii.gz",
+        "sub-01/anat/sub-01_run-2_T1w.nii.gz"
+    ],
+    "sub-01/anat/sub-01_run-1_T1w.nii.gz": {
+        ".json": [
+            "sub-01_T1w.json"
+        ]
+    },
+    "sub-01/anat/sub-01_run-2_T1w.nii.gz": {
+        ".json": [
+            "sub-01_T1w.json"
+        ]
+    },
+    "sub-02/anat/sub-02_T1w.nii.gz": {
+    }
+}
