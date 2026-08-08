@@ -1,0 +1,6 @@
+sample_id	sample_type	participant_id	derived_from
+sample-tissue01	tissue	sub-20220101A	n/a
+sample-cell001	in vitro differentiated cells	sub-20220101A	sample-tissue01
+sample-tissue02	tissue	sub-20220101B	n/a
+sample-cell002	in vitro differentiated cells	sub-20220101B	sample-tissue02
+sample-cell003	in vitro differentiated cells	sub-20220101B	sample-tissue02

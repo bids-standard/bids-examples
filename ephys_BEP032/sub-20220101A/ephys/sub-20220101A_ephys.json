@@ -1,0 +1,18 @@
+{
+  "InstitutionName": "Institute XY",
+  "Location": "Somewhere on the globe",
+  "PowerLineFrequency": 50,
+  "SamplingFrequency": 30000,
+  "SamplingFrequencyUnit": "Hz",
+  "Maintainer": "Charly C",
+  "SoftwareFilters": {
+    "LP_filter_1":{
+      "Half amplitude cutoff(Hz)": 0.0159,
+      "Roll-off":"6dB/Octave"
+    },
+    "LP_filter_2":{
+      "Half amplitude cutoff(Hz)": 0.1159,
+       "Roll-off":"9 dB/Octave"
+    }
+  }
+}
