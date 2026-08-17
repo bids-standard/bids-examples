@@ -20,9 +20,15 @@ This dataset demonstrates the following key features:
   A1x32-Poly3-10mm-50-177 model from the ProbeInterface library, referenced 
   via TermURL in the probes.json sidecar
   
-* **Probe defined using a custom ProbeInterface definition**: probe02 uses a 
-  custom probe definition stored in the probes/ directory, referenced via 
+* **Probe defined using a custom ProbeInterface definition**: probe02 uses a
+  custom probe definition stored in the probes/ directory, referenced via
   BIDS URI (bids::probes/customprobe1.json)
+
+* **Documented anatomical locations**: the anatomical_location columns of
+  probes.tsv and electrodes.tsv use terms from the Allen Mouse Brain Atlas,
+  documented in the corresponding JSON sidecars with a TermURL for each term
+  and a ReferenceAtlas field, with the localization method given once per
+  file in LocalizationMethod
 
 Dataset Structure
 -----------------
@@ -54,6 +60,8 @@ Each recording includes:
 - *_probes.tsv: Information about recording probes/pipettes
 - *_probes.json: Probe model definitions with ProbeInterface references
 - *_electrodes.tsv: Electrode positions and properties
+- *_electrodes.json: Documentation of the anatomical location terms, the
+  reference atlas, and the localization method
 - *_channels.tsv: Recording channel configurations
 - *_ecephys.json or *_icephys.json: Recording parameters and metadata
 - *_events.tsv: Event timing for task-related recordings

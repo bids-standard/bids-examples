@@ -1,4 +1,4 @@
-name	probe_name	x	y	z	hemisphere	impedance	shank_id	size	material	location
+name	probe_name	x	y	z	hemisphere	impedance	shank_id	size	material	anatomical_location
 e001	probe01	0	0	0	L	1.2	0	12	iridium-oxide	MOp
 e002	probe01	0	0	25	L	1.1	0	12	iridium-oxide	MOp
 e003	probe01	32	0	0	L	1.3	0	12	iridium-oxide	MOp

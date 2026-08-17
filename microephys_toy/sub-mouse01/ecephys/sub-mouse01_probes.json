@@ -10,5 +10,18 @@
         "TermURL": "bids::probes/customprobe1.json"
       }
     }
+  },
+  "anatomical_location": {
+    "Description": "Structure the probe as a whole is placed in, from the Allen Mouse Brain Atlas",
+    "Levels": {
+      "MOp": {
+        "Description": "Primary motor area",
+        "TermURL": "https://atlas.brain-map.org/atlas?atlas=602630314#structure=985"
+      },
+      "CA1": {
+        "Description": "Field CA1",
+        "TermURL": "https://atlas.brain-map.org/atlas?atlas=602630314#structure=382"
+      }
+    }
   }
 }
