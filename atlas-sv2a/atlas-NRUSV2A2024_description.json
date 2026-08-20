@@ -1,0 +1,24 @@
+{
+  "Name": "NRU SV2A Atlas",
+  "License": "CC-BY-NC-SA-4.0",
+  "Description": "In vivo high-resolution human synaptic density atlas (SV2A). Converted from the NRU SV2A atlas distribution into a BIDS-style atlas derivatives layout.",
+  "Authors": [
+    "Annette Johansen",
+    "Vincent Beliveau",
+    "Emil Colliander",
+    "Nakul Ravi Raval",
+    "Vibeke H\u00f8yrup Dam",
+    "Nic Gillings",
+    "Susana Aznar",
+    "Claus Svarer",
+    "Pontus Plav\u00e9n-Sigray",
+    "Gitte Moos Knudsen"
+  ],
+  "ReferencesAndLinks": [
+    "https://xtra.nru.dk/SV2A-atlas/",
+    "https://doi.org/10.1523/JNEUROSCI.1750-23.2024"
+  ],
+  "Species": "Homo sapiens",
+  "DerivedFrom": "PET",
+  "LevelType": "group"
+}
