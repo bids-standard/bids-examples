@@ -1,0 +1,18 @@
+{
+  "dog_action": {
+    "Description": "This describes the actions of the dog character in the movie",
+    "HED": "Label/dog_action, (Visual-presentation, (Agent-action, Animal-agent, (Action, Description/#)))"
+  },
+  "boy_action": {
+    "Description": "This describes the actions of the boy character in the movie",
+    "HED": "Label/boy_action, (Visual-presentation, (Agent-action, (Human-agent, Male), (Action, Description/#)))"
+  },
+  "mother_action": {
+    "Description": "This describes the actions of the mother character in the movie",
+    "HED": "Label/mother_action, (Visual-presentation, (Agent-action, (Human-agent, Female), (Action, Description/#)))"
+  },
+  "environment_action": {
+    "Description": "This describes the actions happening in the background environment in the movie",
+    "HED": "Label/environment_action, (Visual-presentation, Description/#)"
+  }
+}
