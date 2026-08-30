@@ -1,0 +1,4 @@
+channel_id	contact_id	gain	type	unit	samping_frequency	sampling_frequency_unit	channel_name	hardware_filters	recording_mode
+chan-01	con-01	20	WCP	mV	30000	Hz	whole cell patch	LP_filter_1	current clamp
+chan-02	con-02	15	CAT	mV	30000	Hz	cell attached patch	LP_filter_2	current clamp
+
