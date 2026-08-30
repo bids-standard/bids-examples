@@ -1,0 +1,296 @@
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+		[33miEEGCoordinateSystemDescription[39m
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_space-IXI549Space_coordsystem.json - Field description: Free-form text description of the coordinate system.
+May also include a link to a documentation page or paper describing the
+system in greater detail.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mManufacturer[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Manufacturer of the equipment that produced the measurements.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Manufacturer of the equipment that produced the measurements.
+
+		[33mManufacturersModelName[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Manufacturer's model name of the equipment that produced the measurements.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+		[33mDeviceSerialNumber[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-01_ieeg.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		3 more files with the same issue
+
+		[33mStationName[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Institution defined name of the machine that produced the measurements.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Institution defined name of the machine that produced the measurements.
+
+		[33mSoftwareVersions[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		[33mMagneticFieldStrength[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Nominal field strength of MR magnet in Tesla.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0087)DICOM Tag 0018, 0087]8;;
+[36mMagnetic Field Strength[39m.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Nominal field strength of MR magnet in Tesla.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0087)DICOM Tag 0018, 0087]8;;
+[36mMagnetic Field Strength[39m.
+
+		[33mReceiveCoilName[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Information describing the receiver coil.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,1250)DICOM Tag 0018, 1250]8;;
+[36mReceive Coil Name[39m,
+although not all vendors populate that DICOM Tag,
+in which case this field can be derived from an appropriate
+private DICOM field.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Information describing the receiver coil.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,1250)DICOM Tag 0018, 1250]8;;
+[36mReceive Coil Name[39m,
+although not all vendors populate that DICOM Tag,
+in which case this field can be derived from an appropriate
+private DICOM field.
+
+		[33mReceiveCoilActiveElements[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+
+		[33mMatrixCoilMode[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+
+		[33mCoilCombinationMethod[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+
+		[33mPulseSequenceType[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: A general description of the pulse sequence used for the scan.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: A general description of the pulse sequence used for the scan.
+
+		[33mScanningSequence[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Description of the type of data acquired.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0020)DICOM Tag 0018, 0020]8;;
+[36mScanning Sequence[39m.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Description of the type of data acquired.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0020)DICOM Tag 0018, 0020]8;;
+[36mScanning Sequence[39m.
+
+		[33mSequenceVariant[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Variant of the ScanningSequence.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0021)DICOM Tag 0018, 0021]8;;
+[36mSequence Variant[39m.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Variant of the ScanningSequence.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0021)DICOM Tag 0018, 0021]8;;
+[36mSequence Variant[39m.
+
+		[33mSequenceName[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Manufacturer's designation of the sequence name.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0024)DICOM Tag 0018, 0024]8;;
+[36mSequence Name[39m.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Manufacturer's designation of the sequence name.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0024)DICOM Tag 0018, 0024]8;;
+[36mSequence Name[39m.
+
+		[33mPulseSequenceDetails[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Information beyond pulse sequence type that identifies the specific pulse
+sequence used (for example,
+[36m"Standard Siemens Sequence distributed with the VB17 software"[39m,
+[36m"Siemens WIP ### version #.##,"[39m or
+[36m"Sequence written by X using a version compiled on MM/DD/YYYY"[39m).
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Information beyond pulse sequence type that identifies the specific pulse
+sequence used (for example,
+[36m"Standard Siemens Sequence distributed with the VB17 software"[39m,
+[36m"Siemens WIP ### version #.##,"[39m or
+[36m"Sequence written by X using a version compiled on MM/DD/YYYY"[39m).
+
+		[33mNonlinearGradientCorrection[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+
+		[33mMRAcquisitionType[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+
+		[33mEchoTime[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: The echo time (TE) for the acquisition, specified in seconds.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0081)DICOM Tag 0018, 0081]8;;
+[36mEcho Time[39m
+(please note that the DICOM term is in milliseconds not seconds).
+The data type number may apply to files from any MRI modality concerned with
+a single value for this field, or to the files in a
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/file-collections.mdfile collection]8;;
+where the value of this field is iterated using the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/entities.md#echo`echo` entity]8;;.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: The echo time (TE) for the acquisition, specified in seconds.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0081)DICOM Tag 0018, 0081]8;;
+[36mEcho Time[39m
+(please note that the DICOM term is in milliseconds not seconds).
+The data type number may apply to files from any MRI modality concerned with
+a single value for this field, or to the files in a
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/file-collections.mdfile collection]8;;
+where the value of this field is iterated using the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/entities.md#echo`echo` entity]8;;.
+
+		[33mDwellTime[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Actual dwell time (in seconds) of the receiver per point in the readout
+direction, including any oversampling.
+For Siemens, this corresponds to DICOM field 0019, 1018 (in ns).
+This value is necessary for the optional readout distortion correction of
+anatomicals in the HCP Pipelines.
+It also usefully provides a handle on the readout bandwidth,
+which isn't captured in the other metadata tags.
+Not to be confused with [36m"EffectiveEchoSpacing"[39m, and the frequent mislabeling
+of echo spacing (which is spacing in the phase encoding direction) as
+"dwell time" (which is spacing in the readout direction).
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Actual dwell time (in seconds) of the receiver per point in the readout
+direction, including any oversampling.
+For Siemens, this corresponds to DICOM field 0019, 1018 (in ns).
+This value is necessary for the optional readout distortion correction of
+anatomicals in the HCP Pipelines.
+It also usefully provides a handle on the readout bandwidth,
+which isn't captured in the other metadata tags.
+Not to be confused with [36m"EffectiveEchoSpacing"[39m, and the frequent mislabeling
+of echo spacing (which is spacing in the phase encoding direction) as
+"dwell time" (which is spacing in the readout direction).
+
+		[33mFlipAngle[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: Flip angle (FA) for the acquisition, specified in degrees.
+Corresponds to: ]8;;http://www.dicomlookup.com/dicomtags/(0018,1314)DICOM Tag 0018, 1314]8;;
+[36mFlip Angle[39m.
+The data type number may apply to files from any MRI modality concerned with
+a single value for this field, or to the files in a
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/file-collections.mdfile collection]8;;
+where the value of this field is iterated using the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/entities.md#flip`flip` entity]8;;.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: Flip angle (FA) for the acquisition, specified in degrees.
+Corresponds to: ]8;;http://www.dicomlookup.com/dicomtags/(0018,1314)DICOM Tag 0018, 1314]8;;
+[36mFlip Angle[39m.
+The data type number may apply to files from any MRI modality concerned with
+a single value for this field, or to the files in a
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/file-collections.mdfile collection]8;;
+where the value of this field is iterated using the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/entities.md#flip`flip` entity]8;;.
+
+		[33mInstitutionName[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		[33mInstitutionAddress[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+		/sub-01/ses-preimp/anat/sub-01_ses-preimp_T1w.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/ses-postimp/anat/sub-01_ses-postimp_T1w.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-01_ieeg.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		3 more files with the same issue
+
+		[33mStimulusPresentation[39m
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-01_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-02_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		1 more files with the same issue
+
+		[33mCogAtlasID[39m
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-01_ieeg.nwb - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-02_ieeg.nwb - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+
+		1 more files with the same issue
+
+		[33mCogPOID[39m
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-01_ieeg.nwb - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-02_ieeg.nwb - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+
+		1 more files with the same issue
+
+		[33miEEGElectrodeGroups[39m
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-01_ieeg.nwb - Field description: Field to describe the way electrodes are grouped into strips, grids or depth
+probes.
+For example, [36m"grid1: 10x8 grid on left temporal pole, strip2: 1x8 electrode strip on xxx"[39m.
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-02_ieeg.nwb - Field description: Field to describe the way electrodes are grouped into strips, grids or depth
+probes.
+For example, [36m"grid1: 10x8 grid on left temporal pole, strip2: 1x8 electrode strip on xxx"[39m.
+
+		1 more files with the same issue
+
+		[33mSubjectArtefactDescription[39m
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-01_ieeg.nwb - Field description: Freeform description of the observed subject artifact and its possible cause
+(for example, [36m"Vagus Nerve Stimulator"[39m, [36m"non-removable implant"[39m).
+If this field is set to [36m"n/a"[39m, it will be interpreted as absence of major
+source of artifacts except cardiac and blinks.
+		/sub-01/ses-postimp/ieeg/sub-01_ses-postimp_task-seizure_run-02_ieeg.nwb - Field description: Freeform description of the observed subject artifact and its possible cause
+(for example, [36m"Vagus Nerve Stimulator"[39m, [36m"non-removable implant"[39m).
+If this field is set to [36m"n/a"[39m, it will be interpreted as absence of major
+source of artifacts except cardiac and blinks.
+
+		1 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          26 Files, 100 kB                 seizure                 iEEG                 
+          1 - Subjects 2 - Sessions                                MRI                  
+

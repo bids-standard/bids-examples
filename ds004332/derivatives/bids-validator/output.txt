@@ -1,0 +1,133 @@
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] EVENTS_TSV_MISSING Task scans should have a corresponding 'events.tsv' file.
+If this is a resting state scan you can ignore this warning or rename the task to include the word "rest".[39m
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wore_T1w.nii
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wre_T1w.nii
+
+		56 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=EVENTS_TSV_MISSING for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mTaskDescription[39m
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wore_T1w.nii - Field description: Longer description of the task.
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wre_T1w.nii - Field description: Longer description of the task.
+
+		56 more files with the same issue
+
+		[33mInstructions[39m
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wore_T1w.nii - Field description: Text of the instructions given to participants before the recording.
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wre_T1w.nii - Field description: Text of the instructions given to participants before the recording.
+
+		56 more files with the same issue
+
+		[33mMatrixCoilMode[39m
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wore_T1w.nii - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wre_T1w.nii - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+
+		56 more files with the same issue
+
+		[33mCoilCombinationMethod[39m
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wore_T1w.nii - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wre_T1w.nii - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+
+		56 more files with the same issue
+
+		[33mPulseSequenceType[39m
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wore_T1w.nii - Field description: A general description of the pulse sequence used for the scan.
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wre_T1w.nii - Field description: A general description of the pulse sequence used for the scan.
+
+		56 more files with the same issue
+
+		[33mNonlinearGradientCorrection[39m
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wore_T1w.nii - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wre_T1w.nii - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+
+		56 more files with the same issue
+
+		[33mPartialFourierDirection[39m
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wore_T1w.nii - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+		/sub-01/anat/sub-01_task-nodding_acq-mpragePMCoff_rec-wre_T1w.nii - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+
+		56 more files with the same issue
+
+		[33mSliceTiming[39m
+		/sub-01/anat/sub-01_task-nodding_acq-t1tirmPMCoff_rec-wore_T1w.nii - Field description: The time at which each slice was acquired within each volume (frame) of the
+acquisition.
+Slice timing is not slice order -- rather, it is a list of times containing
+the time (in seconds) of each slice acquisition in relation to the beginning
+of volume acquisition.
+The list goes through the slices along the slice axis in the slice encoding
+dimension (see below).
+Note that to ensure the proper interpretation of the [36m"SliceTiming"[39m field,
+it is important to check if the OPTIONAL [36mSliceEncodingDirection[39m exists.
+In particular, if [36m"SliceEncodingDirection"[39m is negative,
+the entries in [36m"SliceTiming"[39m are defined in reverse order with respect to the
+slice axis, such that the final entry in the [36m"SliceTiming"[39m list is the time
+of acquisition of slice 0. Without this parameter slice time correction will
+not be possible.
+		/sub-01/anat/sub-01_task-nodding_acq-t1tirmPMCoff_rec-wre_T1w.nii - Field description: The time at which each slice was acquired within each volume (frame) of the
+acquisition.
+Slice timing is not slice order -- rather, it is a list of times containing
+the time (in seconds) of each slice acquisition in relation to the beginning
+of volume acquisition.
+The list goes through the slices along the slice axis in the slice encoding
+dimension (see below).
+Note that to ensure the proper interpretation of the [36m"SliceTiming"[39m field,
+it is important to check if the OPTIONAL [36mSliceEncodingDirection[39m exists.
+In particular, if [36m"SliceEncodingDirection"[39m is negative,
+the entries in [36m"SliceTiming"[39m are defined in reverse order with respect to the
+slice axis, such that the final entry in the [36m"SliceTiming"[39m list is the time
+of acquisition of slice 0. Without this parameter slice time correction will
+not be possible.
+
+		30 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          119 Files, 135 kB                nodding                 MRI                  
+          2 - Subjects 1 - Sessions        shaking                                      
+                                           still                                        
+

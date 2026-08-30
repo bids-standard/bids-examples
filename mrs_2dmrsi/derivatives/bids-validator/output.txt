@@ -1,0 +1,245 @@
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mPulseSequenceType[39m
+		/sub-01/anat/sub-01_T1w.nii.gz - Field description: A general description of the pulse sequence used for the scan.
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: A general description of the pulse sequence used for the scan.
+
+		30 more files with the same issue
+
+		[33mNonlinearGradientCorrection[39m
+		/sub-01/anat/sub-01_T1w.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+		/sub-02/anat/sub-02_T1w.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+
+		6 more files with the same issue
+
+		[33mSpoilingType[39m
+		/sub-01/anat/sub-01_T1w.nii.gz - Field description: Specifies which spoiling method(s) are used by a spoiled sequence.
+		/sub-02/anat/sub-02_T1w.nii.gz - Field description: Specifies which spoiling method(s) are used by a spoiled sequence.
+
+		6 more files with the same issue
+
+		[33mPartialFourierDirection[39m
+		/sub-01/anat/sub-01_T1w.nii.gz - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+		/sub-02/anat/sub-02_T1w.nii.gz - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+
+		6 more files with the same issue
+
+		[33mInstitutionName[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		22 more files with the same issue
+
+		[33mInstitutionAddress[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		22 more files with the same issue
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		22 more files with the same issue
+
+		[33mManufacturer[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Manufacturer of the equipment that produced the measurements.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Manufacturer of the equipment that produced the measurements.
+
+		22 more files with the same issue
+
+		[33mManufacturersModelName[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Manufacturer's model name of the equipment that produced the measurements.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+		22 more files with the same issue
+
+		[33mDeviceSerialNumber[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		22 more files with the same issue
+
+		[33mStationName[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Institution defined name of the machine that produced the measurements.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Institution defined name of the machine that produced the measurements.
+
+		22 more files with the same issue
+
+		[33mSoftwareVersions[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		22 more files with the same issue
+
+		[33mMagneticFieldStrength[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Nominal field strength of MR magnet in Tesla.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0087)DICOM Tag 0018, 0087]8;;
+[36mMagnetic Field Strength[39m.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Nominal field strength of MR magnet in Tesla.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0087)DICOM Tag 0018, 0087]8;;
+[36mMagnetic Field Strength[39m.
+
+		22 more files with the same issue
+
+		[33mReceiveCoilName[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Information describing the receiver coil.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,1250)DICOM Tag 0018, 1250]8;;
+[36mReceive Coil Name[39m,
+although not all vendors populate that DICOM Tag,
+in which case this field can be derived from an appropriate
+private DICOM field.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Information describing the receiver coil.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,1250)DICOM Tag 0018, 1250]8;;
+[36mReceive Coil Name[39m,
+although not all vendors populate that DICOM Tag,
+in which case this field can be derived from an appropriate
+private DICOM field.
+
+		22 more files with the same issue
+
+		[33mReceiveCoilActiveElements[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+
+		22 more files with the same issue
+
+		[33mScanningSequence[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Description of the type of data acquired.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Description of the type of data acquired.
+
+		22 more files with the same issue
+
+		[33mPulseSequenceDetails[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Information beyond pulse sequence type that identifies the specific pulse
+sequence used (for example,
+[36m"Standard Siemens Sequence distributed with the VB17 software"[39m,
+[36m"Siemens WIP ### version #.##,"[39m or
+[36m"Sequence written by X using a version compiled on MM/DD/YYYY"[39m).
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Information beyond pulse sequence type that identifies the specific pulse
+sequence used (for example,
+[36m"Standard Siemens Sequence distributed with the VB17 software"[39m,
+[36m"Siemens WIP ### version #.##,"[39m or
+[36m"Sequence written by X using a version compiled on MM/DD/YYYY"[39m).
+
+		22 more files with the same issue
+
+		[33mWaterSuppression[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Boolean indicating whether water suppression was used prior to acquisition.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Boolean indicating whether water suppression was used prior to acquisition.
+
+		22 more files with the same issue
+
+		[33mMixingTime[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: In the context of a stimulated- and spin-echo 3D EPI sequence for B1+ mapping
+or a stimulated-echo MRS sequence,
+corresponds to the interval between spin- and stimulated-echo pulses.
+In the context of a diffusion-weighted double spin-echo sequence,
+corresponds to the interval between two successive diffusion sensitizing
+gradients, specified in seconds.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: In the context of a stimulated- and spin-echo 3D EPI sequence for B1+ mapping
+or a stimulated-echo MRS sequence,
+corresponds to the interval between spin- and stimulated-echo pulses.
+In the context of a diffusion-weighted double spin-echo sequence,
+corresponds to the interval between two successive diffusion sensitizing
+gradients, specified in seconds.
+
+		22 more files with the same issue
+
+		[33mReferenceSignal[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: The path(s) to the MRS reference file(s), if present, to which the associated
+MRS data file corresponds.
+Contains one or more ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#bids-uriBIDS URIs]8;;.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: The path(s) to the MRS reference file(s), if present, to which the associated
+MRS data file corresponds.
+Contains one or more ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#bids-uriBIDS URIs]8;;.
+
+		22 more files with the same issue
+
+		[33mMRAcquisitionType[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+
+		22 more files with the same issue
+
+		[33mMatrixSize[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: An array of integers with a length of 3 denoting the matrix size of the acquisition slab.
+This should be specified as, for example, [36m[32, 32, 1][39m for a 2D acquisition
+or [36m[32, 1, 1][39m for a 1D acquisition.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: An array of integers with a length of 3 denoting the matrix size of the acquisition slab.
+This should be specified as, for example, [36m[32, 32, 1][39m for a 2D acquisition
+or [36m[32, 1, 1][39m for a 1D acquisition.
+
+		22 more files with the same issue
+
+		[33mVolumeAffineMatrix[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: A 4-by-4 matrix using identical conventions and coordinate system to
+the [3m{qs}form[23m NIfTI affine matrix to define the orientation,
+position, and size of an additional VOI.
+This VOI defines a spatial region in addition to the primary method of localization
+(encoded in the NIfTI header [3m{qs}form[23m).
+Typically not defined for data stored with a single spatial voxel or FID-MRSI.
+For example: [36m[[30, 0, 0, -30], [0, 30, -2.27, -72.67], [0, 2.27, 29.91, 5.47], [0, 0, 0, 1]][39m.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: A 4-by-4 matrix using identical conventions and coordinate system to
+the [3m{qs}form[23m NIfTI affine matrix to define the orientation,
+position, and size of an additional VOI.
+This VOI defines a spatial region in addition to the primary method of localization
+(encoded in the NIfTI header [3m{qs}form[23m).
+Typically not defined for data stored with a single spatial voxel or FID-MRSI.
+For example: [36m[[30, 0, 0, -30], [0, 30, -2.27, -72.67], [0, 2.27, 29.91, 5.47], [0, 0, 0, 1]][39m.
+
+		22 more files with the same issue
+
+		[33mEncodingTechnique[39m
+		/sub-01/mrs/sub-01_run-1_mrsi.nii.gz - Field description: The encoding technique used during readout.
+For example, [36m"Cartesian"[39m, [36m"EPSI"[39m, [36m"Spiral"[39m,
+or [36m"Density-weighted concentric ring trajectory"[39m.
+		/sub-01/mrs/sub-01_run-2_mrsi.nii.gz - Field description: The encoding technique used during readout.
+For example, [36m"Cartesian"[39m, [36m"EPSI"[39m, [36m"Spiral"[39m,
+or [36m"Density-weighted concentric ring trajectory"[39m.
+
+		22 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          67 Files, 26.3 kB                                        MRI                  
+          8 - Subjects 1 - Sessions                                mrs                  
+
