@@ -1,5 +1,5 @@
 {
-	"Name": "faceFO",
+	"Name": "Face13-FAC",
 	"License": "ODbL (https://opendatacommons.org/licenses/odbl/summary/)",
 	"Authors": [
 		"James A. Desjardins",
@@ -12,6 +12,9 @@
 	"ReferencesAndLinks": [
 		"http://jov.arvojournals.org/article.aspx?articleid=2121634"
 	],
+	"HEDVersion" : ["8.2.0", "sc:score_0.0.1"],
 	"DatasetDOI": "10.1167/13.5.22",
-	"BIDSVersion": "1.1.1"
+	"BIDSVersion": "1.8.0",
+	"DatasetType": "raw",
+	"PreparedBy": "Tyler Collins"
 }
