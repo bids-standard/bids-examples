@@ -1,0 +1,137 @@
+{
+    "sub-01/func/sub-01_task-movie_echo-1_part-mag_bold.nii.gz": {
+        ".json": {
+            "Modality": "MR",
+            "ScanningSequence": "EP",
+            "ImageType": [
+                "ORIGINAL",
+                "PRIMARY",
+                "M",
+                "MB",
+                "TE1",
+                "ND",
+                "NORM",
+                "MOSAIC"
+            ],
+            "SeriesNumber": 53,
+            "ImageComments": "Unaliased MB4/PE4/LB SENSE1+",
+            "EchoNumber": 1,
+            "EchoTime": 0.015,
+            "RepetitionTime": 1.0,
+            "TaskName": "Movie-watching"
+        }
+    },
+    "sub-01/func/sub-01_task-movie_echo-1_part-phase_bold.nii.gz": {
+        ".json": {
+            "Modality": "MR",
+            "ScanningSequence": "EP",
+            "ImageType": [
+                "ORIGINAL",
+                "PRIMARY",
+                "P",
+                "MB",
+                "TE1",
+                "ND",
+                "MOSAIC",
+                "PHASE"
+            ],
+            "SeriesNumber": 54,
+            "ImageComments": "Unaliased MB4/PE4/LB SENSE1+",
+            "EchoNumber": 1,
+            "EchoTime": 0.015,
+            "Units": "arbitrary",
+            "RepetitionTime": 1.0,
+            "TaskName": "Movie-watching"
+        }
+    },
+    "sub-01/func/sub-01_task-movie_echo-2_part-mag_bold.nii.gz": {
+        ".json": {
+            "Modality": "MR",
+            "ScanningSequence": "EP",
+            "ImageType": [
+                "ORIGINAL",
+                "PRIMARY",
+                "M",
+                "MB",
+                "TE2",
+                "ND",
+                "NORM",
+                "MOSAIC"
+            ],
+            "SeriesNumber": 53,
+            "ImageComments": "Unaliased MB4/PE4/LB SENSE1+",
+            "EchoNumber": 2,
+            "EchoTime": 0.035,
+            "RepetitionTime": 1.0,
+            "TaskName": "Movie-watching"
+        }
+    },
+    "sub-01/func/sub-01_task-movie_echo-2_part-phase_bold.nii.gz": {
+        ".json": {
+            "Modality": "MR",
+            "ScanningSequence": "EP",
+            "ImageType": [
+                "ORIGINAL",
+                "PRIMARY",
+                "P",
+                "MB",
+                "TE2",
+                "ND",
+                "MOSAIC",
+                "PHASE"
+            ],
+            "SeriesNumber": 54,
+            "ImageComments": "Unaliased MB4/PE4/LB SENSE1+",
+            "EchoNumber": 2,
+            "EchoTime": 0.035,
+            "Units": "arbitrary",
+            "RepetitionTime": 1.0,
+            "TaskName": "Movie-watching"
+        }
+    },
+    "sub-01/func/sub-01_task-movie_echo-3_part-mag_bold.nii.gz": {
+        ".json": {
+            "Modality": "MR",
+            "ScanningSequence": "EP",
+            "ImageType": [
+                "ORIGINAL",
+                "PRIMARY",
+                "M",
+                "MB",
+                "TE3",
+                "ND",
+                "NORM",
+                "MOSAIC"
+            ],
+            "SeriesNumber": 53,
+            "ImageComments": "Unaliased MB4/PE4/LB SENSE1+",
+            "EchoNumber": 3,
+            "EchoTime": 0.055,
+            "RepetitionTime": 1.0,
+            "TaskName": "Movie-watching"
+        }
+    },
+    "sub-01/func/sub-01_task-movie_echo-3_part-phase_bold.nii.gz": {
+        ".json": {
+            "Modality": "MR",
+            "ScanningSequence": "EP",
+            "ImageType": [
+                "ORIGINAL",
+                "PRIMARY",
+                "P",
+                "MB",
+                "TE3",
+                "ND",
+                "MOSAIC",
+                "PHASE"
+            ],
+            "SeriesNumber": 54,
+            "ImageComments": "Unaliased MB4/PE4/LB SENSE1+",
+            "EchoNumber": 3,
+            "EchoTime": 0.055,
+            "Units": "arbitrary",
+            "RepetitionTime": 1.0,
+            "TaskName": "Movie-watching"
+        }
+    }
+}

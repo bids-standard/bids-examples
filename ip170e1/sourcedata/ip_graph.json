@@ -1,0 +1,20 @@
+{
+    "task-rest_bold.json": [
+        "sub-01/func/sub-01_task-rest_acq-default_bold.nii.gz",
+        "sub-01/func/sub-01_task-rest_acq-longtr_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-rest_acq-longtr_bold.json": [
+        "sub-01/func/sub-01_task-rest_acq-longtr_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-rest_acq-default_bold.nii.gz": {
+        ".json": [
+            "task-rest_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-rest_acq-longtr_bold.nii.gz": {
+        ".json": [
+            "task-rest_bold.json",
+            "sub-01/func/sub-01_task-rest_acq-longtr_bold.json"
+        ]
+    }
+}

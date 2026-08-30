@@ -1,0 +1,20 @@
+{
+    "sub-01/anat/sub-01_T2starw.json": [
+        "sub-01/anat/sub-01_part-mag_T2starw.nii.gz",
+        "sub-01/anat/sub-01_part-phase_T2starw.nii.gz"
+    ],
+    "sub-01/anat/sub-01_part-phase_T2starw.json": [
+        "sub-01/anat/sub-01_part-phase_T2starw.nii.gz"
+    ],
+    "sub-01/anat/sub-01_part-mag_T2starw.nii.gz": {
+        ".json": [
+            "sub-01/anat/sub-01_T2starw.json"
+        ]
+    },
+    "sub-01/anat/sub-01_part-phase_T2starw.nii.gz": {
+        ".json": [
+            "sub-01/anat/sub-01_T2starw.json",
+            "sub-01/anat/sub-01_part-phase_T2starw.json"
+        ]
+    }
+}

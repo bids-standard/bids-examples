@@ -1,0 +1,16 @@
+{
+    "sub-01/anat/sub-01_T2starw.json": [
+        "sub-01/anat/sub-01_part-real_T2starw.nii.gz",
+        "sub-01/anat/sub-01_part-imag_T2starw.nii.gz"
+    ],
+    "sub-01/anat/sub-01_part-real_T2starw.nii.gz": {
+        ".json": [
+            "sub-01/anat/sub-01_T2starw.json"
+        ]
+    },
+    "sub-01/anat/sub-01_part-imag_T2starw.nii.gz": {
+        ".json": [
+            "sub-01/anat/sub-01_T2starw.json"
+        ]
+    }
+}
