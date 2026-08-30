@@ -1,0 +1,26 @@
+{
+    "Coordsystem": {
+        "forearm-coordsystem":{ 
+            "EMGCoordinateUnits": "percent",
+            "EMGCoordinateSystemDescription": "X: RSP → USP; Y: Right-hand rule (limits: Olecranon Process → Cubital Fossa); Z: midpoint RSP-USP → LHE; Radial Styloid Process (RSP); Ulnar Styloid Process (USP), Lateral Humerus Epicondyle (LHE), Posterior Elbow (Olecranon Process)"
+        },
+        "grid1-coordsystem":{ 
+            "EMGCoordinateUnits": "mm",
+            "EMGCoordinateSystemDescription": "The location of the electgrodes with respect to electrode one (1) is given in millimeters. The x-axis is left to right, the y-axis is bottom to top. note: the z-axis is not used.",
+            "EMGCoordSysAnchor":{
+                "System": "forearm-coordsystem",
+                "AnchorElectrode": "E1",
+                "AnchorCoordinate": [10,80,80]
+            }
+        },
+        "grid2-coordsystem":{ 
+            "EMGCoordinateUnits": "mm",
+            "EMGCoordinateSystemDescription": "The location of the electgrodes with respect to electrode one (1) is given in millimeters. The x-axis is left to right, the y-axis is bottom to top. note: the z-axis is not used.",
+            "EMGCoordSysAnchor":{
+                "System": "forearm-coordsystem",
+                "AnchorElectrode": "E65",
+                "AnchorCoordinate": [10,0,80]
+            }
+        }
+    }
+}

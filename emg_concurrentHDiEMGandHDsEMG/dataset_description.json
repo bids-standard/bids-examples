@@ -1,0 +1,24 @@
+{
+  "Name": "EMG concurrent HDsEMG and HDiEMG example",
+  "License": "BSD 3-Clause",
+  "Authors": [
+    "Thomas Klotz"
+  ], 
+  "ReferencesAndLinks": [
+    "https://github.com/bids-standard/bids-specification/pull/1998/"
+  ],
+  "EthicsApprovals": [
+    "Datasets are de-identified hypotheticals and do not require ethics approval."
+  ],
+  "BIDSVersion": "1.11.1",
+  "HEDVersion": "8.3.0",
+  "DatasetType": "raw",
+  "GeneratedBy": [
+    {
+      "Name": "MUniverse",
+      "Version": "1.0",
+      "CodeURL": "https://github.com/dfarinagroup/muniverse/",
+      "Description": "Semi-manual BIDS annotation"
+    }
+  ]
+} 

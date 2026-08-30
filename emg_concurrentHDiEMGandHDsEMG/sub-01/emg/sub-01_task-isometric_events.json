@@ -1,0 +1,17 @@
+{
+    "onset": {
+        "Description": "Onset time of the event in seconds from recording start.", 
+        "Unit": "s"
+    }, 
+    "duration": {
+        "Description": "Duration of the event in seconds. A value of zero means that the event is a dirac pulse", 
+        "Unit": "s"
+    }, 
+    "sample": {
+        "Description": "Sample index of the event onset (zero-indexing)", 
+        "Unit": "samples"
+    }, 
+    "event_description": {
+        "Description": "Free text event description."
+    }
+}

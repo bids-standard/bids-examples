@@ -1,0 +1,17 @@
+{
+	"EMGChannelCount":2,
+	"EMGPlacementScheme":"The sEMG sensor was located on the belly of the muscle at a position distant from the innervation zones and the muscle tendon interface, following the recommendations of De Luca, 1997 and Saitou et al., 2000. For the sake of this example we will try to included the exact location of the electrodes in the channels.tsv file.",
+	"EMGReference":"bipolar",
+	"EMGGround":"n/a",
+    "EMGElectrodeCount":4,
+    "ElectrodeMaterial":"Ag/AgCl",
+	"Manufacturer":"Delsys",
+	"ManufacturersModelName":"Trigno DE via Delsys Bagnoly-8 amplifier",
+    "AmpifierType":"Wired",
+	"RecordingDuration":1.00,
+	"SamplingFrequency":2000,
+    "HardwareFilters":"loawpass at 450 Hz, Highpass at 0.15 Hz",
+	"TaskDescription":"The movement artifacts were analyzed during limb perturbations on with EMG snesors attached to both lower and upper limbs",
+	"TaskName":"mechPerturbations",
+	"TriggerChannelCount":0
+}
