@@ -1,0 +1,8 @@
+{
+    "EMGCoordinateSystem": "Other",
+    "EMGCoordinateUnits": "mm",
+    "EMGCoordinateSystemDescription": "The location of the electrodes with respect to electrode one (1) is given in millimeters. The x-axis is left to right, the y-axis is bottom to top. Note: the z-axis is not used.",
+    "ParentCoordinateSystem": "forearm",
+    "AnchorElectrode": "E1",
+    "AnchorCoordinates": [10, 80, 80]
+}

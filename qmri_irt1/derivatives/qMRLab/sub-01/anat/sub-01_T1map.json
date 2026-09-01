@@ -9,7 +9,7 @@
   "Manufacturer": "Siemens",
   "ManufacturerModelName": "Skyra",
   "PulseSequenceType": "IR",
-  "RepetitionTime": "2.250",
+  "RepetitionTimeExcitation": "2.250",
   "EchoTime": "0.014",
   "InversionTime": ["0.05","0.4","1.1","2.5"],
   "EstimationPaper": "Barral et. al.MRM, 2010",

@@ -1,0 +1,37 @@
+{
+    "Name": "Harvard-Oxford Subcortical Probabilistic Atlas",
+    "SampleSize": 200,
+    "Description": "The Harvard-Oxford Atlas 2.0 project is developing a state-of-the-art, high-resolution full brain MR atlas consisting of 200 high definition MR data sets from the Human Connectome Project (HCP) parcellated into 392 gray and white matter PUs using structural MRI and 189 white matter fascicles using diffusion MRI. Manual parcellation will be performed based on a developed neuroanatomical ontology using a principled and well-defined parcellation methodology.",
+    "Authors": [
+        "R. Jarrett Rushmore",
+        "Kyle Sutherland",
+        "Holly Carrington",
+        "Justine Chen",
+        "Michael Halle",
+        "Andras Lasso",
+        "George Papadimitriou",
+        "Nick Prunier",
+        "Elizabeth Rizzoni",
+        "Brynn Vessey",
+        "Peter Wilson-Braun",
+        "Yogesh Rathi",
+        "Marek Kubicki",
+        "Sylvain Bouix",
+        "Edward Yeterian",
+        "Nikos Makris"
+    ],
+    "Curators": [
+        "Taylor Salo"
+    ],
+    "Funding": [
+        "NIH NIMH 5R01MH112748-04"
+    ],
+    "License": "https://raw.githubusercontent.com/Slicer/Slicer/main/License.txt",
+    "ReferencesAndLinks": [
+        "https://github.com/HOA-2/SubcorticalParcellations",
+        "https://cma.mgh.harvard.edu"
+    ],
+    "Species": "Human",
+    "DerivedFrom": "resting-state",
+    "LevelType": "group"
+}

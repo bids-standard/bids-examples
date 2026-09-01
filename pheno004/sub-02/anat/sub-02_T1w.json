@@ -1,0 +1,69 @@
+{
+    "Modality": "MR",
+    "MagneticFieldStrength": 3,
+    "ImagingFrequency": 127.696,
+    "Manufacturer": "GE",
+    "ManufacturersModelName": "DISCOVERY MR750",
+    "BodyPartExamined": "BRAIN",
+    "PatientPosition": "HFS",
+    "ProcedureStepDescription": "MRI Brain",
+    "SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R03_1831.b",
+    "MRAcquisitionType": "3D",
+    "SeriesDescription": "ORIG Anat T1w MP-RAGE 1mm (ABCD)",
+    "ProtocolName": "ADNI3 FMRIF Enhanced Pro",
+    "ScanningSequence": "RM",
+    "SequenceVariant": "NONE",
+    "ScanOptions": "EDR_GEMS\\PROMO_GEMS\\ACC_GEMS\\IR_GEMS",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "OTHER"
+    ],
+    "SeriesNumber": 40003,
+    "AcquisitionTime": "15:33:5.000000",
+    "AcquisitionNumber": 1,
+    "SliceThickness": 1,
+    "SpacingBetweenSlices": 1,
+    "SAR": 0.121617,
+    "EchoTime": 0.00292,
+    "RepetitionTime": 0.006952,
+    "InversionTime": 1.06,
+    "FlipAngle": 8,
+    "CoilString": "32Ch Head",
+    "PercentPhaseFOV": 100,
+    "PercentSampling": 100,
+    "AcquisitionMatrixPE": 256,
+    "ReconMatrixPE": 256,
+    "ParallelReductionFactorInPlane": 2,
+    "ParallelReductionOutOfPlane": 2,
+    "PixelBandwidth": 244.141,
+    "ImageOrientationPatientDICOM": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+    ],
+    "InPlanePhaseEncodingDirectionDICOM": "ROW",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20211006",
+    "Dcm2bidsVersion": "2.1.6",
+    "AnatomicalLandmarkCoordinates": {
+        "NAS": [
+            111.79899853515624,
+            216.0946962158203,
+            125.91931025390625
+        ],
+        "LPA": [
+            36.48359853515625,
+            138.14889621582032,
+            92.27751025390626
+        ],
+        "RPA": [
+            175.88069853515626,
+            122.28609621582031,
+            92.83361025390624
+        ]
+    }
+}

@@ -69,7 +69,13 @@ We release `bids-examples` in sync with `bids-specification`.
     configured as a git remote called "upstream")
 1. Tag the `master` branch: `git tag -a -m "X.X.X" X.X.X upstream/master`
    (replace `X.X.X` with the version to be released)
-1. Push the tag upstream: `git push upstream X.X.X`
+1. Make a schema tag: `git tag -a -m "BIDS Schema Y.Y.Y" schema-Y.Y.Y upstream/master`
+   (replace `Y.Y.Y` with the version to be released)
+1. Push the tags upstream: `git push upstream --tags`
+1. Create a maintenance branch to track changes induced by updates to the
+   validator or schema: `git push upstream upstream/master:refs/heads/maint/X.X.X`
+   This branch allows for future schema releases on the corresponding specification
+   branch, without accumulating datasets with new features.
 1. Create a GitHub release using the new tag. Fill the title of the release
    with the name of the tag. Fill the description of the release with a sentence like
    > "Microscopy" BEP was merged into BIDS-specification (2022-02-15).

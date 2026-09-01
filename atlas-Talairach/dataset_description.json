@@ -1,0 +1,37 @@
+{
+    "Authors": [
+        "Jack L. Lancaster",
+        "Marty G. Woldorff",
+        "Lawrence M. Parsons",
+        "Mario Liotti",
+        "Catarina S. Freitas",
+        "Lacy Rainey",
+        "Peter V. Kochunov",
+        "Dan Nickerson",
+        "Shawn A. Mikiten",
+        "Peter T. Fox"
+    ],
+    "BIDSVersion": "1.11.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "bids-atlas",
+            "Version": "0.3.1",
+            "CodeURL": "https://github.com/PeerHerholz/bids_atlas"
+        },
+        {
+            "Name": "nilearn",
+            "CodeURL": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_talairach.html"
+        }
+    ],
+    "License": "Unknown",
+    "Name": "Talairach Deterministic Atlas",
+    "SourceDatasets": [
+        {
+            "URL": "http://www.talairach.org/"
+        },
+        {
+            "URL": "https://www.talairach.org/daemon.html"
+        }
+    ]
+}
