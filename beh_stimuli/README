@@ -1,0 +1,5 @@
+Minimal example of the BEP044 stimulus organization:
+a /stimuli directory with subdirectories, a dataset-wide stimuli.tsv at the
+/stimuli root, a scoped stimuli.tsv in faces/ that amends it (Inheritance
+Principle), stimulus annotations, and events.tsv files referencing stimuli
+through the stim_id column.
