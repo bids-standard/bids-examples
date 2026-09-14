@@ -1,0 +1,21 @@
+{
+    "onset": {
+        "LongName": "Event onset",
+        "Description": "Position (latency) of event marker in seconds relative to the start.",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event. For this stimulus, this is the duration of the shot.",
+        "Units": "seconds",
+        "HED": "(Duration/# s, ({shot_number}))"
+    },
+    "shot_number": {
+        "Description": "Shot sequence number in the movie",
+        "HED": "(Sensory-event, Visual-presentation, (Computer-screen, Label/shotNumber, Item/#))"
+    },
+    "LLR": {
+        "Description": "Log Luminance Ratio for the three frames before and after the shot change",
+        "Units": "dB",
+        "HED": "(Luminance, Computed-feature, Ratio/#)"
+    }
+}
