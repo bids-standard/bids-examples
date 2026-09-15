@@ -1,0 +1,18 @@
+{
+  "TaskName": "Vocalization",
+  "TaskDescription": "Participant producing various vocalizations including vowels, consonants, and humming",
+  "trial_type": {
+    "Description": "Type of vocalization trial",
+    "Levels": {
+      "task": "Overall task period",
+      "vowel": "Sustained vowel sound",
+      "consonant": "Repeated consonant sound",
+      "humming": "Humming",
+      "breath": "Breath/pause",
+      "free": "Free vocalization"
+    }
+  },
+  "description": {
+    "Description": "Human-readable description of the event"
+  }
+}
