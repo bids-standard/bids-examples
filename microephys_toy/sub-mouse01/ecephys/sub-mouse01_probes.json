@@ -1,0 +1,27 @@
+{
+  "model": {
+    "Levels": {
+      "A1x32-Poly3-10mm-50-177": {
+        "Description": "NeuroNexus A1x32-Poly3-10mm-50-177, a 1-shank 32-channel polytrode probe with contacts arranged in a Poly3 configuration",
+        "TermURL": "https://raw.githubusercontent.com/SpikeInterface/probeinterface_library/refs/heads/main/neuronexus/A1x32-Poly3-10mm-50-177/A1x32-Poly3-10mm-50-177.json"
+      },
+      "customprobe1": {
+        "Description": "Custom experimental 16-channel linear silicon probe designed for hippocampal recordings",
+        "TermURL": "bids::probes/customprobe1.json"
+      }
+    }
+  },
+  "anatomical_location": {
+    "Description": "Structure the probe as a whole is placed in, from the Allen Mouse Brain Atlas",
+    "Levels": {
+      "MOp": {
+        "Description": "Primary motor area",
+        "TermURL": "https://atlas.brain-map.org/atlas?atlas=602630314#structure=985"
+      },
+      "CA1": {
+        "Description": "Field CA1",
+        "TermURL": "https://atlas.brain-map.org/atlas?atlas=602630314#structure=382"
+      }
+    }
+  }
+}
