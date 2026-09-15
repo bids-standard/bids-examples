@@ -1,0 +1,54 @@
+{
+  "Name": "Florbetapir NeuroMark Independent Component Analysis Template (MNI305 Space, 2 mm)",
+  "BIDSVersion": "1.11.1",
+  "Description": "Template consisting of 17 amyloid-beta networks and 2 cerebellar independent component networks, according with publication titled Building Multivariate Molecular Imaging Brain Atlases Using the NeuroMark PET Independent Component Analysis Framework. ICA was performed using a model order of 40.",
+  "Modality": "PET",
+  "TracerName": "Florbetapir",
+  "Units": "Z-scores",
+  "SpatialReference": "MNI305",
+  "Resolution": "2mm",
+  "LevelType": "group",
+  "SampleSize": 296,
+  "MeanAge": 76.1,
+  "AgeSD": 8.0,
+  "GroupDescription": "Cognitively normal",
+  "AtlasType": "NeuroMark independent component networks (ICNs)",
+  "LabelMap": [
+    "AU1", "AU2", "SM1", "SM2", "SM3",
+    "VI1", "VI2", "VI3", "VI4", "VI5",
+    "CC1", "CC2", "CC3",
+    "DM1", "DM2", "DM3", "DM4",
+    "CB1", "CB2"
+  ],
+  "ComponentDescription": {
+    "AU1": "Auditory Network 1",
+    "AU2": "Auditory Network 2",
+    "SM1": "Somatosensory Network 1",
+    "SM2": "Somatosensory Network 2",
+    "SM3": "Somatosensory Network 3",
+    "VI1": "Visual Network 1",
+    "VI2": "Visual Network 2",
+    "VI3": "Visual Network 3",
+    "VI4": "Visual Network 4",
+    "VI5": "Visual Network 5",
+    "CC1": "Cognitive Control Network 1",
+    "CC2": "Cognitive Control Network 2",
+    "CC3": "Cognitive Control Network 3",
+    "DM1": "Default Mode Network 1",
+    "DM2": "Default Mode Network 2",
+    "DM3": "Default Mode Network 3",
+    "DM4": "Default Mode Network 4",
+    "CB1": "Cerebellum Network 1",
+    "CB2": "Cerebellum Network 2"
+  },
+  "DerivedFrom": "18F-florbetapir PET imaging using four 5-minute frames per subject, having been SUVR normalized, using the whole cerebellum as reference.",
+  "License": "CC-BY-4.0",
+  "ReferencesAndLinks": ["https://doi.org/10.52294/001c.142578"],
+  "SourceDatasets": [
+	{
+		"URL": "http://adni.loni.usc.edu",
+		"Name": "Alzheimer’s Disease Neuroimaging Initiative (ADNI)",
+		"Version": "ADNI GO/2/3"
+	}
+  ]
+}

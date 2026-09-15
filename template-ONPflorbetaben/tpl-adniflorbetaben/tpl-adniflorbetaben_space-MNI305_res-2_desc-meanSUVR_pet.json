@@ -1,0 +1,25 @@
+{
+  "Name": "MIBA Florbetaben Mean SUVR (MNI305 Space, 2 mm)",
+  "BIDSVersion": "1.11.1",
+  "Description": "Group-level PET template generated from 173 cognitively normal subjects in the Alzheimer's Disease Neuroimaging Initiative (ADNI). Images were acquired using 18F-florbetaben PET with four 5-minute frames per subject, SUVR-normalized using the whole cerebellum as the reference region, then spatially normalized to MNI305 space (2 mm isotropic resolution) and averaged. The resulting template represents mean SUVR values across all subjects.",
+  "Modality": "PET",
+  "TracerName": "Florbetaben",
+  "Units": "SUVR",
+  "SpatialReference": "MNI305",
+  "Resolution": "2mm",
+  "LevelType": "group",
+  "SampleSize": 173,
+  "MeanAge": 70.8,
+  "AgeSD": 7.4,
+  "GroupDescription": "Cognitively normal",
+  "DerivedFrom": "18F-florbetaben PET images acquired as four 5-minute frames per subject, SUVR-normalized using the whole cerebellum as the reference region.",
+  "SourceDatasets": [
+	{
+		"URL": "http://adni.loni.usc.edu",
+		"Name": "Alzheimer’s Disease Neuroimaging Initiative (ADNI)",
+		"Version": "ADNI 3"
+	}
+  ],
+  "License": "CC-BY-4.0",
+  "ReferencesAndLinks": ["https://doi.org/10.52294/001c.142578"]
+}
