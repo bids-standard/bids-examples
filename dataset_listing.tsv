@@ -97,6 +97,7 @@ mri_chunk	Example MRI dataset to illustrate BIDS chunk entity. A single subject,
 atlas-Destrieux				n/a	n/a
 atlas-Schaefer				n/a	n/a
 eyetracking_binocular				beh	events, physio
+eyetracking_eeg	Example dataset of simultaneously collected EEG and eyetreacking.		[@scott-huberty](https://github.com/scott-huberty)	eeg, eyetracking	eeg, eyetracking, channels, electrodes
 atlas-HarvardOxford				n/a	n/a
 atlas-Talairach				n/a	n/a
 atlas-4S				n/a	n/a
