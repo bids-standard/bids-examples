@@ -1,0 +1,40 @@
+{
+    "Name": "Sample BIDS dataset with async visits and sessions",
+    "BIDSVersion": "1.6.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "NB",
+        "RG"
+    ],
+    "Acknowledgements": "Special thanks to the BIDS team",
+    "HowToAcknowledge": "Please cite this paper: ",
+    "Funding": [
+        "",
+        ""
+    ],
+    "EthicsApprovals": [
+        ""
+    ],
+    "ReferencesAndLinks": [
+        ""
+    ],
+    "DatasetDOI": "doi:10.0.2.3/dfjj.10",
+    "HEDVersion": "8.0.0",
+    "GeneratedBy": [
+        {
+        "Name": "reproin",
+        "Version": "0.6.0",
+        "Container": {
+            "Type": "docker",
+            "Tag": "repronim/reproin:0.6.0"
+        }
+        }
+    ],
+    "SourceDatasets": [
+        {
+        "URL": "https://bids-standard.github.io/bids-examples/",
+        "Version": ""
+        }
+    ]
+}
