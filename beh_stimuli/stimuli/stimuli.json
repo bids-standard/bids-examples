@@ -1,0 +1,11 @@
+{
+    "stimulus_id": {
+        "Description": "Unique identifier of the stimulus, matching the stim-<label> entity."
+    },
+    "type": {
+        "Description": "Type of the stimulus file, matching its suffix."
+    },
+    "description": {
+        "Description": "Free-form description of the stimulus."
+    }
+}
