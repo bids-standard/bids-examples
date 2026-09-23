@@ -1,0 +1,27 @@
+{
+    "Name": "Example Microelectrode Electrophysiology Dataset",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Jane Doe",
+        "John Smith"
+    ],
+    "Acknowledgements": "This example dataset demonstrates the BIDS microelectrode electrophysiology specification.",
+    "HowToAcknowledge": "Please cite the BIDS specification and this example dataset.",
+    "Funding": [
+        "NIH Grant R01-12345",
+        "NSF Grant BCS-67890"
+    ],
+    "ReferencesAndLinks": [
+        "https://bids-specification.readthedocs.io"
+    ],
+    "DatasetDOI": "doi:10.0000/example",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Description": "Example dataset created manually for demonstration purposes"
+        }
+    ],
+    "SourceDatasets": []
+}

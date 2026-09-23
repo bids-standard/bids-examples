@@ -1,0 +1,17 @@
+{
+  "sample_type": {
+    "Description": "Type of sample"
+  },
+  "derived_from": {
+    "Description": "The sample this sample was obtained from. Both patched cells come from the same acute slice."
+  },
+  "anatomical_location": {
+    "Description": "Structure the sample was taken from, from the Allen Mouse Brain Atlas",
+    "Levels": {
+      "VISp2/3": {
+        "Description": "Primary visual area, layer 2/3",
+        "TermURL": "https://atlas.brain-map.org/atlas?atlas=602630314#structure=821"
+      }
+    }
+  }
+}
