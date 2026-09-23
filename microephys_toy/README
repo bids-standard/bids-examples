@@ -30,6 +30,12 @@ This dataset demonstrates the following key features:
   and a ReferenceAtlas field, with the localization method given once per
   file in LocalizationMethod
 
+* **Samples for intracellular recordings**: sub-mouse02 has a paired patch-clamp
+  recording from two cells in one acute slice. Each cell is a sample
+  (sample-cell01 and sample-cell02) with its own recording, channels, and
+  electrodes files, and samples.tsv lists the slice (sample-slice01) as the
+  sample both cells were derived from
+
 Dataset Structure
 -----------------
 
@@ -42,7 +48,10 @@ The dataset contains two subjects:
     - probe02: Custom 16-channel probe in right hippocampus CA1
   
 - sub-mouse02: Intracellular electrophysiology (icephys) recordings
-  - Patch-clamp recordings from identified neurons
+  - Paired patch-clamp recording from two layer 2/3 pyramidal neurons in one
+    acute slice of primary visual cortex, stored as one file per cell
+  - Two pipettes (pipette01 and pipette02), shared across both cells in
+    probes.tsv
   - Current-clamp and voltage-clamp recordings
 
 Data Format
@@ -65,6 +74,8 @@ Each recording includes:
 - *_channels.tsv: Recording channel configurations
 - *_ecephys.json or *_icephys.json: Recording parameters and metadata
 - *_events.tsv: Event timing for task-related recordings
+- samples.tsv and samples.json: The samples the icephys recordings were made
+  from, and the slice they were derived from
 - *_coordsystem.json: Coordinate system information (Allen CCF v3)
 
 
