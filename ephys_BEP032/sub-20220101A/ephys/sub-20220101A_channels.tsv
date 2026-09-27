@@ -1,0 +1,3 @@
+channel_id	contact_id	gain	type	unit	samping_frequency	sampling_frequency_unit	channel_name	hardware_filters	recording_mode
+chan-01	con-01	20	CAT	mV	30000	Hz	attached patch	LP_filter_1	current clamp
+chan-02	con-02	50	PP	mV	50000	Hz	perforated patch	LP_filter_2	current clamp
