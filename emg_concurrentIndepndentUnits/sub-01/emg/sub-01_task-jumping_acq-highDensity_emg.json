@@ -1,0 +1,18 @@
+{
+	"EMGChannelCount":128,
+	"EMGPlacementScheme":"Grids placed on the vasutus medialis and lateralis muscles. See channels.tsv and electrdes.tsv for details.",
+	"EMGReference":"placed on the skin over the ankle.",
+	"EMGGround":"n/a",
+    "EMGElectrodeCount":130,
+    "EMGElectrodeGroups": ["Grid1", "Grid2"],
+    "ElectrodeMaterial":"Ag/AgCl",
+	"Manufacturer":"OTBioelettronica",
+	"ManufacturersModelName":"Sessantaquattro",
+    "AmpifierType":"Wireless",
+	"RecordingDuration":1.00,
+	"SamplingFrequency":2000,
+    "HardwareFilters":"n/a",
+	"TaskDescription":"Subject performs single-leg jumping for 30 seconds.",
+	"TaskName":"jumping",
+	"TriggerChannelCount":0
+}
