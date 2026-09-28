@@ -1,0 +1,2255 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-05/eeg/sub-05_task-matchingpennies_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "response_time",
+        "severity": "warning",
+        "location": "/task-matchingpennies_events.json",
+        "issueMessage": "Unit \"ms\" must be \"s\"",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-06/eeg/sub-06_task-matchingpennies_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "response_time",
+        "severity": "warning",
+        "location": "/task-matchingpennies_events.json",
+        "issueMessage": "Unit \"ms\" must be \"s\"",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-07/eeg/sub-07_task-matchingpennies_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "response_time",
+        "severity": "warning",
+        "location": "/task-matchingpennies_events.json",
+        "issueMessage": "Unit \"ms\" must be \"s\"",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-08/eeg/sub-08_task-matchingpennies_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "response_time",
+        "severity": "warning",
+        "location": "/task-matchingpennies_events.json",
+        "issueMessage": "Unit \"ms\" must be \"s\"",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-09/eeg/sub-09_task-matchingpennies_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "response_time",
+        "severity": "warning",
+        "location": "/task-matchingpennies_events.json",
+        "issueMessage": "Unit \"ms\" must be \"s\"",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-10/eeg/sub-10_task-matchingpennies_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "response_time",
+        "severity": "warning",
+        "location": "/task-matchingpennies_events.json",
+        "issueMessage": "Unit \"ms\" must be \"s\"",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.eeg",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vhdr",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RecordingDuration",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Length of the recording in seconds (for example, `3600`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_eeg.vmrk",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-11/eeg/sub-11_task-matchingpennies_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "response_time",
+        "severity": "warning",
+        "location": "/task-matchingpennies_events.json",
+        "issueMessage": "Unit \"ms\" must be \"s\"",
+        "rule": "rules.tabular_data.events.Events"
+      }
+    ],
+    "codeMessages": {
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "EMPTY_FILE": "Empty files not allowed.",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended.",
+      "TSV_COLUMN_TYPE_REDEFINED": "A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "05",
+        "age": 25,
+        "sex": "f"
+      },
+      {
+        "participantId": "06",
+        "age": 30,
+        "sex": "m"
+      },
+      {
+        "participantId": "07",
+        "age": 26,
+        "sex": "m"
+      },
+      {
+        "participantId": "08",
+        "age": 23,
+        "sex": "m"
+      },
+      {
+        "participantId": "09",
+        "age": 30,
+        "sex": "m"
+      },
+      {
+        "participantId": "10",
+        "age": 27,
+        "sex": "f"
+      },
+      {
+        "participantId": "11",
+        "age": 26,
+        "sex": "m"
+      }
+    ],
+    "tasks": [
+      "matchingpennies"
+    ],
+    "modalities": [
+      "EEG"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 44,
+    "size": 700857,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "eeg"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

@@ -1,0 +1,180 @@
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mDeviceSerialNumber[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		1 more files with the same issue
+
+		[33mStationName[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: Institution defined name of the machine that produced the measurements.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: Institution defined name of the machine that produced the measurements.
+
+		1 more files with the same issue
+
+		[33mMatrixCoilMode[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+
+		1 more files with the same issue
+
+		[33mCoilCombinationMethod[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+
+		1 more files with the same issue
+
+		[33mPulseSequenceType[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: A general description of the pulse sequence used for the scan.
+
+		[33mNonlinearGradientCorrection[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+
+		1 more files with the same issue
+
+		[33mMRAcquisitionType[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+
+		[33mPartialFourierDirection[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+
+		1 more files with the same issue
+
+		[33mInstitutionName[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		1 more files with the same issue
+
+		[33mInstitutionAddress[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		1 more files with the same issue
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-Sub103/anat/sub-Sub103_T1w.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		1 more files with the same issue
+
+		[33mLabelingOrientation[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: Orientation of the labeling plane ([36m(P)CASL[39m) or slab ([36mPASL[39m).
+The direction cosines of a normal vector perpendicular to the ASL labeling
+slab or plane with respect to the patient.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9255)DICOM Tag 0018, 9255]8;;
+[36mASL Slab Orientation[39m.
+
+		[33mLabelingPulseAverageGradient[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The average labeling gradient, in milliteslas per meter.
+
+		[33mLabelingPulseMaximumGradient[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The maximum amplitude of the gradient switched on during the application of
+the labeling RF pulse(s), in milliteslas per meter.
+
+		[33mLabelingPulseAverageB1[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The average B1-field strength of the RF labeling pulses, in microteslas.
+As an alternative, [36m"LabelingPulseFlipAngle"[39m can be provided.
+
+		[33mLabelingPulseDuration[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: Duration of the individual labeling pulses, in milliseconds.
+
+		[33mLabelingPulseFlipAngle[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The flip angle of a single labeling pulse, in degrees,
+which can be given as an alternative to [36m"LabelingPulseAverageB1"[39m.
+
+		[33mLabelingPulseInterval[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: Delay between the peaks of the individual labeling pulses, in milliseconds.
+
+		[33mPCASLType[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The type of gradient pulses used in the [36mcontrol[39m condition.
+
+		[33mPhaseEncodingDirection[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: The letters [36mi[39m, [36mj[39m, [36mk[39m correspond to the first, second and third axis of
+the data in the NIFTI file.
+The polarity of the phase encoding is assumed to go from zero index to
+maximum index unless [36m-[39m sign is present
+(then the order is reversed - starting from the highest index instead of
+zero).
+[36mPhaseEncodingDirection[39m is defined as the direction along which phase is was
+modulated which may result in visible distortions.
+Note that this is not the same as the DICOM term
+[36mInPlanePhaseEncodingDirection[39m which can have [36mROW[39m or [36mCOL[39m values.
+
+		[33mTotalReadoutTime[39m
+		/sub-Sub103/perf/sub-Sub103_asl.nii.gz - Field description: This is actually the "effective" total readout time,
+defined as the readout duration, specified in seconds,
+that would have generated data with the given level of distortion.
+It is NOT the actual, physical duration of the readout train.
+If [36m"EffectiveEchoSpacing"[39m has been properly computed,
+it is just [36mEffectiveEchoSpacing * (ReconMatrixPE - 1)[39m.
+
+		[33mAcquisitionVoxelSize[39m
+		/sub-Sub103/perf/sub-Sub103_m0scan.nii.gz - Field description: An array of numbers with a length of 3, in millimeters.
+This field denotes the original acquisition voxel size,
+excluding any inter-slice gaps and before any interpolation or resampling
+within reconstruction or image processing.
+Any point spread function effects, for example due to T2-blurring,
+that would decrease the effective resolution are not considered here.
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          10 Files, 147 kB                                         MRI                  
+          1 - Subjects 1 - Sessions                                                     
+

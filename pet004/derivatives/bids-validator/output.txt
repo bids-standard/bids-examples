@@ -1,0 +1,139 @@
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mInstitutionName[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		[33mInstitutionAddress[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		[33mTracerRadLex[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: ID of the tracer compound from the RadLex Ontology.
+
+		[33mTracerSNOMED[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: ID of the tracer compound from the SNOMED Ontology
+(subclass of Radioactive isotope).
+
+		[33mInjectedMassPerWeight[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Injected mass per kilogram bodyweight.
+
+		[33mInjectedMassPerWeightUnits[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Unit format of the injected mass per kilogram bodyweight
+(for example, [36m"ug/kg"[39m).
+
+		[33mSpecificRadioactivityMeasTime[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Time to which specific radioactivity measurement above applies in the default
+unit [36m"hh:mm:ss"[39m.
+
+		[33mPurity[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Purity of the radiolabeled compound (between 0 and 100%).
+
+		[33mPharmaceuticalDoseUnits[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Unit format relating to pharmaceutical dose
+(for example, [36m"mg"[39m or [36m"mg/kg"[39m).
+
+		[33mInjectionEnd[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Time of end of injection with respect to [36m"TimeZero"[39m in the default unit
+seconds.
+
+		[33mReconMethodImplementationVersion[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Identification for the software used, such as name and version.
+
+		[33mAttenuationCorrectionMethodReference[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Reference paper for the attenuation correction method used.
+
+		[33mScaleFactor[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Scale factor for each frame. This field MUST be defined if the imaging data ([36m.nii[.gz][39m) are scaled.
+If this field is not defined, then it is assumed that the scaling factor is 1. Defining this field
+when the scaling factor is 1 is RECOMMENDED, for the sake of clarity.
+
+		[33mScatterFraction[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Scatter fraction for each frame (Units: 0-100%).
+
+		[33mDecayCorrectionFactor[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Decay correction factor for each frame.
+
+		[33mDoseCalibrationFactor[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Multiplication factor used to transform raw data (in counts/sec) to meaningful unit (Bq/ml).
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0054,1322)DICOM Tag 0054, 1322]8;;
+[36mDose Calibration Factor[39m.
+
+		[33mPromptRate[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Prompt rate for each frame (same units as [36mUnits[39m, for example, [36m"Bq/mL"[39m).
+
+		[33mSinglesRate[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Singles rate for each frame (same units as [36mUnits[39m, for example, [36m"Bq/mL"[39m).
+
+		[33mRandomRate[39m
+		/sub-01/pet/sub-01_pet.nii.gz - Field description: Random rate for each frame (same units as [36m"Units"[39m, for example, [36m"Bq/mL"[39m).
+
+		[33mWithdrawalRate[39m
+		/sub-01/pet/sub-01_recording-autosampler_blood.tsv - Field description: The rate at which the blood was withdrawn from the subject.
+The unit of the specified withdrawal rate should be in [36m"mL/s"[39m.
+		/sub-01/pet/sub-01_recording-manual_blood.tsv - Field description: The rate at which the blood was withdrawn from the subject.
+The unit of the specified withdrawal rate should be in [36m"mL/s"[39m.
+
+		[33mTubingType[39m
+		/sub-01/pet/sub-01_recording-autosampler_blood.tsv - Field description: Description of the type of tubing used, ideally including the material and
+(internal) diameter.
+		/sub-01/pet/sub-01_recording-manual_blood.tsv - Field description: Description of the type of tubing used, ideally including the material and
+(internal) diameter.
+
+		[33mTubingLength[39m
+		/sub-01/pet/sub-01_recording-autosampler_blood.tsv - Field description: The length of the blood tubing, from the subject to the detector in meters.
+		/sub-01/pet/sub-01_recording-manual_blood.tsv - Field description: The length of the blood tubing, from the subject to the detector in meters.
+
+		[33mDispersionConstant[39m
+		/sub-01/pet/sub-01_recording-autosampler_blood.tsv - Field description: External dispersion time constant resulting from tubing in default unit
+seconds.
+		/sub-01/pet/sub-01_recording-manual_blood.tsv - Field description: External dispersion time constant resulting from tubing in default unit
+seconds.
+
+		[33mHaematocrit[39m
+		/sub-01/pet/sub-01_recording-autosampler_blood.tsv - Field description: Measured haematocrit, meaning the volume of erythrocytes divided by the
+volume of whole blood.
+		/sub-01/pet/sub-01_recording-manual_blood.tsv - Field description: Measured haematocrit, meaning the volume of erythrocytes divided by the
+volume of whole blood.
+
+		[33mBloodDensity[39m
+		/sub-01/pet/sub-01_recording-autosampler_blood.tsv - Field description: Measured blood density. Unit of blood density should be in [36m"g/mL"[39m.
+		/sub-01/pet/sub-01_recording-manual_blood.tsv - Field description: Measured blood density. Unit of blood density should be in [36m"g/mL"[39m.
+
+		[33mPlasmaFreeFraction[39m
+		/sub-01/pet/sub-01_recording-manual_blood.tsv - Field description: Measured free fraction in plasma, meaning the concentration of free compound
+in plasma divided by total concentration of compound in plasma
+(Units: 0-100%).
+
+		[33mPlasmaFreeFractionMethod[39m
+		/sub-01/pet/sub-01_recording-manual_blood.tsv - Field description: Method used to estimate free fraction.
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          10 Files, 33.8 kB                                        PET                  
+          1 - Subjects 1 - Sessions                                                     
+

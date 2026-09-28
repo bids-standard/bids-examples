@@ -1,0 +1,206 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/README"
+      },
+      {
+        "code": "README_FILE_SMALL",
+        "severity": "warning",
+        "location": "/README",
+        "rule": "rules.checks.general.ReadmeFileSmall"
+      },
+      {
+        "code": "TOO_FEW_AUTHORS",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.TooFewAuthors"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "NO_AUTHORS",
+        "subCode": "Authors",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: List of individuals who contributed to the creation/curation of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_authors"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz"
+      },
+      {
+        "code": "B0_FIELD_IDENTIFIER_RECOMMENDED",
+        "subCode": "B0FieldIdentifier",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: The presence of this key states that this particular 3D or 4D image MAY be\nused for fieldmap estimation purposes.\nEach `\"B0FieldIdentifier\"` MUST be a unique string within one participant's tree,\nshared only by the images meant to be used as inputs for the estimation of a\nparticular instance of the *B<sub>0</sub> field* estimation.\nIt is RECOMMENDED to derive this identifier from DICOM Tags, for example,\nDICOM tag 0018, 1030 `Protocol Name`, or DICOM tag 0018, 0024 `Sequence Name`\nwhen the former is not defined (for example, in GE devices.)\n",
+        "rule": "rules.sidecars.fmap.MRIFieldmapB0FieldIdentifier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilActiveElements",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: Information describing the active/selected elements of the receiver coil.\nThis does not correspond to a tag in the DICOM ontology.\nThe vendor-defined terminology for active coil elements can go in this field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CoilCombinationMethod",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares\n(rSOS) combination, but other methods exist.\nThe image reconstruction is changed by the coil combination method\n(as for the matrix coil mode above),\nso anything non-standard should be reported.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "NonlinearGradientCorrection",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: Boolean stating if the image saved has been corrected for gradient\nnonlinearities by the scanner sequence.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz"
+      },
+      {
+        "code": "B0_FIELD_IDENTIFIER_RECOMMENDED",
+        "subCode": "B0FieldIdentifier",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: The presence of this key states that this particular 3D or 4D image MAY be\nused for fieldmap estimation purposes.\nEach `\"B0FieldIdentifier\"` MUST be a unique string within one participant's tree,\nshared only by the images meant to be used as inputs for the estimation of a\nparticular instance of the *B<sub>0</sub> field* estimation.\nIt is RECOMMENDED to derive this identifier from DICOM Tags, for example,\nDICOM tag 0018, 1030 `Protocol Name`, or DICOM tag 0018, 0024 `Sequence Name`\nwhen the former is not defined (for example, in GE devices.)\n",
+        "rule": "rules.sidecars.fmap.MRIFieldmapB0FieldIdentifier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilActiveElements",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: Information describing the active/selected elements of the receiver coil.\nThis does not correspond to a tag in the DICOM ontology.\nThe vendor-defined terminology for active coil elements can go in this field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CoilCombinationMethod",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares\n(rSOS) combination, but other methods exist.\nThe image reconstruction is changed by the coil combination method\n(as for the matrix coil mode above),\nso anything non-standard should be reported.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "NonlinearGradientCorrection",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: Boolean stating if the image saved has been corrected for gradient\nnonlinearities by the scanner sequence.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      }
+    ],
+    "codeMessages": {
+      "EMPTY_FILE": "Empty files not allowed.",
+      "README_FILE_SMALL": "The recommended file '/README' is very small.\nPlease consider expanding it with additional information about the dataset.\n",
+      "TOO_FEW_AUTHORS": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "NO_AUTHORS": "The Authors field of dataset_description.json should contain an array of fields -\nwith one author per field. This was triggered because there are no authors, which\nwill make DOI registration from dataset metadata impossible.\n",
+      "B0_FIELD_IDENTIFIER_RECOMMENDED": "File is missing B0FieldIdentifier metadata and IntendedFor metadata,\nso it will not be possible to use to perform susceptibility distortion correction.\nB0FieldIdentifier metadata permits the flexible selection of images\nfor estimating B0 inhomogeneity fields, and B0FieldSource permits EPI\nimages to indicate the identifier of the estimated field to use.\n",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "01"
+    ],
+    "subjectMetadata": [],
+    "tasks": [],
+    "modalities": [
+      "MRI"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 6,
+    "size": 57981,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "fmap"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

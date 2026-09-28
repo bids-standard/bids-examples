@@ -1,0 +1,3482 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "README_FILE_SMALL",
+        "severity": "warning",
+        "location": "/README",
+        "rule": "rules.checks.general.ReadmeFileSmall"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm001/eeg/sub-cbm001_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm002/eeg/sub-cbm002_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm003/eeg/sub-cbm003_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm004/eeg/sub-cbm004_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm005/eeg/sub-cbm005_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm006/eeg/sub-cbm006_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm007/eeg/sub-cbm007_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm008/eeg/sub-cbm008_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm009/eeg/sub-cbm009_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm010/eeg/sub-cbm010_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm011/eeg/sub-cbm011_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm012/eeg/sub-cbm012_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm013/eeg/sub-cbm013_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm014/eeg/sub-cbm014_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf"
+      },
+      {
+        "code": "EEG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "rule": "rules.checks.eeg.EEGChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm015/eeg/sub-cbm015_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf"
+      },
+      {
+        "code": "EEG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "rule": "rules.checks.eeg.EEGChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm016/eeg/sub-cbm016_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf"
+      },
+      {
+        "code": "EEG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "rule": "rules.checks.eeg.EEGChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm017/eeg/sub-cbm017_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf"
+      },
+      {
+        "code": "EEG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "rule": "rules.checks.eeg.EEGChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm018/eeg/sub-cbm018_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf"
+      },
+      {
+        "code": "EEG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "rule": "rules.checks.eeg.EEGChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm019/eeg/sub-cbm019_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf"
+      },
+      {
+        "code": "EEG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "rule": "rules.checks.eeg.EEGChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturer",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Name of the cap manufacturer (for example, `\"EasyCap\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "EEGGround",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Description of the location of the ground electrode\n(for example, `\"placed on right mastoid (M2)\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_eeg.edf",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "value",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-cbm020/eeg/sub-cbm020_task-protmap_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      }
+    ],
+    "codeMessages": {
+      "README_FILE_SMALL": "The recommended file '/README' is very small.\nPlease consider expanding it with additional information about the dataset.\n",
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "EMPTY_FILE": "Empty files not allowed.",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended.",
+      "TSV_ADDITIONAL_COLUMNS_UNDEFINED": "A TSV file has extra columns which are not defined in its associated JSON sidecar",
+      "EEG_CHANNEL_COUNT_MISMATCH": "The EEGChannelCount metadata does not match the number of channels\nwith type EEG in the associated channels.tsv file.\n"
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "cbm001",
+      "cbm002",
+      "cbm003",
+      "cbm004",
+      "cbm005",
+      "cbm006",
+      "cbm007",
+      "cbm008",
+      "cbm009",
+      "cbm010",
+      "cbm011",
+      "cbm012",
+      "cbm013",
+      "cbm014",
+      "cbm015",
+      "cbm016",
+      "cbm017",
+      "cbm018",
+      "cbm019",
+      "cbm020"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "cbm001",
+        "age": 20.94,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm002",
+        "age": 46.57,
+        "sex": "F"
+      },
+      {
+        "participantId": "cbm003",
+        "age": 24.16,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm004",
+        "age": 29.66,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm005",
+        "age": 18.38,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm006",
+        "age": 18.21,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm007",
+        "age": 20.83,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm008",
+        "age": 29.14,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm009",
+        "age": 26.1,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm010",
+        "age": 21.22,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm011",
+        "age": 37.51,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm012",
+        "age": 17.5,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm013",
+        "age": 42.75,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm014",
+        "age": 39.96,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm015",
+        "age": 21.81,
+        "sex": "F"
+      },
+      {
+        "participantId": "cbm016",
+        "age": 28.44,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm017",
+        "age": 22.05,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm018",
+        "age": 38.81,
+        "sex": "F"
+      },
+      {
+        "participantId": "cbm019",
+        "age": 23.9,
+        "sex": "M"
+      },
+      {
+        "participantId": "cbm020",
+        "age": 39.35,
+        "sex": "F"
+      }
+    ],
+    "tasks": [
+      "prot map"
+    ],
+    "modalities": [
+      "EEG"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 104,
+    "size": 74658,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "eeg"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

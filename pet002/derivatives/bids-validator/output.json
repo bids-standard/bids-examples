@@ -1,0 +1,1159 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilActiveElements",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Information describing the active/selected elements of the receiver coil.\nThis does not correspond to a tag in the DICOM ontology.\nThe vendor-defined terminology for active coil elements can go in this field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CoilCombinationMethod",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares\n(rSOS) combination, but other methods exist.\nThe image reconstruction is changed by the coil combination method\n(as for the matrix coil mode above),\nso anything non-standard should be reported.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "NonlinearGradientCorrection",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Boolean stating if the image saved has been corrected for gradient\nnonlinearities by the scanner sequence.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MRAcquisitionType",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Type of sequence readout.\nCorresponds to [DICOM Tag 0018, 0023](http://www.dicomlookup.com/dicomtags/(0018,0023))\n`MR Acquisition Type`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DwellTime",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Actual dwell time (in seconds) of the receiver per point in the readout\ndirection, including any oversampling.\nFor Siemens, this corresponds to DICOM field 0019, 1018 (in ns).\nThis value is necessary for the optional readout distortion correction of\nanatomicals in the HCP Pipelines.\nIt also usefully provides a handle on the readout bandwidth,\nwhich isn't captured in the other metadata tags.\nNot to be confused with `\"EffectiveEchoSpacing\"`, and the frequent mislabeling\nof echo spacing (which is spacing in the phase encoding direction) as\n\"dwell time\" (which is spacing in the readout direction).\n",
+        "rule": "rules.sidecars.mri.MRITimingParameters"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/anat/sub-01_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerRadLex",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the RadLex Ontology.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerSNOMED",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the SNOMED Ontology\n(subclass of Radioactive isotope).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeight",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Injected mass per kilogram bodyweight.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeightUnits",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Unit format of the injected mass per kilogram bodyweight\n(for example, `\"ug/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SpecificRadioactivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time to which specific radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MolarActivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time to which molar radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionRadioactivity",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Amount of radioactivity infused into the patient.\nThis value must be less than or equal to the total injected radioactivity\n(`\"InjectedRadioactivity\"`).\nUnits should be the same as `\"InjectedRadioactivityUnits\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionStart",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time of start of infusion with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionSpeed",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: If given, infusion speed.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionSpeedUnits",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Unit of infusion speed (for example, `\"mL/s\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedVolume",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Injected volume of the radiotracer in the unit `\"mL\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Purity",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Purity of the radiolabeled compound (between 0 and 100%).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalName",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Name of pharmaceutical.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseAmount",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseUnits",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseRegimen",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseTime",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectionEnd",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time of end of injection with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETTime"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReconMethodImplementationVersion",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Identification for the software used, such as name and version.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "AttenuationCorrectionMethodReference",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Reference paper for the attenuation correction method used.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ScaleFactor",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Scale factor for each frame. This field MUST be defined if the imaging data (`.nii[.gz]`) are scaled.\nIf this field is not defined, then it is assumed that the scaling factor is 1. Defining this field\nwhen the scaling factor is 1 is RECOMMENDED, for the sake of clarity.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ScatterFraction",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Scatter fraction for each frame (Units: 0-100%).\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DecayCorrectionFactor",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Decay correction factor for each frame.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DoseCalibrationFactor",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Multiplication factor used to transform raw data (in counts/sec) to meaningful unit (Bq/ml).\nCorresponds to [DICOM Tag 0054, 1322](http://www.dicomlookup.com/dicomtags/(0054,1322))\n`Dose Calibration Factor`.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PromptRate",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Prompt rate for each frame (same units as `Units`, for example, `\"Bq/mL\"`).\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SinglesRate",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Singles rate for each frame (same units as `Units`, for example, `\"Bq/mL\"`).\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "RandomRate",
+        "severity": "warning",
+        "location": "/sub-01/ses-baseline/pet/sub-01_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Random rate for each frame (same units as `\"Units\"`, for example, `\"Bq/mL\"`).\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilActiveElements",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Information describing the active/selected elements of the receiver coil.\nThis does not correspond to a tag in the DICOM ontology.\nThe vendor-defined terminology for active coil elements can go in this field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CoilCombinationMethod",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares\n(rSOS) combination, but other methods exist.\nThe image reconstruction is changed by the coil combination method\n(as for the matrix coil mode above),\nso anything non-standard should be reported.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "NonlinearGradientCorrection",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Boolean stating if the image saved has been corrected for gradient\nnonlinearities by the scanner sequence.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MRAcquisitionType",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Type of sequence readout.\nCorresponds to [DICOM Tag 0018, 0023](http://www.dicomlookup.com/dicomtags/(0018,0023))\n`MR Acquisition Type`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DwellTime",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Actual dwell time (in seconds) of the receiver per point in the readout\ndirection, including any oversampling.\nFor Siemens, this corresponds to DICOM field 0019, 1018 (in ns).\nThis value is necessary for the optional readout distortion correction of\nanatomicals in the HCP Pipelines.\nIt also usefully provides a handle on the readout bandwidth,\nwhich isn't captured in the other metadata tags.\nNot to be confused with `\"EffectiveEchoSpacing\"`, and the frequent mislabeling\nof echo spacing (which is spacing in the phase encoding direction) as\n\"dwell time\" (which is spacing in the readout direction).\n",
+        "rule": "rules.sidecars.mri.MRITimingParameters"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/anat/sub-01_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerRadLex",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the RadLex Ontology.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerSNOMED",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the SNOMED Ontology\n(subclass of Radioactive isotope).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeight",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Injected mass per kilogram bodyweight.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeightUnits",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Unit format of the injected mass per kilogram bodyweight\n(for example, `\"ug/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SpecificRadioactivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time to which specific radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MolarActivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time to which molar radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionRadioactivity",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Amount of radioactivity infused into the patient.\nThis value must be less than or equal to the total injected radioactivity\n(`\"InjectedRadioactivity\"`).\nUnits should be the same as `\"InjectedRadioactivityUnits\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionStart",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time of start of infusion with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionSpeed",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: If given, infusion speed.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionSpeedUnits",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Unit of infusion speed (for example, `\"mL/s\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedVolume",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Injected volume of the radiotracer in the unit `\"mL\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Purity",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Purity of the radiolabeled compound (between 0 and 100%).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalName",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Name of pharmaceutical.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseAmount",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseUnits",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseRegimen",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseTime",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectionEnd",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time of end of injection with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETTime"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReconMethodImplementationVersion",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Identification for the software used, such as name and version.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "AttenuationCorrectionMethodReference",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Reference paper for the attenuation correction method used.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DoseCalibrationFactor",
+        "severity": "warning",
+        "location": "/sub-01/ses-rescan/pet/sub-01_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Multiplication factor used to transform raw data (in counts/sec) to meaningful unit (Bq/ml).\nCorresponds to [DICOM Tag 0054, 1322](http://www.dicomlookup.com/dicomtags/(0054,1322))\n`Dose Calibration Factor`.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilActiveElements",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Information describing the active/selected elements of the receiver coil.\nThis does not correspond to a tag in the DICOM ontology.\nThe vendor-defined terminology for active coil elements can go in this field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CoilCombinationMethod",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares\n(rSOS) combination, but other methods exist.\nThe image reconstruction is changed by the coil combination method\n(as for the matrix coil mode above),\nso anything non-standard should be reported.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "NonlinearGradientCorrection",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Boolean stating if the image saved has been corrected for gradient\nnonlinearities by the scanner sequence.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MRAcquisitionType",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: Type of sequence readout.\nCorresponds to [DICOM Tag 0018, 0023](http://www.dicomlookup.com/dicomtags/(0018,0023))\n`MR Acquisition Type`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerRadLex",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the RadLex Ontology.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerSNOMED",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the SNOMED Ontology\n(subclass of Radioactive isotope).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeight",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Injected mass per kilogram bodyweight.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeightUnits",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Unit format of the injected mass per kilogram bodyweight\n(for example, `\"ug/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SpecificRadioactivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time to which specific radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MolarActivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time to which molar radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionRadioactivity",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Amount of radioactivity infused into the patient.\nThis value must be less than or equal to the total injected radioactivity\n(`\"InjectedRadioactivity\"`).\nUnits should be the same as `\"InjectedRadioactivityUnits\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionStart",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time of start of infusion with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionSpeed",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: If given, infusion speed.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionSpeedUnits",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Unit of infusion speed (for example, `\"mL/s\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedVolume",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Injected volume of the radiotracer in the unit `\"mL\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Purity",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Purity of the radiolabeled compound (between 0 and 100%).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalName",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Name of pharmaceutical.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseAmount",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseUnits",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseRegimen",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseTime",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectionEnd",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Time of end of injection with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETTime"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReconMethodImplementationVersion",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Identification for the software used, such as name and version.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "AttenuationCorrectionMethodReference",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Reference paper for the attenuation correction method used.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DoseCalibrationFactor",
+        "severity": "warning",
+        "location": "/sub-02/ses-baseline/pet/sub-02_ses-baseline_pet.nii.gz",
+        "issueMessage": "Field description: Multiplication factor used to transform raw data (in counts/sec) to meaningful unit (Bq/ml).\nCorresponds to [DICOM Tag 0054, 1322](http://www.dicomlookup.com/dicomtags/(0054,1322))\n`Dose Calibration Factor`.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReceiveCoilActiveElements",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/anat/sub-02_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Information describing the active/selected elements of the receiver coil.\nThis does not correspond to a tag in the DICOM ontology.\nThe vendor-defined terminology for active coil elements can go in this field.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MatrixCoilMode",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/anat/sub-02_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: (If used)\nA method for reducing the number of independent channels by combining in\nanalog the signals from multiple coil elements.\nThere are typically different default modes when using un-accelerated or\naccelerated (for example, `\"GRAPPA\"`, `\"SENSE\"`) imaging.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CoilCombinationMethod",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/anat/sub-02_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares\n(rSOS) combination, but other methods exist.\nThe image reconstruction is changed by the coil combination method\n(as for the matrix coil mode above),\nso anything non-standard should be reported.\n",
+        "rule": "rules.sidecars.mri.MRIHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PulseSequenceType",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/anat/sub-02_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: A general description of the pulse sequence used for the scan.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "NonlinearGradientCorrection",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/anat/sub-02_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Boolean stating if the image saved has been corrected for gradient\nnonlinearities by the scanner sequence.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MRAcquisitionType",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/anat/sub-02_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: Type of sequence readout.\nCorresponds to [DICOM Tag 0018, 0023](http://www.dicomlookup.com/dicomtags/(0018,0023))\n`MR Acquisition Type`.\n",
+        "rule": "rules.sidecars.mri.MRISequenceSpecifics"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PartialFourierDirection",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/anat/sub-02_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: The direction where only partial Fourier information was collected.\nCorresponds to [DICOM Tag 0018, 9036](http://www.dicomlookup.com/dicomtags/(0018,9036))\n`Partial Fourier Direction`.\n",
+        "rule": "rules.sidecars.mri.MRIPartialFourier"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/anat/sub-02_ses-rescan_T1w.nii",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.mri.MRIInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionName",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: The name of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.pet.PETInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerRadLex",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the RadLex Ontology.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TracerSNOMED",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: ID of the tracer compound from the SNOMED Ontology\n(subclass of Radioactive isotope).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeight",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Injected mass per kilogram bodyweight.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedMassPerWeightUnits",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Unit format of the injected mass per kilogram bodyweight\n(for example, `\"ug/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SpecificRadioactivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time to which specific radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MolarActivityMeasTime",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time to which molar radioactivity measurement above applies in the default\nunit `\"hh:mm:ss\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionRadioactivity",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Amount of radioactivity infused into the patient.\nThis value must be less than or equal to the total injected radioactivity\n(`\"InjectedRadioactivity\"`).\nUnits should be the same as `\"InjectedRadioactivityUnits\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionStart",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time of start of infusion with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionSpeed",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: If given, infusion speed.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InfusionSpeedUnits",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Unit of infusion speed (for example, `\"mL/s\"`).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectedVolume",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Injected volume of the radiotracer in the unit `\"mL\"`.\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Purity",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Purity of the radiolabeled compound (between 0 and 100%).\n",
+        "rule": "rules.sidecars.pet.PETRadioChemistry"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalName",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Name of pharmaceutical.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseAmount",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Dose amount of administered pharmaceutical.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseUnits",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Unit format relating to pharmaceutical dose\n(for example, `\"mg\"` or `\"mg/kg\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseRegimen",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Details of the pharmaceutical dose regimen.\nEither adequate description or short-code relating to regimen documented\nelsewhere (for example, `\"single oral bolus\"`).\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "PharmaceuticalDoseTime",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time of administration of pharmaceutical dose, relative to time zero.\nFor an infusion, this should be a vector with two elements specifying the\nstart and end of the infusion period. For more complex dose regimens,\nthe regimen description should be complete enough to enable unambiguous\ninterpretation of `\"PharmaceuticalDoseTime\"`.\nUnit format of the specified pharmaceutical dose time MUST be seconds.\n",
+        "rule": "rules.sidecars.pet.PETPharmaceuticals"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InjectionEnd",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Time of end of injection with respect to `\"TimeZero\"` in the default unit\nseconds.\n",
+        "rule": "rules.sidecars.pet.PETTime"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ReconMethodImplementationVersion",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Identification for the software used, such as name and version.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "AttenuationCorrectionMethodReference",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Reference paper for the attenuation correction method used.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DoseCalibrationFactor",
+        "severity": "warning",
+        "location": "/sub-02/ses-rescan/pet/sub-02_ses-rescan_pet.nii.gz",
+        "issueMessage": "Field description: Multiplication factor used to transform raw data (in counts/sec) to meaningful unit (Bq/ml).\nCorresponds to [DICOM Tag 0054, 1322](http://www.dicomlookup.com/dicomtags/(0054,1322))\n`Dose Calibration Factor`.\n",
+        "rule": "rules.sidecars.pet.PETReconstruction"
+      }
+    ],
+    "codeMessages": {
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended."
+    }
+  },
+  "summary": {
+    "sessions": [
+      "baseline",
+      "rescan"
+    ],
+    "subjects": [
+      "01",
+      "02"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "01",
+        "age": 21.5086
+      },
+      {
+        "participantId": "02",
+        "age": 20.7255
+      }
+    ],
+    "tasks": [],
+    "modalities": [
+      "PET",
+      "MRI"
+    ],
+    "secondaryModalities": [
+      "MRI_Structural"
+    ],
+    "totalFiles": 20,
+    "size": 953741,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "anat",
+      "pet"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

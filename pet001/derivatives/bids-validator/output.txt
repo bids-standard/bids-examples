@@ -1,0 +1,239 @@
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mReceiveCoilActiveElements[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+
+		[33mMatrixCoilMode[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+
+		[33mCoilCombinationMethod[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+
+		[33mPulseSequenceType[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: A general description of the pulse sequence used for the scan.
+
+		[33mNonlinearGradientCorrection[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+
+		[33mMRAcquisitionType[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+
+		[33mPartialFourierDirection[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+
+		[33mDwellTime[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: Actual dwell time (in seconds) of the receiver per point in the readout
+direction, including any oversampling.
+For Siemens, this corresponds to DICOM field 0019, 1018 (in ns).
+This value is necessary for the optional readout distortion correction of
+anatomicals in the HCP Pipelines.
+It also usefully provides a handle on the readout bandwidth,
+which isn't captured in the other metadata tags.
+Not to be confused with [36m"EffectiveEchoSpacing"[39m, and the frequent mislabeling
+of echo spacing (which is spacing in the phase encoding direction) as
+"dwell time" (which is spacing in the readout direction).
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		[33mInstitutionName[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		[33mInstitutionAddress[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		[33mTracerRadLex[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: ID of the tracer compound from the RadLex Ontology.
+
+		[33mTracerSNOMED[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: ID of the tracer compound from the SNOMED Ontology
+(subclass of Radioactive isotope).
+
+		[33mInjectedMassPerWeight[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Injected mass per kilogram bodyweight.
+
+		[33mInjectedMassPerWeightUnits[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Unit format of the injected mass per kilogram bodyweight
+(for example, [36m"ug/kg"[39m).
+
+		[33mSpecificRadioactivityMeasTime[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Time to which specific radioactivity measurement above applies in the default
+unit [36m"hh:mm:ss"[39m.
+
+		[33mInfusionRadioactivity[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Amount of radioactivity infused into the patient.
+This value must be less than or equal to the total injected radioactivity
+([36m"InjectedRadioactivity"[39m).
+Units should be the same as [36m"InjectedRadioactivityUnits"[39m.
+
+		[33mInfusionStart[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Time of start of infusion with respect to [36m"TimeZero"[39m in the default unit
+seconds.
+
+		[33mInfusionSpeed[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: If given, infusion speed.
+
+		[33mInfusionSpeedUnits[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Unit of infusion speed (for example, [36m"mL/s"[39m).
+
+		[33mInjectedVolume[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Injected volume of the radiotracer in the unit [36m"mL"[39m.
+
+		[33mPurity[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Purity of the radiolabeled compound (between 0 and 100%).
+
+		[33mPharmaceuticalName[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Name of pharmaceutical.
+
+		[33mPharmaceuticalDoseAmount[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Dose amount of administered pharmaceutical.
+
+		[33mPharmaceuticalDoseUnits[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Unit format relating to pharmaceutical dose
+(for example, [36m"mg"[39m or [36m"mg/kg"[39m).
+
+		[33mPharmaceuticalDoseRegimen[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, [36m"single oral bolus"[39m).
+
+		[33mPharmaceuticalDoseTime[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of [36m"PharmaceuticalDoseTime"[39m.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+
+		[33mInjectionEnd[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Time of end of injection with respect to [36m"TimeZero"[39m in the default unit
+seconds.
+
+		[33mReconMethodImplementationVersion[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Identification for the software used, such as name and version.
+
+		[33mAttenuationCorrectionMethodReference[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Reference paper for the attenuation correction method used.
+
+		[33mScaleFactor[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Scale factor for each frame. This field MUST be defined if the imaging data ([36m.nii[.gz][39m) are scaled.
+If this field is not defined, then it is assumed that the scaling factor is 1. Defining this field
+when the scaling factor is 1 is RECOMMENDED, for the sake of clarity.
+
+		[33mScatterFraction[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Scatter fraction for each frame (Units: 0-100%).
+
+		[33mDecayCorrectionFactor[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Decay correction factor for each frame.
+
+		[33mDoseCalibrationFactor[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Multiplication factor used to transform raw data (in counts/sec) to meaningful unit (Bq/ml).
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0054,1322)DICOM Tag 0054, 1322]8;;
+[36mDose Calibration Factor[39m.
+
+		[33mPromptRate[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Prompt rate for each frame (same units as [36mUnits[39m, for example, [36m"Bq/mL"[39m).
+
+		[33mSinglesRate[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Singles rate for each frame (same units as [36mUnits[39m, for example, [36m"Bq/mL"[39m).
+
+		[33mRandomRate[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz - Field description: Random rate for each frame (same units as [36m"Units"[39m, for example, [36m"Bq/mL"[39m).
+
+		[33mWithdrawalRate[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-autosampler_blood.tsv - Field description: The rate at which the blood was withdrawn from the subject.
+The unit of the specified withdrawal rate should be in [36m"mL/s"[39m.
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-manual_blood.tsv - Field description: The rate at which the blood was withdrawn from the subject.
+The unit of the specified withdrawal rate should be in [36m"mL/s"[39m.
+
+		[33mTubingType[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-autosampler_blood.tsv - Field description: Description of the type of tubing used, ideally including the material and
+(internal) diameter.
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-manual_blood.tsv - Field description: Description of the type of tubing used, ideally including the material and
+(internal) diameter.
+
+		[33mTubingLength[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-autosampler_blood.tsv - Field description: The length of the blood tubing, from the subject to the detector in meters.
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-manual_blood.tsv - Field description: The length of the blood tubing, from the subject to the detector in meters.
+
+		[33mDispersionConstant[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-autosampler_blood.tsv - Field description: External dispersion time constant resulting from tubing in default unit
+seconds.
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-manual_blood.tsv - Field description: External dispersion time constant resulting from tubing in default unit
+seconds.
+
+		[33mHaematocrit[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-autosampler_blood.tsv - Field description: Measured haematocrit, meaning the volume of erythrocytes divided by the
+volume of whole blood.
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-manual_blood.tsv - Field description: Measured haematocrit, meaning the volume of erythrocytes divided by the
+volume of whole blood.
+
+		[33mBloodDensity[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-autosampler_blood.tsv - Field description: Measured blood density. Unit of blood density should be in [36m"g/mL"[39m.
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-manual_blood.tsv - Field description: Measured blood density. Unit of blood density should be in [36m"g/mL"[39m.
+
+		[33mPlasmaFreeFraction[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-manual_blood.tsv - Field description: Measured free fraction in plasma, meaning the concentration of free compound
+in plasma divided by total concentration of compound in plasma
+(Units: 0-100%).
+
+		[33mPlasmaFreeFractionMethod[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_recording-manual_blood.tsv - Field description: Method used to estimate free fraction.
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] GZIP_HEADER_MTIME The gzip header contains a non-zero timestamp.
+This may leak sensitive information or indicate a non-reproducible conversion process.[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz
+
+[36m	Please visit https://neurostars.org/search?q=GZIP_HEADER_MTIME for existing conversations about this issue.[39m
+
+	[33m[WARNING] GZIP_HEADER_FILENAME The gzip header contains a non-empty filename.
+This may leak sensitive information or indicate a non-reproducible conversion process.[39m
+		/sub-01/ses-01/pet/sub-01_ses-01_trc-CIMBI36_pet.nii.gz
+
+[36m	Please visit https://neurostars.org/search?q=GZIP_HEADER_FILENAME for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          12 Files, 224 kB                                         PET                  
+          1 - Subjects 1 - Sessions                                MRI                  
+

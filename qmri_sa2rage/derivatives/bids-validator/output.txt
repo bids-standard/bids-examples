@@ -1,0 +1,124 @@
+	[33m[WARNING] README_FILE_SMALL The recommended file '/README' is very small.
+Please consider expanding it with additional information about the dataset.[39m
+		/README
+
+[36m	Please visit https://neurostars.org/search?q=README_FILE_SMALL for existing conversations about this issue.[39m
+
+	[33m[WARNING] TOO_FEW_AUTHORS The 'Authors' field of 'dataset_description.json' should contain an array of values -
+with one author per value.
+This was triggered based on the presence of only one author field.
+Please ignore if all contributors are already properly listed.[39m
+		/dataset_description.json
+
+[36m	Please visit https://neurostars.org/search?q=TOO_FEW_AUTHORS for existing conversations about this issue.[39m
+
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] NO_AUTHORS The Authors field of dataset_description.json should contain an array of fields -
+with one author per field. This was triggered because there are no authors, which
+will make DOI registration from dataset metadata impossible.[39m
+		[33mAuthors[39m
+		/dataset_description.json - Field description: List of individuals who contributed to the creation/curation of the dataset.
+
+[36m	Please visit https://neurostars.org/search?q=NO_AUTHORS for existing conversations about this issue.[39m
+
+	[33m[WARNING] B0_FIELD_IDENTIFIER_RECOMMENDED File is missing B0FieldIdentifier metadata and IntendedFor metadata,
+so it will not be possible to use to perform susceptibility distortion correction.
+B0FieldIdentifier metadata permits the flexible selection of images
+for estimating B0 inhomogeneity fields, and B0FieldSource permits EPI
+images to indicate the identifier of the estimated field to use.[39m
+		[33mB0FieldIdentifier[39m
+		/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz - Field description: The presence of this key states that this particular 3D or 4D image MAY be
+used for fieldmap estimation purposes.
+Each [36m"B0FieldIdentifier"[39m MUST be a unique string within one participant's tree,
+shared only by the images meant to be used as inputs for the estimation of a
+particular instance of the [3mB<sub>0</sub> field[23m estimation.
+It is RECOMMENDED to derive this identifier from DICOM Tags, for example,
+DICOM tag 0018, 1030 [36mProtocol Name[39m, or DICOM tag 0018, 0024 [36mSequence Name[39m
+when the former is not defined (for example, in GE devices.)
+		/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz - Field description: The presence of this key states that this particular 3D or 4D image MAY be
+used for fieldmap estimation purposes.
+Each [36m"B0FieldIdentifier"[39m MUST be a unique string within one participant's tree,
+shared only by the images meant to be used as inputs for the estimation of a
+particular instance of the [3mB<sub>0</sub> field[23m estimation.
+It is RECOMMENDED to derive this identifier from DICOM Tags, for example,
+DICOM tag 0018, 1030 [36mProtocol Name[39m, or DICOM tag 0018, 0024 [36mSequence Name[39m
+when the former is not defined (for example, in GE devices.)
+
+[36m	Please visit https://neurostars.org/search?q=B0_FIELD_IDENTIFIER_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mReceiveCoilActiveElements[39m
+		/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+		/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+
+		[33mMatrixCoilMode[39m
+		/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+		/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+
+		[33mCoilCombinationMethod[39m
+		/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+		/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+
+		[33mPulseSequenceType[39m
+		/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz - Field description: A general description of the pulse sequence used for the scan.
+		/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz - Field description: A general description of the pulse sequence used for the scan.
+
+		[33mNonlinearGradientCorrection[39m
+		/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+		/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+
+		[33mPartialFourierDirection[39m
+		/sub-01/fmap/sub-01_flip-1_inv-1_TB1SRGE.nii.gz - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+		/sub-01/fmap/sub-01_flip-2_inv-2_TB1SRGE.nii.gz - Field description: The direction where only partial Fourier information was collected.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,9036)DICOM Tag 0018, 9036]8;;
+[36mPartial Fourier Direction[39m.
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          6 Files, 58 kB                                           MRI                  
+          1 - Subjects 1 - Sessions                                                     
+
