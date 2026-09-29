@@ -1,0 +1,79 @@
+{
+  "subject": {
+    "LongName": "Subject ID",
+    "Description": "BIDS subject label"
+  },
+  "channel": {
+    "LongName": "Channel",
+    "Description": "EEG channel label"
+  },
+  "event": {
+    "LongName": "Event label",
+    "Description": "DIN event code marking stimulus intensity (DIN6-DI10)"
+  },
+  "intensity_db": {
+    "LongName": "Stimulus intensity",
+    "Description": "Tone intensity in decibels corresponding to the event label",
+    "Units": "dB"
+  },
+  "n1_window_start": {
+    "LongName": "N1 window start",
+    "Description": "Start of the N1 search window, derived from the subject grand average (pooled across intensities and channels)",
+    "Units": "s"
+  },
+  "n1_window_end": {
+    "LongName": "N1 window end",
+    "Description": "End of the N1 search window",
+    "Units": "s"
+  },
+  "p2_window_start": {
+    "LongName": "P2 window start",
+    "Description": "Start of the P2 search window, derived from the subject grand average",
+    "Units": "s"
+  },
+  "p2_window_end": {
+    "LongName": "P2 window end",
+    "Description": "End of the P2 search window",
+    "Units": "s"
+  },
+  "n1_latency": {
+    "LongName": "N1 latency",
+    "Description": "Latency of the minimum voltage within the N1 window, for this channel and intensity",
+    "Units": "s"
+  },
+  "n1_amplitude": {
+    "LongName": "N1 amplitude",
+    "Description": "Minimum voltage within the N1 window, for this channel and intensity",
+    "Units": "uV"
+  },
+  "p2_latency": {
+    "LongName": "P2 latency",
+    "Description": "Latency of the maximum voltage within the P2 window, for this channel and intensity",
+    "Units": "s"
+  },
+  "p2_amplitude": {
+    "LongName": "P2 amplitude",
+    "Description": "Maximum voltage within the P2 window, for this channel and intensity",
+    "Units": "uV"
+  },
+  "slope_between_points_uV_per_s": {
+    "LongName": "N1-P2 point slope",
+    "Description": "Rate of amplitude change between the N1 point and the P2 point, computed independently per intensity: (P2 amplitude - N1 amplitude) / (P2 latency - N1 latency)",
+    "Units": "uV/s"
+  },
+  "lin_offset_uV": {
+    "LongName": "LDAEP regression offset",
+    "Description": "Intercept of the linear regression of N1-P2 peak-to-peak amplitude against stimulus intensity (dB), fit per channel across all intensities",
+    "Units": "uV"
+  },
+  "lin_slope_uV_per_dB": {
+    "LongName": "LDAEP regression slope",
+    "Description": "Slope of the linear regression of N1-P2 peak-to-peak amplitude against stimulus intensity (dB), fit per channel across all intensities. This is the classic loudness-dependence-of-the-auditory-evoked-potential (LDAEP) measure.",
+    "Units": "uV/dB"
+  },
+  "lin_rmse_uV": {
+    "LongName": "LDAEP regression RMSE",
+    "Description": "Root mean square error of the linear regression fit described above, per channel",
+    "Units": "uV"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "participants_id": {
+    "Description": "Unique participant label"
+  },
+  "age": {
+    "Description": "Participant age (years, at MR scan)",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Participant sex",
+    "Levels": {
+      "Male": "Male",
+      "Female": "Female"
+    }
+  },
+  "status": {
+    "Levels": {
+      "HealthyControl": "Healthy Control",
+      "Case": "Patient"
+    },
+    "Description": "1st documented case of depression"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "Brain Drug Depression - EEG features derivatives",
+  "BIDSVersion": "1.10.1",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "eegfeatures",
+      "Version": "1.0.0",
+      "Description": "preprocess and extract EEG features for each task and each subject"
+    }
+  ],
+  "DatasetLinks": {
+    "raw": "../.."
+  }
+}

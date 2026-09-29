@@ -1,0 +1,39 @@
+{
+  "PowerLineFrequency": 50,
+  "Manufacturer": "EGI",
+  "ManufacturersModelName": "n/a",
+  "SoftwareVersions": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "InstitutionName": "Neurobiology Research Unit",
+  "InstitutionAddress": "Rigshospitalet, Copenhagen, Denmark",
+  "InstitutionalDepartmentName": "Neurobiology Research Unit",
+  "CapManufacturer": "EGI",
+  "CapManufacturersModelName": "HydroCel GSN 256",
+  "EEGGround": "n/a",
+  "EEGPlacementScheme": "n/a",
+  "HardwareFilters": {
+    "HighpassFilter": {
+      "CutoffFrequency": 0.1
+    },
+    "LowpassFilter": {
+      "CutoffFrequency": 100
+    }
+  },
+  "ECGChannelCount": "n/a",
+  "EMGChannelCount": "n/a",
+  "EOGChannelCount": "n/a",
+  "TriggerChannelCount": "n/a",
+  "SubjectArtefactDescription": "n/a",
+  "TaskName": "restEO",
+  "TaskDescription": "n/a",
+  "Instructions": "n/a",
+  "EEGChannelCount": "n/a",
+  "EEGReference": "n/a",
+  "RecordingType": "n/a",
+  "RecordingDuration": "n/a",
+  "SamplingFrequency": "n/a",
+  "SoftwareFilters": "n/a",
+  "Sources": [
+    "bids:raw:sub-57900/eeg/sub-57900_task-restEO_eeg.set"
+  ]
+}

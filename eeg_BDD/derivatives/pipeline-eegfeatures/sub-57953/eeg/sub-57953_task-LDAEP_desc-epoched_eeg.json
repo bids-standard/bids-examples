@@ -1,0 +1,57 @@
+{
+  "PowerLineFrequency": 50,
+  "Manufacturer": "EGI",
+  "ManufacturersModelName": "n/a",
+  "SoftwareVersions": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "InstitutionName": "Neurobiology Research Unit",
+  "InstitutionAddress": "Rigshospitalet, Copenhagen, Denmark",
+  "InstitutionalDepartmentName": "Neurobiology Research Unit",
+  "CapManufacturer": "EGI",
+  "CapManufacturersModelName": "HydroCel GSN 256",
+  "EEGGround": "n/a",
+  "EEGPlacementScheme": "n/a",
+  "HardwareFilters": {
+    "HighpassFilter": {
+      "CutoffFrequency": 0.1
+    },
+    "LowpassFilter": {
+      "CutoffFrequency": 100
+    }
+  },
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "SubjectArtefactDescription": "n/a",
+  "TaskName": "LDAEP",
+  "TaskDescription": "n/a",
+  "Instructions": "n/a",
+  "EEGChannelCount": 224,
+  "EEGReference": "Common average reference across the 224 retained EEG channels, including interpolated channels.",
+  "RecordingType": "epoched",
+  "RecordingDuration": "n/a",
+  "SamplingFrequency": 250,
+  "SoftwareFilters": {
+    "clean_rawdata high-pass filter": {
+      "Highpass": [
+        0.25,
+        0.75
+      ],
+      "Description": "High-pass transition band from 0.25 to 0.75 Hz, specified by the clean_rawdata Highpass parameter."
+    },
+    "Zapline-plus": {
+      "noisefreqs": "line",
+      "coarseFreqDetectPowerDiff": 4,
+      "chunkLength": 0,
+      "adaptiveNremove": 1,
+      "fixedNremove": 1,
+      "Description": "Adaptive line-noise removal using pop_zapline_plus with automatic line-frequency detection."
+    }
+  },
+  "EpochLength": 1,
+  "Sources": [
+    "bids::sub-57953/eeg/sub-57953_task-LDAEP_desc-preproc_eeg.set"
+  ],
+  "MISCChannelCount": 0
+}

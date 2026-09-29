@@ -1,0 +1,18 @@
+{
+  "removed_bad_channels": [
+    81,
+    90,
+    101,
+    119
+  ],
+  "interpolated_channels": 4,
+  "removed_ica_components": 5,
+  "percentage_removed_data_asr": 0.047565411673467839,
+  "epochs_DI10": 26,
+  "epochs_DIN6": 18,
+  "epochs_DIN7": 21,
+  "epochs_DIN8": 25,
+  "epochs_DIN9": 20,
+  "epochs_boundary": 0,
+  "status": "Success"
+}

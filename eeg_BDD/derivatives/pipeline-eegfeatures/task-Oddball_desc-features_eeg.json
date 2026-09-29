@@ -1,0 +1,73 @@
+{
+  "subject": {
+    "LongName": "Subject ID",
+    "Description": "BIDS subject label"
+  },
+  "channel": {
+    "LongName": "Channel",
+    "Description": "EEG channel label"
+  },
+  "event": {
+    "LongName": "Event label",
+    "Description": "DIN event code: DIN2 (oddball/target, independently detected) or DIN1 (standard/control, evaluated at the same channel's DIN2-derived latencies, not independently detected)"
+  },
+  "p3_window_start": {
+    "LongName": "P3 window start",
+    "Description": "Start of the P3 search window, derived from a grand average pooled across a posterior ROI of channels closest to the anchor electrode (e.g. Pz). Same for DIN1 and DIN2 rows of a given channel.",
+    "Units": "s"
+  },
+  "p3_window_end": {
+    "LongName": "P3 window end",
+    "Description": "End of the P3 search window",
+    "Units": "s"
+  },
+  "p3_latency": {
+    "LongName": "P3 latency",
+    "Description": "For DIN2: latency of the largest-magnitude voltage within the P3 window, for this channel (sign not constrained). For DIN1: the SAME latency as this channel's DIN2 row (reused, not independently detected).",
+    "Units": "s"
+  },
+  "p3_amplitude": {
+    "LongName": "P3 amplitude",
+    "Description": "For DIN2: signed voltage at p3_latency (largest absolute value within the P3 window). For DIN1: the DIN1 waveform's signed voltage AT the same p3_latency as the DIN2 row (not an independently detected peak).",
+    "Units": "uV"
+  },
+  "zero_crossing_latency": {
+    "LongName": "Zero-crossing latency",
+    "Description": "For DIN2: latency of the last zero-crossing (linearly interpolated) before the P3 peak, searched backward from the peak to stimulus onset (t=0); NaN if none found. For DIN1: the SAME crossing latency as this channel's DIN2 row (reused, not independently detected).",
+    "Units": "s"
+  },
+  "auc_uV_s": {
+    "LongName": "P3 rise area under curve",
+    "Description": "For DIN2: trapezoidal-integration area under the curve between zero_crossing_latency and p3_latency. For DIN1: the same integration window (from the DIN2-derived crossing to the DIN2-derived peak latency), but integrating the DIN1 waveform's own values over that window. NaN if no crossing was found for the DIN2 row.",
+    "Units": "uV*s"
+  },
+  "baseline_amplitude_uV": {
+    "LongName": "Baseline amplitude",
+    "Description": "Subject-level QC metric (same value repeated across all rows): mean of the POSITIVE-only samples of the grand average (pooled DIN2 ROI average) between epoch start and its own zero-crossing before the P3 peak. Only positive excursions are averaged (negative samples discarded) since a plain mean over all samples would cancel out to ~0 regardless of noise level, as the baseline oscillates around 0uV. NaN if no zero-crossing was found on the grand average, or if the baseline segment contains no positive samples.",
+    "Units": "uV"
+  },
+  "p3_baseline_ratio": {
+    "LongName": "P3-to-baseline ratio",
+    "Description": "Subject-level QC metric (same value repeated across all rows): the grand average's P3 peak amplitude divided by baseline_amplitude_uV. Higher values indicate a P3 peak that stands out more clearly above the pre-response baseline; low values suggest the P3 may not be reliably distinguishable from noise for this subject. NaN if baseline_amplitude_uV is NaN."
+  },
+  "mmn_window_start": {
+    "LongName": "MMN window start",
+    "Description": "Start of the mismatch negativity (MMN) search window, derived from the DIN2-minus-DIN1 grand difference wave pooled across a fronto-central ROI of channels closest to the anchor electrode (e.g. Fz). Same for DIN1 and DIN2 rows of a given channel. NaN if no DIN1 (control) events were found for this subject.",
+    "Units": "s"
+  },
+  "mmn_window_end": {
+    "LongName": "MMN window end",
+    "Description": "End of the MMN window",
+    "Units": "s"
+  },
+  "mmn_latency": {
+    "LongName": "MMN latency",
+    "Description": "Latency of the largest-magnitude voltage within the MMN window on this channel's DIN2-minus-DIN1 DIFFERENCE wave (sign not constrained, since MMN morphology can be reduced or inverted away from the fronto-central ROI). Same value repeated on both the DIN1 and DIN2 rows for this channel, since MMN is a single per-channel quantity, not computed separately per event.",
+    "Units": "s"
+  },
+  "mmn_amplitude": {
+    "LongName": "MMN amplitude",
+    "Description": "Signed voltage of the DIN2-minus-DIN1 difference wave at mmn_latency for this channel (classically negative). Same value repeated on both the DIN1 and DIN2 rows for this channel.",
+    "Units": "uV"
+  }
+}

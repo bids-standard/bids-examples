@@ -1,0 +1,18 @@
+{
+  "channel": {
+    "LongName": "Channel",
+    "Description": "EEG channel label"
+  },
+  "offset": {
+    "LongName": "Aperiodic offset",
+    "Description": "FOOOF aperiodic offset at this channel (broadband power level of the 1/f component)"
+  },
+  "exponent": {
+    "LongName": "Aperiodic exponent",
+    "Description": "FOOOF aperiodic exponent at this channel (steepness of the 1/f spectral slope)"
+  },
+  "r_squared": {
+    "LongName": "Model fit R-squared",
+    "Description": "FOOOF model R-squared at this channel (goodness of fit of the full periodic+aperiodic model)"
+  }
+}

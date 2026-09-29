@@ -1,0 +1,49 @@
+{
+  "duration": {
+    "LongName": "Event duration",
+    "Description": "Duration of the event (measured from onset) in seconds",
+    "Units": "s"
+  },
+  "sample": {
+    "LongName": "Sample",
+    "Description": "Onset of the event according to the sampling scheme of the recorded modality"
+  },
+  "trial_type": {
+    "LongName": "Event categorization",
+    "Description": "Primary categorisation of each trial to identify them as instances of the experimental conditions.",
+    "Levels": {
+      "DIN1": "standard tone",
+      "DIN2": "deviant tone",
+      "D221": "correct response",
+      "D222": "wrong response"
+    }
+  },
+  "response_time": {
+    "LongName": "Response time",
+    "Description": "Response time measued in seconds.",
+    "Units": "s"
+  },
+  "stim_file": {
+    "LongName": "Stimulus file location",
+    "Description": "Represents the location of the stimulus file (image, video, sound etc.) presented at the given onset time."
+  },
+  "onset": {
+    "LongName": "Event onset",
+    "Description": "Onset (in seconds) of the event measured from the beginning of the acquisition of the first volume in the corresponding task imaging data file",
+    "Units": "s"
+  },
+  "value": {
+    "LongName": "Event marker",
+    "Description": "Marker value associated with the event",
+    "Levels": {
+      "DIN1": "standard tone",
+      "DIN2": "deviant tone",
+      "D221": "correct response",
+      "D222": "incorrect response"
+    }
+  },
+  "Task": {
+    "LongName": "Oddball",
+    "Description": "The auditory oddball paradigm consisted of two acoustic stimuli with different frequencies. Participants were presented with a series of standard tones (500 Hz) and deviant tones (2000 Hz) binaurally through inserted earphones (ER3C Insert Earphones, Etymotic Research Inc., USA). They were asked to press a key when a deviant tone is presented. The paradigm consisted of 60 deviants and 280 standards. The sound level for each tone was 75 dB."
+  }
+}

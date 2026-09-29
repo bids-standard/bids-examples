@@ -1,0 +1,36 @@
+{
+  "PowerLineFrequency": 50,
+  "Manufacturer": "EGI",
+  "ManufacturersModelName": "n/a",
+  "SoftwareVersions": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "InstitutionName": "Neurobiology Research Unit",
+  "InstitutionAddress": "Rigshospitalet, Copenhagen, Denmark",
+  "InstitutionalDepartmentName": "Neurobiology Research Unit",
+  "CapManufacturer": "EGI",
+  "CapManufacturersModelName": "HydroCel GSN 256",
+  "EEGGround": "n/a",
+  "EEGPlacementScheme": "n/a",
+  "HardwareFilters": {
+    "HighpassFilter": {
+      "CutoffFrequency": 0.1
+    },
+    "LowpassFilter": {
+      "CutoffFrequency": 100
+    }
+  },
+  "ECGChannelCount": 1,
+  "EMGChannelCount": 1,
+  "EOGChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "SubjectArtefactDescription": "n/a",
+  "TaskName": "LDAEP",
+  "TaskDescription": "",
+  "Instructions": "",
+  "EEGChannelCount": 257,
+  "EEGReference": "E257",
+  "RecordingType": "continuous",
+  "RecordingDuration": 670.0940000000001,
+  "SamplingFrequency": 1000,
+  "SoftwareFilters": "n/a"
+}

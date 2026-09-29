@@ -1,0 +1,51 @@
+{
+  "duration": {
+    "LongName": "Event duration",
+    "Description": "Duration of the event (measured from onset) in seconds",
+    "Units": "s"
+  },
+  "sample": {
+    "LongName": "Sample",
+    "Description": "Onset of the event according to the sampling scheme of the recorded modality"
+  },
+  "trial_type": {
+    "LongName": "Event categorization",
+    "Description": "Primary categorisation of each trial to identify them as instances of the experimental conditions.",
+    "Levels": {
+      "DI10": "100 decibel",
+      "DIN6": "60 decibel",
+      "DIN7": "70 decibel",
+      "DIN8": "80 decibel",
+      "DIN9": "90 decibel"
+    }
+  },
+  "response_time": {
+    "LongName": "Response time",
+    "Description": "Response time measued in seconds.",
+    "Units": "s"
+  },
+  "stim_file": {
+    "LongName": "Stimulus file location",
+    "Description": "Represents the location of the stimulus file (image, video, sound etc.) presented at the given onset time."
+  },
+  "onset": {
+    "LongName": "Event onset",
+    "Description": "Onset (in seconds) of the event measured from the beginning of the acquisition of the first volume in the corresponding task imaging data file",
+    "Units": "s"
+  },
+  "value": {
+    "LongName": "Event marker",
+    "Description": "Marker value associated with the event",
+    "Levels": {
+      "DIN6": "60dB sound",
+      "DIN7": "70dB sound",
+      "DIN8": "80dB sound",
+      "DIN9": "90dB sound",
+      "DI10": "100dB sound"
+    }
+  },
+  "Task": {
+    "LongName": "Loudness Dependence of Auditory Evoked Potential (LDAEP)",
+    "Description": "During the LDAEP paradigm, the participants were seated in a dimly lit and sound-attenuating room. Participants have presented a series of auditory tones at 1000 Hz with the loudness intensities of 60, 70, 80, 90 and 100 dB binaurally through inserted earphones (ER3C Insert Earphones, Etymotic Research Inc., USA) using E-prime 2.0 software (Pittsburgh, PA). Each stimulus (30 ms duration including 10ms rise and fall) was presented 80 times in a pseudorandomized order with an interstimulus interval randomized between 1200 and 1800 ms."
+  }
+}

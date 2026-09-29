@@ -1,0 +1,14 @@
+{
+  "removed_bad_channels": [
+    81,
+    90,
+    101,
+    119
+  ],
+  "interpolated_channels": 4,
+  "removed_ica_components": 3,
+  "percentage_removed_data_asr": 0.068479655425219943,
+  "epochs_DIN1": 209,
+  "epochs_DIN2": 48,
+  "status": "Success"
+}

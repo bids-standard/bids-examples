@@ -1,0 +1,31 @@
+{
+  "channel": {
+    "LongName": "Channel",
+    "Description": "EEG channel label"
+  },
+  "theta": {
+    "LongName": "Theta power",
+    "Description": "Theta-band power density at this channel (Welch method). Confirmed linear power (not dB) from pop_eegstats source code.",
+    "Units": "uV^2/Hz"
+  },
+  "alpha": {
+    "LongName": "Alpha power",
+    "Description": "Alpha-band power density at this channel (Welch method). Confirmed linear power (not dB).",
+    "Units": "uV^2/Hz"
+  },
+  "beta": {
+    "LongName": "Beta power",
+    "Description": "Beta-band power density at this channel (Welch method, 1st otherrange). Confirmed linear power (not dB).",
+    "Units": "uV^2/Hz"
+  },
+  "gamma": {
+    "LongName": "Gamma power",
+    "Description": "Gamma-band power density at this channel (Welch method, 2nd otherrange). Confirmed linear power (not dB).",
+    "Units": "uV^2/Hz"
+  },
+  "alpha_peak_freq_hz": {
+    "LongName": "Channel alpha peak frequency",
+    "Description": "Per-channel individual alpha frequency (IAF): eegstats.restingIAF.iafChan.peaks (confirmed field name from pop_eegstats source code). NaN if this channel did not meet the iafminchan validity criterion.",
+    "Units": "Hz"
+  }
+}
