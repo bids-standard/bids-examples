@@ -1,0 +1,18 @@
+{
+    "TaskName": "view",
+    "trial_type": {
+        "Description": "Kind of stimulus presented in the trial.",
+        "Levels": {
+            "face": "A face image",
+            "tone": "A pure tone"
+        },
+        "HED": {
+            "face": "Sensory-event, Experimental-stimulus, Visual-presentation, Image",
+            "tone": "Sensory-event, Experimental-stimulus, Auditory-presentation, Tone"
+        }
+    },
+    "stim_id": {
+        "LongName": "Stimulus identifier",
+        "Description": "Identifier of the presented stimulus, of the form stim-<label>. It resolves to the stimulus files, metadata and annotations with that label under the /stimuli directory."
+    }
+}

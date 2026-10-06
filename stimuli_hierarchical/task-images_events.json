@@ -1,0 +1,16 @@
+{
+    "TaskName": "images",
+    "trial_type": {
+        "Description": "Kind of stimulus presented in the trial.",
+        "Levels": {
+            "image": "A natural scene photograph"
+        },
+        "HED": {
+            "image": "Sensory-event, Experimental-stimulus, Visual-presentation, Photograph"
+        }
+    },
+    "stim_id": {
+        "LongName": "Stimulus identifier",
+        "Description": "Identifier of the presented stimulus, of the form stim-<label>. It resolves to the stimulus files, metadata and annotations with that label under the /stimuli directory."
+    }
+}

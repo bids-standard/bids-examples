@@ -107,3 +107,6 @@ atlas-DiFuMo				n/a	n/a
 eyetracking_fmri				anat, fmap, func	T1w, T2w, bold, epi, events, fieldmap, magnitude, physio
 atlas-suit				n/a	T1w
 atlas-Juelich				n/a	n/a
+stimuli_basic	BEP044 (Stim-BIDS) minimal example: a flat /stimuli directory with a stimulus catalog, image and audio stimuli, and events referencing stimuli through stim_id	n/a	@neuromechanist	beh, stimuli	audio, events, image
+stimuli_hierarchical	BEP044 (Stim-BIDS) example with /stimuli subdirectories, scoped catalogs, a global annotations table, HED annotations of images, and a stimulus pack without redistributed files	n/a	@neuromechanist	beh, stimuli	audio, events, image
+stimuli_timevarying	BEP044 (Stim-BIDS) example with film stimuli referenced from EEG, three annotation event tables for one stimulus, and a stimulus split with the part entity	n/a	@neuromechanist	eeg, stimuli	audiovideo, channels, eeg, events

@@ -1,0 +1,18 @@
+{
+    "boy_action": {
+        "Description": "Action of the boy character.",
+        "HED": "Label/boy_action, (Visual-presentation, (Agent-action, (Human-agent, Male), (Action, Description/#)))"
+    },
+    "dog_action": {
+        "Description": "Action of the dog character.",
+        "HED": "Label/dog_action, (Visual-presentation, (Agent-action, Animal-agent, (Action, Description/#)))"
+    },
+    "mother_action": {
+        "Description": "Action of the mother character.",
+        "HED": "Label/mother_action, (Visual-presentation, (Agent-action, (Human-agent, Female), (Action, Description/#)))"
+    },
+    "environment_action": {
+        "Description": "Change in the background or the environment.",
+        "HED": "Label/environment_action, (Visual-presentation, Description/#)"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "onset": {
+        "Description": "Start of the shot, in seconds from the start of the film.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the shot.",
+        "Units": "s"
+    },
+    "shot_number": {
+        "Description": "Sequence number of the shot in the film.",
+        "HED": "(Sensory-event, Visual-presentation, (Movie, (Label/Shot, Item-count/#)))"
+    },
+    "LLR": {
+        "Description": "Log luminance ratio between the three frames after and the three frames before the shot change; n/a for the first shot.",
+        "HED": "(Computed-feature, Luminance, Ratio/#)"
+    }
+}
