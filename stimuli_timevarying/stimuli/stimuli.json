@@ -1,0 +1,23 @@
+{
+    "stimulus_id": {
+        "Description": "Unique identifier of the stimulus, matching the stim-<label> entity of its files."
+    },
+    "type": {
+        "Description": "Type of the stimulus, matching the suffix of the stimulus files."
+    },
+    "URL": {
+        "Description": "Where the stimulus can be obtained."
+    },
+    "license": {
+        "Description": "License under which the stimulus file is distributed; n/a when the file is not distributed."
+    },
+    "copyright": {
+        "Description": "Copyright holder of the stimulus."
+    },
+    "description": {
+        "Description": "Free-form description of the stimulus."
+    },
+    "partDescription": {
+        "Description": "How the stimulus is split into part-<label> files, when it is."
+    }
+}
