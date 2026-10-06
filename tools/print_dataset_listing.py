@@ -60,6 +60,7 @@ tables_order = {
     "Physio": "",
     "Provenance": "",
     "qMRI": "",
+    "Stimuli": "",
 }
 
 DELIMITER = "<!-- ADD EXAMPLE LISTING HERE -->"
@@ -187,6 +188,8 @@ def add_tables(df: pd.DataFrame, output_file: Path, names) -> None:
             mask = names.str.contains("provenance_")
         elif table_name == "Atlas":
             mask = names.str.contains("atlas-")
+        elif table_name == "Stimuli":
+            mask = names.str.contains("stimuli_")
         else:
             mask = df["datatypes"].str.contains(table_datatypes, regex=True)
 
