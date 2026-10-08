@@ -22,7 +22,6 @@ import pandas as pd
 from bids import BIDSLayout
 from rich import print
 
-folders_to_skip = ["docs", ".git", ".github", "tools", "env", "site", ".vscode"]
 suffixes_to_remove = ["README", "description", "participants", "CITATION"]
 column_order = [
     "name",
@@ -66,6 +65,10 @@ tables_order = {
 DELIMITER = "<!-- ADD EXAMPLE LISTING HERE -->"
 
 
+def skip_folder(name: str) -> bool:
+    return name.startswith('.') or name in ("docs", "tools", "env", "site")
+
+
 def main(output_file=None):
 
     if len(sys.argv) > 1:
@@ -96,7 +99,7 @@ def main(output_file=None):
 def check_missing_folders(df, root):
     nb_datasets = len(df)
     folders = list(root.glob("*"))
-    folders = [f.name for f in folders if f.is_dir() and f.name not in folders_to_skip]
+    folders = [f.name for f in folders if f.is_dir() and not skip_folder(f.name)]
     if len(folders) != nb_datasets:
         raise ValueError(
             f"Found {len(folders)} folders but {nb_datasets} datasets in the table:"

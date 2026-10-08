@@ -16,7 +16,10 @@
   },
   "age_at_first_scan_years": {
     "LongName": "age_at_first_scan_years",
-    "Units": "years"
+    "Units": "year"
+  },
+  "number_of_scans_before": {
+    "Description": "Number of 7 T scans the participant had taken before the first scan of this study."
   },
   "handedness": {
     "LongName": "Edinburgh Handedness Inventory",

@@ -16,16 +16,17 @@ create_raw_beh() {
     ses=$3
 
     suffix='_beh'
-    task_name='stroop'
 
     this_dir=${target_dir}/sub-${subject}/ses-${ses}/beh
 
     mkdir -p ${this_dir}
 
-    filename=${this_dir}/sub-${subject}_ses-${ses}_task-${task_name}${suffix}.tsv
-    echo -e "trial\tresponse\treaction_time\tstim_file" >${filename}
-    echo -e "congruent\tred\t1.435\timages/word-red_color-red.jpg" >>${filename}
-    echo -e "incongruent\tred\t1.739\timages/word-red_color-blue.jpg" >>${filename}
+    for task_name in stroop+whitebg stroop+blackbg; do
+        filename=${this_dir}/sub-${subject}_ses-${ses}_task-${task_name}${suffix}.tsv
+        echo -e "trial\tresponse\treaction_time\tstim_file" >${filename}
+        echo -e "congruent\tred\t1.435\timages/word-red_color-red.jpg" >>${filename}
+        echo -e "incongruent\tred\t1.739\timages/word-red_color-blue.jpg" >>${filename}
+    done
 }
 
 # RAW DATASET
