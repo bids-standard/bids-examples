@@ -1,0 +1,12 @@
+{
+  "MagneticFieldStrength": 3,
+  "Manufacturer": "Siemens",
+  "ManufacturerModelName": "Prisma",
+  "PulseSequenceType": "GR",
+  "MRAcquisitionType": "3D",
+  "EchoTime": 0.006,
+  "RepetitionTimeExcitation": 0.03,
+  "FlipAngle": 15,
+  "AcquisitionVoxelSize": [0.9, 0.9, 1.5],
+  "Units": "arbitrary"
+}
