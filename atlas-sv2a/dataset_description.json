@@ -1,0 +1,13 @@
+{
+  "Name": "NRU SV2A atlas converted to BIDS derivatives",
+  "BIDSVersion": "1.11.1",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-SA-4.0",
+  "GeneratedBy": [
+    {
+      "Name": "convertNRUatlasses.py",
+      "Version": "1.0.0",
+      "Description": "Downloads NRU SV2A atlas and renames files to BIDS atlas-derivatives style"
+    }
+  ]
+}
