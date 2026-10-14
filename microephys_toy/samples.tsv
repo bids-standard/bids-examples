@@ -1,0 +1,4 @@
+sample_id	participant_id	sample_type	derived_from	anatomical_location
+sample-slice01	sub-mouse02	tissue slice	n/a	n/a
+sample-cell01	sub-mouse02	single cell	sample-slice01	VISp2/3
+sample-cell02	sub-mouse02	single cell	sample-slice01	VISp2/3

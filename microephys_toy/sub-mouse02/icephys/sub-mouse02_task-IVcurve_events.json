@@ -1,0 +1,17 @@
+{
+    "trial_type": {
+        "Description": "Type of event",
+        "Levels": {
+            "sweep": "Current injection sweep"
+        }
+    },
+    "current_injection_pA": {
+        "Description": "Amount of current injected in picoamperes",
+        "Units": "pA"
+    },
+    "StimulusPresentation": {
+        "OperatingSystem": "Windows 10",
+        "SoftwareName": "pClamp",
+        "SoftwareVersion": "11.0"
+    }
+}
