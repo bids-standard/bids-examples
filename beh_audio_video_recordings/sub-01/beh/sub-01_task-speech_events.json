@@ -1,0 +1,16 @@
+{
+  "TaskName": "Speech",
+  "TaskDescription": "Participant was asked to describe a picture for 2 minutes",
+  "event_type": {
+    "Description": "Type of event",
+    "Levels": {
+      "task": "Overall task period",
+      "vocalization": "Participant speaking or vocalizing",
+      "pause": "Pause in speech",
+      "cough": "Non-speech vocalization"
+    }
+  },
+  "description": {
+    "Description": "Detailed description of the event"
+  }
+}
