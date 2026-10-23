@@ -1,0 +1,5 @@
+onset	duration	trial_id	trial_type	data_entity_id	channel_id	sample_id	response_time	stim_type	stim_unit	stim_amplitude
+5	4	start	d7614bcb-8f7d-43e6-879e-877bf227687c	chan-01		sample-cell002	2.5	square pulse	3	mV
+10	4	stop	0d6df00b-70c9-4785-bf0c-71a7acf39974	chan-01		sample-cell002	2.5	square pulse	3	mV
+15	4	start	025c20fc-05e6-401a-9620-95b5e9c9b4bc	chan-02		sample-cell003	3	square pulse	3.3	mV
+20	4	stop	1fad915b-c2c6-46aa-9755-a7454805f6fc	chan-02		sample-cell003	3	square pulse	3.3	mV
