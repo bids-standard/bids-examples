@@ -1,0 +1,98 @@
+{
+    "sub-01/func/sub-01_task-movie_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-1_part-mag_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-1_part-phase_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-2_part-mag_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-2_part-phase_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-3_part-mag_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-3_part-phase_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-1_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-1_part-mag_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-1_part-phase_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-2_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-2_part-mag_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-2_part-phase_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-3_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-3_part-mag_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-3_part-phase_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_part-mag_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-1_part-mag_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-2_part-mag_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-3_part-mag_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_part-phase_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-1_part-phase_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-2_part-phase_bold.nii.gz",
+        "sub-01/func/sub-01_task-movie_echo-3_part-phase_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-1_part-mag_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-1_part-mag_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-1_part-phase_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-1_part-phase_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-2_part-mag_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-2_part-mag_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-2_part-phase_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-2_part-phase_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-3_part-mag_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-3_part-mag_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-3_part-phase_bold.json": [
+        "sub-01/func/sub-01_task-movie_echo-3_part-phase_bold.nii.gz"
+    ],
+    "sub-01/func/sub-01_task-movie_echo-1_part-mag_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_task-movie_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-1_bold.json",
+            "sub-01/func/sub-01_task-movie_part-mag_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-1_part-mag_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-movie_echo-1_part-phase_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_task-movie_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-1_bold.json",
+            "sub-01/func/sub-01_task-movie_part-phase_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-1_part-phase_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-movie_echo-2_part-mag_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_task-movie_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-2_bold.json",
+            "sub-01/func/sub-01_task-movie_part-mag_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-2_part-mag_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-movie_echo-2_part-phase_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_task-movie_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-2_bold.json",
+            "sub-01/func/sub-01_task-movie_part-phase_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-2_part-phase_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-movie_echo-3_part-mag_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_task-movie_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-3_bold.json",
+            "sub-01/func/sub-01_task-movie_part-mag_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-3_part-mag_bold.json"
+        ]
+    },
+    "sub-01/func/sub-01_task-movie_echo-3_part-phase_bold.nii.gz": {
+        ".json": [
+            "sub-01/func/sub-01_task-movie_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-3_bold.json",
+            "sub-01/func/sub-01_task-movie_part-phase_bold.json",
+            "sub-01/func/sub-01_task-movie_echo-3_part-phase_bold.json"
+        ]
+    }
+}
