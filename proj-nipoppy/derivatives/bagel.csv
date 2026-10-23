@@ -1,0 +1,4 @@
+bids_id,participant_id,session,has_mri_data,pipeline_name,pipeline_version,pipeline_starttime,pipeline_complete
+sub-MNI001,MNI001,1,TRUE,freesurfer,6.0.1,2022-05-24 13:43,SUCCESS
+sub-MNI001,MNI001,2,TRUE,freesurfer,6.0.1,2022-05-24 13:46,SUCCESS
+sub-MNI001,MNI001,3,TRUE,freesurfer,6.0.1,UNAVAILABLE,INCOMPLETE
