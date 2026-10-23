@@ -1,0 +1,236 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "UNKNOWN_BIDS_VERSION",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.dataset.UnknownVersion"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "",
+        "severity": "warning",
+        "location": "/participants.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Participants"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.beh.BEHTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskDescription",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv",
+        "issueMessage": "Field description: Longer description of the task.\n",
+        "rule": "rules.sidecars.beh.BEHTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.beh.BEHTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.beh.BEHTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_events.tsv",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.beh.BEHInstitutionInformation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "onset",
+        "severity": "warning",
+        "location": "/task-FreeView_events.json",
+        "issueMessage": "Format \"string\" must be number",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "duration",
+        "severity": "warning",
+        "location": "/task-FreeView_events.json",
+        "issueMessage": "Format \"string\" must be number",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_recording-eye1_physio.tsv.gz",
+        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n",
+        "rule": "rules.sidecars.entity_rules.EntitiesTaskMetadata"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_recording-eye1_physioevents.tsv.gz",
+        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n",
+        "rule": "rules.sidecars.entity_rules.EntitiesTaskMetadata"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_recording-eye2_physio.tsv.gz",
+        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n",
+        "rule": "rules.sidecars.entity_rules.EntitiesTaskMetadata"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-01_recording-eye2_physioevents.tsv.gz",
+        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n",
+        "rule": "rules.sidecars.entity_rules.EntitiesTaskMetadata"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.beh.BEHTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskDescription",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv",
+        "issueMessage": "Field description: Longer description of the task.\n",
+        "rule": "rules.sidecars.beh.BEHTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.beh.BEHTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.beh.BEHTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_events.tsv",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.beh.BEHInstitutionInformation"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "onset",
+        "severity": "warning",
+        "location": "/task-FreeView_events.json",
+        "issueMessage": "Format \"string\" must be number",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "subCode": "duration",
+        "severity": "warning",
+        "location": "/task-FreeView_events.json",
+        "issueMessage": "Format \"string\" must be number",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_recording-eye1_physio.tsv.gz",
+        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n",
+        "rule": "rules.sidecars.entity_rules.EntitiesTaskMetadata"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_recording-eye1_physioevents.tsv.gz",
+        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n",
+        "rule": "rules.sidecars.entity_rules.EntitiesTaskMetadata"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_recording-eye2_physio.tsv.gz",
+        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n",
+        "rule": "rules.sidecars.entity_rules.EntitiesTaskMetadata"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TaskName",
+        "severity": "warning",
+        "location": "/sub-01/beh/sub-01_task-FreeView_run-02_recording-eye2_physioevents.tsv.gz",
+        "issueMessage": "Field description: Name of the task.\nNo two tasks should have the same name.\nThe task label included in the filename MAY be derived from this `\"TaskName\"` field\nby removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),\nand potentially replacing spaces with `+` to ease readability.\nFor example `\"TaskName\"` `\"faces n-back\"` or `\"head nodding\"` could correspond to task labels\n`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.\n",
+        "rule": "rules.sidecars.entity_rules.EntitiesTaskMetadata"
+      }
+    ],
+    "codeMessages": {
+      "UNKNOWN_BIDS_VERSION": "The BIDSVersion field of 'dataset_description.json' does not match a known release.\nThe BIDS Schema used for validation may be out of date.\n",
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "TSV_ADDITIONAL_COLUMNS_UNDEFINED": "A TSV file has extra columns which are not defined in its associated JSON sidecar",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended.",
+      "TSV_COLUMN_TYPE_REDEFINED": "A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "01"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "01"
+      }
+    ],
+    "tasks": [
+      "FreeView"
+    ],
+    "modalities": [
+      "beh"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 21,
+    "size": 7561,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "beh"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

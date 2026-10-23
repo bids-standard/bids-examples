@@ -1,0 +1,926 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-1_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-2_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-002/eeg/sub-002_task-FacePerception_run-3_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_eeg.set",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-1_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_eeg.set",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-2_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      },
+      {
+        "code": "EMPTY_FILE",
+        "severity": "ignore",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set"
+      },
+      {
+        "code": "EOG_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "rule": "rules.checks.eeg.EOGChannelCountReq"
+      },
+      {
+        "code": "MISC_CHANNEL_COUNT_MISMATCH",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "rule": "rules.checks.eeg.MiscChannelCountReq"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.eeg.EEGHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Instructions",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Text of the instructions given to participants before the recording.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogAtlasID",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)\nTask term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CogPOID",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)\nof the corresponding [CogPO](http://www.cogpo.org/) term.\n",
+        "rule": "rules.sidecars.eeg.EEGTaskInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.eeg.EEGInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "CapManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Manufacturer's designation of the cap model\n(for example, `\"actiCAP 64 Ch Standard-2\"`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "MISCChannelCount",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Number of miscellaneous channels not covered otherwise.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "TriggerChannelCount",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Number of channels for digital (binary TTL) triggers or analog equivalents (TTL in volt).\nCorresponds to the `TRIG` channel type.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HeadCircumference",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Circumference of the participant's head, expressed in cm (for example, `58`).\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "HardwareFilters",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Object of temporal hardware filters applied, or `\"n/a\"` if the data is not\navailable. Each key-value pair in the JSON object is a name of the filter and\nan object in which its parameters are defined as key-value pairs.\nFor example, `{\"Highpass RC filter\": {\"Half amplitude cutoff (Hz)\":\n0.0159, \"Roll-off\": \"6dB/Octave\"}}`.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SubjectArtefactDescription",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_eeg.set",
+        "issueMessage": "Field description: Freeform description of the observed subject artifact and its possible cause\n(for example, `\"Vagus Nerve Stimulator\"`, `\"non-removable implant\"`).\nIf this field is set to `\"n/a\"`, it will be interpreted as absence of major\nsource of artifacts except cardiac and blinks.\n",
+        "rule": "rules.sidecars.eeg.EEGRecommended"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "StimulusPresentation",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_events.tsv",
+        "issueMessage": "Field description: Object containing key-value pairs related to the software used to present\nthe stimuli during the experiment.\n",
+        "rule": "rules.sidecars.events.StimulusPresentation"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample",
+        "severity": "warning",
+        "location": "/sub-003/eeg/sub-003_task-FacePerception_run-3_events.tsv",
+        "rule": "rules.tabular_data.events.Events"
+      }
+    ],
+    "codeMessages": {
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "EMPTY_FILE": "Empty files not allowed.",
+      "EOG_CHANNEL_COUNT_MISMATCH": "The EOGChannelCount metadata does not match the number of channels\nwith type EOG in the associated channels.tsv file.\n",
+      "MISC_CHANNEL_COUNT_MISMATCH": "The MiscChannelCount metadata does not match the number of channels\nwith type MISC in the associated channels.tsv file.\n",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended.",
+      "TSV_ADDITIONAL_COLUMNS_UNDEFINED": "A TSV file has extra columns which are not defined in its associated JSON sidecar"
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "002",
+      "003"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "002",
+        "age": 31
+      },
+      {
+        "participantId": "003",
+        "age": 25
+      }
+    ],
+    "tasks": [
+      "FacePerception"
+    ],
+    "modalities": [
+      "EEG"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 30,
+    "size": 148999,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "eeg"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

@@ -1,0 +1,275 @@
+	[33m[WARNING] README_FILE_SMALL The recommended file '/README' is very small.
+Please consider expanding it with additional information about the dataset.[39m
+		/README
+
+[36m	Please visit https://neurostars.org/search?q=README_FILE_SMALL for existing conversations about this issue.[39m
+
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mLicense[39m
+		/dataset_description.json - Field description: The license for the dataset.
+The use of license name abbreviations is RECOMMENDED for specifying a license
+(see ]8;;https://bids-specification.readthedocs.io/en/stable/appendices/licenses.mdLicenses]8;;).
+The corresponding full license text MAY be specified in an additional
+[36mLICENSE[39m file.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mManufacturersModelName[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Manufacturer's model name of the equipment that produced the measurements.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+		3 more files with the same issue
+
+		[33mDeviceSerialNumber[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		3 more files with the same issue
+
+		[33mStationName[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Institution defined name of the machine that produced the measurements.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Institution defined name of the machine that produced the measurements.
+
+		3 more files with the same issue
+
+		[33mSoftwareVersions[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		3 more files with the same issue
+
+		[33mReceiveCoilName[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Information describing the receiver coil.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,1250)DICOM Tag 0018, 1250]8;;
+[36mReceive Coil Name[39m,
+although not all vendors populate that DICOM Tag,
+in which case this field can be derived from an appropriate
+private DICOM field.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Information describing the receiver coil.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,1250)DICOM Tag 0018, 1250]8;;
+[36mReceive Coil Name[39m,
+although not all vendors populate that DICOM Tag,
+in which case this field can be derived from an appropriate
+private DICOM field.
+
+		3 more files with the same issue
+
+		[33mReceiveCoilActiveElements[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+
+		3 more files with the same issue
+
+		[33mMatrixCoilMode[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+
+		3 more files with the same issue
+
+		[33mCoilCombinationMethod[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+
+		3 more files with the same issue
+
+		[33mScanningSequence[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Description of the type of data acquired.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0020)DICOM Tag 0018, 0020]8;;
+[36mScanning Sequence[39m.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Description of the type of data acquired.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0020)DICOM Tag 0018, 0020]8;;
+[36mScanning Sequence[39m.
+
+		3 more files with the same issue
+
+		[33mSequenceVariant[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Variant of the ScanningSequence.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0021)DICOM Tag 0018, 0021]8;;
+[36mSequence Variant[39m.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Variant of the ScanningSequence.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0021)DICOM Tag 0018, 0021]8;;
+[36mSequence Variant[39m.
+
+		3 more files with the same issue
+
+		[33mSequenceName[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Manufacturer's designation of the sequence name.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0024)DICOM Tag 0018, 0024]8;;
+[36mSequence Name[39m.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Manufacturer's designation of the sequence name.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0024)DICOM Tag 0018, 0024]8;;
+[36mSequence Name[39m.
+
+		3 more files with the same issue
+
+		[33mPulseSequenceDetails[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Information beyond pulse sequence type that identifies the specific pulse
+sequence used (for example,
+[36m"Standard Siemens Sequence distributed with the VB17 software"[39m,
+[36m"Siemens WIP ### version #.##,"[39m or
+[36m"Sequence written by X using a version compiled on MM/DD/YYYY"[39m).
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Information beyond pulse sequence type that identifies the specific pulse
+sequence used (for example,
+[36m"Standard Siemens Sequence distributed with the VB17 software"[39m,
+[36m"Siemens WIP ### version #.##,"[39m or
+[36m"Sequence written by X using a version compiled on MM/DD/YYYY"[39m).
+
+		3 more files with the same issue
+
+		[33mNonlinearGradientCorrection[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+
+		3 more files with the same issue
+
+		[33mMRAcquisitionType[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+
+		3 more files with the same issue
+
+		[33mEchoTime[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: The echo time (TE) for the acquisition, specified in seconds.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0081)DICOM Tag 0018, 0081]8;;
+[36mEcho Time[39m
+(please note that the DICOM term is in milliseconds not seconds).
+The data type number may apply to files from any MRI modality concerned with
+a single value for this field, or to the files in a
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/file-collections.mdfile collection]8;;
+where the value of this field is iterated using the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/entities.md#echo`echo` entity]8;;.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: The echo time (TE) for the acquisition, specified in seconds.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0081)DICOM Tag 0018, 0081]8;;
+[36mEcho Time[39m
+(please note that the DICOM term is in milliseconds not seconds).
+The data type number may apply to files from any MRI modality concerned with
+a single value for this field, or to the files in a
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/file-collections.mdfile collection]8;;
+where the value of this field is iterated using the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/entities.md#echo`echo` entity]8;;.
+
+		3 more files with the same issue
+
+		[33mDwellTime[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: Actual dwell time (in seconds) of the receiver per point in the readout
+direction, including any oversampling.
+For Siemens, this corresponds to DICOM field 0019, 1018 (in ns).
+This value is necessary for the optional readout distortion correction of
+anatomicals in the HCP Pipelines.
+It also usefully provides a handle on the readout bandwidth,
+which isn't captured in the other metadata tags.
+Not to be confused with [36m"EffectiveEchoSpacing"[39m, and the frequent mislabeling
+of echo spacing (which is spacing in the phase encoding direction) as
+"dwell time" (which is spacing in the readout direction).
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Actual dwell time (in seconds) of the receiver per point in the readout
+direction, including any oversampling.
+For Siemens, this corresponds to DICOM field 0019, 1018 (in ns).
+This value is necessary for the optional readout distortion correction of
+anatomicals in the HCP Pipelines.
+It also usefully provides a handle on the readout bandwidth,
+which isn't captured in the other metadata tags.
+Not to be confused with [36m"EffectiveEchoSpacing"[39m, and the frequent mislabeling
+of echo spacing (which is spacing in the phase encoding direction) as
+"dwell time" (which is spacing in the readout direction).
+
+		3 more files with the same issue
+
+		[33mInstitutionName[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		3 more files with the same issue
+
+		[33mInstitutionAddress[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		3 more files with the same issue
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/anat/sub-01_flip-1_mt-off_MTS.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		3 more files with the same issue
+
+		[33mMTOffsetFrequency[39m
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: The frequency offset of the magnetization transfer pulse with respect to the
+central H1 Larmor frequency in Hertz (Hz).
+
+		[33mMTPulseBandwidth[39m
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: The excitation bandwidth of the magnetization transfer pulse in Hertz (Hz).
+
+		[33mMTNumberOfPulses[39m
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: The number of magnetization transfer RF pulses applied before the readout.
+
+		[33mMTPulseShape[39m
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Shape of the magnetization transfer RF pulse waveform.
+The value [36m"GAUSSHANN"[39m refers to a Gaussian pulse with a Hanning window.
+The value [36m"SINCHANN"[39m refers to a sinc pulse with a Hanning window.
+The value [36m"SINCGAUSS"[39m refers to a sinc pulse with a Gaussian window.
+
+		[33mMTPulseDuration[39m
+		/sub-01/anat/sub-01_flip-1_mt-on_MTS.nii.gz - Field description: Duration of the magnetization transfer RF pulse in seconds.
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          14 Files, 1.51 kB                                        MRI                  
+          1 - Subjects 1 - Sessions                                                     
+

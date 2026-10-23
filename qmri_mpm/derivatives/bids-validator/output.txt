@@ -1,0 +1,249 @@
+	[33m[WARNING] README_FILE_SMALL The recommended file '/README' is very small.
+Please consider expanding it with additional information about the dataset.[39m
+		/README
+
+[36m	Please visit https://neurostars.org/search?q=README_FILE_SMALL for existing conversations about this issue.[39m
+
+	[33m[WARNING] TOO_FEW_AUTHORS The 'Authors' field of 'dataset_description.json' should contain an array of values -
+with one author per value.
+This was triggered based on the presence of only one author field.
+Please ignore if all contributors are already properly listed.[39m
+		/dataset_description.json
+
+[36m	Please visit https://neurostars.org/search?q=TOO_FEW_AUTHORS for existing conversations about this issue.[39m
+
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mLicense[39m
+		/dataset_description.json - Field description: The license for the dataset.
+The use of license name abbreviations is RECOMMENDED for specifying a license
+(see ]8;;https://bids-specification.readthedocs.io/en/stable/appendices/licenses.mdLicenses]8;;).
+The corresponding full license text MAY be specified in an additional
+[36mLICENSE[39m file.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mSoftwareVersions[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		51 more files with the same issue
+
+		[33mReceiveCoilName[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Information describing the receiver coil.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,1250)DICOM Tag 0018, 1250]8;;
+[36mReceive Coil Name[39m,
+although not all vendors populate that DICOM Tag,
+in which case this field can be derived from an appropriate
+private DICOM field.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Information describing the receiver coil.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,1250)DICOM Tag 0018, 1250]8;;
+[36mReceive Coil Name[39m,
+although not all vendors populate that DICOM Tag,
+in which case this field can be derived from an appropriate
+private DICOM field.
+
+		51 more files with the same issue
+
+		[33mReceiveCoilActiveElements[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Information describing the active/selected elements of the receiver coil.
+This does not correspond to a tag in the DICOM ontology.
+The vendor-defined terminology for active coil elements can go in this field.
+
+		51 more files with the same issue
+
+		[33mMatrixCoilMode[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: (If used)
+A method for reducing the number of independent channels by combining in
+analog the signals from multiple coil elements.
+There are typically different default modes when using un-accelerated or
+accelerated (for example, [36m"GRAPPA"[39m, [36m"SENSE"[39m) imaging.
+
+		51 more files with the same issue
+
+		[33mCoilCombinationMethod[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Almost all fMRI studies using phased-array coils use root-sum-of-squares
+(rSOS) combination, but other methods exist.
+The image reconstruction is changed by the coil combination method
+(as for the matrix coil mode above),
+so anything non-standard should be reported.
+
+		51 more files with the same issue
+
+		[33mPulseSequenceType[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: A general description of the pulse sequence used for the scan.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: A general description of the pulse sequence used for the scan.
+
+		51 more files with the same issue
+
+		[33mSequenceVariant[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Variant of the ScanningSequence.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0021)DICOM Tag 0018, 0021]8;;
+[36mSequence Variant[39m.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Variant of the ScanningSequence.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0021)DICOM Tag 0018, 0021]8;;
+[36mSequence Variant[39m.
+
+		51 more files with the same issue
+
+		[33mNonlinearGradientCorrection[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Boolean stating if the image saved has been corrected for gradient
+nonlinearities by the scanner sequence.
+
+		51 more files with the same issue
+
+		[33mMRAcquisitionType[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Type of sequence readout.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0023)DICOM Tag 0018, 0023]8;;
+[36mMR Acquisition Type[39m.
+
+		51 more files with the same issue
+
+		[33mMTOffsetFrequency[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: The frequency offset of the magnetization transfer pulse with respect to the
+central H1 Larmor frequency in Hertz (Hz).
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: The frequency offset of the magnetization transfer pulse with respect to the
+central H1 Larmor frequency in Hertz (Hz).
+
+		4 more files with the same issue
+
+		[33mMTPulseBandwidth[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: The excitation bandwidth of the magnetization transfer pulse in Hertz (Hz).
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: The excitation bandwidth of the magnetization transfer pulse in Hertz (Hz).
+
+		4 more files with the same issue
+
+		[33mMTNumberOfPulses[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: The number of magnetization transfer RF pulses applied before the readout.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: The number of magnetization transfer RF pulses applied before the readout.
+
+		4 more files with the same issue
+
+		[33mMTPulseShape[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Shape of the magnetization transfer RF pulse waveform.
+The value [36m"GAUSSHANN"[39m refers to a Gaussian pulse with a Hanning window.
+The value [36m"SINCHANN"[39m refers to a sinc pulse with a Hanning window.
+The value [36m"SINCGAUSS"[39m refers to a sinc pulse with a Gaussian window.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Shape of the magnetization transfer RF pulse waveform.
+The value [36m"GAUSSHANN"[39m refers to a Gaussian pulse with a Hanning window.
+The value [36m"SINCHANN"[39m refers to a sinc pulse with a Hanning window.
+The value [36m"SINCGAUSS"[39m refers to a sinc pulse with a Gaussian window.
+
+		4 more files with the same issue
+
+		[33mMTPulseDuration[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Duration of the magnetization transfer RF pulse in seconds.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Duration of the magnetization transfer RF pulse in seconds.
+
+		4 more files with the same issue
+
+		[33mDwellTime[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: Actual dwell time (in seconds) of the receiver per point in the readout
+direction, including any oversampling.
+For Siemens, this corresponds to DICOM field 0019, 1018 (in ns).
+This value is necessary for the optional readout distortion correction of
+anatomicals in the HCP Pipelines.
+It also usefully provides a handle on the readout bandwidth,
+which isn't captured in the other metadata tags.
+Not to be confused with [36m"EffectiveEchoSpacing"[39m, and the frequent mislabeling
+of echo spacing (which is spacing in the phase encoding direction) as
+"dwell time" (which is spacing in the readout direction).
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: Actual dwell time (in seconds) of the receiver per point in the readout
+direction, including any oversampling.
+For Siemens, this corresponds to DICOM field 0019, 1018 (in ns).
+This value is necessary for the optional readout distortion correction of
+anatomicals in the HCP Pipelines.
+It also usefully provides a handle on the readout bandwidth,
+which isn't captured in the other metadata tags.
+Not to be confused with [36m"EffectiveEchoSpacing"[39m, and the frequent mislabeling
+of echo spacing (which is spacing in the phase encoding direction) as
+"dwell time" (which is spacing in the readout direction).
+
+		51 more files with the same issue
+
+		[33mInstitutionName[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		51 more files with the same issue
+
+		[33mInstitutionAddress[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		51 more files with the same issue
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/anat/sub-01_acq-MTw_echo-1_flip-1_mt-on_MPM.nii - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-01/anat/sub-01_acq-MTw_echo-2_flip-1_mt-on_MPM.nii - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		51 more files with the same issue
+
+		[33mEchoTime[39m
+		/sub-01/fmap/sub-01_phasediff.nii - Field description: The echo time (TE) for the acquisition, specified in seconds.
+Corresponds to ]8;;http://www.dicomlookup.com/dicomtags/(0018,0081)DICOM Tag 0018, 0081]8;;
+[36mEcho Time[39m
+(please note that the DICOM term is in milliseconds not seconds).
+The data type number may apply to files from any MRI modality concerned with
+a single value for this field, or to the files in a
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/file-collections.mdfile collection]8;;
+where the value of this field is iterated using the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/entities.md#echo`echo` entity]8;;.
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] TOTAL_READOUT_TIME_GREATER_THAN 'TotalReadoutTime' is greater than 10. Are you sure it's expressed in seconds?[39m
+		/sub-01/fmap/sub-01_echo-1_flip-01_TB1EPI.nii
+		/sub-01/fmap/sub-01_echo-1_flip-02_TB1EPI.nii
+
+		20 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=TOTAL_READOUT_TIME_GREATER_THAN for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          108 Files, 56.2 kB                                       MRI                  
+          1 - Subjects 1 - Sessions                                                     
+

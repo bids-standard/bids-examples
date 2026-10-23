@@ -1,0 +1,150 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "HEDVersion",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: If HED tags are used:\nThe version of the HED schema used to validate HED tags for study.\nMay include a single schema or a base schema and one or more library schema.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "GeneratedBy",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify provenance of the dataset.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "severity": "warning",
+        "location": "/dataset_description.json",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
+        "rule": "rules.dataset_metadata.dataset_description"
+      },
+      {
+        "code": "TSV_ADDITIONAL_COLUMNS_UNDEFINED",
+        "subCode": "sample_info ",
+        "severity": "warning",
+        "location": "/samples.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Samples"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "Manufacturer",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.micr.MicroscopyHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "ManufacturersModelName",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: Manufacturer's model name of the equipment that produced the measurements.\n",
+        "rule": "rules.sidecars.micr.MicroscopyHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "DeviceSerialNumber",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: The serial number of the equipment that produced the measurements.\nA pseudonym can also be used to prevent the equipment from being\nidentifiable, so long as each pseudonym is unique within the dataset.\n",
+        "rule": "rules.sidecars.micr.MicroscopyHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SoftwareVersions",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: Manufacturer's designation of software version of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.micr.MicroscopyHardware"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionAddress",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: The address of the institution in charge of the equipment that produced the\nmeasurements.\n",
+        "rule": "rules.sidecars.micr.MicroscopyInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "InstitutionalDepartmentName",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: The department in the institution in charge of the equipment that produced\nthe measurements.\n",
+        "rule": "rules.sidecars.micr.MicroscopyInstitutionInformation"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "BodyPartDetails",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: Additional details about body part or location (for example: `\"corpus callosum\"`).\n",
+        "rule": "rules.sidecars.micr.MicroscopySample"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SampleStaining",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: Description(s) of the tissue sample staining (for example: `\"Osmium\"`).\nMAY be an array of strings if different stains are used in each channel of the file\n(for example: `[\"LFB\", \"PLP\"]`).\n",
+        "rule": "rules.sidecars.micr.MicroscopySample"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SamplePrimaryAntibody",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: Description(s) of the primary antibody used for immunostaining.\nEither an [RRID](https://rrid.site) or the name, supplier and catalog\nnumber of a commercial antibody.\nFor non-commercial antibodies either an [RRID](https://rrid.site) or the\nhost-animal and immunogen used (for examples: `\"RRID:AB_2122563\"` or\n`\"Rabbit anti-Human HTR5A Polyclonal Antibody, Invitrogen, Catalog # PA1-2453\"`).\nMAY be an array of strings if different antibodies are used in each channel of the file.\n",
+        "rule": "rules.sidecars.micr.MicroscopySample"
+      },
+      {
+        "code": "SIDECAR_KEY_RECOMMENDED",
+        "subCode": "SampleSecondaryAntibody",
+        "severity": "warning",
+        "location": "/sub-01/ses-01/micr/sub-01_ses-01_sample-brain_XPCT.ome.zarr/",
+        "issueMessage": "Field description: Description(s) of the secondary antibody used for immunostaining.\nEither an [RRID](https://rrid.site) or the name, supplier and catalog\nnumber of a commercial antibody.\nFor non-commercial antibodies either an [RRID](https://rrid.site) or the\nhost-animal and immunogen used (for examples: `\"RRID:AB_228322\"` or\n`\"Goat anti-Mouse IgM Secondary Antibody, Invitrogen, Catalog # 31172\"`).\nMAY be an array of strings if different antibodies are used in each channel of the file.\n",
+        "rule": "rules.sidecars.micr.MicroscopySample"
+      }
+    ],
+    "codeMessages": {
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "TSV_ADDITIONAL_COLUMNS_UNDEFINED": "A TSV file has extra columns which are not defined in its associated JSON sidecar",
+      "SIDECAR_KEY_RECOMMENDED": "A data file's JSON sidecar is missing a key listed as recommended."
+    }
+  },
+  "summary": {
+    "sessions": [
+      "01"
+    ],
+    "subjects": [
+      "01"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "01",
+        "age": 69,
+        "sex": "F"
+      }
+    ],
+    "tasks": [],
+    "modalities": [
+      "micr"
+    ],
+    "secondaryModalities": [],
+    "totalFiles": 12,
+    "size": 141511,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [
+      "micr"
+    ],
+    "schemaVersion": "1.2.1"
+  }
+}

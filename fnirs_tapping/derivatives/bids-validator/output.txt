@@ -1,0 +1,339 @@
+	[33m[WARNING] TOO_FEW_AUTHORS The 'Authors' field of 'dataset_description.json' should contain an array of values -
+with one author per value.
+This was triggered based on the presence of only one author field.
+Please ignore if all contributors are already properly listed.[39m
+		/dataset_description.json
+
+[36m	Please visit https://neurostars.org/search?q=TOO_FEW_AUTHORS for existing conversations about this issue.[39m
+
+	[33m[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.[39m
+		[33mHEDVersion[39m
+		/dataset_description.json - Field description: If HED tags are used:
+The version of the HED schema used to validate HED tags for study.
+May include a single schema or a base schema and one or more library schema.
+
+		[33mLicense[39m
+		/dataset_description.json - Field description: The license for the dataset.
+The use of license name abbreviations is RECOMMENDED for specifying a license
+(see ]8;;https://bids-specification.readthedocs.io/en/stable/appendices/licenses.mdLicenses]8;;).
+The corresponding full license text MAY be specified in an additional
+[36mLICENSE[39m file.
+
+		[33mGeneratedBy[39m
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+		[33mSourceDatasets[39m
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include [36m"URL"[39m, [36m"DOI"[39m (see
+]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;), and
+[36m"Version"[39m with
+]8;;https://www.w3schools.com/js/js_json_datatypes.aspstring]8;;
+values.
+
+		[33mNIRSCoordinateProcessingDescription[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Has any post-processing (such as projection) been done on the optode
+positions (for example, [36m"surface_projection"[39m, [36m"n/a"[39m).
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Has any post-processing (such as projection) been done on the optode
+positions (for example, [36m"surface_projection"[39m, [36m"n/a"[39m).
+
+		3 more files with the same issue
+
+		[33mFiducialsCoordinates[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Key-value pairs of the labels and 3-D digitized position of anatomical
+landmarks, interpreted following the [36m"FiducialsCoordinateSystem"[39m
+(for example, [36m{"NAS": [12.7,21.3,13.9], "LPA": [5.2,11.3,9.6], "RPA": [20.2,11.3,9.1]}[39m).
+Each array MUST contain three numeric values corresponding to x, y, and z
+axis of the coordinate system in that exact order.
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Key-value pairs of the labels and 3-D digitized position of anatomical
+landmarks, interpreted following the [36m"FiducialsCoordinateSystem"[39m
+(for example, [36m{"NAS": [12.7,21.3,13.9], "LPA": [5.2,11.3,9.6], "RPA": [20.2,11.3,9.1]}[39m).
+Each array MUST contain three numeric values corresponding to x, y, and z
+axis of the coordinate system in that exact order.
+
+		3 more files with the same issue
+
+		[33mFiducialsCoordinateUnits[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Units in which the coordinates that are  listed in the field
+[36m"FiducialsCoordinateSystem"[39m are represented.
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Units in which the coordinates that are  listed in the field
+[36m"FiducialsCoordinateSystem"[39m are represented.
+
+		3 more files with the same issue
+
+		[33mFiducialsCoordinateSystem[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Defines the coordinate system for the fiducials.
+Preferably the same as the [36m"EEGCoordinateSystem"[39m.
+See the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/coordinate-systems.mdCoordinate Systems Appendix]8;;
+for a list of restricted keywords for coordinate systems.
+If [36m"Other"[39m, provide definition of the coordinate system in
+[36m"FiducialsCoordinateSystemDescription"[39m.
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Defines the coordinate system for the fiducials.
+Preferably the same as the [36m"EEGCoordinateSystem"[39m.
+See the
+]8;;https://bids-specification.readthedocs.io/en/stable/appendices/coordinate-systems.mdCoordinate Systems Appendix]8;;
+for a list of restricted keywords for coordinate systems.
+If [36m"Other"[39m, provide definition of the coordinate system in
+[36m"FiducialsCoordinateSystemDescription"[39m.
+
+		3 more files with the same issue
+
+		[33mAnatomicalLandmarkCoordinates[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,
+interpreted following the [36m"AnatomicalLandmarkCoordinateSystem"[39m
+(for example, [36m{"NAS": [12.7,21.3,13.9], "LPA": [5.2,11.3,9.6], "RPA": [20.2,11.3,9.1]}[39m.
+Each array MUST contain three numeric values corresponding to x, y, and z
+axis of the coordinate system in that exact order.
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Key-value pairs of the labels and 3-D digitized locations of anatomical landmarks,
+interpreted following the [36m"AnatomicalLandmarkCoordinateSystem"[39m
+(for example, [36m{"NAS": [12.7,21.3,13.9], "LPA": [5.2,11.3,9.6], "RPA": [20.2,11.3,9.1]}[39m.
+Each array MUST contain three numeric values corresponding to x, y, and z
+axis of the coordinate system in that exact order.
+
+		3 more files with the same issue
+
+		[33mAnatomicalLandmarkCoordinateSystem[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Defines the coordinate system for the anatomical landmarks.
+See the ]8;;https://bids-specification.readthedocs.io/en/stable/appendices/coordinate-systems.mdCoordinate Systems Appendix]8;;
+for a list of restricted keywords for coordinate systems.
+If [36m"Other"[39m, provide definition of the coordinate system in
+[36m"AnatomicalLandmarkCoordinateSystemDescription"[39m.
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Defines the coordinate system for the anatomical landmarks.
+See the ]8;;https://bids-specification.readthedocs.io/en/stable/appendices/coordinate-systems.mdCoordinate Systems Appendix]8;;
+for a list of restricted keywords for coordinate systems.
+If [36m"Other"[39m, provide definition of the coordinate system in
+[36m"AnatomicalLandmarkCoordinateSystemDescription"[39m.
+
+		3 more files with the same issue
+
+		[33mAnatomicalLandmarkCoordinateUnits[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Units of the coordinates of [36m"AnatomicalLandmarkCoordinateSystem"[39m.
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Units of the coordinates of [36m"AnatomicalLandmarkCoordinateSystem"[39m.
+
+		3 more files with the same issue
+
+		[33mAnatomicalLandmarkCoordinateSystemDescription[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Free-form text description of the coordinate system.
+May also include a link to a documentation page or paper describing the
+system in greater detail.
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Free-form text description of the coordinate system.
+May also include a link to a documentation page or paper describing the
+system in greater detail.
+
+		3 more files with the same issue
+
+		[33mFiducialsCoordinateSystemDescription[39m
+		/sub-01/nirs/sub-01_coordsystem.json - Field description: Free-form text description of the coordinate system.
+May also include a link to a documentation page or paper describing the
+system in greater detail.
+		/sub-02/nirs/sub-02_coordsystem.json - Field description: Free-form text description of the coordinate system.
+May also include a link to a documentation page or paper describing the
+system in greater detail.
+
+		3 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.[39m
+		[33mStimulusPresentation[39m
+		/sub-01/nirs/sub-01_task-tapping_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+		/sub-02/nirs/sub-02_task-tapping_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		3 more files with the same issue
+
+		[33mManufacturersModelName[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Manufacturer's model name of the equipment that produced the measurements.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+		3 more files with the same issue
+
+		[33mSoftwareVersions[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		3 more files with the same issue
+
+		[33mDeviceSerialNumber[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		3 more files with the same issue
+
+		[33mHeadCircumference[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Circumference of the participant's head, expressed in cm (for example, [36m58[39m).
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Circumference of the participant's head, expressed in cm (for example, [36m58[39m).
+
+		3 more files with the same issue
+
+		[33mHardwareFilters[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Object of temporal hardware filters applied, or [36m"n/a"[39m if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, [36m{"Highpass RC filter": {"Half amplitude cutoff (Hz)": 0.0159, "Roll-off": "6dB/Octave"}}[39m.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Object of temporal hardware filters applied, or [36m"n/a"[39m if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, [36m{"Highpass RC filter": {"Half amplitude cutoff (Hz)": 0.0159, "Roll-off": "6dB/Octave"}}[39m.
+
+		3 more files with the same issue
+
+		[33mSubjectArtefactDescription[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Freeform description of the observed subject artifact and its possible cause
+(for example, [36m"Vagus Nerve Stimulator"[39m, [36m"non-removable implant"[39m).
+If this field is set to [36m"n/a"[39m, it will be interpreted as absence of major
+source of artifacts except cardiac and blinks.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Freeform description of the observed subject artifact and its possible cause
+(for example, [36m"Vagus Nerve Stimulator"[39m, [36m"non-removable implant"[39m).
+If this field is set to [36m"n/a"[39m, it will be interpreted as absence of major
+source of artifacts except cardiac and blinks.
+
+		3 more files with the same issue
+
+		[33mTaskDescription[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Longer description of the task.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Longer description of the task.
+
+		3 more files with the same issue
+
+		[33mInstructions[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Text of the instructions given to participants before the recording.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Text of the instructions given to participants before the recording.
+
+		3 more files with the same issue
+
+		[33mCogAtlasID[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;https://www.cognitiveatlas.org/Cognitive Atlas]8;;
+Task term.
+
+		3 more files with the same issue
+
+		[33mCogPOID[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: ]8;;https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicatorURI]8;;
+of the corresponding ]8;;http://www.cogpo.org/CogPO]8;; term.
+
+		3 more files with the same issue
+
+		[33mInstitutionName[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		3 more files with the same issue
+
+		[33mInstitutionAddress[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		3 more files with the same issue
+
+		[33mInstitutionalDepartmentName[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		3 more files with the same issue
+
+		[33mCapManufacturer[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Name of the cap manufacturer (for example, [36m"EasyCap"[39m).
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Name of the cap manufacturer (for example, [36m"EasyCap"[39m).
+
+		3 more files with the same issue
+
+		[33mCapManufacturersModelName[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Manufacturer's designation of the cap model
+(for example, [36m"actiCAP 64 Ch Standard-2"[39m).
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Manufacturer's designation of the cap model
+(for example, [36m"actiCAP 64 Ch Standard-2"[39m).
+
+		3 more files with the same issue
+
+		[33mSourceType[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Type of source. Preferably a specific model/part number is supplied.
+This is a freeform description, but the following keywords are suggested:
+[36m"LED"[39m, [36m"LASER"[39m, [36m"VCSEL"[39m. If individual channels have different SourceType,
+then the field here should be specified as "mixed"
+and this column should be included in optodes.tsv.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Type of source. Preferably a specific model/part number is supplied.
+This is a freeform description, but the following keywords are suggested:
+[36m"LED"[39m, [36m"LASER"[39m, [36m"VCSEL"[39m. If individual channels have different SourceType,
+then the field here should be specified as "mixed"
+and this column should be included in optodes.tsv.
+
+		3 more files with the same issue
+
+		[33mDetectorType[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Type of detector. This is a free form description with the following suggested terms:
+[36m"SiPD"[39m, [36m"APD"[39m. Preferably a specific model/part number is supplied.
+If individual channels have different [36mDetectorType[39m,
+then the field here should be specified as [36m"mixed"[39m
+and this column should be included in [36moptodes.tsv[39m.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Type of detector. This is a free form description with the following suggested terms:
+[36m"SiPD"[39m, [36m"APD"[39m. Preferably a specific model/part number is supplied.
+If individual channels have different [36mDetectorType[39m,
+then the field here should be specified as [36m"mixed"[39m
+and this column should be included in [36moptodes.tsv[39m.
+
+		3 more files with the same issue
+
+		[33mShortChannelCount[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: The number of short channels. 0 indicates no short channels.
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: The number of short channels. 0 indicates no short channels.
+
+		3 more files with the same issue
+
+		[33mNIRSPlacementScheme[39m
+		/sub-01/nirs/sub-01_task-tapping_nirs.snirf - Field description: Placement scheme of NIRS optodes.
+Either the name of a standardized placement system (for example, [36m"10-20"[39m)
+or an array of standardized position names (for example, [36m["Cz", "Pz"][39m).
+This field should only be used if a cap was not used.
+If a standard cap was used, then it should be specified in [36mCapManufacturer[39m
+and [36mCapManufacturersModelName[39m and this field should be set to [36m"n/a"[39m
+		/sub-02/nirs/sub-02_task-tapping_nirs.snirf - Field description: Placement scheme of NIRS optodes.
+Either the name of a standardized placement system (for example, [36m"10-20"[39m)
+or an array of standardized position names (for example, [36m["Cz", "Pz"][39m).
+This field should only be used if a cap was not used.
+If a standard cap was used, then it should be specified in [36mCapManufacturer[39m
+and [36mCapManufacturersModelName[39m and this field should be set to [36m"n/a"[39m
+
+		3 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.[39m
+
+	[33m[WARNING] TSV_ADDITIONAL_COLUMNS_UNDEFINED A TSV file has extra columns which are not defined in its associated JSON sidecar[39m
+		[33mvalue[39m
+		/sub-01/nirs/sub-01_task-tapping_events.tsv
+		/sub-02/nirs/sub-02_task-tapping_events.tsv
+
+		3 more files with the same issue
+
+		[33msample[39m
+		/sub-01/nirs/sub-01_task-tapping_events.tsv
+		/sub-02/nirs/sub-02_task-tapping_events.tsv
+
+		3 more files with the same issue
+
+[36m	Please visit https://neurostars.org/search?q=TSV_ADDITIONAL_COLUMNS_UNDEFINED for existing conversations about this issue.[39m
+
+
+          [35mSummary:[39m                         [35mAvailable Tasks:[39m        [35mAvailable Modalities:[39m
+          39 Files, 60.8 kB                tapping                 nirs                 
+          5 - Subjects 1 - Sessions                                                     
+
