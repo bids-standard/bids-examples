@@ -1,0 +1,8 @@
+{
+    "EMGCoordinateSystem": "Other",
+    "EMGCoordinateUnits": "mm",
+    "EMGCoordinateSystemDescription": "The location of the electrodes within a 13x5 grid with respect to electrode one (1) is given in millimeters. The x-axis is the long side of the grid, the y-axis is the short side of the grid. Note: the z-axis is not used.",
+    "ParentCoordinateSystem": "lowerleg",
+    "AnchorElectrode": "E1",
+    "AnchorCoordinates": [30, 25]
+}

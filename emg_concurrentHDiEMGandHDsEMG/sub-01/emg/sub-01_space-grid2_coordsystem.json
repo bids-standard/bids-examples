@@ -1,0 +1,8 @@
+{
+    "EMGCoordinateSystem": "Other",
+    "EMGCoordinateUnits": "mm",
+    "EMGCoordinateSystemDescription": "The location of the electrodes within the linear 40 channel HDiEMG array with respect to electrode one (1) is given in millimeters. The x-axis is the thin filament's main axis, the y-axis is perpendicular. Note: the z-axis is not used.",
+    "ParentCoordinateSystem": "lowerleg",
+    "AnchorElectrode": "E1",
+    "AnchorCoordinates": [50, 25]
+}
