@@ -1,0 +1,7 @@
+{
+    "TaskName": "dyad",
+    "stim_id": {
+        "LongName": "Stimulus identifier",
+        "Description": "Identifier of the presented stimulus, of the form stim-<label>. stim-partner is the partner's speech, stored as a subject-specific stimulus file next to this events file."
+    }
+}

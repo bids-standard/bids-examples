@@ -151,6 +151,12 @@ jobs:
       run: for DS in ${EMPTY}; do touch $DS/.SKIP_VALIDATION; done
       if: matrix.bids-validator != 'dev'
 
+    - name: Skip validation outside dev-prs for datasets that need unmerged spec and validator PRs
+      # Replace ${EMPTY} with dataset patterns, when this is needed
+      # Reset to "for DS in ${EMPTY}; ..." once the spec and validator PRs are merged
+      run: for DS in stimuli_subject; do touch $DS/.SKIP_VALIDATION; done
+      if: matrix.bids-validator != 'dev-prs'
+
     - name: Set BIDS_SCHEMA variable for dev version
       if: matrix.bids-validator == 'dev'
       # When proposing new features, schema changes may be necessary.

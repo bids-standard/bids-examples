@@ -1,0 +1,12 @@
+{
+    "TaskName": "ThePresent",
+    "TaskDescription": "Passive viewing of the animated short film The Present while EEG is recorded.",
+    "Manufacturer": "EGI",
+    "SamplingFrequency": 500,
+    "PowerLineFrequency": 60,
+    "EEGReference": "Cz",
+    "EEGChannelCount": 4,
+    "RecordingType": "continuous",
+    "RecordingDuration": 205.624,
+    "SoftwareFilters": "n/a"
+}

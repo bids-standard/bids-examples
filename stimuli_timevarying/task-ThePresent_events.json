@@ -1,0 +1,17 @@
+{
+    "trial_type": {
+        "Description": "Phase of the recording.",
+        "Levels": {
+            "fixation": "Fixation cross before the film",
+            "movie": "Presentation of the film"
+        },
+        "HED": {
+            "fixation": "Sensory-event, Visual-presentation, Cross",
+            "movie": "Sensory-event, Experimental-stimulus, Visual-presentation, Auditory-presentation, Movie"
+        }
+    },
+    "stim_id": {
+        "LongName": "Stimulus identifier",
+        "Description": "Identifier of the presented stimulus, of the form stim-<label>. It resolves to the stimulus files, metadata and annotations with that label under the /stimuli directory."
+    }
+}

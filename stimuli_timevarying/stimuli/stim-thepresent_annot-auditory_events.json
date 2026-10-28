@@ -1,0 +1,26 @@
+{
+    "mother_voice": {
+        "Description": "Utterance of the mother character.",
+        "HED": "Label/mother_voice, (Sensory-event, Auditory-presentation, ((Human-agent, Female), Speak, Description/#))"
+    },
+    "boy_voice": {
+        "Description": "Utterance of the boy character.",
+        "HED": "Label/boy_voice, (Sensory-event, Auditory-presentation, ((Human-agent, Male), Speak, Description/#))"
+    },
+    "dog_voice": {
+        "Description": "Vocalization of the dog character.",
+        "HED": "Label/dog_voice, (Sensory-event, Auditory-presentation, (Animal-agent, Barking, Description/#))"
+    },
+    "foley_sound": {
+        "Description": "Sound effect synchronized with an action in the film.",
+        "HED": "Label/foley_sound, (Sensory-event, Auditory-presentation, (Named-object-sound, Description/#))"
+    },
+    "game_sound": {
+        "Description": "Sound from the video game the boy is playing.",
+        "HED": "Label/game_sound, (Sensory-event, Auditory-presentation, (Environmental-sound, Description/#))"
+    },
+    "game_voice": {
+        "Description": "Speech from the video game the boy is playing.",
+        "HED": "Label/game_voice, (Sensory-event, Auditory-presentation, (Software-agent, Speak, Description/#))"
+    }
+}
