@@ -7,8 +7,8 @@ stimulus files, referenced from a behavioral events file.
 ## What this dataset demonstrates
 
 - stimuli/stimuli.tsv and stimuli/stimuli.json: the dataset-wide stimulus
-  catalog with the required stimulus_id column, the recommended type column,
-  and the optional filename column.
+  catalog with the required stimulus_id, type, license and present columns,
+  the recommended description column, and the optional filename column.
 - stim-<label>_<suffix>.<extension> naming for stimulus files: an image
   (stim-face01_image.png) and an audio file (stim-tone01_audio.wav).
 - One JSON sidecar per stimulus file carrying the media metadata (ImageWidth,
@@ -22,6 +22,6 @@ stimulus files, referenced from a behavioral events file.
 The PNG is a 1x1 pixel image and the WAV holds 10 ms of silence; both are
 valid files so that tools can read their headers.
 
-See the other two BEP044 examples for subdirectories and scoped catalogs
-(stimuli_hierarchical) and for time-varying stimuli with annotation tables
+See the other two BEP044 examples for subject-specific stimulus files
+(stimuli_subject) and for time-varying stimuli with annotation tables
 (stimuli_timevarying).

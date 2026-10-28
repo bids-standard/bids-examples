@@ -5,10 +5,13 @@
     "type": {
         "Description": "Type of the stimulus, matching the suffix of the stimulus file."
     },
-    "filename": {
-        "Description": "Path of the stimulus file relative to the /stimuli directory."
+    "license": {
+        "Description": "License under which the stimulus file is distributed."
     },
     "description": {
         "Description": "Free-form description of the stimulus."
+    },
+    "filename": {
+        "Description": "Path of the stimulus file relative to the /stimuli directory."
     }
 }
