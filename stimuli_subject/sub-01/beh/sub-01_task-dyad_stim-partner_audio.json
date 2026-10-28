@@ -1,0 +1,9 @@
+{
+    "TaskName": "dyad",
+    "AudioCodec": "pcm_s16le",
+    "AudioSampleRate": 8000,
+    "AudioChannelCount": 1,
+    "AudioBitDepth": 16,
+    "RecordingDuration": 0.01,
+    "Description": "Speech of the partner (sub-02) as played to sub-01 during the dyadic task. Placeholder: 10 ms of silence."
+}

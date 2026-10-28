@@ -1,0 +1,7 @@
+{
+    "TaskName": "watch",
+    "stim_id": {
+        "LongName": "Stimulus identifier",
+        "Description": "Identifier of the presented stimulus, of the form stim-<label>. It resolves to the stimulus in /stimuli and to the capture of its presentation next to this events file."
+    }
+}

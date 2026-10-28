@@ -108,4 +108,5 @@ eyetracking_fmri				anat, fmap, func	T1w, T2w, bold, epi, events, fieldmap, magn
 atlas-suit				n/a	T1w
 atlas-Juelich				n/a	n/a
 stimuli_basic	BEP044 (Stim-BIDS) minimal example: a flat /stimuli directory with a stimulus catalog, image and audio stimuli, and events referencing stimuli through stim_id	n/a	@neuromechanist	beh, stimuli	audio, events, image
+stimuli_subject	BEP044 (Stim-BIDS) example with subject-specific stimulus files: a partner's speech in a dyadic task and a screen capture of a shared stimulus linked to /stimuli with Sources	n/a	@neuromechanist	beh, stimuli	audio, events, video
 stimuli_timevarying	BEP044 (Stim-BIDS) example with film stimuli referenced from EEG, three annotation event tables for one stimulus, and a stimulus split with the part entity	n/a	@neuromechanist	eeg, stimuli	audiovideo, channels, eeg, events

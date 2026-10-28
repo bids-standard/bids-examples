@@ -1,0 +1,12 @@
+{
+    "TaskName": "watch",
+    "Sources": [
+        "bids::stimuli/stim-clip01_video.mp4"
+    ],
+    "VideoCodec": "h264",
+    "VideoFrameRate": 60,
+    "VideoFrameCount": 600,
+    "ImageWidth": 1920,
+    "ImageHeight": 1080,
+    "RecordingDuration": 10.0
+}
