@@ -1,0 +1,10 @@
+# Licensing and copyright information for this dataset,
+# following the REUSE specification: https://reuse.software/spec/
+# The full texts of the licenses referenced here are in the LICENSES/ directory.
+version = 1
+
+# Data, metadata, stimuli, and code: everything in this dataset
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2018-2023 Stefan Appelhoff, Daryl Sauer, and Suleman Samuel Gill"
+SPDX-License-Identifier = "PDDL-1.0"
