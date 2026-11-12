@@ -26,7 +26,10 @@ The `eeg_matchingpennies` dataset is made available under the Public Domain Dedi
 
 Copyright (c) 2018-2023, Stefan Appelhoff, Daryl Sauer, and Suleman Samuel Gill
 
-See the `LICENSE` file.
+Licensing and copyright information is provided in machine-readable form
+in the `REUSE.toml` file, following the [REUSE specification](https://reuse.software/spec/),
+and the `"License"` field of `dataset_description.json` points to that file.
+See the `LICENSES/PDDL-1.0.txt` file for the full text of the license.
 A human readable information can be found at:
 
 https://opendatacommons.org/licenses/pddl/1-0/

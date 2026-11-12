@@ -1,3 +1,8 @@
+0.3.2 2026-11-12
+    - Adopted the REUSE specification (https://reuse.software) for licensing information:
+      added REUSE.toml, moved LICENSE to LICENSES/PDDL-1.0.txt,
+      and set "License" in dataset_description.json to "REUSE.toml"
+
 0.3.1 2023-04-11
     - Bumped BIDSVersion field in dataset_description.json to 1.8.0
     - Clarified 1-based indexing in documentation of "sample" column in task-matchingpennies_events.json file
